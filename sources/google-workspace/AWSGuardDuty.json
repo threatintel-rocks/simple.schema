@@ -1,6 +1,0 @@
-{
-  "AWSGuardDuty": {
-    "source": "Google Workspace",
-    "columns": []
-  }
-}

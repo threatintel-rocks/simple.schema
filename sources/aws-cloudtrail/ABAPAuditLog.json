@@ -1,6 +1,0 @@
-{
-  "ABAPAuditLog": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

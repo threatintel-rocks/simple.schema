@@ -1,6 +1,0 @@
-{
-  "NetworkAccessTraffic": {
-    "source": "SentinelOne",
-    "columns": []
-  }
-}

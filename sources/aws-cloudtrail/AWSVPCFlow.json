@@ -1,6 +1,0 @@
-{
-  "AWSVPCFlow": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

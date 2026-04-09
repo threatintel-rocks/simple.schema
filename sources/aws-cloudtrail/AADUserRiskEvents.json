@@ -1,6 +1,0 @@
-{
-  "AADUserRiskEvents": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

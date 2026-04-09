@@ -1,6 +1,0 @@
-{
-  "DnsEvents": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

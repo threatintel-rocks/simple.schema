@@ -1,6 +1,0 @@
-{
-  "CommonSecurityLog": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

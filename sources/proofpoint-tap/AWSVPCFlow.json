@@ -1,6 +1,0 @@
-{
-  "AWSVPCFlow": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

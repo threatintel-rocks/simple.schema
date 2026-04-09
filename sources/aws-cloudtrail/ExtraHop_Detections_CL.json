@@ -1,6 +1,0 @@
-{
-  "ExtraHop_Detections_CL": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "AZFWApplicationRule": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

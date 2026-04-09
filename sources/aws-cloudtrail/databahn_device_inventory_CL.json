@@ -1,6 +1,0 @@
-{
-  "databahn_device_inventory_CL": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

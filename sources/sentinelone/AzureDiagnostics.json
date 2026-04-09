@@ -1,6 +1,0 @@
-{
-  "AzureDiagnostics": {
-    "source": "SentinelOne",
-    "columns": []
-  }
-}

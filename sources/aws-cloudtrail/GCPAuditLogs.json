@@ -1,6 +1,0 @@
-{
-  "GCPAuditLogs": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

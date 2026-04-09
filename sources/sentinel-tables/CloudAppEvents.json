@@ -1,0 +1,212 @@
+{
+  "CloudAppEvents": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "AccountDisplayName",
+        "type": "string",
+        "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user."
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "An identifier for the account as found by Microsoft Cloud App Security. Could be Azure Active Directory ID, user principal name, or other identifiers"
+      },
+      {
+        "name": "AccountObjectId",
+        "type": "string",
+        "description": "Unique identifier for the account in Azure AD"
+      },
+      {
+        "name": "AccountType",
+        "type": "string",
+        "description": "Type of user account, indicating its general role and access levels, such as Regular, System, Admin, Application"
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Type of activity that triggered the event"
+      },
+      {
+        "name": "ActivityObjects",
+        "type": "dynamic",
+        "description": "List of objects, such as files or folders, that were involved in the recorded activity"
+      },
+      {
+        "name": "ActivityType",
+        "type": "string",
+        "description": "Type of activity that triggered the event"
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the entity or event"
+      },
+      {
+        "name": "AppInstanceId",
+        "type": "int",
+        "description": "Unique identifier for the instance of an application"
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "Application that performed the recorded action"
+      },
+      {
+        "name": "ApplicationId",
+        "type": "int",
+        "description": "Unique identifier for the application"
+      },
+      {
+        "name": "AuditSource",
+        "type": "string",
+        "description": "Cloud enviorment source of the cloud audit event. Cloud be Azure, AWS, GCP, AliCloud or other"
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes"
+      },
+      {
+        "name": "City",
+        "type": "string",
+        "description": "City where the client IP address is geolocated"
+      },
+      {
+        "name": "CountryCode",
+        "type": "string",
+        "description": "Two-letter code indicating the country where the client IP address is geolocated"
+      },
+      {
+        "name": "DeviceType",
+        "type": "string",
+        "description": "Type of device based on purpose and functionality, such as network device, workstation, server, mobile, gaming console, or printer"
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "IP address assigned to the device during communication"
+      },
+      {
+        "name": "IPCategory",
+        "type": "string",
+        "description": "Additional information about the IP address"
+      },
+      {
+        "name": "IPTags",
+        "type": "dynamic",
+        "description": "Customer-defined information applied to specific IP addresses and IP address ranges"
+      },
+      {
+        "name": "IsAdminOperation",
+        "type": "bool",
+        "description": "Indicates whether the activity was performed by an administrator"
+      },
+      {
+        "name": "IsAnonymousProxy",
+        "type": "bool",
+        "description": "Indicates whether the IP address belongs to a known anonymous proxy"
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+      },
+      {
+        "name": "IsExternalUser",
+        "type": "bool",
+        "description": "Indicates whether a user inside the network doesn't belong to the organization's domain"
+      },
+      {
+        "name": "IsImpersonated",
+        "type": "bool",
+        "description": "Indicates whether the activity was performed by one user for another (impersonated) user"
+      },
+      {
+        "name": "ISP",
+        "type": "string",
+        "description": "Internet service provider associated with the IP address"
+      },
+      {
+        "name": "LastSeenForUser",
+        "type": "dynamic",
+        "description": "Number of days since each statistical feature for the user was last seen"
+      },
+      {
+        "name": "OAuthAppId",
+        "type": "string",
+        "description": "A unique identifier that's assigned to an application when it's registered to Entra with OAuth 2.0."
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "Unique identifier of the object that the recorded action was applied to"
+      },
+      {
+        "name": "ObjectName",
+        "type": "string",
+        "description": "Name of the object that the recorded action was applied to"
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "The type of object, such as a file or a folder, that the recorded action was applied to"
+      },
+      {
+        "name": "OSPlatform",
+        "type": "string",
+        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7"
+      },
+      {
+        "name": "RawEventData",
+        "type": "dynamic",
+        "description": "Raw event information from the source application or service in JSON format"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event"
+      },
+      {
+        "name": "SessionData",
+        "type": "dynamic",
+        "description": "Session identifiers (if provided by the audit source)"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the record was generated"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table"
+      },
+      {
+        "name": "UncommonForUser",
+        "type": "dynamic",
+        "description": "List of features observed to be statistically uncommon for the user that performed the activity"
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "User agent information from the web browser or other client application"
+      },
+      {
+        "name": "UserAgentTags",
+        "type": "dynamic",
+        "description": "More information provided by Microsoft Defender for Cloud Apps in a tag in the user agent field. Can have any of the following values: Native client, Outdated browser, Outdated operating system, Robot"
+      }
+    ]
+  }
+}

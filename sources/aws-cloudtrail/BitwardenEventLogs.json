@@ -1,6 +1,0 @@
-{
-  "BitwardenEventLogs": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

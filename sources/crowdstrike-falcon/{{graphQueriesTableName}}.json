@@ -1,6 +1,0 @@
-{
-  "{{graphQueriesTableName}}": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "GCPNATAudit": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

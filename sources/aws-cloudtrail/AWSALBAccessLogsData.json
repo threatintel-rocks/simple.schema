@@ -1,6 +1,0 @@
-{
-  "AWSALBAccessLogsData": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

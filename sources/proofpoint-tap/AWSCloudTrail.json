@@ -1,6 +1,0 @@
-{
-  "AWSCloudTrail": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

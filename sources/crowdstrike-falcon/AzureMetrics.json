@@ -1,6 +1,0 @@
-{
-  "AzureMetrics": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "GKEAudit": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

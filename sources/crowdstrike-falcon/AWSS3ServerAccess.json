@@ -1,6 +1,0 @@
-{
-  "AWSS3ServerAccess": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

@@ -1,0 +1,282 @@
+{
+  "EmailEvents": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the entity or event."
+      },
+      {
+        "name": "AttachmentCount",
+        "type": "int",
+        "description": "Number of attachments in the email."
+      },
+      {
+        "name": "AuthenticationDetails",
+        "type": "string",
+        "description": "List of pass or fail verdicts by email authentication protocols like DMARC, DKIM, SPF or a combination of multiple authentication types (CompAuth)."
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes"
+      },
+      {
+        "name": "BulkComplaintLevel",
+        "type": "int",
+        "description": "Threshold assigned to email from bulk mailers, a high bulk complaint level (BCL) means the email is more likely to generate complaints, and thus more likely to be spam."
+      },
+      {
+        "name": "Cc",
+        "type": "dynamic",
+        "description": "Indicates the addresses which are listed in Cc fields of an email"
+      },
+      {
+        "name": "ConfidenceLevel",
+        "type": "string",
+        "description": "List of confidence levels of any spam or phishing verdicts. For spam, this column shows the spam confidence level (SCL), indicating if the email was skipped (-1), found to be not spam (0,1), found to be spam with moderate confidence (5,6), or found to be spam with high confidence (9). For phishing, this column displays whether the confidence level is \"High\" or \"Low\"."
+      },
+      {
+        "name": "Connectors",
+        "type": "string",
+        "description": "Custom instructions that define organizational mail flow and how the email was routed."
+      },
+      {
+        "name": "Context",
+        "type": "string",
+        "description": "Configuration context data of the machine"
+      },
+      {
+        "name": "DeliveryAction",
+        "type": "string",
+        "description": "Action of the delivered email."
+      },
+      {
+        "name": "DeliveryLocation",
+        "type": "string",
+        "description": "Location of the delivered email: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items."
+      },
+      {
+        "name": "DetectionMethods",
+        "type": "string",
+        "description": "Delivery action of the email: Delivered, Junked, Blocked, or Replaced."
+      },
+      {
+        "name": "DistributionList",
+        "type": "string",
+        "description": "Name of distribution list that the recipient was a member of and to which the email was sent, if applicable; shows top-level distribution list if nested lists are involved"
+      },
+      {
+        "name": "EmailAction",
+        "type": "string",
+        "description": "Final action taken on the email based on filter verdict, policies, and user actions: Move message to junk mail folder, Add X-header, Modify subject, Redirect message, Delete message, send to quarantine, No action taken, Bcc message."
+      },
+      {
+        "name": "EmailActionPolicy",
+        "type": "string",
+        "description": "Action policy that took effect: Antispam high-confidence, Antispam, Antispam bulk mail, Antispam phishing, Anti-phishing domain impersonation, Anti-phishing user impersonation, Anti-phishing spoof, Anti-phishing graph impersonation, Antimalware Safe Attachments, Enterprise Transport Rules (ETR)."
+      },
+      {
+        "name": "EmailActionPolicyGuid",
+        "type": "string",
+        "description": "Unique identifier of the policy that took effect."
+      },
+      {
+        "name": "EmailClusterId",
+        "type": "long",
+        "description": "Identifier of the email cluster. Emails are clustered (grouped) based on heuristic analysis of their contents."
+      },
+      {
+        "name": "EmailDirection",
+        "type": "string",
+        "description": "Email direction: Inbound, Outbound, Intra-org."
+      },
+      {
+        "name": "EmailLanguage",
+        "type": "string",
+        "description": "Detected language of the email content."
+      },
+      {
+        "name": "EmailSize",
+        "type": "int",
+        "description": "Size of the email message."
+      },
+      {
+        "name": "ExchangeTransportRule",
+        "type": "string",
+        "description": "Mail flow rules (also known as transport rules) are similar to Inbox rules that are available in Outlook and Outlook on the web. The main difference is mail flow rules take action on messages while they're in transit."
+      },
+      {
+        "name": "ForwardingInformation",
+        "type": "string",
+        "description": "A JSON array of forwarding details including the forwarding user and the forwarding type"
+      },
+      {
+        "name": "InternetMessageId",
+        "type": "string",
+        "description": "Public-facing identifier for the email that is set by the sending email system."
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+      },
+      {
+        "name": "IsFirstContact",
+        "type": "bool",
+        "description": "Is this the first contact between sender and reciever."
+      },
+      {
+        "name": "LastEventExecutionTime",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the record was updated post merge."
+      },
+      {
+        "name": "LatestDeliveryAction",
+        "type": "string",
+        "description": "Last known action attempted on an email by the service or by an admin through manual remediation."
+      },
+      {
+        "name": "LatestDeliveryLocation",
+        "type": "string",
+        "description": "Last known location of the email."
+      },
+      {
+        "name": "NetworkMessageId",
+        "type": "string",
+        "description": "Unique identifier for the email, generated by Office 365."
+      },
+      {
+        "name": "OrgLevelAction",
+        "type": "string",
+        "description": "Action taken on the email in response to matches to a policy defined at the organizational level."
+      },
+      {
+        "name": "OrgLevelPolicy",
+        "type": "string",
+        "description": "Organizational policy that triggered the action taken on the email."
+      },
+      {
+        "name": "RecipientDomain",
+        "type": "string",
+        "description": "Domain of the recipient of the email."
+      },
+      {
+        "name": "RecipientEmailAddress",
+        "type": "string",
+        "description": "Recipient email address or email address of the recipient after distribution list expansion."
+      },
+      {
+        "name": "RecipientObjectId",
+        "type": "string",
+        "description": "Email recipient Azure AD identifier."
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event."
+      },
+      {
+        "name": "SenderDisplayName",
+        "type": "string",
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+      },
+      {
+        "name": "SenderFromAddress",
+        "type": "string",
+        "description": "Sender domain in the from header, which is visible to email recipients on their email clients."
+      },
+      {
+        "name": "SenderFromDomain",
+        "type": "string",
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats."
+      },
+      {
+        "name": "SenderIPv4",
+        "type": "string",
+        "description": "IPv4 address of the last detected mail server that relayed the message."
+      },
+      {
+        "name": "SenderIPv6",
+        "type": "string",
+        "description": "IPv6 address of the last detected mail server that relayed the message."
+      },
+      {
+        "name": "SenderMailFromAddress",
+        "type": "string",
+        "description": "Sender email address in the MAIL from header, also known as the envelope sender or the Return-Path address."
+      },
+      {
+        "name": "SenderMailFromDomain",
+        "type": "string",
+        "description": "Sender domain in the MAIL from header, also known as the envelope sender or the Return-Path address."
+      },
+      {
+        "name": "SenderObjectId",
+        "type": "string",
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject field."
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID"
+      },
+      {
+        "name": "ThreatClassification",
+        "type": "string",
+        "description": "Indicates the threat classification of the mail"
+      },
+      {
+        "name": "ThreatNames",
+        "type": "string",
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+      },
+      {
+        "name": "ThreatTypes",
+        "type": "string",
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats."
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the record was generated."
+      },
+      {
+        "name": "To",
+        "type": "dynamic",
+        "description": "Indicates the addresses which are listed in To fields of an email"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table"
+      },
+      {
+        "name": "UrlCount",
+        "type": "int",
+        "description": "Number of embedded URLs in the email."
+      },
+      {
+        "name": "UserLevelAction",
+        "type": "string",
+        "description": "Action taken on the email in response to matches to a mailbox policy defined by the recipient."
+      },
+      {
+        "name": "UserLevelPolicy",
+        "type": "string",
+        "description": "End user mailbox policy that triggered the action taken on the email."
+      }
+    ]
+  }
+}

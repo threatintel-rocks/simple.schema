@@ -1,6 +1,0 @@
-{
-  "AZFWNatRule": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "AzureDiagnostics": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

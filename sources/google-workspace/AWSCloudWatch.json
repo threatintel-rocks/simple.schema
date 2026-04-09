@@ -1,6 +1,0 @@
-{
-  "AWSCloudWatch": {
-    "source": "Google Workspace",
-    "columns": []
-  }
-}

@@ -1,0 +1,172 @@
+{
+  "IdentityLogonEvents": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "AccountDisplayName",
+        "type": "string",
+        "description": "Name of the account user displayed in the address book"
+      },
+      {
+        "name": "AccountDomain",
+        "type": "string",
+        "description": "Domain of the account"
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "User name of the account"
+      },
+      {
+        "name": "AccountObjectId",
+        "type": "string",
+        "description": "Unique identifier for the account in Azure AD"
+      },
+      {
+        "name": "AccountSid",
+        "type": "string",
+        "description": "Security Identifier (SID) of the account"
+      },
+      {
+        "name": "AccountUpn",
+        "type": "string",
+        "description": "User principal name (UPN) of the account"
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Type of activity that triggered the event"
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the entity or event"
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "Application that performed the recorded action"
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes"
+      },
+      {
+        "name": "DestinationDeviceName",
+        "type": "string",
+        "description": "Name of the device running the server application that processed the recorded action"
+      },
+      {
+        "name": "DestinationIPAddress",
+        "type": "string",
+        "description": "IP address of the device running the server application that processed the recorded action"
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "Destination port of related network communications"
+      },
+      {
+        "name": "DeviceName",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the device"
+      },
+      {
+        "name": "DeviceType",
+        "type": "string",
+        "description": "Type of device"
+      },
+      {
+        "name": "FailureReason",
+        "type": "string",
+        "description": "Information explaining why the recorded action failed"
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "IP address assigned to the endpoint and used during related network communications"
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+      },
+      {
+        "name": "ISP",
+        "type": "string",
+        "description": "Internet service provider (ISP) associated with the endpoint IP address"
+      },
+      {
+        "name": "LastSeenForUser",
+        "type": "dynamic",
+        "description": "Number of days since each statistical feature for the user was last seen"
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "City, country, or other geographic location associated with the event"
+      },
+      {
+        "name": "LogonType",
+        "type": "string",
+        "description": "Type of logon session"
+      },
+      {
+        "name": "OSPlatform",
+        "type": "string",
+        "description": "Platform of the operating system running on the machine"
+      },
+      {
+        "name": "Port",
+        "type": "string",
+        "description": "TCP port used during communication"
+      },
+      {
+        "name": "Protocol",
+        "type": "string",
+        "description": "Network protocol used"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+      },
+      {
+        "name": "TargetAccountDisplayName",
+        "type": "string",
+        "description": "Display name of the account that the recorded action was applied to"
+      },
+      {
+        "name": "TargetDeviceName",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the device that the recorded action was applied to"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the record was generated"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table"
+      },
+      {
+        "name": "UncommonForUser",
+        "type": "dynamic",
+        "description": "List of features observed to be statistically uncommon for the user that performed the activity"
+      }
+    ]
+  }
+}

@@ -1,6 +1,0 @@
-{
-  "ImpervaWAFCloud": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

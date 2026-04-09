@@ -1,6 +1,0 @@
-{
-  "AWSCloudTrail": {
-    "source": "Cisco ASA/FTD",
-    "columns": []
-  }
-}

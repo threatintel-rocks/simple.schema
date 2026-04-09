@@ -1,6 +1,0 @@
-{
-  "CommonSecurityLog": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

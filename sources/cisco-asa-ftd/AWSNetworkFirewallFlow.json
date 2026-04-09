@@ -1,6 +1,0 @@
-{
-  "AWSNetworkFirewallFlow": {
-    "source": "Cisco ASA/FTD",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "AWSNetworkFirewallFlow": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

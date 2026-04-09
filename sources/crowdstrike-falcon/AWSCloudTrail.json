@@ -1,6 +1,0 @@
-{
-  "AWSCloudTrail": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

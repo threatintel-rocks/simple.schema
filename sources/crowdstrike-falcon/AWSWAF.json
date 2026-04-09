@@ -1,6 +1,0 @@
-{
-  "AWSWAF": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

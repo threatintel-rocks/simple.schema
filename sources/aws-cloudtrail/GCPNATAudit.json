@@ -1,6 +1,0 @@
-{
-  "GCPNATAudit": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

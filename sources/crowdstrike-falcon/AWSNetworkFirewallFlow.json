@@ -1,6 +1,0 @@
-{
-  "AWSNetworkFirewallFlow": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

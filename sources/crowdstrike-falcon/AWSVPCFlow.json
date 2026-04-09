@@ -1,6 +1,0 @@
-{
-  "AWSVPCFlow": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

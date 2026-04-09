@@ -1,6 +1,0 @@
-{
-  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
-    "source": "Google Workspace",
-    "columns": []
-  }
-}

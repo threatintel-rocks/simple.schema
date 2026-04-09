@@ -1,6 +1,0 @@
-{
-  "EmailEvents": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

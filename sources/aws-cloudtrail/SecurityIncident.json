@@ -1,6 +1,0 @@
-{
-  "SecurityIncident": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

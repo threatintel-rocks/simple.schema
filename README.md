@@ -75,33 +75,34 @@ for col in table["columns"][:5]:
 
 ## Sources
 
-### Microsoft Native
+| Source | Tables | With Columns | Description |
+|--------|--------|-------------|-------------|
+| Sentinel Tables | ~507 | ~95 standard + ~413 custom (_CL) | All Sentinel connector tables; standard tables have full column schemas from Azure Monitor reference |
+| Defender XDR Advanced Hunting Schema | 63 | 63 | Full column schemas from Microsoft Defender XDR documentation |
 
-| Source | Description |
-|--------|-------------|
-| Sentinel Data Source Schema Reference | Core Sentinel tables (AuditLogs, AzureActivity, Syslog, etc.) |
-| Defender XDR Advanced Hunting Schema | 63 tables for endpoint, email, identity, and cloud hunting |
-| CommonSecurityLog (CEF) | Common Event Format table used by security appliances |
-| Syslog | Linux agent and network appliance syslog events |
+**Note:** Custom log tables (`_CL` suffix) are vendor-specific and their schemas vary per deployment. They are included as metadata (table name + source) but without column definitions. Standard Sentinel tables have full column schemas fetched from Azure Monitor reference pages.
 
-### 3rd-Party (via Sentinel connectors)
+## AI Agent Integration
 
-| Source | Sentinel Table |
-|--------|---------------|
-| Fortinet FortiGate | CommonSecurityLog |
-| Palo Alto Networks PAN-OS | CommonSecurityLog |
-| Check Point | CommonSecurityLog |
-| Cisco ASA/FTD | CommonSecurityLog |
-| CrowdStrike Falcon | CrowdStrike_CL |
-| Sophos Endpoint Protection | SophosXGFirewall_CL |
-| SentinelOne | SentinelOne_CL |
-| Zscaler Internet Access | CommonSecurityLog |
-| F5 BIG-IP | F5Telemetry_CL |
-| Trend Micro Vision One | TrendMicro_XDR_CL |
-| Okta Single Sign-On | Okta_CL |
-| Proofpoint TAP | ProofpointTAP_CL |
-| AWS CloudTrail | AWSCloudTrail |
-| Google Workspace | GWorkspace_ReportsAPI_admin_CL |
+This schema repository is designed to be used as **guardrails for AI agents** that generate KQL (Kusto Query Language) queries for Microsoft Sentinel and Defender XDR. By validating generated queries against these schemas, you can reduce query hallucination.
+
+**Validate a table exists:**
+```python
+schema = requests.get("https://raw.githubusercontent.com/threatintel-rocks/simple.schema/main/latest_schemas.json").json()
+table = "DeviceProcessEvents"
+if table not in schema:
+    print(f"Table '{table}' does not exist")
+```
+
+**Validate columns in a query:**
+```python
+table_data = schema.get("DeviceProcessEvents", {})
+valid_columns = {col["name"] for col in table_data.get("columns", [])}
+query_columns = ["Timestamp", "DeviceName", "FileName", "NonExistentColumn"]
+for col in query_columns:
+    if col not in valid_columns:
+        print(f"Column '{col}' does not exist in DeviceProcessEvents")
+```
 
 ## How It Works
 

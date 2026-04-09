@@ -1,6 +1,0 @@
-{
-  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
-    "source": "Trend Micro Vision One",
-    "columns": []
-  }
-}

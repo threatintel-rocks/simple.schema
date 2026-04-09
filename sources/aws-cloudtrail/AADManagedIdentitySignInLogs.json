@@ -1,6 +1,0 @@
-{
-  "AADManagedIdentitySignInLogs": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

@@ -1,6 +1,137 @@
 {
   "IdentityLogonEvents": {
-    "source": "Google Workspace",
-    "columns": []
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the event was recorded"
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Type of activity that triggered the event. See the [in-portal schema reference](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) for details"
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "Application that performed the recorded action"
+      },
+      {
+        "name": "LogonType",
+        "type": "string",
+        "description": "Type of logon session. For more information, see [Supported logon types](#supported-logon-types)."
+      },
+      {
+        "name": "Protocol",
+        "type": "string",
+        "description": "Network protocol used"
+      },
+      {
+        "name": "FailureReason",
+        "type": "string",
+        "description": "Information explaining why the recorded action failed"
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "User name of the account"
+      },
+      {
+        "name": "AccountDomain",
+        "type": "string",
+        "description": "Domain of the account"
+      },
+      {
+        "name": "AccountUpn",
+        "type": "string",
+        "description": "User principal name (UPN) of the account"
+      },
+      {
+        "name": "AccountSid",
+        "type": "string",
+        "description": "Security Identifier (SID) of the account"
+      },
+      {
+        "name": "AccountObjectId",
+        "type": "string",
+        "description": "Unique identifier for the account in Microsoft Entra ID"
+      },
+      {
+        "name": "AccountDisplayName",
+        "type": "string",
+        "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname."
+      },
+      {
+        "name": "DeviceName",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the device"
+      },
+      {
+        "name": "DeviceType",
+        "type": "string",
+        "description": "Type of device based on purpose and functionality, such as network device, workstation, server, mobile, gaming console, or printer"
+      },
+      {
+        "name": "OSPlatform",
+        "type": "string",
+        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7."
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "IP address assigned to the endpoint and used during related network communications"
+      },
+      {
+        "name": "Port",
+        "type": "int",
+        "description": "TCP port used during communication"
+      },
+      {
+        "name": "DestinationDeviceName",
+        "type": "string",
+        "description": "Name of the device running the server application that processed the recorded action"
+      },
+      {
+        "name": "DestinationIPAddress",
+        "type": "string",
+        "description": "IP address of the device running the server application that processed the recorded action"
+      },
+      {
+        "name": "DestinationPort",
+        "type": "int",
+        "description": "Destination port of related network communications"
+      },
+      {
+        "name": "TargetDeviceName",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the device that the recorded action was applied to"
+      },
+      {
+        "name": "TargetAccountDisplayName",
+        "type": "string",
+        "description": "Display name of the account that the recorded action was applied to"
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "City, country/region, or other geographic location associated with the event"
+      },
+      {
+        "name": "Isp",
+        "type": "string",
+        "description": "Internet service provider (ISP) associated with the endpoint IP address"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event"
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the entity or event"
+      }
+    ]
   }
 }

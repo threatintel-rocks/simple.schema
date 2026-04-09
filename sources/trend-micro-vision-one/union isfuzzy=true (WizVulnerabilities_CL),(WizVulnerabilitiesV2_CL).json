@@ -1,6 +1,0 @@
-{
-  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
-    "source": "Trend Micro Vision One",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "NetworkAccessTraffic": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "AWSGuardDuty": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

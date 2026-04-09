@@ -1,6 +1,0 @@
-{
-  "AWSWAF": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

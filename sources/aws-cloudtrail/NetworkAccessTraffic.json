@@ -1,6 +1,0 @@
-{
-  "NetworkAccessTraffic": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "AZFWThreatIntel": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

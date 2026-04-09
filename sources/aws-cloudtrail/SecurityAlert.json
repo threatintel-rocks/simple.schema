@@ -1,6 +1,0 @@
-{
-  "SecurityAlert": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

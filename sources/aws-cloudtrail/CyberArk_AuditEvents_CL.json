@@ -1,6 +1,0 @@
-{
-  "CyberArk_AuditEvents_CL": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

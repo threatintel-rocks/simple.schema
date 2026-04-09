@@ -1,6 +1,0 @@
-{
-  "AWSVPCFlow": {
-    "source": "SentinelOne",
-    "columns": []
-  }
-}

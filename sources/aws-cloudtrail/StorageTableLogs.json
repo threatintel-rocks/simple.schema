@@ -1,6 +1,0 @@
-{
-  "StorageTableLogs": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

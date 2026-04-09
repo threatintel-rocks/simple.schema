@@ -1,6 +1,0 @@
-{
-  "DnsInventory": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

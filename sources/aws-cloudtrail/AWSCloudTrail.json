@@ -1,6 +1,0 @@
-{
-  "AWSCloudTrail": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

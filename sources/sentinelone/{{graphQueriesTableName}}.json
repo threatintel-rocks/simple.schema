@@ -1,6 +1,0 @@
-{
-  "{{graphQueriesTableName}}": {
-    "source": "SentinelOne",
-    "columns": []
-  }
-}

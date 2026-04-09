@@ -1,6 +1,0 @@
-{
-  "StorageBlobLogs": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

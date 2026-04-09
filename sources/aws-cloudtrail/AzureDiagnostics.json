@@ -1,6 +1,0 @@
-{
-  "AzureDiagnostics": {
-    "source": "AWS CloudTrail",
-    "columns": []
-  }
-}

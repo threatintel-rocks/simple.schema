@@ -1,6 +1,0 @@
-{
-  "CloudGuard_SecurityEvents_CL": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}

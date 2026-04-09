@@ -1,6 +1,0 @@
-{
-  "Syslog": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

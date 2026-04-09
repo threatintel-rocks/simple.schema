@@ -1,6 +1,0 @@
-{
-  "AWSGuardDuty": {
-    "source": "SentinelOne",
-    "columns": []
-  }
-}

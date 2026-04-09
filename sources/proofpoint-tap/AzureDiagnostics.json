@@ -1,6 +1,0 @@
-{
-  "AzureDiagnostics": {
-    "source": "Proofpoint TAP",
-    "columns": []
-  }
-}

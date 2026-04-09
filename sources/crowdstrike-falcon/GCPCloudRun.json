@@ -1,6 +1,0 @@
-{
-  "GCPCloudRun": {
-    "source": "CrowdStrike Falcon",
-    "columns": []
-  }
-}
