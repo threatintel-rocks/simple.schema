@@ -1,0 +1,6 @@
+{
+  "Infoblox_Failed_Indicators_CL": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

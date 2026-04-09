@@ -1,0 +1,6 @@
+{
+  "Cohesity_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

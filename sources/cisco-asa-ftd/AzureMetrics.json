@@ -1,0 +1,6 @@
+{
+  "AzureMetrics": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

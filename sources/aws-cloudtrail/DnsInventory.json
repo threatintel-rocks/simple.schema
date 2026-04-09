@@ -1,0 +1,6 @@
+{
+  "DnsInventory": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

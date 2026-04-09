@@ -1,0 +1,6 @@
+{
+  "Syslog": {
+    "source": "Google Workspace",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AWSS3ServerAccess": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  }
+}

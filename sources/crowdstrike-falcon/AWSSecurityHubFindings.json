@@ -1,0 +1,6 @@
+{
+  "AWSSecurityHubFindings": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

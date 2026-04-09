@@ -1,0 +1,6 @@
+{
+  "StorageQueueLogs": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

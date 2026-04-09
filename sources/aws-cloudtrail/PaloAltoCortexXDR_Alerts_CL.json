@@ -1,0 +1,6 @@
+{
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

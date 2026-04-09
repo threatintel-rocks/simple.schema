@@ -1,0 +1,118 @@
+{
+  "CloudDnsEvents": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the event was recorded"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event"
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Type of activity that triggered the event"
+      },
+      {
+        "name": "AzureResourceId",
+        "type": "string",
+        "description": "Unique identifier of the Azure resource associated with the process"
+      },
+      {
+        "name": "AwsResourceName",
+        "type": "string",
+        "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name"
+      },
+      {
+        "name": "GcpFullResourceName",
+        "type": "string",
+        "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP"
+      },
+      {
+        "name": "KubernetesResource",
+        "type": "string",
+        "description": "Unique identifier for the Kubernetes resource that includes the namespace, resource type and name"
+      },
+      {
+        "name": "KubernetesNamespace",
+        "type": "string",
+        "description": "The Kubernetes namespace name"
+      },
+      {
+        "name": "KubernetesPodName",
+        "type": "string",
+        "description": "The Kubernetes pod name"
+      },
+      {
+        "name": "ContainerName",
+        "type": "string",
+        "description": "Name of the container in Kubernetes or another runtime environment"
+      },
+      {
+        "name": "ContainerId",
+        "type": "string",
+        "description": "The container identifier in Kubernetes or another runtime environment"
+      },
+      {
+        "name": "ImageName",
+        "type": "string",
+        "description": "Container image name or ID"
+      },
+      {
+        "name": "ProcessName",
+        "type": "string",
+        "description": "The name of the process that initiated the DNS query"
+      },
+      {
+        "name": "ProcessId",
+        "type": "long",
+        "description": "Process ID that initiated the DNS query"
+      },
+      {
+        "name": "DnsEventType",
+        "type": "string",
+        "description": "Type of event associated with DNS operation (for example, query)"
+      },
+      {
+        "name": "DnsEventSubType",
+        "type": "string",
+        "description": "Either request or response"
+      },
+      {
+        "name": "DnsQuery",
+        "type": "string",
+        "description": "The domain that needs to be resolved"
+      },
+      {
+        "name": "DnsQueryTypeName",
+        "type": "string",
+        "description": "The DNS resource record type name as defined by the Internet Assigned Numbers Authority (IANA)"
+      },
+      {
+        "name": "DnsResponseCodeName",
+        "type": "string",
+        "description": "The DNS response code name as defined by the Internet Assigned Numbers Authority (IANA)."
+      },
+      {
+        "name": "DnsNetworkDuration",
+        "type": "long",
+        "description": "The DNS request duration in milliseconds"
+      },
+      {
+        "name": "TransactionIdHex",
+        "type": "string",
+        "description": "The DNS unique hex transaction ID"
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the entity or event"
+      }
+    ],
+    "preview": true
+  }
+}

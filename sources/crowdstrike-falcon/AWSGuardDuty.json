@@ -1,0 +1,6 @@
+{
+  "AWSGuardDuty": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

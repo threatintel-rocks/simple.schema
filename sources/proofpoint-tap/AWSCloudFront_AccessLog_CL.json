@@ -1,0 +1,6 @@
+{
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

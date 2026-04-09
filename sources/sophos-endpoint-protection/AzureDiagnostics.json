@@ -1,0 +1,6 @@
+{
+  "AzureDiagnostics": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

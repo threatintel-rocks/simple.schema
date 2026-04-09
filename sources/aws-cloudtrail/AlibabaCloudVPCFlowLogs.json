@@ -1,0 +1,6 @@
+{
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "ImpervaWAFCloud": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GCPMonitoring": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

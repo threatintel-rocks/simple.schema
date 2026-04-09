@@ -1,0 +1,6 @@
+{
+  "RSAIDPlus_AdminLogs_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

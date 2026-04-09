@@ -1,0 +1,6 @@
+{
+  "BeyondTrustPM_ClientEvents_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

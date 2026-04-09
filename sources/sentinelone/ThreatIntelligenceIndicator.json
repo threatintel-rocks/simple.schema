@@ -1,0 +1,6 @@
+{
+  "ThreatIntelligenceIndicator": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

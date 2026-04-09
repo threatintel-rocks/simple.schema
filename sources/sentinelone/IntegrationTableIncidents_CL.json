@@ -1,0 +1,6 @@
+{
+  "IntegrationTableIncidents_CL": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

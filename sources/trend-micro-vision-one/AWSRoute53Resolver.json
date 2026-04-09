@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  }
+}

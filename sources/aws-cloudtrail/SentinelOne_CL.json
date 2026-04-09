@@ -1,0 +1,6 @@
+{
+  "SentinelOne_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

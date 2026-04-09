@@ -1,0 +1,6 @@
+{
+  "jamfprotectunifiedlogs_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

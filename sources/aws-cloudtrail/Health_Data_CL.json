@@ -1,0 +1,6 @@
+{
+  "Health_Data_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

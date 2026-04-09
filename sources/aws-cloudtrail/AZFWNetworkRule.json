@@ -1,0 +1,6 @@
+{
+  "AZFWNetworkRule": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

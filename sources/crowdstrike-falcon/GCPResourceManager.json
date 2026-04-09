@@ -1,0 +1,6 @@
+{
+  "GCPResourceManager": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

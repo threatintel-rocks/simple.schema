@@ -1,0 +1,6 @@
+{
+  "MimecastSIEM_CL": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

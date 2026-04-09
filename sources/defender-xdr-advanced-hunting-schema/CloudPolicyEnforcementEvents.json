@@ -1,0 +1,78 @@
+{
+  "CloudPolicyEnforcementEvents": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the record was generated"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event"
+      },
+      {
+        "name": "DataSource",
+        "type": "string",
+        "description": "Data source of the cloud events; possible values: Google Kubernetes Engine, Elastic Kubernetes Service, or Azure Kubernetes Service"
+      },
+      {
+        "name": "SubscriptionId",
+        "type": "string",
+        "description": "Unique identifier assigned to the Azure subscription"
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Type of activity that resulted from the policy enforcement operation; possible values: Audit, Deny, or Allow"
+      },
+      {
+        "name": "AzureResourceId",
+        "type": "string",
+        "description": "Unique identifier of the Azure resource associated with the event"
+      },
+      {
+        "name": "AwsResourceName",
+        "type": "string",
+        "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name"
+      },
+      {
+        "name": "GcpFullResourceName",
+        "type": "string",
+        "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP"
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "The region associated with the Kubernetes cluster"
+      },
+      {
+        "name": "ResourceKind",
+        "type": "string",
+        "description": "Type or kind of Kubernetes resource created or managed (for example, pod or deployment)"
+      },
+      {
+        "name": "ResourceName",
+        "type": "string",
+        "description": "Name of the Kubernetes resource"
+      },
+      {
+        "name": "KubernetesNamespace",
+        "type": "string",
+        "description": "The Kubernetes namespace name"
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "Information explaining the action result"
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "string",
+        "description": "Additional information about the entity or event"
+      }
+    ],
+    "preview": true
+  }
+}

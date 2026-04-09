@@ -1,0 +1,6 @@
+{
+  "Syslog": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

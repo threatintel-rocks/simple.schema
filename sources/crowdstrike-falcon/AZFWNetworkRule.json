@@ -1,0 +1,6 @@
+{
+  "AZFWNetworkRule": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

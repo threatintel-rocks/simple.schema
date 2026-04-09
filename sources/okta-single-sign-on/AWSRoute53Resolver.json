@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  }
+}

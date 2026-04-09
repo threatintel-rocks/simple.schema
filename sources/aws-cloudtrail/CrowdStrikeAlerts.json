@@ -1,0 +1,6 @@
+{
+  "CrowdStrikeAlerts": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

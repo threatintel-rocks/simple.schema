@@ -1,0 +1,6 @@
+{
+  "Cisco_Umbrella_cloudfirewall_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

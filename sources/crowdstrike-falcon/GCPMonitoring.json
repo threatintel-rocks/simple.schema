@@ -1,0 +1,6 @@
+{
+  "GCPMonitoring": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

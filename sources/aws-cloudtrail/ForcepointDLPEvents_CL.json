@@ -1,0 +1,6 @@
+{
+  "ForcepointDLPEvents_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

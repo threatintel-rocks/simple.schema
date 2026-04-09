@@ -1,0 +1,6 @@
+{
+  "VeeamSessions_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

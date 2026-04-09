@@ -1,0 +1,6 @@
+{
+  "GCPAuditLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

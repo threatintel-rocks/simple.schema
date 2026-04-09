@@ -1,0 +1,6 @@
+{
+  "ThreatIntelligenceIndicator": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

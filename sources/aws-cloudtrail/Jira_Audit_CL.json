@@ -1,0 +1,6 @@
+{
+  "Jira_Audit_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

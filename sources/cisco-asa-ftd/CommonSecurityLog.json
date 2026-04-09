@@ -1,0 +1,6 @@
+{
+  "CommonSecurityLog": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

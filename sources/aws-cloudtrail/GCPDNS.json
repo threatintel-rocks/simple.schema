@@ -1,0 +1,6 @@
+{
+  "GCPDNS": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

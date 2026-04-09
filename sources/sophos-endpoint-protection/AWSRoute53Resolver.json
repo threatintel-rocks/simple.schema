@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

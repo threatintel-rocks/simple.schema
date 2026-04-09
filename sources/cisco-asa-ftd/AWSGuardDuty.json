@@ -1,0 +1,6 @@
+{
+  "AWSGuardDuty": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

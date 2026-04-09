@@ -1,0 +1,6 @@
+{
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  }
+}

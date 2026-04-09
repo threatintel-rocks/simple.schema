@@ -1,0 +1,6 @@
+{
+  "AADServicePrincipalRiskEvents": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

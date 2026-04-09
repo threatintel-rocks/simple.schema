@@ -1,0 +1,6 @@
+{
+  "GCPComputeEngine": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

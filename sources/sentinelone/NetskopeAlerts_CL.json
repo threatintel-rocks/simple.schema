@@ -1,0 +1,6 @@
+{
+  "NetskopeAlerts_CL": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AzureMetrics": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AWSNetworkFirewallFlow": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

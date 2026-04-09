@@ -1,0 +1,6 @@
+{
+  "SecurityEvent": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

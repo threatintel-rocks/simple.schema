@@ -1,0 +1,6 @@
+{
+  "GCPCloudRun": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "VeeamSecurityComplianceAnalyzer_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GCPVPCFlow": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

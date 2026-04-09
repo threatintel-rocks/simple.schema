@@ -1,0 +1,6 @@
+{
+  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

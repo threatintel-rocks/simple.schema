@@ -1,0 +1,6 @@
+{
+  "Syslog": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

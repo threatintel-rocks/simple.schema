@@ -1,0 +1,6 @@
+{
+  "ElasticAgentEvent": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

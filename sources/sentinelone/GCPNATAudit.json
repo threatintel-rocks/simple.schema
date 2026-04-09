@@ -1,0 +1,6 @@
+{
+  "GCPNATAudit": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

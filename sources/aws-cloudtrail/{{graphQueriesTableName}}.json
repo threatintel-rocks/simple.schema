@@ -1,0 +1,6 @@
+{
+  "{{graphQueriesTableName}}": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

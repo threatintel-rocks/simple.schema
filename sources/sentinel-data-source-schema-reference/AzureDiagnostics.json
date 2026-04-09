@@ -1,0 +1,877 @@
+{
+  "AzureDiagnostics": {
+    "source": "Sentinel Data Source Schema Reference",
+    "columns": [
+      {
+        "name": "action_id_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "action_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "action_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ActivityId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "",
+        "description": ""
+      },
+      {
+        "name": "AdHocOrScheduledJob_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "application_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "audit_schema_version_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "avg_cpu_percent_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "avg_mean_time_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "backendHostname_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Caller_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "callerId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "CallerIPAddress",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "calls_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Category",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "client_ip_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "clientInfo_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "clientIP_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "clientIp_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "clientIpAddress_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "clientPort_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "code_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "collectionName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_destinationIP_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_destinationPortRange_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_None_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_protocols_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_sourceIP_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "conditions_sourcePortRange_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "CorrelationId",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "count_executions_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "cpu_time_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "database_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "database_principal_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "DatabaseName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "db_id_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "direction_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "dop_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "duration_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "duration_milliseconds_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "DurationMs",
+        "type": "BigInt",
+        "description": ""
+      },
+      {
+        "name": "ElasticPoolName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "endTime_t",
+        "type": "DateTime",
+        "description": ""
+      },
+      {
+        "name": "Environment_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "error_code_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "error_message_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "errorLevel_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "event_class_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "event_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "event_subclass_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "event_time_t",
+        "type": "DateTime",
+        "description": ""
+      },
+      {
+        "name": "EventName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "execution_type_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "executionInfo_endTime_t",
+        "type": "DateTime",
+        "description": ""
+      },
+      {
+        "name": "executionInfo_exitCode_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "executionInfo_startTime_t",
+        "type": "DateTime",
+        "description": ""
+      },
+      {
+        "name": "host_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "httpMethod_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "httpStatus_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "httpStatusCode_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "httpStatusCode_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "httpVersion_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "id_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "identity_claim_appid_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "identity_claim_ipaddr_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "instanceId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "interval_end_time_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "interval_start_time_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "ip_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "is_column_permission_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "isAccessPolicyMatch_b",
+        "type": "Bool",
+        "description": ""
+      },
+      {
+        "name": "JobDurationInSecs_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobFailureCode_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "jobId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobOperation_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobOperationSubType_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobStartDateTime_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobStatus_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "JobUniqueId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "Level",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "log_bytes_used_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "logical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "logical_io_writes_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "LogicalServerName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "macAddress_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "matchedConnections_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_cpu_time_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_dop_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_duration_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_log_bytes_used_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_logical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_logical_io_writes_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_num_physical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_physical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_query_max_used_memory_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_rowcount_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "max_time_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "mean_time_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Message",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "min_time_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "msg_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "num_physical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "object_id_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "object_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "OperationName",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "OperationVersion",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "partitionKey_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "physical_io_reads_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "plan_id_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "policy_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "policyMode_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "primaryIPv4Address_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "priority_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "properties_enabledForDeployment_b",
+        "type": "Bool",
+        "description": ""
+      },
+      {
+        "name": "properties_enabledForDiskEncryption_b",
+        "type": "Bool",
+        "description": ""
+      },
+      {
+        "name": "properties_enabledForTemplateDeployment_b",
+        "type": "Bool",
+        "description": ""
+      },
+      {
+        "name": "properties_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "properties_sku_Family_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "properties_sku_Name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "properties_tenantId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "query_hash_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "query_id_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "query_max_used_memory_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "query_plan_hash_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "query_time_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "querytext_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "receivedBytes_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "Region_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "requestCharge_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "requestQuery_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "requestResourceId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "requestResourceType_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "requestUri_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "reserved_storage_mb_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "Resource",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_actionName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_location_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_originRunId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_resourceGroupName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_runId_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_subscriptionId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "resource_triggerName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resource_workflowId_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "resource_workflowName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResourceGroup",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "_ResourceId",
+        "type": "String",
+        "description": "A unique identifier for the resource that the record is associated with"
+      },
+      {
+        "name": "ResourceProvider",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResourceProvider",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResourceType",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResourceType",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "response_rows_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "resultCode_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResultDescription",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResultDescription",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resultDescription_ChildJobs_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resultDescription_ErrorJobs_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "resultMessage_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResultSignature",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResultType",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "ResultType",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "rootCauseAnalysis_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "routingRuleName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "rowcount_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "ruleName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "RunbookName_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "RunOn_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "schema_name_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "sentBytes_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "sequence_group_id_g",
+        "type": "Guid",
+        "description": ""
+      },
+      {
+        "name": "sequence_number_d",
+        "type": "Double",
+        "description": ""
+      },
+      {
+        "name": "server_principal_sid_s",
+        "type": "String",
+        "description": ""
+      },
+      {
+        "name": "session_id_d",
+        "type": "Double",
+        "description": ""
+      }
+    ]
+  }
+}

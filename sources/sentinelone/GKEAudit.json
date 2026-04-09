@@ -1,0 +1,6 @@
+{
+  "GKEAudit": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "CommonSecurityLog": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

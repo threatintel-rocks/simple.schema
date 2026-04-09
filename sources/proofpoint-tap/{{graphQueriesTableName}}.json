@@ -1,0 +1,6 @@
+{
+  "{{graphQueriesTableName}}": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

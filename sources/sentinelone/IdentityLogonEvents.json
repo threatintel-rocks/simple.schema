@@ -1,0 +1,6 @@
+{
+  "IdentityLogonEvents": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

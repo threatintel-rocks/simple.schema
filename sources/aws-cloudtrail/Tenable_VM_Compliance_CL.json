@@ -1,0 +1,6 @@
+{
+  "Tenable_VM_Compliance_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

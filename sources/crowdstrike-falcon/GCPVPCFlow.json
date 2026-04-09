@@ -1,0 +1,6 @@
+{
+  "GCPVPCFlow": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

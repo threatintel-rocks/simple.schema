@@ -1,0 +1,6 @@
+{
+  "QualysHostDetectionV3_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

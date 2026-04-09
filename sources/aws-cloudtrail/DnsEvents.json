@@ -1,0 +1,6 @@
+{
+  "DnsEvents": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

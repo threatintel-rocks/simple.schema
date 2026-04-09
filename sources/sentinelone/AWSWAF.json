@@ -1,0 +1,6 @@
+{
+  "AWSWAF": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

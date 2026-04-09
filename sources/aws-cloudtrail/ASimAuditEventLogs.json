@@ -1,0 +1,6 @@
+{
+  "ASimAuditEventLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

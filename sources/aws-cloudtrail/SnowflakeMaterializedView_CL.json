@@ -1,0 +1,6 @@
+{
+  "SnowflakeMaterializedView_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

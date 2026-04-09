@@ -1,0 +1,6 @@
+{
+  "DnsInventory": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

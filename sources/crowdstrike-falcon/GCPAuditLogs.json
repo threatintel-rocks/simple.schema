@@ -1,0 +1,6 @@
+{
+  "GCPAuditLogs": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

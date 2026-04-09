@@ -1,0 +1,6 @@
+{
+  "AuditLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

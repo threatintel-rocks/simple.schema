@@ -1,0 +1,6 @@
+{
+  "AZFWNatRule": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

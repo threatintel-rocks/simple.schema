@@ -1,0 +1,6 @@
+{
+  "NGINX_CL": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

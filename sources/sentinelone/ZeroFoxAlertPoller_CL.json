@@ -1,0 +1,6 @@
+{
+  "ZeroFoxAlertPoller_CL": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

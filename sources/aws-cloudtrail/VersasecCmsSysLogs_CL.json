@@ -1,0 +1,6 @@
+{
+  "VersasecCmsSysLogs_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

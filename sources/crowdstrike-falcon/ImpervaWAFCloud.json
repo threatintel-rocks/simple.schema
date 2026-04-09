@@ -1,0 +1,6 @@
+{
+  "ImpervaWAFCloud": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

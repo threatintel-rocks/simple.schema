@@ -1,0 +1,6 @@
+{
+  "AADNonInteractiveUserSignInLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

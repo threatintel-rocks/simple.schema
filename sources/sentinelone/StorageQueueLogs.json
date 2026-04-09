@@ -1,0 +1,6 @@
+{
+  "StorageQueueLogs": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

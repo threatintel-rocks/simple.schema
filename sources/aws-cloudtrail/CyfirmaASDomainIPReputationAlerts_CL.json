@@ -1,0 +1,6 @@
+{
+  "CyfirmaASDomainIPReputationAlerts_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

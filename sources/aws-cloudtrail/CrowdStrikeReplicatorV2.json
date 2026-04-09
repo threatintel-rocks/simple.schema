@@ -1,0 +1,6 @@
+{
+  "CrowdStrikeReplicatorV2": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

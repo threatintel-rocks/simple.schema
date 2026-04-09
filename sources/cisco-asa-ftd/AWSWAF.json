@@ -1,0 +1,6 @@
+{
+  "AWSWAF": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

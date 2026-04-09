@@ -1,0 +1,32 @@
+{
+  "DeviceTvmInfoGatheringKB": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "IgId",
+        "type": "string",
+        "description": "Unique identifier for the piece of information gathered"
+      },
+      {
+        "name": "FieldName",
+        "type": "string",
+        "description": "Name of the field where this information appears in the AdditionalFields column of the DeviceTvmInfoGathering table"
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of the information gathered"
+      },
+      {
+        "name": "Categories",
+        "type": "dynamic",
+        "description": "List of categories that the information belongs to, in JSON array format"
+      },
+      {
+        "name": "DataStructure",
+        "type": "string",
+        "description": "The data structure of the information gathered"
+      }
+    ]
+  }
+}

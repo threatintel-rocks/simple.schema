@@ -1,0 +1,6 @@
+{
+  "AZFWNatRule": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

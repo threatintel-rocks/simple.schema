@@ -1,0 +1,6 @@
+{
+  "NetworkAccessTraffic": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

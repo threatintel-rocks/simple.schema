@@ -1,0 +1,6 @@
+{
+  "SnowflakeTables_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

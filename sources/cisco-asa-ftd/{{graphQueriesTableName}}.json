@@ -1,0 +1,6 @@
+{
+  "{{graphQueriesTableName}}": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

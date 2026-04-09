@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

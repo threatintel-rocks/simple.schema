@@ -1,0 +1,2078 @@
+{
+  "OnePasswordEventLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ABNORMAL_THREAT_MESSAGES_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ABNORMAL_CASES_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AIShield_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AliCloudActionTrailLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AliCloud_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSCloudTrail": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSALBAccessLogsData": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSNetworkFirewallFlow": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSGuardDuty": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSVPCFlow": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSCloudWatch": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSRoute53Resolver": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSWAF": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Anvilogic_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ARGOS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Armis_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Armis_Activities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Armis_Devices_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "atlassian_beacon_alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ConfluenceAuditLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Jira_Audit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Jira_Audit_v2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Auth0AM_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Auth0Logs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Event": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSEKSLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSS3ServerAccess": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AWSSecurityHubFindings": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AzureActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AzureDiagnostics": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "fluentbit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ADOAuditLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWApplicationRule": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWFlowTrace": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWFatFlow": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWNatRule": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWDnsQuery": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWIdpsSignature": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWInternalFqdnResolutionFailure": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWNetworkRule": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AZFWThreatIntel": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AzureMetrics": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "StorageBlobLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "StorageQueueLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "StorageTableLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "StorageFileLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BetterMTDIncidentLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BetterMTDDeviceLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BetterMTDNetflowLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BetterMTDAppLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BeyondTrustPM_ActivityAudits_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BeyondTrustPM_ClientEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BigIDDSPMCatalog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BitglassLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BitwardenEventLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BoxEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "BoxEventsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CloudGuard_SecurityEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "argsentdc_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "iocsent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CommonSecurityLog": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_dns_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_proxy_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_ip_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_cloudfirewall_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_firewall_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_dlp_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_ravpnlogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_audit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztna_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_intrusion_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztaflow_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cisco_Umbrella_fileevent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CiscoDuo_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CiscoETD_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ASimNetworkSessionLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CiscoSecureEndpointAuditLogsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CiscoSecureEndpointEventsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Syslog": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CiscoSDWANNetflow_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cloudflare_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CloudflareV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CognniIncidents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cohesity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CommvaultAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ContrastADR_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ContrastADRIncident_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Corelight": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CortexXDR_Incidents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CriblInternal_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CrowdStrikeAlerts": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ThreatIntelIndicators": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CrowdStrike_Additional_Events_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CrowdStrikeReplicatorV2": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CBSLog_AzureV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HackerViewLog_AzureV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "JBossEvent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "JuniperIDP_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ApacheHTTPServer_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tomcat_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "meraki_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VectraStream_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MarkLogicAudit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MongoDBAudit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NGINX_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OracleWebLogicServer_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PostgreSQL_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SquidProxy_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ubiquiti_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "vcenter_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZPA_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SecurityBridgeLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyberArk_AuditEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyberSixgill_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CybleVisionAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SecurityEvent": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyeraClassifications_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyeraAssets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyeraAssets_MS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyeraIssues_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyeraIdentities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASCertificatesAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASConfigurationAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASDomainIPReputationAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASOpenPortsAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASCloudWeaknessAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaASDomainIPVulnerabilityAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaBIDomainITAssetAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaBIExecutivePeopleAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaBIProductSolutionAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaBISocialHandlersAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaBIMaliciousMobileAppsAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaCompromisedAccounts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaIndicators_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaThreatActors_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaCampaigns_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaMalware_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaDBWMPhishingAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaDBWMRansomwareAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaDBWMDarkWebAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaSPESourceCodeAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaSPEConfidentialFilesAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaSPEPIIAndCIIAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaSPESocialThreatAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyfirmaVulnerabilities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CynerioEvent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cyren_Indicators_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "darktrace_model_alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "databahn_audit_logs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "databahn_alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "databahn_device_inventory_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ThreatIntelligenceIndicator": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DataminrPulse_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "datawizaserveraccess_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SecurityIncident": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DigitalShadows_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DnsEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DnsInventory": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DoppelTable_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DragosAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DruvaSecurityEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "FinanceOperationsActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Dynamics365Activity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DynatraceAttacks_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DynatraceAuditLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DynatraceProblems_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DynatraceSecurityProblems_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ElasticAgentEvent": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ErmesBrowserSecurityEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "IntegrationTable_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "IntegrationTableIncidents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ESIExchangeConfig_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ESIExchangeOnlineConfig_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ExtraHop_Detections_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "F5Telemetry_LTM_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "F5Telemetry_system_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "F5Telemetry_ASM_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "feedly_indicators_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "FireworkV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ForcepointDLPEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ForescoutEvent": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ForescoutHostProperties_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "FncEventsSuricata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "FncEventsObservation_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "FncEventsDetections_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Garrison_ULTRARemoteLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPCloudRun": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPCloudSQL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPAuditLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPLoadBalancerLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPVPCFlow": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GigamonV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "githubscanaudit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GitHubAuditLogsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPApigee": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPCDN": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPIDS": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPMonitoring": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPComputeEngine": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPDNS": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPIAM": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPNATAudit": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPNAT": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GCPResourceManager": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GKEAudit": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GoogleCloudSCC": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GoogleWorkspaceReports": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HalcyonAuthenticationEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HalcyonDnsActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HalcyonFileActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HalcyonNetworkSession_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "HalcyonProcessEvent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "net_assets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "web_assets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "W3CIISLog": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "IlumioInsights": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "IllumioInsightsSummary_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Illumio_Auditable_Events_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Illumio_Flow_Events_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ImpervaWAFCloud_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ImpervaWAFCloud": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Failed_Range_To_Ingest_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Infoblox_Failed_Indicators_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_whois_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_whitelist_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_tld_risk_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_threat_actor_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_rpz_feeds_records_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_rpz_feeds_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_nameserver_matches_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_nameserver_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_malware_analysis_v3_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_inforank_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_infoblox_web_cat_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_geo_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_dns_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_atp_threat_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_atp_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "dossier_ptr_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "InfobloxInsight_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "InfoSecAnalytics_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CyberpionActionItems_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Abuse_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_ASN_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Carrier_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Company_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_CORE_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Country_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Domain_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Location_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Location_extended_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_PLUS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Privacy_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_Privacy_extended_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_RESIDENTIAL_PROXY_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_RIRWHOIS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_RWHOIS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ASN_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_MNT_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_NET_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ORG_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_POC_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Island_Admin_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Island_User_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "jamfprotecttelemetryv2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "jamfprotectunifiedlogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "jamfprotectalerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "KeeperSecurityEventNewLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "LastPassNativePoller_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "LookoutMtdV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MailGuard365_Threats_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MailRiskEmails_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OfficeActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SecurityAlert": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CopilotActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DataverseActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SecurityAlertâ": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "McasShadowItReportingâ": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "DeviceEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "EmailEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "IdentityLogonEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CloudAppEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AlertEvidence": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SigninLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AuditLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADNonInteractiveUserSignInLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADServicePrincipalSignInLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADManagedIdentitySignInLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADProvisioningLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ADFSSignInLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADUserRiskEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADRiskyUsers": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NetworkAccessTraffic": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADRiskyServicePrincipals": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "AADServicePrincipalRiskEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ExchangeHttpProxy_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MessageTrackingLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PowerAutomateActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PowerPlatformAdminActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PowerBIActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProjectActivity": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PurviewDataSensitivityLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MicrosoftPurviewInformationProtection": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Audit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastAudit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Awareness_Performance_Details_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Awareness_SafeScore_Details_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Awareness_User_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Awareness_Watchlist_Details_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cloud_Integrated_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Seg_Cg_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Seg_Dlp_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastSIEM_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastDLP_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ttp_Url_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ttp_Attachment_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Ttp_Impersonation_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastTTPUrl_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastTTPAttachment_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MimecastTTPImpersonation_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MDBALogTable_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "MuleSoft_Cloudhub_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NCProtectUAL_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NetskopeAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertscompromisedcredentialdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsctepdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsdlpdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsmalsitedata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsmalwaredata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertspolicydata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsquarantinedata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsremediationdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertssecurityassessmentdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "alertsubadata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventsapplicationdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventsauditdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventsconnectiondata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventsincidentdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventsnetworkdata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "eventspagedata_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Netskope_WebTx_metrics_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NetskopeWebtxData_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NetskopeWebtxErrors_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NordPassEventLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ObsidianActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ObsidianThreat_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OktaSSO": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Okta_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Onapsis_Defend_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OneLoginEventsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OneLoginUsersV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OneTrustMetadataV3_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OpenSystemsZtnaLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OpenSystemsFirewallLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OpenSystemsAuthenticationLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OpenSystemsProxyLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OCI_LogsV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "OrcaAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Incidents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Endpoints_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Management_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Agent_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CortexXpanseAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PaloAltoPrismaCloudAlertV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PrismaCloudCompute_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ABAPAuditLog": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Perimeter81_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Phosphorus_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "PingOne_AuditActivitiesV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "prancer_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofpointPODMailLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofpointPODMessage_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofPointTAPMessagesDeliveredV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofPointTAPMessagesBlockedV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofPointTAPClicksPermittedV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ProofPointTAPClicksBlockedV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "QscoutAppEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "QualysKB_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "QualysHostDetectionV3_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "RadiflowEvent": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_assets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_vulnerabilities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "RSAIDPlus_AdminLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Rubrik_Anomaly_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Rubrik_Ransomware_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Rubrik_ThreatHunt_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Rubrik_Events_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ValenceAlert_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SailPointIDN_Events_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SailPointIDN_Triggers_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SalesforceServiceCloudV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Samsung_Knox_Audit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SAPBTPAuditLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SAPETDAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SAPETDInvestigations_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SAPLogServ_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "LightningTier0Nodes_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "LightningAttackPaths_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "LightningIOEResults_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOneActivities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOneAgents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOneGroups_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOneThreats_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOneAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SentinelOne_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SeraphicWebSecurity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SlackAuditV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeLogin_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeQuery_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeUserGrant_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeRoleGrant_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeLoad_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeMaterializedView_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeRoles_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeTables_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeTableStorageMetrics_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SnowflakeUsers_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SOCPrimeAuditLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Sonrai_Tickets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SophosEP_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SophosEPEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "SymantecICDx_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TacitRed_Findings_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Talon_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_Domain_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Foundation_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Details_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Communications_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_PDNS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Fingerprints_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_OpenPorts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_x509_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Details_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_PDNS_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_OpenPorts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Certs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Fingerprints_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Cymru_Scout_Account_Usage_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tenable_VM_Asset_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tenable_VM_Vuln_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tenable_VM_Compliance_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tenable_WAS_Asset_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Tenable_WAS_Vuln_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TheHiveData": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TheomAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TransmitSecurityActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TrellixEvents": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TrendMicro_XDR_WORKBENCH_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Task_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Result_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "TrendMicro_XDR_OAT_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "{{graphQueriesTableName}}": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VaronisResources_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VaronisAlerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Detections_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Audits_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Entity_Scoring_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Lockdown_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Health_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Entities_Data_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamMalwareEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamSecurityComplianceAnalyzer_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamOneTriggeredAlarms_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamAuthorizationEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamCovewareFindings_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VeeamSessions_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VersasecCmsSysLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "VersasecCmsErrorLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CarbonBlackEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CarbonBlackNotifications_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CarbonBlackAuditLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "CarbonBlack_Alerts_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ASimDnsActivityLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "WindowsEvent": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "WsSecurityEvents_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "union isfuzzy=true (WizAuditLogs_CL),(WizAuditLogsV2_CL)": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ASimAuditEventLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Workplace_Facebook_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "XbowAssets_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "XbowFindings_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "XbowAssessments_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZNAudit_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZNNetworkActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZNIdentityActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZNRPCActivity_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZNSegmentAuditNativePoller_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_advanced_dark_web_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_botnet_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_breaches_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_C2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_compromised_credentials_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_credit_cards_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_dark_web_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_discord_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_disruption_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_email_addresses_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_exploits_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_irc_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_malware_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_national_ids_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_phishing_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_phone_numbers_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_ransomware_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_telegram_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_threat_actors_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFox_CTI_vulnerabilities_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZeroFoxAlertPoller_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZimperiumThreatLog_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Zoom_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "ZoomV2_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "GitHubAuditLogPolling_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  },
+  "Lookout_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "GKEAudit": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

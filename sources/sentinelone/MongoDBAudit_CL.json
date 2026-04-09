@@ -1,0 +1,6 @@
+{
+  "MongoDBAudit_CL": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

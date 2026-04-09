@@ -1,0 +1,6 @@
+{
+  "AWSNetworkFirewallFlow": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

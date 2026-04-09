@@ -1,0 +1,6 @@
+{
+  "AWSCloudWatch": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

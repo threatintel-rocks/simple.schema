@@ -1,0 +1,148 @@
+{
+  "AIAgentsInfo": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Last date and time recorded for the agent info"
+      },
+      {
+        "name": "AIAgentId",
+        "type": "guid",
+        "description": "Unique identifier for the agent as assigned to it in Microsoft 365 Copilot or Copilot Studio"
+      },
+      {
+        "name": "AIAgentName",
+        "type": "string",
+        "description": "Display name of the agent"
+      },
+      {
+        "name": "AgentCreationTime",
+        "type": "datetime",
+        "description": "Date and time when the agent was created"
+      },
+      {
+        "name": "CreatorAccountUpn",
+        "type": "string",
+        "description": "User principal name (UPN) of the account that created the agent"
+      },
+      {
+        "name": "OwnerAccountUpns",
+        "type": "string",
+        "description": "User principal names (UPN) of all the owners of the agent"
+      },
+      {
+        "name": "LastModifiedByUpn",
+        "type": "string",
+        "description": "User principal name (UPN) of the account that last modified that agent"
+      },
+      {
+        "name": "LastModifiedTime",
+        "type": "datetime",
+        "description": "Date and time when the agent was last modified"
+      },
+      {
+        "name": "LastPublishedTime",
+        "type": "datetime",
+        "description": "Date and time when the agent was last published"
+      },
+      {
+        "name": "LastPublishedByUpn",
+        "type": "string",
+        "description": "User principal name (UPN) of the account that last published the agent"
+      },
+      {
+        "name": "AgentDescription",
+        "type": "string",
+        "description": "Description of the agent as displayed in the agent's source"
+      },
+      {
+        "name": "AgentStatus",
+        "type": "string",
+        "description": "Status of the agent; possible values: Created, Published, Deleted"
+      },
+      {
+        "name": "UserAuthenticationType",
+        "type": "string",
+        "description": "The agent’s configured authentication type for users interacting with the agent; possible values: None, Microsoft, Custom"
+      },
+      {
+        "name": "AgentUsers",
+        "type": "string",
+        "description": "List of user principal names (UPNs) or group IDs that can use the agent"
+      },
+      {
+        "name": "KnowledgeDetails",
+        "type": "string",
+        "description": "Details about the knowledge sources added to the agent"
+      },
+      {
+        "name": "AgentActionTriggers",
+        "type": "string",
+        "description": "List of triggers that makes an autonomous agent take action"
+      },
+      {
+        "name": "RawAgentInfo",
+        "type": "string",
+        "description": "Contents of the raw JSON that describes the agent and contains configuration details, as received from the provider"
+      },
+      {
+        "name": "AuthenticationTrigger",
+        "type": "string",
+        "description": "Indicates when authentication is triggered for the agent; possible values: As Needed, Always"
+      },
+      {
+        "name": "AccessControlPolicy",
+        "type": "string",
+        "description": "Users that can interact with the agent; possible values: Any, Copilot readers, Group membership, Any (multitenant)"
+      },
+      {
+        "name": "AuthorizedSecurityGroupIds",
+        "type": "dynamic",
+        "description": "List of Azure Active Directory Group IDs that are allowed to interact with the agent"
+      },
+      {
+        "name": "AgentTopicsDetails",
+        "type": "dynamic",
+        "description": "Specifications of the topics that the agent can perform"
+      },
+      {
+        "name": "AgentToolsDetails",
+        "type": "dynamic",
+        "description": "Specifications of the tools that the agent can access and perform actions on"
+      },
+      {
+        "name": "EnvironmentId",
+        "type": "string",
+        "description": "The identifier of the Microsoft Power Platform environment the agent resides in"
+      },
+      {
+        "name": "Platform",
+        "type": "string",
+        "description": "The platform that provided the information about the agents; possible values: Copilot Studio"
+      },
+      {
+        "name": "IsGenerativeOrchestrationEnabled",
+        "type": "boolean",
+        "description": "ndicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate"
+      },
+      {
+        "name": "AgentAppId",
+        "type": "string",
+        "description": "The unique app identifier registered for the agent in Microsoft Entra"
+      },
+      {
+        "name": "ConnectedAgentsSchemaNames",
+        "type": "dynamic",
+        "description": "Lists the schema names of connected agents, which are independently managed agents that are linked to the main one for orchestration"
+      },
+      {
+        "name": "ChildAgentsSchemaNames",
+        "type": "dynamic",
+        "description": "Lists the schema names of the child agents that exist within the main agent"
+      }
+    ],
+    "preview": true
+  }
+}

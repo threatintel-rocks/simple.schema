@@ -1,0 +1,6 @@
+{
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

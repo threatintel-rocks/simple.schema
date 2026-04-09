@@ -1,0 +1,6 @@
+{
+  "Audit_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

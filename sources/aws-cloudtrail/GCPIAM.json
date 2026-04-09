@@ -1,0 +1,6 @@
+{
+  "GCPIAM": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

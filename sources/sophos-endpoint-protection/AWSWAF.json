@@ -1,0 +1,6 @@
+{
+  "AWSWAF": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

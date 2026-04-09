@@ -1,0 +1,6 @@
+{
+  "GCPMonitoring": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

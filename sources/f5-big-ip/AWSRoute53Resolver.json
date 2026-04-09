@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "F5 BIG-IP",
+    "columns": []
+  }
+}

@@ -1,0 +1,2078 @@
+{
+  "OnePasswordEventLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ABNORMAL_THREAT_MESSAGES_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ABNORMAL_CASES_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AIShield_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AliCloudActionTrailLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AliCloud_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSCloudTrail": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSALBAccessLogsData": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSNetworkFirewallFlow": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSGuardDuty": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSVPCFlow": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSCloudWatch": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSRoute53Resolver": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSWAF": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Anvilogic_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ARGOS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Armis_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Armis_Activities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Armis_Devices_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "atlassian_beacon_alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ConfluenceAuditLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Jira_Audit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Jira_Audit_v2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Auth0AM_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Auth0Logs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Event": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSEKSLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSS3ServerAccess": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AWSSecurityHubFindings": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AzureActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AzureDiagnostics": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "fluentbit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ADOAuditLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWApplicationRule": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWFlowTrace": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWFatFlow": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWNatRule": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWDnsQuery": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWIdpsSignature": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWInternalFqdnResolutionFailure": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWNetworkRule": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AZFWThreatIntel": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AzureMetrics": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "StorageBlobLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "StorageQueueLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "StorageTableLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "StorageFileLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BetterMTDIncidentLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BetterMTDDeviceLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BetterMTDNetflowLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BetterMTDAppLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BeyondTrustPM_ActivityAudits_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BeyondTrustPM_ClientEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BigIDDSPMCatalog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BitglassLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BitwardenEventLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BoxEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "BoxEventsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CloudGuard_SecurityEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "argsentdc_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "iocsent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CommonSecurityLog": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_dns_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_proxy_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_ip_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_cloudfirewall_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_firewall_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_dlp_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_ravpnlogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_audit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztna_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_intrusion_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztaflow_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cisco_Umbrella_fileevent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CiscoDuo_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CiscoETD_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ASimNetworkSessionLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CiscoSecureEndpointAuditLogsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CiscoSecureEndpointEventsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Syslog": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CiscoSDWANNetflow_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cloudflare_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CloudflareV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CognniIncidents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cohesity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CommvaultAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ContrastADR_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ContrastADRIncident_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Corelight": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CortexXDR_Incidents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CriblInternal_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CrowdStrikeAlerts": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ThreatIntelIndicators": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CrowdStrike_Additional_Events_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CrowdStrikeReplicatorV2": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CBSLog_AzureV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HackerViewLog_AzureV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "JBossEvent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "JuniperIDP_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ApacheHTTPServer_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tomcat_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "meraki_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VectraStream_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MarkLogicAudit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MongoDBAudit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NGINX_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OracleWebLogicServer_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PostgreSQL_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SquidProxy_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ubiquiti_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "vcenter_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZPA_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SecurityBridgeLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyberArk_AuditEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyberSixgill_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CybleVisionAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SecurityEvent": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyeraClassifications_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyeraAssets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyeraAssets_MS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyeraIssues_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyeraIdentities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASCertificatesAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASConfigurationAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASDomainIPReputationAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASOpenPortsAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASCloudWeaknessAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaASDomainIPVulnerabilityAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaBIDomainITAssetAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaBIExecutivePeopleAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaBIProductSolutionAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaBISocialHandlersAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaBIMaliciousMobileAppsAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaCompromisedAccounts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaIndicators_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaThreatActors_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaCampaigns_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaMalware_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaDBWMPhishingAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaDBWMRansomwareAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaDBWMDarkWebAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaSPESourceCodeAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaSPEConfidentialFilesAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaSPEPIIAndCIIAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaSPESocialThreatAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyfirmaVulnerabilities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CynerioEvent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cyren_Indicators_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "darktrace_model_alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "databahn_audit_logs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "databahn_alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "databahn_device_inventory_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ThreatIntelligenceIndicator": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DataminrPulse_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "datawizaserveraccess_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SecurityIncident": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DigitalShadows_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DnsEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DnsInventory": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DoppelTable_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DragosAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DruvaSecurityEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "FinanceOperationsActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Dynamics365Activity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DynatraceAttacks_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DynatraceAuditLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DynatraceProblems_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DynatraceSecurityProblems_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ElasticAgentEvent": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ErmesBrowserSecurityEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "IntegrationTable_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "IntegrationTableIncidents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ESIExchangeConfig_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ESIExchangeOnlineConfig_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ExtraHop_Detections_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "F5Telemetry_LTM_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "F5Telemetry_system_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "F5Telemetry_ASM_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "feedly_indicators_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "FireworkV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ForcepointDLPEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ForescoutEvent": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ForescoutHostProperties_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "FncEventsSuricata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "FncEventsObservation_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "FncEventsDetections_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Garrison_ULTRARemoteLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPCloudRun": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPCloudSQL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPAuditLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPLoadBalancerLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPVPCFlow": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GigamonV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "githubscanaudit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GitHubAuditLogsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPApigee": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPCDN": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPIDS": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPMonitoring": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPComputeEngine": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPDNS": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPIAM": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPNATAudit": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPNAT": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GCPResourceManager": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GKEAudit": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GoogleCloudSCC": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GoogleWorkspaceReports": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HalcyonAuthenticationEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HalcyonDnsActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HalcyonFileActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HalcyonNetworkSession_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "HalcyonProcessEvent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "net_assets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "web_assets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "W3CIISLog": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "IlumioInsights": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "IllumioInsightsSummary_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Illumio_Auditable_Events_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Illumio_Flow_Events_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ImpervaWAFCloud_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ImpervaWAFCloud": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Failed_Range_To_Ingest_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Infoblox_Failed_Indicators_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_whois_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_whitelist_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_tld_risk_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_threat_actor_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_rpz_feeds_records_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_rpz_feeds_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_nameserver_matches_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_nameserver_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_malware_analysis_v3_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_inforank_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_infoblox_web_cat_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_geo_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_dns_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_atp_threat_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_atp_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "dossier_ptr_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "InfobloxInsight_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "InfoSecAnalytics_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CyberpionActionItems_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Abuse_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_ASN_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Carrier_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Company_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_CORE_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Country_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Domain_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Location_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Location_extended_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_PLUS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Privacy_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_Privacy_extended_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_RESIDENTIAL_PROXY_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_RIRWHOIS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_RWHOIS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ASN_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_MNT_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_NET_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ORG_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_POC_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Island_Admin_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Island_User_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "jamfprotecttelemetryv2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "jamfprotectunifiedlogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "jamfprotectalerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "KeeperSecurityEventNewLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "LastPassNativePoller_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "LookoutMtdV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MailGuard365_Threats_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MailRiskEmails_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OfficeActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SecurityAlert": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CopilotActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DataverseActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SecurityAlertâ": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "McasShadowItReportingâ": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "DeviceEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "EmailEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "IdentityLogonEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CloudAppEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AlertEvidence": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SigninLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AuditLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADNonInteractiveUserSignInLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADServicePrincipalSignInLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADManagedIdentitySignInLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADProvisioningLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ADFSSignInLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADUserRiskEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADRiskyUsers": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NetworkAccessTraffic": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADRiskyServicePrincipals": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "AADServicePrincipalRiskEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ExchangeHttpProxy_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MessageTrackingLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PowerAutomateActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PowerPlatformAdminActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PowerBIActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProjectActivity": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PurviewDataSensitivityLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MicrosoftPurviewInformationProtection": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Audit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastAudit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Awareness_Performance_Details_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Awareness_SafeScore_Details_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Awareness_User_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Awareness_Watchlist_Details_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cloud_Integrated_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Seg_Cg_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Seg_Dlp_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastSIEM_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastDLP_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ttp_Url_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ttp_Attachment_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Ttp_Impersonation_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastTTPUrl_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastTTPAttachment_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MimecastTTPImpersonation_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MDBALogTable_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "MuleSoft_Cloudhub_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NCProtectUAL_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NetskopeAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertscompromisedcredentialdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsctepdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsdlpdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsmalsitedata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsmalwaredata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertspolicydata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsquarantinedata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsremediationdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertssecurityassessmentdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "alertsubadata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventsapplicationdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventsauditdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventsconnectiondata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventsincidentdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventsnetworkdata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "eventspagedata_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Netskope_WebTx_metrics_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NetskopeWebtxData_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NetskopeWebtxErrors_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NordPassEventLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ObsidianActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ObsidianThreat_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OktaSSO": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Okta_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Onapsis_Defend_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OneLoginEventsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OneLoginUsersV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OneTrustMetadataV3_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OpenSystemsZtnaLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OpenSystemsFirewallLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OpenSystemsAuthenticationLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OpenSystemsProxyLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OCI_LogsV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "OrcaAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Incidents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Endpoints_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Management_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Agent_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CortexXpanseAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PaloAltoPrismaCloudAlertV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PrismaCloudCompute_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ABAPAuditLog": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Perimeter81_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Phosphorus_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "PingOne_AuditActivitiesV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "prancer_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofpointPODMailLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofpointPODMessage_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofPointTAPMessagesDeliveredV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofPointTAPMessagesBlockedV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofPointTAPClicksPermittedV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ProofPointTAPClicksBlockedV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "QscoutAppEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "QualysKB_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "QualysHostDetectionV3_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "RadiflowEvent": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_assets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_vulnerabilities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "RSAIDPlus_AdminLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Rubrik_Anomaly_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Rubrik_Ransomware_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Rubrik_ThreatHunt_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Rubrik_Events_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ValenceAlert_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SailPointIDN_Events_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SailPointIDN_Triggers_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SalesforceServiceCloudV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Samsung_Knox_Audit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SAPBTPAuditLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SAPETDAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SAPETDInvestigations_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SAPLogServ_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "LightningTier0Nodes_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "LightningAttackPaths_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "LightningIOEResults_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOneActivities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOneAgents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOneGroups_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOneThreats_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOneAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SentinelOne_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SeraphicWebSecurity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SlackAuditV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeLogin_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeQuery_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeUserGrant_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeRoleGrant_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeLoad_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeMaterializedView_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeRoles_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeTables_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeTableStorageMetrics_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SnowflakeUsers_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SOCPrimeAuditLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Sonrai_Tickets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SophosEP_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SophosEPEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "SymantecICDx_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TacitRed_Findings_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Talon_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_Domain_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Foundation_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Details_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Communications_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_PDNS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Fingerprints_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_OpenPorts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_x509_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Details_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_PDNS_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_OpenPorts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Certs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Fingerprints_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Cymru_Scout_Account_Usage_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tenable_VM_Asset_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tenable_VM_Vuln_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tenable_VM_Compliance_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tenable_WAS_Asset_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Tenable_WAS_Vuln_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TheHiveData": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TheomAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TransmitSecurityActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TrellixEvents": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TrendMicro_XDR_WORKBENCH_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Task_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Result_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "TrendMicro_XDR_OAT_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "{{graphQueriesTableName}}": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VaronisResources_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VaronisAlerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Detections_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Audits_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Entity_Scoring_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Lockdown_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Health_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Entities_Data_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamMalwareEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamSecurityComplianceAnalyzer_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamOneTriggeredAlarms_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamAuthorizationEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamCovewareFindings_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VeeamSessions_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VersasecCmsSysLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "VersasecCmsErrorLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CarbonBlackEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CarbonBlackNotifications_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CarbonBlackAuditLogs_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "CarbonBlack_Alerts_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ASimDnsActivityLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "WindowsEvent": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "WsSecurityEvents_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "union isfuzzy=true (WizAuditLogs_CL),(WizAuditLogsV2_CL)": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ASimAuditEventLogs": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Workplace_Facebook_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "XbowAssets_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "XbowFindings_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "XbowAssessments_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZNAudit_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZNNetworkActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZNIdentityActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZNRPCActivity_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZNSegmentAuditNativePoller_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_advanced_dark_web_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_botnet_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_breaches_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_C2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_compromised_credentials_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_credit_cards_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_dark_web_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_discord_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_disruption_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_email_addresses_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_exploits_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_irc_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_malware_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_national_ids_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_phishing_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_phone_numbers_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_ransomware_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_telegram_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_threat_actors_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFox_CTI_vulnerabilities_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZeroFoxAlertPoller_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZimperiumThreatLog_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Zoom_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "ZoomV2_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "GitHubAuditLogPolling_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  },
+  "Lookout_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

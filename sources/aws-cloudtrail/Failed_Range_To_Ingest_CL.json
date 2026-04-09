@@ -1,0 +1,6 @@
+{
+  "Failed_Range_To_Ingest_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

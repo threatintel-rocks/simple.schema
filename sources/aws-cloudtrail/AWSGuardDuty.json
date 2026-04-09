@@ -1,0 +1,6 @@
+{
+  "AWSGuardDuty": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

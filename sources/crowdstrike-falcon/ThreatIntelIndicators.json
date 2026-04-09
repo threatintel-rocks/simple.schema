@@ -1,0 +1,6 @@
+{
+  "ThreatIntelIndicators": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

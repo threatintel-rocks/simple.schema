@@ -1,0 +1,6 @@
+{
+  "FncEventsDetections_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

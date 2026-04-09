@@ -1,0 +1,6 @@
+{
+  "ThreatIntelligenceIndicator": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

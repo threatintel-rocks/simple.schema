@@ -1,0 +1,6 @@
+{
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "F5 BIG-IP",
+    "columns": []
+  }
+}

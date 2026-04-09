@@ -1,0 +1,6 @@
+{
+  "AWSALBAccessLogsData": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

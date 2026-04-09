@@ -1,0 +1,2078 @@
+{
+  "OnePasswordEventLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ABNORMAL_THREAT_MESSAGES_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ABNORMAL_CASES_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AIShield_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AliCloudActionTrailLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AliCloud_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSCloudTrail": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSALBAccessLogsData": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSNetworkFirewallFlow": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSGuardDuty": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSVPCFlow": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSCloudWatch": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSRoute53Resolver": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSWAF": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Anvilogic_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ARGOS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Armis_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Armis_Activities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Armis_Devices_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "atlassian_beacon_alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ConfluenceAuditLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Jira_Audit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Jira_Audit_v2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Auth0AM_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Auth0Logs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Event": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSEKSLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSS3ServerAccess": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AWSSecurityHubFindings": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AzureActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AzureDiagnostics": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "fluentbit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ADOAuditLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWApplicationRule": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWFlowTrace": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWFatFlow": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWNatRule": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWDnsQuery": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWIdpsSignature": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWInternalFqdnResolutionFailure": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWNetworkRule": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AZFWThreatIntel": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AzureMetrics": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "StorageBlobLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "StorageQueueLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "StorageTableLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "StorageFileLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BetterMTDIncidentLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BetterMTDDeviceLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BetterMTDNetflowLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BetterMTDAppLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BeyondTrustPM_ActivityAudits_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BeyondTrustPM_ClientEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BigIDDSPMCatalog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BitglassLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BitwardenEventLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BoxEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "BoxEventsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CloudGuard_SecurityEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "argsentdc_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "iocsent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CommonSecurityLog": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_dns_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_proxy_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_ip_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_cloudfirewall_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_firewall_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_dlp_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_ravpnlogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_audit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztna_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_intrusion_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztaflow_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cisco_Umbrella_fileevent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CiscoDuo_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CiscoETD_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ASimNetworkSessionLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CiscoSecureEndpointAuditLogsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CiscoSecureEndpointEventsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Syslog": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CiscoSDWANNetflow_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cloudflare_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CloudflareV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CognniIncidents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cohesity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CommvaultAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ContrastADR_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ContrastADRIncident_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Corelight": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CortexXDR_Incidents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CriblInternal_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CrowdStrikeAlerts": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ThreatIntelIndicators": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CrowdStrike_Additional_Events_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CrowdStrikeReplicatorV2": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CBSLog_AzureV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HackerViewLog_AzureV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "JBossEvent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "JuniperIDP_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ApacheHTTPServer_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tomcat_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "meraki_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VectraStream_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MarkLogicAudit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MongoDBAudit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NGINX_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OracleWebLogicServer_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PostgreSQL_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SquidProxy_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ubiquiti_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "vcenter_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZPA_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SecurityBridgeLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyberArk_AuditEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyberSixgill_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CybleVisionAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SecurityEvent": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyeraClassifications_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyeraAssets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyeraAssets_MS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyeraIssues_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyeraIdentities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASCertificatesAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASConfigurationAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASDomainIPReputationAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASOpenPortsAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASCloudWeaknessAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaASDomainIPVulnerabilityAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaBIDomainITAssetAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaBIExecutivePeopleAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaBIProductSolutionAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaBISocialHandlersAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaBIMaliciousMobileAppsAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaCompromisedAccounts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaIndicators_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaThreatActors_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaCampaigns_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaMalware_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaDBWMPhishingAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaDBWMRansomwareAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaDBWMDarkWebAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaSPESourceCodeAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaSPEConfidentialFilesAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaSPEPIIAndCIIAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaSPESocialThreatAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyfirmaVulnerabilities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CynerioEvent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cyren_Indicators_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "darktrace_model_alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "databahn_audit_logs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "databahn_alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "databahn_device_inventory_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ThreatIntelligenceIndicator": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DataminrPulse_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "datawizaserveraccess_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SecurityIncident": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DigitalShadows_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DnsEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DnsInventory": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DoppelTable_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DragosAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DruvaSecurityEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "FinanceOperationsActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Dynamics365Activity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DynatraceAttacks_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DynatraceAuditLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DynatraceProblems_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DynatraceSecurityProblems_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ElasticAgentEvent": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ErmesBrowserSecurityEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "IntegrationTable_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "IntegrationTableIncidents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ESIExchangeConfig_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ESIExchangeOnlineConfig_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ExtraHop_Detections_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "F5Telemetry_LTM_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "F5Telemetry_system_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "F5Telemetry_ASM_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "feedly_indicators_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "FireworkV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ForcepointDLPEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ForescoutEvent": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ForescoutHostProperties_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "FncEventsSuricata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "FncEventsObservation_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "FncEventsDetections_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Garrison_ULTRARemoteLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPCloudRun": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPCloudSQL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPAuditLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPLoadBalancerLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPVPCFlow": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GigamonV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "githubscanaudit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GitHubAuditLogsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPApigee": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPCDN": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPIDS": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPMonitoring": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPComputeEngine": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPDNS": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPIAM": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPNATAudit": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPNAT": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GCPResourceManager": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GKEAudit": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GoogleCloudSCC": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GoogleWorkspaceReports": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HalcyonAuthenticationEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HalcyonDnsActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HalcyonFileActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HalcyonNetworkSession_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "HalcyonProcessEvent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "net_assets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "web_assets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "W3CIISLog": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "IlumioInsights": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "IllumioInsightsSummary_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Illumio_Auditable_Events_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Illumio_Flow_Events_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ImpervaWAFCloud_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ImpervaWAFCloud": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Failed_Range_To_Ingest_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Infoblox_Failed_Indicators_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_whois_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_whitelist_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_tld_risk_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_threat_actor_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_rpz_feeds_records_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_rpz_feeds_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_nameserver_matches_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_nameserver_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_malware_analysis_v3_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_inforank_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_infoblox_web_cat_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_geo_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_dns_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_atp_threat_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_atp_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "dossier_ptr_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "InfobloxInsight_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "InfoSecAnalytics_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CyberpionActionItems_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Abuse_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_ASN_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Carrier_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Company_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_CORE_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Country_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Domain_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Location_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Location_extended_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_PLUS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Privacy_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_Privacy_extended_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_RESIDENTIAL_PROXY_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_RIRWHOIS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_RWHOIS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ASN_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_MNT_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_NET_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ORG_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_POC_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Island_Admin_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Island_User_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "jamfprotecttelemetryv2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "jamfprotectunifiedlogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "jamfprotectalerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "KeeperSecurityEventNewLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "LastPassNativePoller_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "LookoutMtdV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MailGuard365_Threats_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MailRiskEmails_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OfficeActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SecurityAlert": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CopilotActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DataverseActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SecurityAlertâ": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "McasShadowItReportingâ": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "DeviceEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "EmailEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "IdentityLogonEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CloudAppEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AlertEvidence": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SigninLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AuditLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADNonInteractiveUserSignInLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADServicePrincipalSignInLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADManagedIdentitySignInLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADProvisioningLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ADFSSignInLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADUserRiskEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADRiskyUsers": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NetworkAccessTraffic": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADRiskyServicePrincipals": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "AADServicePrincipalRiskEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ExchangeHttpProxy_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MessageTrackingLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PowerAutomateActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PowerPlatformAdminActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PowerBIActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProjectActivity": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PurviewDataSensitivityLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MicrosoftPurviewInformationProtection": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Audit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastAudit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Awareness_Performance_Details_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Awareness_SafeScore_Details_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Awareness_User_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Awareness_Watchlist_Details_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cloud_Integrated_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Seg_Cg_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Seg_Dlp_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastSIEM_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastDLP_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ttp_Url_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ttp_Attachment_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Ttp_Impersonation_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastTTPUrl_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastTTPAttachment_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MimecastTTPImpersonation_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MDBALogTable_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "MuleSoft_Cloudhub_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NCProtectUAL_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NetskopeAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertscompromisedcredentialdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsctepdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsdlpdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsmalsitedata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsmalwaredata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertspolicydata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsquarantinedata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsremediationdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertssecurityassessmentdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "alertsubadata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventsapplicationdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventsauditdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventsconnectiondata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventsincidentdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventsnetworkdata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "eventspagedata_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Netskope_WebTx_metrics_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NetskopeWebtxData_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NetskopeWebtxErrors_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NordPassEventLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ObsidianActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ObsidianThreat_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OktaSSO": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Okta_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Onapsis_Defend_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OneLoginEventsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OneLoginUsersV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OneTrustMetadataV3_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OpenSystemsZtnaLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OpenSystemsFirewallLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OpenSystemsAuthenticationLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OpenSystemsProxyLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OCI_LogsV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "OrcaAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Incidents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Endpoints_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Management_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Agent_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CortexXpanseAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PaloAltoPrismaCloudAlertV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PrismaCloudCompute_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ABAPAuditLog": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Perimeter81_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Phosphorus_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "PingOne_AuditActivitiesV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "prancer_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofpointPODMailLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofpointPODMessage_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofPointTAPMessagesDeliveredV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofPointTAPMessagesBlockedV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofPointTAPClicksPermittedV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ProofPointTAPClicksBlockedV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "QscoutAppEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "QualysKB_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "QualysHostDetectionV3_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "RadiflowEvent": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_assets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_vulnerabilities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "RSAIDPlus_AdminLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Rubrik_Anomaly_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Rubrik_Ransomware_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Rubrik_ThreatHunt_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Rubrik_Events_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ValenceAlert_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SailPointIDN_Events_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SailPointIDN_Triggers_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SalesforceServiceCloudV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Samsung_Knox_Audit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SAPBTPAuditLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SAPETDAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SAPETDInvestigations_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SAPLogServ_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "LightningTier0Nodes_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "LightningAttackPaths_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "LightningIOEResults_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOneActivities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOneAgents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOneGroups_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOneThreats_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOneAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SentinelOne_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SeraphicWebSecurity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SlackAuditV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeLogin_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeQuery_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeUserGrant_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeRoleGrant_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeLoad_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeMaterializedView_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeRoles_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeTables_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeTableStorageMetrics_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SnowflakeUsers_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SOCPrimeAuditLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Sonrai_Tickets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SophosEP_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SophosEPEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "SymantecICDx_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TacitRed_Findings_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Talon_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_Domain_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Foundation_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Details_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Communications_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_PDNS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Fingerprints_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_OpenPorts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_x509_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Details_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_PDNS_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_OpenPorts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Certs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Fingerprints_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Cymru_Scout_Account_Usage_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tenable_VM_Asset_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tenable_VM_Vuln_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tenable_VM_Compliance_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tenable_WAS_Asset_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Tenable_WAS_Vuln_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TheHiveData": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TheomAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TransmitSecurityActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TrellixEvents": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TrendMicro_XDR_WORKBENCH_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Task_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Result_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "TrendMicro_XDR_OAT_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "{{graphQueriesTableName}}": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VaronisResources_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VaronisAlerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Detections_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Audits_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Entity_Scoring_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Lockdown_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Health_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Entities_Data_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamMalwareEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamSecurityComplianceAnalyzer_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamOneTriggeredAlarms_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamAuthorizationEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamCovewareFindings_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VeeamSessions_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VersasecCmsSysLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "VersasecCmsErrorLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CarbonBlackEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CarbonBlackNotifications_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CarbonBlackAuditLogs_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "CarbonBlack_Alerts_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ASimDnsActivityLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "WindowsEvent": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "WsSecurityEvents_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "union isfuzzy=true (WizAuditLogs_CL),(WizAuditLogsV2_CL)": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ASimAuditEventLogs": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Workplace_Facebook_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "XbowAssets_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "XbowFindings_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "XbowAssessments_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZNAudit_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZNNetworkActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZNIdentityActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZNRPCActivity_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZNSegmentAuditNativePoller_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_advanced_dark_web_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_botnet_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_breaches_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_C2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_compromised_credentials_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_credit_cards_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_dark_web_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_discord_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_disruption_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_email_addresses_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_exploits_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_irc_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_malware_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_national_ids_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_phishing_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_phone_numbers_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_ransomware_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_telegram_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_threat_actors_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFox_CTI_vulnerabilities_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZeroFoxAlertPoller_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZimperiumThreatLog_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Zoom_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "ZoomV2_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "GitHubAuditLogPolling_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  },
+  "Lookout_CL": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  }
+}

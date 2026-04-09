@@ -1,0 +1,42 @@
+{
+  "DeviceTvmSoftwareEvidenceBeta": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in the service"
+      },
+      {
+        "name": "SoftwareVendor",
+        "type": "string",
+        "description": "Name of the software publisher"
+      },
+      {
+        "name": "SoftwareName",
+        "type": "string",
+        "description": "Name of the software product"
+      },
+      {
+        "name": "SoftwareVersion",
+        "type": "string",
+        "description": "Version number of the software product"
+      },
+      {
+        "name": "RegistryPaths",
+        "type": "dynamic",
+        "description": "Registry paths where evidence indicating the existence of the software on a device was detected"
+      },
+      {
+        "name": "DiskPaths",
+        "type": "dynamic",
+        "description": "Disk paths where file-level evidence indicating the existence of the software on a device was detected"
+      },
+      {
+        "name": "LastSeenTime",
+        "type": "string",
+        "description": "Date and time when the device was last seen by this service"
+      }
+    ]
+  }
+}

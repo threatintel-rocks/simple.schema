@@ -1,0 +1,6 @@
+{
+  "AZFWApplicationRule": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

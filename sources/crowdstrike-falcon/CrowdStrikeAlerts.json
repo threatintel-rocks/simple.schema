@@ -1,0 +1,6 @@
+{
+  "CrowdStrikeAlerts": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

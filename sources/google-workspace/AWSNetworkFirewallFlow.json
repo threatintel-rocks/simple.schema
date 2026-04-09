@@ -1,0 +1,6 @@
+{
+  "AWSNetworkFirewallFlow": {
+    "source": "Google Workspace",
+    "columns": []
+  }
+}

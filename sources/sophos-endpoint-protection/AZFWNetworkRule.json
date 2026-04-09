@@ -1,0 +1,6 @@
+{
+  "AZFWNetworkRule": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

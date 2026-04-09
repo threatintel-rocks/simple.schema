@@ -1,0 +1,6 @@
+{
+  "CloudAppEvents": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

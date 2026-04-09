@@ -1,0 +1,192 @@
+{
+  "AzureActivity": {
+    "source": "Sentinel Data Source Schema Reference",
+    "columns": [
+      {
+        "name": "ActivityStatus",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "ActivityStatusValue",
+        "type": "string",
+        "description": "Status of the operation in display-friendly format. Common values include Started, In Progress, Succeeded, Failed, Active, Resolved."
+      },
+      {
+        "name": "ActivitySubstatus",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "ActivitySubstatusValue",
+        "type": "string",
+        "description": "Substatus of the operation in display-friendly format. E.g. OK (HTTP Status Code: 200)."
+      },
+      {
+        "name": "Authorization",
+        "type": "string",
+        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as string. The use of Authorization_d should be preferred going forward."
+      },
+      {
+        "name": "Authorization_d",
+        "type": "dynamic",
+        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as dynamic column."
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes"
+      },
+      {
+        "name": "Caller",
+        "type": "string",
+        "description": "GUID of the caller."
+      },
+      {
+        "name": "CallerIpAddress",
+        "type": "string",
+        "description": "IP address of the user who has performed the operation UPN claim or SPN claim based on availability."
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "CategoryValue",
+        "type": "string",
+        "description": "Category of the activity log e.g. Administrative, Policy, Security."
+      },
+      {
+        "name": "Claims",
+        "type": "string",
+        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager. The use of claims_d should be preferred going forward."
+      },
+      {
+        "name": "Claims_d",
+        "type": "dynamic",
+        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager."
+      },
+      {
+        "name": "CorrelationId",
+        "type": "string",
+        "description": "Usually a GUID in the string format. Events that share a correlationId belong to the same uber action."
+      },
+      {
+        "name": "EventDataId",
+        "type": "string",
+        "description": "Unique identifier of an event."
+      },
+      {
+        "name": "EventSubmissionTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the event became available for querying."
+      },
+      {
+        "name": "Hierarchy",
+        "type": "string",
+        "description": "Management group hierarchy of the management group or subscription that event belongs to."
+      },
+      {
+        "name": "HTTPRequest",
+        "type": "string",
+        "description": "Blob describing the Http Request. Usually includes the \"clientRequestId\", \"clientIpAddress\" and \"method\" (HTTP method. For example, PUT)."
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+      },
+      {
+        "name": "Level",
+        "type": "string",
+        "description": "Level of the event. One of the following values: Critical, Error, Warning, Informational and Verbose."
+      },
+      {
+        "name": "OperationId",
+        "type": "string",
+        "description": "GUID of the operation"
+      },
+      {
+        "name": "OperationName",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "OperationNameValue",
+        "type": "string",
+        "description": "Identifier of the operation e.g. Microsoft.Storage/storageAccounts/listAccountSas/action."
+      },
+      {
+        "name": "Properties",
+        "type": "string",
+        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as string. Usage of Properties_d is recommended instead."
+      },
+      {
+        "name": "Properties_d",
+        "type": "dynamic",
+        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as dynamic column."
+      },
+      {
+        "name": "Resource",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "ResourceGroup",
+        "type": "string",
+        "description": "Resource group name of the impacted resource."
+      },
+      {
+        "name": "ResourceId",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "_ResourceId",
+        "type": "string",
+        "description": "A unique identifier for the resource that the record is associated with"
+      },
+      {
+        "name": "ResourceProvider",
+        "type": "string",
+        "description": ""
+      },
+      {
+        "name": "ResourceProviderValue",
+        "type": "string",
+        "description": "Id of the resource provider for the impacted resource - e.g. Microsoft.Storage."
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+      },
+      {
+        "name": "SubscriptionId",
+        "type": "string",
+        "description": "Subscription ID of the impacted resource."
+      },
+      {
+        "name": "_SubscriptionId",
+        "type": "string",
+        "description": "A unique identifier for the subscription that the record is associated with"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Timestamp when the event was generated by the Azure service processing the request corresponding the event."
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "AWSRoute53Resolver": {
+    "source": "Google Workspace",
+    "columns": []
+  }
+}

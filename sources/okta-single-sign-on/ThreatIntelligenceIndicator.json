@@ -1,0 +1,6 @@
+{
+  "ThreatIntelligenceIndicator": {
+    "source": "Okta Single Sign-On",
+    "columns": []
+  }
+}

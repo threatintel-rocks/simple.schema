@@ -1,0 +1,6 @@
+{
+  "AADServicePrincipalSignInLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

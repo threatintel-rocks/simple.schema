@@ -1,0 +1,6 @@
+{
+  "AWSCloudWatch": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

@@ -1,0 +1,2078 @@
+{
+  "OnePasswordEventLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ABNORMAL_THREAT_MESSAGES_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ABNORMAL_CASES_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AIShield_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AliCloudActionTrailLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AlibabaCloudVPCFlowLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AliCloud_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSCloudTrail": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSALBAccessLogsData": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSNetworkFirewallFlow": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSGuardDuty": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSVPCFlow": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSCloudWatch": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSRoute53Resolver": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSWAF": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Anvilogic_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ARGOS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Armis_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Armis_Activities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Armis_Devices_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "atlassian_beacon_alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ConfluenceAuditLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Jira_Audit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Jira_Audit_v2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Auth0AM_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Auth0Logs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Event": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSEKSLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSS3ServerAccess": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AWSSecurityHubFindings": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AzureActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AzureDiagnostics": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "fluentbit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ADOAuditLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWApplicationRule": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWFlowTrace": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWFatFlow": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWNatRule": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWDnsQuery": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWIdpsSignature": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWInternalFqdnResolutionFailure": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWNetworkRule": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AZFWThreatIntel": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AzureMetrics": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "StorageBlobLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "StorageQueueLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "StorageTableLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "StorageFileLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BetterMTDIncidentLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BetterMTDDeviceLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BetterMTDNetflowLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BetterMTDAppLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BeyondTrustPM_ActivityAudits_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BeyondTrustPM_ClientEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BigIDDSPMCatalog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BitglassLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BitwardenEventLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BoxEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "BoxEventsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CloudGuard_SecurityEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "argsentdc_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "iocsent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CommonSecurityLog": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_dns_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_proxy_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_ip_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_cloudfirewall_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_firewall_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_dlp_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_ravpnlogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_audit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztna_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_intrusion_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_ztaflow_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cisco_Umbrella_fileevent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CiscoDuo_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CiscoETD_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ASimNetworkSessionLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CiscoSecureEndpointAuditLogsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CiscoSecureEndpointEventsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Syslog": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CiscoSDWANNetflow_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cloudflare_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CloudflareV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CognniIncidents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cohesity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CommvaultAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ContrastADR_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ContrastADRIncident_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Corelight": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CortexXDR_Incidents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CriblInternal_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CrowdStrikeAlerts": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ThreatIntelIndicators": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CrowdStrike_Additional_Events_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CrowdStrikeReplicatorV2": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CBSLog_AzureV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HackerViewLog_AzureV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "JBossEvent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "JuniperIDP_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ApacheHTTPServer_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tomcat_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "meraki_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VectraStream_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MarkLogicAudit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MongoDBAudit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NGINX_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OracleWebLogicServer_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PostgreSQL_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SquidProxy_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ubiquiti_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "vcenter_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZPA_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SecurityBridgeLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyberArk_AuditEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyberSixgill_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CybleVisionAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SecurityEvent": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyeraClassifications_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyeraAssets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyeraAssets_MS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyeraIssues_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyeraIdentities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASCertificatesAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASConfigurationAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASDomainIPReputationAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASOpenPortsAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASCloudWeaknessAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaASDomainIPVulnerabilityAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaBIDomainITAssetAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaBIExecutivePeopleAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaBIProductSolutionAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaBISocialHandlersAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaBIMaliciousMobileAppsAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaCompromisedAccounts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaIndicators_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaThreatActors_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaCampaigns_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaMalware_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaDBWMPhishingAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaDBWMRansomwareAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaDBWMDarkWebAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaSPESourceCodeAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaSPEConfidentialFilesAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaSPEPIIAndCIIAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaSPESocialThreatAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyfirmaVulnerabilities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CynerioEvent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cyren_Indicators_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "darktrace_model_alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "databahn_audit_logs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "databahn_alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "databahn_device_inventory_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ThreatIntelligenceIndicator": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DataminrPulse_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "datawizaserveraccess_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SecurityIncident": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DigitalShadows_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DnsEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DnsInventory": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DoppelTable_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DragosAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DruvaSecurityEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "FinanceOperationsActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Dynamics365Activity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DynatraceAttacks_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DynatraceAuditLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DynatraceProblems_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DynatraceSecurityProblems_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ElasticAgentEvent": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ErmesBrowserSecurityEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "IntegrationTable_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "IntegrationTableIncidents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ESIExchangeConfig_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ESIExchangeOnlineConfig_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ExtraHop_Detections_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "F5Telemetry_LTM_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "F5Telemetry_system_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "F5Telemetry_ASM_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "feedly_indicators_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "FireworkV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ForcepointDLPEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ForescoutEvent": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ForescoutHostProperties_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "FncEventsSuricata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "FncEventsObservation_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "FncEventsDetections_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Garrison_ULTRARemoteLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPCloudRun": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPCloudSQL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPAuditLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPLoadBalancerLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPVPCFlow": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GigamonV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "githubscanaudit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GitHubAuditLogsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPApigee": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPCDN": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPIDS": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPMonitoring": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPComputeEngine": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPDNS": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPIAM": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPNATAudit": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPNAT": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GCPResourceManager": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GKEAudit": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GoogleCloudSCC": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GoogleWorkspaceReports": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HalcyonAuthenticationEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HalcyonDnsActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HalcyonFileActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HalcyonNetworkSession_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "HalcyonProcessEvent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "net_assets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "web_assets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "W3CIISLog": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "IlumioInsights": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "IllumioInsightsSummary_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Illumio_Auditable_Events_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Illumio_Flow_Events_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ImpervaWAFCloud_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ImpervaWAFCloud": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Failed_Range_To_Ingest_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Infoblox_Failed_Indicators_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_whois_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_whitelist_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_tld_risk_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_threat_actor_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_rpz_feeds_records_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_rpz_feeds_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_nameserver_matches_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_nameserver_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_malware_analysis_v3_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_inforank_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_infoblox_web_cat_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_geo_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_dns_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_atp_threat_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_atp_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "dossier_ptr_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "InfobloxInsight_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "InfoSecAnalytics_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CyberpionActionItems_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Abuse_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_ASN_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Carrier_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Company_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_CORE_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Country_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Domain_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Location_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Location_extended_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_PLUS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Privacy_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_Privacy_extended_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_RESIDENTIAL_PROXY_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_RIRWHOIS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_RWHOIS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ASN_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_MNT_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_NET_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_ORG_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ipinfo_WHOIS_POC_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Island_Admin_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Island_User_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "jamfprotecttelemetryv2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "jamfprotectunifiedlogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "jamfprotectalerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "KeeperSecurityEventNewLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "LastPassNativePoller_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "LookoutMtdV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MailGuard365_Threats_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MailRiskEmails_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OfficeActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SecurityAlert": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CopilotActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DataverseActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SecurityAlertâ": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "McasShadowItReportingâ": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "DeviceEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "EmailEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "IdentityLogonEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CloudAppEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AlertEvidence": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SigninLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AuditLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADNonInteractiveUserSignInLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADServicePrincipalSignInLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADManagedIdentitySignInLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADProvisioningLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ADFSSignInLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADUserRiskEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADRiskyUsers": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NetworkAccessTraffic": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADRiskyServicePrincipals": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "AADServicePrincipalRiskEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ExchangeHttpProxy_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MessageTrackingLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PowerAutomateActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PowerPlatformAdminActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PowerBIActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProjectActivity": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PurviewDataSensitivityLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MicrosoftPurviewInformationProtection": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Audit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastAudit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Awareness_Performance_Details_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Awareness_SafeScore_Details_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Awareness_User_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Awareness_Watchlist_Details_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cloud_Integrated_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Seg_Cg_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Seg_Dlp_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastSIEM_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastDLP_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ttp_Url_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ttp_Attachment_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Ttp_Impersonation_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastTTPUrl_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastTTPAttachment_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MimecastTTPImpersonation_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MDBALogTable_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "MuleSoft_Cloudhub_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NCProtectUAL_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NetskopeAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertscompromisedcredentialdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsctepdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsdlpdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsmalsitedata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsmalwaredata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertspolicydata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsquarantinedata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsremediationdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertssecurityassessmentdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "alertsubadata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventsapplicationdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventsauditdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventsconnectiondata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventsincidentdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventsnetworkdata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "eventspagedata_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Netskope_WebTx_metrics_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NetskopeWebtxData_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NetskopeWebtxErrors_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NordPassEventLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ObsidianActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ObsidianThreat_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OktaSSO": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Okta_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Onapsis_Defend_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OneLoginEventsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OneLoginUsersV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OneTrustMetadataV3_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OpenSystemsZtnaLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OpenSystemsFirewallLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OpenSystemsAuthenticationLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OpenSystemsProxyLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OCI_LogsV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "OrcaAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Incidents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Endpoints_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Management_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Audit_Agent_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CortexXpanseAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PaloAltoPrismaCloudAlertV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PrismaCloudCompute_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ABAPAuditLog": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Perimeter81_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Phosphorus_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "PingOne_AuditActivitiesV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "prancer_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofpointPODMailLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofpointPODMessage_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofPointTAPMessagesDeliveredV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofPointTAPMessagesBlockedV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofPointTAPClicksPermittedV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ProofPointTAPClicksBlockedV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "QscoutAppEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "QualysKB_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "QualysHostDetectionV3_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "RadiflowEvent": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_assets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "NexposeInsightVMCloud_vulnerabilities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "RSAIDPlus_AdminLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Rubrik_Anomaly_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Rubrik_Ransomware_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Rubrik_ThreatHunt_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Rubrik_Events_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ValenceAlert_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SailPointIDN_Events_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SailPointIDN_Triggers_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SalesforceServiceCloudV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Samsung_Knox_Audit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SAPBTPAuditLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SAPETDAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SAPETDInvestigations_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SAPLogServ_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "LightningTier0Nodes_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "LightningAttackPaths_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "LightningIOEResults_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOneActivities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOneAgents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOneGroups_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOneThreats_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOneAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SentinelOne_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SeraphicWebSecurity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SlackAuditV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeLogin_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeQuery_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeUserGrant_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeRoleGrant_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeLoad_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeMaterializedView_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeRoles_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeTables_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeTableStorageMetrics_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SnowflakeUsers_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SOCPrimeAuditLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Sonrai_Tickets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SophosEP_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SophosEPEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "SymantecICDx_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "union ASimAuditEventLogs, ASimAuthenticationEventLogs, ASimDhcpEventLogs, ASimDnsActivityLogs, ASimFileEventLogs, ASimNetworkSessionLogs, ASimProcessEventLogs, ASimRegistryEventLogs, ASimUserManagementActivityLogs, ASimWebSessionLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TacitRed_Findings_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Talon_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_Domain_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Foundation_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Details_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Communications_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_PDNS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Fingerprints_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_OpenPorts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_x509_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Details_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_PDNS_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_OpenPorts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Certs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_IP_Data_Summary_Fingerprints_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Cymru_Scout_Account_Usage_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tenable_VM_Asset_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tenable_VM_Vuln_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tenable_VM_Compliance_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tenable_WAS_Asset_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Tenable_WAS_Vuln_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TheHiveData": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TheomAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TransmitSecurityActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TrellixEvents": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TrendMicro_XDR_WORKBENCH_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Task_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TrendMicro_XDR_RCA_Result_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "TrendMicro_XDR_OAT_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "{{graphQueriesTableName}}": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VaronisResources_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VaronisAlerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Detections_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Audits_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Entity_Scoring_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Lockdown_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Health_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Entities_Data_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamMalwareEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamSecurityComplianceAnalyzer_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamOneTriggeredAlarms_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamAuthorizationEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamCovewareFindings_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VeeamSessions_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VersasecCmsSysLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "VersasecCmsErrorLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CarbonBlackEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CarbonBlackNotifications_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CarbonBlackAuditLogs_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "CarbonBlack_Alerts_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ASimDnsActivityLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "WindowsEvent": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "WsSecurityEvents_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "union isfuzzy=true (WizIssues_CL),(WizIssuesV2_CL)": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "union isfuzzy=true (WizAuditLogs_CL),(WizAuditLogsV2_CL)": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ASimAuditEventLogs": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Workplace_Facebook_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "XbowAssets_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "XbowFindings_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "XbowAssessments_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZNAudit_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZNNetworkActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZNIdentityActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZNRPCActivity_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZNSegmentAuditNativePoller_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_advanced_dark_web_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_botnet_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_breaches_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_C2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_compromised_credentials_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_credit_cards_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_dark_web_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_discord_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_disruption_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_email_addresses_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_exploits_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_irc_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_malware_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_national_ids_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_phishing_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_phone_numbers_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_ransomware_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_telegram_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_threat_actors_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFox_CTI_vulnerabilities_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZeroFoxAlertPoller_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZimperiumThreatLog_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Zoom_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "ZoomV2_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "GitHubAuditLogPolling_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  },
+  "Lookout_CL": {
+    "source": "Trend Micro Vision One",
+    "columns": []
+  }
+}

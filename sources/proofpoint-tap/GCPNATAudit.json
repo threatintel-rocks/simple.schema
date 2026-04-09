@@ -1,0 +1,6 @@
+{
+  "GCPNATAudit": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

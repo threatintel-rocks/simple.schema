@@ -1,0 +1,6 @@
+{
+  "CrowdStrike_Additional_Events_CL": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

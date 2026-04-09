@@ -1,0 +1,247 @@
+{
+  "WireData": {
+    "source": "Sentinel Data Source Schema Reference",
+    "columns": [
+      {
+        "name": "ApplicationProtocol",
+        "type": "string",
+        "description": "Type of network protocol used"
+      },
+      {
+        "name": "ApplicationServiceName",
+        "type": "string",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes"
+      },
+      {
+        "name": "Computer",
+        "type": "string",
+        "description": "Computer name where data was collected"
+      },
+      {
+        "name": "Confidence",
+        "type": "string",
+        "description": "Confidence level for Malicious IP identification. Values are 0 - 100."
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of the observed threat."
+      },
+      {
+        "name": "Direction",
+        "type": "string",
+        "description": "Inbound or outbound"
+      },
+      {
+        "name": "FirstReportedDateTime",
+        "type": "string",
+        "description": "The first time the provider reported the threat."
+      },
+      {
+        "name": "IndicatorThreatType",
+        "type": "string",
+        "description": "Threat indicator detected is one of the following values Botnet C2 CryptoMining Darknet DDos MaliciousUrl Malware Phishing Proxy PUA Watchlist."
+      },
+      {
+        "name": "IPVersion",
+        "type": "string",
+        "description": "IP version"
+      },
+      {
+        "name": "IsActive",
+        "type": "string",
+        "description": "Indicates indicators are deactivated with True or False value."
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+      },
+      {
+        "name": "LastReportedDateTime",
+        "type": "string",
+        "description": "The last time the indicator was seen by Interflow."
+      },
+      {
+        "name": "LatencyMilliseconds",
+        "type": "int",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "LatencySamplingFailureRate",
+        "type": "string",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "LatencySamplingTimeStamp",
+        "type": "datetime",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "LocalIP",
+        "type": "string",
+        "description": "IP address of the local computer"
+      },
+      {
+        "name": "LocalMAC",
+        "type": "string",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "LocalPortNumber",
+        "type": "int",
+        "description": "Local port number"
+      },
+      {
+        "name": "LocalSubnet",
+        "type": "string",
+        "description": "Subnet where data was collected"
+      },
+      {
+        "name": "MaliciousIP",
+        "type": "string",
+        "description": "IP address of a known malicious source"
+      },
+      {
+        "name": "ManagementGroupName",
+        "type": "string",
+        "description": "Name of the Operations Manager management group"
+      },
+      {
+        "name": "ProcessID",
+        "type": "int",
+        "description": "Windows process ID"
+      },
+      {
+        "name": "ProcessName",
+        "type": "string",
+        "description": "Path and file name of the process"
+      },
+      {
+        "name": "ProtocolName",
+        "type": "string",
+        "description": "Name of the network protocol used"
+      },
+      {
+        "name": "ReceivedBytes",
+        "type": "long",
+        "description": "Amount of bytes received"
+      },
+      {
+        "name": "ReceivedPackets",
+        "type": "long",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "RemoteIP",
+        "type": "string",
+        "description": "Remote IP address used by the remote computer"
+      },
+      {
+        "name": "RemoteIPCountry",
+        "type": "string",
+        "description": "Country/region of the remote IP address"
+      },
+      {
+        "name": "RemoteIPLatitude",
+        "type": "real",
+        "description": "IP latitude value"
+      },
+      {
+        "name": "RemoteIPLongitude",
+        "type": "real",
+        "description": "IP longitude value"
+      },
+      {
+        "name": "RemoteMAC",
+        "type": "string",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "RemotePortNumber",
+        "type": "int",
+        "description": "Port number used by the remote IP address"
+      },
+      {
+        "name": "_ResourceId",
+        "type": "string",
+        "description": "A unique identifier for the resource that the record is associated with"
+      },
+      {
+        "name": "SentBytes",
+        "type": "long",
+        "description": "Number of bytes sent"
+      },
+      {
+        "name": "SentPackets",
+        "type": "long",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "SequenceNumber",
+        "type": "long",
+        "description": "Hold over field from old schema - attribute not collected"
+      },
+      {
+        "name": "SessionEndTime",
+        "type": "datetime",
+        "description": "End time of session"
+      },
+      {
+        "name": "SessionID",
+        "type": "string",
+        "description": "A unique value that identifies communication session between two IP addresses"
+      },
+      {
+        "name": "SessionStartTime",
+        "type": "datetime",
+        "description": "Start time of session"
+      },
+      {
+        "name": "SessionState",
+        "type": "string",
+        "description": "Connected or disconnected"
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "Suspected malware severity"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+      },
+      {
+        "name": "_SubscriptionId",
+        "type": "string",
+        "description": "A unique identifier for the subscription that the record is associated with"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Time of the record"
+      },
+      {
+        "name": "TLPLevel",
+        "type": "string",
+        "description": "Traffic Light Protocol (TLP) Level is one of the defined values White Green Amber Red."
+      },
+      {
+        "name": "TotalBytes",
+        "type": "long",
+        "description": "Total number of bytes sent during session"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table"
+      }
+    ]
+  }
+}

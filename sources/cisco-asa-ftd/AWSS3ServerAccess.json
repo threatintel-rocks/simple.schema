@@ -1,0 +1,6 @@
+{
+  "AWSS3ServerAccess": {
+    "source": "Cisco ASA/FTD",
+    "columns": []
+  }
+}

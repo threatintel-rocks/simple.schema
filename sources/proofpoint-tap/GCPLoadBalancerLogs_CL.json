@@ -1,0 +1,6 @@
+{
+  "GCPLoadBalancerLogs_CL": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

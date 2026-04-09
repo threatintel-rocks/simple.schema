@@ -1,0 +1,6 @@
+{
+  "GKEAudit": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

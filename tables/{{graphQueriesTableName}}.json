@@ -1,0 +1,6 @@
+{
+  "{{graphQueriesTableName}}": {
+    "source": "Google Workspace",
+    "columns": []
+  }
+}

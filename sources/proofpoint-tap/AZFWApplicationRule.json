@@ -1,0 +1,6 @@
+{
+  "AZFWApplicationRule": {
+    "source": "Proofpoint TAP",
+    "columns": []
+  }
+}

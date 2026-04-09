@@ -1,0 +1,37 @@
+{
+  "ExposureGraphNodes": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "NodeId",
+        "type": "string",
+        "description": "Unique node identifier"
+      },
+      {
+        "name": "NodeLabel",
+        "type": "string",
+        "description": "Node label"
+      },
+      {
+        "name": "NodeName",
+        "type": "string",
+        "description": "Node display name"
+      },
+      {
+        "name": "Categories",
+        "type": "dynamic",
+        "description": "Categories of the node in JSON format"
+      },
+      {
+        "name": "NodeProperties",
+        "type": "dynamic",
+        "description": "Properties of the node, including insights related to the resource, such as whether the resource is exposed to the internet, or vulnerable to remote code execution. Values are JSON formatted raw data (unstructured)."
+      },
+      {
+        "name": "EntityIds",
+        "type": "dynamic",
+        "description": "All known node identifiers in JSON format"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "Syslog": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

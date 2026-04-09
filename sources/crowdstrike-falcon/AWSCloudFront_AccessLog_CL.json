@@ -1,0 +1,6 @@
+{
+  "AWSCloudFront_AccessLog_CL": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

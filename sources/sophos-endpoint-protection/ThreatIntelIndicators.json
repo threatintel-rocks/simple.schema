@@ -1,0 +1,6 @@
+{
+  "ThreatIntelIndicators": {
+    "source": "Sophos Endpoint Protection",
+    "columns": []
+  }
+}

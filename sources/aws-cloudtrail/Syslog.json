@@ -1,0 +1,6 @@
+{
+  "Syslog": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

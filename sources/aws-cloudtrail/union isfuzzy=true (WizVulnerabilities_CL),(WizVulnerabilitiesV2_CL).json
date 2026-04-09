@@ -1,0 +1,6 @@
+{
+  "union isfuzzy=true (WizVulnerabilities_CL),(WizVulnerabilitiesV2_CL)": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

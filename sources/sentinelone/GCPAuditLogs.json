@@ -1,0 +1,6 @@
+{
+  "GCPAuditLogs": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

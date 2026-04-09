@@ -1,0 +1,6 @@
+{
+  "IdentityLogonEvents": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

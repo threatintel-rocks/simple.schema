@@ -1,0 +1,6 @@
+{
+  "GCPCloudRun": {
+    "source": "SentinelOne",
+    "columns": []
+  }
+}

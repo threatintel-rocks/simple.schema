@@ -1,0 +1,6 @@
+{
+  "jamfprotectalerts_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

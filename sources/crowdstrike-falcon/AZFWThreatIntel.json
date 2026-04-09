@@ -1,0 +1,6 @@
+{
+  "AZFWThreatIntel": {
+    "source": "CrowdStrike Falcon",
+    "columns": []
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "CyfirmaASCloudWeaknessAlerts_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

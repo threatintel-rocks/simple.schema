@@ -1,0 +1,6 @@
+{
+  "PurviewDataSensitivityLogs": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}

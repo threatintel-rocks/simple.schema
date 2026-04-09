@@ -1,0 +1,6 @@
+{
+  "eventsauditdata_CL": {
+    "source": "AWS CloudTrail",
+    "columns": []
+  }
+}
