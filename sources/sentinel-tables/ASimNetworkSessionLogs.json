@@ -5,732 +5,1170 @@
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim."
+        "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstAppId",
         "type": "string",
-        "description": "The ID of the destination application, as reported by the reporting device."
+        "description": "The ID of the destination application, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstAppName",
         "type": "string",
-        "description": "The name of the destination application."
+        "description": "The name of the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstAppType",
         "type": "string",
-        "description": "The type of the destination application."
+        "description": "The type of the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstBytes",
         "type": "long",
-        "description": "The number of bytes sent from the destination to the source for the connection or session. If the event is aggregated, DstBytes is the sum over all aggregated sessions."
+        "description": "The number of bytes sent from the destination to the source for the connection or session. If the event is aggregated, DstBytes is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDescription",
         "type": "string",
-        "description": "A descriptive text associated with the destination."
+        "description": "A descriptive text associated with the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDeviceType",
         "type": "string",
-        "description": "The type of the destination device."
+        "description": "The type of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDomain",
         "type": "string",
-        "description": "The domain of the destination device."
+        "description": "The domain of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDomainType",
         "type": "string",
-        "description": "The type of DstDomain."
+        "description": "The type of DstDomain.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcId",
         "type": "string",
-        "description": "The ID of the destination device."
+        "description": "The ID of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcIdType",
         "type": "string",
-        "description": "The type of DstDvcId."
+        "description": "The type of DstDvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstFQDN",
         "type": "string",
-        "description": "The destination device hostname, including domain information when available."
+        "description": "The destination device hostname, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoCity",
         "type": "string",
-        "description": "The city associated with the destination IP address."
+        "description": "The city associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoCountry",
         "type": "string",
-        "description": "The country associated with the destination IP address."
+        "description": "The country associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoLatitude",
         "type": "real",
-        "description": "The latitude of the geographical coordinate associated with the destination IP address."
+        "description": "The latitude of the geographical coordinate associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoLongitude",
         "type": "real",
-        "description": "The longitude of the geographical coordinate associated with the destination IP address."
+        "description": "The longitude of the geographical coordinate associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoRegion",
         "type": "string",
-        "description": "The region, or state, within a country associated with the destination IP address."
+        "description": "The region, or state, within a country associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstHostname",
         "type": "string",
-        "description": "The destination device hostname, excluding domain information."
+        "description": "The destination device hostname, excluding domain information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstInterfaceGuid",
         "type": "string",
-        "description": "The GUID of the network interface used on the destination device."
+        "description": "The GUID of the network interface used on the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstInterfaceName",
         "type": "string",
-        "description": "The network interface used for the connection or session by the destination device."
+        "description": "The network interface used for the connection or session by the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstIpAddr",
         "type": "string",
-        "description": "The IP address of the connection or session destination."
+        "description": "The IP address of the connection or session destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstMacAddr",
         "type": "string",
-        "description": "The MAC address of the network interface used for the connection or session by the destination device."
+        "description": "The MAC address of the network interface used for the connection or session by the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstNatIpAddr",
         "type": "string",
-        "description": "The DstNatIpAddr represents either of: The original address of the destination device if network address translation was used or the IP address used by the intermediary device for communication with the source."
+        "description": "The DstNatIpAddr represents either of: The original address of the destination device if network address translation was used or the IP address used by the intermediary device for communication with the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstNatPortNumber",
         "type": "int",
-        "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the source."
+        "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstOriginalUserType",
         "type": "string",
-        "description": "The original destination user type, if provided by the source."
+        "description": "The original destination user type, if provided by the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstPackets",
         "type": "long",
-        "description": "The number of packets sent from the destination to the source for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, DstPackets is the sum over all aggregated sessions."
+        "description": "The number of packets sent from the destination to the source for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, DstPackets is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstPortNumber",
         "type": "int",
-        "description": "The destination IP port."
+        "description": "The destination IP port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstSubscriptionId",
         "type": "string",
-        "description": "The cloud platform subscription ID the destination device belongs to. DstSubscriptionId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform subscription ID the destination device belongs to. DstSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstUserId",
         "type": "string",
-        "description": "A machine-readable, alphanumeric, unique representation of the destination user."
+        "description": "A machine-readable, alphanumeric, unique representation of the destination user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstUserIdType",
         "type": "string",
-        "description": "The type of the ID stored in the DstUserId field."
+        "description": "The type of the ID stored in the DstUserId field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstUsername",
         "type": "string",
-        "description": "The destination username, including domain information when available. Use the simple form only if domain information isn't available."
+        "description": "The destination username, including domain information when available. Use the simple form only if domain information isn't available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstUsernameType",
         "type": "string",
-        "description": "Specifies the type of the username stored in the DstUsername field."
+        "description": "Specifies the type of the username stored in the DstUsername field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstUserType",
         "type": "string",
-        "description": "The type of destination user."
+        "description": "The type of destination user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstVlanId",
         "type": "string",
-        "description": "The VLAN ID related to the destination device."
+        "description": "The VLAN ID related to the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstZone",
         "type": "string",
-        "description": "The network zone of the destination, as defined by the reporting device."
+        "description": "The network zone of the destination, as defined by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Dvc",
         "type": "string",
-        "description": "A unique identifier of the device on which the event occurred or which reported the event."
+        "description": "A unique identifier of the device on which the event occurred or which reported the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcAction",
         "type": "string",
-        "description": "The action taken on the network session."
+        "description": "The action taken on the network session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDescription",
         "type": "string",
-        "description": "A descriptive text associated with the device. For example: Primary Domain Controller."
+        "description": "A descriptive text associated with the device. For example: Primary Domain Controller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDomain",
         "type": "string",
-        "description": "The domain of the device reporting the event."
+        "description": "The domain of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDomainType",
         "type": "string",
-        "description": "The type of DvcDomain. Possible values include 'Windows' and 'FQDN'."
+        "description": "The type of DvcDomain. Possible values include 'Windows' and 'FQDN'.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcFQDN",
         "type": "string",
-        "description": "The hostname of the device on which the event occurred or which reported the event."
+        "description": "The hostname of the device on which the event occurred or which reported the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcHostname",
         "type": "string",
-        "description": "The hostname of the device reporting the event."
+        "description": "The hostname of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcId",
         "type": "string",
-        "description": "The unique ID of the device on which the event occurred or which reported the event."
+        "description": "The unique ID of the device on which the event occurred or which reported the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcIdType",
         "type": "string",
-        "description": "The type of DvcId."
+        "description": "The type of DvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcInboundInterface",
         "type": "string",
-        "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the source device."
+        "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcInterface",
         "type": "string",
-        "description": "The network interface on which data was captured. This field is typically relevant to network related activity which is captured by an intermediate or tap device."
+        "description": "The network interface on which data was captured. This field is typically relevant to network related activity which is captured by an intermediate or tap device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcIpAddr",
         "type": "string",
-        "description": "The IP Address of the device reporting the event."
+        "description": "The IP Address of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcMacAddr",
         "type": "string",
-        "description": "The MAC address of the device on which the event occurred or which reported the event. Example: 00:1B:44:11:3A:B7."
+        "description": "The MAC address of the device on which the event occurred or which reported the event. Example: 00:1B:44:11:3A:B7.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOriginalAction",
         "type": "string",
-        "description": "The original DvcAction as provided by the reporting device."
+        "description": "The original DvcAction as provided by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOs",
         "type": "string",
-        "description": "The operating system running on the device reporting the event."
+        "description": "The operating system running on the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOsVersion",
         "type": "string",
-        "description": "The version of the operating system on the device reporting the event."
+        "description": "The version of the operating system on the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOutboundInterface",
         "type": "string",
-        "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the destination device."
+        "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcSubscriptionId",
         "type": "string",
-        "description": "The cloud platform subscription ID the device belongs to. DvcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform subscription ID the device belongs to. DvcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcZone",
         "type": "string",
-        "description": "The network on which the event occurred or which reported the event. The zone is defined by the reporting device."
+        "description": "The network on which the event occurred or which reported the event. The zone is defined by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventCount",
         "type": "int",
-        "description": "This value is used when the source supports aggregation, and a single record may represent multiple events."
+        "description": "This value is used when the source supports aggregation, and a single record may represent multiple events.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventEndTime",
         "type": "datetime",
-        "description": "The time in which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field."
+        "description": "The time in which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventMessage",
         "type": "string",
-        "description": "A general message or description."
+        "description": "A general message or description.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalResultDetails",
         "type": "string",
-        "description": "The original result details provided by the source. This value is used to derive EventResultDetails, which should have only one of the values documented for each schema."
+        "description": "The original result details provided by the source. This value is used to derive EventResultDetails, which should have only one of the values documented for each schema.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalSeverity",
         "type": "string",
-        "description": "The original severity as provided by the reporting device. This value is used to derive EventSeverity."
+        "description": "The original severity as provided by the reporting device. This value is used to derive EventSeverity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalSubType",
         "type": "string",
-        "description": "The original event subtype or ID, if provided by the source. For example, this field will be used to store the original Windows logon type. This value is used to derive EventSubType, which should have only one of the values documented for each schema."
+        "description": "The original event subtype or ID, if provided by the source. For example, this field will be used to store the original Windows logon type. This value is used to derive EventSubType, which should have only one of the values documented for each schema.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalType",
         "type": "string",
-        "description": "The original event type or ID, if provided by the source."
+        "description": "The original event type or ID, if provided by the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalUid",
         "type": "string",
-        "description": "A unique ID of the original record, if provided by the source."
+        "description": "A unique ID of the original record, if provided by the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventProduct",
         "type": "string",
-        "description": "The product generating the event."
+        "description": "The product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventProductVersion",
         "type": "string",
-        "description": "The version of the product generating the event."
+        "description": "The version of the product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventReportUrl",
         "type": "string",
-        "description": "A URL provided in the event for a resource that provides more information about the event."
+        "description": "A URL provided in the event for a resource that provides more information about the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventResult",
         "type": "string",
-        "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field."
+        "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventResultDetails",
         "type": "string",
-        "description": "Reason or details for the result reported in the EventResult field."
+        "description": "Reason or details for the result reported in the EventResult field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSchemaVersion",
         "type": "string",
-        "description": "The version of the schema."
+        "description": "The version of the schema.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSeverity",
         "type": "string",
-        "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High."
+        "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventStartTime",
         "type": "datetime",
-        "description": "The time in which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field."
+        "description": "The time in which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSubType",
         "type": "string",
-        "description": "Additional description of the event type, if applicable."
+        "description": "Additional description of the event type, if applicable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventType",
         "type": "string",
-        "description": "The operation reported by the record."
+        "description": "The operation reported by the record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventVendor",
         "type": "string",
-        "description": "The vendor of the product generating the event."
+        "description": "The vendor of the product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkApplicationProtocol",
         "type": "string",
-        "description": "The application layer protocol used by the connection or session."
+        "description": "The application layer protocol used by the connection or session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkBytes",
         "type": "long",
-        "description": "Number of bytes sent in both directions. If both BytesReceived and BytesSent exist, BytesTotal should equal their sum. If the event is aggregated, NetworkBytes is the sum over all aggregated sessions."
+        "description": "Number of bytes sent in both directions. If both BytesReceived and BytesSent exist, BytesTotal should equal their sum. If the event is aggregated, NetworkBytes is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkConnectionHistory",
         "type": "string",
-        "description": "TCP flags and other potential IP header information."
+        "description": "TCP flags and other potential IP header information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDirection",
         "type": "string",
-        "description": "The direction of the connection or session."
+        "description": "The direction of the connection or session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDuration",
         "type": "int",
-        "description": "The amount of time, in milliseconds, for the completion of the network session or connection."
+        "description": "The amount of time, in milliseconds, for the completion of the network session or connection.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkIcmpCode",
         "type": "int",
-        "description": "For an ICMP message, the ICMP message type numeric value as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections."
+        "description": "For an ICMP message, the ICMP message type numeric value as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkIcmpType",
         "type": "string",
-        "description": "For an ICMP message, the ICMP message type text representation, as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections."
+        "description": "For an ICMP message, the ICMP message type text representation, as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkPackets",
         "type": "long",
-        "description": "The number of packets sent in both directions. If both PacketsReceived and PacketsSent exist, BytesTotal should equal their sum. The meaning of a packet is defined by the reporting device. If the event is aggregated, NetworkPackets is the sum over all aggregated sessions."
+        "description": "The number of packets sent in both directions. If both PacketsReceived and PacketsSent exist, BytesTotal should equal their sum. The meaning of a packet is defined by the reporting device. If the event is aggregated, NetworkPackets is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocol",
         "type": "string",
-        "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment, which is typically TCP, UDP, or ICMP."
+        "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment, which is typically TCP, UDP, or ICMP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocolVersion",
         "type": "string",
-        "description": "The version of NetworkProtocol."
+        "description": "The version of NetworkProtocol.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkRuleName",
         "type": "string",
-        "description": "The name or ID of the rule by which DvcAction was decided upon."
+        "description": "The name or ID of the rule by which DvcAction was decided upon.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkRuleNumber",
         "type": "int",
-        "description": "The number of the rule by which DvcAction was decided upon."
+        "description": "The number of the rule by which DvcAction was decided upon.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkSessionId",
         "type": "string",
-        "description": "The session identifier as reported by the reporting device."
+        "description": "The session identifier as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcAppId",
         "type": "string",
-        "description": "The ID of the source application, as reported by the reporting device."
+        "description": "The ID of the source application, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcAppName",
         "type": "string",
-        "description": "The name of the source application."
+        "description": "The name of the source application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcAppType",
         "type": "string",
-        "description": "The type of the source application."
+        "description": "The type of the source application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcBytes",
         "type": "long",
-        "description": "The number of bytes sent from the source to the destination for the connection or session. If the event is aggregated, SrcBytes is the sum over all aggregated sessions."
+        "description": "The number of bytes sent from the source to the destination for the connection or session. If the event is aggregated, SrcBytes is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDescription",
         "type": "string",
-        "description": "A descriptive text associated with the source."
+        "description": "A descriptive text associated with the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDeviceType",
         "type": "string",
-        "description": "The type of the source device."
+        "description": "The type of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDomain",
         "type": "string",
-        "description": "The domain of the source device."
+        "description": "The domain of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDomainType",
         "type": "string",
-        "description": "The type of SrcDomain."
+        "description": "The type of SrcDomain.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcId",
         "type": "string",
-        "description": "The ID of the source device."
+        "description": "The ID of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcIdType",
         "type": "string",
-        "description": "The type of SrcDvcId."
+        "description": "The type of SrcDvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcFQDN",
         "type": "string",
-        "description": "The source device hostname, including domain information when available."
+        "description": "The source device hostname, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoCity",
         "type": "string",
-        "description": "The city associated with the source IP address."
+        "description": "The city associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoCountry",
         "type": "string",
-        "description": "The country associated with the source IP address."
+        "description": "The country associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoLatitude",
         "type": "real",
-        "description": "The latitude of the geographical coordinate associated with the source IP address."
+        "description": "The latitude of the geographical coordinate associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoLongitude",
         "type": "real",
-        "description": "The longitude of the geographical coordinate associated with the source IP address."
+        "description": "The longitude of the geographical coordinate associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoRegion",
         "type": "string",
-        "description": "The region within a country associated with the source IP address."
+        "description": "The region within a country associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcHostname",
         "type": "string",
-        "description": "The source device hostname, excluding domain information. If no device name is available, may store the relevant IP address."
+        "description": "The source device hostname, excluding domain information. If no device name is available, may store the relevant IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInterfaceGuid",
         "type": "string",
-        "description": "The GUID of the network interface used on the source device."
+        "description": "The GUID of the network interface used on the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInterfaceName",
         "type": "string",
-        "description": "The network interface used for the connection or session by the source device."
+        "description": "The network interface used for the connection or session by the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIpAddr",
         "type": "string",
-        "description": "The IP address from which the connection or session originated."
+        "description": "The IP address from which the connection or session originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcMacAddr",
         "type": "string",
-        "description": "The MAC address of the network interface from which the connection or session originated."
+        "description": "The MAC address of the network interface from which the connection or session originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcNatIpAddr",
         "type": "string",
-        "description": "The SrcNatIpAddr represents either of: The original address of the source device if network address translation was used or the IP address used by the intermediary device for communication with the destination."
+        "description": "The SrcNatIpAddr represents either of: The original address of the source device if network address translation was used or the IP address used by the intermediary device for communication with the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcNatPortNumber",
         "type": "int",
-        "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the destination."
+        "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcOriginalUserType",
         "type": "string",
-        "description": "The original destination user type, if provided by the by the reporting device."
+        "description": "The original destination user type, if provided by the by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPackets",
         "type": "long",
-        "description": "The number of packets sent from the source to the destination for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, SrcPackets is the sum over all aggregated sessions."
+        "description": "The number of packets sent from the source to the destination for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, SrcPackets is the sum over all aggregated sessions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPortNumber",
         "type": "int",
-        "description": "The IP port from which the connection originated. Might not be relevant for a session comprising multiple connections."
+        "description": "The IP port from which the connection originated. Might not be relevant for a session comprising multiple connections.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcSubscriptionId",
         "type": "string",
-        "description": "The cloud platform subscription ID the source device belongs to. SrcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform subscription ID the source device belongs to. SrcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserId",
         "type": "string",
-        "description": "A machine-readable, alphanumeric, unique representation of the source user."
+        "description": "A machine-readable, alphanumeric, unique representation of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserIdType",
         "type": "string",
-        "description": "The type of the ID stored in the SrcUserId field."
+        "description": "The type of the ID stored in the SrcUserId field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUsername",
         "type": "string",
-        "description": "The source username, including domain information when available."
+        "description": "The source username, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUsernameType",
         "type": "string",
-        "description": "Specifies the type of the username stored in the SrcUsername field."
+        "description": "Specifies the type of the username stored in the SrcUsername field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserType",
         "type": "string",
-        "description": "The type of the source user."
+        "description": "The type of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcVlanId",
         "type": "string",
-        "description": "The VLAN ID related to the source device."
+        "description": "The VLAN ID related to the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcZone",
         "type": "string",
-        "description": "The network zone of the source, as defined by the reporting device."
+        "description": "The network zone of the source, as defined by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsAck",
         "type": "bool",
-        "description": "The TCP ACK flag reported. The acknowledgment flag is used to acknowledge the successful receipt of a packet. As we can see from the diagram above, the receiver sends an ACK as well as a SYN in the second step of the three way handshake process to tell the sender that it received its initial packet."
+        "description": "The TCP ACK flag reported. The acknowledgment flag is used to acknowledge the successful receipt of a packet. As we can see from the diagram above, the receiver sends an ACK as well as a SYN in the second step of the three way handshake process to tell the sender that it received its initial packet.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsFin",
         "type": "bool",
-        "description": "The TCP FIN flag reported. The finished flag means there is no more data from the sender. Therefore, it is used in the last packet sent from the sender."
+        "description": "The TCP FIN flag reported. The finished flag means there is no more data from the sender. Therefore, it is used in the last packet sent from the sender.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsPsh",
         "type": "bool",
-        "description": "The TCP PSH flag reported. The push flag is somewhat similar to the URG flag and tells the receiver to process these packets as they are received instead of buffering them."
+        "description": "The TCP PSH flag reported. The push flag is somewhat similar to the URG flag and tells the receiver to process these packets as they are received instead of buffering them.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsRst",
         "type": "bool",
-        "description": "The TCP RST flag reported. The reset flag gets sent from the receiver to the sender when a packet is sent to a particular host that was not expecting it."
+        "description": "The TCP RST flag reported. The reset flag gets sent from the receiver to the sender when a packet is sent to a particular host that was not expecting it.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsSyn",
         "type": "bool",
-        "description": "The TCP SYN flag reported. The synchronisation flag is used as a first step in establishing a three way handshake between two hosts. Only the first packet from both the sender and receiver should have this flag set."
+        "description": "The TCP SYN flag reported. The synchronisation flag is used as a first step in establishing a three way handshake between two hosts. Only the first packet from both the sender and receiver should have this flag set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlagsUrg",
         "type": "bool",
-        "description": "The TCP URG flag reported. The urgent flag is used to notify the receiver to process the urgent packets before processing all other packets. The receiver will be notified when all known urgent data has been received. See RFC 6093 for more details."
+        "description": "The TCP URG flag reported. The urgent flag is used to notify the receiver to process the urgent packets before processing all other packets. The receiver will be notified when all known urgent data has been received. See RFC 6093 for more details.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatCategory",
         "type": "string",
-        "description": "The category of the threat or malware identified in the network session."
+        "description": "The category of the threat or malware identified in the network session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatConfidence",
         "type": "int",
-        "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100."
+        "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatField",
         "type": "string",
-        "description": "The field for which a threat was identified. The value is either SrcIpAddr, DstIpAddr, Domain, or DnsResponseName."
+        "description": "The field for which a threat was identified. The value is either SrcIpAddr, DstIpAddr, Domain, or DnsResponseName.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatFirstReportedTime",
         "type": "datetime",
-        "description": "The first time the IP address or domain were identified as a threat."
+        "description": "The first time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatId",
         "type": "string",
-        "description": "The ID of the threat or malware identified in the network session."
+        "description": "The ID of the threat or malware identified in the network session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatIpAddr",
         "type": "string",
-        "description": "An IP address for which a threat was identified. The field ThreatField contains the name of the field ThreatIpAddr represents."
+        "description": "An IP address for which a threat was identified. The field ThreatField contains the name of the field ThreatIpAddr represents.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatIsActive",
         "type": "bool",
-        "description": "True ID the threat identified is considered an active threat."
+        "description": "True ID the threat identified is considered an active threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatLastReportedTime",
         "type": "datetime",
-        "description": "The last time the IP address or domain were identified as a threat."
+        "description": "The last time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatName",
         "type": "string",
-        "description": "The name of the threat or malware identified in the network session."
+        "description": "The name of the threat or malware identified in the network session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatOriginalConfidence",
         "type": "string",
-        "description": "The original confidence level of the threat identified, as reported by the reporting device."
+        "description": "The original confidence level of the threat identified, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatOriginalRiskLevel",
         "type": "string",
-        "description": "The risk level as reported by the reporting device."
+        "description": "The risk level as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatRiskLevel",
         "type": "int",
-        "description": "The risk level associated with the session. The level is a number between 0 to 100."
+        "description": "The risk level associated with the session. The level is a number between 0 to 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated."
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

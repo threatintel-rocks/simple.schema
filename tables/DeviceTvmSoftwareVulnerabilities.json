@@ -5,67 +5,106 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7."
+        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSVersion",
         "type": "string",
-        "description": "Version of the operating system running on the device"
+        "description": "Version of the operating system running on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSArchitecture",
         "type": "string",
-        "description": "Architecture of the operating system running on the device"
+        "description": "Architecture of the operating system running on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVendor",
         "type": "string",
-        "description": "Name of the software publisher"
+        "description": "Name of the software publisher",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareName",
         "type": "string",
-        "description": "Name of the software product"
+        "description": "Name of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVersion",
         "type": "string",
-        "description": "Version number of the software product"
+        "description": "Version number of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CveId",
         "type": "string",
-        "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system"
+        "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "VulnerabilitySeverityLevel",
         "type": "string",
-        "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape"
+        "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RecommendedSecurityUpdate",
         "type": "string",
-        "description": "Name or description of the security update provided by the software publisher to address the vulnerability"
+        "description": "Name or description of the security update provided by the software publisher to address the vulnerability",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RecommendedSecurityUpdateId",
         "type": "string",
-        "description": "Identifier of the applicable security updates or identifier for the corresponding guidance or knowledge base (KB) articles"
+        "description": "Identifier of the applicable security updates or identifier for the corresponding guidance or knowledge base (KB) articles",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CveTags",
         "type": "dynamic",
-        "description": "Array of tags relevant to the CVE; example: ZeroDay, NoSecurityUpdate"
+        "description": "Array of tags relevant to the CVE; example: ZeroDay, NoSecurityUpdate",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

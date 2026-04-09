@@ -5,72 +5,114 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResource",
         "type": "dynamic",
-        "description": "Information about the monitored resource associated with the log entry, such as VM instance, database, etc."
+        "description": "Information about the monitored resource associated with the log entry, such as VM instance, database, etc.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique identifier for the log entry used to prevent duplication."
+        "description": "A unique identifier for the log entry used to prevent duplication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Labels",
         "type": "dynamic",
-        "description": "A set of key-value pairs that provide additional metadata about the log entry."
+        "description": "A set of key-value pairs that provide additional metadata about the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The full resource name of the log to which this log entry belongs."
+        "description": "The full resource name of the log to which this log entry belongs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "dynamic",
-        "description": "Information about an operation associated with the log entry, such as an audit trail or trace context."
+        "description": "Information about an operation associated with the log entry, such as an audit trail or trace context.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProtoPayload",
         "type": "dynamic",
-        "description": "The structured payload of the log entry, typically in protocol buffer format; contains detailed event data."
+        "description": "The structured payload of the log entry, typically in protocol buffer format; contains detailed event data.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "The time the log entry was received by the logging system."
+        "description": "The time the log entry was received by the logging system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "The severity level of the log entry (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL)."
+        "description": "The severity level of the log entry (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The actual time the event described by the log entry occurred."
+        "description": "The actual time the event described by the log entry occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

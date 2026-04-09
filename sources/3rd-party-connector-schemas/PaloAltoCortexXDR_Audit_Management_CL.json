@@ -1,0 +1,160 @@
+{
+  "PaloAltoCortexXDR_Audit_Management_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the record was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditId",
+        "type": "int",
+        "description": "Unique identifier for the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditOwnerName",
+        "type": "string",
+        "description": "Name of the owner who initiated the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditOwnerEmail",
+        "type": "string",
+        "description": "Email address of the audit owner",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditAssetJSON",
+        "type": "dynamic",
+        "description": "JSON object containing the audit asset details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditAssetNames",
+        "type": "string",
+        "description": "Names of the assets involved in the audit",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditHostName",
+        "type": "string",
+        "description": "Host name associated with the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditResult",
+        "type": "string",
+        "description": "Result of the audit event (e.g., SUCCESS)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditReason",
+        "type": "string",
+        "description": "Reason for the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditDescription",
+        "type": "string",
+        "description": "Description of the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditEntity",
+        "type": "string",
+        "description": "Entity type associated with the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditEntitySubtype",
+        "type": "string",
+        "description": "Subtype of the audit entity (e.g., Login)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditSessionId",
+        "type": "int",
+        "description": "Session ID related to the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditCaseId",
+        "type": "int",
+        "description": "Case ID related to the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditInsertTime",
+        "type": "datetime",
+        "description": "Time when the audit record was inserted into the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditSeverity",
+        "type": "string",
+        "description": "The Severity of the Audit log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditSourceIp",
+        "type": "string",
+        "description": "The source Ip of the audit log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditUserAgent",
+        "type": "string",
+        "description": "The User Agent of the audit user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditUserRoles",
+        "type": "dynamic",
+        "description": "The roles of the audit user.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cortex XDR"
+  }
+}

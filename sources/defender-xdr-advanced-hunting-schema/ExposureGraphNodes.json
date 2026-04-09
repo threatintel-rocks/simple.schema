@@ -5,32 +5,50 @@
       {
         "name": "NodeId",
         "type": "string",
-        "description": "Unique node identifier"
+        "description": "Unique node identifier",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "NodeLabel",
         "type": "string",
-        "description": "Node label"
+        "description": "Node label",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "NodeName",
         "type": "string",
-        "description": "Node display name"
+        "description": "Node display name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Categories",
         "type": "dynamic",
-        "description": "Categories of the node in JSON format"
+        "description": "Categories of the node in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "NodeProperties",
         "type": "dynamic",
-        "description": "Properties of the node, including insights related to the resource, such as whether the resource is exposed to the internet, or vulnerable to remote code execution. Values are JSON formatted raw data (unstructured)."
+        "description": "Properties of the node, including insights related to the resource, such as whether the resource is exposed to the internet, or vulnerable to remote code execution. Values are JSON formatted raw data (unstructured).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EntityIds",
         "type": "dynamic",
-        "description": "All known node identifiers in JSON format"
+        "description": "All known node identifiers in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

@@ -5,122 +5,194 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnssecOkBit",
         "type": "bool",
-        "description": "A flag indicating that the resolver supports DNSSEC records."
+        "description": "A flag indicating that the resolver supports DNSSEC records.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EDNS0BufferSize",
         "type": "int",
-        "description": "Client's EDNS0 buffer size. Specifies the maximum packet size allowed in responses in bytes."
+        "description": "Client's EDNS0 buffer size. Specifies the maximum packet size allowed in responses in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ErrorMessage",
         "type": "string",
-        "description": "Description of the error returned to the client. Empty if request is successful."
+        "description": "Description of the error returned to the client. Empty if request is successful.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ErrorNumber",
         "type": "int",
-        "description": "Error number matching the returned response code."
+        "description": "Error number matching the returned response code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Protocol used to send the DNS query. For example: TCP, UDP."
+        "description": "Protocol used to send the DNS query. For example: TCP, UDP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryClass",
         "type": "string",
-        "description": "DNS query's query class."
+        "description": "DNS query's query class.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryId",
         "type": "int",
-        "description": "DNS query's query ID."
+        "description": "DNS query's query ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryName",
         "type": "string",
-        "description": "DNS query's name to resolve."
+        "description": "DNS query's name to resolve.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryType",
         "type": "string",
-        "description": "DNS query's query type."
+        "description": "DNS query's query type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestDurationSecs",
         "type": "real",
-        "description": "Duration of the DNS request from the time it arrived to the firewall and until a response was sent to the client."
+        "description": "Duration of the DNS request from the time it arrived to the firewall and until a response was sent to the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSize",
         "type": "int",
-        "description": "The size of the DNS request in bytes."
+        "description": "The size of the DNS request in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseCode",
         "type": "string",
-        "description": "DNS reponse code."
+        "description": "DNS reponse code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseFlags",
         "type": "string",
-        "description": "DNS reponse flags, comma separated."
+        "description": "DNS reponse flags, comma separated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseSize",
         "type": "int",
-        "description": "DNS reponse syze in bytes."
+        "description": "DNS reponse syze in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "DNS query's source IP address."
+        "description": "DNS query's source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "DNS query's source Port."
+        "description": "DNS query's source Port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

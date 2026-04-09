@@ -5,402 +5,642 @@
       {
         "name": "ActionSource",
         "type": "string",
-        "description": "The source of the label action."
+        "description": "The source of the label action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActionSourceDetail",
         "type": "string",
-        "description": "More details about the source of the label action."
+        "description": "More details about the source of the label action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppAccessContext",
         "type": "dynamic",
-        "description": "The application context for the user or service principal that performed the action."
+        "description": "The application context for the user or service principal that performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "The application that where the activity happened."
+        "description": "The application that where the activity happened.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ApplicationMode",
         "type": "string",
-        "description": "The label application mode, how the label was applied."
+        "description": "The label application mode, how the label was applied.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AutoSensitivityLabelPolicyInfo",
         "type": "dynamic",
-        "description": "Auto Sensitivity Label Policy Info"
+        "description": "Auto Sensitivity Label Policy Info",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientIP",
         "type": "string",
-        "description": "The IP address of the device that was used when the activity was logged. The IP address is displayed in either an IPv4 or IPv6 address format."
+        "description": "The IP address of the device that was used when the activity was logged. The IP address is displayed in either an IPv4 or IPv6 address format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Common",
         "type": "dynamic",
-        "description": "Azure Information Protection - common event data."
+        "description": "Azure Information Protection - common event data.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionMatch",
         "type": "dynamic",
-        "description": "The condition match that triggered the auto labeling."
+        "description": "The condition match that triggered the auto labeling.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ContentType",
         "type": "string",
-        "description": "Content type."
+        "description": "Content type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Correlation ID."
+        "description": "Correlation ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CurrentProtectionType",
         "type": "dynamic",
-        "description": "Current protection event information."
+        "description": "Current protection event information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CurrentProtectionTypeName",
         "type": "string",
-        "description": "The type of protection applied."
+        "description": "The type of protection applied.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DataState",
         "type": "string",
-        "description": "Azure Information Protection - data state."
+        "description": "Azure Information Protection - data state.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "The device on which the activity happened."
+        "description": "The device on which the activity happened.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailInfo",
         "type": "dynamic",
-        "description": "The information required when the internalTarget is an email."
+        "description": "The information required when the internalTarget is an email.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExchangeMetaData",
         "type": "dynamic",
-        "description": "Exchange auto labeling metadata."
+        "description": "Exchange auto labeling metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExecutionRuleId",
         "type": "string",
-        "description": "The ID of the rule that was executed."
+        "description": "The ID of the rule that was executed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExecutionRuleName",
         "type": "string",
-        "description": "The name of the rule that was executed."
+        "description": "The name of the rule that was executed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExecutionRuleVersion",
         "type": "string",
-        "description": "The version of the rule that was executed."
+        "description": "The version of the rule that was executed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique identifier of an audit record."
+        "description": "Unique identifier of an audit record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IrmContentId",
         "type": "string",
-        "description": "The unique ID used for identifying the encrypted document after the operation is complete."
+        "description": "The unique ID used for identifying the encrypted document after the operation is complete.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsViewableByExternalUsers",
         "type": "bool",
-        "description": "Is viewable by external users."
+        "description": "Is viewable by external users.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemCreationTime",
         "type": "datetime",
-        "description": "The date and time the item was created."
+        "description": "The date and time the item was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemLastModifiedTime",
         "type": "datetime",
-        "description": "The date and time the item was last modified."
+        "description": "The date and time the item was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemName",
         "type": "string",
-        "description": "The item name."
+        "description": "The item name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemSize",
         "type": "string",
-        "description": "The item size."
+        "description": "The item size.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JustificationText",
         "type": "string",
-        "description": "The justification to be provided, when configured by the admin in the sensitivity label policy, only when the sensitivity label is downgraded or removed by the user."
+        "description": "The justification to be provided, when configured by the admin in the sensitivity label policy, only when the sensitivity label is downgraded or removed by the user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelAction",
         "type": "string",
-        "description": "The action applied by the label."
+        "description": "The action applied by the label.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelAppliedDateTime",
         "type": "datetime",
-        "description": "The date and time the label was applied."
+        "description": "The date and time the label was applied.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelEventType",
         "type": "string",
-        "description": "The label operation."
+        "description": "The label operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelName",
         "type": "string",
-        "description": "The label name applied to the item."
+        "description": "The label name applied to the item.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelVersion",
         "type": "string",
-        "description": "The label version applied by the auto labeling policy."
+        "description": "The label version applied by the auto labeling policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MachineName",
         "type": "string",
-        "description": "The machine name."
+        "description": "The machine name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MgtRuleId",
         "type": "string",
-        "description": "Management rule ID."
+        "description": "Management rule ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ObjectId",
         "type": "string",
-        "description": "For SharePoint and OneDrive for Business activity, the full path name of the file or folder accessed by the user. For Exchange admin audit logging, the name of the object that was modified by the cmdlet."
+        "description": "For SharePoint and OneDrive for Business activity, the full path name of the file or folder accessed by the user. For Exchange admin audit logging, the name of the object that was modified by the cmdlet.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OldSensitivityLabelId",
         "type": "string",
-        "description": "The identifier of the sensitivity label previously applied to the document before the operation to change/remove the label was triggered."
+        "description": "The identifier of the sensitivity label previously applied to the document before the operation to change/remove the label was triggered.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OldSensitivityLabelOwnerEmail",
         "type": "string",
-        "description": "The email address of the owner of the old sensitivity label."
+        "description": "The email address of the owner of the old sensitivity label.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "string",
-        "description": "The name of the user or admin activity."
+        "description": "The name of the user or admin activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OrganizationId",
         "type": "string",
-        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization, regardless of the Office 365 service in which it occurs."
+        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization, regardless of the Office 365 service in which it occurs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OverriddenActions",
         "type": "dynamic",
-        "description": "Actions that were overridden by the rule actions."
+        "description": "Actions that were overridden by the rule actions.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OverRideReason",
         "type": "string",
-        "description": "The reason the sensitivity label was overridden."
+        "description": "The reason the sensitivity label was overridden.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OverRideType",
         "type": "string",
-        "description": "Override type."
+        "description": "Override type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Platform",
         "type": "string",
-        "description": "The platform on which the activity happened."
+        "description": "The platform on which the activity happened.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyId",
         "type": "string",
-        "description": "Policy ID."
+        "description": "Policy ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyName",
         "type": "string",
-        "description": "Policy name."
+        "description": "Policy name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyVersion",
         "type": "string",
-        "description": "Policy version."
+        "description": "Policy version.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PreviousProtectionType",
         "type": "dynamic",
-        "description": "Previous protection event information."
+        "description": "Previous protection event information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PreviousProtectionTypeName",
         "type": "string",
-        "description": "Previous protection type."
+        "description": "Previous protection type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProtectionEventData",
         "type": "dynamic",
-        "description": "Azure Information Protection - protection event data."
+        "description": "Azure Information Protection - protection event data.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProtectionEventTypeName",
         "type": "string",
-        "description": "Protection event type name."
+        "description": "Protection event type name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Receivers",
         "type": "dynamic",
-        "description": "The email addresses of the receivers."
+        "description": "The email addresses of the receivers.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordType",
         "type": "int",
-        "description": "The type of operation indicated by the record."
+        "description": "The type of operation indicated by the record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordTypeName",
         "type": "string",
-        "description": "The record type name."
+        "description": "The record type name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultStatus",
         "type": "string",
-        "description": "Indicates whether the action (specified in the Operation property) was successful or not. Possible values are Succeeded, PartiallySucceeded, or Failed. For Exchange admin activity, the value is either True or False."
+        "description": "Indicates whether the action (specified in the Operation property) was successful or not. Possible values are Succeeded, PartiallySucceeded, or Failed. For Exchange admin activity, the value is either True or False.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleActions",
         "type": "dynamic",
-        "description": "Actions defined by the rules."
+        "description": "Actions defined by the rules.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleMode",
         "type": "string",
-        "description": "The current mode of the rule."
+        "description": "The current mode of the rule.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Scope",
         "type": "string",
-        "description": "Was this event created by a hosted O365 service or an on-premises server."
+        "description": "Was this event created by a hosted O365 service or an on-premises server.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ScopedLocationId",
         "type": "string",
-        "description": "The address that triggered the policy match."
+        "description": "The address that triggered the policy match.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Sender",
         "type": "string",
-        "description": "The email address of the sender."
+        "description": "The email address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitiveInfoDetectionIsIncluded",
         "type": "bool",
-        "description": "Determines if sensitive info detection is included."
+        "description": "Determines if sensitive info detection is included.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitiveInfoTypeData",
         "type": "dynamic",
-        "description": "Azure Information Protection - sensitive information types."
+        "description": "Azure Information Protection - sensitive information types.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelEventFailureData",
         "type": "dynamic",
-        "description": "Sensitivity Label Event Failure Data"
+        "description": "Sensitivity Label Event Failure Data",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelId",
         "type": "string",
-        "description": "The identifier for the sensitivity label recommended, as per the policy that was matched based on the contents of the document."
+        "description": "The identifier for the sensitivity label recommended, as per the policy that was matched based on the contents of the document.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelOwnerEmail",
         "type": "string",
-        "description": "The email address of the owner of the sensitivity label."
+        "description": "The email address of the owner of the sensitivity label.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelPolicyId",
         "type": "string",
-        "description": "The identifier for the sensitivity labeling policy that was matched based on the content of the document."
+        "description": "The identifier for the sensitivity labeling policy that was matched based on the content of the document.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "The severity of the auto label policy match."
+        "description": "The severity of the auto label policy match.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SharePointMetaData",
         "type": "dynamic",
-        "description": "SharePoint auto labeling metadata."
+        "description": "SharePoint auto labeling metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetLocation",
         "type": "string",
-        "description": "The location of the document with respect to the user' device."
+        "description": "The location of the document with respect to the user' device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time when the user performed the activity."
+        "description": "The date and time when the user performed the activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged."
+        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserKey",
         "type": "string",
-        "description": "An alternative ID for the user identified in the UserId property. This property is populated with the passport unique ID (PUID) for events performed by users in SharePoint, OneDrive for Business, and Exchange."
+        "description": "An alternative ID for the user identified in the UserId property. This property is populated with the passport unique ID (PUID) for events performed by users in SharePoint, OneDrive for Business, and Exchange.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserType",
         "type": "string",
-        "description": "The type of user that performed the operation."
+        "description": "The type of user that performed the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Workload",
         "type": "string",
-        "description": "The Office 365 service where the activity occurred."
+        "description": "The Office 365 service where the activity occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WorkLoadItemId",
         "type": "string",
-        "description": "The workload item id."
+        "description": "The workload item id.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

@@ -1,0 +1,256 @@
+{
+  "MailRiskEventEmails_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "int",
+        "description": "The unique identifier for the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageId",
+        "type": "string",
+        "description": "The message identifier of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "The subject of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FromEmail",
+        "type": "string",
+        "description": "The email address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FromName",
+        "type": "string",
+        "description": "The name of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReplyTo",
+        "type": "string",
+        "description": "The reply-to email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginatingIP",
+        "type": "string",
+        "description": "The originating IP address of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SizeBytes",
+        "type": "int",
+        "description": "The size of the email in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SpamScore",
+        "type": "int",
+        "description": "The spam score assigned to the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SPF",
+        "type": "string",
+        "description": "The SPF (Sender Policy Framework) result for the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Risk",
+        "type": "string",
+        "description": "The risk level assigned to the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "The risk category of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskSource",
+        "type": "string",
+        "description": "The source of the risk assessment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportedRisk",
+        "type": "int",
+        "description": "The reported risk score for the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReporterDomain",
+        "type": "string",
+        "description": "The domain of the reporter.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyId",
+        "type": "int",
+        "description": "The unique identifier for the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedbackRequested",
+        "type": "bool",
+        "description": "Indicates if feedback was requested for the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedbackProvided",
+        "type": "bool",
+        "description": "Indicates if feedback was provided for the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentStatus",
+        "type": "string",
+        "description": "The content status of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinksCount",
+        "type": "int",
+        "description": "The number of links in the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentsCount",
+        "type": "int",
+        "description": "The number of attachments in the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SentAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the email was sent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the email was reported.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssessedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the email was assessed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CheckedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the email was checked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Links",
+        "type": "dynamic",
+        "description": "The links contained in the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attachments",
+        "type": "dynamic",
+        "description": "The attachments contained in the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Headers",
+        "type": "dynamic",
+        "description": "The headers of the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assessments",
+        "type": "dynamic",
+        "description": "The assessments related to the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "MailRisk"
+  }
+}

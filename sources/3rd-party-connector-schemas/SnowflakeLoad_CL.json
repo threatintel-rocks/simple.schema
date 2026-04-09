@@ -1,0 +1,24 @@
+{
+  "SnowflakeLoad_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Snowflake"
+  }
+}

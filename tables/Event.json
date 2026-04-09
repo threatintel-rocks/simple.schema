@@ -5,112 +5,178 @@
       {
         "name": "AzureDeploymentID",
         "type": "string",
-        "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage."
+        "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Computer",
         "type": "string",
-        "description": "Name of the computer that the event was collected from."
+        "description": "Name of the computer that the event was collected from.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventCategory",
         "type": "int",
-        "description": "Category of the event."
+        "description": "Category of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventData",
         "type": "string",
-        "description": "All event data in raw format."
+        "description": "All event data in raw format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventID",
         "type": "int",
-        "description": "Number of the event."
+        "description": "Number of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventLevel",
         "type": "int",
-        "description": "Severity of the event in numeric form."
+        "description": "Severity of the event in numeric form.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventLevelName",
         "type": "string",
-        "description": "Severity of the event in text form."
+        "description": "Severity of the event in text form.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventLog",
         "type": "string",
-        "description": "Name of the event log that the event was collected from."
+        "description": "Name of the event log that the event was collected from.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ManagementGroupName",
         "type": "string",
-        "description": "Name of the management group for System Center Operations Manager agents. For other agents this value is AOI-<workspace ID>"
+        "description": "Name of the management group for System Center Operations Manager agents. For other agents this value is AOI-<workspace ID>",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Message",
         "type": "string",
-        "description": "Event message for the different Languages. The language is defined by the LCID attribute."
+        "description": "Event message for the different Languages. The language is defined by the LCID attribute.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ParameterXml",
         "type": "string",
-        "description": "Event parameter values in XML format."
+        "description": "Event parameter values in XML format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RenderedDescription",
         "type": "string",
-        "description": "Event description with parameter values."
+        "description": "Event description with parameter values.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Role",
         "type": "string",
-        "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage."
+        "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Source",
         "type": "string",
-        "description": "Source of the event."
+        "description": "Source of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Date and time the record was created."
+        "description": "Date and time the record was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserName",
         "type": "string",
-        "description": "User name of the account that logged the event."
+        "description": "User name of the account that logged the event.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

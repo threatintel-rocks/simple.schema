@@ -5,132 +5,210 @@
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "The type specifc fields that Sentinel adds. Contains the TLPLevel: white, green, amber, or red."
+        "description": "The type specifc fields that Sentinel adds. Contains the TLPLevel: white, green, amber, or red.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AzureTenantId",
         "type": "string",
-        "description": "The tenant that submitted the indicator."
+        "description": "The tenant that submitted the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Confidence",
         "type": "int",
-        "description": "The confidence that the creator has in the correctness of their data. The value must be a number in the range of 0-100."
+        "description": "The confidence that the creator has in the correctness of their data. The value must be a number in the range of 0-100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Created",
         "type": "datetime",
-        "description": "The date when the indicator was created."
+        "description": "The date when the indicator was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Data",
         "type": "dynamic",
-        "description": "All object properties, formatted according to the STIX specification (https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.pdf)."
+        "description": "All object properties, formatted according to the STIX specification (https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.pdf).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "A value that uniquely identifies the indicator STIX object. This value is usable with Sentinel APIs."
+        "description": "A value that uniquely identifies the indicator STIX object. This value is usable with Sentinel APIs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsActive",
         "type": "bool",
-        "description": "A value that specifies if an indicator is active and valid for detections."
+        "description": "A value that specifies if an indicator is active and valid for detections.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsDeleted",
         "type": "bool",
-        "description": "A value that indicates whether the data was deleted from Sentinel or not."
+        "description": "A value that indicates whether the data was deleted from Sentinel or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastUpdateMethod",
         "type": "string",
-        "description": "The component that last updated the indicator."
+        "description": "The component that last updated the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Modified",
         "type": "datetime",
-        "description": "The date when the indicator was modified."
+        "description": "The date when the indicator was modified.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ObservableKey",
         "type": "string",
-        "description": "The entire left-hand side of an equality comparison from the pattern."
+        "description": "The entire left-hand side of an equality comparison from the pattern.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ObservableValue",
         "type": "string",
-        "description": "The entire right-hand side of an equality comparison from the pattern."
+        "description": "The entire right-hand side of an equality comparison from the pattern.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Pattern",
         "type": "string",
-        "description": "The detection pattern for this indicator MAY be expressed as a STIX pattern."
+        "description": "The detection pattern for this indicator MAY be expressed as a STIX pattern.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Revoked",
         "type": "bool",
-        "description": "A value that specifies whether the indicator was revoked."
+        "description": "A value that specifies whether the indicator was revoked.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tags",
         "type": "string",
-        "description": "Sentinel defined tags for the indicator."
+        "description": "Sentinel defined tags for the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time of indicator ingestion."
+        "description": "The time of indicator ingestion.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ValidFrom",
         "type": "datetime",
-        "description": "The time from which this indicator is considered a valid indicator of the behaviors it is related or represents."
+        "description": "The time from which this indicator is considered a valid indicator of the behaviors it is related or represents.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ValidUntil",
         "type": "datetime",
-        "description": "The time at which this indicator should no longer be considered a valid indicator of the bahviors it is related to or represents."
+        "description": "The time at which this indicator should no longer be considered a valid indicator of the bahviors it is related to or represents.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WorkspaceId",
         "type": "string",
-        "description": "The workspace that submitted the indicator."
+        "description": "The workspace that submitted the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

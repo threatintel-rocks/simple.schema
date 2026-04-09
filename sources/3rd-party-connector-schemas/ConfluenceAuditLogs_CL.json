@@ -1,0 +1,248 @@
+{
+  "ConfluenceAuditLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventVendor",
+        "type": "string",
+        "description": "The vendor of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventProduct",
+        "type": "string",
+        "description": "The product of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorUsername",
+        "type": "string",
+        "description": "The username of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorAccountId",
+        "type": "string",
+        "description": "The account ID of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorType",
+        "type": "string",
+        "description": "The type of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorDisplayName",
+        "type": "string",
+        "description": "The display name of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorIsExternalCollaborator",
+        "type": "boolean",
+        "description": "Indicates whether the author is an external collaborator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorUserKey",
+        "type": "string",
+        "description": "The user key of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorAccountType",
+        "type": "string",
+        "description": "The account type of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorPublicName",
+        "type": "string",
+        "description": "The public name of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorExternalCollaborator",
+        "type": "boolean",
+        "description": "Indicates whether the author is an external collaborator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteAddress",
+        "type": "string",
+        "description": "The remote address of the author.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationDate",
+        "type": "long",
+        "description": "The creation date of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "string",
+        "description": "The summary of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "The description of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "The category of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysAdmin",
+        "type": "boolean",
+        "description": "Indicates whether the author is a system administrator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SuperAdmin",
+        "type": "boolean",
+        "description": "Indicates whether the author is a super administrator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AffectedObjectName",
+        "type": "string",
+        "description": "The name of the affected object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AffectedObjectObjectType",
+        "type": "string",
+        "description": "The type of the affected object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChangedValues",
+        "type": "dynamic",
+        "description": "The changed values of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssociatedObjects",
+        "type": "dynamic",
+        "description": "The associated objects of the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentity",
+        "type": "string",
+        "description": "The identity of the user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcUserName",
+        "type": "string",
+        "description": "The source username.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstUserSid",
+        "type": "string",
+        "description": "The destination user SID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "The source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCreationTime",
+        "type": "long",
+        "description": "The creation time of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventMessage",
+        "type": "string",
+        "description": "The message of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCategoryType",
+        "type": "string",
+        "description": "The category type of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AtlassianConfluenceAudit"
+  }
+}

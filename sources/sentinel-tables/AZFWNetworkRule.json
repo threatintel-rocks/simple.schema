@@ -5,97 +5,154 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "Action taken by the firewall following the match with this Network Rule. For example: Firewall may Allow/Deny this specific packet."
+        "description": "Action taken by the firewall following the match with this Network Rule. For example: Firewall may Allow/Deny this specific packet.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActionReason",
         "type": "string",
-        "description": "When no rule is triggered for a packet, this field contains the reason for the action performed by the firewall. For example: a packet dropped because no rule matched will showDefault Action."
+        "description": "When no rule is triggered for a packet, this field contains the reason for the action performed by the firewall. For example: a packet dropped because no rule matched will showDefault Action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationIp",
         "type": "string",
-        "description": "Packet's destination IP address."
+        "description": "Packet's destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationPort",
         "type": "int",
-        "description": "Packet's destination port."
+        "description": "Packet's destination port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Policy",
         "type": "string",
-        "description": "Name of the policy in which the triggered rule resides."
+        "description": "Name of the policy in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Packet's network protocol. For example: UDP, TCP."
+        "description": "Packet's network protocol. For example: UDP, TCP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rule",
         "type": "string",
-        "description": "Name of the triggered rule."
+        "description": "Name of the triggered rule.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollection",
         "type": "string",
-        "description": "Name of the rule collection in which the triggered rule resides."
+        "description": "Name of the rule collection in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollectionGroup",
         "type": "string",
-        "description": "Name of the rule collection group in which the triggered rule resides."
+        "description": "Name of the rule collection group in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "Packet's source IP address."
+        "description": "Packet's source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "Packet's source port."
+        "description": "Packet's source port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

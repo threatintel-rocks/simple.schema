@@ -5,182 +5,290 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "The terminating action taken by AWS WAF (ALLOW, BLOCK, CAPTCHA, or Challenge)."
+        "description": "The terminating action taken by AWS WAF (ALLOW, BLOCK, CAPTCHA, or Challenge).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Args",
         "type": "string",
-        "description": "The query string parameters of the request."
+        "description": "The query string parameters of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CaptchaResponse",
         "type": "dynamic",
-        "description": "Status of the CAPTCHA action for the request."
+        "description": "Status of the CAPTCHA action for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChallengeResponse",
         "type": "dynamic",
-        "description": "Status of the security challenge for the request."
+        "description": "Status of the security challenge for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientIp",
         "type": "string",
-        "description": "IP address of the client making the request."
+        "description": "IP address of the client making the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Country",
         "type": "string",
-        "description": "Country of origin for the request."
+        "description": "Country of origin for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExcludedRules",
         "type": "dynamic",
-        "description": "Rules excluded from evaluation in the rule group."
+        "description": "Rules excluded from evaluation in the rule group.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FormatVersion",
         "type": "string",
-        "description": "Version of the AWS WAF log format."
+        "description": "Version of the AWS WAF log format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Headers",
         "type": "dynamic",
-        "description": "Headers included in the HTTP request."
+        "description": "Headers included in the HTTP request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpMethod",
         "type": "string",
-        "description": "The HTTP method (GET, POST, etc.) of the request."
+        "description": "The HTTP method (GET, POST, etc.) of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequest",
         "type": "dynamic",
-        "description": "Metadata about the HTTP request."
+        "description": "Metadata about the HTTP request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpSourceId",
         "type": "string",
-        "description": "ID of the associated resource (e.g., CloudFront distribution, Load Balancer)."
+        "description": "ID of the associated resource (e.g., CloudFront distribution, Load Balancer).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpSourceName",
         "type": "string",
-        "description": "Source of the request (e.g., CF, APIGW, ALB)."
+        "description": "Source of the request (e.g., CF, APIGW, ALB).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpVersion",
         "type": "string",
-        "description": "HTTP version used in the request."
+        "description": "HTTP version used in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Ja3Fingerprint",
         "type": "string",
-        "description": "JA3 fingerprint of the TLS Client Hello."
+        "description": "JA3 fingerprint of the TLS Client Hello.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Labels",
         "type": "dynamic",
-        "description": "Labels applied to the request by rules."
+        "description": "Labels applied to the request by rules.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NonTerminatingMatchingRules",
         "type": "dynamic",
-        "description": "List of rules that matched but didn't terminate the request."
+        "description": "List of rules that matched but didn't terminate the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OversizeFields",
         "type": "dynamic",
-        "description": "Fields in the request that exceeded AWS WAF inspection limits."
+        "description": "Fields in the request that exceeded AWS WAF inspection limits.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RateBasedRuleList",
         "type": "dynamic",
-        "description": "List of rate-based rules applied to the request."
+        "description": "List of rate-based rules applied to the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestHeadersInserted",
         "type": "dynamic",
-        "description": "Headers inserted for custom request handling."
+        "description": "Headers inserted for custom request handling.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "Request ID for the network request."
+        "description": "Request ID for the network request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseCodeSent",
         "type": "int",
-        "description": "HTTP response code sent to the client."
+        "description": "HTTP response code sent to the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleGroupId",
         "type": "string",
-        "description": "ID of the rule group that matched."
+        "description": "ID of the rule group that matched.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleGroupList",
         "type": "dynamic",
-        "description": "List of rule groups that acted on the request."
+        "description": "List of rule groups that acted on the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TerminatingRule",
         "type": "dynamic",
-        "description": "The rule that terminated the request. If this is present, it contains action, ruleId, ruleMatchDetails, and any additional information provided for each rule varies according factors such as the rule configuration, rule match type, and details of the match."
+        "description": "The rule that terminated the request. If this is present, it contains action, ruleId, ruleMatchDetails, and any additional information provided for each rule varies according factors such as the rule configuration, rule match type, and details of the match.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TerminatingRuleId",
         "type": "string",
-        "description": "ID of the network rule that matched."
+        "description": "ID of the network rule that matched.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TerminatingRuleMatchDetails",
         "type": "dynamic",
-        "description": "Details of the rule that terminated the request."
+        "description": "Details of the rule that terminated the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TerminatingRuleType",
         "type": "string",
-        "description": "Type of rule that terminated the request."
+        "description": "Type of rule that terminated the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp when the log was processed."
+        "description": "Timestamp when the log was processed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Uri",
         "type": "string",
-        "description": "The URI of the request."
+        "description": "The URI of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WebAclId",
         "type": "string",
-        "description": "The GUID of the web ACL applied to the request."
+        "description": "The GUID of the web ACL applied to the request.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

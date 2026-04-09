@@ -5,62 +5,98 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResource",
         "type": "dynamic",
-        "description": "The monitored resource associated with the metric (e.g., VM instance, GKE cluster), includes resource type and labels"
+        "description": "The monitored resource associated with the metric (e.g., VM instance, GKE cluster), includes resource type and labels",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetricKind",
         "type": "string",
-        "description": "The type of metric: GAUGE (instant value), DELTA (change over time), or CUMULATIVE (accumulated value)"
+        "description": "The type of metric: GAUGE (instant value), DELTA (change over time), or CUMULATIVE (accumulated value)",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetricLabels",
         "type": "dynamic",
-        "description": "Key-value pairs that identify the characteristics of the metric (e.g., instance ID, region, etc.)"
+        "description": "Key-value pairs that identify the characteristics of the metric (e.g., instance ID, region, etc.)",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetricType",
         "type": "string",
-        "description": "The full path of the metric type being monitored (e.g., 'compute.googleapis.com/instance/cpu/utilization')"
+        "description": "The full path of the metric type being monitored (e.g., 'compute.googleapis.com/instance/cpu/utilization')",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Points",
         "type": "dynamic",
-        "description": "A list of time series data points that contain values and timestamps for the metric"
+        "description": "A list of time series data points that contain values and timestamps for the metric",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the metric or log entry was generated at the source, representing the actual occurrence time of the data point."
+        "description": "The timestamp when the metric or log entry was generated at the source, representing the actual occurrence time of the data point.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ValueType",
         "type": "string",
-        "description": "The type of value recorded: INT64, DOUBLE, BOOL, STRING, or DISTRIBUTION"
+        "description": "The type of value recorded: INT64, DOUBLE, BOOL, STRING, or DISTRIBUTION",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

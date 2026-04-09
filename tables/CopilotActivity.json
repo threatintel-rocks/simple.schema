@@ -5,122 +5,194 @@
       {
         "name": "ActorName",
         "type": "string",
-        "description": "User principal name or email address."
+        "description": "User principal name or email address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActorUserId",
         "type": "string",
-        "description": "Internal user key or GUID."
+        "description": "Internal user key or GUID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActorUserType",
         "type": "string",
-        "description": "Type of user (e.g., Regular, Admin, System)."
+        "description": "Type of user (e.g., Regular, Admin, System).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AgentId",
         "type": "string",
-        "description": "The version number or version ID of the agent involved."
+        "description": "The version number or version ID of the agent involved.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AgentName",
         "type": "string",
-        "description": "A friendly readable name of the agent."
+        "description": "A friendly readable name of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AIModelName",
         "type": "string",
-        "description": "Name of the AI model used (for extensibility)."
+        "description": "Name of the AI model used (for extensibility).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AIModelVersion",
         "type": "string",
-        "description": "Version of the AI model used."
+        "description": "Version of the AI model used.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppHost",
         "type": "string",
-        "description": "Application that hosts copilot."
+        "description": "Application that hosts copilot.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppIdentity",
         "type": "string",
-        "description": "Identity of the application hosting the copilot interaction."
+        "description": "Identity of the application hosting the copilot interaction.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientRegion",
         "type": "string",
-        "description": "Region of the client."
+        "description": "Region of the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LLMEventData",
         "type": "dynamic",
-        "description": "Parsed LLM event data (for copilot different RecordTypes)."
+        "description": "Parsed LLM event data (for copilot different RecordTypes).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogVersion",
         "type": "string",
-        "description": "Version of the LLM log format."
+        "description": "Version of the LLM log format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OrganizationId",
         "type": "string",
-        "description": "Organization GUID."
+        "description": "Organization GUID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordId",
         "type": "string",
-        "description": "Unique identifier for the audit record."
+        "description": "Unique identifier for the audit record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordType",
         "type": "string",
-        "description": "Normalized record type name (e.g., CopilotInteraction, UpdateCopilotSettings)."
+        "description": "Normalized record type name (e.g., CopilotInteraction, UpdateCopilotSettings).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIpAddr",
         "type": "string",
-        "description": "IP address of the client."
+        "description": "IP address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp of the audit event."
+        "description": "Timestamp of the audit event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Version",
         "type": "string",
-        "description": "Version of the audit schema or event."
+        "description": "Version of the audit schema or event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Workload",
         "type": "string",
-        "description": "The workload or product (e.g., Copilot, AzureOpenAI)."
+        "description": "The workload or product (e.g., Copilot, AzureOpenAI).",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

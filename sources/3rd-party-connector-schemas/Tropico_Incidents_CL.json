@@ -1,0 +1,88 @@
+{
+  "Tropico_Incidents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentName",
+        "type": "string",
+        "description": "Incident title",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentSeverity",
+        "type": "string",
+        "description": "Severity (High/Medium/Low)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Status (Active/Resolved)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Incident description",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Source IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTime",
+        "type": "datetime",
+        "description": "Session start time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "Session end time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProviderName",
+        "type": "string",
+        "description": "Provider name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalData",
+        "type": "dynamic",
+        "description": "Full OCSF data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tropico"
+  }
+}

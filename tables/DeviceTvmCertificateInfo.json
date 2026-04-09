@@ -5,72 +5,114 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Thumbprint",
         "type": "string",
-        "description": "Unique identifier for the certificate"
+        "description": "Unique identifier for the certificate",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Path",
         "type": "string",
-        "description": "The location of the certificate"
+        "description": "The location of the certificate",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SerialNumber",
         "type": "string",
-        "description": "Unique identifier for the certificate within a certificate authority's systems"
+        "description": "Unique identifier for the certificate within a certificate authority's systems",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IssuedTo",
         "type": "dynamic",
-        "description": "Entity that a certificate belongs to; can be a device, an individual, or an organization"
+        "description": "Entity that a certificate belongs to; can be a device, an individual, or an organization",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IssuedBy",
         "type": "dynamic",
-        "description": "Entity that verified the information and signed the certificate"
+        "description": "Entity that verified the information and signed the certificate",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FriendlyName",
         "type": "string",
-        "description": "Easy-to-understand version of a certificate's title"
+        "description": "Easy-to-understand version of a certificate's title",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SignatureAlgorithm",
         "type": "string",
-        "description": "Hashing algorithm and encryption algorithm used"
+        "description": "Hashing algorithm and encryption algorithm used",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KeySize",
         "type": "string",
-        "description": "Size of the key used in the signature algorithm"
+        "description": "Size of the key used in the signature algorithm",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExpirationDate",
         "type": "string",
-        "description": "The date and time beyond which the certificate is no longer valid"
+        "description": "The date and time beyond which the certificate is no longer valid",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IssueDate",
         "type": "string",
-        "description": "The earliest date and time when the certificate became valid"
+        "description": "The earliest date and time when the certificate became valid",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SubjectType",
         "type": "string",
-        "description": "Indicates if the holder of the certificate is a CA or end entity"
+        "description": "Indicates if the holder of the certificate is a CA or end entity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KeyUsage",
         "type": "string",
-        "description": "The valid cryptographic uses of the certificate's public key"
+        "description": "The valid cryptographic uses of the certificate's public key",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtendedKeyUsage",
         "type": "string",
-        "description": "Other valid uses for the certificate"
+        "description": "Other valid uses for the certificate",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

@@ -1,0 +1,400 @@
+{
+  "Island_UserEvents_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "guid",
+        "description": "Unique event identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IslandTenantId",
+        "type": "string",
+        "description": "Island tenant identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "User identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "guid",
+        "description": "Device identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceDomains",
+        "type": "dynamic",
+        "description": "Device domain memberships.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientEventId",
+        "type": "guid",
+        "description": "Client event identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "User display name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "User email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Audit event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verdict",
+        "type": "string",
+        "description": "Policy verdict.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VerdictReason",
+        "type": "string",
+        "description": "Reason for the verdict.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedDate",
+        "type": "datetime",
+        "description": "When the event was processed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TopLevelUrl",
+        "type": "string",
+        "description": "Top level URL accessed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Country",
+        "type": "string",
+        "description": "Country name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "Region or state.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrlWebCategories",
+        "type": "dynamic",
+        "description": "Web categories of the URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaasApplicationName",
+        "type": "string",
+        "description": "SaaS application name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaasApplicationCategory",
+        "type": "string",
+        "description": "SaaS application category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrlWebReputation",
+        "type": "int",
+        "description": "Web reputation score of the URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrlReputationLevel",
+        "type": "string",
+        "description": "URL reputation level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TabId",
+        "type": "string",
+        "description": "Tab identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "Browser session identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "Policy rule identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleName",
+        "type": "string",
+        "description": "Policy rule name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScreenshotFileName",
+        "type": "string",
+        "description": "Screenshot file name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScreenshotUrl",
+        "type": "string",
+        "description": "Screenshot URL if captured.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Keystrokes",
+        "type": "boolean",
+        "description": "Whether keystrokes were captured.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Additional event details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Incognito",
+        "type": "boolean",
+        "description": "Whether the event occurred in incognito mode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubmittedUrl",
+        "type": "string",
+        "description": "Submitted URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "Source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublicIp",
+        "type": "string",
+        "description": "Public IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineName",
+        "type": "string",
+        "description": "Machine/computer name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchedDevicePosture",
+        "type": "dynamic",
+        "description": "Matched device posture details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicePostureMatchingDetails",
+        "type": "dynamic",
+        "description": "Device posture matching details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryCode",
+        "type": "string",
+        "description": "ISO country code.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WindowId",
+        "type": "string",
+        "description": "Window identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsIslandPrivateAccess",
+        "type": "boolean",
+        "description": "Whether this is Island Private Access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ShortTopLevelUrl",
+        "type": "string",
+        "description": "Short top level URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WebsiteTopLevelUrl",
+        "type": "string",
+        "description": "Website top level URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FrameUrl",
+        "type": "string",
+        "description": "Frame URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompatibilityMode",
+        "type": "boolean",
+        "description": "Whether browser compatibility mode was active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsUserName",
+        "type": "string",
+        "description": "Operating system username.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "Machine identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsPlatform",
+        "type": "string",
+        "description": "Operating system platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaasApplicationId",
+        "type": "guid",
+        "description": "SaaS application identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LineageIds",
+        "type": "dynamic",
+        "description": "Lineage identifiers linking related audit events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Origin",
+        "type": "string",
+        "description": "Origin of the audit event.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Island"
+  }
+}

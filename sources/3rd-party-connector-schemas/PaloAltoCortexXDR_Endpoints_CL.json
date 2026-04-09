@@ -1,0 +1,88 @@
+{
+  "PaloAltoCortexXDR_Endpoints_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "Unique identifier for the Cortex XDR agent installed on the endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentStatus",
+        "type": "string",
+        "description": "Current status of the Cortex XDR agent (e.g., active, inactive, disconnected).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationalStatus",
+        "type": "string",
+        "description": "Operational state of the endpoint (e.g., online, offline).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "Name of the host machine where the Cortex XDR agent is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentType",
+        "type": "string",
+        "description": "Type of Cortex XDR agent (e.g., Windows, macOS, Linux).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "dynamic",
+        "description": "IP address of the host machine, stored as a dynamic object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "Timestamp of when the agent was last seen active, in Unix epoch format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags or labels associated with the endpoint, stored as a dynamic object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Users",
+        "type": "dynamic",
+        "description": "List of users associated with the endpoint, stored as a dynamic object.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cortex XDR"
+  }
+}

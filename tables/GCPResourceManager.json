@@ -5,492 +5,786 @@
       {
         "name": "AuthenticationInfoPrincipalEmail",
         "type": "string",
-        "description": "The email address of the authenticated principal making the request."
+        "description": "The email address of the authenticated principal making the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationInfoPrincipalSubject",
         "type": "string",
-        "description": "The unique subject identifier for the principal (useful for federated identities)."
+        "description": "The unique subject identifier for the principal (useful for federated identities).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationInfoServiceAccountKeyName",
         "type": "string",
-        "description": "The resource name of the service account key used to authenticate the request."
+        "description": "The resource name of the service account key used to authenticate the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthorizationInfo",
         "type": "string",
-        "description": "Details on the authorization checks performed, including the permissions evaluated."
+        "description": "Details on the authorization checks performed, including the permissions evaluated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceName",
         "type": "string",
-        "description": "The name of the resource that the operation is acting on."
+        "description": "The name of the resource that the operation is acting on.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "The type of resource involved in the operation (e.g., project, folder, organization)."
+        "description": "The type of resource involved in the operation (e.g., project, folder, organization).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertID",
         "type": "string",
-        "description": "A unique ID for the log entry used for deduplication."
+        "description": "A unique ID for the log entry used for deduplication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The full resource name of the log (e.g., projects/[PROJECT_ID]/logs/[LOG_ID])."
+        "description": "The full resource name of the log (e.g., projects/[PROJECT_ID]/logs/[LOG_ID]).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataParentDeltaDestinationParentId",
         "type": "string",
-        "description": "The destination parent ID when a resource moves between parents (e.g., folder or org)."
+        "description": "The destination parent ID when a resource moves between parents (e.g., folder or org).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataParentDeltaDestinationParentType",
         "type": "string",
-        "description": "The type of destination parent (e.g., folder, organization)."
+        "description": "The type of destination parent (e.g., folder, organization).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataParentDeltaSourceParentId",
         "type": "string",
-        "description": "The original parent ID of the resource before the move."
+        "description": "The original parent ID of the resource before the move.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataParentDeltaSourceParentType",
         "type": "string",
-        "description": "The type of source parent (e.g., folder, organization)."
+        "description": "The type of source parent (e.g., folder, organization).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataType",
         "type": "string",
-        "description": "The type of metadata associated with the log entry."
+        "description": "The type of metadata associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MethodName",
         "type": "string",
-        "description": "The API method that was called (e.g., google.cloud.resourcemanager.v3.Projects.CreateProject)."
+        "description": "The API method that was called (e.g., google.cloud.resourcemanager.v3.Projects.CreateProject).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NumResponseItems",
         "type": "string",
-        "description": "The number of items returned in the response, if applicable."
+        "description": "The number of items returned in the response, if applicable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationFirst",
         "type": "bool",
-        "description": "Indicates whether this is the first log entry for a long-running operation."
+        "description": "Indicates whether this is the first log entry for a long-running operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationID",
         "type": "string",
-        "description": "An identifier for a long-running operation shared across related log entries."
+        "description": "An identifier for a long-running operation shared across related log entries.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationLast",
         "type": "bool",
-        "description": "Indicates whether this is the last log entry for a long-running operation."
+        "description": "Indicates whether this is the last log entry for a long-running operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationProducer",
         "type": "string",
-        "description": "The name of the producer of the operation (e.g., the GCP service executing the operation)."
+        "description": "The name of the producer of the operation (e.g., the GCP service executing the operation).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "The type of the log payload (e.g., protoPayload, textPayload)."
+        "description": "The type of the log payload (e.g., protoPayload, textPayload).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "The time the log entry was received by Cloud Logging."
+        "description": "The time the log entry was received by Cloud Logging.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestConstraint",
         "type": "string",
-        "description": "The Org Policy constraint specified in the request."
+        "description": "The Org Policy constraint specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCreateTime",
         "type": "datetime",
-        "description": "The timestamp when the resource was created as specified in the request."
+        "description": "The timestamp when the resource was created as specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCustomConstraint",
         "type": "string",
-        "description": "Custom constraint configuration specified in the request."
+        "description": "Custom constraint configuration specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestDestinationParent",
         "type": "string",
-        "description": "The resource name of the destination parent, used in resource moves."
+        "description": "The resource name of the destination parent, used in resource moves.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestFolderDisplayName",
         "type": "string",
-        "description": "The display name of the folder provided in the request."
+        "description": "The display name of the folder provided in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestFolderParent",
         "type": "string",
-        "description": "The parent resource of the folder specified in the request."
+        "description": "The parent resource of the folder specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestLifecycleState",
         "type": "string",
-        "description": "The lifecycle state of the resource in the request (e.g., ACTIVE, DELETE_REQUESTED)."
+        "description": "The lifecycle state of the resource in the request (e.g., ACTIVE, DELETE_REQUESTED).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestListValue",
         "type": "string",
-        "description": "A list of values specified in the request (e.g., tags, constraints)."
+        "description": "A list of values specified in the request (e.g., tags, constraints).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerIP",
         "type": "string",
-        "description": "The IP address of the caller who made the request."
+        "description": "The IP address of the caller who made the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
         "type": "string",
-        "description": "The user agent String provided by the caller's client application."
+        "description": "The user agent String provided by the caller's client application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataDestinationAttributes",
         "type": "string",
-        "description": "Metadata about the request destination, such as port or protocol."
+        "description": "Metadata about the request destination, such as port or protocol.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
         "type": "string",
-        "description": "Authentication attributes related to the request, such as authority selector or principal email."
+        "description": "Authentication attributes related to the request, such as authority selector or principal email.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesReason",
         "type": "string",
-        "description": "The reason or justification for making the request (if provided)."
+        "description": "The reason or justification for making the request (if provided).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
         "type": "datetime",
-        "description": "The timestamp when the request was made."
+        "description": "The timestamp when the request was made.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestName",
         "type": "string",
-        "description": "The name or ID of the resource targeted by the request."
+        "description": "The name or ID of the resource targeted by the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestOptionsRequestedPolicyVersion",
         "type": "string",
-        "description": "The version of the IAM policy format requested."
+        "description": "The version of the IAM policy format requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPageSize",
         "type": "string",
-        "description": "The number of results to return per page in a list request."
+        "description": "The number of results to return per page in a list request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestParent",
         "type": "string",
-        "description": "The parent resource (e.g., folder or org) under which the request is being made."
+        "description": "The parent resource (e.g., folder or org) under which the request is being made.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyAuditConfigs",
         "type": "string",
-        "description": "The audit configuration settings defined in the policy request."
+        "description": "The audit configuration settings defined in the policy request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyBindings",
         "type": "string",
-        "description": "A list of role bindings defined in the IAM policy request."
+        "description": "A list of role bindings defined in the IAM policy request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyEtag",
         "type": "string",
-        "description": "The ETag used for concurrency control in the policy request."
+        "description": "The ETag used for concurrency control in the policy request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyName",
         "type": "string",
-        "description": "The resource name of the policy being modified in the request."
+        "description": "The resource name of the policy being modified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicySpec",
         "type": "string",
-        "description": "Detailed specification of the Org Policy being applied."
+        "description": "Detailed specification of the Org Policy being applied.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectCreateTime",
         "type": "datetime",
-        "description": "The time the project was created as per the request."
+        "description": "The time the project was created as per the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectId",
         "type": "string",
-        "description": "The project ID associated with the request."
+        "description": "The project ID associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectLabels",
         "type": "string",
-        "description": "Key-value labels assigned to the project in the request."
+        "description": "Key-value labels assigned to the project in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectLifecycleState",
         "type": "string",
-        "description": "The lifecycle state of the project (e.g., ACTIVE, DELETE_REQUESTED)."
+        "description": "The lifecycle state of the project (e.g., ACTIVE, DELETE_REQUESTED).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectName",
         "type": "string",
-        "description": "The display name of the project specified in the request."
+        "description": "The display name of the project specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectParent",
         "type": "string",
-        "description": "The parent resource (folder or organization) under which the project is created."
+        "description": "The parent resource (folder or organization) under which the project is created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectProjectId",
         "type": "string",
-        "description": "The unique project ID provided in the request."
+        "description": "The unique project ID provided in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProjectProjectNumber",
         "type": "string",
-        "description": "The numerical project identifier."
+        "description": "The numerical project identifier.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestQuery",
         "type": "string",
-        "description": "A query String used for filtering results (e.g., in search or list operations)."
+        "description": "A query String used for filtering results (e.g., in search or list operations).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestResource",
         "type": "string",
-        "description": "The full representation of the resource included in the request."
+        "description": "The full representation of the resource included in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestTagBindingParent",
         "type": "string",
-        "description": "The full name of the resource to which the tag is being bound."
+        "description": "The full name of the resource to which the tag is being bound.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestTagBindingTagValue",
         "type": "string",
-        "description": "The tag value being bound to a resource in the request."
+        "description": "The tag value being bound to a resource in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestTagKeyName",
         "type": "string",
-        "description": "The full resource name of the tag key referenced in the request."
+        "description": "The full resource name of the tag key referenced in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestTagValueName",
         "type": "string",
-        "description": "The full resource name of the tag value in the request."
+        "description": "The full resource name of the tag value in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestType",
         "type": "string",
-        "description": "The type of request being made (e.g., Create, Update, Delete)."
+        "description": "The type of request being made (e.g., Create, Update, Delete).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestUpdateMask",
         "type": "string",
-        "description": "A comma-separated list specifying the fields to be updated in a partial update request."
+        "description": "A comma-separated list specifying the fields to be updated in a partial update request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsFolderId",
         "type": "string",
-        "description": "The folder ID associated with the resource."
+        "description": "The folder ID associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsMethod",
         "type": "string",
-        "description": "The method name label used for filtering in logs."
+        "description": "The method name label used for filtering in logs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsOrganizationId",
         "type": "string",
-        "description": "The organization ID associated with the resource."
+        "description": "The organization ID associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsProjectId",
         "type": "string",
-        "description": "The project ID associated with the resource."
+        "description": "The project ID associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsService",
         "type": "string",
-        "description": "The service name label used for filtering in logs."
+        "description": "The service name label used for filtering in logs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseAuditConfigs",
         "type": "string",
-        "description": "The audit configurations returned in the response."
+        "description": "The audit configurations returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseBindings",
         "type": "string",
-        "description": "The IAM role bindings included in the response."
+        "description": "The IAM role bindings included in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseCreateTime",
         "type": "datetime",
-        "description": "The timestamp when the resource was created, as returned in the response."
+        "description": "The timestamp when the resource was created, as returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseDescription",
         "type": "string",
-        "description": "A description of the resource or result returned in the response."
+        "description": "A description of the resource or result returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseDisplayName",
         "type": "string",
-        "description": "The display name of the resource returned in the response."
+        "description": "The display name of the resource returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseEtag",
         "type": "string",
-        "description": "The ETag used for concurrency control in the response."
+        "description": "The ETag used for concurrency control in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseLabels",
         "type": "string",
-        "description": "The key-value labels attached to the resource in the response."
+        "description": "The key-value labels attached to the resource in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseLifecycleState",
         "type": "string",
-        "description": "The lifecycle state of the resource in the response (e.g., ACTIVE, DELETE_REQUESTED)."
+        "description": "The lifecycle state of the resource in the response (e.g., ACTIVE, DELETE_REQUESTED).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseName",
         "type": "string",
-        "description": "The full resource name returned in the response."
+        "description": "The full resource name returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseNamespacedName",
         "type": "string",
-        "description": "A namespaced identifier for the resource (used in tagging)."
+        "description": "A namespaced identifier for the resource (used in tagging).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseParent",
         "type": "string",
-        "description": "The parent resource name associated with the response."
+        "description": "The parent resource name associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponsePolicySpec",
         "type": "string",
-        "description": "The policy specification returned in the response (Org Policy or IAM policy)."
+        "description": "The policy specification returned in the response (Org Policy or IAM policy).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseProjectId",
         "type": "string",
-        "description": "The project ID returned in the response."
+        "description": "The project ID returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseProjectNumber",
         "type": "string",
-        "description": "The project ID returned in the response."
+        "description": "The project ID returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseShortName",
         "type": "string",
-        "description": "The short, user-defined name of the resource returned in the response."
+        "description": "The short, user-defined name of the resource returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseState",
         "type": "string",
-        "description": "The current state of the resource (e.g., ACTIVE, DELETED)."
+        "description": "The current state of the resource (e.g., ACTIVE, DELETED).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTagKey",
         "type": "string",
-        "description": "The tag key associated with the resource returned in the response."
+        "description": "The tag key associated with the resource returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTagValue",
         "type": "string",
-        "description": "The tag value associated with the resource in the response."
+        "description": "The tag value associated with the resource in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTagValueNamespacedName",
         "type": "string",
-        "description": "A fully qualified name (including tag key) for the tag value."
+        "description": "A fully qualified name (including tag key) for the tag value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseType",
         "type": "string",
-        "description": "The type of the response payload."
+        "description": "The type of the response payload.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseUpdateTime",
         "type": "datetime",
-        "description": "The time when the resource was last updated, as per the response."
+        "description": "The time when the resource was last updated, as per the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataPolicyDeltaBindingDeltas",
         "type": "string",
-        "description": "Changes (additions or removals) to IAM bindings as part of the policy delta."
+        "description": "Changes (additions or removals) to IAM bindings as part of the policy delta.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataType",
         "type": "string",
-        "description": "The type of service-specific data returned in the response."
+        "description": "The type of service-specific data returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "The name of the GCP service handling the request (e.g., cloudresourcemanager.googleapis.com)."
+        "description": "The name of the GCP service handling the request (e.g., cloudresourcemanager.googleapis.com).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "Log level indicating the severity of the event (e.g., INFO, ERROR)."
+        "description": "Log level indicating the severity of the event (e.g., INFO, ERROR).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": "The status of the request, including error codes and messages if the operation failed."
+        "description": "The status of the request, including error codes and messages if the operation failed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time the log entry was received by logging."
+        "description": "The time the log entry was received by logging.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "The time the event described by the log entry occurred."
+        "description": "The time the event described by the log entry occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

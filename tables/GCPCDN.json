@@ -5,562 +5,898 @@
       {
         "name": "AuthenticationInfoPrincipalEmail",
         "type": "string",
-        "description": "The email of the authenticated identity making the request"
+        "description": "The email of the authenticated identity making the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthorizationInfo",
         "type": "string",
-        "description": "Authorization details such as permission name, granted status, and resource type"
+        "description": "Authorization details such as permission name, granted status, and resource type",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthzPolicyInfoPolicies",
         "type": "string",
-        "description": "The list of Authorization policies that match the request"
+        "description": "The list of Authorization policies that match the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthzPolicyInfoResult",
         "type": "string",
-        "description": "Stores information about the Authorization Policy result"
+        "description": "Stores information about the Authorization Policy result",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BackendTargetProjectNumber",
         "type": "string",
-        "description": "Holds the project number where the backend target-backend service or backend bucket-has been created"
+        "description": "Holds the project number where the backend target-backend service or backend bucket-has been created",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CacheDecision",
         "type": "string",
-        "description": "Indicates caching decisions taken"
+        "description": "Indicates caching decisions taken",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CacheID",
         "type": "string",
-        "description": "Unique identifier for the cache entry associated with this response"
+        "description": "Unique identifier for the cache entry associated with this response",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyConfiguredAction",
         "type": "string",
-        "description": "The configured action that was evaluated in the edge security policy"
+        "description": "The configured action that was evaluated in the edge security policy",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyName",
         "type": "string",
-        "description": "The name of the edge security policy that was applied to the request"
+        "description": "The name of the edge security policy that was applied to the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyOutcome",
         "type": "string",
-        "description": "The outcome of applying the policy"
+        "description": "The outcome of applying the policy",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyPriority",
         "type": "string",
-        "description": "The priority value of the rule within the edge security policy that matched the request"
+        "description": "The priority value of the rule within the edge security policy that matched the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ErrorBackendStatusDetails",
         "type": "string",
-        "description": "Backend-specific error details when a request fails or is served with an error response"
+        "description": "Backend-specific error details when a request fails or is served with an error response",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ErrorService",
         "type": "string",
-        "description": "Holds the backend service that provided the custom error response"
+        "description": "Holds the backend service that provided the custom error response",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestCacheFillBytes",
         "type": "string",
-        "description": "Number of bytes written to the cache from this response"
+        "description": "Number of bytes written to the cache from this response",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestCacheHit",
         "type": "bool",
-        "description": "Boolean flag indicating whether the response was served from cache"
+        "description": "Boolean flag indicating whether the response was served from cache",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestCacheLookup",
         "type": "bool",
-        "description": "Boolean flag indicating whether the request attempted a cache lookup before contacting the backend"
+        "description": "Boolean flag indicating whether the request attempted a cache lookup before contacting the backend",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestLatency",
         "type": "string",
-        "description": "The latency or total time taken to process the request"
+        "description": "The latency or total time taken to process the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestRemoteIP",
         "type": "string",
-        "description": "The IP address of the client that made the request"
+        "description": "The IP address of the client that made the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestRequestMethod",
         "type": "string",
-        "description": "HTTP method used for the request"
+        "description": "HTTP method used for the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestRequestSize",
         "type": "string",
-        "description": "Size of the incoming HTTP request in bytes"
+        "description": "Size of the incoming HTTP request in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestRequestUrl",
         "type": "string",
-        "description": "Full URL that was requested"
+        "description": "Full URL that was requested",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestResponseSize",
         "type": "string",
-        "description": "Size of the HTTP response payload sent to the client, in bytes"
+        "description": "Size of the HTTP response payload sent to the client, in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestServerIP",
         "type": "string",
-        "description": "IP address of the server (or Google Front End) that processed the request"
+        "description": "IP address of the server (or Google Front End) that processed the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestStatus",
         "type": "string",
-        "description": "HTTP status code returned by the server"
+        "description": "HTTP status code returned by the server",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestUserAgent",
         "type": "string",
-        "description": "User agent string from the HTTP request header"
+        "description": "User agent string from the HTTP request header",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertID",
         "type": "string",
-        "description": "A unique identifier for the log entry assigned by the logging system"
+        "description": "A unique identifier for the log entry assigned by the logging system",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JsonPayloadType",
         "type": "string",
-        "description": "The protobuf type URL describing the type of jsonPayload content in the log"
+        "description": "The protobuf type URL describing the type of jsonPayload content in the log",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LabelsAPIRootTriggerID",
         "type": "string",
-        "description": "The root trigger ID identifying the origin request that caused this log entry"
+        "description": "The root trigger ID identifying the origin request that caused this log entry",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LoadBalancingScheme",
         "type": "string",
-        "description": "Holds a string that describes which load balancing scheme was used to route the request"
+        "description": "Holds a string that describes which load balancing scheme was used to route the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The full resource name of the log to which this entry belongs"
+        "description": "The full resource name of the log to which this entry belongs",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MethodName",
         "type": "string",
-        "description": "The name of the API method invoked"
+        "description": "The name of the API method invoked",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NumResponseItems",
         "type": "string",
-        "description": "The number of items returned in a list response"
+        "description": "The number of items returned in a list response",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationFirst",
         "type": "bool",
-        "description": "Boolean flag indicating this log entry is the first record in a long-running operation"
+        "description": "Boolean flag indicating this log entry is the first record in a long-running operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationID",
         "type": "string",
-        "description": "Unique identifier for the operation"
+        "description": "Unique identifier for the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationLast",
         "type": "bool",
-        "description": "Boolean flag indicating this log entry is the final record in a long-running operation"
+        "description": "Boolean flag indicating this log entry is the final record in a long-running operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationProducer",
         "type": "string",
-        "description": "The service that initiated and owns the operation"
+        "description": "The service that initiated and owns the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OverrideResponseCode",
         "type": "string",
-        "description": "Holds the override response code applied to the response sent to the client"
+        "description": "Holds the override response code applied to the response sent to the client",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "Type URL of the request or response payload"
+        "description": "Type URL of the request or response payload",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "The time the log entry was received by the logging system"
+        "description": "The time the log entry was received by the logging system",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIP",
         "type": "string",
-        "description": "The IP address of the client as seen by the load balancer"
+        "description": "The IP address of the client as seen by the load balancer",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestBackends",
         "type": "string",
-        "description": "Configuration for backend groups"
+        "description": "Configuration for backend groups",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeHost",
         "type": "bool",
-        "description": "Whether the host is included in the cache key"
+        "description": "Whether the host is included in the cache key",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeProtocol",
         "type": "bool",
-        "description": "Whether protocol is included in the cache key"
+        "description": "Whether protocol is included in the cache key",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeQueryString",
         "type": "bool",
-        "description": "Whether the query string is included in the cache key"
+        "description": "Whether the query string is included in the cache key",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheMode",
         "type": "string",
-        "description": "Cache mode setting"
+        "description": "Cache mode setting",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyClientTtl",
         "type": "string",
-        "description": "Time-to-live set on responses for clients"
+        "description": "Time-to-live set on responses for clients",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyDefaultTtl",
         "type": "string",
-        "description": "Default TTL applied when no caching headers are set"
+        "description": "Default TTL applied when no caching headers are set",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyMaxTtl",
         "type": "string",
-        "description": "Maximum allowed TTL for cached responses"
+        "description": "Maximum allowed TTL for cached responses",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyNegativeCaching",
         "type": "bool",
-        "description": "Boolean indicating if negative caching is enabled"
+        "description": "Boolean indicating if negative caching is enabled",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicyServeWhileStale",
         "type": "string",
-        "description": "Duration responses are served while stale"
+        "description": "Duration responses are served while stale",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCDNPolicySignedUrlCacheMaxAgeSec",
         "type": "string",
-        "description": "Cache TTL for signed URLs in seconds"
+        "description": "Cache TTL for signed URLs in seconds",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestCompressionMode",
         "type": "string",
-        "description": "Specifies whether and how compression is applied"
+        "description": "Specifies whether and how compression is applied",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestConnectionDrainingTimeoutSec",
         "type": "string",
-        "description": "Time in seconds for draining connections during backend removal"
+        "description": "Time in seconds for draining connections during backend removal",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestDescription",
         "type": "string",
-        "description": "A custom description associated with the backend service configuration"
+        "description": "A custom description associated with the backend service configuration",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestEnableCDN",
         "type": "bool",
-        "description": "Boolean indicating if Cloud CDN is enabled for the backend service"
+        "description": "Boolean indicating if Cloud CDN is enabled for the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestFingerprint",
         "type": "string",
-        "description": "Fingerprint of the request configuration, used for optimistic locking"
+        "description": "Fingerprint of the request configuration, used for optimistic locking",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestGroup",
         "type": "string",
-        "description": "The reference to instance group used by the backend service"
+        "description": "The reference to instance group used by the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestHealthChecks",
         "type": "string",
-        "description": "List of health check resources attached to the backend service"
+        "description": "List of health check resources attached to the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestIPAddressSelectionPolicy",
         "type": "string",
-        "description": "Specifies IP address family for the backend"
+        "description": "Specifies IP address family for the backend",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestKeyName",
         "type": "string",
-        "description": "The name of the key used in the request"
+        "description": "The name of the key used in the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestLoadBalancingScheme",
         "type": "string",
-        "description": "Load balancing scheme used"
+        "description": "Load balancing scheme used",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestLocalityLbPolicy",
         "type": "string",
-        "description": "Locality-based load balancing strategy"
+        "description": "Locality-based load balancing strategy",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestLogConfigEnable",
         "type": "bool",
-        "description": "Boolean to enable request logging"
+        "description": "Boolean to enable request logging",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestLogConfigSampleRate",
         "type": "string",
-        "description": "Sampling rate for log entries when logging is enabled"
+        "description": "Sampling rate for log entries when logging is enabled",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerIP",
         "type": "string",
-        "description": "IP address of the request initiator"
+        "description": "IP address of the request initiator",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
         "type": "string",
-        "description": "User agent string of the request initiator"
+        "description": "User agent string of the request initiator",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataDestinationAttributes",
         "type": "string",
-        "description": "Attributes of the destination, often empty in public APIs"
+        "description": "Attributes of the destination, often empty in public APIs",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
         "type": "string",
-        "description": "Authentication metadata for the request"
+        "description": "Authentication metadata for the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesReason",
         "type": "string",
-        "description": "Encoded reason for the request"
+        "description": "Encoded reason for the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
         "type": "datetime",
-        "description": "Time when the request was initiated"
+        "description": "Time when the request was initiated",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestName",
         "type": "string",
-        "description": "The name assigned to the resource in the request"
+        "description": "The name assigned to the resource in the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPortName",
         "type": "string",
-        "description": "The named port of the backend service"
+        "description": "The named port of the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProtocol",
         "type": "string",
-        "description": "The protocol used"
+        "description": "The protocol used",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSecurityPolicy",
         "type": "string",
-        "description": "The name or full path of the security policy attached to the backend service"
+        "description": "The name or full path of the security policy attached to the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSessionAffinity",
         "type": "string",
-        "description": "Affinity setting used to keep sessions on the same backend"
+        "description": "Affinity setting used to keep sessions on the same backend",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestTimeoutSec",
         "type": "string",
-        "description": "Timeout value (in seconds) for the backend service"
+        "description": "Timeout value (in seconds) for the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestType",
         "type": "string",
-        "description": "Type of the request payload object"
+        "description": "Type of the request payload object",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsBackendBucketID",
         "type": "string",
-        "description": "Holds the ResourceLabelsBackendBucketID value recorded in the CDN or load balancer log"
+        "description": "Holds the ResourceLabelsBackendBucketID value recorded in the CDN or load balancer log",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsBackendServiceID",
         "type": "string",
-        "description": "The unique identifier for the GCE backend service"
+        "description": "The unique identifier for the GCE backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsBackendServiceName",
         "type": "string",
-        "description": "The name of the backend service"
+        "description": "The name of the backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsForwardingRuleName",
         "type": "string",
-        "description": "The name of the forwarding rule object"
+        "description": "The name of the forwarding rule object",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsLocation",
         "type": "string",
-        "description": "The geographical or regional location of the resource"
+        "description": "The geographical or regional location of the resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsProjectID",
         "type": "string",
-        "description": "The identifier of the Google Cloud project associated with this resource"
+        "description": "The identifier of the Google Cloud project associated with this resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsTargetProxyName",
         "type": "string",
-        "description": "The name of the target proxy object referenced by the forwarding rule"
+        "description": "The name of the target proxy object referenced by the forwarding rule",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsUrlMapName",
         "type": "string",
-        "description": "The name of the URL map object configured to select a backend service"
+        "description": "The name of the URL map object configured to select a backend service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsZone",
         "type": "string",
-        "description": "The zone in which the load balancer is running"
+        "description": "The zone in which the load balancer is running",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLocationCurrentLocations",
         "type": "string",
-        "description": "Region or location associated with the resource"
+        "description": "Region or location associated with the resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseID",
         "type": "string",
-        "description": "Unique identifier for the response or operation"
+        "description": "Unique identifier for the response or operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseInsertTime",
         "type": "datetime",
-        "description": "Time when the response operation was created"
+        "description": "Time when the response operation was created",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseName",
         "type": "string",
-        "description": "Name assigned to the long-running operation"
+        "description": "Name assigned to the long-running operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationType",
         "type": "string",
-        "description": "Type of the operation performed"
+        "description": "Type of the operation performed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseProgress",
         "type": "string",
-        "description": "Progress of the operation in percentage"
+        "description": "Progress of the operation in percentage",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseSelfLink",
         "type": "string",
-        "description": "URI of the operation"
+        "description": "URI of the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseSelfLinkWithID",
         "type": "string",
-        "description": "URI of the operation with ID appended"
+        "description": "URI of the operation with ID appended",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseStartTime",
         "type": "datetime",
-        "description": "Time when the operation started"
+        "description": "Time when the operation started",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseStatus",
         "type": "string",
-        "description": "Status of the operation"
+        "description": "Status of the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTargetID",
         "type": "string",
-        "description": "ID of the target resource affected by the operation"
+        "description": "ID of the target resource affected by the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTargetLink",
         "type": "string",
-        "description": "URI of the affected resource"
+        "description": "URI of the affected resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseType",
         "type": "string",
-        "description": "Type of the response object returned"
+        "description": "Type of the response object returned",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseUser",
         "type": "string",
-        "description": "User who initiated the operation."
+        "description": "User who initiated the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "The Google service processing the request"
+        "description": "The Google service processing the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "Indicates the importance or severity level of the log entry"
+        "description": "Indicates the importance or severity level of the log entry",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SpanID",
         "type": "string",
-        "description": "Identifier of the span within a trace"
+        "description": "Identifier of the span within a trace",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusDetails",
         "type": "string",
-        "description": "Holds a string that explains why the load balancer returned the HTTP status that it did"
+        "description": "Holds a string that explains why the load balancer returned the HTTP status that it did",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the log entry was fetched into Microsoft Sentinel"
+        "description": "The timestamp when the log entry was fetched into Microsoft Sentinel",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "The time when the first layer GFE receives the request"
+        "description": "The time when the first layer GFE receives the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Trace",
         "type": "string",
-        "description": "Identifier of the trace"
+        "description": "Identifier of the trace",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

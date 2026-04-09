@@ -5,92 +5,146 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SHA1",
         "type": "string",
-        "description": "SHA-1 of the file that the recorded action was applied to"
+        "description": "SHA-1 of the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsSigned",
         "type": "bool",
-        "description": "Indicates whether the file is signed"
+        "description": "Indicates whether the file is signed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SignatureType",
         "type": "string",
-        "description": "Indicates whether signature information was read as embedded content in the file itself or read from an external catalog file"
+        "description": "Indicates whether signature information was read as embedded content in the file itself or read from an external catalog file",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Signer",
         "type": "string",
-        "description": "Information about the signer of the file"
+        "description": "Information about the signer of the file",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SignerHash",
         "type": "string",
-        "description": "Unique hash value identifying the signer"
+        "description": "Unique hash value identifying the signer",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Issuer",
         "type": "string",
-        "description": "Information about the issuing certificate authority (CA)"
+        "description": "Information about the issuing certificate authority (CA)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IssuerHash",
         "type": "string",
-        "description": "Unique hash value identifying issuing certificate authority (CA)"
+        "description": "Unique hash value identifying issuing certificate authority (CA)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CertificateSerialNumber",
         "type": "string",
-        "description": "Identifier for the certificate that is unique to the issuing certificate authority (CA)"
+        "description": "Identifier for the certificate that is unique to the issuing certificate authority (CA)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CrlDistributionPointUrls",
         "type": "string",
-        "description": "JSON array listing the URLs of network shares that contain certificates and certificate revocation lists (CRLs)"
+        "description": "JSON array listing the URLs of network shares that contain certificates and certificate revocation lists (CRLs)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CertificateCreationTime",
         "type": "datetime",
-        "description": "Date and time the certificate was created"
+        "description": "Date and time the certificate was created",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CertificateExpirationTime",
         "type": "datetime",
-        "description": "Date and time the certificate is set to expire"
+        "description": "Date and time the certificate is set to expire",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CertificateCountersignatureTime",
         "type": "datetime",
-        "description": "Date and time the certificate was countersigned"
+        "description": "Date and time the certificate was countersigned",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsTrusted",
         "type": "bool",
-        "description": "Indicates whether the file is trusted based on the results of the WinVerifyTrust function, which checks for unknown root certificate information, invalid signatures, revoked certificates, and other questionable attributes"
+        "description": "Indicates whether the file is trusted based on the results of the WinVerifyTrust function, which checks for unknown root certificate information, invalid signatures, revoked certificates, and other questionable attributes",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsRootSignerMicrosoft",
         "type": "boolean",
-        "description": "Indicates whether the signer of the root certificate is Microsoft and if the file is included in Windows operating system"
+        "description": "Indicates whether the signer of the root certificate is Microsoft and if the file is included in Windows operating system",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportId",
         "type": "long",
-        "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns."
+        "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

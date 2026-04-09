@@ -5,177 +5,282 @@
       {
         "name": "AlertLink",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertSeverity",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertType",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CompromisedEntity",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConfidenceLevel",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConfidenceScore",
         "type": "real",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DisplayName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EndTime",
         "type": "datetime",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Entities",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExtendedLinks",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExtendedProperties",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsIncident",
         "type": "bool",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProcessingEndTime",
         "type": "datetime",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProductComponentName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProductName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProviderName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemediationSteps",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceComputerId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StartTime",
         "type": "datetime",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SubTechniques",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemAlertId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tactics",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Techniques",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VendorName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VendorOriginalId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WorkspaceResourceGroup",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WorkspaceSubscriptionId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

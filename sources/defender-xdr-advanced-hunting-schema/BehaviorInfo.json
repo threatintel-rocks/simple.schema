@@ -5,82 +5,130 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "BehaviorId",
         "type": "string",
-        "description": "Unique identifier for the behavior"
+        "description": "Unique identifier for the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Title",
         "type": "string",
-        "description": "Title of the behavior"
+        "description": "Title of the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Description of the behavior"
+        "description": "Description of the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Categories",
         "type": "string",
-        "description": "Type of threat indicator or breach activity identified by the behavior, as defined by the MITRE ATT&CK framework"
+        "description": "Type of threat indicator or breach activity identified by the behavior, as defined by the MITRE ATT&CK framework",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AttackTechniques",
         "type": "string",
-        "description": "MITRE ATT&CK techniques associated with the activity that triggered the behavior"
+        "description": "MITRE ATT&CK techniques associated with the activity that triggered the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ServiceSource",
         "type": "string",
-        "description": "Product or service that identified the behavior"
+        "description": "Product or service that identified the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DetectionSource",
         "type": "string",
-        "description": "Detection technology or sensor that identified the notable component or activity"
+        "description": "Detection technology or sensor that identified the notable component or activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DataSources",
         "type": "string",
-        "description": "Products or services that provided information for the behavior"
+        "description": "Products or services that provided information for the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account"
+        "description": "User principal name (UPN) of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Microsoft Entra ID"
+        "description": "Unique identifier for the account in Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "StartTime",
         "type": "datetime",
-        "description": "Date and time of the first activity related to the behavior"
+        "description": "Date and time of the first activity related to the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EndTime",
         "type": "datetime",
-        "description": "Date and time of the last activity related to the behavior"
+        "description": "Date and time of the last activity related to the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "string",
-        "description": "Additional information about the behavior"
+        "description": "Additional information about the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of behavior"
+        "description": "Type of behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

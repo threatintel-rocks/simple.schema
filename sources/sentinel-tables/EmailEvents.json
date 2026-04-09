@@ -5,278 +5,508 @@
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information about the entity or event."
+        "description": "Additional information about the entity or event.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "AttachmentCount",
         "type": "int",
-        "description": "Number of attachments in the email."
+        "description": "Number of attachments in the email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationDetails",
         "type": "string",
-        "description": "List of pass or fail verdicts by email authentication protocols like DMARC, DKIM, SPF or a combination of multiple authentication types (CompAuth)."
+        "description": "List of pass or fail verdicts by email authentication protocols like DMARC, DKIM, SPF or a combination of multiple authentication types (CompAuth).",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BulkComplaintLevel",
         "type": "int",
-        "description": "Threshold assigned to email from bulk mailers, a high bulk complaint level (BCL) means the email is more likely to generate complaints, and thus more likely to be spam."
+        "description": "Threshold assigned to email from bulk mailers, a high bulk complaint level (BCL) means the email is more likely to generate complaints, and thus more likely to be spam.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "Cc",
         "type": "dynamic",
-        "description": "Indicates the addresses which are listed in Cc fields of an email"
+        "description": "Indicates the addresses which are listed in Cc fields of an email",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConfidenceLevel",
         "type": "string",
-        "description": "List of confidence levels of any spam or phishing verdicts. For spam, this column shows the spam confidence level (SCL), indicating if the email was skipped (-1), found to be not spam (0,1), found to be spam with moderate confidence (5,6), or found to be spam with high confidence (9). For phishing, this column displays whether the confidence level is \"High\" or \"Low\"."
+        "description": "List of confidence levels of any spam or phishing verdicts. For spam, this column shows the spam confidence level (SCL), indicating if the email was skipped (-1), found to be not spam (0,1), found to be spam with moderate confidence (5,6), or found to be spam with high confidence (9). For phishing, this column displays whether the confidence level is \"High\" or \"Low\".",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "Connectors",
         "type": "string",
-        "description": "Custom instructions that define organizational mail flow and how the email was routed."
+        "description": "Custom instructions that define organizational mail flow and how the email was routed.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "Context",
         "type": "string",
-        "description": "Configuration context data of the machine"
+        "description": "Configuration context data of the machine",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeliveryAction",
         "type": "string",
-        "description": "Action of the delivered email."
+        "description": "Action of the delivered email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "DeliveryLocation",
         "type": "string",
-        "description": "Location of the delivered email: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items."
+        "description": "Location of the delivered email: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "DetectionMethods",
         "type": "string",
-        "description": "Delivery action of the email: Delivered, Junked, Blocked, or Replaced."
+        "description": "Delivery action of the email: Delivered, Junked, Blocked, or Replaced.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "DistributionList",
         "type": "string",
-        "description": "Name of distribution list that the recipient was a member of and to which the email was sent, if applicable; shows top-level distribution list if nested lists are involved"
+        "description": "Name of distribution list that the recipient was a member of and to which the email was sent, if applicable; shows top-level distribution list if nested lists are involved",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailAction",
         "type": "string",
-        "description": "Final action taken on the email based on filter verdict, policies, and user actions: Move message to junk mail folder, Add X-header, Modify subject, Redirect message, Delete message, send to quarantine, No action taken, Bcc message."
+        "description": "Final action taken on the email based on filter verdict, policies, and user actions: Move message to junk mail folder, Add X-header, Modify subject, Redirect message, Delete message, send to quarantine, No action taken, Bcc message.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailActionPolicy",
         "type": "string",
-        "description": "Action policy that took effect: Antispam high-confidence, Antispam, Antispam bulk mail, Antispam phishing, Anti-phishing domain impersonation, Anti-phishing user impersonation, Anti-phishing spoof, Anti-phishing graph impersonation, Antimalware Safe Attachments, Enterprise Transport Rules (ETR)."
+        "description": "Action policy that took effect: Antispam high-confidence, Antispam, Antispam bulk mail, Antispam phishing, Anti-phishing domain impersonation, Anti-phishing user impersonation, Anti-phishing spoof, Anti-phishing graph impersonation, Antimalware Safe Attachments, Enterprise Transport Rules (ETR).",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailActionPolicyGuid",
         "type": "string",
-        "description": "Unique identifier of the policy that took effect."
+        "description": "Unique identifier of the policy that took effect.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailClusterId",
         "type": "long",
-        "description": "Identifier of the email cluster. Emails are clustered (grouped) based on heuristic analysis of their contents."
+        "description": "Identifier of the email cluster. Emails are clustered (grouped) based on heuristic analysis of their contents.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailDirection",
         "type": "string",
-        "description": "Email direction: Inbound, Outbound, Intra-org."
+        "description": "Email direction: Inbound, Outbound, Intra-org.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailLanguage",
         "type": "string",
-        "description": "Detected language of the email content."
+        "description": "Detected language of the email content.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSize",
         "type": "int",
-        "description": "Size of the email message."
+        "description": "Size of the email message.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExchangeTransportRule",
         "type": "string",
-        "description": "Mail flow rules (also known as transport rules) are similar to Inbox rules that are available in Outlook and Outlook on the web. The main difference is mail flow rules take action on messages while they're in transit."
+        "description": "Mail flow rules (also known as transport rules) are similar to Inbox rules that are available in Outlook and Outlook on the web. The main difference is mail flow rules take action on messages while they're in transit.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ForwardingInformation",
         "type": "string",
-        "description": "A JSON array of forwarding details including the forwarding user and the forwarding type"
+        "description": "A JSON array of forwarding details including the forwarding user and the forwarding type",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InternetMessageId",
         "type": "string",
-        "description": "Public-facing identifier for the email that is set by the sending email system."
+        "description": "Public-facing identifier for the email that is set by the sending email system.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsFirstContact",
         "type": "bool",
-        "description": "Is this the first contact between sender and reciever."
+        "description": "Is this the first contact between sender and reciever.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastEventExecutionTime",
         "type": "datetime",
-        "description": "Date and time (UTC) when the record was updated post merge."
+        "description": "Date and time (UTC) when the record was updated post merge.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LatestDeliveryAction",
         "type": "string",
-        "description": "Last known action attempted on an email by the service or by an admin through manual remediation."
+        "description": "Last known action attempted on an email by the service or by an admin through manual remediation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LatestDeliveryLocation",
         "type": "string",
-        "description": "Last known location of the email."
+        "description": "Last known location of the email.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkMessageId",
         "type": "string",
-        "description": "Unique identifier for the email, generated by Office 365."
+        "description": "Unique identifier for the email, generated by Office 365.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "OrgLevelAction",
         "type": "string",
-        "description": "Action taken on the email in response to matches to a policy defined at the organizational level."
+        "description": "Action taken on the email in response to matches to a policy defined at the organizational level.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "OrgLevelPolicy",
         "type": "string",
-        "description": "Organizational policy that triggered the action taken on the email."
+        "description": "Organizational policy that triggered the action taken on the email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "RecipientDomain",
         "type": "string",
-        "description": "Domain of the recipient of the email."
+        "description": "Domain of the recipient of the email.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecipientEmailAddress",
         "type": "string",
-        "description": "Recipient email address or email address of the recipient after distribution list expansion."
+        "description": "Recipient email address or email address of the recipient after distribution list expansion.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "RecipientObjectId",
         "type": "string",
-        "description": "Email recipient Azure AD identifier."
+        "description": "Email recipient Azure AD identifier.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "ReportId",
         "type": "string",
-        "description": "Unique identifier for the event."
+        "description": "Unique identifier for the event.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderDisplayName",
         "type": "string",
-        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderFromAddress",
         "type": "string",
-        "description": "Sender domain in the from header, which is visible to email recipients on their email clients."
+        "description": "Sender domain in the from header, which is visible to email recipients on their email clients.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderFromDomain",
         "type": "string",
-        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats."
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderIPv4",
         "type": "string",
-        "description": "IPv4 address of the last detected mail server that relayed the message."
+        "description": "IPv4 address of the last detected mail server that relayed the message.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderIPv6",
         "type": "string",
-        "description": "IPv6 address of the last detected mail server that relayed the message."
+        "description": "IPv6 address of the last detected mail server that relayed the message.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderMailFromAddress",
         "type": "string",
-        "description": "Sender email address in the MAIL from header, also known as the envelope sender or the Return-Path address."
+        "description": "Sender email address in the MAIL from header, also known as the envelope sender or the Return-Path address.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderMailFromDomain",
         "type": "string",
-        "description": "Sender domain in the MAIL from header, also known as the envelope sender or the Return-Path address."
+        "description": "Sender domain in the MAIL from header, also known as the envelope sender or the Return-Path address.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SenderObjectId",
         "type": "string",
-        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Subject",
         "type": "string",
-        "description": "Email subject field."
+        "description": "Email subject field.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatClassification",
         "type": "string",
-        "description": "Indicates the threat classification of the mail"
+        "description": "Indicates the threat classification of the mail",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatNames",
         "type": "string",
-        "description": "Sender email address in the from header, which is visible to email recipients on their email clients."
+        "description": "Sender email address in the from header, which is visible to email recipients on their email clients.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatTypes",
         "type": "string",
-        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats."
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Date and time (UTC) when the record was generated."
+        "description": "Date and time (UTC) when the record was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "To",
         "type": "dynamic",
-        "description": "Indicates the addresses which are listed in To fields of an email"
+        "description": "Indicates the addresses which are listed in To fields of an email",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UrlCount",
         "type": "int",
-        "description": "Number of embedded URLs in the email."
+        "description": "Number of embedded URLs in the email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "UserLevelAction",
         "type": "string",
-        "description": "Action taken on the email in response to matches to a mailbox policy defined by the recipient."
+        "description": "Action taken on the email in response to matches to a mailbox policy defined by the recipient.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "UserLevelPolicy",
         "type": "string",
-        "description": "End user mailbox policy that triggered the action taken on the email."
+        "description": "End user mailbox policy that triggered the action taken on the email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LatestDeliveryLocation`*",
+        "type": "string",
+        "description": "Last known location of the email",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LatestDeliveryAction`*",
+        "type": "string",
+        "description": "Last known action attempted on an email by the service or by an admin through manual remediation",
+        "availability": [
+          "Defender XDR"
+        ]
       }
+    ],
+    "sources": [
+      "Sentinel Tables",
+      "Defender XDR Advanced Hunting Schema"
     ]
   }
 }

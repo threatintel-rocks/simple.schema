@@ -5,162 +5,258 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientIp",
         "type": "string",
-        "description": "The IP address of the device that was used when the activity was logged."
+        "description": "The IP address of the device that was used when the activity was logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "A unique value used to associate related rows."
+        "description": "A unique value used to associate related rows.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CrmOrganizationUniqueName",
         "type": "string",
-        "description": "Unique name of the organization."
+        "description": "Unique name of the organization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EntityId",
         "type": "string",
-        "description": "Unique identifier of the entity."
+        "description": "Unique identifier of the entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EntityName",
         "type": "string",
-        "description": "Name of the entity in the organization."
+        "description": "Name of the entity in the organization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Fields",
         "type": "dynamic",
-        "description": "JSON of Key Value pair reflecting the values that were created or updated."
+        "description": "JSON of Key Value pair reflecting the values that were created or updated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InstanceUrl",
         "type": "string",
-        "description": "URL to the instance."
+        "description": "URL to the instance.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemType",
         "type": "string",
-        "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects."
+        "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemUrl",
         "type": "string",
-        "description": "URL to the record emitting the log."
+        "description": "URL to the record emitting the log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Message",
         "type": "string",
-        "description": "Name of the message called in the Dynamics 365 SDK."
+        "description": "Name of the message called in the Dynamics 365 SDK.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "string",
-        "description": "The name of the operation that the user is performing."
+        "description": "The name of the operation that the user is performing.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OrganizationId",
         "type": "string",
-        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization."
+        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OriginalObjectId",
         "type": "string",
-        "description": "The ObjectId for Dataverse operation or business activity."
+        "description": "The ObjectId for Dataverse operation or business activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Query",
         "type": "string",
-        "description": "The query filter parameters used while executing the FetchXML."
+        "description": "The query filter parameters used while executing the FetchXML.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryResults",
         "type": "dynamic",
-        "description": "One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call."
+        "description": "One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultStatus",
         "type": "string",
-        "description": "Indicates whether the action (specified in the Operation property) was successful or not."
+        "description": "Indicates whether the action (specified in the Operation property) was successful or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceContextId",
         "type": "string",
-        "description": "The unique id associated with service context."
+        "description": "The unique id associated with service context.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceContextIdType",
         "type": "string",
-        "description": "Application defined token to define context use."
+        "description": "Application defined token to define context use.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "Name of the Service generating the log."
+        "description": "Name of the Service generating the log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceRecordId",
         "type": "string",
-        "description": "Unique identifier of an audit record."
+        "description": "Unique identifier of an audit record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemUserId",
         "type": "string",
-        "description": "Unique identifier of the user GUID in the organization."
+        "description": "Unique identifier of the user GUID in the organization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time in (UTC) when the user performed the activity."
+        "description": "The date and time in (UTC) when the user performed the activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "The user agent."
+        "description": "The user agent.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "The Dataverse user ID of the user who performed the action (specified in the Operation property) that resulted in the record being logged."
+        "description": "The Dataverse user ID of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserKey",
         "type": "string",
-        "description": "An alternative ID for the user identified in the UserId property."
+        "description": "An alternative ID for the user identified in the UserId property.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserType",
         "type": "string",
-        "description": "The type of user that performed the operation. See the UserType table in Office 365 management activity api schema documentation for details on the types of users."
+        "description": "The type of user that performed the operation. See the UserType table in Office 365 management activity api schema documentation for details on the types of users.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserUpn",
         "type": "string",
-        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged."
+        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

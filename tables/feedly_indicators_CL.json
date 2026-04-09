@@ -1,7 +1,68 @@
 {
   "feedly_indicators_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicatorType",
+        "type": "string",
+        "description": "Type of indicator (e.g., ipv4-addr, domain-name, url)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicatorSubType",
+        "type": "string",
+        "description": "Subtype classification of the indicator",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "value",
+        "type": "string",
+        "description": "The Indicator of Compromise value, such as an IP address, domain name, URL, hash, or email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "articleTitle",
+        "type": "string",
+        "description": "Title of the source article",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "articleUrl",
+        "type": "string",
+        "description": "URL to the source article in Feedly",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "source",
+        "type": "string",
+        "description": "Source publication name",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

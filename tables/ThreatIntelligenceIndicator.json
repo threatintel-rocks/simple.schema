@@ -5,322 +5,514 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "Action to take on indicator match."
+        "description": "Action to take on indicator match.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Active",
         "type": "bool",
-        "description": "Indicates whether indicator is active."
+        "description": "Indicates whether indicator is active.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityGroupNames",
         "type": "string",
-        "description": "Activity groups associated with indicator."
+        "description": "Activity groups associated with indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AdditionalInformation",
         "type": "string",
-        "description": "Free text additional information for indicator."
+        "description": "Free text additional information for indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConfidenceScore",
         "type": "real",
-        "description": "Confidence rating of the indicator, from 0 to 100."
+        "description": "Confidence rating of the indicator, from 0 to 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Description of the indicator."
+        "description": "Description of the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DiamondModel",
         "type": "string",
-        "description": "Diamond model value for the indicator, one of adversary, capability, infrastructure or victim."
+        "description": "Diamond model value for the indicator, one of adversary, capability, infrastructure or victim.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DomainName",
         "type": "string",
-        "description": "The domain name observable."
+        "description": "The domain name observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailEncoding",
         "type": "string",
-        "description": "The email encoding observable."
+        "description": "The email encoding observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailLanguage",
         "type": "string",
-        "description": "The email language observable."
+        "description": "The email language observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailRecipient",
         "type": "string",
-        "description": "The email recipient observable."
+        "description": "The email recipient observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSenderAddress",
         "type": "string",
-        "description": "The email sender address observable."
+        "description": "The email sender address observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSenderName",
         "type": "string",
-        "description": "The email sender name observable."
+        "description": "The email sender name observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSourceDomain",
         "type": "string",
-        "description": "The email source domain observable."
+        "description": "The email source domain observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSourceIpAddress",
         "type": "string",
-        "description": "The email source IP address observable."
+        "description": "The email source IP address observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSubject",
         "type": "string",
-        "description": "The email subject observable."
+        "description": "The email subject observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailXMailer",
         "type": "string",
-        "description": "The email X-Mailer observable."
+        "description": "The email X-Mailer observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExpirationDateTime",
         "type": "datetime",
-        "description": "Time of indicator expiration."
+        "description": "Time of indicator expiration.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExternalIndicatorId",
         "type": "string",
-        "description": "Identifier for indicator from submitting system."
+        "description": "Identifier for indicator from submitting system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileCompileDateTime",
         "type": "datetime",
-        "description": "The file compilation time observable."
+        "description": "The file compilation time observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileCreatedDateTime",
         "type": "datetime",
-        "description": "The file creation time observable."
+        "description": "The file creation time observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileHashType",
         "type": "string",
-        "description": "The file hash type observable."
+        "description": "The file hash type observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileHashValue",
         "type": "string",
-        "description": "The file hash value observable."
+        "description": "The file hash value observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileMutexName",
         "type": "string",
-        "description": "The file mutex name observable."
+        "description": "The file mutex name observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileName",
         "type": "string",
-        "description": "The file name observable."
+        "description": "The file name observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FilePacker",
         "type": "string",
-        "description": "The file packer observable."
+        "description": "The file packer observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FilePath",
         "type": "string",
-        "description": "The file path observable."
+        "description": "The file path observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileSize",
         "type": "int",
-        "description": "The file size observable."
+        "description": "The file size observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileType",
         "type": "string",
-        "description": "The file type observable."
+        "description": "The file type observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IndicatorId",
         "type": "string",
-        "description": "Unique identifier for indicator, calculated by receiving system."
+        "description": "Unique identifier for indicator, calculated by receiving system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IndicatorProvider",
         "type": "string",
-        "description": "The name of the entity that provided the indicator."
+        "description": "The name of the entity that provided the indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainActions",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'actions' is set."
+        "description": "Indicates whether kill chain value 'actions' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainC2",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'C2' is set."
+        "description": "Indicates whether kill chain value 'C2' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainDelivery",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'delivery' is set."
+        "description": "Indicates whether kill chain value 'delivery' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainExploitation",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'exploitation' is set."
+        "description": "Indicates whether kill chain value 'exploitation' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainReconnaissance",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'reconniassance' is set."
+        "description": "Indicates whether kill chain value 'reconniassance' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KillChainWeaponization",
         "type": "bool",
-        "description": "Indicates whether kill chain value 'weaponization' is set."
+        "description": "Indicates whether kill chain value 'weaponization' is set.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KnownFalsePositives",
         "type": "string",
-        "description": "Text describing situations where indicator may cause false positives."
+        "description": "Text describing situations where indicator may cause false positives.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MalwareNames",
         "type": "string",
-        "description": "List of malware names associated with indicator"
+        "description": "List of malware names associated with indicator",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkCidrBlock",
         "type": "string",
-        "description": "The network CIDR block observable."
+        "description": "The network CIDR block observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDestinationAsn",
         "type": "int",
-        "description": "The network destination autonomous system number observable."
+        "description": "The network destination autonomous system number observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDestinationCidrBlock",
         "type": "string",
-        "description": "The network destination CIDR block observable."
+        "description": "The network destination CIDR block observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDestinationIP",
         "type": "string",
-        "description": "The network destination IP address."
+        "description": "The network destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkDestinationPort",
         "type": "int",
-        "description": "The network destination port observable."
+        "description": "The network destination port observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkIP",
         "type": "string",
-        "description": "The network IP address observable."
+        "description": "The network IP address observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkPort",
         "type": "int",
-        "description": "The network port observable."
+        "description": "The network port observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocol",
         "type": "int",
-        "description": "The network protocol observable."
+        "description": "The network protocol observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkSourceAsn",
         "type": "int",
-        "description": "The network source autonomous system number observable."
+        "description": "The network source autonomous system number observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkSourceCidrBlock",
         "type": "string",
-        "description": "The network source CIDR block observable."
+        "description": "The network source CIDR block observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkSourceIP",
         "type": "string",
-        "description": "The network source IP address observable."
+        "description": "The network source IP address observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkSourcePort",
         "type": "int",
-        "description": "The network source port observable."
+        "description": "The network source port observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PassiveOnly",
         "type": "bool",
-        "description": "Indicates whether the indicator should trigger an event that is visible to a user."
+        "description": "Indicates whether the indicator should trigger an event that is visible to a user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tags",
         "type": "string",
-        "description": "Free form tags."
+        "description": "Free form tags.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatSeverity",
         "type": "int",
-        "description": "Indicator severity rating from 0 to 5. Higher value indicates greater severity."
+        "description": "Indicator severity rating from 0 to 5. Higher value indicates greater severity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatType",
         "type": "string",
-        "description": "Threat type of indicator."
+        "description": "Threat type of indicator.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Time of indicator ingestion."
+        "description": "Time of indicator ingestion.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TrafficLightProtocolLevel",
         "type": "string",
-        "description": "Industry standard traffic light protocol level, one of white, green, amber or red."
+        "description": "Industry standard traffic light protocol level, one of white, green, amber or red.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Url",
         "type": "string",
-        "description": "The url observable."
+        "description": "The url observable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "The user agent observable."
+        "description": "The user agent observable.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

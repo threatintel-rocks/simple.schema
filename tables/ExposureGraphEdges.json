@@ -5,57 +5,90 @@
       {
         "name": "EdgeId",
         "type": "string",
-        "description": "Unique identifier for the relationship/edge"
+        "description": "Unique identifier for the relationship/edge",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EdgeLabel",
         "type": "string",
-        "description": "The edge label like \"routes traffic to\""
+        "description": "The edge label like \"routes traffic to\"",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceNodeId",
         "type": "string",
-        "description": "Node ID of the edge's source"
+        "description": "Node ID of the edge's source",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceNodeName",
         "type": "string",
-        "description": "Source node display name"
+        "description": "Source node display name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceNodeLabel",
         "type": "string",
-        "description": "Source node label"
+        "description": "Source node label",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceNodeCategories",
         "type": "dynamic",
-        "description": "Categories list of the source node in JSON format"
+        "description": "Categories list of the source node in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetNodeId",
         "type": "string",
-        "description": "Node ID of the edge's target"
+        "description": "Node ID of the edge's target",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetNodeName",
         "type": "string",
-        "description": "Display name of the target node"
+        "description": "Display name of the target node",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetNodeLabel",
         "type": "string",
-        "description": "Target node label"
+        "description": "Target node label",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetNodeCategories",
         "type": "dynamic",
-        "description": "The categories list of the target node in JSON format"
+        "description": "The categories list of the target node in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EdgeProperties",
         "type": "dynamic",
-        "description": "Optional data relevant for the relationship between the nodes in JSON format"
+        "description": "Optional data relevant for the relationship between the nodes in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

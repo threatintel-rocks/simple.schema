@@ -5,722 +5,1154 @@
       {
         "name": "AADGroupId",
         "type": "string",
-        "description": "Azure Active Directory group id"
+        "description": "Azure Active Directory group id",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AADTarget",
         "type": "string",
-        "description": "The user that the action (identified by the Operation property) was performed on"
+        "description": "The user that the action (identified by the Operation property) was performed on",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Activity",
         "type": "string",
-        "description": "The activity that the user performed."
+        "description": "The activity that the user performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Actor",
         "type": "string",
-        "description": "The user or service principal that performed the action"
+        "description": "The user or service principal that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActorContextId",
         "type": "string",
-        "description": "The GUID of the organization that the actor belongs to"
+        "description": "The GUID of the organization that the actor belongs to",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActorIpAddress",
         "type": "string",
-        "description": "The actor's IP address in IPV4 or IPV6 address format"
+        "description": "The actor's IP address in IPV4 or IPV6 address format",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AddOnGuid",
         "type": "string",
-        "description": "The unique identifier of the add-on generated this event"
+        "description": "The unique identifier of the add-on generated this event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AddonName",
         "type": "string",
-        "description": "The name of the add-on that generated this event"
+        "description": "The name of the add-on that generated this event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AddOnType",
         "type": "string",
-        "description": "The type of add-on that generated this event"
+        "description": "The type of add-on that generated this event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AffectedItems",
         "type": "string",
-        "description": "Information about each item in the group"
+        "description": "Information about each item in the group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppAccessContext",
         "type": "dynamic",
-        "description": "The application context for the user or service principal that performed the action."
+        "description": "The application context for the user or service principal that performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppDistributionMode",
         "type": "string",
-        "description": "Application distribution mode"
+        "description": "Application distribution mode",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppId",
         "type": "string",
-        "description": "Application ID"
+        "description": "Application ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "The application name"
+        "description": "The application name",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ApplicationId",
         "type": "string",
-        "description": "SharePoint application ID"
+        "description": "SharePoint application ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppPoolName",
         "type": "string",
-        "description": "The App pool name"
+        "description": "The App pool name",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ArtifactsShared",
         "type": "dynamic",
-        "description": "The artifacts shared in the meeting."
+        "description": "The artifacts shared in the meeting.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Attendees",
         "type": "dynamic",
-        "description": "The list of attendees for the meeting."
+        "description": "The list of attendees for the meeting.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AzureActiveDirectory_EventType",
         "type": "string",
-        "description": "The type of Azure AD event"
+        "description": "The type of Azure AD event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AzureADAppId",
         "type": "string",
-        "description": "Teams Application Azure AD ID"
+        "description": "Teams Application Azure AD ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChannelGuid",
         "type": "string",
-        "description": "A unique identifier for the channel being audited"
+        "description": "A unique identifier for the channel being audited",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChannelName",
         "type": "string",
-        "description": "The name of the channel being audited"
+        "description": "The name of the channel being audited",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChannelType",
         "type": "string",
-        "description": "The type of channel being audited (Standard/Private)"
+        "description": "The type of channel being audited (Standard/Private)",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChatName",
         "type": "string",
-        "description": "The name of the chat"
+        "description": "The name of the chat",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChatThreadId",
         "type": "string",
-        "description": "The Id of the chat thread"
+        "description": "The Id of the chat thread",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Client",
         "type": "string",
-        "description": "Details about the client device, device OS, and device browser that was used for the of the account login event"
+        "description": "Details about the client device, device OS, and device browser that was used for the of the account login event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Client_IPAddress",
         "type": "string",
-        "description": "The IP address of the device that was used when the operation was logged"
+        "description": "The IP address of the device that was used when the operation was logged",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientAppId",
         "type": "string",
-        "description": "Client application ID"
+        "description": "Client application ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientInfoString",
         "type": "string",
-        "description": "Information about the email client that was used to perform the operation"
+        "description": "Information about the email client that was used to perform the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientIP",
         "type": "string",
-        "description": "The IP address of the device that was used when the activity was logged"
+        "description": "The IP address of the device that was used when the activity was logged",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientMachineName",
         "type": "string",
-        "description": "The machine name that hosts the Outlook client"
+        "description": "The machine name that hosts the Outlook client",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientProcessName",
         "type": "string",
-        "description": "The email client that was used to access the mailbox"
+        "description": "The email client that was used to access the mailbox",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientVersion",
         "type": "string",
-        "description": "The version of the email client"
+        "description": "The version of the email client",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CommunicationType",
         "type": "string",
-        "description": "The type of communications that was conducted"
+        "description": "The type of communications that was conducted",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CrossMailboxOperations",
         "type": "bool",
-        "description": "Indicates if the operation involved more than one mailbox"
+        "description": "Indicates if the operation involved more than one mailbox",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CustomEvent",
         "type": "string",
-        "description": "Optional string for custom events"
+        "description": "Optional string for custom events",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DataCenterSecurityEventType",
         "type": "int",
-        "description": "The type of dmdlet event in lock box"
+        "description": "The type of dmdlet event in lock box",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestFolder",
         "type": "string",
-        "description": "The destination folder"
+        "description": "The destination folder",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationFileExtension",
         "type": "string",
-        "description": "The file extension of a file that is copied or moved"
+        "description": "The file extension of a file that is copied or moved",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationFileName",
         "type": "string",
-        "description": "The name of the file that is copied or moved"
+        "description": "The name of the file that is copied or moved",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationRelativeUrl",
         "type": "string",
-        "description": "The URL of the destination folder where a file is copied or moved"
+        "description": "The URL of the destination folder where a file is copied or moved",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestMailboxId",
         "type": "string",
-        "description": "Set only if the CrossMailboxOperations parameter is True"
+        "description": "Set only if the CrossMailboxOperations parameter is True",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestMailboxOwnerMasterAccountSid",
         "type": "string",
-        "description": "Set only if the CrossMailboxOperations parameter is True"
+        "description": "Set only if the CrossMailboxOperations parameter is True",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestMailboxOwnerSid",
         "type": "string",
-        "description": "Set only if the CrossMailboxOperations parameter is True"
+        "description": "Set only if the CrossMailboxOperations parameter is True",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestMailboxOwnerUPN",
         "type": "string",
-        "description": "Set only if the CrossMailboxOperations parameter is True"
+        "description": "Set only if the CrossMailboxOperations parameter is True",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceInformation",
         "type": "string",
-        "description": "The user device information."
+        "description": "The user device information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EffectiveOrganization",
         "type": "string",
-        "description": "The name of the tenant that the elevation/cmdlet was targeted at"
+        "description": "The name of the tenant that the elevation/cmdlet was targeted at",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationApprovedTime",
         "type": "datetime",
-        "description": "The timestamp for when the elevation was approved"
+        "description": "The timestamp for when the elevation was approved",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationApprover",
         "type": "string",
-        "description": "The name of a Microsoft manager"
+        "description": "The name of a Microsoft manager",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationDuration",
         "type": "int",
-        "description": "The duration for which the elevation was active (in Hours)"
+        "description": "The duration for which the elevation was active (in Hours)",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationRequestId",
         "type": "string",
-        "description": "A unique identifier for the elevation request"
+        "description": "A unique identifier for the elevation request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationRole",
         "type": "string",
-        "description": "The role the elevation was requested for"
+        "description": "The role the elevation was requested for",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ElevationTime",
         "type": "datetime",
-        "description": "The start time of the elevation"
+        "description": "The start time of the elevation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Event_Data",
         "type": "string",
-        "description": "Optional payload for custom events"
+        "description": "Optional payload for custom events",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSource",
         "type": "string",
-        "description": "Identifies that an event occurred in SharePoint. Possible values are SharePoint or ObjectModel"
+        "description": "Identifies that an event occurred in SharePoint. Possible values are SharePoint or ObjectModel",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExtendedProperties",
         "type": "string",
-        "description": "The extended properties of the Azure AD event"
+        "description": "The extended properties of the Azure AD event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExternalAccess",
         "type": "string",
-        "description": "Specifies whether the cmdlet was run by a user in your organization"
+        "description": "Specifies whether the cmdlet was run by a user in your organization",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ExtraProperties",
         "type": "dynamic",
-        "description": "A list of extra properties"
+        "description": "A list of extra properties",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Folder",
         "type": "string",
-        "description": "The folder where a group of items is located"
+        "description": "The folder where a group of items is located",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Folders",
         "type": "string",
-        "description": "Information about the source folders involved in an operation"
+        "description": "Information about the source folders involved in an operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GenericInfo",
         "type": "string",
-        "description": "Used for comments and other generic information"
+        "description": "Used for comments and other generic information",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InternalLogonType",
         "type": "int",
-        "description": "Reserved for internal use"
+        "description": "Reserved for internal use",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InterSystemsId",
         "type": "string",
-        "description": "The GUID that track the actions across components within the Office 365 service"
+        "description": "The GUID that track the actions across components within the Office 365 service",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IntraSystemId",
         "type": "string",
-        "description": "The GUID that's generated by Azure Active Directory to track the action"
+        "description": "The GUID that's generated by Azure Active Directory to track the action",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsJoinedFromLobby",
         "type": "bool",
-        "description": "Indicates whether the user join from the lobby."
+        "description": "Indicates whether the user join from the lobby.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsManagedDevice",
         "type": "bool",
-        "description": "Indicates if operation was created by a device managed by the organization"
+        "description": "Indicates if operation was created by a device managed by the organization",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Item",
         "type": "string",
-        "description": "Represents the item upon which the operation was performed"
+        "description": "Represents the item upon which the operation was performed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemName",
         "type": "string",
-        "description": "The string in the Subject field of the email message"
+        "description": "The string in the Subject field of the email message",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ItemType",
         "type": "string",
-        "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects"
+        "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JoinTime",
         "type": "datetime",
-        "description": "The time the user joined the meeting."
+        "description": "The time the user joined the meeting.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LeaveTime",
         "type": "datetime",
-        "description": "The time the user left the meeting."
+        "description": "The time the user left the meeting.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ListItemUniqueId",
         "type": "string",
-        "description": "The Guid of uniquely an identifiable item of list. This information is present only if it is applicable."
+        "description": "The Guid of uniquely an identifiable item of list. This information is present only if it is applicable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LoginStatus",
         "type": "int",
-        "description": "This property is from OrgIdLogon.LoginStatus directly. The mapping of various interesting logon failures could be done by alerting algorithms"
+        "description": "This property is from OrgIdLogon.LoginStatus directly. The mapping of various interesting logon failures could be done by alerting algorithms",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Logon_Type",
         "type": "string",
-        "description": "Indicates the type of user who accessed the mailbox and performed the operation that was logged"
+        "description": "Indicates the type of user who accessed the mailbox and performed the operation that was logged",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogonUserDisplayName",
         "type": "string",
-        "description": "The user-friendly name of the user who performed the operation"
+        "description": "The user-friendly name of the user who performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogonUserSid",
         "type": "string",
-        "description": "The SID of the user who performed the operation"
+        "description": "The SID of the user who performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MachineDomainInfo",
         "type": "string",
-        "description": "Information about device sync operations"
+        "description": "Information about device sync operations",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MachineId",
         "type": "string",
-        "description": "Information about device sync operations"
+        "description": "Information about device sync operations",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MailboxGuid",
         "type": "string",
-        "description": "The Exchange GUID of the mailbox that was accessed"
+        "description": "The Exchange GUID of the mailbox that was accessed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MailboxOwnerMasterAccountSid",
         "type": "string",
-        "description": "Mailbox owner account's master account SID"
+        "description": "Mailbox owner account's master account SID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MailboxOwnerSid",
         "type": "string",
-        "description": "The SID of the mailbox owner"
+        "description": "The SID of the mailbox owner",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MailboxOwnerUPN",
         "type": "string",
-        "description": "The email address of the person who owns the mailbox that was accessed"
+        "description": "The email address of the person who owns the mailbox that was accessed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MeetingDetailId",
         "type": "string",
-        "description": "The meeting detail ID."
+        "description": "The meeting detail ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Members",
         "type": "dynamic",
-        "description": "A list of users within a Team"
+        "description": "A list of users within a Team",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MessageId",
         "type": "string",
-        "description": "An identifier for a chat or channel message"
+        "description": "An identifier for a chat or channel message",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ModifiedObjectResolvedName",
         "type": "string",
-        "description": "This is the user friendly name of the object that was modified by the cmdlet"
+        "description": "This is the user friendly name of the object that was modified by the cmdlet",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ModifiedProperties",
         "type": "string",
-        "description": "The property is included for admin events, such as adding a user as a member of a site or a site collection admin group"
+        "description": "The property is included for admin events, such as adding a user as a member of a site or a site collection admin group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Name",
         "type": "string",
-        "description": "Only present for settings events. Name of the setting that changed"
+        "description": "Only present for settings events. Name of the setting that changed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NewValue",
         "type": "string",
-        "description": "Only present for settings events. New value of the setting"
+        "description": "Only present for settings events. New value of the setting",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OfficeId",
         "type": "string",
-        "description": "Unique identifier of an audit record"
+        "description": "Unique identifier of an audit record",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OfficeObjectId",
         "type": "string",
-        "description": "For SharePoint and OneDrive for Business activity"
+        "description": "For SharePoint and OneDrive for Business activity",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OfficeTenantId",
         "type": "string",
-        "description": "The office tenant id"
+        "description": "The office tenant id",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OfficeWorkload",
         "type": "string",
-        "description": "The Office 365 service where the activity occurred"
+        "description": "The Office 365 service where the activity occurred",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OldValue",
         "type": "string",
-        "description": "Only present for settings events. Old value of the setting"
+        "description": "Only present for settings events. Old value of the setting",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "string",
-        "description": "The name of the operation that the user is performing"
+        "description": "The name of the operation that the user is performing",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationProperties",
         "type": "dynamic",
-        "description": "Additional operation properties"
+        "description": "Additional operation properties",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationScope",
         "type": "string",
-        "description": "The scope the operation was performed on"
+        "description": "The scope the operation was performed on",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OrganizationId",
         "type": "string",
-        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization"
+        "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OrganizationName",
         "type": "string",
-        "description": "The name of the tenant"
+        "description": "The name of the tenant",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OriginatingServer",
         "type": "string",
-        "description": "The name of the server from which the cmdlet was executed"
+        "description": "The name of the server from which the cmdlet was executed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Parameters",
         "type": "string",
-        "description": "The name and value for all parameters that were used with the cmdlet that is identified in the Operations property"
+        "description": "The name and value for all parameters that were used with the cmdlet that is identified in the Operations property",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordType",
         "type": "string",
-        "description": "The type of operation indicated by the record. See the AuditLogRecordType table for details on the types of audit log records"
+        "description": "The type of operation indicated by the record. See the AuditLogRecordType table for details on the types of audit log records",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultReasonType",
         "type": "string",
-        "description": "Reason for the result reported in ResultType"
+        "description": "Reason for the result reported in ResultType",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultStatus",
         "type": "string",
-        "description": "Indicates whether the action (specified in the Operation property) was successful or not"
+        "description": "Indicates whether the action (specified in the Operation property) was successful or not",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SendAsUserMailboxGuid",
         "type": "string",
-        "description": "The Exchange GUID of the mailbox that was accessed to send email as"
+        "description": "The Exchange GUID of the mailbox that was accessed to send email as",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SendAsUserSmtp",
         "type": "string",
-        "description": "SMTP address of the user who is being impersonated"
+        "description": "SMTP address of the user who is being impersonated",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SendonBehalfOfUserMailboxGuid",
         "type": "string",
-        "description": "The Exchange GUID of the mailbox that was accessed to send mail on behalf of"
+        "description": "The Exchange GUID of the mailbox that was accessed to send mail on behalf of",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SendOnBehalfOfUserSmtp",
         "type": "string",
-        "description": "SMTP address of the user on whose behalf the email is sent"
+        "description": "SMTP address of the user on whose behalf the email is sent",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelId",
         "type": "string",
-        "description": "The current sensitivity label ID of the file."
+        "description": "The current sensitivity label ID of the file.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SharingType",
         "type": "string",
-        "description": "The type of sharing permissions that were assigned to the user that the resource was shared with. This user is identified by the UserSharedWith parameter"
+        "description": "The type of sharing permissions that were assigned to the user that the resource was shared with. This user is identified by the UserSharedWith parameter",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Site_",
         "type": "string",
-        "description": "The GUID of the site where the file or folder accessed by the user is located"
+        "description": "The GUID of the site where the file or folder accessed by the user is located",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Site_Url",
         "type": "string",
-        "description": "The URL of the site where the file or folder accessed by the user is located"
+        "description": "The URL of the site where the file or folder accessed by the user is located",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Source_Name",
         "type": "string",
-        "description": "The entity that triggered the audited operation. Possible values are SharePoint or ObjectModel"
+        "description": "The entity that triggered the audited operation. Possible values are SharePoint or ObjectModel",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceFileExtension",
         "type": "string",
-        "description": "The file extension of the file that was accessed by the user"
+        "description": "The file extension of the file that was accessed by the user",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceFileName",
         "type": "string",
-        "description": "The name of the file or folder accessed by the user"
+        "description": "The name of the file or folder accessed by the user",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceRecordId",
         "type": "string",
-        "description": "Unique identifier of an audit record"
+        "description": "Unique identifier of an audit record",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceRelativeUrl",
         "type": "string",
-        "description": "The URL of the folder that contains the file accessed by the user"
+        "description": "The URL of the folder that contains the file accessed by the user",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SRPolicyId",
         "type": "string",
-        "description": "Policy ID"
+        "description": "Policy ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SRPolicyName",
         "type": "string",
-        "description": "Policy name"
+        "description": "Policy name",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SRRuleMatchDetails",
         "type": "dynamic",
-        "description": "Rule details"
+        "description": "Rule details",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Start_Time",
         "type": "datetime",
-        "description": "The date and time at which the cmdlet was executed"
+        "description": "The date and time at which the cmdlet was executed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SupportTicketId",
         "type": "string",
-        "description": "The customer support ticket ID for the action in 'act-on-behalf-of' situations"
+        "description": "The customer support ticket ID for the action in 'act-on-behalf-of' situations",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TabType",
         "type": "string",
-        "description": "The type of tab that generated this event"
+        "description": "The type of tab that generated this event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetContextId",
         "type": "string",
-        "description": "The GUID of the organization that the targeted user belongs to"
+        "description": "The GUID of the organization that the targeted user belongs to",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetUserId",
         "type": "string",
-        "description": "Target user id"
+        "description": "Target user id",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetUserOrGroupName",
         "type": "string",
-        "description": "Stores the UPN or name of the target user or group that a resource was shared with"
+        "description": "Stores the UPN or name of the target user or group that a resource was shared with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetUserOrGroupType",
         "type": "string",
-        "description": "Identifies whether the target user or group is a Member, Guest, Group, or Partner"
+        "description": "Identifies whether the target user or group is a Member, Guest, Group, or Partner",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TeamGuid",
         "type": "string",
-        "description": "A unique identifier for the team being audited"
+        "description": "A unique identifier for the team being audited",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TeamName",
         "type": "string",
-        "description": "The name of the team being audited"
+        "description": "The name of the team being audited",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time in Coordinated Universal Time (UTC) when the user performed the activity"
+        "description": "The date and time in Coordinated Universal Time (UTC) when the user performed the activity",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UniqueSharingId",
         "type": "string",
-        "description": "The unique sharing ID associated with the sharing operation."
+        "description": "The unique sharing ID associated with the sharing operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "The user agent"
+        "description": "The user agent",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserDomain",
         "type": "string",
-        "description": "The domain of the user"
+        "description": "The domain of the user",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged"
+        "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserKey",
         "type": "string",
-        "description": "An alternative ID for the user identified in the UserId property"
+        "description": "An alternative ID for the user identified in the UserId property",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserSharedWith",
         "type": "string",
-        "description": "The user that a resource was shared with"
+        "description": "The user that a resource was shared with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserType",
         "type": "string",
-        "description": "The type of user that performed the operation. See the UserType table for details on the types of users"
+        "description": "The type of user that performed the operation. See the UserType table for details on the types of users",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

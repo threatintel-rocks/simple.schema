@@ -5,97 +5,154 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "Application that performed the recorded action"
+        "description": "Application that performed the recorded action",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ApplicationId",
         "type": "string",
-        "description": "Unique identifier for the application"
+        "description": "Unique identifier for the application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsManagedIdentity",
         "type": "boolean",
-        "description": "Indicates whether the sign-in was initiated by a managed identity"
+        "description": "Indicates whether the sign-in was initiated by a managed identity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ErrorCode",
         "type": "int",
-        "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>."
+        "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Unique identifier of the sign-in event"
+        "description": "Unique identifier of the sign-in event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ServicePrincipalName",
         "type": "string",
-        "description": "Name of the service principal that initiated the sign-in"
+        "description": "Name of the service principal that initiated the sign-in",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ServicePrincipalId",
         "type": "string",
-        "description": "Unique identifier of the service principal that initiated the sign-in"
+        "description": "Unique identifier of the service principal that initiated the sign-in",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceDisplayName",
         "type": "string",
-        "description": "Display name of the resource accessed. The display name can contain any character."
+        "description": "Display name of the resource accessed. The display name can contain any character.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceId",
         "type": "string",
-        "description": "Unique identifier of the resource accessed"
+        "description": "Unique identifier of the resource accessed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceTenantId",
         "type": "string",
-        "description": "Unique identifier of the tenant of the resource accessed"
+        "description": "Unique identifier of the tenant of the resource accessed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address assigned to the endpoint and used during related network communications"
+        "description": "IP address assigned to the endpoint and used during related network communications",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Country",
         "type": "string",
-        "description": "Two-letter code indicating the country/region where the client IP address is geolocated"
+        "description": "Two-letter code indicating the country/region where the client IP address is geolocated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "State",
         "type": "string",
-        "description": "State where the sign-in occurred, if available"
+        "description": "State where the sign-in occurred, if available",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "City",
         "type": "string",
-        "description": "City where the account user is located"
+        "description": "City where the account user is located",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Latitude",
         "type": "string",
-        "description": "The north to south coordinates of the sign-in location"
+        "description": "The north to south coordinates of the sign-in location",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Longitude",
         "type": "string",
-        "description": "The east to west coordinates of the sign-in location"
+        "description": "The east to west coordinates of the sign-in location",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "Unique identifier of the request"
+        "description": "Unique identifier of the request",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportId",
         "type": "string",
-        "description": "Unique identifier for the event"
+        "description": "Unique identifier for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

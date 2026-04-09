@@ -1,0 +1,104 @@
+{
+  "Tropico_Alerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertName",
+        "type": "string",
+        "description": "Alert title",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertSeverity",
+        "type": "string",
+        "description": "Severity (High/Medium/Low/Informational)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "Alert type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Alert description",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Alert status (New/InProgress/Closed)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProviderName",
+        "type": "string",
+        "description": "Provider name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductName",
+        "type": "string",
+        "description": "Product name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Source IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TacticName",
+        "type": "string",
+        "description": "MITRE ATT&CK tactic",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueName",
+        "type": "string",
+        "description": "MITRE ATT&CK technique",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalData",
+        "type": "dynamic",
+        "description": "Full OCSF data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tropico"
+  }
+}

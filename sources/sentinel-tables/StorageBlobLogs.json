@@ -5,277 +5,442 @@
       {
         "name": "AccessTier",
         "type": "string",
-        "description": "The access tier of the storage account."
+        "description": "The access tier of the storage account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The name of the storage account."
+        "description": "The name of the storage account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationHash",
         "type": "string",
-        "description": "The hash of authentication token."
+        "description": "The hash of authentication token.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationType",
         "type": "string",
-        "description": "The type of authentication that was used to make the request."
+        "description": "The type of authentication that was used to make the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthorizationDetails",
         "type": "dynamic",
-        "description": "Detailed policy information used to authorize the request."
+        "description": "Detailed policy information used to authorize the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CallerIpAddress",
         "type": "string",
-        "description": "The IP address of the requester, including the port number."
+        "description": "The IP address of the requester, including the port number.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": "The category of requested operation."
+        "description": "The category of requested operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientRequestId",
         "type": "string",
-        "description": "The x-ms-client-request-id header value of the request."
+        "description": "The x-ms-client-request-id header value of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionsUsed",
         "type": "string",
-        "description": "A semicolon-separated list of key-value pairs that represent a condition."
+        "description": "A semicolon-separated list of key-value pairs that represent a condition.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ContentLengthHeader",
         "type": "long",
-        "description": "The value of the Content-Length header for the request sent to the storage service."
+        "description": "The value of the Content-Length header for the request sent to the storage service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "The ID that is used to correlate logs across resources."
+        "description": "The ID that is used to correlate logs across resources.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationUri",
         "type": "string",
-        "description": "Records the destination URI for operations."
+        "description": "Records the destination URI for operations.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DurationMs",
         "type": "real",
-        "description": "The total time, expressed in milliseconds, to perform the requested operation. This includes the time to read the incoming request, and to send the response to the requester."
+        "description": "The total time, expressed in milliseconds, to perform the requested operation. This includes the time to read the incoming request, and to send the response to the requester.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Etag",
         "type": "string",
-        "description": "The ETag identifier for the returned object, in quotes."
+        "description": "The ETag identifier for the returned object, in quotes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastModifiedTime",
         "type": "datetime",
-        "description": "The Last Modified Time (LMT) for the returned object. This field is empty for operations that can return multiple objects."
+        "description": "The Last Modified Time (LMT) for the returned object. This field is empty for operations that can return multiple objects.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "string",
-        "description": "The location of storage account."
+        "description": "The location of storage account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetricResponseType",
         "type": "string",
-        "description": "Records the metric response for correlation between metrics and logs."
+        "description": "Records the metric response for correlation between metrics and logs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ObjectKey",
         "type": "string",
-        "description": "The key of the requested object, in quotes."
+        "description": "The key of the requested object, in quotes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationCount",
         "type": "int",
-        "description": "The number of each logged operation that is involved in the request. This count starts with an index of 0. Some requests require more than one operation, such as a request to copy a blob. Most requests perform only one operation."
+        "description": "The number of each logged operation that is involved in the request. This count starts with an index of 0. Some requests require more than one operation, such as a request to copy a blob. Most requests perform only one operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "The type of REST operation that was performed."
+        "description": "The type of REST operation that was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationVersion",
         "type": "string",
-        "description": "The storage service version that was specified when the request was made. This is equivalent to the value of the x-ms-version header."
+        "description": "The storage service version that was specified when the request was made. This is equivalent to the value of the x-ms-version header.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "The protocol that is used in the operation."
+        "description": "The protocol that is used in the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReferrerHeader",
         "type": "string",
-        "description": "The Referer header value."
+        "description": "The Referer header value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RehydratePriority",
         "type": "string",
-        "description": "The priority used to rehydrate an archived blob."
+        "description": "The priority used to rehydrate an archived blob.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestBodySize",
         "type": "long",
-        "description": "The size of the request packets, expressed in bytes, that are read by the storage service. If a request is unsuccessful, this value might be empty."
+        "description": "The size of the request packets, expressed in bytes, that are read by the storage service. If a request is unsuccessful, this value might be empty.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterAppId",
         "type": "string",
-        "description": "The Open Authorization (OAuth) application ID that is used as the requester."
+        "description": "The Open Authorization (OAuth) application ID that is used as the requester.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterAudience",
         "type": "string",
-        "description": "The OAuth audience of the request."
+        "description": "The OAuth audience of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterObjectId",
         "type": "string",
-        "description": "The OAuth object ID of the requester."
+        "description": "The OAuth object ID of the requester.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterTenantId",
         "type": "string",
-        "description": "The OAuth tenant ID of identity."
+        "description": "The OAuth tenant ID of identity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterTokenIssuer",
         "type": "string",
-        "description": "The OAuth token issuer."
+        "description": "The OAuth token issuer.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequesterUpn",
         "type": "string",
-        "description": "The User Principal Names of requestor."
+        "description": "The User Principal Names of requestor.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestHeaderSize",
         "type": "long",
-        "description": "The size of the request header expressed in bytes. If a request is unsuccessful, this value might be empty."
+        "description": "The size of the request header expressed in bytes. If a request is unsuccessful, this value might be empty.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMd5",
         "type": "string",
-        "description": "The value of either the Content-MD5 header or the x-ms-content-md5 header in the request. The MD5 hash value specified in this field represents the content in the request."
+        "description": "The value of either the Content-MD5 header or the x-ms-content-md5 header in the request. The MD5 hash value specified in this field represents the content in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseBodySize",
         "type": "long",
-        "description": "The size of the response packets written by the storage service, in bytes. If a request is unsuccessful, this value may be empty."
+        "description": "The size of the response packets written by the storage service, in bytes. If a request is unsuccessful, this value may be empty.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseHeaderSize",
         "type": "long",
-        "description": "The size of the response header expressed in bytes. If a request is unsuccessful, this value might be empty."
+        "description": "The size of the response header expressed in bytes. If a request is unsuccessful, this value might be empty.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseMd5",
         "type": "string",
-        "description": "The value of the MD5 hash calculated by the storage service."
+        "description": "The value of the MD5 hash calculated by the storage service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SasExpiryStatus",
         "type": "string",
-        "description": "Records any violations in the request SAS token as per the SAS policy set in the storage account. Ex: longer SAS token duration specified than allowed per SAS policy"
+        "description": "Records any violations in the request SAS token as per the SAS policy set in the storage account. Ex: longer SAS token duration specified than allowed per SAS policy",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SchemaVersion",
         "type": "string",
-        "description": "The schema version of the log."
+        "description": "The schema version of the log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServerLatencyMs",
         "type": "real",
-        "description": "The total time expressed in milliseconds to perform the requested operation. This value doesn't include network latency (the time to read the incoming request and send the response to the requester)."
+        "description": "The total time expressed in milliseconds to perform the requested operation. This value doesn't include network latency (the time to read the incoming request and send the response to the requester).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceType",
         "type": "string",
-        "description": "The service associated with this request."
+        "description": "The service associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceAccessTier",
         "type": "string",
-        "description": "The source tier of the storage account."
+        "description": "The source tier of the storage account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceUri",
         "type": "string",
-        "description": "Records the source URI for operations."
+        "description": "Records the source URI for operations.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusCode",
         "type": "string",
-        "description": "The HTTP status code for the request. If the request is interrupted, this value might be set to Unknown."
+        "description": "The HTTP status code for the request. If the request is interrupted, this value might be set to Unknown.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusText",
         "type": "string",
-        "description": "The status of the requested operation."
+        "description": "The status of the requested operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The Universal Time Coordinated (UTC) time when the request was received by storage."
+        "description": "The Universal Time Coordinated (UTC) time when the request was received by storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsVersion",
         "type": "string",
-        "description": "The TLS version used in the connection of request."
+        "description": "The TLS version used in the connection of request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Uri",
         "type": "string",
-        "description": "Uniform resource identifier that is requested."
+        "description": "Uniform resource identifier that is requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgentHeader",
         "type": "string",
-        "description": "The User-Agent header value, in quotes."
+        "description": "The User-Agent header value, in quotes.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

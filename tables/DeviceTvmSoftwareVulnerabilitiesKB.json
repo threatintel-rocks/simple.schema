@@ -5,42 +5,66 @@
       {
         "name": "CveId",
         "type": "string",
-        "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system"
+        "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CvssScore",
         "type": "string",
-        "description": "Severity score assigned to the security vulnerability under the Common Vulnerability Scoring System (CVSS)"
+        "description": "Severity score assigned to the security vulnerability under the Common Vulnerability Scoring System (CVSS)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsExploitAvailable",
         "type": "boolean",
-        "description": "Indicates whether exploit code for the vulnerability is publicly available"
+        "description": "Indicates whether exploit code for the vulnerability is publicly available",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "VulnerabilitySeverityLevel",
         "type": "string",
-        "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape"
+        "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastModifiedTime",
         "type": "datetime",
-        "description": "Date and time the item or related metadata was last modified"
+        "description": "Date and time the item or related metadata was last modified",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PublishedDate",
         "type": "datetime",
-        "description": "Date vulnerability was disclosed to the public"
+        "description": "Date vulnerability was disclosed to the public",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "VulnerabilityDescription",
         "type": "string",
-        "description": "Description of the vulnerability and associated risks"
+        "description": "Description of the vulnerability and associated risks",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AffectedSoftware",
         "type": "dynamic",
-        "description": "List of all software products affected by the vulnerability"
+        "description": "List of all software products affected by the vulnerability",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

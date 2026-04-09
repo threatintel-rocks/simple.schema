@@ -5,132 +5,210 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Channel",
         "type": "string",
-        "description": "The channel to which the event was logged."
+        "description": "The channel to which the event was logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Computer",
         "type": "string",
-        "description": "The name of the computer on which the event occurred."
+        "description": "The name of the computer on which the event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Correlation",
         "type": "string",
-        "description": "The activity identifiers that consumers can use to group related events together."
+        "description": "The activity identifiers that consumers can use to group related events together.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventData",
         "type": "dynamic",
-        "description": "Contains the event data parsed to dynamic type. If the parsing fails then this field will contain null and the RawEventData field will be populated."
+        "description": "Contains the event data parsed to dynamic type. If the parsing fails then this field will contain null and the RawEventData field will be populated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventID",
         "type": "int",
-        "description": "The identifier that the provider used to identify the event."
+        "description": "The identifier that the provider used to identify the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventLevel",
         "type": "int",
-        "description": "Contains the severity level of the event."
+        "description": "Contains the severity level of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventLevelName",
         "type": "string",
-        "description": "The rendered message string of the level specified in the event."
+        "description": "The rendered message string of the level specified in the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginId",
         "type": "string",
-        "description": "VM ID obtained from the Azure Instance Metadata Service (IMDS)."
+        "description": "VM ID obtained from the Azure Instance Metadata Service (IMDS).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventRecordId",
         "type": "string",
-        "description": "The record number assigned to the event when it was logged."
+        "description": "The record number assigned to the event when it was logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Keywords",
         "type": "string",
-        "description": "A bitmask of the keywords defined in the event."
+        "description": "A bitmask of the keywords defined in the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ManagementGroupName",
         "type": "string",
-        "description": "Additional information based on the resource type."
+        "description": "Additional information based on the resource type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Opcode",
         "type": "string",
-        "description": "The opcode element is defined by the SystemPropertiesType complex type."
+        "description": "The opcode element is defined by the SystemPropertiesType complex type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Provider",
         "type": "string",
-        "description": "System Properties Type - Identifies the provider that logged the event."
+        "description": "System Properties Type - Identifies the provider that logged the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RawEventData",
         "type": "string",
-        "description": "The raw event XML when parsing fails. It's null when parsing successful."
+        "description": "The raw event XML when parsing fails. It's null when parsing successful.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemProcessId",
         "type": "int",
-        "description": "Identifies the process that generated the event."
+        "description": "Identifies the process that generated the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemThreadId",
         "type": "int",
-        "description": "Identifies the thread that generated the event."
+        "description": "Identifies the thread that generated the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemUserId",
         "type": "string",
-        "description": "The ID of the user who is responsible for the event."
+        "description": "The ID of the user who is responsible for the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Task",
         "type": "int",
-        "description": "The task defined in the event."
+        "description": "The task defined in the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time stamp when the event was generated on the computer."
+        "description": "The time stamp when the event was generated on the computer.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Version",
         "type": "int",
-        "description": "Contains the version number of the event's definition."
+        "description": "Contains the version number of the event's definition.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

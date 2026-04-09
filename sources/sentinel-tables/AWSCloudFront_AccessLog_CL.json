@@ -1,7 +1,364 @@
 {
   "AWSCloudFront_AccessLog_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "Date",
+        "type": "string",
+        "description": "The date when the request was received by CloudFront.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Time",
+        "type": "string",
+        "description": "The time when the request was received by CloudFront.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timeGenerated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XEdgeLocation",
+        "type": "string",
+        "description": "The edge location that served the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScBytes",
+        "type": "string",
+        "description": "The number of bytes returned by CloudFront to the viewer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CIp",
+        "type": "string",
+        "description": "The IP address of the viewer that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsMethod",
+        "type": "string",
+        "description": "The HTTP method of the viewer request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsHost",
+        "type": "string",
+        "description": "The domain name of the CloudFront distribution.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUriStem",
+        "type": "string",
+        "description": "The URI stem of the request (domain to query string).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScStatus",
+        "type": "string",
+        "description": "The HTTP status code returned to the viewer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsReferer",
+        "type": "string",
+        "description": "The value of the HTTP referer header.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUserAgent",
+        "type": "string",
+        "description": "The user-agent header of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUriQuery",
+        "type": "string",
+        "description": "The query string portion of the URI, if any.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsCookie",
+        "type": "string",
+        "description": "The cookie header of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XEdgeResultType",
+        "type": "string",
+        "description": "The result type of the request at the edge location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XEdgeRequestId",
+        "type": "string",
+        "description": "A unique ID assigned to the request by CloudFront.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XHostHeader",
+        "type": "string",
+        "description": "The host header value received in the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsProtocol",
+        "type": "string",
+        "description": "The protocol used by the viewer (HTTP or HTTPS).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsBytes",
+        "type": "string",
+        "description": "The number of bytes received from the viewer by CloudFront.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeTaken",
+        "type": "string",
+        "description": "Total time in seconds CloudFront took to process the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XForwardedFor",
+        "type": "string",
+        "description": "The X-Forwarded-For header value, if present.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SslProtocol",
+        "type": "string",
+        "description": "The SSL/TLS protocol version used for the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SslCipher",
+        "type": "string",
+        "description": "The SSL/TLS cipher used for the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XEdgeResponseResultType",
+        "type": "string",
+        "description": "The result type of the response from CloudFront.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsProtocolVersion",
+        "type": "string",
+        "description": "The HTTP version used in the request (e.g., HTTP/2.0).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FleStatus",
+        "type": "string",
+        "description": "Field-Level Encryption status, if enabled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FleEncryptedFields",
+        "type": "string",
+        "description": "Encrypted fields, if Field-Level Encryption is enabled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CPort",
+        "type": "string",
+        "description": "The port number of the client making the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeToFirstByte",
+        "type": "string",
+        "description": "Time (in seconds) to start sending the response.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XEdgeDetailedResultType",
+        "type": "string",
+        "description": "More detailed result type for the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScContentType",
+        "type": "string",
+        "description": "The content type of the response.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScContentLen",
+        "type": "string",
+        "description": "The length of the response content.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScRangeStart",
+        "type": "string",
+        "description": "Start of the byte range requested, if any.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScRangeEnd",
+        "type": "string",
+        "description": "End of the byte range requested, if any.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "Timestamp when request was logged.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DistributionId",
+        "type": "string",
+        "description": "The distribution ID serving the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimestampMs",
+        "type": "string",
+        "description": "Timestamp in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginFbl",
+        "type": "string",
+        "description": "First-byte latency at origin.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginLbl",
+        "type": "string",
+        "description": "Last-byte latency at origin.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Asn",
+        "type": "string",
+        "description": "Autonomous System Number of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CCountry",
+        "type": "string",
+        "description": "Client country.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CacheBehaviorPathPattern",
+        "type": "string",
+        "description": "Cache behavior path pattern matched.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Distributionid",
+        "type": "string",
+        "description": "Distribution ID (lowercased or alternate form).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DistributionTenantId",
+        "type": "string",
+        "description": "Tenant identifier for multi-tenant use.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

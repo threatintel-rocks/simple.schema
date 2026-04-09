@@ -5,157 +5,250 @@
       {
         "name": "AADOperationType",
         "type": "string",
-        "description": "Type of the operation. Possible values are Add Update Delete and Other."
+        "description": "Type of the operation. Possible values are Add Update Delete and Other.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AADTenantId",
         "type": "string",
-        "description": "ID of the ADD tenant"
+        "description": "ID of the ADD tenant",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityDateTime",
         "type": "datetime",
-        "description": "Date and time the activity was performed in UTC."
+        "description": "Date and time the activity was performed in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityDisplayName",
         "type": "string",
-        "description": "Activity name or the operation name. Examples include Create User and Add member to group. For full list see Azure AD activity list."
+        "description": "Activity name or the operation name. Examples include Create User and Add member to group. For full list see Azure AD activity list.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AdditionalDetails",
         "type": "dynamic",
-        "description": "Indicates additional details on the activity."
+        "description": "Indicates additional details on the activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": "Currently Audit is the only supported value."
+        "description": "Currently Audit is the only supported value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Optional GUID that's passed by the client. Can help correlate client-side operations with server-side operations and is useful when tracking logs that span services."
+        "description": "Optional GUID that's passed by the client. Can help correlate client-side operations with server-side operations and is useful when tracking logs that span services.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DurationMs",
         "type": "long",
-        "description": "Property is not used and can be ignored."
+        "description": "Property is not used and can be ignored.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "GUID that uniquely identifies the activity."
+        "description": "GUID that uniquely identifies the activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Identity",
         "type": "string",
-        "description": "Identity from the token that was presented when the request was made. The identity can be a user account system account or service principal."
+        "description": "Identity from the token that was presented when the request was made. The identity can be a user account system account or service principal.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InitiatedBy",
         "type": "dynamic",
-        "description": "User or app initiated the activity."
+        "description": "User or app initiated the activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Level",
         "type": "string",
-        "description": "Message type. This is currently always Informational."
+        "description": "Message type. This is currently always Informational.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "string",
-        "description": "Location of the datacenter."
+        "description": "Location of the datacenter.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LoggedByService",
         "type": "string",
-        "description": "Service that initiated the activity (For example: Self-service Password Management Core Directory B2C Invited Users Microsoft Identity Manager Privileged Identity Management."
+        "description": "Service that initiated the activity (For example: Self-service Password Management Core Directory B2C Invited Users Microsoft Identity Manager Privileged Identity Management.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "Name of the operation."
+        "description": "Name of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationVersion",
         "type": "string",
-        "description": "REST API version that's requested by the client."
+        "description": "REST API version that's requested by the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Resource",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceGroup",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceProvider",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Result",
         "type": "string",
-        "description": "Result of the activity. Possible values are: success failure timeout unknownFutureValue."
+        "description": "Result of the activity. Possible values are: success failure timeout unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultDescription",
         "type": "string",
-        "description": "Additional description of the result."
+        "description": "Additional description of the result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultReason",
         "type": "string",
-        "description": "Describes cause of failure or timeout results."
+        "description": "Describes cause of failure or timeout results.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultSignature",
         "type": "string",
-        "description": "Property is not used and can be ignored."
+        "description": "Property is not used and can be ignored.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultType",
         "type": "string",
-        "description": "Result of the operation. Possible values are Success and Failure."
+        "description": "Result of the operation. Possible values are Success and Failure.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetResources",
         "type": "dynamic",
-        "description": "Indicates information on which resource was changed due to the activity. Target Resource Type can be User Device Directory App Role Group Policy or Other."
+        "description": "Indicates information on which resource was changed due to the activity. Target Resource Type can be User Device Directory App Role Group Policy or Other.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Date and time the record was created."
+        "description": "Date and time the record was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

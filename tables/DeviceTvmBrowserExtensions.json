@@ -5,52 +5,82 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "BrowserName",
         "type": "string",
-        "description": "Name of the web browser with the extension"
+        "description": "Name of the web browser with the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionId",
         "type": "string",
-        "description": "Unique identifier for the browser extension"
+        "description": "Unique identifier for the browser extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionName",
         "type": "string",
-        "description": "Name of the extension"
+        "description": "Name of the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionDescription",
         "type": "string",
-        "description": "Description from the publisher about the extension"
+        "description": "Description from the publisher about the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionVersion",
         "type": "string",
-        "description": "Version number of the extension"
+        "description": "Version number of the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionRisk",
         "type": "string",
-        "description": "Risk level for the extension based on the permissions it has requested"
+        "description": "Risk level for the extension based on the permissions it has requested",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExtensionVendor",
         "type": "string",
-        "description": "Name of the vendor offering the extension"
+        "description": "Name of the vendor offering the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsActivated",
         "type": "string",
-        "description": "Whether the extension is turned on or off on the devices"
+        "description": "Whether the extension is turned on or off on the devices",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InstallationTime",
         "type": "datetime",
-        "description": "Date and time when the browser extension was first installed"
+        "description": "Date and time when the browser extension was first installed",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

@@ -5,32 +5,50 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastSeenTime",
         "type": "datetime",
-        "description": "Date and time when the service last saw the device"
+        "description": "Date and time when the service last saw the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7."
+        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 10 and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information about the entity or event"
+        "description": "Additional information about the entity or event",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

@@ -5,217 +5,346 @@
       {
         "name": "AbapProgramName",
         "type": "string",
-        "description": "The AbapProgramName is a four-character alphanumeric code that is used identify a specific program within the SAP system."
+        "description": "The AbapProgramName is a four-character alphanumeric code that is used identify a specific program within the SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AgentId",
         "type": "string",
-        "description": "Unique agent or integration suite identifier."
+        "description": "Unique agent or integration suite identifier.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertSeverity",
         "type": "real",
-        "description": "The AlertSeverity is a number between 0 and 255; the larger the number, the greater the severity."
+        "description": "The AlertSeverity is a number between 0 and 255; the larger the number, the greater the severity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertSeverityText",
         "type": "string",
-        "description": "The AlertSeverityText refers to the text description associated with a specific alert or notification severity level. It provides a detailed explanation of the severity level and is used in various SAP transactions and reports."
+        "description": "The AlertSeverityText refers to the text description associated with a specific alert or notification severity level. It provides a detailed explanation of the severity level and is used in various SAP transactions and reports.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertValue",
         "type": "real",
-        "description": "The AlertValue represents the importance of the message of a log attribute, characterized by color and severity."
+        "description": "The AlertValue represents the importance of the message of a log attribute, characterized by color and severity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuditClassId",
         "type": "real",
-        "description": "The AuditClassId is a numeric identifier used to classify different types of audit events in SAP. It helps group similar events together and is used in various transactions and reports to provide information about audit events and to help with auditing and compliance requirements."
+        "description": "The AuditClassId is a numeric identifier used to classify different types of audit events in SAP. It helps group similar events together and is used in various transactions and reports to provide information about audit events and to help with auditing and compliance requirements.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientId",
         "type": "string",
-        "description": "The ClientId is a three-digit number that identifies a specific client within an SAP system. The ClientId is used in various SAP transactions and configuration settings to identify the client and ensure that the correct client is being accessed or configured."
+        "description": "The ClientId is a three-digit number that identifies a specific client within an SAP system. The ClientId is used in various SAP transactions and configuration settings to identify the client and ensure that the correct client is being accessed or configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Computer",
         "type": "string",
-        "description": "The Computer refers to the name or IP address of the user's machine. It is used to identify the machine from which a specific activity or event was performed."
+        "description": "The Computer refers to the name or IP address of the user's machine. It is used to identify the machine from which a specific activity or event was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Email",
         "type": "string",
-        "description": "The Email refers to the email address associated with a specific user. It is used to identify the user via email within the SAP system."
+        "description": "The Email refers to the email address associated with a specific user. It is used to identify the user via email within the SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Host",
         "type": "string",
-        "description": "The Host refers to the name of the computer or server on which the SAP system is running. It is used to identify and locate the SAP system within a network."
+        "description": "The Host refers to the name of the computer or server on which the SAP system is running. It is used to identify and locate the SAP system within a network.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Instance",
         "type": "string",
-        "description": "The Instance refers to a specific installation of an SAP system on a server. An SAP system can have multiple instances running on the same server, each with its own set of processes and resources. The Instance is identified by a unique name that is set during the installation of the SAP system, following syntax: <HOST><SYSID><SYSNR>."
+        "description": "The Instance refers to a specific installation of an SAP system on a server. An SAP system can have multiple instances running on the same server, each with its own set of processes and resources. The Instance is identified by a unique name that is set during the installation of the SAP system, following syntax: <HOST><SYSID><SYSNR>.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MessageClass",
         "type": "string",
-        "description": "The MessageClass is a grouping or category for specific messages or log entries used to organize and classify messages and log entries within an SAP system."
+        "description": "The MessageClass is a grouping or category for specific messages or log entries used to organize and classify messages and log entries within an SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MessageContainerId",
         "type": "string",
-        "description": "The MessageContainerId is a unique identifier for a specific message container, which is a logical grouping of related messages or log entries within an SAP system."
+        "description": "The MessageContainerId is a unique identifier for a specific message container, which is a logical grouping of related messages or log entries within an SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MessageId",
         "type": "string",
-        "description": "The MessageId is a unique identifier for a specific message or log entry used to identify and track messages and log entries within an SAP system."
+        "description": "The MessageId is a unique identifier for a specific message or log entry used to identify and track messages and log entries within an SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MessageText",
         "type": "string",
-        "description": "The MessageText is the text of a specific message or log entry. It provides information about the event or issue that is being logged and is used in various SAP transactions and reports to provide context and details about specific messages or log entries."
+        "description": "The MessageText is the text of a specific message or log entry. It provides information about the event or issue that is being logged and is used in various SAP transactions and reports to provide context and details about specific messages or log entries.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MonitoringObjectName",
         "type": "string",
-        "description": "The MonitoringObjectName is the name of the object being monitored by a specific monitoring activity. It is used in various SAP monitoring tools and reports to provide information about the status and performance of the monitored object."
+        "description": "The MonitoringObjectName is the name of the object being monitored by a specific monitoring activity. It is used in various SAP monitoring tools and reports to provide information about the status and performance of the monitored object.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MonitorShortName",
         "type": "string",
-        "description": "The MonitorShortName is the short name of the MTE(Monitoring Tree Element) in which the alert occurred."
+        "description": "The MonitorShortName is the short name of the MTE(Monitoring Tree Element) in which the alert occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIpCountry",
         "type": "string",
-        "description": "The country of the TerminalIpV6 according to the GEO information at the time of the record ingestion."
+        "description": "The country of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIpLatitude",
         "type": "real",
-        "description": "The Latitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion."
+        "description": "The Latitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIpLongitude",
         "type": "real",
-        "description": "The Longitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion."
+        "description": "The Longitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SalDateChar8",
         "type": "string",
-        "description": "The SalDateChar8 is the date the event occured in char8 format (yyyyMMdd) eg: 20190101."
+        "description": "The SalDateChar8 is the date the event occured in char8 format (yyyyMMdd) eg: 20190101.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SalIpAddress",
         "type": "string",
-        "description": "The SALIpAddress refers to the IP address associated with a specific user or system that generated a specific log entry."
+        "description": "The SALIpAddress refers to the IP address associated with a specific user or system that generated a specific log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SalTimeChar6",
         "type": "string",
-        "description": "The SalTimeChar6 is the time the event occured in char6 format (hhMMss) eg: 110804."
+        "description": "The SalTimeChar6 is the time the event occured in char6 format (hhMMss) eg: 110804.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SapProcessType",
         "type": "string",
-        "description": "The SapProcessType refers to the type of process that is being executed within the SAP system. This can include various types of processes such as background jobs, dialog processes, or update processes."
+        "description": "The SapProcessType refers to the type of process that is being executed within the SAP system. This can include various types of processes such as background jobs, dialog processes, or update processes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SapWorkProcessName",
         "type": "string",
-        "description": "The SapWorkProcessName refers to the name of a specific work process within the SAP system used to identify and monitor specific work processes. It is typically a unique alphanumeric code."
+        "description": "The SapWorkProcessName refers to the name of a specific work process within the SAP system used to identify and monitor specific work processes. It is typically a unique alphanumeric code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemId",
         "type": "string",
-        "description": "The SystemId is a unique identifier for a specific SAP system. It is a three-character alphanumeric code that is used to distinguish between different SAP systems."
+        "description": "The SystemId is a unique identifier for a specific SAP system. It is a three-character alphanumeric code that is used to distinguish between different SAP systems.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemNumber",
         "type": "string",
-        "description": "The SystemNumber is a two-digit number that identifies a specific SAP system. It is set during the installation of an SAP system and cannot be changed afterwards. The SystemNumber is used in various SAP transactions and configuration settings to identify the system and ensure that the correct system is being accessed or configured."
+        "description": "The SystemNumber is a two-digit number that identifies a specific SAP system. It is set during the installation of an SAP system and cannot be changed afterwards. The SystemNumber is used in various SAP transactions and configuration settings to identify the system and ensure that the correct system is being accessed or configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemRole",
         "type": "string",
-        "description": "The SAP system's role."
+        "description": "The SAP system's role.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SystemUniqueId",
         "type": "string",
-        "description": "Unique system identifier."
+        "description": "Unique system identifier.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TerminalIpV6",
         "type": "string",
-        "description": "The TerminalIPv6 refers to the IPv6 address associated with the user's terminal or device. It is used to identify the location and origin of specific activities or events performed by the user within the SAP system."
+        "description": "The TerminalIPv6 refers to the IPv6 address associated with the user's terminal or device. It is used to identify the location and origin of specific activities or events performed by the user within the SAP system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TransactionCode",
         "type": "string",
-        "description": "the TransactionCode is a unique identifier for a specific SAP transaction used to identify and execute a specific transaction within the SAP system. It is typically a four-character alphanumeric code and can be used in various SAP transactions and reports."
+        "description": "the TransactionCode is a unique identifier for a specific SAP transaction used to identify and execute a specific transaction within the SAP system. It is typically a four-character alphanumeric code and can be used in various SAP transactions and reports.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UpdatedOn",
         "type": "datetime",
-        "description": "The date and time of the event occured in the SAP system in UTC format."
+        "description": "The date and time of the event occured in the SAP system in UTC format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "User",
         "type": "string",
-        "description": "The User who performed the a specific event or activity."
+        "description": "The User who performed the a specific event or activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Variable1",
         "type": "string",
-        "description": "The Variable1 used by the SAP system for additional information regarding the event or activity that was performed."
+        "description": "The Variable1 used by the SAP system for additional information regarding the event or activity that was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Variable2",
         "type": "string",
-        "description": "The Variable2 used by the SAP system for additional information regarding the event or activity that was performed."
+        "description": "The Variable2 used by the SAP system for additional information regarding the event or activity that was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Variable3",
         "type": "string",
-        "description": "The Variable3 used by the SAP system for additional information regarding the event or activity that was performed."
+        "description": "The Variable3 used by the SAP system for additional information regarding the event or activity that was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Variable4",
         "type": "string",
-        "description": "The Variable4 used by the SAP system for additional information regarding the event or activity that was performed."
+        "description": "The Variable4 used by the SAP system for additional information regarding the event or activity that was performed.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

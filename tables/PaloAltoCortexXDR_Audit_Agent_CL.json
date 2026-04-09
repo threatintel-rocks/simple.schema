@@ -1,7 +1,116 @@
 {
   "PaloAltoCortexXDR_Audit_Agent_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the record was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "The timestamp of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReceivedTime",
+        "type": "datetime",
+        "description": "The time when the event was received",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointId",
+        "type": "string",
+        "description": "Unique identifier of the endpoint",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointName",
+        "type": "string",
+        "description": "Name of the endpoint involved in the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "Domain associated with the endpoint",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrapsVersion",
+        "type": "string",
+        "description": "Version of the Traps agent installed on the endpoint",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Category of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentType",
+        "type": "string",
+        "description": "Type of agent involved in the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subtype",
+        "type": "string",
+        "description": "Subtype of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Result",
+        "type": "string",
+        "description": "Outcome or result of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "Reason for the event or action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

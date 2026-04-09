@@ -5,97 +5,154 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field."
+        "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityType",
         "type": "string",
-        "description": "A formatted string representing the type of activity that triggered the finding."
+        "description": "A formatted string representing the type of activity that triggered the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Arn",
         "type": "string",
-        "description": "Amazon resource name of the finding."
+        "description": "Amazon resource name of the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Description of the primary purpose of the threat or attack related to the finding."
+        "description": "Description of the primary purpose of the threat or attack related to the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "A unique Finding ID for this finding type and set of parameters. New occurrences of activity matching this pattern will be aggregated to the same ID."
+        "description": "A unique Finding ID for this finding type and set of parameters. New occurrences of activity matching this pattern will be aggregated to the same ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Partition",
         "type": "string",
-        "description": "The AWS partition in which the finding was generated."
+        "description": "The AWS partition in which the finding was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Region",
         "type": "string",
-        "description": "The AWS region in which the finding was generated."
+        "description": "The AWS region in which the finding was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceDetails",
         "type": "dynamic",
-        "description": "Gives details on the AWS resource that was targeted by the trigger activity. The information available varies based on resource type and action typ."
+        "description": "Gives details on the AWS resource that was targeted by the trigger activity. The information available varies based on resource type and action typ.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SchemaVersion",
         "type": "string",
-        "description": "The Guard Duty finding version."
+        "description": "The Guard Duty finding version.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDetails",
         "type": "dynamic",
-        "description": "Gives details on the AWS service that was related to the finding, including Action, Actor/Target, Evidence, Anomalous behavior and Additional information."
+        "description": "Gives details on the AWS service that was related to the finding, including Action, Actor/Target, Evidence, Anomalous behavior and Additional information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "int",
-        "description": "A finding's assigned severity level of either High, Medium, or Low."
+        "description": "A finding's assigned severity level of either High, Medium, or Low.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeCreated",
         "type": "datetime",
-        "description": "The time and date when this finding was first created. If this value differs from Updated at (TimeGenerated), it indicates that the activity has occurred multiple times and is an ongoing issue."
+        "description": "The time and date when this finding was first created. If this value differs from Updated at (TimeGenerated), it indicates that the activity has occurred multiple times and is an ongoing issue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) of when the event was generated, The last time this finding was updated with new activity matching the pattern that prompted GuardDuty to generate this finding."
+        "description": "The timestamp (UTC) of when the event was generated, The last time this finding was updated with new activity matching the pattern that prompted GuardDuty to generate this finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Title",
         "type": "string",
-        "description": "Summary of the primary purpose of the threat or attack related to the finding."
+        "description": "Summary of the primary purpose of the threat or attack related to the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

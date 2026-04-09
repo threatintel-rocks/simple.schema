@@ -5,187 +5,298 @@
       {
         "name": "ActivityStatus",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityStatusValue",
         "type": "string",
-        "description": "Status of the operation in display-friendly format. Common values include Started, In Progress, Succeeded, Failed, Active, Resolved."
+        "description": "Status of the operation in display-friendly format. Common values include Started, In Progress, Succeeded, Failed, Active, Resolved.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivitySubstatus",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivitySubstatusValue",
         "type": "string",
-        "description": "Substatus of the operation in display-friendly format. E.g. OK (HTTP Status Code: 200)."
+        "description": "Substatus of the operation in display-friendly format. E.g. OK (HTTP Status Code: 200).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Authorization",
         "type": "string",
-        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as string. The use of Authorization_d should be preferred going forward."
+        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as string. The use of Authorization_d should be preferred going forward.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Authorization_d",
         "type": "dynamic",
-        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as dynamic column."
+        "description": "Blob of RBAC properties of the event. Usually includes the \"action\", \"role\" and \"scope\" properties. Stored as dynamic column.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Caller",
         "type": "string",
-        "description": "GUID of the caller."
+        "description": "GUID of the caller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CallerIpAddress",
         "type": "string",
-        "description": "IP address of the user who has performed the operation UPN claim or SPN claim based on availability."
+        "description": "IP address of the user who has performed the operation UPN claim or SPN claim based on availability.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CategoryValue",
         "type": "string",
-        "description": "Category of the activity log e.g. Administrative, Policy, Security."
+        "description": "Category of the activity log e.g. Administrative, Policy, Security.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Claims",
         "type": "string",
-        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager. The use of claims_d should be preferred going forward."
+        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager. The use of claims_d should be preferred going forward.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Claims_d",
         "type": "dynamic",
-        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager."
+        "description": "The JWT token used by Active Directory to authenticate the user or application to perform this operation in Resource Manager.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Usually a GUID in the string format. Events that share a correlationId belong to the same uber action."
+        "description": "Usually a GUID in the string format. Events that share a correlationId belong to the same uber action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventDataId",
         "type": "string",
-        "description": "Unique identifier of an event."
+        "description": "Unique identifier of an event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSubmissionTimestamp",
         "type": "datetime",
-        "description": "Timestamp when the event became available for querying."
+        "description": "Timestamp when the event became available for querying.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Hierarchy",
         "type": "string",
-        "description": "Management group hierarchy of the management group or subscription that event belongs to."
+        "description": "Management group hierarchy of the management group or subscription that event belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HTTPRequest",
         "type": "string",
-        "description": "Blob describing the Http Request. Usually includes the \"clientRequestId\", \"clientIpAddress\" and \"method\" (HTTP method. For example, PUT)."
+        "description": "Blob describing the Http Request. Usually includes the \"clientRequestId\", \"clientIpAddress\" and \"method\" (HTTP method. For example, PUT).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Level",
         "type": "string",
-        "description": "Level of the event. One of the following values: Critical, Error, Warning, Informational and Verbose."
+        "description": "Level of the event. One of the following values: Critical, Error, Warning, Informational and Verbose.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationId",
         "type": "string",
-        "description": "GUID of the operation"
+        "description": "GUID of the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationNameValue",
         "type": "string",
-        "description": "Identifier of the operation e.g. Microsoft.Storage/storageAccounts/listAccountSas/action."
+        "description": "Identifier of the operation e.g. Microsoft.Storage/storageAccounts/listAccountSas/action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Properties",
         "type": "string",
-        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as string. Usage of Properties_d is recommended instead."
+        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as string. Usage of Properties_d is recommended instead.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Properties_d",
         "type": "dynamic",
-        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as dynamic column."
+        "description": "Set of <Key Value> pairs (i.e. Dictionary) describing the details of the event. Stored as dynamic column.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Resource",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceGroup",
         "type": "string",
-        "description": "Resource group name of the impacted resource."
+        "description": "Resource group name of the impacted resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceId",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceProvider",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceProviderValue",
         "type": "string",
-        "description": "Id of the resource provider for the impacted resource - e.g. Microsoft.Storage."
+        "description": "Id of the resource provider for the impacted resource - e.g. Microsoft.Storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SubscriptionId",
         "type": "string",
-        "description": "Subscription ID of the impacted resource."
+        "description": "Subscription ID of the impacted resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp when the event was generated by the Azure service processing the request corresponding the event."
+        "description": "Timestamp when the event was generated by the Azure service processing the request corresponding the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

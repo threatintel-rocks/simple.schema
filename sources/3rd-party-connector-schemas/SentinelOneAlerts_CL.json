@@ -1,0 +1,80 @@
+{
+  "SentinelOneAlerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessInfo",
+        "type": "string",
+        "description": "Information about the source process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertInfo",
+        "type": "string",
+        "description": "Details about the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentDetectionInfo",
+        "type": "string",
+        "description": "Detection information related to the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleInfo",
+        "type": "string",
+        "description": "Information regarding the applied rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerInfo",
+        "type": "string",
+        "description": "Information about the container.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceParentProcessInfo",
+        "type": "string",
+        "description": "Information about the parent process of the source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetProcessInfo",
+        "type": "string",
+        "description": "Details regarding the target process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KubernetesInfo",
+        "type": "string",
+        "description": "Kubernetes-related information.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SentinelOne"
+  }
+}

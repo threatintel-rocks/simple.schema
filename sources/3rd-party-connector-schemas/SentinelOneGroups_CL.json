@@ -1,0 +1,136 @@
+{
+  "SentinelOneGroups_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Creator",
+        "type": "string",
+        "description": "The name of the creator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistrationToken",
+        "type": "string",
+        "description": "The token used for registration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsDefault",
+        "type": "string",
+        "description": "Indicates whether this is the default setting.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalAgents",
+        "type": "string",
+        "description": "The total number of agents.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Inherits",
+        "type": "string",
+        "description": "Indicates whether the object inherits properties.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The name of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rank",
+        "type": "real",
+        "description": "The rank of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilterName",
+        "type": "string",
+        "description": "The name of the filter applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupType",
+        "type": "string",
+        "description": "The type of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatorId",
+        "type": "string",
+        "description": "The unique identifier of the creator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "The unique identifier of the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilterId",
+        "type": "string",
+        "description": "The unique identifier of the filter.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SentinelOne"
+  }
+}

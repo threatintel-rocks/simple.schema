@@ -5,232 +5,370 @@
       {
         "name": "AADTenantId",
         "type": "string",
-        "description": "The AADTenantId GUID that's associated with the logs"
+        "description": "The AADTenantId GUID that's associated with the logs",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Agent",
         "type": "string",
-        "description": "Details of agentic sign-in."
+        "description": "Details of agentic sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppId",
         "type": "string",
-        "description": "Unique GUID representing the app ID in the Azure Active Directory"
+        "description": "Unique GUID representing the app ID in the Azure Active Directory",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppOwnerTenantId",
         "type": "string",
-        "description": "The tenant identifier of the owenr of the application in Azure Active Directory"
+        "description": "The tenant identifier of the owenr of the application in Azure Active Directory",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationContextClassReferences",
         "type": "string",
-        "description": "The authentication contexts of the sign-in"
+        "description": "The authentication contexts of the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationProcessingDetails",
         "type": "string",
-        "description": "Provides the details associated with authentication processor"
+        "description": "Provides the details associated with authentication processor",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": "Category of the sign-in event"
+        "description": "Category of the sign-in event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientCredentialType",
         "type": "string",
-        "description": ""
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionalAccessPolicies",
         "type": "string",
-        "description": "Details of the conditional access policies being applied for the sign-in"
+        "description": "Details of the conditional access policies being applied for the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionalAccessStatus",
         "type": "string",
-        "description": "Status of all the conditionalAccess policies related to the sign-in"
+        "description": "Status of all the conditionalAccess policies related to the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "ID to provide sign-in trail"
+        "description": "ID to provide sign-in trail",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CreatedDateTime",
         "type": "datetime",
-        "description": "Datetime of the sign-in activity."
+        "description": "Datetime of the sign-in activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DurationMs",
         "type": "long",
-        "description": "The duration of the operation in milliseconds"
+        "description": "The duration of the operation in milliseconds",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FederatedCredentialId",
         "type": "string",
-        "description": "Th identifier of an application's federated identity credential if a federated identity credential was used to sign in."
+        "description": "Th identifier of an application's federated identity credential if a federated identity credential was used to sign in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique ID representing the sign-in activity"
+        "description": "Unique ID representing the sign-in activity",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Identity",
         "type": "string",
-        "description": "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal"
+        "description": "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address of the client used to sign in"
+        "description": "IP address of the client used to sign in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Level",
         "type": "string",
-        "description": "The severity level of the event"
+        "description": "The severity level of the event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "string",
-        "description": "The region of the resource emitting the event"
+        "description": "The region of the resource emitting the event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LocationDetails",
         "type": "string",
-        "description": "Details of the sign-in location"
+        "description": "Details of the sign-in location",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ManagedServiceIdentity",
         "type": "string",
-        "description": "Details of the Managed Service Identity used to Sign In."
+        "description": "Details of the Managed Service Identity used to Sign In.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkLocationDetails",
         "type": "string",
-        "description": "Provides the details associated with Authentication processor."
+        "description": "Provides the details associated with Authentication processor.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "For sign-ins, this value is always Sign-in activity"
+        "description": "For sign-ins, this value is always Sign-in activity",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationVersion",
         "type": "string",
-        "description": "The REST API version that's requested by the client"
+        "description": "The REST API version that's requested by the client",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceDisplayName",
         "type": "string",
-        "description": "Name of the resource that the service principal signed into"
+        "description": "Name of the resource that the service principal signed into",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceGroup",
         "type": "string",
-        "description": "Resource group for the logs"
+        "description": "Resource group for the logs",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceIdentity",
         "type": "string",
-        "description": "ID of the resource that the service principal signed into"
+        "description": "ID of the resource that the service principal signed into",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceOwnerTenantId",
         "type": "string",
-        "description": "The tenant identifier of the owner of the resource referenced in the sign in"
+        "description": "The tenant identifier of the owner of the resource referenced in the sign in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceServicePrincipalId",
         "type": "string",
-        "description": "Service Principal Id of the resource"
+        "description": "Service Principal Id of the resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultDescription",
         "type": "string",
-        "description": "Provides the error description for the sign-in operation"
+        "description": "Provides the error description for the sign-in operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultSignature",
         "type": "string",
-        "description": "Contains the error code, if any, for the sign-in operation"
+        "description": "Contains the error code, if any, for the sign-in operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultType",
         "type": "string",
-        "description": "The result of the sign-in operation can be Success or Failure"
+        "description": "The result of the sign-in operation can be Success or Failure",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalCredentialKeyId",
         "type": "string",
-        "description": "Key id of the service principal that initiated the sign-in"
+        "description": "Key id of the service principal that initiated the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalCredentialThumbprint",
         "type": "string",
-        "description": "Thumbprint of the service principal that initiated the sign-in"
+        "description": "Thumbprint of the service principal that initiated the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalId",
         "type": "string",
-        "description": "ID of the service principal who initiated the sign-in"
+        "description": "ID of the service principal who initiated the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalName",
         "type": "string",
-        "description": "Service Principal Name of the service principal who initiated the sign-in"
+        "description": "Service Principal Name of the service principal who initiated the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SessionId",
         "type": "string",
-        "description": "Id of the session that was generated during the signIn."
+        "description": "Id of the session that was generated during the signIn.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceAppClientId",
         "type": "string",
-        "description": "The client ID of the application that initiated the sign-in"
+        "description": "The client ID of the application that initiated the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time of the event in UTC"
+        "description": "The date and time of the event in UTC",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UniqueTokenIdentifier",
         "type": "string",
-        "description": "Unique token identifier for the request"
+        "description": "Unique token identifier for the request",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "User Agent for the sign-in"
+        "description": "User Agent for the sign-in",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

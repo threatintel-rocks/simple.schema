@@ -39,12 +39,19 @@ Each table entry:
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the event was recorded"
+        "description": "Date and time when the event was recorded",
+        "availability": ["Defender XDR"]
       }
     ]
   }
 }
 ```
+
+The `availability` field indicates where the column is available:
+- `"Defender XDR"` — available in Defender XDR Advanced Hunting
+- `"Sentinel"` — available in Microsoft Sentinel
+- `"Defender for Identity"` / `"Defender for Endpoint"` / `"Defender for Cloud Apps"` — available only with specific Defender licensing
+- Columns can have multiple values (e.g., `["Defender XDR", "Sentinel"]`) when available in both platforms
 
 ## Usage
 
@@ -77,10 +84,17 @@ for col in table["columns"][:5]:
 
 | Source | Tables | With Columns | Description |
 |--------|--------|-------------|-------------|
-| Sentinel Tables | ~507 | ~95 standard + ~413 custom (_CL) | All Sentinel connector tables; standard tables have full column schemas from Azure Monitor reference |
+| Sentinel Tables | ~500+ | ~95 standard | All Sentinel connector tables; standard tables have full column schemas from Azure Monitor reference |
 | Defender XDR Advanced Hunting Schema | 63 | 63 | Full column schemas from Microsoft Defender XDR documentation |
+| 3rd-Party Connector Schemas | ~143 | ~143 | Column schemas for 3rd-party vendor tables from Azure-Sentinel CCP connector definitions |
 
-**Note:** Custom log tables (`_CL` suffix) are vendor-specific and their schemas vary per deployment. They are included as metadata (table name + source) but without column definitions. Standard Sentinel tables have full column schemas fetched from Azure Monitor reference pages.
+### 3rd-Party Vendor Solutions with Column Schemas
+
+The following 3rd-party vendor solutions have full column schemas sourced from the [Azure-Sentinel](https://github.com/Azure/Azure-Sentinel) GitHub repository:
+
+1Password, Alibaba Cloud ActionTrail, Anvilogic, Atlassian Confluence Audit, Atlassian Jira Audit, Auth0, AWS CloudFront, AWS EKS, Azure DevOps Auditing, BigID DSPM, Bitwarden, Box, Check Point CloudGuard CNAPP, Check Point Cyberint, Cisco Secure Endpoint, Citrix Analytics, Cloudflare, Cortex XDR (Palo Alto), CyberArk Audit, Cyble Vision, Cyera DSPM, CYFIRMA, Cyren Threat Intelligence, D3 SmartSOAR, Databahn, Dragos, Druva, Ermes Browser Security, Feedly, Flare, Gigamon, GitHub Audit Logs, Google Cloud Platform, Halcyon, Illumio, Imperva Cloud WAF, IONIX, Island, Jamf Protect, Keeper Security, Lookout, MailRisk, meshStack, Miro, Morphisec, Netskope, NordPass, Obsidian, Okta SSO, OneLogin IAM, OneTrust, OpenAI, Oracle Cloud Infrastructure, Palo Alto Cortex Xpanse, Palo Alto Prisma Cloud, PingOne, Proofpoint POD, Qualys VM, Quokka, RSA ID Plus, Rubrik Security Cloud, Salesforce Service Cloud, SAP BTP, SAP ETD Cloud, SAP LogServ, SentinelOne, Slack Audit, Snowflake, SOC Prime, Sophos Endpoint Protection, Styx Intelligence, TacitRed, TheHive, Trellix, Tropico, Varonis Purview, VersasecCMS, VMware Carbon Black Cloud, ZeroFox, ZeroNetworks
+
+**Note:** Custom log tables (`_CL` suffix) not listed above are included as metadata (table name + connector source) but without column definitions.
 
 ## AI Agent Integration
 
@@ -102,6 +116,15 @@ query_columns = ["Timestamp", "DeviceName", "FileName", "NonExistentColumn"]
 for col in query_columns:
     if col not in valid_columns:
         print(f"Column '{col}' does not exist in DeviceProcessEvents")
+```
+
+**Check column availability:**
+```python
+table_data = schema.get("IdentityInfo", {})
+for col in table_data.get("columns", []):
+    avail = col.get("availability", [])
+    if "Sentinel" in avail and "Defender XDR" not in avail:
+        print(f"  {col['name']} is Sentinel-only")
 ```
 
 ## How It Works

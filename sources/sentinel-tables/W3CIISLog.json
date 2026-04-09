@@ -5,222 +5,354 @@
       {
         "name": "AzureDeploymentID",
         "type": "string",
-        "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent when data is pulled from Azure storage."
+        "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent when data is pulled from Azure storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "cIP",
         "type": "string",
-        "description": "IP address of the client that accessed the web server."
+        "description": "IP address of the client that accessed the web server.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Computer",
         "type": "string",
-        "description": "Name of the computer that the event was collected from."
+        "description": "Name of the computer that the event was collected from.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Confidence",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csBytes",
         "type": "long",
-        "description": "Number of bytes that the server received."
+        "description": "Number of bytes that the server received.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csCookie",
         "type": "string",
-        "description": "Content of the cookie sent or received if any."
+        "description": "Content of the cookie sent or received if any.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csHost",
         "type": "string",
-        "description": "Host header name if any."
+        "description": "Host header name if any.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csMethod",
         "type": "string",
-        "description": "Method of the request such as GET or POST."
+        "description": "Method of the request such as GET or POST.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csReferer",
         "type": "string",
-        "description": "Site that the user last visited. This site provided a link to the current site."
+        "description": "Site that the user last visited. This site provided a link to the current site.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csUriQuery",
         "type": "string",
-        "description": "The query if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages."
+        "description": "The query if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csUriStem",
         "type": "string",
-        "description": "Target of the action such as a web page for example Default.htm."
+        "description": "Target of the action such as a web page for example Default.htm.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csUserAgent",
         "type": "string",
-        "description": "Browser type of the client."
+        "description": "Browser type of the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csUserName",
         "type": "string",
-        "description": "Name of the authenticated user that accessed the server. Anonymous users are indicated by a hyphen."
+        "description": "Name of the authenticated user that accessed the server. Anonymous users are indicated by a hyphen.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "csVersion",
         "type": "string",
-        "description": "Protocol version that the client used."
+        "description": "Protocol version that the client used.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirstReportedDateTime",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IndicatorThreatType",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsActive",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastReportedDateTime",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MaliciousIP",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension)."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ManagementGroupName",
         "type": "string",
-        "description": "Name of the management group for Operations Manager agents. For other agents this is AOI-<workspace ID>."
+        "description": "Name of the management group for Operations Manager agents. For other agents this is AOI-<workspace ID>.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIPCountry",
         "type": "string",
-        "description": "Country/region of the IP address of the client."
+        "description": "Country/region of the IP address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIPLatitude",
         "type": "real",
-        "description": "Latitude of the client IP address."
+        "description": "Latitude of the client IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIPLongitude",
         "type": "real",
-        "description": "Longitude of the client IP address."
+        "description": "Longitude of the client IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Role",
         "type": "string",
-        "description": "Role instance of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage."
+        "description": "Role instance of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RoleInstance",
         "type": "string",
-        "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage."
+        "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "scBytes",
         "type": "long",
-        "description": "Number of bytes that the server sent."
+        "description": "Number of bytes that the server sent.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "scStatus",
         "type": "string",
-        "description": "HTTP status code."
+        "description": "HTTP status code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "scSubStatus",
         "type": "string",
-        "description": "Substatus error code."
+        "description": "Substatus error code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "scWin32Status",
         "type": "string",
-        "description": "Windows status code."
+        "description": "Windows status code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "int",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "sIP",
         "type": "string",
-        "description": "IP address of the server on which the log file entry was generated."
+        "description": "IP address of the server on which the log file entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "sPort",
         "type": "int",
-        "description": "Server port number that is configured for the service."
+        "description": "Server port number that is configured for the service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "sSiteName",
         "type": "string",
-        "description": "Name of the IIS site."
+        "description": "Name of the IIS site.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StorageAccount",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Date and time the record was created."
+        "description": "Date and time the record was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeTaken",
         "type": "long",
-        "description": "Length of time to process the request in milliseconds."
+        "description": "Length of time to process the request in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TLPLevel",
         "type": "string",
-        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension."
+        "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

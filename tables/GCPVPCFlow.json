@@ -5,547 +5,874 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BytesSent",
         "type": "string",
-        "description": "Amount of bytes sent from the source to the destination."
+        "description": "Amount of bytes sent from the source to the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayInterconnectName",
         "type": "string",
-        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured."
+        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayInterconnectProjectNumber",
         "type": "string",
-        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured."
+        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayLocation",
         "type": "string",
-        "description": "Region of the destination gateway"
+        "description": "Region of the destination gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayName",
         "type": "string",
-        "description": "Name of the destination gateway"
+        "description": "Name of the destination gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the destination gateway"
+        "description": "Google Cloud project ID of the destination gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayType",
         "type": "string",
-        "description": "Type of the destination gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL."
+        "description": "Type of the destination gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGatewayVpc",
         "type": "dynamic",
-        "description": "VPC network details of the gateway"
+        "description": "VPC network details of the gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkeClusterLocation",
         "type": "string",
-        "description": "Location of the destination cluster. This can be a zone or a region depending if the cluster is zonal or regional."
+        "description": "Location of the destination cluster. This can be a zone or a region depending if the cluster is zonal or regional.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkeClusterName",
         "type": "string",
-        "description": "Destination GKE cluster name."
+        "description": "Destination GKE cluster name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkePodName",
         "type": "string",
-        "description": "Name of the destination Pod"
+        "description": "Name of the destination Pod",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkePodNamespace",
         "type": "string",
-        "description": "Namespace of the destination Pod"
+        "description": "Namespace of the destination Pod",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkePodWorkloadName",
         "type": "string",
-        "description": "Name of the top-level destination workload controller"
+        "description": "Name of the top-level destination workload controller",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkePodWorkloadType",
         "type": "string",
-        "description": "Type of the top-level destination workload controller."
+        "description": "Type of the top-level destination workload controller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGkeService",
         "type": "dynamic",
-        "description": "Destination GKE Service name."
+        "description": "Destination GKE Service name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestGoogleServiceType",
         "type": "string",
-        "description": "This field is set to GOOGLE_API if the destination is a Google API service."
+        "description": "This field is set to GOOGLE_API if the destination is a Google API service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceGroupName",
         "type": "string",
-        "description": "Name of the instance group"
+        "description": "Name of the instance group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceGroupRegion",
         "type": "string",
-        "description": "If the instance group is regional, this field is populated with the region of the instance group."
+        "description": "If the instance group is regional, this field is populated with the region of the instance group.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceGroupZone",
         "type": "string",
-        "description": "If the instance group is zonal, this field is populated with the zone of the instance group."
+        "description": "If the instance group is zonal, this field is populated with the zone of the instance group.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceProjectId",
         "type": "string",
-        "description": "ID of the Google Cloud project that contains the VM resource"
+        "description": "ID of the Google Cloud project that contains the VM resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceRegion",
         "type": "string",
-        "description": "Region of the VM"
+        "description": "Region of the VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceVmName",
         "type": "string",
-        "description": "Instance name of the VM"
+        "description": "Instance name of the VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestInstanceZone",
         "type": "string",
-        "description": "Zone of the VM"
+        "description": "Zone of the VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestIp",
         "type": "string",
-        "description": "Destination IP address"
+        "description": "Destination IP address",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLocationAsn",
         "type": "string",
-        "description": "The ASN of the external destination network to which this endpoint belongs."
+        "description": "The ASN of the external destination network to which this endpoint belongs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLocationCity",
         "type": "string",
-        "description": "City for external destination endpoints."
+        "description": "City for external destination endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLocationContinent",
         "type": "string",
-        "description": "Continent for external destination endpoints."
+        "description": "Continent for external destination endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLocationCountry",
         "type": "string",
-        "description": "Country for external destination endpoints."
+        "description": "Country for external destination endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLocationRegion",
         "type": "string",
-        "description": "Region for external destination endpoints."
+        "description": "Region for external destination endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestPort",
         "type": "string",
-        "description": "Destination port"
+        "description": "Destination port",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestVpcName",
         "type": "string",
-        "description": "Name of the network"
+        "description": "Name of the network",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestVpcProjectId",
         "type": "string",
-        "description": "ID of the Google Cloud project containing the VPC"
+        "description": "ID of the Google Cloud project containing the VPC",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestVpcSubnetworkName",
         "type": "string",
-        "description": "Name of the subnet"
+        "description": "Name of the subnet",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestVpcSubnetworkRegion",
         "type": "string",
-        "description": "Region of the subnet"
+        "description": "Region of the subnet",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EndTime",
         "type": "datetime",
-        "description": "Timestamp of the last observed packet during the aggregated time interval."
+        "description": "Timestamp of the last observed packet during the aggregated time interval.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "Type of the resource (e.g., compute instance, DNS record)."
+        "description": "Type of the resource (e.g., compute instance, DNS record).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique identifier assigned to each log entry."
+        "description": "A unique identifier assigned to each log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InternetRoutingDetailsEgressAsn",
         "type": "string",
-        "description": "List of relevant AS paths. If there are multiple AS paths available to the flow, the field might contain more than one AS path."
+        "description": "List of relevant AS paths. If there are multiple AS paths available to the flow, the field might contain more than one AS path.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbBackendGroupLocation",
         "type": "string",
-        "description": "Location of the backend group"
+        "description": "Location of the backend group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbBackendGroupName",
         "type": "string",
-        "description": "Name of the backend group"
+        "description": "Name of the backend group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbBackendGroupType",
         "type": "string",
-        "description": "Type of the backend group"
+        "description": "Type of the backend group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbBackendServiceName",
         "type": "string",
-        "description": "Name of the backend service."
+        "description": "Name of the backend service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbForwardingRuleName",
         "type": "string",
-        "description": "Name of the forwarding rule"
+        "description": "Name of the forwarding rule",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbForwardingRuleProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the forwarding rule"
+        "description": "Google Cloud project ID of the forwarding rule",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbReporter",
         "type": "string",
-        "description": "Cloud Load Balancing reporter. Can be either CLIENT or BACKEND"
+        "description": "Cloud Load Balancing reporter. Can be either CLIENT or BACKEND",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbScheme",
         "type": "string",
-        "description": "Load balancer scheme"
+        "description": "Load balancer scheme",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbType",
         "type": "string",
-        "description": "Load balancer type."
+        "description": "Load balancer type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbUrlMapName",
         "type": "string",
-        "description": "Name of the URL map. Populated if the type of the load balancer is APPLICATION_LOAD_BALANCER."
+        "description": "Name of the URL map. Populated if the type of the load balancer is APPLICATION_LOAD_BALANCER.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LbVpc",
         "type": "dynamic",
-        "description": "VPC network details of the load balancer"
+        "description": "VPC network details of the load balancer",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "string",
-        "description": "Location of the resource."
+        "description": "Location of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The name of the log where this entry is stored."
+        "description": "The name of the log where this entry is stored.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkServiceDscp",
         "type": "string",
-        "description": "If the Differentiated Services field is present in packet headers, this field is populated with the DSCP value."
+        "description": "If the Differentiated Services field is present in packet headers, this field is populated with the DSCP value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PacketsSent",
         "type": "string",
-        "description": "Number of packets sent from the source to the destination."
+        "description": "Number of packets sent from the source to the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProjectId",
         "type": "string",
-        "description": "ProjectId of the resource."
+        "description": "ProjectId of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "The IANA protocol number"
+        "description": "The IANA protocol number",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscAttachmentProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the service attachment"
+        "description": "Google Cloud project ID of the service attachment",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscAttachmentRegion",
         "type": "string",
-        "description": "Region of the service attachment"
+        "description": "Region of the service attachment",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscAttachmentVpc",
         "type": "dynamic",
-        "description": "VPC network details of the service attachment"
+        "description": "VPC network details of the service attachment",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscEndpointConnectionId",
         "type": "string",
-        "description": "Private Service Connect connection ID"
+        "description": "Private Service Connect connection ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscEndpointProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the Private Service Connect endpoint"
+        "description": "Google Cloud project ID of the Private Service Connect endpoint",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscEndpointRegion",
         "type": "string",
-        "description": "Region of the endpoint. Not populated if the target service type is GLOBAL_GOOGLE_APIS."
+        "description": "Region of the endpoint. Not populated if the target service type is GLOBAL_GOOGLE_APIS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscEndpointTargetServiceType",
         "type": "string",
-        "description": "Target service type. Can be either GLOBAL_GOOGLE_APIS or PUBLISHED_SERVICE."
+        "description": "Target service type. Can be either GLOBAL_GOOGLE_APIS or PUBLISHED_SERVICE.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PscEndpointVpc",
         "type": "dynamic",
-        "description": "VPC network details of the Private Service Connect endpoint"
+        "description": "VPC network details of the Private Service Connect endpoint",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "Timestamp of the event when it was received by the logging service."
+        "description": "Timestamp of the event when it was received by the logging service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Reporter",
         "type": "string",
-        "description": "The side which reported the flow."
+        "description": "The side which reported the flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rttmsec",
         "type": "string",
-        "description": "The measured latency is the time elapsed between sending a SEQ and receiving a corresponding ACK."
+        "description": "The measured latency is the time elapsed between sending a SEQ and receiving a corresponding ACK.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayInterconnectName",
         "type": "string",
-        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured."
+        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayInterconnectProjectNumber",
         "type": "string",
-        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured."
+        "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayLocation",
         "type": "string",
-        "description": "Region of the gateway"
+        "description": "Region of the gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayName",
         "type": "string",
-        "description": "Name of the gateway"
+        "description": "Name of the gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the gateway"
+        "description": "Google Cloud project ID of the gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayType",
         "type": "string",
-        "description": "Type of the gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL."
+        "description": "Type of the gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGatewayVpc",
         "type": "dynamic",
-        "description": "VPC network details of the gateway"
+        "description": "VPC network details of the gateway",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkeClusterLocation",
         "type": "string",
-        "description": "Location of the source cluster. This can be a zone or a region depending if the cluster is zonal or regional."
+        "description": "Location of the source cluster. This can be a zone or a region depending if the cluster is zonal or regional.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkeClusterName",
         "type": "string",
-        "description": "Source GKE cluster name."
+        "description": "Source GKE cluster name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkePodName",
         "type": "string",
-        "description": "Name of the source Pod"
+        "description": "Name of the source Pod",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkePodNamespace",
         "type": "string",
-        "description": "Namespace of the source Pod"
+        "description": "Namespace of the source Pod",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkePodWorkloadName",
         "type": "string",
-        "description": "Name of the top-level source workload controller"
+        "description": "Name of the top-level source workload controller",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkePodWorkloadType",
         "type": "string",
-        "description": "Type of the top-level source workload controller."
+        "description": "Type of the top-level source workload controller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGkeService",
         "type": "dynamic",
-        "description": "Source GKE Service name."
+        "description": "Source GKE Service name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGoogleServiceType",
         "type": "string",
-        "description": "This field is set to GOOGLE_API if the source is a Google API service."
+        "description": "This field is set to GOOGLE_API if the source is a Google API service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceGroupName",
         "type": "string",
-        "description": "Name of the source instance group"
+        "description": "Name of the source instance group",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceGroupRegion",
         "type": "string",
-        "description": "If the source instance group is regional, this field is populated with the region of the source instance group."
+        "description": "If the source instance group is regional, this field is populated with the region of the source instance group.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceGroupZone",
         "type": "string",
-        "description": "If the source instance group is zonal, this field is populated with the zone of the source instance group."
+        "description": "If the source instance group is zonal, this field is populated with the zone of the source instance group.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceProjectId",
         "type": "string",
-        "description": "ID of the Google Cloud project that contains the source VM resource"
+        "description": "ID of the Google Cloud project that contains the source VM resource",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceRegion",
         "type": "string",
-        "description": "Region of the source VM"
+        "description": "Region of the source VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceVmName",
         "type": "string",
-        "description": "Instance name of the source VM"
+        "description": "Instance name of the source VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcInstanceZone",
         "type": "string",
-        "description": "Zone of the source VM"
+        "description": "Zone of the source VM",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIp",
         "type": "string",
-        "description": "Source IP address"
+        "description": "Source IP address",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLocationAsn",
         "type": "string",
-        "description": "The ASN of the external source network to which this endpoint belongs."
+        "description": "The ASN of the external source network to which this endpoint belongs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLocationCity",
         "type": "string",
-        "description": "City for external source endpoints."
+        "description": "City for external source endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLocationContinent",
         "type": "string",
-        "description": "Continent for external source endpoints."
+        "description": "Continent for external source endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLocationCountry",
         "type": "string",
-        "description": "Country for external source endpoints."
+        "description": "Country for external source endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLocationRegion",
         "type": "string",
-        "description": "Region for external source endpoints."
+        "description": "Region for external source endpoints.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPort",
         "type": "string",
-        "description": "Source port"
+        "description": "Source port",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcVpcName",
         "type": "string",
-        "description": "Name of the source network"
+        "description": "Name of the source network",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcVpcProjectId",
         "type": "string",
-        "description": "ID of the Google Cloud project containing the VPC"
+        "description": "ID of the Google Cloud project containing the VPC",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcVpcSubnetworkName",
         "type": "string",
-        "description": "Name of the source subnet,"
+        "description": "Name of the source subnet,",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcVpcSubnetworkRegion",
         "type": "string",
-        "description": "Name of the source region"
+        "description": "Name of the source region",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StartTime",
         "type": "datetime",
-        "description": "Timestamp of the first observed packet during the aggregated time interval."
+        "description": "Timestamp of the first observed packet during the aggregated time interval.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SubnetworkId",
         "type": "string",
-        "description": "ID of the Google Cloud project containing the VPC"
+        "description": "ID of the Google Cloud project containing the VPC",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SubnetworkName",
         "type": "string",
-        "description": "Name of the subnet"
+        "description": "Name of the subnet",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time the log entry was received by logging."
+        "description": "The time the log entry was received by logging.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Timestamp of the log entry."
+        "description": "Timestamp of the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

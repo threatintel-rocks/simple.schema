@@ -5,52 +5,82 @@
       {
         "name": "ConfigurationId",
         "type": "string",
-        "description": "Unique identifier for a specific configuration"
+        "description": "Unique identifier for a specific configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationImpact",
         "type": "real",
-        "description": "Rated impact of the configuration to the overall configuration score (1-10)"
+        "description": "Rated impact of the configuration to the overall configuration score (1-10)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationName",
         "type": "string",
-        "description": "Display name of the configuration"
+        "description": "Display name of the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationDescription",
         "type": "string",
-        "description": "Description of the configuration"
+        "description": "Description of the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskDescription",
         "type": "string",
-        "description": "Description of the associated risk"
+        "description": "Description of the associated risk",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationCategory",
         "type": "string",
-        "description": "Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls"
+        "description": "Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationSubcategory",
         "type": "string",
-        "description": "Subcategory or subgrouping to which the configuration belongs. In many cases, this describes specific capabilities or features."
+        "description": "Subcategory or subgrouping to which the configuration belongs. In many cases, this describes specific capabilities or features.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationBenchmarks",
         "type": "dynamic",
-        "description": "List of industry benchmarks recommending the same or similar configuration"
+        "description": "List of industry benchmarks recommending the same or similar configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Tags",
         "type": "dynamic",
-        "description": "Labels representing various attributes used to identify or categorize a security configuration"
+        "description": "Labels representing various attributes used to identify or categorize a security configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RemediationOptions",
         "type": "string",
-        "description": "Recommended actions to reduce or address any associated risks"
+        "description": "Recommended actions to reduce or address any associated risks",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

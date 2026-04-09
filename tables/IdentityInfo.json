@@ -3,234 +3,396 @@
     "source": "Defender XDR Advanced Hunting Schema",
     "columns": [
       {
-        "name": "Timestamp` [*](#mdi-only)",
+        "name": "Timestamp",
         "type": "datetime",
-        "description": "The date and time that the line was written to the database. <br><br>This is used when there are multiple lines for each identity, such as when a change is detected, or if 24 hours have passed since the last database line was added."
+        "description": "The date and time that the line was written to the database. <br><br>This is used when there are multiple lines for each identity, such as when a change is detected, or if 24 hours have passed since the last database line was added.",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "ReportId` [*](#mdi-only)",
+        "name": "ReportId",
         "type": "string",
-        "description": "Unique identifier for the event"
+        "description": "Unique identifier for the event",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Microsoft Entra ID"
+        "description": "Unique identifier for the account in Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account"
+        "description": "User principal name (UPN) of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OnPremSid",
         "type": "string",
-        "description": "On-premises security identifier (SID) of the account"
+        "description": "On-premises security identifier (SID) of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountDisplayName",
         "type": "string",
-        "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname."
+        "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountName",
         "type": "string",
-        "description": "User name of the account"
+        "description": "User name of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "AccountDomain` [*](#mdi-only)",
+        "name": "AccountDomain",
         "type": "string",
-        "description": "Domain of the account"
+        "description": "Domain of the account",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
         "name": "CriticalityLevel",
         "type": "int",
-        "description": "The criticality score of the account"
+        "description": "The criticality score of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "Type` [*](#mdi-only)",
+        "name": "Type",
         "type": "string",
-        "description": "Type of identity; possible values: User, ServiceAccount"
+        "description": "Type of identity; possible values: User, ServiceAccount",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "DistinguishedName` [*](#mdi-only)",
+        "name": "DistinguishedName",
         "type": "string",
-        "description": "The user's [distinguished name](/previous-versions/windows/desktop/ldap/distinguished-names)"
+        "description": "The user's [distinguished name](/previous-versions/windows/desktop/ldap/distinguished-names)",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
         "name": "CloudSid",
         "type": "string",
-        "description": "Cloud security identifier of the account"
+        "description": "Cloud security identifier of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "GivenName",
         "type": "string",
-        "description": "Given name or first name of the account user"
+        "description": "Given name or first name of the account user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Surname",
         "type": "string",
-        "description": "Surname, family name, or last name of the account user"
+        "description": "Surname, family name, or last name of the account user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Department",
         "type": "string",
-        "description": "Name of the department that the account user belongs to"
+        "description": "Name of the department that the account user belongs to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "JobTitle",
         "type": "string",
-        "description": "Job title of the account user"
+        "description": "Job title of the account user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EmailAddress",
         "type": "string",
-        "description": "SMTP address of the account"
+        "description": "SMTP address of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SipProxyAddress",
         "type": "string",
-        "description": "Voice over IP (VOIP) session initiation protocol (SIP) address of the account"
+        "description": "Voice over IP (VOIP) session initiation protocol (SIP) address of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Address",
         "type": "string",
-        "description": "Address of the account user"
+        "description": "Address of the account user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "City",
         "type": "string",
-        "description": "City where the account user is located"
+        "description": "City where the account user is located",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Country",
         "type": "string",
-        "description": "Country/Region where the account user is located"
+        "description": "Country/Region where the account user is located",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsAccountEnabled",
         "type": "boolean",
-        "description": "Indicates whether the account is enabled or not"
+        "description": "Indicates whether the account is enabled or not",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "Manager` [*](#mdi-only)",
+        "name": "Manager",
         "type": "string",
-        "description": "The listed manager of the account user"
+        "description": "The listed manager of the account user",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "Phone` [*](#mdi-only)",
+        "name": "Phone",
         "type": "string",
-        "description": "The listed phone number of the account user"
+        "description": "The listed phone number of the account user",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "CreatedDateTime` [*](#mdi-only)",
+        "name": "CreatedDateTime",
         "type": "datetime",
-        "description": "Date and time when the account user was created"
+        "description": "Date and time when the account user was created",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "ChangeSource` [*](#mdi-only)",
+        "name": "ChangeSource",
         "type": "string",
-        "description": "Identifies which identity provider or process triggered the addition of the new row. For example, the `System-UserPersistence` value is used for any rows added by an automated process."
+        "description": "Identifies which identity provider or process triggered the addition of the new row. For example, the `System-UserPersistence` value is used for any rows added by an automated process.",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "BlastRadius` [**](#sentinel)",
+        "name": "BlastRadius",
         "type": "string",
-        "description": "A calculation based on the position of the user in the org tree and the user's Microsoft Entra roles and permissions; possible values: Low, Medium, High"
+        "description": "A calculation based on the position of the user in the org tree and the user's Microsoft Entra roles and permissions; possible values: Low, Medium, High",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "CompanyName` [**](#sentinel)",
+        "name": "CompanyName",
         "type": "string",
-        "description": "Name of the company for which the user works"
+        "description": "Name of the company for which the user works",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "DeletedDateTime` [**](#sentinel)",
+        "name": "DeletedDateTime",
         "type": "datetime",
-        "description": "Date and time when the user account was deleted"
+        "description": "Date and time when the user account was deleted",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "EmployeeId` [**](#sentinel)",
+        "name": "EmployeeId",
         "type": "string",
-        "description": "Employee identifier assigned to the user by the organization"
+        "description": "Employee identifier assigned to the user by the organization",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "OtherMailAddresses` [**](#sentinel)",
+        "name": "OtherMailAddresses",
         "type": "dynamic",
-        "description": "Additional email addresses of the user account"
+        "description": "Additional email addresses of the user account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLevel",
         "type": "string",
-        "description": "Microsoft Entra ID risk level of the user account; possible values: Low, Medium, High"
+        "description": "Microsoft Entra ID risk level of the user account; possible values: Low, Medium, High",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskLevelDetails",
         "type": "string",
-        "description": "Details regarding the Microsoft Entra ID risk level"
+        "description": "Details regarding the Microsoft Entra ID risk level",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "State` [**](#sentinel)",
+        "name": "State",
         "type": "string",
-        "description": "State where the sign-in occurred, if available"
+        "description": "State where the sign-in occurred, if available",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "Tags` [*](#mdi-only)",
+        "name": "Tags",
         "type": "dynamic",
-        "description": "Tags assigned to the account user by Defender for Identity"
+        "description": "Tags assigned to the account user by Defender for Identity",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "AssignedRoles` [*](#mdi-only)",
+        "name": "AssignedRoles",
         "type": "dynamic",
-        "description": "For identities from Microsoft Entra-only, the roles assigned to the account user"
+        "description": "For identities from Microsoft Entra-only, the roles assigned to the account user",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
-        "name": "PrivilegedEntraPimRoles` (Preview)  [***](#mdi)",
+        "name": "PrivilegedEntraPimRoles` (Preview)",
         "type": "dynamic",
-        "description": "A snapshot of privileged role assignment schedules and eligibility schedules for the account as maintained by Microsoft Entra Privileged Identity Management (excluding activated assignments)"
+        "description": "A snapshot of privileged role assignment schedules and eligibility schedules for the account as maintained by Microsoft Entra Privileged Identity Management (excluding activated assignments)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "Unique identifier representing your organization's instance of Microsoft Entra ID"
+        "description": "Unique identifier representing your organization's instance of Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "SourceSystem` [*](#mdi-only)",
+        "name": "SourceSystem",
         "type": "string",
-        "description": "The source system for the record"
+        "description": "The source system for the record",
+        "availability": [
+          "Defender for Cloud Apps",
+          "Defender for Endpoint",
+          "Defender for Identity"
+        ]
       },
       {
         "name": "OnPremObjectId",
         "type": "string",
-        "description": "Active Directory object ID of the user"
+        "description": "Active Directory object ID of the user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TenantMembershipType",
         "type": "string",
-        "description": "User type in Microsoft Entra ID; possible values: Guest, Member"
+        "description": "User type in Microsoft Entra ID; possible values: Guest, Member",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskStatus",
         "type": "string",
-        "description": "Status of the user's risk; possible values: None, ConfirmedSafe, Remediated, Dismissed, AtRisk, ConfirmedCompromised, UnknownFutureValue"
+        "description": "Status of the user's risk; possible values: None, ConfirmedSafe, Remediated, Dismissed, AtRisk, ConfirmedCompromised, UnknownFutureValue",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UserAccountControl",
         "type": "string",
-        "description": "Security attributes of the user account in the Active Directory domain"
+        "description": "Security attributes of the user account in the Active Directory domain",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IdentityEnvironment",
         "type": "string",
-        "description": "Environment where the identity is used; possible values: CloudOnly, Hybrid, On-premises"
+        "description": "Environment where the identity is used; possible values: CloudOnly, Hybrid, On-premises",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceProviders",
         "type": "dynamic",
-        "description": "Source providers of the accounts for the identity; possible values: ActiveDirectory, EntraID, Okta"
+        "description": "Source providers of the accounts for the identity; possible values: ActiveDirectory, EntraID, Okta",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
-        "name": "GroupMembership` [**](#sentinel)",
+        "name": "GroupMembership",
         "type": "dynamic",
-        "description": "Microsoft Entra ID groups where the user account is a member"
+        "description": "Microsoft Entra ID groups where the user account is a member",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

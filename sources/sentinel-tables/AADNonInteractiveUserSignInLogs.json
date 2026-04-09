@@ -5,417 +5,666 @@
       {
         "name": "AADTenantId",
         "type": "string",
-        "description": "The AADTenantId GUID that's associated with the logs"
+        "description": "The AADTenantId GUID that's associated with the logs",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Agent",
         "type": "string",
-        "description": "Details of agentic sign-in."
+        "description": "Details of agentic sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlternateSignInName",
         "type": "string",
-        "description": "Provides the on-premises UPN of the user sign-ing into Azure AD.e.g. Phone number sign-in."
+        "description": "Provides the on-premises UPN of the user sign-ing into Azure AD.e.g. Phone number sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppDisplayName",
         "type": "string",
-        "description": "App name displayed in the Azure portal."
+        "description": "App name displayed in the Azure portal.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppId",
         "type": "string",
-        "description": "Unique GUID representing the app ID in the Azure Active Directory."
+        "description": "Unique GUID representing the app ID in the Azure Active Directory.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppliedEventListeners",
         "type": "dynamic",
-        "description": "Detailed information about the applied event listeners or listeners that are triggered by the corresponding events in an authentication activity. It's called appliedEventListeners in ALP and MSGraph, but use Authentication Events to match name on UX."
+        "description": "Detailed information about the applied event listeners or listeners that are triggered by the corresponding events in an authentication activity. It's called appliedEventListeners in ALP and MSGraph, but use Authentication Events to match name on UX.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppOwnerTenantId",
         "type": "string",
-        "description": "The tenant identifier of the owenr of the application in Azure Active Directory."
+        "description": "The tenant identifier of the owenr of the application in Azure Active Directory.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationContextClassReferences",
         "type": "string",
-        "description": "The authentication contexts of the sign-in."
+        "description": "The authentication contexts of the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationDetails",
         "type": "string",
-        "description": "A record of each step of authentication undertaken in the sign-in."
+        "description": "A record of each step of authentication undertaken in the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationMethodsUsed",
         "type": "string",
-        "description": "List of authentication methods used."
+        "description": "List of authentication methods used.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationProcessingDetails",
         "type": "string",
-        "description": "Provides the details associated with authentication processor."
+        "description": "Provides the details associated with authentication processor.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationProtocol",
         "type": "string",
-        "description": "Lists the protocol type or grant type used in the authentication. The possible values are: none, oAuth2, ropc, wsFederation, saml20, deviceCode, unknownFutureValue. For authentications that use protocols other than the possible values listed, the protocol type is listed as none."
+        "description": "Lists the protocol type or grant type used in the authentication. The possible values are: none, oAuth2, ropc, wsFederation, saml20, deviceCode, unknownFutureValue. For authentications that use protocols other than the possible values listed, the protocol type is listed as none.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationRequirement",
         "type": "string",
-        "description": "Type of authentication required for the sign-in. If set to multiFactorAuthentication, an MFA step was required. If set to singleFactorAuthentication, no MFA was required."
+        "description": "Type of authentication required for the sign-in. If set to multiFactorAuthentication, an MFA step was required. If set to singleFactorAuthentication, no MFA was required.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationRequirementPolicies",
         "type": "string",
-        "description": "Set of CA policies that apply to this sign-in, each as CA: policy name, and/or MFA: Per-user."
+        "description": "Set of CA policies that apply to this sign-in, each as CA: policy name, and/or MFA: Per-user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AutonomousSystemNumber",
         "type": "string",
-        "description": "Autonomous System Number for the network."
+        "description": "Autonomous System Number for the network.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": "Category of the sign-in event."
+        "description": "Category of the sign-in event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientAppUsed",
         "type": "string",
-        "description": "Details outlining app auth used (Legacy vs non Legacy) Eg: Modern Browser, Native App, Exchange Activty Sync and Older Clients."
+        "description": "Details outlining app auth used (Legacy vs non Legacy) Eg: Modern Browser, Native App, Exchange Activty Sync and Older Clients.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClientCredentialType",
         "type": "string",
-        "description": "The type of client credential used. Examples include client assertion, client secret, etc."
+        "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionalAccessPolicies",
         "type": "string",
-        "description": "Details of the conditional access policies being applied for the sign-in."
+        "description": "Details of the conditional access policies being applied for the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConditionalAccessStatus",
         "type": "string",
-        "description": "Status of all the conditionalAccess policies related to the sign-in."
+        "description": "Status of all the conditionalAccess policies related to the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "ID to provide sign-in trail."
+        "description": "ID to provide sign-in trail.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CreatedDateTime",
         "type": "datetime",
-        "description": "Datetime of the sign-in activity."
+        "description": "Datetime of the sign-in activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CrossTenantAccessType",
         "type": "string",
-        "description": "Describes the type of cross-tenant access used by the actor to access the resource. Possible values are: none, b2bCollaboration, b2bDirectConnect, microsoftSupport, serviceProvider, unknownFutureValue. If the sign in did not cross tenant boundaries, the value is none."
+        "description": "Describes the type of cross-tenant access used by the actor to access the resource. Possible values are: none, b2bCollaboration, b2bDirectConnect, microsoftSupport, serviceProvider, unknownFutureValue. If the sign in did not cross tenant boundaries, the value is none.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceDetail",
         "type": "string",
-        "description": "Details of the device used for the sign-in."
+        "description": "Details of the device used for the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DurationMs",
         "type": "long",
-        "description": "The duration of the operation in milliseconds."
+        "description": "The duration of the operation in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FederatedCredentialId",
         "type": "string",
-        "description": "Federated Credential Id."
+        "description": "Federated Credential Id.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GlobalSecureAccessIpAddress",
         "type": "string",
-        "description": "Global secure IP address that user signed in from."
+        "description": "Global secure IP address that user signed in from.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HomeTenantId",
         "type": "string",
-        "description": "The home tenant ID for cross-tenant scenarios."
+        "description": "The home tenant ID for cross-tenant scenarios.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HomeTenantName",
         "type": "string",
-        "description": "The tenant name of the external tenant who homes the entitity taking action in the customer's tenant."
+        "description": "The tenant name of the external tenant who homes the entitity taking action in the customer's tenant.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique ID representing the sign-in activity."
+        "description": "Unique ID representing the sign-in activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Identity",
         "type": "string",
-        "description": "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal."
+        "description": "The identity from the token that was presented when you made the request. It can be a user account, system account, or service principal.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IncomingTokenType",
         "type": "string",
-        "description": "The type of token utilized to signIn (examples: primary refresh token, saml assertion)."
+        "description": "The type of token utilized to signIn (examples: primary refresh token, saml assertion).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address of the client used to sign in."
+        "description": "IP address of the client used to sign in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsInteractive",
         "type": "bool",
-        "description": "Indicates if a sign-in is interactive or not."
+        "description": "Indicates if a sign-in is interactive or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsRisky",
         "type": "bool",
-        "description": "Indicates if a sign-in is considered risky or not."
+        "description": "Indicates if a sign-in is considered risky or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsTenantRestricted",
         "type": "bool",
-        "description": "Indicates if a signIn is under a tenant restrictions policy or not."
+        "description": "Indicates if a signIn is under a tenant restrictions policy or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsThroughGlobalSecureAccess",
         "type": "bool",
-        "description": "Displays whether or not a user came through Global Secure Access service or not."
+        "description": "Displays whether or not a user came through Global Secure Access service or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Level",
         "type": "string",
-        "description": "The severity level of the event."
+        "description": "The severity level of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "string",
-        "description": "The region of the resource emitting the event."
+        "description": "The region of the resource emitting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LocationDetails",
         "type": "string",
-        "description": "Details of the sign-in location."
+        "description": "Details of the sign-in location.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MfaDetail",
         "type": "string",
-        "description": "Details of the Multi-factor authentication."
+        "description": "Details of the Multi-factor authentication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkLocationDetails",
         "type": "string",
-        "description": "Provides the details associated with authentication processor."
+        "description": "Provides the details associated with authentication processor.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "For sign-ins, this value is always Sign-in activity."
+        "description": "For sign-ins, this value is always Sign-in activity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationVersion",
         "type": "string",
-        "description": "The REST API version that's requested by the client."
+        "description": "The REST API version that's requested by the client.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OriginalRequestId",
         "type": "string",
-        "description": "The request id of the first request in the authentication sequence."
+        "description": "The request id of the first request in the authentication sequence.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OriginalTransferMethod",
         "type": "string",
-        "description": "Transfer method used to initiate a session throughout all subsequent requests."
+        "description": "Transfer method used to initiate a session throughout all subsequent requests.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProcessingTimeInMs",
         "type": "string",
-        "description": "Request processing time in milliseconds in AD STS."
+        "description": "Request processing time in milliseconds in AD STS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceDisplayName",
         "type": "string",
-        "description": "Name of the resource that the user signed into."
+        "description": "Name of the resource that the user signed into.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceGroup",
         "type": "string",
-        "description": "Resource group for the logs."
+        "description": "Resource group for the logs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceIdentity",
         "type": "string",
-        "description": "ID of the resource that the user signed into."
+        "description": "ID of the resource that the user signed into.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceOwnerTenantId",
         "type": "string",
-        "description": "The tenant identifier of the owner of the resource referenced in the sign in."
+        "description": "The tenant identifier of the owner of the resource referenced in the sign in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceServicePrincipalId",
         "type": "string",
-        "description": "Service Principal Id of the resource."
+        "description": "Service Principal Id of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceTenantId",
         "type": "string",
-        "description": "The resource tenant ID for cross-tenant scenarios."
+        "description": "The resource tenant ID for cross-tenant scenarios.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultDescription",
         "type": "string",
-        "description": "Provides the error description for the sign-in operation."
+        "description": "Provides the error description for the sign-in operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultSignature",
         "type": "string",
-        "description": "Contains the error code, if any, for the sign-in operation."
+        "description": "Contains the error code, if any, for the sign-in operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultType",
         "type": "string",
-        "description": "The result of the sign-in operation can be Success or Failure."
+        "description": "The result of the sign-in operation can be Success or Failure.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskDetail",
         "type": "string",
-        "description": "Risky user state details."
+        "description": "Risky user state details.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskEventTypes",
         "type": "string",
-        "description": "The list of risk event types associated with the sign-in."
+        "description": "The list of risk event types associated with the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskEventTypes_V2",
         "type": "string",
-        "description": "The list of risk event types associated with the sign-in. These are strings."
+        "description": "The list of risk event types associated with the sign-in. These are strings.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLevelAggregated",
         "type": "string",
-        "description": "Aggregated risk level."
+        "description": "Aggregated risk level.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLevelDuringSignIn",
         "type": "string",
-        "description": "Risk level during sign-in."
+        "description": "Risk level during sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskState",
         "type": "string",
-        "description": "Risky user state."
+        "description": "Risky user state.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalId",
         "type": "string",
-        "description": "ID of the service principal who initiated the sign-in."
+        "description": "ID of the service principal who initiated the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SessionId",
         "type": "string",
-        "description": "Id of the session that was generated during the signIn."
+        "description": "Id of the session that was generated during the signIn.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SessionLifetimePolicies",
         "type": "string",
-        "description": "Policies and settings that applied to the sign-in that enforced or revoked a session lifetime."
+        "description": "Policies and settings that applied to the sign-in that enforced or revoked a session lifetime.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SignInEventTypes",
         "type": "string",
-        "description": "The types that are associated with the sign-in. Examples include \"interactive\", \"refreshToken\", \"managedIdentity\", \"continuousAccessEvaluation\" and many more."
+        "description": "The types that are associated with the sign-in. Examples include \"interactive\", \"refreshToken\", \"managedIdentity\", \"continuousAccessEvaluation\" and many more.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SignInIdentifierType",
         "type": "string",
-        "description": "The type of sign in identifier. Possible values are: userPrincipalName, phoneNumber, proxyAddress, qrCode, onPremisesUserPrincipalName, unknownFutureValue."
+        "description": "The type of sign in identifier. Possible values are: userPrincipalName, phoneNumber, proxyAddress, qrCode, onPremisesUserPrincipalName, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": "Details of the sign-in status."
+        "description": "Details of the sign-in status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time of the event in UTC."
+        "description": "The date and time of the event in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TokenIssuerName",
         "type": "string",
-        "description": "Name of the identity provider (e.g. sts.microsoft.com )."
+        "description": "Name of the identity provider (e.g. sts.microsoft.com ).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TokenIssuerType",
         "type": "string",
-        "description": "Type of identityProvider (Azure AD, AD Federation Services)."
+        "description": "Type of identityProvider (Azure AD, AD Federation Services).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TokenProtectionStatusDetails",
         "type": "string",
-        "description": "Token protection creates a cryptographically secure tie between the token and the device it's issued to. This field indicates whether the signin token was bound to the device or not."
+        "description": "Token protection creates a cryptographically secure tie between the token and the device it's issued to. This field indicates whether the signin token was bound to the device or not.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UniqueTokenIdentifier",
         "type": "string",
-        "description": "Unique token identifier for the request."
+        "description": "Unique token identifier for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "User Agent for the sign-in."
+        "description": "User Agent for the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserDisplayName",
         "type": "string",
-        "description": "Display name of the user that initiated the sign-in."
+        "description": "Display name of the user that initiated the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "ID of the user that initiated the sign-in."
+        "description": "ID of the user that initiated the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserPrincipalName",
         "type": "string",
-        "description": "User principal name of the user that initiated the sign-in."
+        "description": "User principal name of the user that initiated the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserType",
         "type": "string",
-        "description": "Identifies whether the user is a member or guest in the tenant. Possible values are: member, guest, unknownFutureValue."
+        "description": "Identifies whether the user is a member or guest in the tenant. Possible values are: member, guest, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

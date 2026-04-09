@@ -5,117 +5,186 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The AWS account ID that owns the VPC which sent the query."
+        "description": "The AWS account ID that owns the VPC which sent the query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Answers",
         "type": "dynamic",
-        "description": "Array of DNS response records, including resolved IP addresses and other query-related information."
+        "description": "Array of DNS response records, including resolved IP addresses and other query-related information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirewallDomainListId",
         "type": "string",
-        "description": "ID of the domain list that matched the query domain."
+        "description": "ID of the domain list that matched the query domain.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirewallRuleAction",
         "type": "string",
-        "description": "Rule action from the matching firewall rule."
+        "description": "Rule action from the matching firewall rule.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirewallRuleGroupId",
         "type": "string",
-        "description": "ID of the firewall rule group that applied to the query."
+        "description": "ID of the firewall rule group that applied to the query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogType",
         "type": "string",
-        "description": "Indicates the type of DNS log (e.g. ResolverQueryLogs)."
+        "description": "Indicates the type of DNS log (e.g. ResolverQueryLogs).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryClass",
         "type": "string",
-        "description": "The DNS query class. Usually IN (Internet)."
+        "description": "The DNS query class. Usually IN (Internet).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryName",
         "type": "string",
-        "description": "The domain name that was queried."
+        "description": "The domain name that was queried.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryType",
         "type": "string",
-        "description": "The DNS record type requested (e.g. A, AAAA, MX)."
+        "description": "The DNS record type requested (e.g. A, AAAA, MX).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rcode",
         "type": "string",
-        "description": "Textual DNS response code (e.g. NOERROR, NXDOMAIN)."
+        "description": "Textual DNS response code (e.g. NOERROR, NXDOMAIN).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Region",
         "type": "string",
-        "description": "AWS region where the log was generated."
+        "description": "AWS region where the log was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcAddr",
         "type": "string",
-        "description": "The source IP address of the instance that made the query."
+        "description": "The source IP address of the instance that made the query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIds",
         "type": "dynamic",
-        "description": "Identifiers related to the source instance where the DNS query originated from or passed through."
+        "description": "Identifiers related to the source instance where the DNS query originated from or passed through.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPort",
         "type": "string",
-        "description": "The source port on the instance that made the query."
+        "description": "The source port on the instance that made the query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time the DNS query was received by Route 53 Resolver."
+        "description": "The time the DNS query was received by Route 53 Resolver.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Transport",
         "type": "string",
-        "description": "The protocol used to send the query (e.g. UDP, TCP, TLS)."
+        "description": "The protocol used to send the query (e.g. UDP, TCP, TLS).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Version",
         "type": "string",
-        "description": "Version of the log format."
+        "description": "Version of the log format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VpcId",
         "type": "string",
-        "description": "The ID of the VPC where the DNS query originated."
+        "description": "The ID of the VPC where the DNS query originated.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

@@ -5,57 +5,90 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7."
+        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSVersion",
         "type": "string",
-        "description": "Version of the operating system running on the device"
+        "description": "Version of the operating system running on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSArchitecture",
         "type": "string",
-        "description": "Architecture of the operating system running on the device"
+        "description": "Architecture of the operating system running on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVendor",
         "type": "string",
-        "description": "Name of the software vendor"
+        "description": "Name of the software vendor",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareName",
         "type": "string",
-        "description": "Name of the software product"
+        "description": "Name of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVersion",
         "type": "string",
-        "description": "Version number of the software product"
+        "description": "Version number of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EndOfSupportStatus",
         "type": "string",
-        "description": "Indicates the lifecycle stage of the software product relative to its specified end-of-support (EOS) or end-of-life (EOL) date"
+        "description": "Indicates the lifecycle stage of the software product relative to its specified end-of-support (EOS) or end-of-life (EOL) date",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EndOfSupportDate",
         "type": "datetime",
-        "description": "End-of-support (EOS) or end-of-life (EOL) date of the software product"
+        "description": "End-of-support (EOS) or end-of-life (EOL) date of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProductCodeCpe",
         "type": "string",
-        "description": "The standard Common Platform Enumeration (CPE) name of the software product version or 'not available' where there's no CPE"
+        "description": "The standard Common Platform Enumeration (CPE) name of the software product version or 'not available' where there's no CPE",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

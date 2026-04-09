@@ -5,27 +5,42 @@
       {
         "name": "IgId",
         "type": "string",
-        "description": "Unique identifier for the piece of information gathered"
+        "description": "Unique identifier for the piece of information gathered",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FieldName",
         "type": "string",
-        "description": "Name of the field where this information appears in the AdditionalFields column of the DeviceTvmInfoGathering table"
+        "description": "Name of the field where this information appears in the AdditionalFields column of the DeviceTvmInfoGathering table",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Description of the information gathered"
+        "description": "Description of the information gathered",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Categories",
         "type": "dynamic",
-        "description": "List of categories that the information belongs to, in JSON array format"
+        "description": "List of categories that the information belongs to, in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DataStructure",
         "type": "string",
-        "description": "The data structure of the information gathered"
+        "description": "The data structure of the information gathered",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

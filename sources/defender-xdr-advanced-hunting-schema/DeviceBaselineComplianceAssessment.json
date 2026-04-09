@@ -5,62 +5,98 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10 and Windows 7."
+        "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10 and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSVersion",
         "type": "string",
-        "description": "Version of the operating system running on the device"
+        "description": "Version of the operating system running on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationId",
         "type": "string",
-        "description": "Unique identifier for a specific configuration"
+        "description": "Unique identifier for a specific configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProfileId",
         "type": "string",
-        "description": "Unique identifier for the profile"
+        "description": "Unique identifier for the profile",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsCompliant",
         "type": "nullable bool",
-        "description": "Indicates whether the device that initiated the event is compliant or not"
+        "description": "Indicates whether the device that initiated the event is compliant or not",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsApplicable",
         "type": "boolean",
-        "description": "Indicates whether the configuration or policy is applicable"
+        "description": "Indicates whether the configuration or policy is applicable",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Source",
         "type": "dynamic",
-        "description": "The registry path or other location used to determine the current device setting"
+        "description": "The registry path or other location used to determine the current device setting",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RecommendedValue",
         "type": "dynamic",
-        "description": "Set of expected values for the current device setting to be compliant"
+        "description": "Set of expected values for the current device setting to be compliant",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CurrentValue",
         "type": "dynamic",
-        "description": "Set of detected values found on the device"
+        "description": "Set of detected values found on the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsExempt",
         "type": "boolean",
-        "description": "Indicates whether the device is exempt from having the baseline configuration"
+        "description": "Indicates whether the device is exempt from having the baseline configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

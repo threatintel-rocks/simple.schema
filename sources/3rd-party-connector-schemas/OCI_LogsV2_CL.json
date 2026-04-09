@@ -1,0 +1,1776 @@
+{
+  "OCI_LogsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the log entry was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data",
+        "type": "dynamic",
+        "description": "Data",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "description": "Id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle",
+        "type": "dynamic",
+        "description": "Oracle",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "time_t",
+        "type": "datetime",
+        "description": "Time t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_compartmentid_s",
+        "type": "string",
+        "description": "Oracle compartmentid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_ingestedtime_t",
+        "type": "datetime",
+        "description": "Oracle ingestedtime t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_loggroupid_s",
+        "type": "string",
+        "description": "Oracle loggroupid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_tenantid_s",
+        "type": "string",
+        "description": "Oracle tenantid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_logid_s",
+        "type": "string",
+        "description": "Oracle logid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_vniccompartmentocid_s",
+        "type": "string",
+        "description": "Oracle vniccompartmentocid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_vnicocid_s",
+        "type": "string",
+        "description": "Oracle vnicocid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "oracle_vnicsubnetocid_s",
+        "type": "string",
+        "description": "Oracle vnicsubnetocid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_endTime_d",
+        "type": "int",
+        "description": "Data end time d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_flowid_s",
+        "type": "string",
+        "description": "Data flowid s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_startTime_d",
+        "type": "int",
+        "description": "Data start time d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_status_s",
+        "type": "string",
+        "description": "Data status s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_version_s",
+        "type": "string",
+        "description": "Data version s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_action_s",
+        "type": "string",
+        "description": "Data action s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_bytesOut_d",
+        "type": "int",
+        "description": "Data bytes out d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_destinationAddress_s",
+        "type": "string",
+        "description": "Data destination address s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_destinationPort_d",
+        "type": "int",
+        "description": "Data destination port d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_packets_d",
+        "type": "int",
+        "description": "Data packets d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_protocol_d",
+        "type": "int",
+        "description": "Data protocol d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_protocolName_s",
+        "type": "string",
+        "description": "Data protocol name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_sourceAddress_s",
+        "type": "string",
+        "description": "Data source address s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_sourcePort_d",
+        "type": "int",
+        "description": "Data source port d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_availabilityDomain_s",
+        "type": "string",
+        "description": "Data availability domain s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_compartmentId_s",
+        "type": "string",
+        "description": "Data compartment id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_compartmentName_s",
+        "type": "string",
+        "description": "Data compartment name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_eventGroupingId_s",
+        "type": "string",
+        "description": "Data event grouping id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_eventName_s",
+        "type": "string",
+        "description": "Data event name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_id_s",
+        "type": "string",
+        "description": "Data request id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_path_s",
+        "type": "string",
+        "description": "Data request path s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_resourceId_s",
+        "type": "string",
+        "description": "Data resource id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_serviceName_s",
+        "type": "string",
+        "description": "Data request parameters service name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_vcnId_s",
+        "type": "string",
+        "description": "Data request parameters vcn id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_imageId_s",
+        "type": "string",
+        "description": "Data request parameters image id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_operatingSystem_s",
+        "type": "string",
+        "description": "Data request parameters operating system s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_operatingSystemVersion_s",
+        "type": "string",
+        "description": "Data request parameters operating system version s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_shape_s",
+        "type": "string",
+        "description": "Data request parameters shape s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_isMergeEnabled_s",
+        "type": "string",
+        "description": "Data request parameters is merge enabled s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_instanceId_s",
+        "type": "string",
+        "description": "Data request parameters instance id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_tenancy_s",
+        "type": "string",
+        "description": "Data request parameters tenancy s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_compartmentId_s",
+        "type": "string",
+        "description": "Data request parameters compartment id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_limit_d",
+        "type": "real",
+        "description": "Data request parameters limit d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_sortBy_s",
+        "type": "string",
+        "description": "Data request parameters sort by s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_sortOrder_s",
+        "type": "string",
+        "description": "Data request parameters sort order s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_includeSubcompartments_b",
+        "type": "boolean",
+        "description": "Data request parameters include subcompartments b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_endTime_t",
+        "type": "datetime",
+        "description": "Data request parameters end time t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_startTime_t",
+        "type": "datetime",
+        "description": "Data request parameters start time t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_id_s",
+        "type": "string",
+        "description": "Data request parameters id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_lifecycleState_s",
+        "type": "string",
+        "description": "Data request parameters lifecycle state s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_name_s",
+        "type": "string",
+        "description": "Data request parameters name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_page_s",
+        "type": "string",
+        "description": "Data request parameters page s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_streamPoolId_s",
+        "type": "string",
+        "description": "Data request parameters stream pool id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_param0_s",
+        "type": "string",
+        "description": "Data request parameters param0 s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_accessLevel_s",
+        "type": "string",
+        "description": "Data request parameters access level s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_compartmentIdInSubtree_b",
+        "type": "boolean",
+        "description": "Data request parameters compartment id in subtree b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_isBanner_b",
+        "type": "boolean",
+        "description": "Data request parameters is banner b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_granularity_s",
+        "type": "string",
+        "description": "Data request parameters granularity s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_protocol_s",
+        "type": "string",
+        "description": "Data request parameters protocol s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_userId_s",
+        "type": "string",
+        "description": "Data request parameters user id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_fields_s",
+        "type": "string",
+        "description": "Data request parameters fields s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_availabilityDomain_s",
+        "type": "string",
+        "description": "Data request parameters availability domain s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_parameters_subnetId_s",
+        "type": "string",
+        "description": "Data request parameters subnet id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_callerId_s",
+        "type": "string",
+        "description": "Data identity caller id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_callerName_s",
+        "type": "string",
+        "description": "Data identity caller name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_ipAddress_s",
+        "type": "string",
+        "description": "Data identity ip address s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_principalId_s",
+        "type": "string",
+        "description": "Data identity principal id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_tenantId_s",
+        "type": "string",
+        "description": "Data identity tenant id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_authType_s",
+        "type": "string",
+        "description": "Data identity auth type s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_consoleSessionId_s",
+        "type": "string",
+        "description": "Data identity console session id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_credentials_s",
+        "type": "string",
+        "description": "Data identity credentials s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_identity_principalName_s",
+        "type": "string",
+        "description": "Data identity principal name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUserAgentOriginal",
+        "type": "string",
+        "description": "Http user agent original",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_opc_obo_token_s",
+        "type": "string",
+        "description": "Data request headers opc obo token s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_opc_retry_token_s",
+        "type": "string",
+        "description": "Data request headers opc retry token s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Cache_Control_s",
+        "type": "string",
+        "description": "Data request headers cache control s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Cookie_s",
+        "type": "string",
+        "description": "Data request headers cookie s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Connection_s",
+        "type": "string",
+        "description": "Data request headers connection s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_User_Agent_s",
+        "type": "string",
+        "description": "Data request headers user agent s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Forwarded_For_s",
+        "type": "string",
+        "description": "Data request headers x forwarded for s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_auth_info_s",
+        "type": "string",
+        "description": "Data request headers auth info s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_opc_request_id_s",
+        "type": "string",
+        "description": "Data request headers opc request id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Accept_s",
+        "type": "string",
+        "description": "Data request headers accept s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Accept_Encoding_s",
+        "type": "string",
+        "description": "Data request headers accept encoding s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Accept_Language_s",
+        "type": "string",
+        "description": "Data request headers accept language s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Origin_s",
+        "type": "string",
+        "description": "Data request headers origin s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Referer_s",
+        "type": "string",
+        "description": "Data request headers referer s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_OCI_LB_NetworkMetadata_s",
+        "type": "string",
+        "description": "Data request headers x oci lb network metadata s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Real_IP_s",
+        "type": "string",
+        "description": "Data request headers x real ip s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Real_Port_s",
+        "type": "string",
+        "description": "Data request headers x real port s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_oci_skip_authorization_for_splat_s",
+        "type": "string",
+        "description": "Data request headers oci skip authorization for splat s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_opc_principal_s",
+        "type": "string",
+        "description": "Data request headers opc principal s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_x_date_t",
+        "type": "datetime",
+        "description": "Data request headers x date t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_oci_splat_audited_s",
+        "type": "string",
+        "description": "Data request headers oci splat audited s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_oci_splat_internal_context_s",
+        "type": "string",
+        "description": "Data request headers oci splat internal context s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Content_Length_d",
+        "type": "real",
+        "description": "Data request headers content length d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Content_Type_s",
+        "type": "string",
+        "description": "Data request headers content type s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_x_content_sha256_s",
+        "type": "string",
+        "description": "Data request headers x content sha256 s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_If_None_Match_s",
+        "type": "string",
+        "description": "Data request headers if none match s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_Date_t",
+        "type": "datetime",
+        "description": "Data request headers date t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_opc_client_info_s",
+        "type": "string",
+        "description": "Data request headers opc client info s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_accept_language_s",
+        "type": "string",
+        "description": "Data request headers accept language s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_authorization_s",
+        "type": "string",
+        "description": "Data request headers authorization s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Forwarded_Host_s",
+        "type": "string",
+        "description": "Data request headers x forwarded host s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Forwarded_Port_s",
+        "type": "string",
+        "description": "Data request headers x forwarded port s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Forwarded_Proto_s",
+        "type": "string",
+        "description": "Data request headers x forwarded proto s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_Oracle_Auth_Client_CN_s",
+        "type": "string",
+        "description": "Data request headers x oracle auth client cn s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_X_OCI_LB_PrivateAccessMetadata_s",
+        "type": "string",
+        "description": "Data request headers x oci lb private access metadata s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_date_t",
+        "type": "datetime",
+        "description": "Data request headers date t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_oci_splat_generated_ocids_s",
+        "type": "string",
+        "description": "Data request headers oci splat generated ocids s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_request_headers_oci_original_url_s",
+        "type": "string",
+        "description": "Data request headers oci original url s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_imageId_s",
+        "type": "string",
+        "description": "Data additional details image id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_shape_s",
+        "type": "string",
+        "description": "Data additional details shape s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_type_s",
+        "type": "string",
+        "description": "Data additional details type s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_volumeId_s",
+        "type": "string",
+        "description": "Data additional details volume id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_isFreeTier_b",
+        "type": "boolean",
+        "description": "Data additional details is free tier b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_id_s",
+        "type": "string",
+        "description": "Data additional details id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_X_Real_Port_s",
+        "type": "string",
+        "description": "Data additional details x real port s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_namespace_s",
+        "type": "string",
+        "description": "Data additional details namespace s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_description_s",
+        "type": "string",
+        "description": "Data additional details description s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_isAccessable_b",
+        "type": "boolean",
+        "description": "Data additional details is accessable b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_lifeCycleState_s",
+        "type": "string",
+        "description": "Data additional details life cycle state s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_homeRegionKey_s",
+        "type": "string",
+        "description": "Data additional details home region key s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_oracleMyServicesIdentifier_s",
+        "type": "string",
+        "description": "Data additional details oracle my services identifier s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_additionalDetails_userId_s",
+        "type": "string",
+        "description": "Data additional details user id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_systemTags_orcl_cloud_s",
+        "type": "string",
+        "description": "Data state change current system tags orcl cloud s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_agentConfig_s",
+        "type": "string",
+        "description": "Data state change current instance agent config s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_availabilityConfig_s",
+        "type": "string",
+        "description": "Data state change current instance availability config s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_availabilityDomain_s",
+        "type": "string",
+        "description": "Data state change current instance availability domain s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_compartmentId_s",
+        "type": "string",
+        "description": "Data state change current instance compartment id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_definedTags_s",
+        "type": "string",
+        "description": "Data state change current instance defined tags s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_Instance_displayName_s",
+        "type": "string",
+        "description": "Data state change current instance display name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_compartmentId_s",
+        "type": "string",
+        "description": "Data state change current compartment id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_displayName_s",
+        "type": "string",
+        "description": "Data state change current display name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_id_s",
+        "type": "string",
+        "description": "Data state change current id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_instanceId_s",
+        "type": "string",
+        "description": "Data state change current instance id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_lifecycleDetails_s",
+        "type": "string",
+        "description": "Data state change current lifecycle details s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_tenancyId_s",
+        "type": "string",
+        "description": "Data state change current tenancy id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_timeUpdated_t",
+        "type": "datetime",
+        "description": "Data state change current time updated t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_userDisplayName_s",
+        "type": "string",
+        "description": "Data state change current user display name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_configuration_s",
+        "type": "string",
+        "description": "Data state change current configuration s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_definedTags_s",
+        "type": "string",
+        "description": "Data state change current defined tags s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_freeformTags_s",
+        "type": "string",
+        "description": "Data state change current freeform tags s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_isEnabled_b",
+        "type": "boolean",
+        "description": "Data state change current is enabled b",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_logGroupId_s",
+        "type": "string",
+        "description": "Data state change current log group id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_logType_s",
+        "type": "string",
+        "description": "Data state change current log type s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_retentionDuration_d",
+        "type": "real",
+        "description": "Data state change current retention duration d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_timeCreated_t",
+        "type": "datetime",
+        "description": "Data state change current time created t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_timeLastModified_t",
+        "type": "datetime",
+        "description": "Data state change current time last modified t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_fingerprint_s",
+        "type": "string",
+        "description": "Data state change current fingerprint s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_keyId_s",
+        "type": "string",
+        "description": "Data state change current key id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_keyValue_s",
+        "type": "string",
+        "description": "Data state change current key value s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_lifecycleState_s",
+        "type": "string",
+        "description": "Data state change current lifecycle state s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_userId_s",
+        "type": "string",
+        "description": "Data state change current user id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_LoadBalancers_s",
+        "type": "string",
+        "description": "Data state change current load balancers s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_userName_s",
+        "type": "string",
+        "description": "Data state change current user name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_stateChange_current_definedTags_Oracle_Tags_s",
+        "type": "string",
+        "description": "Data state change current defined tags oracle tags s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_definedTags_Oracle_Tags_CreatedBy_s",
+        "type": "string",
+        "description": "Data defined tags oracle tags created by s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_definedTags_Oracle_Tags_CreatedOn_t",
+        "type": "datetime",
+        "description": "Data defined tags oracle tags created on t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_freeformTags_VCN_s",
+        "type": "string",
+        "description": "Data freeform tags vcn s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Content_Security_Policy_s",
+        "type": "string",
+        "description": "Data response headers content security policy s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Etag_s",
+        "type": "string",
+        "description": "Data response headers etag s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Opc_Request_Id_s",
+        "type": "string",
+        "description": "Data response headers opc request id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Strict_Transport_Security_s",
+        "type": "string",
+        "description": "Data response headers strict transport security s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_X_Frame_Options_s",
+        "type": "string",
+        "description": "Data response headers x frame options s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_X_Xss_Protection_s",
+        "type": "string",
+        "description": "Data response headers x xss protection s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_work_request_id_s",
+        "type": "string",
+        "description": "Data response headers opc work request id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_X_FRAME_OPTIONS_s",
+        "type": "string",
+        "description": "Data response headers x frame options s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Content_Length_d",
+        "type": "real",
+        "description": "Data response headers content length d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Content_Type_s",
+        "type": "string",
+        "description": "Data response headers content type s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Date_t",
+        "type": "datetime",
+        "description": "Data response headers date t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_ETag_s",
+        "type": "string",
+        "description": "Data response headers e tag s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Vary_s",
+        "type": "string",
+        "description": "Data response headers vary s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_request_id_s",
+        "type": "string",
+        "description": "Data response headers opc request id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Access_Control_Allow_Credentials_s",
+        "type": "string",
+        "description": "Data response headers access control allow credentials s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Access_Control_Allow_Origin_s",
+        "type": "string",
+        "description": "Data response headers access control allow origin s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Access_Control_Expose_Headers_s",
+        "type": "string",
+        "description": "Data response headers access control expose headers s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Connection_s",
+        "type": "string",
+        "description": "Data response headers connection s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Timing_Allow_Origin_s",
+        "type": "string",
+        "description": "Data response headers timing allow origin s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_X_Content_Type_Options_s",
+        "type": "string",
+        "description": "Data response headers x content type options s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Content_Encoding_s",
+        "type": "string",
+        "description": "Data response headers content encoding s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_limit_d",
+        "type": "real",
+        "description": "Data response headers opc limit d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_next_page_s",
+        "type": "string",
+        "description": "Data response headers opc next page s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_prev_page_s",
+        "type": "string",
+        "description": "Data response headers opc prev page s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_opc_previous_page_s",
+        "type": "string",
+        "description": "Data response headers opc previous page s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_access_control_allow_credentials_s",
+        "type": "string",
+        "description": "Data response headers access control allow credentials s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_access_control_allow_methods_s",
+        "type": "string",
+        "description": "Data response headers access control allow methods s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_access_control_allow_origin_s",
+        "type": "string",
+        "description": "Data response headers access control allow origin s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_access_control_expose_headers_s",
+        "type": "string",
+        "description": "Data response headers access control expose headers s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_date_t",
+        "type": "datetime",
+        "description": "Data response headers date t",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_x_api_id_s",
+        "type": "string",
+        "description": "Data response headers x api id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Cache_Control_s",
+        "type": "string",
+        "description": "Data response headers cache control s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Pragma_s",
+        "type": "string",
+        "description": "Data response headers pragma s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Transfer_Encoding_s",
+        "type": "string",
+        "description": "Data response headers transfer encoding s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_headers_Location_s",
+        "type": "string",
+        "description": "Data response headers location s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_responseTime_d",
+        "type": "real",
+        "description": "Data response response time d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_status_d",
+        "type": "int",
+        "description": "Data response status d",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_payload_id_s",
+        "type": "string",
+        "description": "Data response payload id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "data_response_payload_resourceName_s",
+        "type": "string",
+        "description": "Data response payload resource name s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventMessage",
+        "type": "string",
+        "description": "Event message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpRequestMethod",
+        "type": "string",
+        "description": "Http request method",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpStatusCode",
+        "type": "string",
+        "description": "Http status code",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventStartTime",
+        "type": "datetime",
+        "description": "Event start time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventEndTime",
+        "type": "datetime",
+        "description": "Event end time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Src ip addr",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcPortNumber",
+        "type": "int",
+        "description": "Src port number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstIpAddr",
+        "type": "string",
+        "description": "Dst ip addr",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstPortNumber",
+        "type": "int",
+        "description": "Dst port number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstBytes",
+        "type": "int",
+        "description": "Dst bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkProtocol",
+        "type": "string",
+        "description": "Network protocol",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "dataschema_s",
+        "type": "string",
+        "description": "Dataschema s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "id_s",
+        "type": "string",
+        "description": "Id s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "source_s",
+        "type": "string",
+        "description": "Source s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "specversion_s",
+        "type": "string",
+        "description": "Specversion s",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventVendor",
+        "type": "string",
+        "description": "Event vendor",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventProduct",
+        "type": "string",
+        "description": "Event product",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StreamName",
+        "type": "string",
+        "description": "Stream name",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Oracle Cloud Infrastructure"
+  }
+}

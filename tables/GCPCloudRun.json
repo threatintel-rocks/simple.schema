@@ -5,457 +5,730 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "The type of GCP resource (e.g., 'CloudRunService', 'CloudRunJob')."
+        "description": "The type of GCP resource (e.g., 'CloudRunService', 'CloudRunJob').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "Unique identifier for the log entry."
+        "description": "Unique identifier for the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JsonPayloadMessage",
         "type": "string",
-        "description": "The message field extracted from the jsonPayload."
+        "description": "The message field extracted from the jsonPayload.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JsonPayloadRequest",
         "type": "string",
-        "description": "The request field extracted from the jsonPayload."
+        "description": "The request field extracted from the jsonPayload.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Labels",
         "type": "string",
-        "description": "Generic labels associated with the log entry."
+        "description": "Generic labels associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The name of the log from which the entry originated."
+        "description": "The name of the log from which the entry originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadAuthenticationInfoPrincipalSubject",
         "type": "string",
-        "description": "The subject identifier of the authenticated principal."
+        "description": "The subject identifier of the authenticated principal.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadAuthenticationInfoServiceAccountKeyName",
         "type": "string",
-        "description": "The name of the service account key used for authentication."
+        "description": "The name of the service account key used for authentication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadAuthInfoPrincipalEmail",
         "type": "string",
-        "description": "The email address of the principal (user or service account) that initiated the action."
+        "description": "The email address of the principal (user or service account) that initiated the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadAuthorizationInfo",
         "type": "dynamic",
-        "description": "Detailed authorization information for the logged action, represented as a Dynamic (JSON) object."
+        "description": "Detailed authorization information for the logged action, represented as a Dynamic (JSON) object.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadMethodName",
         "type": "string",
-        "description": "The name of the API method that was invoked."
+        "description": "The name of the API method that was invoked.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestBuildpackBuildBaseImage",
         "type": "string",
-        "description": "The base image used by the buildpack for the build process."
+        "description": "The base image used by the buildpack for the build process.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestBuildpackBuildEnableAutomaticUpdates",
         "type": "string",
-        "description": "Indicates whether automatic updates are enabled for the buildpack build."
+        "description": "Indicates whether automatic updates are enabled for the buildpack build.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingApiVersion",
         "type": "string",
-        "description": "The API version of the Cloud Run domain mapping in the request."
+        "description": "The API version of the Cloud Run domain mapping in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingKind",
         "type": "string",
-        "description": "The 'kind' of the Cloud Run domain mapping (e.g., 'DomainMapping')."
+        "description": "The 'kind' of the Cloud Run domain mapping (e.g., 'DomainMapping').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingMetadataAnnotations",
         "type": "string",
-        "description": "Annotations associated with the Cloud Run domain mapping's request metadata."
+        "description": "Annotations associated with the Cloud Run domain mapping's request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingMetadataName",
         "type": "string",
-        "description": "The name of the Cloud Run domain mapping within the request metadata."
+        "description": "The name of the Cloud Run domain mapping within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingMetadataNameSpace",
         "type": "string",
-        "description": "The namespace of the Cloud Run domain mapping within the request metadata."
+        "description": "The namespace of the Cloud Run domain mapping within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingSpec",
         "type": "string",
-        "description": "The specification details of the Cloud Run domain mapping in the request."
+        "description": "The specification details of the Cloud Run domain mapping in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestDomainMappingStatus",
         "type": "string",
-        "description": "The status of the Cloud Run domain mapping in the request."
+        "description": "The status of the Cloud Run domain mapping in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestImageUri",
         "type": "string",
-        "description": "The URI of the container image used for the Cloud Run service."
+        "description": "The URI of the container image used for the Cloud Run service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobApiVersion",
         "type": "string",
-        "description": "The API version of the Cloud Run job in the request."
+        "description": "The API version of the Cloud Run job in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobKind",
         "type": "string",
-        "description": "The 'kind' of the Cloud Run job (e.g., 'Job')."
+        "description": "The 'kind' of the Cloud Run job (e.g., 'Job').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobMetadataAnnotations",
         "type": "string",
-        "description": "Annotations associated with the Cloud Run job's request metadata."
+        "description": "Annotations associated with the Cloud Run job's request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobMetadataName",
         "type": "string",
-        "description": "The name of the Cloud Run job within the request metadata."
+        "description": "The name of the Cloud Run job within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobMetadataNameSpace",
         "type": "string",
-        "description": "The namespace of the Cloud Run job within the request metadata."
+        "description": "The namespace of the Cloud Run job within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestJobSpec",
         "type": "string",
-        "description": "The specification details of the Cloud Run job in the request."
+        "description": "The specification details of the Cloud Run job in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestLabelSelector",
         "type": "string",
-        "description": "The label selector used in the request, typically for filtering resources."
+        "description": "The label selector used in the request, typically for filtering resources.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadrequestMetadataCallerIp",
         "type": "string",
-        "description": "The IP address of the client that made the request."
+        "description": "The IP address of the client that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadrequestMetadatacallerSuppliedUserAgent",
         "type": "string",
-        "description": "The user agent String provided by the caller."
+        "description": "The user agent String provided by the caller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadrequestMetadataDestinationAttributes",
         "type": "string",
-        "description": "Attributes related to the destination of the request."
+        "description": "Attributes related to the destination of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadrequestMetadatarequestAttributesAuth",
         "type": "string",
-        "description": "Authentication attributes embedded within the request."
+        "description": "Authentication attributes embedded within the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestMetadataRequestAttributesReason",
         "type": "string",
-        "description": "The reason specified in the request attributes metadata."
+        "description": "The reason specified in the request attributes metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadrequestMetadatarequestAttributesTime",
         "type": "datetime",
-        "description": "The timestamp associated with the request attributes."
+        "description": "The timestamp associated with the request attributes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestName",
         "type": "string",
-        "description": "The name of the specific request."
+        "description": "The name of the specific request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestOptionsRequestedPolicyVersion",
         "type": "string",
-        "description": "The requested policy version within the request options."
+        "description": "The requested policy version within the request options.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestParent",
         "type": "string",
-        "description": "The parent resource of the request."
+        "description": "The parent resource of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestRegion",
         "type": "string",
-        "description": "The GCP region where the request originated or was processed."
+        "description": "The GCP region where the request originated or was processed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestResource",
         "type": "string",
-        "description": "The resource specified in the request."
+        "description": "The resource specified in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceApiVersion",
         "type": "string",
-        "description": "The API version of the Cloud Run service in the request."
+        "description": "The API version of the Cloud Run service in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceKind",
         "type": "string",
-        "description": "The 'kind' of the Cloud Run service (e.g., 'Service')."
+        "description": "The 'kind' of the Cloud Run service (e.g., 'Service').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceLatestRevision",
         "type": "string",
-        "description": "The name of the latest revision for the Cloud Run service in the request status."
+        "description": "The name of the latest revision for the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataAnnotations",
         "type": "string",
-        "description": "Annotations associated with the Cloud Run service's request metadata."
+        "description": "Annotations associated with the Cloud Run service's request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataCreationTimestamp",
         "type": "string",
-        "description": "The timestamp when the Cloud Run service in the request metadata was created."
+        "description": "The timestamp when the Cloud Run service in the request metadata was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataGeneration",
         "type": "string",
-        "description": "The generation number of the Cloud Run service in the request metadata."
+        "description": "The generation number of the Cloud Run service in the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadatalabels",
         "type": "string",
-        "description": "Labels from the Cloud Run service metadata within the request."
+        "description": "Labels from the Cloud Run service metadata within the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataName",
         "type": "string",
-        "description": "The name of the Cloud Run service within the request metadata."
+        "description": "The name of the Cloud Run service within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataNameSpace",
         "type": "string",
-        "description": "The namespace of the Cloud Run service within the request metadata."
+        "description": "The namespace of the Cloud Run service within the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataResourceVersion",
         "type": "string",
-        "description": "The resource version of the Cloud Run service in the request metadata."
+        "description": "The resource version of the Cloud Run service in the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataSelfLink",
         "type": "string",
-        "description": "The self-link URL for the Cloud Run service in the request metadata."
+        "description": "The self-link URL for the Cloud Run service in the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceMetadataUID",
         "type": "string",
-        "description": "The unique identifier (UID) of the Cloud Run service in the request metadata."
+        "description": "The unique identifier (UID) of the Cloud Run service in the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceObservedGeneration",
         "type": "string",
-        "description": "The observed generation of the Cloud Run service in the request status."
+        "description": "The observed generation of the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceReadyRevision",
         "type": "string",
-        "description": "The name of the ready revision for the Cloud Run service in the request status."
+        "description": "The name of the ready revision for the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceServiceURL",
         "type": "string",
-        "description": "The URL of the Cloud Run service in the request status."
+        "description": "The URL of the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceSpec",
         "type": "string",
-        "description": "The specification details of the Cloud Run service in the request."
+        "description": "The specification details of the Cloud Run service in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceStatusConditions",
         "type": "string",
-        "description": "Conditions indicating the current state of the Cloud Run service in the request status."
+        "description": "Conditions indicating the current state of the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestServiceTraffic",
         "type": "string",
-        "description": "Traffic distribution settings for the Cloud Run service in the request status."
+        "description": "Traffic distribution settings for the Cloud Run service in the request status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestStorageSourceGeneration",
         "type": "string",
-        "description": "The generation of the storage source used in the request."
+        "description": "The generation of the storage source used in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestType",
         "type": "string",
-        "description": "The type of request made to the Cloud Run service."
+        "description": "The type of request made to the Cloud Run service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResourceLocationCurrentLocations",
         "type": "string",
-        "description": "Current location(s) of the resource involved in the log entry."
+        "description": "Current location(s) of the resource involved in the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResourceName",
         "type": "string",
-        "description": "The name of the GCP resource relevant to the log entry."
+        "description": "The name of the GCP resource relevant to the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseApiVersion",
         "type": "string",
-        "description": "The API version of the response from the Cloud Run service."
+        "description": "The API version of the response from the Cloud Run service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseKind",
         "type": "string",
-        "description": "The 'kind' of resource returned in the response (e.g., 'Service')."
+        "description": "The 'kind' of resource returned in the response (e.g., 'Service').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataAnnotations",
         "type": "string",
-        "description": "Annotations associated with the response metadata, typically key-value pairs."
+        "description": "Annotations associated with the response metadata, typically key-value pairs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataCreationTimestamp",
         "type": "string",
-        "description": "The timestamp when the resource in the response metadata was created."
+        "description": "The timestamp when the resource in the response metadata was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataGeneration",
         "type": "string",
-        "description": "The generation number of the resource in the response metadata."
+        "description": "The generation number of the resource in the response metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataName",
         "type": "string",
-        "description": "The name of the resource within the response metadata."
+        "description": "The name of the resource within the response metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataResourceVersion",
         "type": "string",
-        "description": "The resource version of the resource in the response metadata, indicating its state."
+        "description": "The resource version of the resource in the response metadata, indicating its state.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataSelfLink",
         "type": "string",
-        "description": "The self-link URL for the resource in the response metadata."
+        "description": "The self-link URL for the resource in the response metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseMetadataUID",
         "type": "string",
-        "description": "The unique identifier (UID) of the resource in the response metadata."
+        "description": "The unique identifier (UID) of the resource in the response metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseNameSpace",
         "type": "string",
-        "description": "The namespace of the resource within the response."
+        "description": "The namespace of the resource within the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseServiceMetadatalabels",
         "type": "string",
-        "description": "Labels from the service metadata within the response."
+        "description": "Labels from the service metadata within the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseSpec",
         "type": "string",
-        "description": "The specification details of the resource in the response."
+        "description": "The specification details of the resource in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseStatus",
         "type": "string",
-        "description": "The status of the operation or resource in the response."
+        "description": "The status of the operation or resource in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadResponseType",
         "type": "string",
-        "description": "The type of response received from the Cloud Run service."
+        "description": "The type of response received from the Cloud Run service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadServiceName",
         "type": "string",
-        "description": "The name of the GCP service involved in the log entry."
+        "description": "The name of the GCP service involved in the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "The type of payload contained within the log entry."
+        "description": "The type of payload contained within the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "The timestamp when the log entry was received by Log Analytics."
+        "description": "The timestamp when the log entry was received by Log Analytics.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsConfigurationName",
         "type": "string",
-        "description": "The name of the associated Cloud Run configuration."
+        "description": "The name of the associated Cloud Run configuration.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsJobName",
         "type": "string",
-        "description": "The name of the associated Cloud Run job."
+        "description": "The name of the associated Cloud Run job.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelslocation",
         "type": "string",
-        "description": "The GCP location of the Cloud Run resource."
+        "description": "The GCP location of the Cloud Run resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsProjectId",
         "type": "string",
-        "description": "The GCP project ID where the Cloud Run resource resides."
+        "description": "The GCP project ID where the Cloud Run resource resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsRevisionName",
         "type": "string",
-        "description": "The name of the associated Cloud Run revision."
+        "description": "The name of the associated Cloud Run revision.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsServiceName",
         "type": "string",
-        "description": "The name of the associated Cloud Run service."
+        "description": "The name of the associated Cloud Run service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "The severity level of the log entry (e.g., INFO, WARNING, ERROR)."
+        "description": "The severity level of the log entry (e.g., INFO, WARNING, ERROR).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the log entry was originally generated in GCP."
+        "description": "The timestamp when the log entry was originally generated in GCP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

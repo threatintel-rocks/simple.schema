@@ -1,7 +1,388 @@
 {
   "SentinelOneThreats_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePath",
+        "type": "string",
+        "description": "The path of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudVerdict",
+        "type": "string",
+        "description": "The cloud verdict for the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitigationMode",
+        "type": "string",
+        "description": "The mode of mitigation applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentOsType",
+        "type": "string",
+        "description": "The operating system type of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentInfected",
+        "type": "boolean",
+        "description": "Indicates whether the agent is infected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InitiatingUserId",
+        "type": "string",
+        "description": "The unique identifier for the initiating user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Engines",
+        "type": "string",
+        "description": "Details of the engines used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileExtensionType",
+        "type": "string",
+        "description": "The type of file extension.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitigationStatus",
+        "type": "string",
+        "description": "The status of mitigation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentDomain",
+        "type": "string",
+        "description": "The domain of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the record was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsCertValid",
+        "type": "boolean",
+        "description": "Indicates whether the certificate is valid.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileDisplayName",
+        "type": "string",
+        "description": "The display name of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentIp",
+        "type": "string",
+        "description": "The IP address of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "The name of the account associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentMachineType",
+        "type": "string",
+        "description": "The machine type of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileVerificationType",
+        "type": "string",
+        "description": "The type of file verification.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Indicators",
+        "type": "string",
+        "description": "Details of the indicators.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InitiatedByDescription",
+        "type": "string",
+        "description": "Description of the initiated by field.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AutomaticallyResolved",
+        "type": "boolean",
+        "description": "Indicates whether the issue was automatically resolved.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "The unique identifier for the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessArguments",
+        "type": "string",
+        "description": "The unique identifier for the malicious group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitigationReport",
+        "type": "string",
+        "description": "Report of the actions taken by the Agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatName",
+        "type": "string",
+        "description": "Details about the threat name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClassificationSource",
+        "type": "string",
+        "description": "The source of the classification.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the record was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InitiatedBy",
+        "type": "string",
+        "description": "Indicates by whom or what the action was initiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentNetworkStatus",
+        "type": "string",
+        "description": "The network status of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentComputerName",
+        "type": "string",
+        "description": "The computer name of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Classification",
+        "type": "string",
+        "description": "The classification of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CertId",
+        "type": "string",
+        "description": "The certificate ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentIsActive",
+        "type": "boolean",
+        "description": "Indicates whether the agent is active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "The unique identifier for the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "The version of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileContentHash",
+        "type": "string",
+        "description": "The hash of the file content.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WhiteningOptions",
+        "type": "string",
+        "description": "Details of the whitening options.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "The username associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSha256",
+        "type": "string",
+        "description": "The SHA-256 hash of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentIsDecommissioned",
+        "type": "boolean",
+        "description": "Indicates whether the agent is decommissioned.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CollectionId",
+        "type": "string",
+        "description": "The unique identifier for the collection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "The name of the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "The unique identifier for the account.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatInfo",
+        "type": "dynamic",
+        "description": "The information about the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentDetectionInfo",
+        "type": "dynamic",
+        "description": "The information of the agent in detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentRealtimeInfo",
+        "type": "dynamic",
+        "description": "The information of the agent in realtime.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

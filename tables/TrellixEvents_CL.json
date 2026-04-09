@@ -1,0 +1,352 @@
+{
+  "TrellixEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Identifier of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of the event provided by Trellix.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AutoGuid",
+        "type": "string",
+        "description": "Auto GUID field.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectedUtc",
+        "type": "datetime",
+        "description": "UTC timestamp at which the event was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReceivedUtc",
+        "type": "datetime",
+        "description": "UTC timestamp at which the event was received.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentGuid",
+        "type": "string",
+        "description": "GUID of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Analyzer",
+        "type": "string",
+        "description": "Analyzer information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerName",
+        "type": "string",
+        "description": "Name of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerVersion",
+        "type": "string",
+        "description": "Version of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerHostName",
+        "type": "string",
+        "description": "Host name of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerIPv4",
+        "type": "string",
+        "description": "IPv4 address of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerIPv6",
+        "type": "string",
+        "description": "IPv6 address of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerMac",
+        "type": "string",
+        "description": "MAC address of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerDatVersion",
+        "type": "string",
+        "description": "DAT version of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerEngineVersion",
+        "type": "string",
+        "description": "Engine version of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyzerDetectionMethod",
+        "type": "string",
+        "description": "Detection method of the analyzer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceHostName",
+        "type": "string",
+        "description": "Host name of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIPv4",
+        "type": "string",
+        "description": "IPv4 address of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIPv6",
+        "type": "string",
+        "description": "IPv6 address of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceMac",
+        "type": "string",
+        "description": "MAC address of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceUserName",
+        "type": "string",
+        "description": "User name of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessName",
+        "type": "string",
+        "description": "Process name of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceUrl",
+        "type": "string",
+        "description": "URL of the event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetHostName",
+        "type": "string",
+        "description": "Host name of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetIPv4",
+        "type": "string",
+        "description": "IPv4 address of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetIPv6",
+        "type": "string",
+        "description": "IPv6 address of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetMac",
+        "type": "string",
+        "description": "MAC address of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetUserName",
+        "type": "string",
+        "description": "User name of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetPort",
+        "type": "string",
+        "description": "Port of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetProtocol",
+        "type": "string",
+        "description": "Protocol of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetProcessName",
+        "type": "string",
+        "description": "Process name of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetFileName",
+        "type": "string",
+        "description": "File name of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatCategory",
+        "type": "string",
+        "description": "Category of the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatEventId",
+        "type": "int",
+        "description": "ID of the threat event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatSeverity",
+        "type": "string",
+        "description": "Severity of the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatName",
+        "type": "string",
+        "description": "Name of the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatType",
+        "type": "string",
+        "description": "Type of the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatActionTaken",
+        "type": "string",
+        "description": "Action taken for the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatHandled",
+        "type": "boolean",
+        "description": "Indicates if the threat was handled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Timestamp of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NodePath",
+        "type": "string",
+        "description": "Path of the node.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetHash",
+        "type": "string",
+        "description": "Hash of the event target.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Trellix"
+  }
+}

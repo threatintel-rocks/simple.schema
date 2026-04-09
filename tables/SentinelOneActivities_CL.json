@@ -1,7 +1,196 @@
 {
   "SentinelOneActivities_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentUpdatedVersion",
+        "type": "string",
+        "description": "The version of the agent that was updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "The unique identifier for the user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatId",
+        "type": "string",
+        "description": "The unique identifier for the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrimaryDescription",
+        "type": "string",
+        "description": "The primary description of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecondaryDescription",
+        "type": "string",
+        "description": "The secondary description of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupId",
+        "type": "string",
+        "description": "The unique identifier for the group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the record was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "The name of the account associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "Activity metadata.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "The unique identifier for the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hash",
+        "type": "string",
+        "description": "The hash associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the record was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "The description of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActivityUuid",
+        "type": "string",
+        "description": "The UUID of the activity associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "The unique identifier for the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActivityType",
+        "type": "real",
+        "description": "The type of activity represented by an integer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "The name of the site associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "The unique identifier for the account.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsFamily",
+        "type": "string",
+        "description": "The operating system family, such as macOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupName",
+        "type": "string",
+        "description": "The name of the group associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "string",
+        "description": "Any comments associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

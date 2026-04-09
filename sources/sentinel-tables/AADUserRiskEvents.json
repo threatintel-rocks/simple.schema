@@ -5,137 +5,218 @@
       {
         "name": "Activity",
         "type": "string",
-        "description": "Indicates the activity type the detected risk is linked to. Possible values are: signin, user, unknownFutureValue."
+        "description": "Indicates the activity type the detected risk is linked to. Possible values are: signin, user, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActivityDateTime",
         "type": "datetime",
-        "description": "Date and time when the risky activity occurred in UTC."
+        "description": "Date and time when the risky activity occurred in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AdditionalInfo",
         "type": "dynamic",
-        "description": "Additional information associated with the user risk event in JSON format."
+        "description": "Additional information associated with the user risk event in JSON format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Correlation ID of the sign-in associated with the risk detection. This property is null if the risk detection is not associated with a sign-in."
+        "description": "Correlation ID of the sign-in associated with the risk detection. This property is null if the risk detection is not associated with a sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DetectedDateTime",
         "type": "datetime",
-        "description": "Date and time that the risk was detected in UTC."
+        "description": "Date and time that the risk was detected in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DetectionTimingType",
         "type": "string",
-        "description": "Timing of the detected risk (real-time/offline). Possible values are: notDefined, realtime, nearRealtime, offline, unknownFutureValue."
+        "description": "Timing of the detected risk (real-time/offline). Possible values are: notDefined, realtime, nearRealtime, offline, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique ID of the risk event."
+        "description": "Unique ID of the risk event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IpAddress",
         "type": "string",
-        "description": "The IP address of the client from where the risk occurred."
+        "description": "The IP address of the client from where the risk occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastUpdatedDateTime",
         "type": "datetime",
-        "description": "Date and time when the risk detection was last updated in UTC."
+        "description": "Date and time when the risk detection was last updated in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Location",
         "type": "dynamic",
-        "description": "Location of the sign-in."
+        "description": "Location of the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "Name of the operation."
+        "description": "Name of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "Request ID of the sign-in associated with the risk detection. This property is null if the risk detection is not associated with a sign-in."
+        "description": "Request ID of the sign-in associated with the risk detection. This property is null if the risk detection is not associated with a sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskDetail",
         "type": "string",
-        "description": "Details of the detected risk. Possible values are: none, adminGeneratedTemporaryPassword, userPerformedSecuredPasswordChange, userPerformedSecuredPasswordReset, adminConfirmedSigninSafe, aiConfirmedSigninSafe, userPassedMFADrivenByRiskBasedPolicy, adminDismissedAllRiskForUser, adminConfirmedSigninCompromised, hidden, adminConfirmedUserCompromised, unknownFutureValue."
+        "description": "Details of the detected risk. Possible values are: none, adminGeneratedTemporaryPassword, userPerformedSecuredPasswordChange, userPerformedSecuredPasswordReset, adminConfirmedSigninSafe, aiConfirmedSigninSafe, userPassedMFADrivenByRiskBasedPolicy, adminDismissedAllRiskForUser, adminConfirmedSigninCompromised, hidden, adminConfirmedUserCompromised, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskEventType",
         "type": "string",
-        "description": "The type of risk event detected."
+        "description": "The type of risk event detected.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLevel",
         "type": "string",
-        "description": "Level of the detected risk. Possible values are: low, medium, high, hidden, none, unknownFutureValue."
+        "description": "Level of the detected risk. Possible values are: low, medium, high, hidden, none, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskState",
         "type": "string",
-        "description": "The state of a detected risky user or sign-in. Possible values are: none, confirmedSafe, remediated, dismissed, atRisk, confirmedCompromised, unknownFutureValue."
+        "description": "The state of a detected risky user or sign-in. Possible values are: none, confirmedSafe, remediated, dismissed, atRisk, confirmedCompromised, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Source",
         "type": "string",
-        "description": "Source of the risk detection. For example, activeDirectory."
+        "description": "Source of the risk detection. For example, activeDirectory.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time of the event in UTC."
+        "description": "The date and time of the event in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TokenIssuerType",
         "type": "string",
-        "description": "Indicates the type of token issuer for the detected sign-in risk. Possible values are: AzureAD, ADFederationServices, UnknownFutureValue."
+        "description": "Indicates the type of token issuer for the detected sign-in risk. Possible values are: AzureAD, ADFederationServices, UnknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserDisplayName",
         "type": "string",
-        "description": "The user principal name (UPN) of the user."
+        "description": "The user principal name (UPN) of the user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "Unique ID of the user."
+        "description": "Unique ID of the user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserPrincipalName",
         "type": "string",
-        "description": "The user principal name (UPN) of the user."
+        "description": "The user principal name (UPN) of the user.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

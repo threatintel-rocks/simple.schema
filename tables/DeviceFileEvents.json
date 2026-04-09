@@ -5,297 +5,474 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the event was recorded"
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of activity that triggered the event. See the [in-portal schema reference](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) for details."
+        "description": "Type of activity that triggered the event. See the [in-portal schema reference](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) for details.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileName",
         "type": "string",
-        "description": "Name of the file that the recorded action was applied to"
+        "description": "Name of the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FolderPath",
         "type": "string",
-        "description": "Folder containing the file that the recorded action was applied to"
+        "description": "Folder containing the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SHA1",
         "type": "string",
-        "description": "SHA-1 of the file that the recorded action was applied to"
+        "description": "SHA-1 of the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SHA256",
         "type": "string",
-        "description": "SHA-256 of the file that the recorded action was applied to. This field is usually not populated — use the SHA1 column when available."
+        "description": "SHA-256 of the file that the recorded action was applied to. This field is usually not populated — use the SHA1 column when available.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "MD5",
         "type": "string",
-        "description": "MD5 hash of the file that the recorded action was applied to"
+        "description": "MD5 hash of the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileOriginUrl",
         "type": "string",
-        "description": "URL where the file was downloaded from"
+        "description": "URL where the file was downloaded from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileOriginReferrerUrl",
         "type": "string",
-        "description": "URL of the web page that links to the downloaded file"
+        "description": "URL of the web page that links to the downloaded file",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileOriginIP",
         "type": "string",
-        "description": "IP address where the file was downloaded from"
+        "description": "IP address where the file was downloaded from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PreviousFolderPath",
         "type": "string",
-        "description": "Original folder containing the file before the recorded action was applied"
+        "description": "Original folder containing the file before the recorded action was applied",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PreviousFileName",
         "type": "string",
-        "description": "Original name of the file that was renamed as a result of the action"
+        "description": "Original name of the file that was renamed as a result of the action",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileSize",
         "type": "long",
-        "description": "Size of the file in bytes"
+        "description": "Size of the file in bytes",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessAccountDomain",
         "type": "string",
-        "description": "Domain of the account that ran the process responsible for the event"
+        "description": "Domain of the account that ran the process responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessAccountName",
         "type": "string",
-        "description": "User name of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID user name of the account that ran the process responsible for the event might be shown instead"
+        "description": "User name of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID user name of the account that ran the process responsible for the event might be shown instead",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessAccountSid",
         "type": "string",
-        "description": "Security Identifier (SID) of the account that ran the process responsible for the event"
+        "description": "Security Identifier (SID) of the account that ran the process responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessAccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID UPN of the account that ran the process responsible for the event might be shown instead"
+        "description": "User principal name (UPN) of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID UPN of the account that ran the process responsible for the event might be shown instead",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessAccountObjectId",
         "type": "string",
-        "description": "Microsoft Entra object ID of the user account that ran the process responsible for the event"
+        "description": "Microsoft Entra object ID of the user account that ran the process responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessMD5",
         "type": "string",
-        "description": "MD5 hash of the process (image file) that initiated the event"
+        "description": "MD5 hash of the process (image file) that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessSHA1",
         "type": "string",
-        "description": "SHA-1 of the process (image file) that initiated the event"
+        "description": "SHA-1 of the process (image file) that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessSHA256",
         "type": "string",
-        "description": "SHA-256 of the process (image file) that initiated the event. This field is usually not populated — use the SHA1 column when available."
+        "description": "SHA-256 of the process (image file) that initiated the event. This field is usually not populated — use the SHA1 column when available.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessFolderPath",
         "type": "string",
-        "description": "Folder containing the process (image file) that initiated the event"
+        "description": "Folder containing the process (image file) that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessFileName",
         "type": "string",
-        "description": "Name of the process file that initiated the event; if unavailable, the name of the process that initiated the event might be shown instead"
+        "description": "Name of the process file that initiated the event; if unavailable, the name of the process that initiated the event might be shown instead",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessFileSize",
         "type": "long",
-        "description": "Size of the process (image file) that initiated the event"
+        "description": "Size of the process (image file) that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoCompanyName",
         "type": "string",
-        "description": "Company name from the version information of the process (image file) responsible for the event"
+        "description": "Company name from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoProductName",
         "type": "string",
-        "description": "Product name from the version information of the process (image file) responsible for the event"
+        "description": "Product name from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoProductVersion",
         "type": "string",
-        "description": "Product version from the version information of the process (image file) responsible for the event"
+        "description": "Product version from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoInternalFileName",
         "type": "string",
-        "description": "Internal file name from the version information of the process (image file) responsible for the event"
+        "description": "Internal file name from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoOriginalFileName",
         "type": "string",
-        "description": "Original file name from the version information of the process (image file) responsible for the event"
+        "description": "Original file name from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoFileDescription",
         "type": "string",
-        "description": "Description from the version information of the process (image file) responsible for the event"
+        "description": "Description from the version information of the process (image file) responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessId",
         "type": "long",
-        "description": "Process ID (PID) of the process that initiated the event"
+        "description": "Process ID (PID) of the process that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessCommandLine",
         "type": "string",
-        "description": "Command line used to run the process that initiated the event"
+        "description": "Command line used to run the process that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessCreationTime",
         "type": "datetime",
-        "description": "Date and time when the process that initiated the event was started"
+        "description": "Date and time when the process that initiated the event was started",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessIntegrityLevel",
         "type": "string",
-        "description": "Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources."
+        "description": "Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessTokenElevation",
         "type": "string",
-        "description": "Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event"
+        "description": "Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessParentId",
         "type": "long",
-        "description": "Process ID (PID) of the parent process that spawned the process responsible for the event"
+        "description": "Process ID (PID) of the parent process that spawned the process responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessParentFileName",
         "type": "string",
-        "description": "Name of the parent process that spawned the process responsible for the event"
+        "description": "Name of the parent process that spawned the process responsible for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessParentCreationTime",
         "type": "datetime",
-        "description": "Date and time when the parent of the process responsible for the event was started"
+        "description": "Date and time when the parent of the process responsible for the event was started",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestProtocol",
         "type": "string",
-        "description": "Network protocol, if applicable, used to initiate the activity: Unknown, Local, SMB, or NFS"
+        "description": "Network protocol, if applicable, used to initiate the activity: Unknown, Local, SMB, or NFS",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestSourceIP",
         "type": "string",
-        "description": "IPv4 or IPv6 address of the remote device that initiated the activity"
+        "description": "IPv4 or IPv6 address of the remote device that initiated the activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestSourcePort",
         "type": "int",
-        "description": "Source port on the remote device that initiated the activity"
+        "description": "Source port on the remote device that initiated the activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestAccountName",
         "type": "string",
-        "description": "User name of account used to remotely initiate the activity"
+        "description": "User name of account used to remotely initiate the activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestAccountDomain",
         "type": "string",
-        "description": "Domain of the account used to remotely initiate the activity"
+        "description": "Domain of the account used to remotely initiate the activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestAccountSid",
         "type": "string",
-        "description": "Security Identifier (SID) of the account used to remotely initiate the activity"
+        "description": "Security Identifier (SID) of the account used to remotely initiate the activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ShareName",
         "type": "string",
-        "description": "Name of shared folder containing the file"
+        "description": "Name of shared folder containing the file",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SensitivityLabel",
         "type": "string",
-        "description": "Label applied to an email, file, or other content to classify it for information protection"
+        "description": "Label applied to an email, file, or other content to classify it for information protection",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SensitivitySubLabel",
         "type": "string",
-        "description": "Sublabel applied to an email, file, or other content to classify it for information protection; sensitivity sublabels are grouped under sensitivity labels but are treated independently"
+        "description": "Sublabel applied to an email, file, or other content to classify it for information protection; sensitivity sublabels are grouped under sensitivity labels but are treated independently",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsAzureInfoProtectionApplied",
         "type": "boolean",
-        "description": "Indicates whether the file is encrypted by Azure Information Protection"
+        "description": "Indicates whether the file is encrypted by Azure Information Protection",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportId",
         "type": "long",
-        "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns."
+        "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AppGuardContainerId",
         "type": "string",
-        "description": "Identifier for the virtualized container used by Application Guard to isolate browser activity"
+        "description": "Identifier for the virtualized container used by Application Guard to isolate browser activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "string",
-        "description": "Additional information about the entity or event"
+        "description": "Additional information about the entity or event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessSessionId",
         "type": "long",
-        "description": "Windows session ID of the initiating process"
+        "description": "Windows session ID of the initiating process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsInitiatingProcessRemoteSession",
         "type": "bool",
-        "description": "Indicates whether the initiating process was run under a remote desktop protocol (RDP) session (true) or locally (false)"
+        "description": "Indicates whether the initiating process was run under a remote desktop protocol (RDP) session (true) or locally (false)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessRemoteSessionDeviceName",
         "type": "string",
-        "description": "Device name of the remote device from which the initiating process's RDP session was initiated"
+        "description": "Device name of the remote device from which the initiating process's RDP session was initiated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessRemoteSessionIP",
         "type": "string",
-        "description": "IP address of the remote device from which the initiating process's RDP session was initiated"
+        "description": "IP address of the remote device from which the initiating process's RDP session was initiated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessUniqueId",
         "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices"
+        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessUniqueId",
         "type": "string",
-        "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices"
+        "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

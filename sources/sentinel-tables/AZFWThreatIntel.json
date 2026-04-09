@@ -5,92 +5,146 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "Action taken by the firewall following the Threat Intelligence hit."
+        "description": "Action taken by the firewall following the Threat Intelligence hit.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationIp",
         "type": "string",
-        "description": "Packet's destination IP address."
+        "description": "Packet's destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationPort",
         "type": "int",
-        "description": "Packet's destination port."
+        "description": "Packet's destination port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Fqdn",
         "type": "string",
-        "description": "Request's target address in FQDN (Fully qualified Domain Name). For example:www.microsoft.com."
+        "description": "Request's target address in FQDN (Fully qualified Domain Name). For example:www.microsoft.com.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsTlsInspected",
         "type": "bool",
-        "description": "True if connection is TLS inspected. False otherwise."
+        "description": "True if connection is TLS inspected. False otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Packet's network protocol. For example: UDP, TCP."
+        "description": "Packet's network protocol. For example: UDP, TCP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "Packet's source IP address."
+        "description": "Packet's source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "Packet's source port."
+        "description": "Packet's source port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetUrl",
         "type": "string",
-        "description": "Request's target address URL. Available only for HTTP or TLS-inspected HTTPS requests. For example:https://www.microsoft.com/en-us/about."
+        "description": "Request's target address URL. Available only for HTTP or TLS-inspected HTTPS requests. For example:https://www.microsoft.com/en-us/about.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatDescription",
         "type": "string",
-        "description": "Description of the Threat that was identified by the firewall."
+        "description": "Description of the Threat that was identified by the firewall.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

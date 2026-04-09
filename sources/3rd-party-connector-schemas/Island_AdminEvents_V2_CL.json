@@ -1,0 +1,112 @@
+{
+  "Island_AdminEvents_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "guid",
+        "description": "Unique event identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IslandTenantId",
+        "type": "string",
+        "description": "Island tenant identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityType",
+        "type": "string",
+        "description": "Type of entity being acted upon.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "Admin action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionDomain",
+        "type": "string",
+        "description": "Domain of the admin action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalValue",
+        "type": "dynamic",
+        "description": "Original value before the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NewValue",
+        "type": "dynamic",
+        "description": "New value after the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityName",
+        "type": "string",
+        "description": "Name of the entity being acted upon.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "Identifier of the affected entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "Admin user identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "Admin user email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "Source IP address of the admin action.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Island"
+  }
+}

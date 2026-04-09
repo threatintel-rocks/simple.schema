@@ -1,0 +1,72 @@
+{
+  "ErmesBrowserSecurityEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "Username",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIP",
+        "type": "string",
+        "description": "Client IP",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Level",
+        "type": "string",
+        "description": "Event priority level (INFO, WARNING, etc)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCategory",
+        "type": "string",
+        "description": "Event Category",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Event Id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogData",
+        "type": "dynamic",
+        "description": "Event-specific log data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Ermes Browser Security"
+  }
+}

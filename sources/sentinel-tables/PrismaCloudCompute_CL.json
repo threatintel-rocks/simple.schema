@@ -1,7 +1,156 @@
 {
   "PrismaCloudCompute_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "PrismaId",
+        "type": "string",
+        "description": "_id value.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FQDN",
+        "type": "string",
+        "description": "Fqdn.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerName",
+        "type": "string",
+        "description": "Container Name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerID",
+        "type": "string",
+        "description": "Container Id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImageID",
+        "type": "string",
+        "description": "Image Id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProfileID",
+        "type": "string",
+        "description": "Profile Id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountID",
+        "type": "string",
+        "description": "Account Id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SerialNumber",
+        "type": "int",
+        "description": "Serial Number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Acknowledged",
+        "type": "boolean",
+        "description": "Acknowledged or not.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Describes the type of attack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceType",
+        "type": "string",
+        "description": "The Type of resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Audits",
+        "type": "dynamic",
+        "description": "The audit information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Collections",
+        "type": "dynamic",
+        "description": "The collection of resources.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Name of the node initiated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cluster",
+        "type": "string",
+        "description": "Name of the cluster the node belongs",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImageName",
+        "type": "string",
+        "description": "Name of the image involved for the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Namespace",
+        "type": "string",
+        "description": "This is the grouping of the nodes in a cluster.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

@@ -5,197 +5,314 @@
       {
         "name": "AzureResourceId",
         "type": "string",
-        "description": "The Azure resource ID associated with the event."
+        "description": "The Azure resource ID associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CvssSeverity",
         "type": "string",
-        "description": "CVSS (Common Vulnerability Scoring System) severity rating."
+        "description": "CVSS (Common Vulnerability Scoring System) severity rating.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestCity",
         "type": "string",
-        "description": "City where the destination IP is geolocated."
+        "description": "City where the destination IP is geolocated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestCountry",
         "type": "string",
-        "description": "Country where the destination IP is located."
+        "description": "Country where the destination IP is located.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestIP",
         "type": "string",
-        "description": "IP address of the destination."
+        "description": "IP address of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestIsWellKnown",
         "type": "bool",
-        "description": "Indicates if the destination is a known/trusted entity."
+        "description": "Indicates if the destination is a known/trusted entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestLabel",
         "type": "string",
-        "description": "Label or tag assigned to the destination entity."
+        "description": "Label or tag assigned to the destination entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestPort",
         "type": "int",
-        "description": "Port number on the destination endpoint."
+        "description": "Port number on the destination endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestThreatLevel",
         "type": "string",
-        "description": "Threat level associated with the destination IP."
+        "description": "Threat level associated with the destination IP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FlowCount",
         "type": "int",
-        "description": "Number of flows or sessions detected for this event."
+        "description": "Number of flows or sessions detected for this event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IllumioTenantId",
         "type": "string",
-        "description": "Tenant ID assigned by Illumio for multi-tenant environments."
+        "description": "Tenant ID assigned by Illumio for multi-tenant environments.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IllumioUrl",
         "type": "string",
-        "description": "URL to view the record or associated details in the Illumio console."
+        "description": "URL to view the record or associated details in the Illumio console.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Name",
         "type": "string",
-        "description": "The name or type of the insight or event."
+        "description": "The name or type of the insight or event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Port",
         "type": "int",
-        "description": "Source or service port involved in the communication."
+        "description": "Source or service port involved in the communication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Proto",
         "type": "string",
-        "description": "Protocol used in the communication (e.g., TCP, UDP)."
+        "description": "Protocol used in the communication (e.g., TCP, UDP).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceInternalId",
         "type": "string",
-        "description": "Internal identifier for the monitored resource within Illumio."
+        "description": "Internal identifier for the monitored resource within Illumio.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceRegion",
         "type": "string",
-        "description": "The Azure region where the resource is deployed."
+        "description": "The Azure region where the resource is deployed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceSubId",
         "type": "string",
-        "description": "Azure subscription ID that contains the resource."
+        "description": "Azure subscription ID that contains the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceTenantId",
         "type": "string",
-        "description": "Azure tenant ID to which the resource belongs."
+        "description": "Azure tenant ID to which the resource belongs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceVnetId",
         "type": "string",
-        "description": "Identifier for the Virtual Network (VNet) associated with the resource."
+        "description": "Identifier for the Virtual Network (VNet) associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Service",
         "type": "string",
-        "description": "The name of the detected or used service (e.g., HTTP, SSH)."
+        "description": "The name of the detected or used service (e.g., HTTP, SSH).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcCity",
         "type": "string",
-        "description": "City where the source IP is geolocated."
+        "description": "City where the source IP is geolocated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcCountry",
         "type": "string",
-        "description": "Country where the source IP is located."
+        "description": "Country where the source IP is located.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIP",
         "type": "string",
-        "description": "IP address of the source."
+        "description": "IP address of the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIsWellKnown",
         "type": "bool",
-        "description": "Indicates if the source is a known/trusted entity."
+        "description": "Indicates if the source is a known/trusted entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcLabel",
         "type": "string",
-        "description": "Label or tag assigned to the source entity."
+        "description": "Label or tag assigned to the source entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPort",
         "type": "int",
-        "description": "Port number used by the source entity."
+        "description": "Port number used by the source entity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcThreatLevel",
         "type": "string",
-        "description": "Threat level (e.g., Low, Medium, High) associated with the source IP."
+        "description": "Threat level (e.g., Low, Medium, High) associated with the source IP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": "Current status of the insight (e.g., Active, Resolved)."
+        "description": "Current status of the insight (e.g., Active, Resolved).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the record or event was logged."
+        "description": "The timestamp when the record or event was logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TotalReceivedBytes",
         "type": "int",
-        "description": "Total number of bytes received during the communication flow."
+        "description": "Total number of bytes received during the communication flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TotalSentBytes",
         "type": "int",
-        "description": "Total number of bytes sent during the communication flow."
+        "description": "Total number of bytes sent during the communication flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UniqueId",
         "type": "string",
-        "description": "A unique identifier for the specific insight or event."
+        "description": "A unique identifier for the specific insight or event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VEScore",
         "type": "real",
-        "description": "Vulnerability exposure score indicating the risk level."
+        "description": "Vulnerability exposure score indicating the risk level.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

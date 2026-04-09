@@ -5,187 +5,298 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the event was recorded"
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of disruption action taken<br>**Tip**: For more information, see [ActionType values](#actiontype-values)."
+        "description": "Type of disruption action taken<br>**Tip**: For more information, see [ActionType values](#actiontype-values).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack"
+        "description": "Unique identifier for the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceDeviceId",
         "type": "string",
-        "description": "Unique identifier for the device that the attack originated from"
+        "description": "Unique identifier for the device that the attack originated from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetDeviceId",
         "type": "string",
-        "description": "Unique identifier for the device that was targeted or attacked"
+        "description": "Unique identifier for the device that was targeted or attacked",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetDeviceName ",
         "type": "string",
-        "description": "Name of the device that was targeted or attacked"
+        "description": "Name of the device that was targeted or attacked",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetDomainName ",
         "type": "string",
-        "description": "Domain name of the device that was targeted or attacked"
+        "description": "Domain name of the device that was targeted or attacked",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Name of the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack"
+        "description": "Name of the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DomainName",
         "type": "string",
-        "description": "Domain name that the device that reported the event is joined to; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack"
+        "description": "Domain name that the device that reported the event is joined to; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessId",
         "type": "integer",
-        "description": "Process ID (PID) of the process that triggered that block action, based on the perspective of the reporting device"
+        "description": "Process ID (PID) of the process that triggered that block action, based on the perspective of the reporting device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessFileName",
         "type": "string",
-        "description": "Name of the process that triggered the block action, based on the perspective of the reporting device"
+        "description": "Name of the process that triggered the block action, based on the perspective of the reporting device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceUserSid",
         "type": "string",
-        "description": "The security identifier of the account conducting the malicious activity"
+        "description": "The security identifier of the account conducting the malicious activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceUserName",
         "type": "string",
-        "description": "The user name of the account conducting the malicious activity"
+        "description": "The user name of the account conducting the malicious activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceUserDomainName",
         "type": "string",
-        "description": "The domain name of the account conducting the malicious activity"
+        "description": "The domain name of the account conducting the malicious activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceIpAddress",
         "type": "string",
-        "description": "IP address where the attacker communication originated from and was blocked by automatic attack disruption"
+        "description": "IP address where the attacker communication originated from and was blocked by automatic attack disruption",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "integer",
-        "description": "Port where the attacker communication originated from"
+        "description": "Port where the attacker communication originated from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IpAddress",
         "type": "string",
-        "description": "IP address that the attacker attempted to access"
+        "description": "IP address that the attacker attempted to access",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Port",
         "type": "string",
-        "description": "Port that the attacker attempted to access"
+        "description": "Port that the attacker attempted to access",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceDeviceName",
         "type": "string",
-        "description": "Host name of the device where the attack originated from"
+        "description": "Host name of the device where the attack originated from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceDomainName",
         "type": "string",
-        "description": "Domain name of the device where the attack originated from"
+        "description": "Domain name of the device where the attack originated from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AuthenticationProtocol",
         "type": "string",
-        "description": "Authentication protocol that the compromised user used to sign in; possible values: Undefined, NTLM, Kerberos"
+        "description": "Authentication protocol that the compromised user used to sign in; possible values: Undefined, NTLM, Kerberos",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Service",
         "type": "string",
-        "description": "Name of the service the attacker attempted to use, if the attacker signed in using Kerberos or NTLM; for example: SMB, HTTP, cifs, SMB, host, ldap, SMB, krbtgt"
+        "description": "Name of the service the attacker attempted to use, if the attacker signed in using Kerberos or NTLM; for example: SMB, HTTP, cifs, SMB, host, ldap, SMB, krbtgt",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InterfaceUuid",
         "type": "string",
-        "description": "Unique identifier (UUID) for the Remote Procedure Call (RPC) interface that the attacker attempted to access"
+        "description": "Unique identifier (UUID) for the Remote Procedure Call (RPC) interface that the attacker attempted to access",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InterfaceFriendlyName",
         "type": "string",
-        "description": "Friendly name of the interface represented by the interface UUID"
+        "description": "Friendly name of the interface represented by the interface UUID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileName",
         "type": "string",
-        "description": "Name of the file that the attacker attempted to access"
+        "description": "Name of the file that the attacker attempted to access",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ShareName",
         "type": "string",
-        "description": "Name of the share location that the attacker attempted to access"
+        "description": "Name of the share location that the attacker attempted to access",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LogonType",
         "type": "string",
-        "description": "Type of logon session the user attempted; possible values: interactive, remote interactive (RDP), network, batch job, service"
+        "description": "Type of logon session the user attempted; possible values: interactive, remote interactive (RDP), network, batch job, service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LogonId ",
         "type": "long",
-        "description": "Identifier for a logon session; this is unique on the same device only between restarts"
+        "description": "Identifier for a logon session; this is unique on the same device only between restarts",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SessionId ",
         "type": "long",
-        "description": "Unique number assigned to a user by a website's server for the duration of the visit or session"
+        "description": "Unique number assigned to a user by a website's server for the duration of the visit or session",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CompromisedAccountCount",
         "type": "integer",
-        "description": "Number of compromised accounts that are part of the policy"
+        "description": "Number of compromised accounts that are part of the policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PolicyId",
         "type": "string",
-        "description": "Unique identifier for the policy"
+        "description": "Unique identifier for the policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PolicyName",
         "type": "string",
-        "description": "Name of the policy"
+        "description": "Name of the policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PolicyVersion",
         "type": "string",
-        "description": "Version of the policy"
+        "description": "Version of the policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PolicyHash",
         "type": "string",
-        "description": "Unique hash of the policy"
+        "description": "Unique hash of the policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DataSources",
         "type": "string",
-        "description": "Products or services that provided information for the event; for example: Microsoft Defender for Endpoint"
+        "description": "Products or services that provided information for the event; for example: Microsoft Defender for Endpoint",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsPolicyOn",
         "type": "boolean",
-        "description": "Indicates the current state of the policy on the device at the time of the disruption event; possible values: true (the policy is on, therefore it was applied or enforced), false (the policy was turned off or revoked from the device)"
+        "description": "Indicates the current state of the policy on the device at the time of the disruption event; possible values: true (the policy is on, therefore it was applied or enforced), false (the policy was turned off or revoked from the device)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportType",
         "type": "string",
-        "description": "The nature and impact level of the reported event; possible values: Prevented (the action, such as a connection or authentication attempt, was fully blocked before execution), Blocked (an active connection or session was forcibly terminated, with partial impact on the device), PolicyUpdated (the client received and possibly applied a new policy)"
+        "description": "The nature and impact level of the reported event; possible values: Prevented (the action, such as a connection or authentication attempt, was fully blocked before execution), Blocked (an active connection or session was forcibly terminated, with partial impact on the device), PolicyUpdated (the client received and possibly applied a new policy)",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

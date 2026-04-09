@@ -5,407 +5,650 @@
       {
         "name": "AuthAnswer",
         "type": "bool",
-        "description": "Indicates if the DNS response is authoritative."
+        "description": "Indicates if the DNS response is authoritative.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationInfoPrincipalEmail",
         "type": "string",
-        "description": "Email address of the user or service account performing the action."
+        "description": "Email address of the user or service account performing the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationInfoPrincipalSubject",
         "type": "string",
-        "description": "The subject identifier for the principal (user or service account)."
+        "description": "The subject identifier for the principal (user or service account).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthorizationInfo",
         "type": "string",
-        "description": "Details about the authorization decision for the request."
+        "description": "Details about the authorization decision for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationIP",
         "type": "string",
-        "description": "Target IP address of the request."
+        "description": "Target IP address of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceName",
         "type": "string",
-        "description": "Name of the resource being accessed or modified."
+        "description": "Name of the resource being accessed or modified.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "Type of the resource (e.g., compute instance, DNS record)."
+        "description": "Type of the resource (e.g., compute instance, DNS record).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique identifier assigned to each log entry."
+        "description": "A unique identifier assigned to each log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The name of the log where this entry is stored."
+        "description": "The name of the log where this entry is stored.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MethodName",
         "type": "string",
-        "description": "The API method or operation invoked in the request."
+        "description": "The API method or operation invoked in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "The format or type of the payload in the log entry."
+        "description": "The format or type of the payload in the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Protocol used (e.g., TCP, UDP)."
+        "description": "Protocol used (e.g., TCP, UDP).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryName",
         "type": "string",
-        "description": "The domain name queried."
+        "description": "The domain name queried.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "QueryType",
         "type": "string",
-        "description": "DNS query type (RFC 1035 section 4.1.2)."
+        "description": "DNS query type (RFC 1035 section 4.1.2).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rdata",
         "type": "string",
-        "description": "DNS answer in presentation format."
+        "description": "DNS answer in presentation format.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReqManZoneCloudLogConfigEnableLogging",
         "type": "bool",
-        "description": "Indicates whether logging was enabled in the request for the managed zone."
+        "description": "Indicates whether logging was enabled in the request for the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReqManZonePrivVisibConfigNetworks",
         "type": "string",
-        "description": "List of networks configured for private visibility of the managed zone."
+        "description": "List of networks configured for private visibility of the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReqmetaCallerSuppliedUserAgent",
         "type": "string",
-        "description": "User agent String provided by the caller."
+        "description": "User agent String provided by the caller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReqmetaRequestAttributesTime",
         "type": "datetime",
-        "description": "Timestamp when the request was initiated."
+        "description": "Timestamp when the request was initiated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestAPIType",
         "type": "string",
-        "description": "The type of API request being logged."
+        "description": "The type of API request being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestChangeAdditions",
         "type": "string",
-        "description": "Details of resource additions in the request."
+        "description": "Details of resource additions in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestChangeDeletions",
         "type": "string",
-        "description": "Details of resource deletions in the request."
+        "description": "Details of resource deletions in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestManagedZone",
         "type": "string",
-        "description": "Details of the managed DNS zone in the request."
+        "description": "Details of the managed DNS zone in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestManagedZoneDescription",
         "type": "string",
-        "description": "Description of the managed DNS zone in the request."
+        "description": "Description of the managed DNS zone in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestManagedZoneDnsName",
         "type": "string",
-        "description": "The DNS name of the managed zone in the request."
+        "description": "The DNS name of the managed zone in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestManagedZoneName",
         "type": "string",
-        "description": "The name of the managed DNS zone in the request."
+        "description": "The name of the managed DNS zone in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestManagedZoneVisibility",
         "type": "string",
-        "description": "The visibility (public or private) of the managed zone in the request."
+        "description": "The visibility (public or private) of the managed zone in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerIp",
         "type": "string",
-        "description": "IP address of the caller initiating the request."
+        "description": "IP address of the caller initiating the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestName",
         "type": "string",
-        "description": "Name of the resource affected by the request."
+        "description": "Name of the resource affected by the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestProject",
         "type": "string",
-        "description": "Google Cloud project associated with the request."
+        "description": "Google Cloud project associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestType",
         "type": "string",
-        "description": "Type of the request (e.g., Create, Delete, Update)."
+        "description": "Type of the request (e.g., Create, Delete, Update).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResManZoneCloudLogConfigEnableLogging",
         "type": "bool",
-        "description": "Indicates whether logging was enabled in the response for the managed zone."
+        "description": "Indicates whether logging was enabled in the response for the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsLocation",
         "type": "string",
-        "description": "Location of the resource."
+        "description": "Location of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsPolicyName",
         "type": "string",
-        "description": "Represents the policy name associated with the DNS resource."
+        "description": "Represents the policy name associated with the DNS resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsProjectId",
         "type": "string",
-        "description": "Google Cloud project ID associated with the resource."
+        "description": "Google Cloud project ID associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsSourceType",
         "type": "string",
-        "description": "Specifies the source type of the resource being modified"
+        "description": "Specifies the source type of the resource being modified",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsTargetName",
         "type": "string",
-        "description": "The target resource name within Google Cloud DNS, such as the managed zone or DNS policy being modified."
+        "description": "The target resource name within Google Cloud DNS, such as the managed zone or DNS policy being modified.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsTargetType",
         "type": "string",
-        "description": "The type of DNS resource being acted upon"
+        "description": "The type of DNS resource being acted upon",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsZoneName",
         "type": "string",
-        "description": "The name of the managed DNS zone related to the operation."
+        "description": "The name of the managed DNS zone related to the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RespManZonePrivVisibConfigNetworks",
         "type": "string",
-        "description": "Lists networks associated with a private managed zone under private visibility configuration."
+        "description": "Lists networks associated with a private managed zone under private visibility configuration.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseChangeAdditions",
         "type": "string",
-        "description": "Represents additions made to DNS records (e.g., new A, AAAA, CNAME, or TXT records)."
+        "description": "Represents additions made to DNS records (e.g., new A, AAAA, CNAME, or TXT records).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseChangeDeletions",
         "type": "string",
-        "description": "Details of deletions in the response."
+        "description": "Details of deletions in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseChangeId",
         "type": "string",
-        "description": "Identifier for the change request in the response."
+        "description": "Identifier for the change request in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseChangeStartTime",
         "type": "datetime",
-        "description": "Timestamp indicating when the change operation started."
+        "description": "Timestamp indicating when the change operation started.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseChangeStatus",
         "type": "string",
-        "description": "Status of the change operation in the response."
+        "description": "Status of the change operation in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseCode",
         "type": "string",
-        "description": "Response code for the operation."
+        "description": "Response code for the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneCreationTime",
         "type": "datetime",
-        "description": "Timestamp when the managed zone was created."
+        "description": "Timestamp when the managed zone was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneDescription",
         "type": "string",
-        "description": "Description of the managed zone returned in the response."
+        "description": "Description of the managed zone returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneDnsName",
         "type": "string",
-        "description": "DNS name of the managed zone returned in the response."
+        "description": "DNS name of the managed zone returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneFingerprint",
         "type": "string",
-        "description": "Fingerprint for detecting changes in the managed zone."
+        "description": "Fingerprint for detecting changes in the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneId",
         "type": "string",
-        "description": "Unique identifier for the managed zone."
+        "description": "Unique identifier for the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneName",
         "type": "string",
-        "description": "Name of the managed zone returned in the response."
+        "description": "Name of the managed zone returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneNameServers",
         "type": "string",
-        "description": "List of name servers associated with the managed zone."
+        "description": "List of name servers associated with the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneRrsetCount",
         "type": "string",
-        "description": "The total number of resource record sets (RRsets) within a managed zone."
+        "description": "The total number of resource record sets (RRsets) within a managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseManagedZoneVisibility",
         "type": "string",
-        "description": "Visibility setting (public/private) of the managed zone."
+        "description": "Visibility setting (public/private) of the managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationId",
         "type": "string",
-        "description": "A unique identifier for the DNS operation performed."
+        "description": "A unique identifier for the DNS operation performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationStartTime",
         "type": "datetime",
-        "description": "The timestamp when the DNS operation started."
+        "description": "The timestamp when the DNS operation started.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationStatus",
         "type": "string",
-        "description": "The status of the DNS operation"
+        "description": "The status of the DNS operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationType",
         "type": "string",
-        "description": "The type of DNS operation executed (e.g., create, update, delete)."
+        "description": "The type of DNS operation executed (e.g., create, update, delete).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationUser",
         "type": "string",
-        "description": "The user or service account that performed the DNS operation."
+        "description": "The user or service account that performed the DNS operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOpZoneContextNewValue",
         "type": "string",
-        "description": "The new value after an operation modifies a DNS managed zone."
+        "description": "The new value after an operation modifies a DNS managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOpZoneContextOldValue",
         "type": "string",
-        "description": "The previous value before an operation modified the DNS managed zone."
+        "description": "The previous value before an operation modified the DNS managed zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseType",
         "type": "string",
-        "description": "Type of response returned from the API."
+        "description": "Type of response returned from the API.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServerLatency",
         "type": "string",
-        "description": "Measures the latency of the request to Google Cloud DNS."
+        "description": "Measures the latency of the request to Google Cloud DNS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "Name of the Google Cloud service processing the request."
+        "description": "Name of the Google Cloud service processing the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "Log severity level (e.g., INFO, WARNING, ERROR)."
+        "description": "Log severity level (e.g., INFO, WARNING, ERROR).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIP",
         "type": "string",
-        "description": "IP address from which the query originated."
+        "description": "IP address from which the query originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceNetwork",
         "type": "string",
-        "description": "The originating network of the DNS request."
+        "description": "The originating network of the DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusCode",
         "type": "string",
-        "description": "HTTP status code returned for the request."
+        "description": "HTTP status code returned for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the log entry was created."
+        "description": "The timestamp when the log entry was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Timestamp when the log entry was recorded."
+        "description": "Timestamp when the log entry was recorded.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmInstanceId",
         "type": "string",
-        "description": "Compute Engine VM instance ID."
+        "description": "Compute Engine VM instance ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmInstanceIdString",
         "type": "string",
-        "description": "The VM instance ID (if applicable) associated with the request."
+        "description": "The VM instance ID (if applicable) associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmInstanceName",
         "type": "string",
-        "description": "Compute Engine VM instance name."
+        "description": "Compute Engine VM instance name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmProjectId",
         "type": "string",
-        "description": "Google Cloud project ID of the network from which the query was sent."
+        "description": "Google Cloud project ID of the network from which the query was sent.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmZoneName",
         "type": "string",
-        "description": "Name of the VM zone from which the query originated."
+        "description": "Name of the VM zone from which the query originated.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

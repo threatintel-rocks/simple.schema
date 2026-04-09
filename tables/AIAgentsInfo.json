@@ -5,142 +5,226 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Last date and time recorded for the agent info"
+        "description": "Last date and time recorded for the agent info",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AIAgentId",
         "type": "guid",
-        "description": "Unique identifier for the agent as assigned to it in Microsoft 365 Copilot or Copilot Studio"
+        "description": "Unique identifier for the agent as assigned to it in Microsoft 365 Copilot or Copilot Studio",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AIAgentName",
         "type": "string",
-        "description": "Display name of the agent"
+        "description": "Display name of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentCreationTime",
         "type": "datetime",
-        "description": "Date and time when the agent was created"
+        "description": "Date and time when the agent was created",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CreatorAccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account that created the agent"
+        "description": "User principal name (UPN) of the account that created the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OwnerAccountUpns",
         "type": "string",
-        "description": "User principal names (UPN) of all the owners of the agent"
+        "description": "User principal names (UPN) of all the owners of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastModifiedByUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account that last modified that agent"
+        "description": "User principal name (UPN) of the account that last modified that agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastModifiedTime",
         "type": "datetime",
-        "description": "Date and time when the agent was last modified"
+        "description": "Date and time when the agent was last modified",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastPublishedTime",
         "type": "datetime",
-        "description": "Date and time when the agent was last published"
+        "description": "Date and time when the agent was last published",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastPublishedByUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account that last published the agent"
+        "description": "User principal name (UPN) of the account that last published the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentDescription",
         "type": "string",
-        "description": "Description of the agent as displayed in the agent's source"
+        "description": "Description of the agent as displayed in the agent's source",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentStatus",
         "type": "string",
-        "description": "Status of the agent; possible values: Created, Published, Deleted"
+        "description": "Status of the agent; possible values: Created, Published, Deleted",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UserAuthenticationType",
         "type": "string",
-        "description": "The agent’s configured authentication type for users interacting with the agent; possible values: None, Microsoft, Custom"
+        "description": "The agent’s configured authentication type for users interacting with the agent; possible values: None, Microsoft, Custom",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentUsers",
         "type": "string",
-        "description": "List of user principal names (UPNs) or group IDs that can use the agent"
+        "description": "List of user principal names (UPNs) or group IDs that can use the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KnowledgeDetails",
         "type": "string",
-        "description": "Details about the knowledge sources added to the agent"
+        "description": "Details about the knowledge sources added to the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentActionTriggers",
         "type": "string",
-        "description": "List of triggers that makes an autonomous agent take action"
+        "description": "List of triggers that makes an autonomous agent take action",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RawAgentInfo",
         "type": "string",
-        "description": "Contents of the raw JSON that describes the agent and contains configuration details, as received from the provider"
+        "description": "Contents of the raw JSON that describes the agent and contains configuration details, as received from the provider",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AuthenticationTrigger",
         "type": "string",
-        "description": "Indicates when authentication is triggered for the agent; possible values: As Needed, Always"
+        "description": "Indicates when authentication is triggered for the agent; possible values: As Needed, Always",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccessControlPolicy",
         "type": "string",
-        "description": "Users that can interact with the agent; possible values: Any, Copilot readers, Group membership, Any (multitenant)"
+        "description": "Users that can interact with the agent; possible values: Any, Copilot readers, Group membership, Any (multitenant)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AuthorizedSecurityGroupIds",
         "type": "dynamic",
-        "description": "List of Azure Active Directory Group IDs that are allowed to interact with the agent"
+        "description": "List of Azure Active Directory Group IDs that are allowed to interact with the agent",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentTopicsDetails",
         "type": "dynamic",
-        "description": "Specifications of the topics that the agent can perform"
+        "description": "Specifications of the topics that the agent can perform",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentToolsDetails",
         "type": "dynamic",
-        "description": "Specifications of the tools that the agent can access and perform actions on"
+        "description": "Specifications of the tools that the agent can access and perform actions on",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EnvironmentId",
         "type": "string",
-        "description": "The identifier of the Microsoft Power Platform environment the agent resides in"
+        "description": "The identifier of the Microsoft Power Platform environment the agent resides in",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Platform",
         "type": "string",
-        "description": "The platform that provided the information about the agents; possible values: Copilot Studio"
+        "description": "The platform that provided the information about the agents; possible values: Copilot Studio",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsGenerativeOrchestrationEnabled",
         "type": "boolean",
-        "description": "ndicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate"
+        "description": "ndicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AgentAppId",
         "type": "string",
-        "description": "The unique app identifier registered for the agent in Microsoft Entra"
+        "description": "The unique app identifier registered for the agent in Microsoft Entra",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConnectedAgentsSchemaNames",
         "type": "dynamic",
-        "description": "Lists the schema names of connected agents, which are independently managed agents that are linked to the main one for orchestration"
+        "description": "Lists the schema names of connected agents, which are independently managed agents that are linked to the main one for orchestration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ChildAgentsSchemaNames",
         "type": "dynamic",
-        "description": "Lists the schema names of the child agents that exist within the main agent"
+        "description": "Lists the schema names of the child agents that exist within the main agent",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

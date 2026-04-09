@@ -1,0 +1,72 @@
+{
+  "meshStackEventLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTitle",
+        "type": "string",
+        "description": "Event title",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDescription",
+        "type": "string",
+        "description": "Event description",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkspaceName",
+        "type": "string",
+        "description": "meshStack workspace name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventContent",
+        "type": "dynamic",
+        "description": "Event content with additional details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorIdentifier",
+        "type": "string",
+        "description": "Author identifier extracted from author object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthorType",
+        "type": "string",
+        "description": "Author type extracted from author object",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "meshStack"
+  }
+}

@@ -5,227 +5,362 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field."
+        "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Action",
         "type": "string",
-        "description": "The action that is associated with the traffic."
+        "description": "The action that is associated with the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AzId",
         "type": "string",
-        "description": "The ID of the Availability Zone."
+        "description": "The ID of the Availability Zone.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Bytes",
         "type": "long",
-        "description": "The number of bytes transferred during the flow."
+        "description": "The number of bytes transferred during the flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstAddr",
         "type": "string",
-        "description": "The destination address for outgoing traffic."
+        "description": "The destination address for outgoing traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstPort",
         "type": "int",
-        "description": "The destination port of the traffic."
+        "description": "The destination port of the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsClusterArn",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsClusterName",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsContainerId",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsContainerInstanceArn",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsContainerInstanceId",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsSecondContainerId",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsServiceName",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsTaskArn",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsTaskDefinitionArn",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EcsTaskId",
         "type": "string",
-        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result."
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "End",
         "type": "datetime",
-        "description": "The time when the last packet of the flow was received within the aggregation interval."
+        "description": "The time when the last packet of the flow was received within the aggregation interval.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FlowDirection",
         "type": "string",
-        "description": "The direction of the flow with respect to the interface where traffic is captured."
+        "description": "The direction of the flow with respect to the interface where traffic is captured.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InstanceId",
         "type": "string",
-        "description": "The ID of the instance that's associated with network interface for which the traffic is recorded."
+        "description": "The ID of the instance that's associated with network interface for which the traffic is recorded.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InterfaceId",
         "type": "string",
-        "description": "The ID of the network interface for which the traffic is recorded."
+        "description": "The ID of the network interface for which the traffic is recorded.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogStatus",
         "type": "string",
-        "description": "The logging status of the flow log."
+        "description": "The logging status of the flow log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Packets",
         "type": "int",
-        "description": "The number of packets transferred during the flow."
+        "description": "The number of packets transferred during the flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PktDstAddr",
         "type": "string",
-        "description": "The packet-level (original) destination IP address for the traffic."
+        "description": "The packet-level (original) destination IP address for the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PktDstAwsService",
         "type": "string",
-        "description": "The name of the subset of IP address ranges for the PktDstAddr field, if the destination IP address is for an AWS service."
+        "description": "The name of the subset of IP address ranges for the PktDstAddr field, if the destination IP address is for an AWS service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PktSrcAddr",
         "type": "string",
-        "description": "The packet-level (original) source IP address of the traffic."
+        "description": "The packet-level (original) source IP address of the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PktSrcAwsService",
         "type": "string",
-        "description": "The name of the subset of IP address ranges for the PktSrcAddr field, if the source IP address is for an AWS service."
+        "description": "The name of the subset of IP address ranges for the PktSrcAddr field, if the source IP address is for an AWS service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "int",
-        "description": "The IANA protocol number of the traffic."
+        "description": "The IANA protocol number of the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Region",
         "type": "string",
-        "description": "The Region that contains the network interface for which traffic is recorded."
+        "description": "The Region that contains the network interface for which traffic is recorded.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcAddr",
         "type": "string",
-        "description": "The source address for incoming traffic."
+        "description": "The source address for incoming traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPort",
         "type": "int",
-        "description": "The source port of the traffic."
+        "description": "The source port of the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Start",
         "type": "datetime",
-        "description": "The remote ip of the request."
+        "description": "The remote ip of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SublocationId",
         "type": "string",
-        "description": "The ID of the sublocation that contains the network interface for which traffic is recorded."
+        "description": "The ID of the sublocation that contains the network interface for which traffic is recorded.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SublocationType",
         "type": "string",
-        "description": "The type of sublocation that is returned in the sublocationId field."
+        "description": "The type of sublocation that is returned in the sublocationId field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SubnetId",
         "type": "string",
-        "description": "The ID of the subnet."
+        "description": "The ID of the subnet.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TcpFlags",
         "type": "int",
-        "description": "The bitmask value for the following TCP flags."
+        "description": "The bitmask value for the following TCP flags.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) of when the event was generated. This value will be the same as 'start' input field or the data arrival time to Azure Monitor in case the 'start' input field is empty or missing."
+        "description": "The timestamp (UTC) of when the event was generated. This value will be the same as 'start' input field or the data arrival time to Azure Monitor in case the 'start' input field is empty or missing.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TrafficPath",
         "type": "string",
-        "description": "The path that egress traffic takes to the destination."
+        "description": "The path that egress traffic takes to the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TrafficType",
         "type": "string",
-        "description": "The type of traffic. The possible values are: IPv4, IPv6, and EFA. For more information search for 'Elastic Fabric Adapter (EFA)'."
+        "description": "The type of traffic. The possible values are: IPv4, IPv6, and EFA. For more information search for 'Elastic Fabric Adapter (EFA)'.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Version",
         "type": "int",
-        "description": "The VPC Flow Logs version."
+        "description": "The VPC Flow Logs version.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VpcId",
         "type": "string",
-        "description": "The ID of the VPC."
+        "description": "The ID of the VPC.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

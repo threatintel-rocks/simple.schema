@@ -5,157 +5,250 @@
       {
         "name": "AccessPointARN",
         "type": "string",
-        "description": "The Amazon Resource Name (ARN) of the S3 access point used for the request, or '-' if not used."
+        "description": "The Amazon Resource Name (ARN) of the S3 access point used for the request, or '-' if not used.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ACLRequired",
         "type": "string",
-        "description": "Indicates if an ACL was required for the request: 'Yes' if required, '-' otherwise."
+        "description": "Indicates if an ACL was required for the request: 'Yes' if required, '-' otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthenticationType",
         "type": "string",
-        "description": "The authentication type used: AuthHeader, QueryString, or '-' for unauthenticated requests."
+        "description": "The authentication type used: AuthHeader, QueryString, or '-' for unauthenticated requests.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Bucket",
         "type": "string",
-        "description": "The name of the S3 bucket against which the request was processed."
+        "description": "The name of the S3 bucket against which the request was processed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BucketOwner",
         "type": "string",
-        "description": "The canonical user ID of the owner of the source bucket (another form of AWS account ID)."
+        "description": "The canonical user ID of the owner of the source bucket (another form of AWS account ID).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BytesSent",
         "type": "int",
-        "description": "Number of response bytes sent, excluding HTTP overhead, or 0."
+        "description": "Number of response bytes sent, excluding HTTP overhead, or 0.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CipherSuite",
         "type": "string",
-        "description": "The TLS cipher suite negotiated for HTTPS, or '-' for HTTP."
+        "description": "The TLS cipher suite negotiated for HTTPS, or '-' for HTTP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ErrorCode",
         "type": "string",
-        "description": "The S3 error code returned in the response, or '-' if none."
+        "description": "The S3 error code returned in the response, or '-' if none.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HostHeader",
         "type": "string",
-        "description": "The endpoint (host header) used to connect to S3 (e.g., s3.us-west-2.amazonaws.com)."
+        "description": "The endpoint (host header) used to connect to S3 (e.g., s3.us-west-2.amazonaws.com).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HostId",
         "type": "string",
-        "description": "Amazon S3 extended request ID (x-amz-id-2)."
+        "description": "Amazon S3 extended request ID (x-amz-id-2).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpStatus",
         "type": "int",
-        "description": "The HTTP status code returned in the response."
+        "description": "The HTTP status code returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Key",
         "type": "string",
-        "description": "The object key (name) involved in the request."
+        "description": "The object key (name) involved in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ObjectSize",
         "type": "int",
-        "description": "The size of the object in bytes."
+        "description": "The size of the object in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "string",
-        "description": "The operation type (e.g., REST.PUT.OBJECT, S3.LIFECYCLETRANSITION.OBJECT)."
+        "description": "The operation type (e.g., REST.PUT.OBJECT, S3.LIFECYCLETRANSITION.OBJECT).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Referer",
         "type": "string",
-        "description": "The value of the HTTP Referer header (linking page URL), if present."
+        "description": "The value of the HTTP Referer header (linking page URL), if present.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteIp",
         "type": "string",
-        "description": "The apparent IP address of the requester (may be obscured by proxies or firewalls)."
+        "description": "The apparent IP address of the requester (may be obscured by proxies or firewalls).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Requester",
         "type": "string",
-        "description": "The canonical user ID, IAM user, or assumed role making the request, or '-' for unauthenticated."
+        "description": "The canonical user ID, IAM user, or assumed role making the request, or '-' for unauthenticated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "A unique string ID generated by Amazon S3 to identify the request."
+        "description": "A unique string ID generated by Amazon S3 to identify the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestUri",
         "type": "string",
-        "description": "The URI part of the HTTP request."
+        "description": "The URI part of the HTTP request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SignatureVersion",
         "type": "string",
-        "description": "The signature version (SigV2 or SigV4) used to authenticate the request, or '-' for unauthenticated."
+        "description": "The signature version (SigV2 or SigV4) used to authenticate the request, or '-' for unauthenticated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time the AWS Server Access log was received by the S3 bucket, in UTC."
+        "description": "The time the AWS Server Access log was received by the S3 bucket, in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TLSVersion",
         "type": "string",
-        "description": "The TLS version used by the client (e.g., TLSv1.2), or '-' if TLS wasn't used."
+        "description": "The TLS version used by the client (e.g., TLSv1.2), or '-' if TLS wasn't used.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TotalTime",
         "type": "int",
-        "description": "The total time in milliseconds the request was in flight (from receipt to last response byte sent)."
+        "description": "The total time in milliseconds the request was in flight (from receipt to last response byte sent).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TurnAroundTime",
         "type": "string",
-        "description": "The time in milliseconds S3 spent processing the request (from last request byte to first response byte)."
+        "description": "The time in milliseconds S3 spent processing the request (from last request byte to first response byte).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "The value of the HTTP User-Agent header (e.g., client software or browser)."
+        "description": "The value of the HTTP User-Agent header (e.g., client software or browser).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VersionId",
         "type": "string",
-        "description": "The version ID of the object involved in the request, or '-' if not applicable."
+        "description": "The version ID of the object involved in the request, or '-' if not applicable.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

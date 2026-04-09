@@ -5,167 +5,266 @@
       {
         "name": "AdditionalData",
         "type": "dynamic",
-        "description": "Additional data on the incident"
+        "description": "Additional data on the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertIds",
         "type": "dynamic",
-        "description": "The IDs of the alerts related to the incident"
+        "description": "The IDs of the alerts related to the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "BookmarkIds",
         "type": "dynamic",
-        "description": "The IDs of the bookmarks related to the incident"
+        "description": "The IDs of the bookmarks related to the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Classification",
         "type": "string",
-        "description": "The classification the incident was given when closed"
+        "description": "The classification the incident was given when closed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClassificationComment",
         "type": "string",
-        "description": "Description of the reason the incident was closed"
+        "description": "Description of the reason the incident was closed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClassificationReason",
         "type": "string",
-        "description": "The classification reason the incident was given when closed"
+        "description": "The classification reason the incident was given when closed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClosedTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the incident was last closed"
+        "description": "Timestamp (UTC) of when the incident was last closed",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Comments",
         "type": "dynamic",
-        "description": "The comments added to the incident"
+        "description": "The comments added to the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CreatedTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the incident was created"
+        "description": "Timestamp (UTC) of when the incident was created",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "The description of the incident"
+        "description": "The description of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirstActivityTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the first activity in the incident occured"
+        "description": "Timestamp (UTC) of when the first activity in the incident occured",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FirstModifiedTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the incident was first modified"
+        "description": "Timestamp (UTC) of when the incident was first modified",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IncidentName",
         "type": "string",
-        "description": "The resource name of the incident"
+        "description": "The resource name of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IncidentNumber",
         "type": "int",
-        "description": "The sequential number of the incident"
+        "description": "The sequential number of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IncidentUrl",
         "type": "string",
-        "description": "The URI to open the incident in Azure Sentinel portal"
+        "description": "The URI to open the incident in Azure Sentinel portal",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Labels",
         "type": "dynamic",
-        "description": "The labels added to the incident"
+        "description": "The labels added to the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastActivityTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the last activity in the incident occured"
+        "description": "Timestamp (UTC) of when the last activity in the incident occured",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LastModifiedTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the incident was last modified"
+        "description": "Timestamp (UTC) of when the incident was last modified",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ModifiedBy",
         "type": "string",
-        "description": "The source of the change in the incident"
+        "description": "The source of the change in the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Owner",
         "type": "dynamic",
-        "description": "The user the incident is assigned to"
+        "description": "The user the incident is assigned to",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProviderIncidentId",
         "type": "string",
-        "description": "The incident ID assigned by the incident provider"
+        "description": "The incident ID assigned by the incident provider",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProviderName",
         "type": "string",
-        "description": "The name of the source provider that generated the incident"
+        "description": "The name of the source provider that generated the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RelatedAnalyticRuleIds",
         "type": "dynamic",
-        "description": "The IDs of the Analytic rules associated with the incident"
+        "description": "The IDs of the Analytic rules associated with the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "The severity of the incident"
+        "description": "The severity of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": "The status of the incident"
+        "description": "The status of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tasks",
         "type": "dynamic",
-        "description": "The tasks added to the incident"
+        "description": "The tasks added to the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the incident was ingested"
+        "description": "Timestamp (UTC) of when the incident was ingested",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Title",
         "type": "string",
-        "description": "The title of the incident"
+        "description": "The title of the incident",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

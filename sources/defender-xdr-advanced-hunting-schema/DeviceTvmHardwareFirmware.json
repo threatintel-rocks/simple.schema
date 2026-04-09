@@ -5,42 +5,66 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ComponentType",
         "type": "string",
-        "description": "Type of hardware or firmware component"
+        "description": "Type of hardware or firmware component",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Manufacturer",
         "type": "string",
-        "description": "Manufacturer of hardware or firmware component"
+        "description": "Manufacturer of hardware or firmware component",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ComponentName",
         "type": "string",
-        "description": "Name of hardware or firmware component"
+        "description": "Name of hardware or firmware component",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ComponentFamily",
         "type": "string",
-        "description": "Component family or class, a grouping of components that have similar features or characteristics as determined by the manufacturer"
+        "description": "Component family or class, a grouping of components that have similar features or characteristics as determined by the manufacturer",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ComponentVersion",
         "type": "string",
-        "description": "Component version (for example, BIOS version)"
+        "description": "Component version (for example, BIOS version)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information about the components in JSON array format"
+        "description": "Additional information about the components in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

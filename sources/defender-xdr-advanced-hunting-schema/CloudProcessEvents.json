@@ -5,122 +5,194 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the event was recorded"
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AzureResourceId",
         "type": "string",
-        "description": "Unique identifier of the Azure resource associated with the process"
+        "description": "Unique identifier of the Azure resource associated with the process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AwsResourceName",
         "type": "string",
-        "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name"
+        "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "GcpFullResourceName",
         "type": "string",
-        "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP"
+        "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ContainerImageName",
         "type": "string",
-        "description": "The container image name or ID, if it exists"
+        "description": "The container image name or ID, if it exists",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KubernetesNamespace",
         "type": "string",
-        "description": "The Kubernetes namespace name"
+        "description": "The Kubernetes namespace name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KubernetesPodName",
         "type": "string",
-        "description": "The Kubernetes pod name"
+        "description": "The Kubernetes pod name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "KubernetesResource",
         "type": "string",
-        "description": "Identifier value that includes namespace, resource type and name"
+        "description": "Identifier value that includes namespace, resource type and name",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ContainerName",
         "type": "string",
-        "description": "Name of the container in Kubernetes or another runtime environment"
+        "description": "Name of the container in Kubernetes or another runtime environment",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ContainerId",
         "type": "string",
-        "description": "The container identifier in Kubernetes or another runtime environment"
+        "description": "The container identifier in Kubernetes or another runtime environment",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of activity that triggered the event. See the in-portal schema reference for details."
+        "description": "Type of activity that triggered the event. See the in-portal schema reference for details.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileName",
         "type": "string",
-        "description": "Name of the file that the recorded action was applied to"
+        "description": "Name of the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FolderPath",
         "type": "string",
-        "description": "Folder containing the file that the recorded action was applied to"
+        "description": "Folder containing the file that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessId",
         "type": "long",
-        "description": "Process ID (PID) of the newly created process"
+        "description": "Process ID (PID) of the newly created process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessName",
         "type": "string",
-        "description": "The name of the process"
+        "description": "The name of the process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ParentProcessName",
         "type": "string",
-        "description": "The name of the parent process"
+        "description": "The name of the parent process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ParentProcessId",
         "type": "string",
-        "description": "The process ID (PID) of the parent process"
+        "description": "The process ID (PID) of the parent process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessCommandLine",
         "type": "string",
-        "description": "Command line used to create the new process"
+        "description": "Command line used to create the new process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessCreationTime",
         "type": "datetime",
-        "description": "Date and time the process was created"
+        "description": "Date and time the process was created",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ProcessCurrentWorkingDirectory",
         "type": "string",
-        "description": "Current working directory of the running process"
+        "description": "Current working directory of the running process",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountName",
         "type": "string",
-        "description": "User name of the account"
+        "description": "User name of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LogonId",
         "type": "long",
-        "description": "Identifier for a logon session. This identifier is unique on the same pod or container between restarts."
+        "description": "Identifier for a logon session. This identifier is unique on the same pod or container between restarts.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InitiatingProcessId",
         "type": "string",
-        "description": "Process ID (PID) of the process that initiated the event"
+        "description": "Process ID (PID) of the process that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "string",
-        "description": "Additional information about the event in JSON array format"
+        "description": "Additional information about the event in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

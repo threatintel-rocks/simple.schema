@@ -5,72 +5,114 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResource",
         "type": "dynamic",
-        "description": "Describes the resource associated with the log entry, including labels and resource type."
+        "description": "Describes the resource associated with the log entry, including labels and resource type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique identifier for the log entry."
+        "description": "A unique identifier for the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The full log name including resource path."
+        "description": "The full log name including resource path.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Operation",
         "type": "dynamic",
-        "description": "Contains details about the operation being performed, including the operation ID, producer, and status information."
+        "description": "Contains details about the operation being performed, including the operation ID, producer, and status information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProtoPayload",
         "type": "dynamic",
-        "description": "Holds the structured audit log data, including authentication, method name, resource name, and service-specific information."
+        "description": "Holds the structured audit log data, including authentication, method name, resource name, and service-specific information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "Time the log entry was received by Cloud Logging."
+        "description": "Time the log entry was received by Cloud Logging.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "Indicates the severity level of the log entry or event"
+        "description": "Indicates the severity level of the log entry or event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp indicating when the log entry was created or received."
+        "description": "The timestamp indicating when the log entry was created or received.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "The original timestamp of the event as recorded by the source system."
+        "description": "The original timestamp of the event as recorded by the source system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

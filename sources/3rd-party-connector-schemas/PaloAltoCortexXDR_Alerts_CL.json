@@ -1,0 +1,896 @@
+{
+  "PaloAltoCortexXDR_Alerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalId",
+        "type": "string",
+        "description": "Unique identifier for the alert in the external system (Cortex XDR).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Level of severity of the alert (e.g., Low, Medium, High, Critical).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchingStatus",
+        "type": "string",
+        "description": "Status of matching detection logic (e.g., matched or not matched).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndMatchAttempt",
+        "type": "datetime",
+        "description": "Timestamp of the last match attempt in Unix epoch format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalInsert",
+        "type": "datetime",
+        "description": "Local timestamp of when the alert was inserted into the system in Unix epoch format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiocIndicator",
+        "type": "string",
+        "description": "Indicator or behavior related to the alert, stored as a dynamic object (behavioral IOC data).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchingServiceRuleId",
+        "type": "string",
+        "description": "ID of the matching rule or service used to trigger the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttemptCounter",
+        "type": "int",
+        "description": "Number of attempts to match this alert with detection rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Whitelisted",
+        "type": "bool",
+        "description": "Indicates whether the alert has been whitelisted (true/false).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Starred",
+        "type": "bool",
+        "description": "Indicates whether the alert has been marked as important or starred (true/false).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitreTechniqueIdAndName",
+        "type": "dynamic",
+        "description": "MITRE ATT&CK technique ID and name associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitreTacticIdAndName",
+        "type": "dynamic",
+        "description": "MITRE ATT&CK tactic ID and name associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "Version of the Cortex XDR agent that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentFQDN",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the endpoint device where the alert originated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentOSType",
+        "type": "string",
+        "description": "Operating system type of the agent (e.g., Windows, macOS, Linux).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentDataCollectionStatus",
+        "type": "boolean",
+        "description": "Status indicating whether the agent is actively collecting data (true/false).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "MAC address of the endpoint device, represented as a dynamic object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertId",
+        "type": "string",
+        "description": "Unique identifier for the alert in Cortex XDR.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the detection occurred, in Unix epoch format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the detection or alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Category or classification of the alert (e.g., malware, suspicious activity).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointId",
+        "type": "string",
+        "description": "Unique identifier for the endpoint where the alert was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the alert or detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostIp",
+        "type": "string",
+        "description": "IP address of the host machine where the alert was generated, represented as a dynamic object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "Name of the host machine where the alert was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Source",
+        "type": "string",
+        "description": "Source of the alert or detection data (e.g., Cortex XDR, endpoint agent).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action taken in response to the alert (e.g., block, quarantine, notify).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionPretty",
+        "type": "string",
+        "description": "Human-readable version of the action taken for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorCausalityId",
+        "type": "string",
+        "description": "Causality ID of the actor involved.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessCommandLine",
+        "type": "string",
+        "description": "Command line used by the causality actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessImageMd5",
+        "type": "string",
+        "description": "MD5 hash of the causality actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessImageName",
+        "type": "string",
+        "description": "Name of the causality actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessImagePath",
+        "type": "string",
+        "description": "Path to the causality actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessImageSha256",
+        "type": "string",
+        "description": "SHA256 hash of the causality actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CausalityActorProcessSignatureStatus",
+        "type": "string",
+        "description": "Signature status of the causality actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityType",
+        "type": "string",
+        "description": "Type of identity associated with the entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationName",
+        "type": "string",
+        "description": "Name of the operation being logged.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudProvider",
+        "type": "string",
+        "description": "Cloud provider associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceType",
+        "type": "string",
+        "description": "Type of resource involved in the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClusterName",
+        "type": "string",
+        "description": "Name of the cluster involved.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerId",
+        "type": "string",
+        "description": "Identifier for the container.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionCountry",
+        "type": "string",
+        "description": "Country in which the action was taken.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DnsQueryName",
+        "type": "string",
+        "description": "DNS query name associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwEmailRecipient",
+        "type": "string",
+        "description": "Email recipient in the firewall log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwEmailSender",
+        "type": "string",
+        "description": "Email sender in the firewall log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwEmailSubject",
+        "type": "string",
+        "description": "Subject line of the email in the firewall log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of the event being logged.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionFileMacroSha256",
+        "type": "string",
+        "description": "SHA256 hash of the file macro involved in the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionFileMd5",
+        "type": "string",
+        "description": "MD5 hash of the file involved in the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionFileName",
+        "type": "string",
+        "description": "Name of the file involved in the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionFilePath",
+        "type": "string",
+        "description": "Path to the file involved in the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionFileSha256",
+        "type": "string",
+        "description": "SHA256 hash of the file involved in the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwRuleId",
+        "type": "string",
+        "description": "Identifier for the firewall rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwRule",
+        "type": "string",
+        "description": "Description of the firewall rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImageName",
+        "type": "string",
+        "description": "Name of the image involved.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessImageName",
+        "type": "string",
+        "description": "Name of the image used by the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessCommandLine",
+        "type": "string",
+        "description": "Command line used by the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessImageMd5",
+        "type": "string",
+        "description": "MD5 hash of the actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessImagePath",
+        "type": "string",
+        "description": "Path to the actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessOsPid",
+        "type": "int",
+        "description": "OS process ID of the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessImageSha256",
+        "type": "string",
+        "description": "SHA256 hash of the actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessSignatureStatus",
+        "type": "string",
+        "description": "Signature status of the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessSignatureVendor",
+        "type": "string",
+        "description": "Vendor of the signature for the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorThreadThreadId",
+        "type": "string",
+        "description": "Thread ID of the actor's thread.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionLocalIp",
+        "type": "string",
+        "description": "Local IP address associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionLocalPort",
+        "type": "int",
+        "description": "Local port associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleId",
+        "type": "string",
+        "description": "Identifier for the module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessCommandLine",
+        "type": "string",
+        "description": "Command line used by the OS actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorThreadThreadId",
+        "type": "string",
+        "description": "Thread ID of the OS actor's thread.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessImageName",
+        "type": "string",
+        "description": "Name of the image used by the OS actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessOsPid",
+        "type": "int",
+        "description": "OS process ID of the OS actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessImageSha256",
+        "type": "string",
+        "description": "SHA256 hash of the OS actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessSignatureStatus",
+        "type": "string",
+        "description": "Signature status of the OS actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessSignatureVendor",
+        "type": "string",
+        "description": "Vendor of the signature for the OS actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorEffectiveUsername",
+        "type": "string",
+        "description": "Effective username of the OS actor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessSignatureStatus",
+        "type": "string",
+        "description": "Signature status of the action process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessSignatureVendor",
+        "type": "string",
+        "description": "Vendor of the signature for the action process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRegistryData",
+        "type": "dynamic",
+        "description": "Dynamic object containing registry data for the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRegistryFullKey",
+        "type": "string",
+        "description": "Full registry key associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionExternalHostname",
+        "type": "string",
+        "description": "External hostname associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRemoteIp",
+        "type": "string",
+        "description": "Remote IP address associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRemotePort",
+        "type": "int",
+        "description": "Remote port associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessImageCommandLine",
+        "type": "string",
+        "description": "Command line used by the action process's image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessImageName",
+        "type": "string",
+        "description": "Name of the action process's image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessImageSha256",
+        "type": "string",
+        "description": "SHA256 hash of the action process's image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwUrlDomain",
+        "type": "string",
+        "description": "Domain of the URL in the firewall log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "User agent string associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertDomain",
+        "type": "string",
+        "description": "Domain associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier for the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "datetime",
+        "description": "Timestamp for when the event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessInstanceId",
+        "type": "string",
+        "description": "Instance ID of the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorProcessCausalityId",
+        "type": "string",
+        "description": "Causality ID of the actor's process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorCausalityId",
+        "type": "string",
+        "description": "Causality ID associated with the actor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRegistryKeyName",
+        "type": "string",
+        "description": "Name of the registry key associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRegistryValueName",
+        "type": "string",
+        "description": "Name of the registry value associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionLocalIpV6",
+        "type": "string",
+        "description": "Local IPv6 address associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionRemoteIpV6",
+        "type": "string",
+        "description": "Remote IPv6 address associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessInstanceId",
+        "type": "string",
+        "description": "Instance ID of the action process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionProcessCausalityId",
+        "type": "string",
+        "description": "Causality ID of the action process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessImagePath",
+        "type": "string",
+        "description": "Path to the OS actor's process image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorProcessCausalityId",
+        "type": "string",
+        "description": "Causality ID of the OS actor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsActorCausalityId",
+        "type": "string",
+        "description": "Causality ID associated with the OS actor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerName",
+        "type": "string",
+        "description": "Name of the container.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Namespace",
+        "type": "string",
+        "description": "Namespace associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstActionExternalHostname",
+        "type": "string",
+        "description": "Destination external hostname for the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstActionExternalPort",
+        "type": "int",
+        "description": "Destination external port for the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImageId",
+        "type": "string",
+        "description": "Identifier for the image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MaliciousUrls",
+        "type": "dynamic",
+        "description": "Dynamic object containing malicious URLs related to the entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwIsPhishing",
+        "type": "bool",
+        "description": "Indicates if the firewall log entry is related to phishing.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "Username associated with the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cortex XDR"
+  }
+}

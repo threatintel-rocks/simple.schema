@@ -5,172 +5,274 @@
       {
         "name": "AwsAccountId",
         "type": "string",
-        "description": "The AWS account ID associated with the event."
+        "description": "The AWS account ID associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsRegion",
         "type": "string",
-        "description": "The AWS region where the event occurred."
+        "description": "The AWS region where the event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingCreatedAt",
         "type": "datetime",
-        "description": "The timestamp when the security finding was created."
+        "description": "The timestamp when the security finding was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingDescription",
         "type": "string",
-        "description": "A detailed description of the AWS security finding."
+        "description": "A detailed description of the AWS security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingFirstObservedAt",
         "type": "datetime",
-        "description": "The timestamp when the security finding was first observed."
+        "description": "The timestamp when the security finding was first observed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingGeneratorId",
         "type": "string",
-        "description": "The ID of the generator that created the security finding."
+        "description": "The ID of the generator that created the security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingId",
         "type": "string",
-        "description": "The unique identifier for the AWS security finding."
+        "description": "The unique identifier for the AWS security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingLastObservedAt",
         "type": "datetime",
-        "description": "The timestamp when the security finding was last observed."
+        "description": "The timestamp when the security finding was last observed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingProcessedAt",
         "type": "datetime",
-        "description": "The timestamp when the security finding was processed."
+        "description": "The timestamp when the security finding was processed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingProductArn",
         "type": "string",
-        "description": "The Amazon Resource Name (ARN) of the product that generated the finding."
+        "description": "The Amazon Resource Name (ARN) of the product that generated the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingProductFields",
         "type": "dynamic",
-        "description": "Additional fields provided by the product that generated the finding."
+        "description": "Additional fields provided by the product that generated the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingProductName",
         "type": "string",
-        "description": "The name of the product that generated the finding."
+        "description": "The name of the product that generated the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingSeverity",
         "type": "dynamic",
-        "description": "The severity level of the security finding."
+        "description": "The severity level of the security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingTitle",
         "type": "string",
-        "description": "The title of the AWS security finding."
+        "description": "The title of the AWS security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingTypes",
         "type": "dynamic",
-        "description": "The types or categories of the AWS security finding."
+        "description": "The types or categories of the AWS security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AwsSecurityFindingUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp when the security finding was last updated."
+        "description": "The timestamp when the security finding was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceAssociatedStandards",
         "type": "dynamic",
-        "description": "The compliance standards associated with the resource."
+        "description": "The compliance standards associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceRelatedRequirements",
         "type": "dynamic",
-        "description": "The related compliance requirements."
+        "description": "The related compliance requirements.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceSecurityControlId",
         "type": "string",
-        "description": "The ID of the security control related to compliance."
+        "description": "The ID of the security control related to compliance.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceSecurityControlParameters",
         "type": "dynamic",
-        "description": "Parameters associated with the security control."
+        "description": "Parameters associated with the security control.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceStatus",
         "type": "string",
-        "description": "The compliance status of the resource (e.g., COMPLIANT, NON_COMPLIANT)."
+        "description": "The compliance status of the resource (e.g., COMPLIANT, NON_COMPLIANT).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ComplianceStatusReasons",
         "type": "dynamic",
-        "description": "The reasons for the compliance status."
+        "description": "The reasons for the compliance status.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RawData",
         "type": "dynamic",
-        "description": "The raw data associated with the finding."
+        "description": "The raw data associated with the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RecordState",
         "type": "string",
-        "description": "The state of the record (e.g., ACTIVE, ARCHIVED)."
+        "description": "The state of the record (e.g., ACTIVE, ARCHIVED).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Remediation",
         "type": "dynamic",
-        "description": "Details about how to remediate the security finding."
+        "description": "Details about how to remediate the security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Resources",
         "type": "dynamic",
-        "description": "The resources associated with the security finding."
+        "description": "The resources associated with the security finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SchemaVersion",
         "type": "string",
-        "description": "The version of the schema used for the finding."
+        "description": "The version of the schema used for the finding.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the event was generated."
+        "description": "The timestamp when the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WorkflowState",
         "type": "string",
-        "description": "The workflow state of the finding (e.g., NEW, RESOLVED)."
+        "description": "The workflow state of the finding (e.g., NEW, RESOLVED).",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

@@ -1,0 +1,96 @@
+{
+  "Tropico_Events_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type (Command/Auth/Network)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventResult",
+        "type": "string",
+        "description": "Event result (Success/Failure)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSeverity",
+        "type": "string",
+        "description": "Severity level",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventProduct",
+        "type": "string",
+        "description": "Product name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventVendor",
+        "type": "string",
+        "description": "Vendor name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActingProcessName",
+        "type": "string",
+        "description": "Command or process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Source IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcUsername",
+        "type": "string",
+        "description": "Source username",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcHostname",
+        "type": "string",
+        "description": "Device hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalData",
+        "type": "dynamic",
+        "description": "Full OCSF data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tropico"
+  }
+}

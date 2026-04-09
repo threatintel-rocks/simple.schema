@@ -1,7 +1,220 @@
 {
   "GCPLoadBalancerLogs_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time the log entry was received by logging.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BackendTargetProjectNumber",
+        "type": "string",
+        "description": "The Backend Service Project Number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CacheDecision",
+        "type": "dynamic",
+        "description": "Indicates whether a request was served from the cache or the backend.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedSecurityPolicy",
+        "type": "dynamic",
+        "description": "Indicates whether a security policy (such as a WAF or access control rules) was applied to a request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviewSecurityPolicy",
+        "type": "dynamic",
+        "description": "Request matches a rule configured for preview (present only when a preview rule would have taken priority over the enforced rule).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedEdgeSecurityPolicy",
+        "type": "dynamic",
+        "description": "the edge security policy rule that was enforced.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviewEdgeSecurityPolicy",
+        "type": "dynamic",
+        "description": "populated if a request matches an edge security policy rule configured for preview.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PayloadRemoteIp",
+        "type": "string",
+        "description": "The remote ip address of the payload.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityPolicyRequestData",
+        "type": "dynamic",
+        "description": "The security policy data of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StatusDetails",
+        "type": "string",
+        "description": "The status details of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Latency",
+        "type": "string",
+        "description": "The latency of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteIp",
+        "type": "string",
+        "description": "The remote ip of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestMethod",
+        "type": "string",
+        "description": "The http method of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestSize",
+        "type": "string",
+        "description": "The size of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestUrl",
+        "type": "string",
+        "description": "The url of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestStatus",
+        "type": "string",
+        "description": "The status code of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The user agent of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BackendServiceName",
+        "type": "string",
+        "description": "The backend service name in Google Cloud Platform .",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ForwardingRuleName",
+        "type": "string",
+        "description": "The forwarding rule resource of the load balancer in Google Cloud Platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProjectId",
+        "type": "string",
+        "description": "The Project id in Google Cloud Platform",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrlMapName",
+        "type": "string",
+        "description": "The url map resource name in Google Cloud Platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Zone",
+        "type": "string",
+        "description": "The Zone name of the Load Balancer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "The severity of the incident.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogName",
+        "type": "string",
+        "description": "Information including a suffix identifying the log sub-type (e.g., admin activity, system access, data access) and where in the hierarchy the request was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "The time the event described by the log entry occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InsertId",
+        "type": "string",
+        "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

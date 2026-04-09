@@ -5,57 +5,90 @@
       {
         "name": "ConfigurationId",
         "type": "string",
-        "description": "Unique identifier for a specific configuration"
+        "description": "Unique identifier for a specific configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationName",
         "type": "string",
-        "description": "Display name of the configuration"
+        "description": "Display name of the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationDescription",
         "type": "string",
-        "description": "Description of the configuration"
+        "description": "Description of the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationRationale",
         "type": "string",
-        "description": "Description of any associated risks and rationale behind the configuration"
+        "description": "Description of any associated risks and rationale behind the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationCategory",
         "type": "string",
-        "description": "Category or grouping to which the configuration belongs"
+        "description": "Category or grouping to which the configuration belongs",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "BenchmarkProfileLevels",
         "type": "dynamic",
-        "description": "List of benchmark compliance levels for which the configuration is applicable"
+        "description": "List of benchmark compliance levels for which the configuration is applicable",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CCEReference",
         "type": "string",
-        "description": "Unique Common Configuration Enumeration (CCE) identifier for the configuration"
+        "description": "Unique Common Configuration Enumeration (CCE) identifier for the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RemediationOptions",
         "type": "string",
-        "description": "Recommended actions to reduce or address any associated risks"
+        "description": "Recommended actions to reduce or address any associated risks",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationBenchmark",
         "type": "string",
-        "description": "Industry benchmark recommending the configuration"
+        "description": "Industry benchmark recommending the configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Source",
         "type": "dynamic",
-        "description": "The registry path or other location used to determine the current device setting"
+        "description": "The registry path or other location used to determine the current device setting",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RecommendedValue",
         "type": "dynamic",
-        "description": "Set of expected values for the current device setting to be compliant"
+        "description": "Set of expected values for the current device setting to be compliant",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

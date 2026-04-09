@@ -5,152 +5,242 @@
       {
         "name": "AllocationStatus",
         "type": "string",
-        "description": "Status of the NAT IP address allocation."
+        "description": "Status of the NAT IP address allocation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ASN",
         "type": "string",
-        "description": "Autonomous System Number (ASN) associated with the destination IP."
+        "description": "Autonomous System Number (ASN) associated with the destination IP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "City",
         "type": "string",
-        "description": "City of the destination IP address (geo-located)."
+        "description": "City of the destination IP address (geo-located).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Continent",
         "type": "string",
-        "description": "Continent where the destination IP is located."
+        "description": "Continent where the destination IP is located.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Country",
         "type": "string",
-        "description": "Country of the destination IP address (geo-located)."
+        "description": "Country of the destination IP address (geo-located).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationRegion",
         "type": "string",
-        "description": "Continent or larger geographical region of the destination."
+        "description": "Continent or larger geographical region of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestIp",
         "type": "string",
-        "description": "Destination external IP address the traffic was sent to."
+        "description": "Destination external IP address the traffic was sent to.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestPort",
         "type": "string",
-        "description": "Destination port on the remote host."
+        "description": "Destination port on the remote host.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EndpointRegion",
         "type": "string",
-        "description": "Region of the destination endpoint."
+        "description": "Region of the destination endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EndpointZone",
         "type": "string",
-        "description": "Zone of the destination endpoint if applicable."
+        "description": "Zone of the destination endpoint if applicable.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GatewayName",
         "type": "string",
-        "description": "Name of the Cloud NAT gateway instance."
+        "description": "Name of the Cloud NAT gateway instance.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "Type of the monitored GCP resource (e.g., 'router', 'gce_instance')."
+        "description": "Type of the monitored GCP resource (e.g., 'router', 'gce_instance').",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "Unique identifier for the log entry within the GCP logging system."
+        "description": "Unique identifier for the log entry within the GCP logging system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "Name of the log stream."
+        "description": "Name of the log stream.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NatIp",
         "type": "string",
-        "description": "Public NAT IP address assigned for this flow."
+        "description": "Public NAT IP address assigned for this flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NatPort",
         "type": "string",
-        "description": "Public NAT port assigned for this flow."
+        "description": "Public NAT port assigned for this flow.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProjectId",
         "type": "string",
-        "description": "ID of the GCP project that generated the log entry."
+        "description": "ID of the GCP project that generated the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Network protocol used in the connection."
+        "description": "Network protocol used in the connection.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "The time the log entry was received by GCP Logging."
+        "description": "The time the log entry was received by GCP Logging.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Region",
         "type": "string",
-        "description": "Region of the GCP resource involved in the NAT traffic."
+        "description": "Region of the GCP resource involved in the NAT traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RouterId",
         "type": "string",
-        "description": "Identifier of the Cloud Router managing the NAT gateway."
+        "description": "Identifier of the Cloud Router managing the NAT gateway.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIp",
         "type": "string",
-        "description": "Source internal IP address from which the traffic originated."
+        "description": "Source internal IP address from which the traffic originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPort",
         "type": "string",
-        "description": "Source port on the internal VM or resource."
+        "description": "Source port on the internal VM or resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp when the log was ingested by Log Analytics."
+        "description": "The timestamp when the log was ingested by Log Analytics.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VmName",
         "type": "string",
-        "description": "Name of the virtual machine that initiated the NAT traffic."
+        "description": "Name of the virtual machine that initiated the NAT traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

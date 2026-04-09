@@ -5,82 +5,130 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "Action taken by the firewall to log additional flow information."
+        "description": "Action taken by the firewall to log additional flow information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActionReason",
         "type": "string",
-        "description": "The reason for the action performed by the firewall. For example: when additional logging is enabled it showsAdditional TCP Log."
+        "description": "The reason for the action performed by the firewall. For example: when additional logging is enabled it showsAdditional TCP Log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationIp",
         "type": "string",
-        "description": "Flow's destination IP address."
+        "description": "Flow's destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationPort",
         "type": "int",
-        "description": "Flow's destination port."
+        "description": "Flow's destination port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Flag",
         "type": "string",
-        "description": "Flags set in the connection. For example: FIN, FIN-ACK, SYN-ACK, RST, INVALID."
+        "description": "Flags set in the connection. For example: FIN, FIN-ACK, SYN-ACK, RST, INVALID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Flow's network protocol. For example: UDP, TCP."
+        "description": "Flow's network protocol. For example: UDP, TCP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "Flow's source IP address."
+        "description": "Flow's source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "Flow's source port."
+        "description": "Flow's source port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

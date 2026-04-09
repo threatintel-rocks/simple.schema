@@ -5,87 +5,138 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "The ID for correlated log analytics events. Can be used to identify correlated events between multiple tables."
+        "description": "The ID for correlated log analytics events. Can be used to identify correlated events between multiple tables.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique ID of the user at risk."
+        "description": "Unique ID of the user at risk.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsDeleted",
         "type": "bool",
-        "description": "Indicates whether the user is deleted."
+        "description": "Indicates whether the user is deleted.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsProcessing",
         "type": "bool",
-        "description": "Indicates whether a user's risky state is being processed by the backend."
+        "description": "Indicates whether a user's risky state is being processed by the backend.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "Name of the operation."
+        "description": "Name of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskDetail",
         "type": "string",
-        "description": "Details of the detected risk. Possible values are: none, adminGeneratedTemporaryPassword, userPerformedSecuredPasswordChange, userPerformedSecuredPasswordReset, adminConfirmedSigninSafe, aiConfirmedSigninSafe, userPassedMFADrivenByRiskBasedPolicy, adminDismissedAllRiskForUser, adminConfirmedSigninCompromised, hidden, adminConfirmedUserCompromised, unknownFutureValue."
+        "description": "Details of the detected risk. Possible values are: none, adminGeneratedTemporaryPassword, userPerformedSecuredPasswordChange, userPerformedSecuredPasswordReset, adminConfirmedSigninSafe, aiConfirmedSigninSafe, userPassedMFADrivenByRiskBasedPolicy, adminDismissedAllRiskForUser, adminConfirmedSigninCompromised, hidden, adminConfirmedUserCompromised, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLastUpdatedDateTime",
         "type": "datetime",
-        "description": "The date and time that the risky user was last updated in UTC."
+        "description": "The date and time that the risky user was last updated in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskLevel",
         "type": "string",
-        "description": "Level of the detected risky user. Possible values are: low, medium, high, hidden, none, unknownFutureValue."
+        "description": "Level of the detected risky user. Possible values are: low, medium, high, hidden, none, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RiskState",
         "type": "string",
-        "description": "State of the user's risk. Possible values are: none, confirmedSafe, remediated, dismissed, atRisk, confirmedCompromised, unknownFutureValue."
+        "description": "State of the user's risk. Possible values are: none, confirmedSafe, remediated, dismissed, atRisk, confirmedCompromised, unknownFutureValue.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time of the event in UTC."
+        "description": "The date and time of the event in UTC.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserDisplayName",
         "type": "string",
-        "description": "Risky user display name."
+        "description": "Risky user display name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserPrincipalName",
         "type": "string",
-        "description": "Risky user principal name."
+        "description": "Risky user principal name.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

@@ -5,92 +5,146 @@
       {
         "name": "Timestamp ",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportId ",
         "type": "string",
-        "description": "Unique identifier for the event"
+        "description": "Unique identifier for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountId ",
         "type": "string",
-        "description": "Unique identifier for the account in the source application"
+        "description": "Unique identifier for the account in the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountType",
         "type": "string",
-        "description": "Type of user account, indicating its general role like User, SystemPrincipal"
+        "description": "Type of user account, indicating its general role like User, SystemPrincipal",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountDisplayName",
         "type": "string",
-        "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user."
+        "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "Alternate ID, email, or name for the account in the source application"
+        "description": "Alternate ID, email, or name for the account in the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of activity that triggered the event in the raw format received from the source application"
+        "description": "Type of activity that triggered the event in the raw format received from the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionResult",
         "type": "string",
-        "description": "Result of the action"
+        "description": "Result of the action",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionFailureReason",
         "type": "string",
-        "description": "Information explaining why the recorded action failed"
+        "description": "Information explaining why the recorded action failed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address assigned to the device and used during related network communications"
+        "description": "IP address assigned to the device and used during related network communications",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "User agent information from the web browser or other client application"
+        "description": "User agent information from the web browser or other client application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetObjects",
         "type": "dynamic",
-        "description": "List of the target objects of this activity. Target object can be user, group, role, domain, application, and more."
+        "description": "List of the target objects of this activity. Target object can be user, group, role, domain, application, and more.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "The source application where this event was received from"
+        "description": "The source application where this event was received from",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ApplicationInstanceId",
         "type": "string",
-        "description": "Domain of the source application"
+        "description": "Domain of the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ApplicationEventId",
         "type": "string",
-        "description": "Raw event ID provided by the source application"
+        "description": "Raw event ID provided by the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ApplicationSessionId",
         "type": "string",
-        "description": "Raw session ID provided by the source application"
+        "description": "Raw session ID provided by the source application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RawEventData",
         "type": "dynamic",
-        "description": "Full raw event information from the source application in JSON format"
+        "description": "Full raw event information from the source application in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information about the entity or event"
+        "description": "Additional information about the entity or event",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

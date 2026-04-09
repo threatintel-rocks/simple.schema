@@ -5,307 +5,490 @@
       {
         "name": "ApplicationNames",
         "type": "string",
-        "description": "List of application names used or related to the event"
+        "description": "List of application names used or related to the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in Microsoft Defender for Endpoint"
+        "description": "Unique identifier for the device in Microsoft Defender for Endpoint",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name(FQDN) of the device"
+        "description": "Fully qualified domain name(FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AadDeviceId",
         "type": "guid",
-        "description": "Unique identifier for the device in Microsoft Entra ID"
+        "description": "Unique identifier for the device in Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsManagedDevice",
         "type": "bool",
-        "description": "Indicates if the device is managed by the organization (True) or not (False)"
+        "description": "Indicates if the device is managed by the organization (True) or not (False)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DlpPolicyMatchInfo",
         "type": "string",
-        "description": "Information around the list of data loss prevention (DLP) policies matching this event"
+        "description": "Information around the list of data loss prevention (DLP) policies matching this event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DlpPolicyEnforcementMode",
         "type": "int",
-        "description": "Indicates the Data Loss Prevention policy that was enforced; value can be: 0 (None), 1 (Audit), 2 (Warn), 3 (Warn and bypass), 4 (Block), 5 (Allow)"
+        "description": "Indicates the Data Loss Prevention policy that was enforced; value can be: 0 (None), 1 (Audit), 2 (Warn), 3 (Warn and bypass), 4 (Block), 5 (Allow)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DlpPolicyRuleMatchInfo",
         "type": "dynamic",
-        "description": "Details of the data loss prevention (DLP)  rules that matched with this event; in JSON array format"
+        "description": "Details of the data loss prevention (DLP)  rules that matched with this event; in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "FileRenameInfo",
         "type": "string",
-        "description": "Details of the file (file name and extension) before this event"
+        "description": "Details of the file (file name and extension) before this event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PhysicalAccessPointId",
         "type": "string",
-        "description": "Unique identifier for the physical access point"
+        "description": "Unique identifier for the physical access point",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PhysicalAccessPointName",
         "type": "string",
-        "description": "Name of the physical access point"
+        "description": "Name of the physical access point",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PhysicalAccessStatus",
         "type": "string",
-        "description": "Status of physical access, whether it succeeded or failed"
+        "description": "Status of physical access, whether it succeeded or failed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PhysicalAssetTag",
         "type": "string",
-        "description": "Tag assigned to the asset as configured in Microsoft Insider Risk Management global settings"
+        "description": "Tag assigned to the asset as configured in Microsoft Insider Risk Management global settings",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RemovableMediaManufacturer",
         "type": "string",
-        "description": "Manufacturer name of the removable device"
+        "description": "Manufacturer name of the removable device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RemovableMediaModel",
         "type": "string",
-        "description": "Model name of the removable device"
+        "description": "Model name of the removable device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RemovableMediaSerialNumber",
         "type": "string",
-        "description": "Serial number of the removable device"
+        "description": "Serial number of the removable device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TeamsChannelName",
         "type": "string",
-        "description": "Name of the Teams channel"
+        "description": "Name of the Teams channel",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TeamsChannelType",
         "type": "string",
-        "description": "Type of the Teams channel"
+        "description": "Type of the Teams channel",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TeamsTeamName",
         "type": "string",
-        "description": "Name of the Teams team"
+        "description": "Name of the Teams team",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UserAlternateEmails",
         "type": "string",
-        "description": "Alternate emails or aliases of the user"
+        "description": "Alternate emails or aliases of the user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account"
+        "description": "User principal name (UPN) of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Microsoft Entra ID"
+        "description": "Unique identifier for the account in Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Department",
         "type": "string",
-        "description": "Name of the department that the account user belongs to"
+        "description": "Name of the department that the account user belongs to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceCodeInfo",
         "type": "string",
-        "description": "Details of the source code repository involved in the event"
+        "description": "Details of the source code repository involved in the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CcPolicyMatchInfo",
         "type": "dynamic",
-        "description": "Details of the Communications Compliance policy matches for this event; in JSON array format"
+        "description": "Details of the Communications Compliance policy matches for this event; in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP addresses of the clients on which the activity was performed; can contain multiple IPs if related to Microsoft Defender for Cloud Apps alerts"
+        "description": "IP addresses of the clients on which the activity was performed; can contain multiple IPs if related to Microsoft Defender for Cloud Apps alerts",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the event was recorded"
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceSourceLocationType",
         "type": "int",
-        "description": "Indicates the type of location where the endpoint signals originated from; values can be: 0 (Unknown), 1 (Local), 2 (Remote), 3 (Removable), 4 (Cloud), 5 (File share)"
+        "description": "Indicates the type of location where the endpoint signals originated from; values can be: 0 (Unknown), 1 (Local), 2 (Remote), 3 (Removable), 4 (Cloud), 5 (File share)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceDestinationLocationType",
         "type": "int",
-        "description": "Indicates the type of location where the endpoint signals connected to; values can be: 0 (Unknown), 1 (Local), 2 (Remote), 3 (Removable), 4 (Cloud), 5 (File share)"
+        "description": "Indicates the type of location where the endpoint signals connected to; values can be: 0 (Unknown), 1 (Local), 2 (Remote), 3 (Removable), 4 (Cloud), 5 (File share)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IrmPolicyMatchInfo",
         "type": "dynamic",
-        "description": "Details of Insider Risk Management policy matches for the content involved in the event; in JSON array format"
+        "description": "Details of Insider Risk Management policy matches for the content involved in the event; in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UnallowedUrlDomains",
         "type": "string",
-        "description": "Websites or service URLs involved in this event that is configured as Unallowed in Insider Risk Management global settings"
+        "description": "Websites or service URLs involved in this event that is configured as Unallowed in Insider Risk Management global settings",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ExternalUrlDomains",
         "type": "string",
-        "description": "Websites or service URLs involved in this event that is classified as External in Insider Risk Management global settings"
+        "description": "Websites or service URLs involved in this event that is classified as External in Insider Risk Management global settings",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UrlDomainInfo",
         "type": "string",
-        "description": "Details about the websites or service URLs involved in the event"
+        "description": "Details about the websites or service URLs involved in the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceUrlDomain",
         "type": "string",
-        "description": "Domain where the device and email signals originated"
+        "description": "Domain where the device and email signals originated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetUrlDomain",
         "type": "string",
-        "description": "Domain where the content was shared with or the user has browsed to"
+        "description": "Domain where the content was shared with or the user has browsed to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EmailAttachmentCount",
         "type": "int",
-        "description": "Number of email attachments"
+        "description": "Number of email attachments",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EmailAttachmentInfo",
         "type": "dynamic",
-        "description": "Details of email attachments; in JSON array format"
+        "description": "Details of email attachments; in JSON array format",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "InternetMessageId",
         "type": "string",
-        "description": "Public-facing identifier for the email or Teams message that is set by the sending email system"
+        "description": "Public-facing identifier for the email or Teams message that is set by the sending email system",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "NetworkMessageId",
         "type": "guid",
-        "description": "Unique identifier for the email, generated by Microsoft 365"
+        "description": "Unique identifier for the email, generated by Microsoft 365",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EmailSubject",
         "type": "string",
-        "description": "Subject of the email"
+        "description": "Subject of the email",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ObjectId",
         "type": "string",
-        "description": "Unique identifier of the object that the recorded action was applied to, in case of files, it includes the extension"
+        "description": "Unique identifier of the object that the recorded action was applied to, in case of files, it includes the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ObjectName",
         "type": "string",
-        "description": "Name of the object that the recorded action was applied to, in case of files, it includes the extension"
+        "description": "Name of the object that the recorded action was applied to, in case of files, it includes the extension",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ObjectType",
         "type": "string",
-        "description": "Type of object, such as a file or a folder, that the recorded action was applied to"
+        "description": "Type of object, such as a file or a folder, that the recorded action was applied to",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ObjectSize",
         "type": "int",
-        "description": "Size of the object in bytes"
+        "description": "Size of the object in bytes",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsHidden",
         "type": "bool",
-        "description": "Indicates whether the user has marked the content as hidden (True) or not (False)"
+        "description": "Indicates whether the user has marked the content as hidden (True) or not (False)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActivityId",
         "type": "guid",
-        "description": "Unique identifier of the activity log"
+        "description": "Unique identifier of the activity log",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ActionType",
         "type": "string",
-        "description": "Type of activity that triggered the event"
+        "description": "Type of activity that triggered the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SensitiveInfoTypeInfo",
         "type": "dynamic",
-        "description": "Details of Data Loss Prevention sensitive info types detected in the impacted asset"
+        "description": "Details of Data Loss Prevention sensitive info types detected in the impacted asset",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SensitivityLabelId",
         "type": "string",
-        "description": "The current Microsoft Information Protection sensitivity label ID associated with the item"
+        "description": "The current Microsoft Information Protection sensitivity label ID associated with the item",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SharepointSiteSensitivityLabelIds",
         "type": "string",
-        "description": "The current Microsoft Information Protection sensitivity label ID assigned to the parent site of the item related to SharePoint activities"
+        "description": "The current Microsoft Information Protection sensitivity label ID assigned to the parent site of the item related to SharePoint activities",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PreviousSensitivityLabelId",
         "type": "string",
-        "description": "The previous Microsoft Information Protection sensitivity label ID associated with the item in case of activities where the sensitivity label was changed"
+        "description": "The previous Microsoft Information Protection sensitivity label ID associated with the item in case of activities where the sensitivity label was changed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Operation",
         "type": "string",
-        "description": "Name of the admin activity"
+        "description": "Name of the admin activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RecipientEmailAddress",
         "type": "string",
-        "description": "Email address of the recipient, or email address of the recipient after distribution list expansion"
+        "description": "Email address of the recipient, or email address of the recipient after distribution list expansion",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SiteUrl",
         "type": "string",
-        "description": "The URL of the site where the file or folder accessed by the user is located"
+        "description": "The URL of the site where the file or folder accessed by the user is located",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SourceRelativeUrl",
         "type": "string",
-        "description": "The URL of the folder that contains the file accessed by the user"
+        "description": "The URL of the folder that contains the file accessed by the user",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TargetFilePath",
         "type": "string",
-        "description": "Target file path of endpoint activities"
+        "description": "Target file path of endpoint activities",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PrinterName",
         "type": "string",
-        "description": "List of printers involved in the behavior"
+        "description": "List of printers involved in the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Workload",
         "type": "string",
-        "description": "The Microsoft 365 service where the event occurred"
+        "description": "The Microsoft 365 service where the event occurred",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IrmActionCategory",
         "type": "enum",
-        "description": "A unique enumeration value indicating the activity category in Microsoft Purview Insider Risk Management"
+        "description": "A unique enumeration value indicating the activity category in Microsoft Purview Insider Risk Management",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SequenceCorrelationId",
         "type": "string",
-        "description": "Details of the sequence activity"
+        "description": "Details of the sequence activity",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CloudAppAlertId",
         "type": "string",
-        "description": "Unique identifier for the alert in Microsoft Defender for Cloud Apps"
+        "description": "Unique identifier for the alert in Microsoft Defender for Cloud Apps",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

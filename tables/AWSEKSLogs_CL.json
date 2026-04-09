@@ -1,7 +1,116 @@
 {
   "AWSEKSLogs_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Time generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsAccountId",
+        "type": "string",
+        "description": "Aws account id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "Region",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClusterName",
+        "type": "string",
+        "description": "Cluster name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verb",
+        "type": "string",
+        "description": "Verb",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "User",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIPs",
+        "type": "dynamic",
+        "description": "Source i ps",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "User agent",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectRef",
+        "type": "string",
+        "description": "Object ref",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseCode",
+        "type": "int",
+        "description": "Response code",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Stage",
+        "type": "string",
+        "description": "Stage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthDecision",
+        "type": "string",
+        "description": "Auth decision",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawEvent",
+        "type": "dynamic",
+        "description": "Raw event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

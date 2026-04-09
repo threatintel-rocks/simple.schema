@@ -5,37 +5,58 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVendor",
         "type": "string",
-        "description": "Name of the software publisher"
+        "description": "Name of the software publisher",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareName",
         "type": "string",
-        "description": "Name of the software product"
+        "description": "Name of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SoftwareVersion",
         "type": "string",
-        "description": "Version number of the software product"
+        "description": "Version number of the software product",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RegistryPaths",
         "type": "dynamic",
-        "description": "Registry paths where evidence indicating the existence of the software on a device was detected"
+        "description": "Registry paths where evidence indicating the existence of the software on a device was detected",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DiskPaths",
         "type": "dynamic",
-        "description": "Disk paths where file-level evidence indicating the existence of the software on a device was detected"
+        "description": "Disk paths where file-level evidence indicating the existence of the software on a device was detected",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastSeenTime",
         "type": "string",
-        "description": "Date and time when the device was last seen by this service"
+        "description": "Date and time when the device was last seen by this service",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

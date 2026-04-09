@@ -5,167 +5,266 @@
       {
         "name": "ActivityType",
         "type": "string",
-        "description": "The type of data sensitivity event: classification, labeling."
+        "description": "The type of data sensitivity event: classification, labeling.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetCreationTime",
         "type": "datetime",
-        "description": "Time (UTC) at which the asset was created."
+        "description": "Time (UTC) at which the asset was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetLastScanTime",
         "type": "datetime",
-        "description": "Time (UTC) at which the asset was last scanned."
+        "description": "Time (UTC) at which the asset was last scanned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetModifiedTime",
         "type": "datetime",
-        "description": "Time (UTC) at which the asset was last modified."
+        "description": "Time (UTC) at which the asset was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetName",
         "type": "string",
-        "description": "Name of the asset scanned."
+        "description": "Name of the asset scanned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetPath",
         "type": "string",
-        "description": "Path of the asset scanned in a source."
+        "description": "Path of the asset scanned in a source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssetType",
         "type": "string",
-        "description": "Type of asset that was scanned: file, column, table, generic."
+        "description": "Type of asset that was scanned: file, column, table, generic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Classification",
         "type": "dynamic",
-        "description": "Names of the classifications found."
+        "description": "Names of the classifications found.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClassificationDetails",
         "type": "dynamic",
-        "description": "List of classification details: ID, name, count, uniquecount, confidence."
+        "description": "List of classification details: ID, name, count, uniquecount, confidence.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ClassificationTrigger",
         "type": "string",
-        "description": "The trigger for the classification event."
+        "description": "The trigger for the classification event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileExtension",
         "type": "string",
-        "description": "File extension of the asset scanned. Only populated when asset type is a file."
+        "description": "File extension of the asset scanned. Only populated when asset type is a file.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FileSize",
         "type": "long",
-        "description": "File size of the asset scanned in bytes. Only populated when asset type is a file."
+        "description": "File size of the asset scanned in bytes. Only populated when asset type is a file.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PurviewAccountName",
         "type": "string",
-        "description": "Name of the Purview account."
+        "description": "Name of the Purview account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PurviewRegion",
         "type": "string",
-        "description": "Region of the Purview account."
+        "description": "Region of the Purview account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PurviewTenantId",
         "type": "string",
-        "description": "Tenant ID associated with the Purview account."
+        "description": "Tenant ID associated with the Purview account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabel",
         "type": "dynamic",
-        "description": "Names for the labels found."
+        "description": "Names for the labels found.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelDetails",
         "type": "dynamic",
-        "description": "List of label details: ID, name, order."
+        "description": "List of label details: ID, name, order.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SensitivityLabelTrigger",
         "type": "string",
-        "description": "The trigger for the sensitivity label event."
+        "description": "The trigger for the sensitivity label event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceCollectionName",
         "type": "string",
-        "description": "Name of the data source collection name in Purview."
+        "description": "Name of the data source collection name in Purview.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceName",
         "type": "string",
-        "description": "Name of the data source scanned as registered in Purview."
+        "description": "Name of the data source scanned as registered in Purview.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePath",
         "type": "string",
-        "description": "Resource Path of the data source. Ex: ARM path for Azure resources and ARN for AWS resources."
+        "description": "Resource Path of the data source. Ex: ARM path for Azure resources and ARN for AWS resources.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceRegion",
         "type": "string",
-        "description": "The location of the data source that was scanned."
+        "description": "The location of the data source that was scanned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceScanId",
         "type": "string",
-        "description": "The associated Purview scan ID for the source."
+        "description": "The associated Purview scan ID for the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSubscriptionId",
         "type": "string",
-        "description": "Subscription ID associated with the data source. Account ID for AWS resources."
+        "description": "Subscription ID associated with the data source. Account ID for AWS resources.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceType",
         "type": "string",
-        "description": "Type of data source scanned: azuredatalakegen1, azureblob, azuredataexplorer, amazons3 etc."
+        "description": "Type of data source scanned: azuredatalakegen1, azureblob, azuredataexplorer, amazons3 etc.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Time (UTC) when the log was generated."
+        "description": "Time (UTC) when the log was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

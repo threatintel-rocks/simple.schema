@@ -1,7 +1,1748 @@
 {
   "SalesforceServiceCloudV2_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestSize",
+        "type": "string",
+        "description": "The size of the request payload.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecTime",
+        "type": "string",
+        "description": "The execution time of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformType",
+        "type": "string",
+        "description": "The platform type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsName",
+        "type": "string",
+        "description": "The operating system name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "The operating system version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeStamp",
+        "type": "string",
+        "description": "The timestamp of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StatusCode",
+        "type": "string",
+        "description": "The status code of the response.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReferrerUri",
+        "type": "string",
+        "description": "The referrer URI.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The user agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BrowserType",
+        "type": "string",
+        "description": "The browser type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Time",
+        "type": "string",
+        "description": "The time of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseSize",
+        "type": "string",
+        "description": "The size of the response payload.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "The device ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceModel",
+        "type": "string",
+        "description": "The device model.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "The source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "The client IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Success",
+        "type": "string",
+        "description": "Indicates if the request was successful.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uri",
+        "type": "string",
+        "description": "The URI of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Url",
+        "type": "string",
+        "description": "The URL of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientName",
+        "type": "string",
+        "description": "The name of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserType",
+        "type": "string",
+        "description": "The type of the user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserInitiatedLogout",
+        "type": "string",
+        "description": "Indicates if the logout was user-initiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdDerived",
+        "type": "string",
+        "description": "The derived user ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "The user ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserEmail",
+        "type": "string",
+        "description": "The user email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "The user name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "The user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UriIdDerived",
+        "type": "string",
+        "description": "The derived URI ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UiEventType",
+        "type": "string",
+        "description": "The UI event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UiEventTimestamp",
+        "type": "string",
+        "description": "The UI event timestamp.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UiEventSource",
+        "type": "string",
+        "description": "The UI event source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UiEventSequenceNum",
+        "type": "string",
+        "description": "The UI event sequence number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UiEventId",
+        "type": "string",
+        "description": "The UI event ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TlsProtocol",
+        "type": "string",
+        "description": "The TLS protocol.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimestampDerived",
+        "type": "datetime",
+        "description": "The derived timestamp.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetUiElement",
+        "type": "string",
+        "description": "The target UI element.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sort",
+        "type": "string",
+        "description": "The sort order.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionType",
+        "type": "string",
+        "description": "The session type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionLevel",
+        "type": "string",
+        "description": "The session level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionKey",
+        "type": "string",
+        "description": "The session key.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SearchQuery",
+        "type": "string",
+        "description": "The search query.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkVersion",
+        "type": "string",
+        "description": "The SDK version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkAppVersion",
+        "type": "string",
+        "description": "The SDK app version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkAppType",
+        "type": "string",
+        "description": "The SDK app type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RunTime",
+        "type": "string",
+        "description": "The run time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RowsProcessed",
+        "type": "string",
+        "description": "The rows processed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RowCount",
+        "type": "string",
+        "description": "The row count.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResolutionType",
+        "type": "string",
+        "description": "The resolution type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestStatus",
+        "type": "string",
+        "description": "The request status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestId",
+        "type": "string",
+        "description": "The request ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportIdDerived",
+        "type": "string",
+        "description": "The derived report ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "The report ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RenderingType",
+        "type": "string",
+        "description": "The rendering type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedList",
+        "type": "string",
+        "description": "The related list.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordType",
+        "type": "string",
+        "description": "The record type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordId",
+        "type": "string",
+        "description": "The record ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Quiddity",
+        "type": "string",
+        "description": "The quiddity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryId",
+        "type": "string",
+        "description": "The query ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrevpageUrl",
+        "type": "string",
+        "description": "The previous page URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrevpageEntityType",
+        "type": "string",
+        "description": "The previous page entity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrevpageEntityId",
+        "type": "string",
+        "description": "The previous page entity ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrevpageContext",
+        "type": "string",
+        "description": "The previous page context.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrevpageAppName",
+        "type": "string",
+        "description": "The previous page app name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrefixesSearched",
+        "type": "string",
+        "description": "The prefixes searched.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentUiElement",
+        "type": "string",
+        "description": "The parent UI element.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageUrl",
+        "type": "string",
+        "description": "The page URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageStartTime",
+        "type": "string",
+        "description": "The page start time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageEntityType",
+        "type": "string",
+        "description": "The page entity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageEntityId",
+        "type": "string",
+        "description": "The page entity ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageContext",
+        "type": "string",
+        "description": "The page context.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageAppName",
+        "type": "string",
+        "description": "The page app name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Origin",
+        "type": "string",
+        "description": "The origin.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumResults",
+        "type": "string",
+        "description": "The number of results.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberSoqlQueries",
+        "type": "string",
+        "description": "The number of SOQL queries.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberFields",
+        "type": "string",
+        "description": "The number of fields.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberExceptionFilters",
+        "type": "string",
+        "description": "The number of exception filters.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberColumns",
+        "type": "string",
+        "description": "The number of columns.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberBuckets",
+        "type": "string",
+        "description": "The number of buckets.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MethodName",
+        "type": "string",
+        "description": "The method name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Method",
+        "type": "string",
+        "description": "The method.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MediaType",
+        "type": "string",
+        "description": "The media type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginStatus",
+        "type": "string",
+        "description": "The login status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginKey",
+        "type": "string",
+        "description": "The login key.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpMethod",
+        "type": "string",
+        "description": "The HTTP method.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GrandparentUiElement",
+        "type": "string",
+        "description": "The grandparent UI element.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntryPoint",
+        "type": "string",
+        "description": "The entry point.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityName",
+        "type": "string",
+        "description": "The entity name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entity",
+        "type": "string",
+        "description": "The entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectivePageTime",
+        "type": "string",
+        "description": "The effective page time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Duration",
+        "type": "string",
+        "description": "The duration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayType",
+        "type": "string",
+        "description": "The display type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceSessionId",
+        "type": "string",
+        "description": "The device session ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicePlatform",
+        "type": "string",
+        "description": "The device platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DbTotalTime",
+        "type": "string",
+        "description": "The database total time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DbCpuTime",
+        "type": "string",
+        "description": "The database CPU time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DbBlocks",
+        "type": "string",
+        "description": "The database blocks.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuTime",
+        "type": "string",
+        "description": "The CPU time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionType",
+        "type": "string",
+        "description": "The connection type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComponentName",
+        "type": "string",
+        "description": "The component name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientVersion",
+        "type": "string",
+        "description": "The client version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "string",
+        "description": "The client ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CipherSuite",
+        "type": "string",
+        "description": "The cipher suite.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CalloutTime",
+        "type": "string",
+        "description": "The callout time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BrowserVersion",
+        "type": "string",
+        "description": "The browser version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BrowserName",
+        "type": "string",
+        "description": "The browser name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AverageRowSize",
+        "type": "string",
+        "description": "The average row size.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppType",
+        "type": "string",
+        "description": "The app type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "The app name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiVersion",
+        "type": "string",
+        "description": "The API version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiType",
+        "type": "string",
+        "description": "The API type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArticleVersionId",
+        "type": "string",
+        "description": "The article version ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArticleVersion",
+        "type": "string",
+        "description": "The article version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArticleStatus",
+        "type": "string",
+        "description": "The article status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArticleId",
+        "type": "string",
+        "description": "The article ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalyticsMode",
+        "type": "string",
+        "description": "The analytics mode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BatchId",
+        "type": "string",
+        "description": "The batch ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClickedRecordId",
+        "type": "string",
+        "description": "The clicked record ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClassName",
+        "type": "string",
+        "description": "The class name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComponentIdDerived",
+        "type": "string",
+        "description": "The component ID derived.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComponentId",
+        "type": "string",
+        "description": "The component ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ControllerType",
+        "type": "string",
+        "description": "The controller type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "string",
+        "description": "The context.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConsoleIdDerived",
+        "type": "string",
+        "description": "The console ID derived.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConsoleId",
+        "type": "string",
+        "description": "The console ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientInfo",
+        "type": "string",
+        "description": "The client info.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstBytes",
+        "type": "string",
+        "description": "The destination bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstUser",
+        "type": "string",
+        "description": "The destination user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstUserSid",
+        "type": "string",
+        "description": "The destination user SID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstUserSidDerived",
+        "type": "string",
+        "description": "The destination user SID derived.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "The data.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardType",
+        "type": "string",
+        "description": "The dashboard type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardIdDerived",
+        "type": "string",
+        "description": "The dashboard ID derived.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardId",
+        "type": "string",
+        "description": "The dashboard ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardComponentId",
+        "type": "string",
+        "description": "The dashboard component ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcAction",
+        "type": "string",
+        "description": "The DVC action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcOs",
+        "type": "string",
+        "description": "The DVC OS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcOsName",
+        "type": "string",
+        "description": "The DVC OS name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcOsVersion",
+        "type": "string",
+        "description": "The DVC OS version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeliveryLocation",
+        "type": "string",
+        "description": "The delivery location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeliveryId",
+        "type": "string",
+        "description": "The delivery ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DocumentIdDerived",
+        "type": "string",
+        "description": "The document ID derived.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DocumentId",
+        "type": "string",
+        "description": "The document ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityType",
+        "type": "string",
+        "description": "The entity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "The entity ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileType",
+        "type": "string",
+        "description": "The file type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePreviewType",
+        "type": "string",
+        "description": "The file preview type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExceptionType",
+        "type": "string",
+        "description": "The exception type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExceptionMessage",
+        "type": "string",
+        "description": "The exception message.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ept",
+        "type": "string",
+        "description": "The EPT.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCount",
+        "type": "string",
+        "description": "The event count.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventEndTime",
+        "type": "string",
+        "description": "The event end time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventResult",
+        "type": "string",
+        "description": "The event result.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "string",
+        "description": "The file size.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpReferrerOriginal",
+        "type": "string",
+        "description": "The HTTP referrer original.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUserAgentOriginal",
+        "type": "string",
+        "description": "The HTTP user agent original.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUserAgent",
+        "type": "string",
+        "description": "The HTTP user agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogGroupId",
+        "type": "string",
+        "description": "The log group ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LimitUsagePercent",
+        "type": "string",
+        "description": "The limit usage percent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LicenseContext",
+        "type": "string",
+        "description": "The license context.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastVersion",
+        "type": "string",
+        "description": "The last version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Language",
+        "type": "string",
+        "description": "The language.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobId",
+        "type": "string",
+        "description": "The job ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsSuccess",
+        "type": "string",
+        "description": "Indicates if the operation was successful.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsSecure",
+        "type": "string",
+        "description": "Indicates if the connection is secure.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsScheduled",
+        "type": "string",
+        "description": "Indicates if the job is scheduled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsNew",
+        "type": "string",
+        "description": "Indicates if the job is new.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsMobile",
+        "type": "string",
+        "description": "Indicates if the job is mobile.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsLongRunningRequest",
+        "type": "string",
+        "description": "Indicates if the job is a long-running request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsGuest",
+        "type": "string",
+        "description": "Indicates if the user is a guest.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsFirstRequest",
+        "type": "string",
+        "description": "Indicates if this is the first request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsError",
+        "type": "string",
+        "description": "Indicates if there was an error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsApi",
+        "type": "string",
+        "description": "Indicates if the request is an API request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsAjaxRequest",
+        "type": "string",
+        "description": "Indicates if the request is an AJAX request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagedPackageNamespace",
+        "type": "string",
+        "description": "The managed package namespace.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpHeaders",
+        "type": "string",
+        "description": "The HTTP headers.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkDuration",
+        "type": "string",
+        "description": "The network duration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberFailures",
+        "type": "string",
+        "description": "The number of failures.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumClicks",
+        "type": "string",
+        "description": "The number of clicks.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationType",
+        "type": "string",
+        "description": "The operation type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumSessions",
+        "type": "string",
+        "description": "The number of sessions.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageName",
+        "type": "string",
+        "description": "The page name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Query",
+        "type": "string",
+        "description": "The query.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestType",
+        "type": "string",
+        "description": "The request type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportDescription",
+        "type": "string",
+        "description": "The report description.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReopenCount",
+        "type": "string",
+        "description": "The reopen count.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedEntityId",
+        "type": "string",
+        "description": "The related entity ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordIdDerived",
+        "type": "string",
+        "description": "The derived record ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReadTime",
+        "type": "string",
+        "description": "The read time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rank",
+        "type": "string",
+        "description": "The rank.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcBytes",
+        "type": "string",
+        "description": "The source bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcDvcId",
+        "type": "string",
+        "description": "The source device ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcDvcModelName",
+        "type": "string",
+        "description": "The source device model name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "The source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcNatIpAddr",
+        "type": "string",
+        "description": "The source NAT IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "The session ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "The site ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharingPermission",
+        "type": "string",
+        "description": "The sharing permission.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharingOperation",
+        "type": "string",
+        "description": "The sharing operation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharedWithEntityId",
+        "type": "string",
+        "description": "The shared with entity ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrlOriginal",
+        "type": "string",
+        "description": "The original URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WaveTimeStamp",
+        "type": "string",
+        "description": "The wave timestamp.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WaveSessionId",
+        "type": "string",
+        "description": "The wave session ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ViewStateSize",
+        "type": "string",
+        "description": "The view state size.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VersionIdDerived",
+        "type": "string",
+        "description": "The derived version ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VersionId",
+        "type": "string",
+        "description": "The version ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerType",
+        "type": "string",
+        "description": "The trigger type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerName",
+        "type": "string",
+        "description": "The trigger name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerId",
+        "type": "string",
+        "description": "The trigger ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TransactionType",
+        "type": "string",
+        "description": "The transaction type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalTime",
+        "type": "string",
+        "description": "The total time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TabId",
+        "type": "string",
+        "description": "The tab ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StackTrace",
+        "type": "string",
+        "description": "The stack trace.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

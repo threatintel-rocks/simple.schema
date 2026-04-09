@@ -5,82 +5,130 @@
       {
         "name": "ReportId",
         "type": "string",
-        "description": "Unique identifier for the record"
+        "description": "Unique identifier for the record",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was created"
+        "description": "Date and time when the record was created",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OAuthAppId",
         "type": "string",
-        "description": "The unique  identifier for the app as assigned by Microsoft Entra ID"
+        "description": "The unique  identifier for the app as assigned by Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ServicePrincipalId",
         "type": "string",
-        "description": "The unique identifier for the service principal instance of the application in the tenant"
+        "description": "The unique identifier for the service principal instance of the application in the tenant",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AppName",
         "type": "string",
-        "description": "The application's display name as exposed by the associated service principal"
+        "description": "The application's display name as exposed by the associated service principal",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AddedOnTime",
         "type": "datetime",
-        "description": "Date and time when the application was registered"
+        "description": "Date and time when the application was registered",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastModifiedTime",
         "type": "datetime",
-        "description": "Timestamp when the app was last modified"
+        "description": "Timestamp when the app was last modified",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AppStatus",
         "type": "string",
-        "description": "Status of the app; can be: Enabled, DisabledByMicrosoft, DisabledByAppGovernancePolicy, DisabledByUser, Deleted (information for apps with Deleted status is only available for 30 days since the app was deleted)"
+        "description": "Status of the app; can be: Enabled, DisabledByMicrosoft, DisabledByAppGovernancePolicy, DisabledByUser, Deleted (information for apps with Deleted status is only available for 30 days since the app was deleted)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "VerifiedPublisher",
         "type": "dynamic",
-        "description": "Specifies details about the verified publisher of the application which this service principal represents. It includes information such as: DisplayName, VerifiedPublisherId, AddedDateTime"
+        "description": "Specifies details about the verified publisher of the application which this service principal represents. It includes information such as: DisplayName, VerifiedPublisherId, AddedDateTime",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "PrivilegeLevel",
         "type": "string",
-        "description": "The privilege level of the app based on the highest classified permission granted to the app"
+        "description": "The privilege level of the app based on the highest classified permission granted to the app",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Permissions",
         "type": "dynamic",
-        "description": "Contains an array of permission objects; each permission object includes PermissionName, TargetAppId, TargetAppDisplayName, PermissionType, PrivilegeLevel, UsageStatus"
+        "description": "Contains an array of permission objects; each permission object includes PermissionName, TargetAppId, TargetAppDisplayName, PermissionType, PrivilegeLevel, UsageStatus",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConsentedUsersCount",
         "type": "integer",
-        "description": "Count of users who have consented to the app; this information is only available when the app isn't admin consented"
+        "description": "Count of users who have consented to the app; this information is only available when the app isn't admin consented",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsAdminConsented",
         "type": "boolean",
-        "description": "Value is True if a user has provided admin consent to the app on behalf of all the users in the org, otherwise the value is False"
+        "description": "Value is True if a user has provided admin consent to the app on behalf of all the users in the org, otherwise the value is False",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AppOrigin",
         "type": "string",
-        "description": "Specifies whether the app is internal to the organization or registered in an external tenant"
+        "description": "Specifies whether the app is internal to the organization or registered in an external tenant",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastUsedTime",
         "type": "datetime",
-        "description": "Date and time when the app last signed in. Tracking of this data goes back to June, 2022"
+        "description": "Date and time when the app last signed in. Tracking of this data goes back to June, 2022",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AppOwnerTenantId",
         "type": "string",
-        "description": "Specifies the ID of the tenant where the app was registered"
+        "description": "Specifies the ID of the tenant where the app was registered",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

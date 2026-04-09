@@ -5,222 +5,354 @@
       {
         "name": "AgentId",
         "type": "string",
-        "description": "Unique identifier for the CrowdStrike agent that generated the alert."
+        "description": "Unique identifier for the CrowdStrike agent that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AggregateId",
         "type": "string",
-        "description": "Identifier for aggregated alerts from the same source."
+        "description": "Identifier for aggregated alerts from the same source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AlertType",
         "type": "string",
-        "description": "The type or category of the CrowdStrike alert."
+        "description": "The type or category of the CrowdStrike alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssignedToName",
         "type": "string",
-        "description": "Name of the user assigned to handle the alert."
+        "description": "Name of the user assigned to handle the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssignedToUid",
         "type": "string",
-        "description": "User ID of the assigned user."
+        "description": "User ID of the assigned user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AssignedToUuid",
         "type": "string",
-        "description": "UUID of the assigned user."
+        "description": "UUID of the assigned user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Cid",
         "type": "string",
-        "description": "Customer ID in the CrowdStrike platform."
+        "description": "Customer ID in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CompositeId",
         "type": "string",
-        "description": "Composite identifier combining multiple alert attributes."
+        "description": "Composite identifier combining multiple alert attributes.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Confidence",
         "type": "int",
-        "description": "Confidence score of the alert (0-100)."
+        "description": "Confidence score of the alert (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CrawledTimestamp",
         "type": "datetime",
-        "description": "Timestamp when the alert data was last crawled."
+        "description": "Timestamp when the alert data was last crawled.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CreatedTimestamp",
         "type": "datetime",
-        "description": "Timestamp when the alert was first created."
+        "description": "Timestamp when the alert was first created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DataDomains",
         "type": "dynamic",
-        "description": "Domains associated with the alert."
+        "description": "Domains associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Detailed description of the alert."
+        "description": "Detailed description of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DisplayName",
         "type": "string",
-        "description": "Human-readable name for the alert."
+        "description": "Human-readable name for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EmailSent",
         "type": "bool",
-        "description": "Indicates if an email notification was sent for this alert."
+        "description": "Indicates if an email notification was sent for this alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "External",
         "type": "bool",
-        "description": "Indicates if the alert originated from an external source."
+        "description": "Indicates if the alert originated from an external source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Unique identifier for the alert."
+        "description": "Unique identifier for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Name",
         "type": "string",
-        "description": "Name of the alert."
+        "description": "Name of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Objective",
         "type": "string",
-        "description": "The attacker's presumed objective."
+        "description": "The attacker's presumed objective.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PatternId",
         "type": "int",
-        "description": "Identifier for the detection pattern that triggered the alert."
+        "description": "Identifier for the detection pattern that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Platform",
         "type": "string",
-        "description": "Operating system or platform where the alert was detected."
+        "description": "Operating system or platform where the alert was detected.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Product",
         "type": "string",
-        "description": "CrowdStrike product that generated the alert."
+        "description": "CrowdStrike product that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Scenario",
         "type": "string",
-        "description": "Security scenario that triggered the alert."
+        "description": "Security scenario that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SecondsToResolved",
         "type": "int",
-        "description": "Time in seconds from alert creation to resolution."
+        "description": "Time in seconds from alert creation to resolution.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SecondsToTriaged",
         "type": "int",
-        "description": "Time in seconds from alert creation to triage."
+        "description": "Time in seconds from alert creation to triage.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "int",
-        "description": "Severity level of the alert."
+        "description": "Severity level of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SeverityName",
         "type": "string",
-        "description": "Text representation of the severity level."
+        "description": "Text representation of the severity level.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ShowInUi",
         "type": "bool",
-        "description": "Indicates if the alert should be displayed in the user interface."
+        "description": "Indicates if the alert should be displayed in the user interface.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceProducts",
         "type": "dynamic",
-        "description": "List of products that contributed to this alert."
+        "description": "List of products that contributed to this alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceVendors",
         "type": "dynamic",
-        "description": "List of vendors associated with the alert sources."
+        "description": "List of vendors associated with the alert sources.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Status",
         "type": "string",
-        "description": "Current status of the alert."
+        "description": "Current status of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tactic",
         "type": "string",
-        "description": "MITRE ATT&CK tactic associated with the alert."
+        "description": "MITRE ATT&CK tactic associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TacticId",
         "type": "string",
-        "description": "Identifier of the MITRE ATT&CK tactic."
+        "description": "Identifier of the MITRE ATT&CK tactic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Tags",
         "type": "dynamic",
-        "description": "Custom tags associated with the alert."
+        "description": "Custom tags associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Technique",
         "type": "string",
-        "description": "MITRE ATT&CK technique associated with the alert."
+        "description": "MITRE ATT&CK technique associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TechniqueId",
         "type": "string",
-        "description": "Identifier of the MITRE ATT&CK technique."
+        "description": "Identifier of the MITRE ATT&CK technique.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the alert was generated."
+        "description": "The timestamp (UTC) when the alert was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Time when the alert event occurred."
+        "description": "Time when the alert event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UpdatedTimestamp",
         "type": "datetime",
-        "description": "Time when the alert was last updated."
+        "description": "Time when the alert was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

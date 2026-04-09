@@ -1,0 +1,88 @@
+{
+  "Island_SystemEvents_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "guid",
+        "description": "Unique event identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IslandTenantId",
+        "type": "string",
+        "description": "Island tenant identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "System event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCategory",
+        "type": "string",
+        "description": "Event category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubCategory",
+        "type": "string",
+        "description": "Event sub-category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Event severity level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrimaryEntityId",
+        "type": "guid",
+        "description": "Primary entity identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrimaryEntityName",
+        "type": "string",
+        "description": "Primary entity name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Additional event details.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Island"
+  }
+}

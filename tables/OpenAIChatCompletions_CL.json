@@ -1,0 +1,176 @@
+{
+  "OpenAIChatCompletions_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the chat completion",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "The object type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "The Unix timestamp (in seconds) of when the chat completion was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Model",
+        "type": "string",
+        "description": "The model used for the chat completion",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestId",
+        "type": "string",
+        "description": "The unique request identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceTier",
+        "type": "string",
+        "description": "The processing type used for serving the request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemFingerprint",
+        "type": "string",
+        "description": "Backend configuration fingerprint",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Choices",
+        "type": "dynamic",
+        "description": "The list of chat completion choices",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usage",
+        "type": "dynamic",
+        "description": "Usage statistics for the completion request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Metadata",
+        "type": "dynamic",
+        "description": "Set of key-value pairs attached to the object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ToolChoice",
+        "type": "string",
+        "description": "Which tool (if any) was called by the model",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tools",
+        "type": "dynamic",
+        "description": "List of tools the model may call",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Temperature",
+        "type": "real",
+        "description": "The sampling temperature used",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TopProbability",
+        "type": "real",
+        "description": "The nucleus sampling parameter",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FrequencyPenalty",
+        "type": "real",
+        "description": "Frequency penalty parameter",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PresencePenalty",
+        "type": "real",
+        "description": "Presence penalty parameter",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Seed",
+        "type": "long",
+        "description": "The seed used for deterministic sampling",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InputUser",
+        "type": "string",
+        "description": "User identifier for the request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseFormat",
+        "type": "dynamic",
+        "description": "The format specification for the response",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "The friendly name of the connector instance that collected this log",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "OpenAI"
+  }
+}

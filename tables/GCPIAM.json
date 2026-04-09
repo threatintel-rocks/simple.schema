@@ -5,487 +5,778 @@
       {
         "name": "AuthenticationInfoPrincipalSubject",
         "type": "string",
-        "description": "Subject associated with the authenticated principal in the request."
+        "description": "Subject associated with the authenticated principal in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthInfoPrincipalEmail",
         "type": "string",
-        "description": "The email address associated with the principal (e.g., user, service account) performing the action."
+        "description": "The email address associated with the principal (e.g., user, service account) performing the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthInfoPrincipalSubject",
         "type": "string",
-        "description": "The subject or identifier associated with the principal performing the action."
+        "description": "The subject or identifier associated with the principal performing the action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthInfoServiceAccountDelegationInfo",
         "type": "string",
-        "description": "Delegation information for a service account."
+        "description": "Delegation information for a service account.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AuthorizationInfo",
         "type": "string",
-        "description": "Information related to the authorization of the request."
+        "description": "Information related to the authorization of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceName",
         "type": "string",
-        "description": "The name of the resource involved in the request or logged event."
+        "description": "The name of the resource involved in the request or logged event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "The type of resource involved in the request."
+        "description": "The type of resource involved in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique identifier for the log entry, typically used for deduplication."
+        "description": "A unique identifier for the log entry, typically used for deduplication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The name of the log in which the entry resides."
+        "description": "The name of the log in which the entry resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataIdentityDelegationChain",
         "type": "string",
-        "description": "A chain of delegated identities for the request."
+        "description": "A chain of delegated identities for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataMappedPrincipal",
         "type": "string",
-        "description": "Mapped principal in the metadata."
+        "description": "Mapped principal in the metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MetadataType",
         "type": "string",
-        "description": "The type of metadata being provided."
+        "description": "The type of metadata being provided.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MethodName",
         "type": "string",
-        "description": "The name of the method being invoked."
+        "description": "The name of the method being invoked.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NumResponseItems",
         "type": "string",
-        "description": "The number of items returned in the response."
+        "description": "The number of items returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationFirst",
         "type": "bool",
-        "description": "Boolean indicating whether this is the first operation in a sequence."
+        "description": "Boolean indicating whether this is the first operation in a sequence.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationId",
         "type": "string",
-        "description": "A unique identifier for the operation."
+        "description": "A unique identifier for the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationLast",
         "type": "bool",
-        "description": "Boolean indicating whether this is the last operation in a sequence."
+        "description": "Boolean indicating whether this is the last operation in a sequence.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationProducer",
         "type": "string",
-        "description": "The producer (system or service) that initiated the operation."
+        "description": "The producer (system or service) that initiated the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "The type of payload being processed or transmitted."
+        "description": "The type of payload being processed or transmitted.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "Timestamp representing the time when the log entry was received by the system."
+        "description": "Timestamp representing the time when the log entry was received by the system.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestAccountId",
         "type": "string",
-        "description": "Account ID associated with the request."
+        "description": "Account ID associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestFullResourceName",
         "type": "string",
-        "description": "Full name of the resource requested."
+        "description": "Full name of the resource requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestGrantType",
         "type": "string",
-        "description": "The grant type associated with the request."
+        "description": "The grant type associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestIncludeInactiveApiRoles",
         "type": "bool",
-        "description": "Boolean indicating whether inactive API roles should be included in the request."
+        "description": "Boolean indicating whether inactive API roles should be included in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestKeyTypes",
         "type": "string",
-        "description": "Types of keys involved in the request."
+        "description": "Types of keys involved in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerIp",
         "type": "string",
-        "description": "The IP address from which the request originated."
+        "description": "The IP address from which the request originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
         "type": "string",
-        "description": "The user-agent String provided by the caller during the request."
+        "description": "The user-agent String provided by the caller during the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
         "type": "string",
-        "description": "Time-related attributes of the request metadata."
+        "description": "Time-related attributes of the request metadata.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestName",
         "type": "string",
-        "description": "The name of the request."
+        "description": "The name of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestOptionsRequestedPolicyVersion",
         "type": "string",
-        "description": "The version of the policy requested."
+        "description": "The version of the policy requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPageSize",
         "type": "string",
-        "description": "The size of the page requested in a paginated request."
+        "description": "The size of the page requested in a paginated request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPageToken",
         "type": "string",
-        "description": "Token for pagination in the request."
+        "description": "Token for pagination in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestParent",
         "type": "string",
-        "description": "The parent resource of the request."
+        "description": "The parent resource of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyAuditConfigs",
         "type": "string",
-        "description": "Configuration for auditing in the request policy."
+        "description": "Configuration for auditing in the request policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyBindings",
         "type": "string",
-        "description": "Binding configurations associated with the request policy."
+        "description": "Binding configurations associated with the request policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPolicyEtag",
         "type": "string",
-        "description": "The ETag value for the request policy."
+        "description": "The ETag value for the request policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestPrivateKeyType",
         "type": "string",
-        "description": "Type of private key being used in the request."
+        "description": "Type of private key being used in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRemoveDeletedServiceAccounts",
         "type": "bool",
-        "description": "Boolean indicating if deleted service accounts should be removed."
+        "description": "Boolean indicating if deleted service accounts should be removed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRequestedTokenType",
         "type": "string",
-        "description": "The type of token requested."
+        "description": "The type of token requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestResource",
         "type": "string",
-        "description": "The resource being requested."
+        "description": "The resource being requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRoleDescription",
         "type": "string",
-        "description": "Description of the role being requested."
+        "description": "Description of the role being requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRoleId",
         "type": "string",
-        "description": "The unique identifier for the role."
+        "description": "The unique identifier for the role.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRoleIncludedPermissions",
         "type": "string",
-        "description": "Permissions included in the role in the request."
+        "description": "Permissions included in the role in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRoleTitle",
         "type": "string",
-        "description": "Title of the role being requested."
+        "description": "Title of the role being requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestServiceAccountDescription",
         "type": "string",
-        "description": "Description of the service account being requested."
+        "description": "Description of the service account being requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestServiceAccountDisplayName",
         "type": "string",
-        "description": "Display name of the service account being requested."
+        "description": "Display name of the service account being requested.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestShowDeleted",
         "type": "bool",
-        "description": "Boolean indicating if deleted items should be included in the response."
+        "description": "Boolean indicating if deleted items should be included in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSkipVisibilityCheck",
         "type": "bool",
-        "description": "Boolean indicating whether the visibility check for the request should be skipped."
+        "description": "Boolean indicating whether the visibility check for the request should be skipped.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSubjectTokenType",
         "type": "string",
-        "description": "The type of subject token being used in the request."
+        "description": "The type of subject token being used in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestType",
         "type": "string",
-        "description": "The type of request being made."
+        "description": "The type of request being made.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestUpdateMaskPaths",
         "type": "string",
-        "description": "The paths to be updated in the request."
+        "description": "The paths to be updated in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestView",
         "type": "string",
-        "description": "The view or perspective for the request."
+        "description": "The view or perspective for the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsEmailId",
         "type": "string",
-        "description": "Email identifier associated with the resource."
+        "description": "Email identifier associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsLocation",
         "type": "string",
-        "description": "The geographical or logical location of the resource."
+        "description": "The geographical or logical location of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsMethod",
         "type": "string",
-        "description": "The method associated with the resource, often used for filtering or categorization."
+        "description": "The method associated with the resource, often used for filtering or categorization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsProjectId",
         "type": "string",
-        "description": "Project ID for the resource being accessed or logged."
+        "description": "Project ID for the resource being accessed or logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsRoleName",
         "type": "string",
-        "description": "The name of the role associated with the resource."
+        "description": "The name of the role associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsService",
         "type": "string",
-        "description": "The service to which the resource belongs."
+        "description": "The service to which the resource belongs.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsTopicId",
         "type": "string",
-        "description": "The topic ID associated with the resource."
+        "description": "The topic ID associated with the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsUniqueId",
         "type": "string",
-        "description": "A unique identifier for the resource."
+        "description": "A unique identifier for the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLabelsVersion",
         "type": "string",
-        "description": "The version of the resource being logged."
+        "description": "The version of the resource being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseAuditConfigs",
         "type": "string",
-        "description": "Audit configurations in the response."
+        "description": "Audit configurations in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseBindings",
         "type": "string",
-        "description": "The bindings used in the response."
+        "description": "The bindings used in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseDescription",
         "type": "string",
-        "description": "Description of the response."
+        "description": "Description of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseDisplayName",
         "type": "string",
-        "description": "Display name associated with the response."
+        "description": "Display name associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseEmail",
         "type": "string",
-        "description": "Email associated with the response."
+        "description": "Email associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseEtag",
         "type": "string",
-        "description": "The ETag value for the response."
+        "description": "The ETag value for the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseGroupName",
         "type": "string",
-        "description": "The group name for the response."
+        "description": "The group name for the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseGroupTitle",
         "type": "string",
-        "description": "The title of the group in the response."
+        "description": "The title of the group in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseIncludedPermissions",
         "type": "string",
-        "description": "Permissions included in the response."
+        "description": "Permissions included in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseKeyAlgorithm",
         "type": "string",
-        "description": "The key algorithm used in the response."
+        "description": "The key algorithm used in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseKeyOrigin",
         "type": "string",
-        "description": "The origin of the key in the response."
+        "description": "The origin of the key in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseKeyType",
         "type": "string",
-        "description": "The type of key used in the response."
+        "description": "The type of key used in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseName",
         "type": "string",
-        "description": "Name associated with the response."
+        "description": "Name associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOauth2ClientId",
         "type": "string",
-        "description": "OAuth2 client ID associated with the response."
+        "description": "OAuth2 client ID associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponsePrivateKeyType",
         "type": "string",
-        "description": "The type of private key used in the response."
+        "description": "The type of private key used in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseProjectId",
         "type": "string",
-        "description": "Project ID associated with the response."
+        "description": "Project ID associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTitle",
         "type": "string",
-        "description": "Title associated with the response."
+        "description": "Title associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseType",
         "type": "string",
-        "description": "The type of response being returned."
+        "description": "The type of response being returned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseUniqueId",
         "type": "string",
-        "description": "Unique identifier for the response."
+        "description": "Unique identifier for the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseValidAfterTimeSeconds",
         "type": "string",
-        "description": "Time in seconds after which the response becomes valid."
+        "description": "Time in seconds after which the response becomes valid.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseValidBeforeTimeSeconds",
         "type": "string",
-        "description": "Time in seconds before the response becomes valid."
+        "description": "Time in seconds before the response becomes valid.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataPermissionDeltaAddedPermissions",
         "type": "string",
-        "description": "Permissions that were added in the service data policy."
+        "description": "Permissions that were added in the service data policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataPermissionDeltaRemovedPermissions",
         "type": "string",
-        "description": "Permissions that were removed in the service data policy."
+        "description": "Permissions that were removed in the service data policy.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataPolicyDeltaBindingDeltas",
         "type": "string",
-        "description": "Changes to policy bindings in the response."
+        "description": "Changes to policy bindings in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceDataType",
         "type": "string",
-        "description": "The type of service data being logged."
+        "description": "The type of service data being logged.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "The name of the service that generated the log entry."
+        "description": "The name of the service that generated the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "The severity level of the log entry or request."
+        "description": "The severity level of the log entry or request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusCode",
         "type": "string",
-        "description": "The HTTP or operation status code for the response."
+        "description": "The HTTP or operation status code for the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "StatusMessage",
         "type": "string",
-        "description": "The message associated with the status code."
+        "description": "The message associated with the status code.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp representing the time at which the log entry was generated."
+        "description": "Timestamp representing the time at which the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "The timestamp when the log entry or event occurred."
+        "description": "The timestamp when the log entry or event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

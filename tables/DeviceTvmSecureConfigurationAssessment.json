@@ -5,62 +5,98 @@
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "description": "Unique identifier for the device in the service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7."
+        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationId",
         "type": "string",
-        "description": "Unique identifier for a specific configuration"
+        "description": "Unique identifier for a specific configuration",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationCategory",
         "type": "string",
-        "description": "Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls"
+        "description": "Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationSubcategory",
         "type": "string",
-        "description": "Subcategory or subgrouping to which the configuration belongs. In many cases,  string describes specific capabilities or features."
+        "description": "Subcategory or subgrouping to which the configuration belongs. In many cases,  string describes specific capabilities or features.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConfigurationImpact",
         "type": "real",
-        "description": "Rated impact of the configuration to the overall configuration score (1-10)"
+        "description": "Rated impact of the configuration to the overall configuration score (1-10)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsCompliant",
         "type": "boolean",
-        "description": "Indicates whether the configuration or policy is properly configured <br /> * A value of True is Compliant<br /> * A value of False is Not Compliant"
+        "description": "Indicates whether the configuration or policy is properly configured <br /> * A value of True is Compliant<br /> * A value of False is Not Compliant",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsApplicable",
         "type": "boolean",
-        "description": "Indicates whether the configuration or policy applies to the device <br /> * A value of True is Applicable<br /> * A value of False is Not Applicable"
+        "description": "Indicates whether the configuration or policy applies to the device <br /> * A value of True is Applicable<br /> * A value of False is Not Applicable",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Context",
         "type": "dynamic",
-        "description": "Additional contextual information about the configuration or policy"
+        "description": "Additional contextual information about the configuration or policy",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsExpectedUserImpact",
         "type": "boolean",
-        "description": "Indicates whether there will be user impact if the configuration or policy is applied"
+        "description": "Indicates whether there will be user impact if the configuration or policy is applied",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

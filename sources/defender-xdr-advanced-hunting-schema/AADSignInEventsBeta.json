@@ -5,227 +5,362 @@
       {
         "name": "Timestamp",
         "type": "datetime",
-        "description": "Date and time when the record was generated"
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "Application that performed the recorded action"
+        "description": "Application that performed the recorded action",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ApplicationId",
         "type": "string",
-        "description": "Unique identifier for the application"
+        "description": "Unique identifier for the application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LogonType",
         "type": "string",
-        "description": "Type of logon session, specifically interactive, remote interactive (RDP), network, batch, and service"
+        "description": "Type of logon session, specifically interactive, remote interactive (RDP), network, batch, and service",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ErrorCode",
         "type": "int",
-        "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>."
+        "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "Identifier of the sign-in event"
+        "description": "Identifier of the sign-in event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SessionId",
         "type": "string",
-        "description": "Unique number assigned to a user by a website's server for the duration of the visit or session"
+        "description": "Unique number assigned to a user by a website's server for the duration of the visit or session",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountDisplayName",
         "type": "string",
-        "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user."
+        "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Microsoft Entra ID"
+        "description": "Unique identifier for the account in Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account"
+        "description": "User principal name (UPN) of the account",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsExternalUser",
         "type": "int",
-        "description": "Indicates if the user that signed in is external. Possible values: -1 (not set), 0 (not external), 1 (external)."
+        "description": "Indicates if the user that signed in is external. Possible values: -1 (not set), 0 (not external), 1 (external).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsGuestUser",
         "type": "boolean",
-        "description": "Indicates whether the user that signed in is a guest in the tenant"
+        "description": "Indicates whether the user that signed in is a guest in the tenant",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AlternateSignInName",
         "type": "string",
-        "description": "On-premises user principal name (UPN) of the user signing in to Microsoft Entra ID"
+        "description": "On-premises user principal name (UPN) of the user signing in to Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "LastPasswordChangeTimestamp",
         "type": "datetime",
-        "description": "Date and time when the user that signed in last changed their password"
+        "description": "Date and time when the user that signed in last changed their password",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceDisplayName",
         "type": "string",
-        "description": "Display name of the resource accessed. The display name can contain any character."
+        "description": "Display name of the resource accessed. The display name can contain any character.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceId",
         "type": "string",
-        "description": "Unique identifier of the resource accessed"
+        "description": "Unique identifier of the resource accessed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceTenantId",
         "type": "string",
-        "description": "Unique identifier of the tenant of the resource accessed"
+        "description": "Unique identifier of the tenant of the resource accessed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
+        "description": "Fully qualified domain name (FQDN) of the device",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AadDeviceId",
         "type": "string",
-        "description": "Unique identifier of the device in Microsoft Entra ID. This is the legacy device identifier column, which is being replaced by `EntraIdDeviceId`."
+        "description": "Unique identifier of the device in Microsoft Entra ID. This is the legacy device identifier column, which is being replaced by `EntraIdDeviceId`.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EntraIdDeviceId",
         "type": "string",
-        "description": "Unique identifier of the device in Microsoft Entra ID."
+        "description": "Unique identifier of the device in Microsoft Entra ID.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "OSPlatform",
         "type": "string",
-        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7."
+        "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "DeviceTrustType",
         "type": "string",
-        "description": "Indicates the trust type of the device that signed in. For managed device scenarios only. Possible values are Workplace, AzureAd, and ServerAd."
+        "description": "Indicates the trust type of the device that signed in. For managed device scenarios only. Possible values are Workplace, AzureAd, and ServerAd.",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsManaged",
         "type": "int",
-        "description": "Indicates whether the device that initiated the sign-in is a managed device (1) or not a managed device (0)"
+        "description": "Indicates whether the device that initiated the sign-in is a managed device (1) or not a managed device (0)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IsCompliant",
         "type": "int",
-        "description": "Indicates whether the device that initiated the sign-in is compliant (1) or non-compliant (0)"
+        "description": "Indicates whether the device that initiated the sign-in is compliant (1) or non-compliant (0)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AuthenticationProcessingDetails",
         "type": "string",
-        "description": "Details about the authentication processor"
+        "description": "Details about the authentication processor",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "AuthenticationRequirement",
         "type": "string",
-        "description": "Type of authentication required for the sign-in. Possible values: multiFactorAuthentication (MFA was required) and singleFactorAuthentication (no MFA was required)."
+        "description": "Type of authentication required for the sign-in. Possible values: multiFactorAuthentication (MFA was required) and singleFactorAuthentication (no MFA was required).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "TokenIssuerType",
         "type": "int",
-        "description": "Indicates if the token issuer is Microsoft Entra ID (0) or Active Directory Federation Services (1)"
+        "description": "Indicates if the token issuer is Microsoft Entra ID (0) or Active Directory Federation Services (1)",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskLevelAggregated",
         "type": "int",
-        "description": "Aggregated risk level during sign-in. Possible values: 0 (aggregated risk level not set), 1 (none), 10 (low), 50 (medium), or 100 (high)."
+        "description": "Aggregated risk level during sign-in. Possible values: 0 (aggregated risk level not set), 1 (none), 10 (low), 50 (medium), or 100 (high).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskDetails",
         "type": "int",
-        "description": "Details about the risky state of the user that signed in"
+        "description": "Details about the risky state of the user that signed in",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RiskState",
         "type": "int",
-        "description": "Indicates risky user state. Possible values: 0 (none), 1 (confirmed safe), 2 (remediated), 3 (dismissed), 4 (at risk), or 5 (confirmed compromised)."
+        "description": "Indicates risky user state. Possible values: 0 (none), 1 (confirmed safe), 2 (remediated), 3 (dismissed), 4 (at risk), or 5 (confirmed compromised).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "User agent information from the web browser or other client application"
+        "description": "User agent information from the web browser or other client application",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ClientAppUsed",
         "type": "string",
-        "description": "Indicates the client app used"
+        "description": "Indicates the client app used",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Browser",
         "type": "string",
-        "description": "Details about the version of the browser used to sign in"
+        "description": "Details about the version of the browser used to sign in",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConditionalAccessPolicies",
         "type": "string",
-        "description": "Details of the conditional access policies applied to the sign-in event"
+        "description": "Details of the conditional access policies applied to the sign-in event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ConditionalAccessStatus",
         "type": "int",
-        "description": "Status of the conditional access policies applied to the sign-in. Possible values are 0 (policies applied), 1 (attempt to apply policies failed), or 2 (policies not applied)."
+        "description": "Status of the conditional access policies applied to the sign-in. Possible values are 0 (policies applied), 1 (attempt to apply policies failed), or 2 (policies not applied).",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address assigned to the device during communication"
+        "description": "IP address assigned to the device during communication",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Country",
         "type": "string",
-        "description": "Two-letter code indicating the country/region where the client IP address is geolocated"
+        "description": "Two-letter code indicating the country/region where the client IP address is geolocated",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "State",
         "type": "string",
-        "description": "State where the sign-in occurred, if available"
+        "description": "State where the sign-in occurred, if available",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "City",
         "type": "string",
-        "description": "City where the account user is located"
+        "description": "City where the account user is located",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Latitude",
         "type": "string",
-        "description": "The north to south coordinates of the sign-in location"
+        "description": "The north to south coordinates of the sign-in location",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "Longitude",
         "type": "string",
-        "description": "The east to west coordinates of the sign-in location"
+        "description": "The east to west coordinates of the sign-in location",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "NetworkLocationDetails",
         "type": "string",
-        "description": "Network location details of the authentication processor of the sign-in event"
+        "description": "Network location details of the authentication processor of the sign-in event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "Unique identifier of the request"
+        "description": "Unique identifier of the request",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ReportId",
         "type": "string",
-        "description": "Unique identifier for the event"
+        "description": "Unique identifier for the event",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "EndpointCall",
         "type": "string",
-        "description": "Information about the Microsoft Entra ID endpoint that the request was sent to and the type of request sent during sign in."
+        "description": "Information about the Microsoft Entra ID endpoint that the request was sent to and the type of request sent during sign in.",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

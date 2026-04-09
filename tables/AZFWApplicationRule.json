@@ -5,117 +5,186 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "Action taken by the firewall following the Application rule hit."
+        "description": "Action taken by the firewall following the Application rule hit.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ActionReason",
         "type": "string",
-        "description": "When no rule is triggered for a request, this field contains the reason for the action performed by the firewall. For example: a packet dropped because no rule matched will showDefault Action."
+        "description": "When no rule is triggered for a request, this field contains the reason for the action performed by the firewall. For example: a packet dropped because no rule matched will showDefault Action.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationPort",
         "type": "int",
-        "description": "Request's destination port."
+        "description": "Request's destination port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Fqdn",
         "type": "string",
-        "description": "Request's target address in FQDN (Fully qualified Domain Name). For example:www.microsoft.com."
+        "description": "Request's target address in FQDN (Fully qualified Domain Name). For example:www.microsoft.com.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsExplicitProxyRequest",
         "type": "bool",
-        "description": "True if the request is received on an explicit proxy port. False otherwise."
+        "description": "True if the request is received on an explicit proxy port. False otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "IsTlsInspected",
         "type": "bool",
-        "description": "True if the connection is TLS inspected. False otherwise."
+        "description": "True if the connection is TLS inspected. False otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Policy",
         "type": "string",
-        "description": "Name of the policy in which the triggered rule resides."
+        "description": "Name of the policy in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Protocol",
         "type": "string",
-        "description": "Request's network protocol. For example: HTTP, HTTPS."
+        "description": "Request's network protocol. For example: HTTP, HTTPS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rule",
         "type": "string",
-        "description": "Name of the triggered rule."
+        "description": "Name of the triggered rule.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollection",
         "type": "string",
-        "description": "Name of the rule collection in which the triggered rule resides."
+        "description": "Name of the rule collection in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollectionGroup",
         "type": "string",
-        "description": "Name of the rule collection group in which the triggered rule resides."
+        "description": "Name of the rule collection group in which the triggered rule resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "Request's source IP address."
+        "description": "Request's source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "Request's source port."
+        "description": "Request's source port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetUrl",
         "type": "string",
-        "description": "Request's target address URL. Available only for HTTP or TLS-inspected HTTPS requests. For example:https://www.microsoft.com/en-us/about."
+        "description": "Request's target address URL. Available only for HTTP or TLS-inspected HTTPS requests. For example:https://www.microsoft.com/en-us/about.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "WebCategory",
         "type": "string",
-        "description": "Web Category identified for the requested FQDN (Azure Firewall Standard) or URL (Azure Firewall Premium). If a web category is not available for this request, the field is empty."
+        "description": "Web Category identified for the requested FQDN (Azure Firewall Standard) or URL (Azure Firewall Premium). If a web category is not available for this request, the field is empty.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

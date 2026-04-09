@@ -1,0 +1,560 @@
+{
+  "SentinelOneAgents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "The unique identifier for the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitigationMode",
+        "type": "string",
+        "description": "The mitigation mode applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkStatus",
+        "type": "string",
+        "description": "The network status of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstallerType",
+        "type": "string",
+        "description": "The type of installer used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitigationModeSuspicious",
+        "type": "string",
+        "description": "The suspicious mitigation mode applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsPendingUninstall",
+        "type": "boolean",
+        "description": "Indicates whether the object is pending uninstallation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InRemoteShellSession",
+        "type": "boolean",
+        "description": "Indicates whether the object is in a remote shell session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoggedInUserName",
+        "type": "string",
+        "description": "The username of the last logged-in user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsRevision",
+        "type": "string",
+        "description": "The OS revision.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsArch",
+        "type": "string",
+        "description": "The OS architecture.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComputerName",
+        "type": "string",
+        "description": "The name of the computer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalMemory",
+        "type": "real",
+        "description": "The total memory available in MB.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupId",
+        "type": "string",
+        "description": "The unique identifier for the group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastActiveDate",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was last active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FullDiskScanLastUpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the full disk scan was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AllowRemoteShell",
+        "type": "boolean",
+        "description": "Indicates whether remote shell is allowed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RangerVersion",
+        "type": "string",
+        "description": "The version of the ranger.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "The account name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanStatus",
+        "type": "string",
+        "description": "The scan status of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "The domain of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MissingPermissions",
+        "type": "string",
+        "description": "Details of the missing permissions.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsActive",
+        "type": "boolean",
+        "description": "Indicates whether the object is active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupIp",
+        "type": "string",
+        "description": "The IP address of the group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatRebootRequired",
+        "type": "boolean",
+        "description": "Indicates whether a reboot is required due to a threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupUpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the group was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalId",
+        "type": "string",
+        "description": "The external identifier associated with the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineType",
+        "type": "string",
+        "description": "The type of machine.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegisteredAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was registered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppsVulnerabilityStatus",
+        "type": "string",
+        "description": "The vulnerability status of the applications.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CoreCount",
+        "type": "real",
+        "description": "The number of CPU cores.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Locations",
+        "type": "string",
+        "description": "The locations associated with the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanFinishedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the scan was finished.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the object was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "The external IP address of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocationType",
+        "type": "string",
+        "description": "The type of location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyUpdatedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the policy was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsDecommissioned",
+        "type": "boolean",
+        "description": "Indicates whether the object is decommissioned.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuId",
+        "type": "string",
+        "description": "The identifier of the CPU.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkInterfaces",
+        "type": "string",
+        "description": "Details of the network interfaces.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsUninstalled",
+        "type": "boolean",
+        "description": "Indicates whether the object is uninstalled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActiveDirectory",
+        "type": "string",
+        "description": "Details about the active directory.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanStartedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the scan was started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RangerStatus",
+        "type": "string",
+        "description": "The status of the ranger.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "The unique identifier for the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "The version of the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsUsername",
+        "type": "string",
+        "description": "The username associated with the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EncryptedApplications",
+        "type": "boolean",
+        "description": "Indicates whether the applications are encrypted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastIpToMgmt",
+        "type": "string",
+        "description": "The last IP address used for management.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuCount",
+        "type": "real",
+        "description": "The number of CPUs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanAbortedAt",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the scan was aborted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "The name of the site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActiveThreats",
+        "type": "real",
+        "description": "The number of active threats.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Infected",
+        "type": "boolean",
+        "description": "Indicates whether the object is infected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConsoleMigrationStatus",
+        "type": "string",
+        "description": "The status of the console migration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsType",
+        "type": "string",
+        "description": "The type of operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "The unique identifier for the account.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupName",
+        "type": "string",
+        "description": "The name of the group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsName",
+        "type": "string",
+        "description": "The name of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsUpToDate",
+        "type": "boolean",
+        "description": "Indicates whether the object is up to date.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LicenseKey",
+        "type": "string",
+        "description": "The license key associated with the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserActionsNeeded",
+        "type": "string",
+        "description": "Details of the user actions needed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModelName",
+        "type": "string",
+        "description": "The model name of the object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsStartTime",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the operating system started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkQuarantineEnabled",
+        "type": "boolean",
+        "description": "Is Network Quarantine Enabled on the device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationalStateExpiration",
+        "type": "string",
+        "description": "Agent operational state.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteProfilingState",
+        "type": "string",
+        "description": "Agent remote profiling state.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SentinelOne"
+  }
+}

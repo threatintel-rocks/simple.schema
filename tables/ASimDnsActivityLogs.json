@@ -5,702 +5,1122 @@
       {
         "name": "AdditionalFields",
         "type": "dynamic",
-        "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim."
+        "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlags",
         "type": "string",
-        "description": "The DNS request flags, as provided by the reporting device. The structure of the DNS flags information may vary between different reporting devices."
+        "description": "The DNS request flags, as provided by the reporting device. The structure of the DNS flags information may vary between different reporting devices.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsAuthenticated",
         "type": "bool",
-        "description": "The DNS authenticated answer flag, which is related to DNSSEC, indicates in a response that all data included in the answer and authority sections of the response have been verified by the server according to the policies of that server. see RFC 3655 Section 6.1 for more information."
+        "description": "The DNS authenticated answer flag, which is related to DNSSEC, indicates in a response that all data included in the answer and authority sections of the response have been verified by the server according to the policies of that server. see RFC 3655 Section 6.1 for more information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsAuthoritative",
         "type": "bool",
-        "description": "The DNS authoritative answer flag indicates whether the response from the server was authoritative."
+        "description": "The DNS authoritative answer flag indicates whether the response from the server was authoritative.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsCheckingDisabled",
         "type": "bool",
-        "description": "The DNS CD flag, which is related to DNSSEC, indicates in a query that non-verified data is acceptable to the system sending the query."
+        "description": "The DNS CD flag, which is related to DNSSEC, indicates in a query that non-verified data is acceptable to the system sending the query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsRecursionAvailable",
         "type": "bool",
-        "description": "The DNS RA flag indicates in a response that that server supports recursive queries."
+        "description": "The DNS RA flag indicates in a response that that server supports recursive queries.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsRecursionDesired",
         "type": "bool",
-        "description": "The DNS recursion desired flag indicates in a request that that client would like the server to use recursive queries."
+        "description": "The DNS recursion desired flag indicates in a request that that client would like the server to use recursive queries.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsTruncated",
         "type": "bool",
-        "description": "The DNS TC flag indicates that a response was truncates as it exceeded the maximum response size."
+        "description": "The DNS TC flag indicates that a response was truncates as it exceeded the maximum response size.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsFlagsZ",
         "type": "bool",
-        "description": "The DNS Z flag is a deprecated DNS flag, which might be reported by older DNS systems."
+        "description": "The DNS Z flag is a deprecated DNS flag, which might be reported by older DNS systems.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsNetworkDuration",
         "type": "int",
-        "description": "The amount of time, in milliseconds, for the completion of DNS request."
+        "description": "The amount of time, in milliseconds, for the completion of DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsQuery",
         "type": "string",
-        "description": "The domain that needs to be resolved."
+        "description": "The domain that needs to be resolved.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsQueryClass",
         "type": "int",
-        "description": "The DNS class ID as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS class ID as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsQueryClassName",
         "type": "string",
-        "description": "The DNS class name as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS class name as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsQueryType",
         "type": "int",
-        "description": "The DNS resource record type codes as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS resource record type codes as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsQueryTypeName",
         "type": "string",
-        "description": "The DNS resource record type name as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS resource record type name as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseCode",
         "type": "int",
-        "description": "The DNS numerical response code as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS numerical response code as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseIpCity",
         "type": "string",
-        "description": "The city associated with the response IP address."
+        "description": "The city associated with the response IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseIpCountry",
         "type": "string",
-        "description": "The country associated with the response IP address."
+        "description": "The country associated with the response IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseIpLatitude",
         "type": "real",
-        "description": "The Latitude of the geographical coordinate associated with the response IP address."
+        "description": "The Latitude of the geographical coordinate associated with the response IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseIpLongitude",
         "type": "real",
-        "description": "The longitude of the geographical coordinate associated with the response IP address."
+        "description": "The longitude of the geographical coordinate associated with the response IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseIpRegion",
         "type": "string",
-        "description": "The region, or state, within a country, associated with the source IP address."
+        "description": "The region, or state, within a country, associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseName",
         "type": "string",
-        "description": "The content of the response, as included in the record. The structure of the DNS response data may vary between different reporting devices."
+        "description": "The content of the response, as included in the record. The structure of the DNS response data may vary between different reporting devices.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsSessionId",
         "type": "string",
-        "description": "The DNS session identifier as reported by the reporting device."
+        "description": "The DNS session identifier as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Dst",
         "type": "string",
-        "description": "A unique identifier of the server that received the DNS request."
+        "description": "A unique identifier of the server that received the DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDescription",
         "type": "string",
-        "description": "A descriptive text associated with the destination."
+        "description": "A descriptive text associated with the destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDeviceType",
         "type": "string",
-        "description": "The type of the destination device."
+        "description": "The type of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDomain",
         "type": "string",
-        "description": "The domain of the destination device."
+        "description": "The domain of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDomainType",
         "type": "string",
-        "description": "The type of DstDomain."
+        "description": "The type of DstDomain.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcId",
         "type": "string",
-        "description": "The ID of the destination device."
+        "description": "The ID of the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcIdType",
         "type": "string",
-        "description": "The type of DstDvcId."
+        "description": "The type of DstDvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcScope",
         "type": "string",
-        "description": "The cloud platform scope the destination device belongs to. DvcScope maps to a subscription on Azure and to an account on AWS."
+        "description": "The cloud platform scope the destination device belongs to. DvcScope maps to a subscription on Azure and to an account on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstDvcScopeId",
         "type": "string",
-        "description": "The cloud platform scope ID the destination device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform scope ID the destination device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstFQDN",
         "type": "string",
-        "description": "The destination device hostname, including domain information when available."
+        "description": "The destination device hostname, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoCity",
         "type": "string",
-        "description": "The city associated with the destination IP address."
+        "description": "The city associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoCountry",
         "type": "string",
-        "description": "The country associated with the destination IP address."
+        "description": "The country associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoLatitude",
         "type": "real",
-        "description": "The latitude of the geographical coordinate associated with the destination IP address."
+        "description": "The latitude of the geographical coordinate associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoLongitude",
         "type": "real",
-        "description": "The longitude of the geographical coordinate associated with the destination IP address."
+        "description": "The longitude of the geographical coordinate associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstGeoRegion",
         "type": "string",
-        "description": "The region, or state, within a country, associated with the destination IP address."
+        "description": "The region, or state, within a country, associated with the destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstHostname",
         "type": "string",
-        "description": "The destination device hostname, excluding domain information."
+        "description": "The destination device hostname, excluding domain information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstIpAddr",
         "type": "string",
-        "description": "The IP address of the server receiving the DNS request. For a regular DNS request, this value would typically be the reporting device, and in most cases set to 127.0.0.1."
+        "description": "The IP address of the server receiving the DNS request. For a regular DNS request, this value would typically be the reporting device, and in most cases set to 127.0.0.1.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstOriginalRiskLevel",
         "type": "string",
-        "description": "The risk level associated with the destination device as reported by the reporting device."
+        "description": "The risk level associated with the destination device as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstPortNumber",
         "type": "int",
-        "description": "Destination Port number."
+        "description": "Destination Port number.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DstRiskLevel",
         "type": "int",
-        "description": "The risk level associated with the destination device."
+        "description": "The risk level associated with the destination device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Dvc",
         "type": "string",
-        "description": "A unique identifier of the device reporting the event. The identifier can be either an IP Address, A hostname, or a device ID."
+        "description": "A unique identifier of the device reporting the event. The identifier can be either an IP Address, A hostname, or a device ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcAction",
         "type": "string",
-        "description": "The action taken by the the reporting device on the request, such as blocking it."
+        "description": "The action taken by the the reporting device on the request, such as blocking it.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDescription",
         "type": "string",
-        "description": "A descriptive text associated with the device. For example: Primary Domain Controller."
+        "description": "A descriptive text associated with the device. For example: Primary Domain Controller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDomain",
         "type": "string",
-        "description": "The domain of the device reporting the event."
+        "description": "The domain of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcDomainType",
         "type": "string",
-        "description": "The type of DvcDomain. Possible values include \"Windows\" and \"FQDN\"."
+        "description": "The type of DvcDomain. Possible values include \"Windows\" and \"FQDN\".",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcFQDN",
         "type": "string",
-        "description": "The fully qualified hostname, including domain information, of the device reporting the event."
+        "description": "The fully qualified hostname, including domain information, of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcHostname",
         "type": "string",
-        "description": "The hostname of the device reporting the event."
+        "description": "The hostname of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcId",
         "type": "string",
-        "description": "The unique ID of the device reporting the event."
+        "description": "The unique ID of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcIdType",
         "type": "string",
-        "description": "The type of DvcId."
+        "description": "The type of DvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcInterface",
         "type": "string",
-        "description": "The network interface on which data was captured. This field is typically relevant to network related activity which is captured by an intermediate or tap device."
+        "description": "The network interface on which data was captured. This field is typically relevant to network related activity which is captured by an intermediate or tap device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcIpAddr",
         "type": "string",
-        "description": "The IP Address of the device reporting the event."
+        "description": "The IP Address of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcMacAddr",
         "type": "string",
-        "description": "The MAC address of the device reporting the event."
+        "description": "The MAC address of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOriginalAction",
         "type": "string",
-        "description": "The original DvcAction as provided by the reporting device."
+        "description": "The original DvcAction as provided by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOs",
         "type": "string",
-        "description": "The operating system running on the device reporting the event."
+        "description": "The operating system running on the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcOsVersion",
         "type": "string",
-        "description": "The version of the operating system on the device reporting the event."
+        "description": "The version of the operating system on the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcScope",
         "type": "string",
-        "description": "The cloud platform scope the device belongs to. DvcScope map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform scope the device belongs to. DvcScope map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcScopeId",
         "type": "string",
-        "description": "The cloud platform scope ID the device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform scope ID the device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DvcZone",
         "type": "string",
-        "description": "The network segment of the device reporting the event."
+        "description": "The network segment of the device reporting the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventCount",
         "type": "int",
-        "description": "The number of events described by the record. This value is used when the source supports aggregation, and a single record may represent multiple events."
+        "description": "The number of events described by the record. This value is used when the source supports aggregation, and a single record may represent multiple events.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventEndTime",
         "type": "datetime",
-        "description": "The time at which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field."
+        "description": "The time at which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventMessage",
         "type": "string",
-        "description": "A general message or description."
+        "description": "A general message or description.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalSeverity",
         "type": "string",
-        "description": "The original severity as provided by the reporting device. This value is used to derive EventSeverity."
+        "description": "The original severity as provided by the reporting device. This value is used to derive EventSeverity.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalType",
         "type": "string",
-        "description": "The original event type or ID, for example, the original Windows event ID."
+        "description": "The original event type or ID, for example, the original Windows event ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOriginalUid",
         "type": "string",
-        "description": "A unique ID of the original record."
+        "description": "A unique ID of the original record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventOwner",
         "type": "string",
-        "description": "The owner of the event, which is usually the department or subsidiary in which it was generated."
+        "description": "The owner of the event, which is usually the department or subsidiary in which it was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventProduct",
         "type": "string",
-        "description": "The product generating the event."
+        "description": "The product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventProductVersion",
         "type": "string",
-        "description": "The version of the product generating the event."
+        "description": "The version of the product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventReportUrl",
         "type": "string",
-        "description": "A URL of a resource that provides additional information about the event."
+        "description": "A URL of a resource that provides additional information about the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventResult",
         "type": "string",
-        "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field."
+        "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventResultDetails",
         "type": "string",
-        "description": "The DNS response code as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "The DNS response code as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSchemaVersion",
         "type": "string",
-        "description": "The version of the schema."
+        "description": "The version of the schema.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSeverity",
         "type": "string",
-        "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High."
+        "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventStartTime",
         "type": "datetime",
-        "description": "The time at which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field."
+        "description": "The time at which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventSubType",
         "type": "string",
-        "description": "Either request or response."
+        "description": "Either request or response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventType",
         "type": "string",
-        "description": "Indicates the operation reported by the record. For DNS activity events, this value is the DNS opcode as defined by the Internet Assigned Numbers Authority (IANA)."
+        "description": "Indicates the operation reported by the record. For DNS activity events, this value is the DNS opcode as defined by the Internet Assigned Numbers Authority (IANA).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EventVendor",
         "type": "string",
-        "description": "The vendor of the product generating the event."
+        "description": "The vendor of the product generating the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocol",
         "type": "string",
-        "description": "The transport protocol used by the network resolution event. The value can be UDP or TCP."
+        "description": "The transport protocol used by the network resolution event. The value can be UDP or TCP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocolVersion",
         "type": "string",
-        "description": "The version of the network protocol. Typically used to differentiate between IPv4 and Ipv6."
+        "description": "The version of the network protocol. Typically used to differentiate between IPv4 and Ipv6.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleName",
         "type": "string",
-        "description": "The name or ID of the rule by associated with the inspection results."
+        "description": "The name or ID of the rule by associated with the inspection results.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleNumber",
         "type": "int",
-        "description": "The number of the rule associated with the inspection results."
+        "description": "The number of the rule associated with the inspection results.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Src",
         "type": "string",
-        "description": "A unique identifier of the source device."
+        "description": "A unique identifier of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDescription",
         "type": "string",
-        "description": "The number of the rule associated with the inspection results."
+        "description": "The number of the rule associated with the inspection results.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDeviceType",
         "type": "string",
-        "description": "The type of the source device."
+        "description": "The type of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDomain",
         "type": "string",
-        "description": "The domain of the source device."
+        "description": "The domain of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDomainType",
         "type": "string",
-        "description": "The type of SrcDomain."
+        "description": "The type of SrcDomain.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcId",
         "type": "string",
-        "description": "The ID of the source device."
+        "description": "The ID of the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcIdType",
         "type": "string",
-        "description": "The type of SrcDvcId."
+        "description": "The type of SrcDvcId.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcScope",
         "type": "string",
-        "description": "The cloud platform scope the source device belongs to. DvcScope maps to a subscription on Azure and to an account on AWS."
+        "description": "The cloud platform scope the source device belongs to. DvcScope maps to a subscription on Azure and to an account on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcDvcScopeId",
         "type": "string",
-        "description": "The cloud platform scope ID the source device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS."
+        "description": "The cloud platform scope ID the source device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcFQDN",
         "type": "string",
-        "description": "The source device hostname, including domain information."
+        "description": "The source device hostname, including domain information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoCity",
         "type": "string",
-        "description": "The city associated with the source IP address."
+        "description": "The city associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoCountry",
         "type": "string",
-        "description": "The country associated with the source IP address."
+        "description": "The country associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoLatitude",
         "type": "real",
-        "description": "The latitude of the geographical coordinate associated with the source IP address."
+        "description": "The latitude of the geographical coordinate associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoLongitude",
         "type": "real",
-        "description": "The longitude of the geographical coordinate associated with the source IP address."
+        "description": "The longitude of the geographical coordinate associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcGeoRegion",
         "type": "string",
-        "description": "The region, or state, within a country, associated with the source IP address."
+        "description": "The region, or state, within a country, associated with the source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcHostname",
         "type": "string",
-        "description": "The source device hostname, excluding domain information."
+        "description": "The source device hostname, excluding domain information.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcIpAddr",
         "type": "string",
-        "description": "The IP address of the client sending the DNS request. For a recursive DNS request, this value would typically be the reporting device, and in most cases, set to 127.0.0.1."
+        "description": "The IP address of the client sending the DNS request. For a recursive DNS request, this value would typically be the reporting device, and in most cases, set to 127.0.0.1.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcOriginalRiskLevel",
         "type": "string",
-        "description": "The risk level associated with the source device as reported by the reporting device."
+        "description": "The risk level associated with the source device as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcOriginalUserType",
         "type": "string",
-        "description": "The original source user type, as provided by the source."
+        "description": "The original source user type, as provided by the source.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcPortNumber",
         "type": "int",
-        "description": "Source port of the DNS query."
+        "description": "Source port of the DNS query.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcProcessGuid",
         "type": "string",
-        "description": "A generated unique identifier (GUID) of the process that initiated the DNS request."
+        "description": "A generated unique identifier (GUID) of the process that initiated the DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcProcessId",
         "type": "string",
-        "description": "The process ID (PID) of the process that initiated the DNS request."
+        "description": "The process ID (PID) of the process that initiated the DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcProcessName",
         "type": "string",
-        "description": "The name of the process that initiated the DNS request."
+        "description": "The name of the process that initiated the DNS request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcRiskLevel",
         "type": "int",
-        "description": "The risk level associated with the source device."
+        "description": "The risk level associated with the source device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserId",
         "type": "string",
-        "description": "A machine-readable, alphanumeric, unique representation of the source user."
+        "description": "A machine-readable, alphanumeric, unique representation of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserIdType",
         "type": "string",
-        "description": "The type of the ID stored in the SrcUserId field."
+        "description": "The type of the ID stored in the SrcUserId field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUsername",
         "type": "string",
-        "description": "The Source username, including domain information when available."
+        "description": "The Source username, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUsernameType",
         "type": "string",
-        "description": "The type of the username stored in the SrcUsername field."
+        "description": "The type of the username stored in the SrcUsername field.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserScope",
         "type": "string",
-        "description": "The scope, such as Azure AD tenant, in which SrcUserId and SrcUsername are defined."
+        "description": "The scope, such as Azure AD tenant, in which SrcUserId and SrcUsername are defined.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserScopeId",
         "type": "string",
-        "description": "The ID of the scope, such as Azure AD tenant, in which SrcUserId and SrcUsername are defined."
+        "description": "The ID of the scope, such as Azure AD tenant, in which SrcUserId and SrcUsername are defined.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserSessionId",
         "type": "string",
-        "description": "The unique ID of the sign-in session of the source user."
+        "description": "The unique ID of the sign-in session of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SrcUserType",
         "type": "string",
-        "description": "The type of the source user."
+        "description": "The type of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatCategory",
         "type": "string",
-        "description": "If a DNS event source also provides DNS security, it may also evaluate the DNS event. For example, it can search for the IP address or domain in a threat intelligence database, and assign the domain or IP address with a Threat Category."
+        "description": "If a DNS event source also provides DNS security, it may also evaluate the DNS event. For example, it can search for the IP address or domain in a threat intelligence database, and assign the domain or IP address with a Threat Category.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatConfidence",
         "type": "int",
-        "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100."
+        "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatField",
         "type": "string",
-        "description": "The field for which a threat was identified. The value is either SrcIpAddr, DstIpAddr, Domain, or DnsResponseName."
+        "description": "The field for which a threat was identified. The value is either SrcIpAddr, DstIpAddr, Domain, or DnsResponseName.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatFirstReportedTime",
         "type": "string",
-        "description": "The first time the IP address or domain were identified as a threat."
+        "description": "The first time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatFirstReportedTime_d",
         "type": "datetime",
-        "description": "The first time the IP address or domain were identified as a threat."
+        "description": "The first time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatId",
         "type": "string",
-        "description": "The ID of the threat or malware identified in the web session."
+        "description": "The ID of the threat or malware identified in the web session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatIpAddr",
         "type": "string",
-        "description": "An IP address for which a threat was identified. The field ThreatField contains the name of the field ThreatIpAddr represents. If a threat is identified in the Domain field, this field should be empty."
+        "description": "An IP address for which a threat was identified. The field ThreatField contains the name of the field ThreatIpAddr represents. If a threat is identified in the Domain field, this field should be empty.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatIsActive",
         "type": "bool",
-        "description": "True ID the threat identified is considered an active threat."
+        "description": "True ID the threat identified is considered an active threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatLastReportedTime",
         "type": "string",
-        "description": "The last time the IP address or domain were identified as a threat."
+        "description": "The last time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatLastReportedTime_d",
         "type": "datetime",
-        "description": "The last time the IP address or domain were identified as a threat."
+        "description": "The last time the IP address or domain were identified as a threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatName",
         "type": "string",
-        "description": "The name of the threat identified, as reported by the reporting device."
+        "description": "The name of the threat identified, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatOriginalConfidence",
         "type": "string",
-        "description": "The original confidence level of the threat identified, as reported by the reporting device."
+        "description": "The original confidence level of the threat identified, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatOriginalRiskLevel",
         "type": "int",
-        "description": "The original risk level associated with the threat identified, as reported by the reporting device."
+        "description": "The original risk level associated with the threat identified, as reported by the reporting device.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatOriginalRiskLevel_s",
         "type": "string",
-        "description": "The risk level associated with the threat identified, normalized to a value between 0 and a 100."
+        "description": "The risk level associated with the threat identified, normalized to a value between 0 and a 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatRiskLevel",
         "type": "int",
-        "description": "The risk level associated with the threat identified, normalized to a value between 0 and a 100."
+        "description": "The risk level associated with the threat identified, normalized to a value between 0 and a 100.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated."
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TransactionIdHex",
         "type": "string",
-        "description": "The DNS unique hex transaction ID."
+        "description": "The DNS unique hex transaction ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UrlCategory",
         "type": "string",
-        "description": "A DNS event source may also look up the category of the requested Domains."
+        "description": "A DNS event source may also look up the category of the requested Domains.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

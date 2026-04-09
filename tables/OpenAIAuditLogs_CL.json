@@ -1,0 +1,88 @@
+{
+  "OpenAIAuditLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The ID of this log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The event type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectiveAt",
+        "type": "datetime",
+        "description": "The Unix timestamp (in seconds) of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorType",
+        "type": "string",
+        "description": "The actor who performed the audit logged action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorApiKey",
+        "type": "dynamic",
+        "description": "The API Key used to perform the audit logged action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorSession",
+        "type": "dynamic",
+        "description": "The session in which the audit logged action was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Project",
+        "type": "dynamic",
+        "description": "The project that the action was scoped to",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDetails",
+        "type": "dynamic",
+        "description": "Details of the audit log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "The friendly name of the connector instance that collected this log",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "OpenAI"
+  }
+}

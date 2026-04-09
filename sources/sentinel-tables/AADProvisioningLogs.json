@@ -5,142 +5,226 @@
       {
         "name": "AADTenantId",
         "type": "string",
-        "description": "Unique Azure AD tenant ID"
+        "description": "Unique Azure AD tenant ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Category",
         "type": "string",
-        "description": "Category of the event"
+        "description": "Category of the event",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ChangeId",
         "type": "string",
-        "description": "Unique ID of this change in this cycle"
+        "description": "Unique ID of this change in this cycle",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CorrelationId",
         "type": "string",
-        "description": "ID to provide provisioning trail"
+        "description": "ID to provide provisioning trail",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CycleId",
         "type": "string",
-        "description": "Unique ID per job iteration"
+        "description": "Unique ID per job iteration",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DurationMs",
         "type": "long",
-        "description": "Indicates how long this provisioning action took to finish"
+        "description": "Indicates how long this provisioning action took to finish",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Id",
         "type": "string",
-        "description": "Indicates the unique ID for the activity"
+        "description": "Indicates the unique ID for the activity",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InitiatedBy",
         "type": "string",
-        "description": "Details of who initiated this provisioning"
+        "description": "Details of who initiated this provisioning",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "JobId",
         "type": "string",
-        "description": "The unique ID for the whole provisioning job"
+        "description": "The unique ID for the whole provisioning job",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ModifiedProperties",
         "type": "string",
-        "description": "Details of each property that was modified in this provisioning action on this object"
+        "description": "Details of each property that was modified in this provisioning action on this object",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationName",
         "type": "string",
-        "description": "Name of the operation"
+        "description": "Name of the operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationVersion",
         "type": "string",
-        "description": "The REST API version that's requested by the client"
+        "description": "The REST API version that's requested by the client",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProvisioningAction",
         "type": "string",
-        "description": "Indicates the activity name or the operation name. For a list of activities logged, refer to Azure AD activity list"
+        "description": "Indicates the activity name or the operation name. For a list of activities logged, refer to Azure AD activity list",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProvisioningStatusInfo",
         "type": "string",
-        "description": "Details of provisioning status"
+        "description": "Details of provisioning status",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProvisioningSteps",
         "type": "string",
-        "description": "Details of each step in provisioning"
+        "description": "Details of each step in provisioning",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultDescription",
         "type": "string",
-        "description": "When available, provides the error description for the provisioning operation"
+        "description": "When available, provides the error description for the provisioning operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultSignature",
         "type": "string",
-        "description": "Contains the error code, if any, for the provisioning operation"
+        "description": "Contains the error code, if any, for the provisioning operation",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResultType",
         "type": "string",
-        "description": "The result of the provisioning operation can be Success, Failure, or Skipped"
+        "description": "The result of the provisioning operation can be Success, Failure, or Skipped",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipal",
         "type": "string",
-        "description": "Represents the service principal used for provisioning"
+        "description": "Represents the service principal used for provisioning",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIdentity",
         "type": "string",
-        "description": "Details of source object being provisioned"
+        "description": "Details of source object being provisioned",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetIdentity",
         "type": "string",
-        "description": "Details of target object being provisioned"
+        "description": "Details of target object being provisioned",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TargetSystem",
         "type": "string",
-        "description": "Details of target system of the object being provisioned"
+        "description": "Details of target system of the object being provisioned",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time of the event in UTC"
+        "description": "The date and time of the event in UTC",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

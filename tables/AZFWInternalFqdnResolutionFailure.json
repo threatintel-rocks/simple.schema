@@ -5,82 +5,130 @@
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Error",
         "type": "string",
-        "description": "Description of the error that caused the failure of the FQDN resolution."
+        "description": "Description of the error that caused the failure of the FQDN resolution.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Fqdn",
         "type": "string",
-        "description": "The FQDN which the firewall failed to resolve."
+        "description": "The FQDN which the firewall failed to resolve.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Policy",
         "type": "string",
-        "description": "Name of the policy in which the rule with the failing FQDN resolution resides."
+        "description": "Name of the policy in which the rule with the failing FQDN resolution resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_ResourceId",
         "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with"
+        "description": "A unique identifier for the resource that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Rule",
         "type": "string",
-        "description": "Name of the rule with the failing FQDN resolution."
+        "description": "Name of the rule with the failing FQDN resolution.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollection",
         "type": "string",
-        "description": "Name of the rule collection in which the rule with the failing FQDN resolution resides."
+        "description": "Name of the rule collection in which the rule with the failing FQDN resolution resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleCollectionGroup",
         "type": "string",
-        "description": "Name of the rule collection group in which the rule with the failing FQDN resolution resides."
+        "description": "Name of the rule collection group in which the rule with the failing FQDN resolution resides.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServerIp",
         "type": "string",
-        "description": "DNS Resolver server's IP address."
+        "description": "DNS Resolver server's IP address.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServerPort",
         "type": "int",
-        "description": "DNS Resolver server's port."
+        "description": "DNS Resolver server's port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_SubscriptionId",
         "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with"
+        "description": "A unique identifier for the subscription that the record is associated with",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "Timestamp (UTC) when the data plane log was created."
+        "description": "Timestamp (UTC) when the data plane log was created.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

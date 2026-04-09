@@ -1,7 +1,108 @@
 {
   "QscoutAppEvents_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time when the event was ingested",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "app_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "org_id",
+        "type": "string",
+        "description": "Unique identifier of the organization",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "package",
+        "type": "string",
+        "description": "The package name of the application",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "version",
+        "type": "string",
+        "description": "The version of the application",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "platform",
+        "type": "string",
+        "description": "The platform of the device (e.g., iOS, Android)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "mdm_source",
+        "type": "string",
+        "description": "The Mobile Device Management source",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "mdm_device_id",
+        "type": "string",
+        "description": "The unique identifier of the device in MDM",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "device_os_build_version",
+        "type": "string",
+        "description": "The OS build version of the device",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "result_type",
+        "type": "string",
+        "description": "The type of result returned",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "results",
+        "type": "dynamic",
+        "description": "The detailed results of the app event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "received_at",
+        "type": "datetime",
+        "description": "The timestamp when the event was received from QScout",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

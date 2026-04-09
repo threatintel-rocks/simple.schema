@@ -1,0 +1,104 @@
+{
+  "MiroContentLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time when the event was ingested",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "id",
+        "type": "string",
+        "description": "Unique identifier of the content log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actionTime",
+        "type": "datetime",
+        "description": "Timestamp when the action was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actionType",
+        "type": "string",
+        "description": "Type of action performed (create, update, delete, etc.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actor_id",
+        "type": "string",
+        "description": "Unique identifier of the user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actor_email",
+        "type": "string",
+        "description": "Email address of the user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actor_name",
+        "type": "string",
+        "description": "Name of the user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "contentId",
+        "type": "string",
+        "description": "Unique identifier of the content affected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemId",
+        "type": "string",
+        "description": "Unique identifier of the item affected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemType",
+        "type": "string",
+        "description": "Type of the content item",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "relationships",
+        "type": "dynamic",
+        "description": "Relationships of the content item in JSON format",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "state",
+        "type": "dynamic",
+        "description": "State information of the content item in JSON format",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Miro"
+  }
+}

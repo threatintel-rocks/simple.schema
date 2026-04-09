@@ -5,287 +5,458 @@
       {
         "name": "AuthorizationInfo",
         "type": "string",
-        "description": "Details about the authorization."
+        "description": "Details about the authorization.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CallerIp",
         "type": "string",
-        "description": "IP address of the caller."
+        "description": "IP address of the caller.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "EncryptedInterconnectRouter",
         "type": "bool",
-        "description": "Whether the router uses encrypted interconnect."
+        "description": "Whether the router uses encrypted interconnect.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceName",
         "type": "string",
-        "description": "Name of the resource affected."
+        "description": "Name of the resource affected.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "GCPResourceType",
         "type": "string",
-        "description": "Type of the GCP resource."
+        "description": "Type of the GCP resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InsertId",
         "type": "string",
-        "description": "A unique ID for the log entry."
+        "description": "A unique ID for the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "LogName",
         "type": "string",
-        "description": "The name of the log stream."
+        "description": "The name of the log stream.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "MethodName",
         "type": "string",
-        "description": "API method invoked."
+        "description": "API method invoked.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationFirst",
         "type": "bool",
-        "description": "Indicates if this is the first operation in the series."
+        "description": "Indicates if this is the first operation in the series.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationId",
         "type": "string",
-        "description": "Identifier of the operation."
+        "description": "Identifier of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationLast",
         "type": "bool",
-        "description": "Indicates if this is the last operation in the series."
+        "description": "Indicates if this is the last operation in the series.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OperationProducer",
         "type": "string",
-        "description": "Producer of the operation."
+        "description": "Producer of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadRequestNats",
         "type": "string",
-        "description": "NATs request payload."
+        "description": "NATs request payload.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PayloadType",
         "type": "string",
-        "description": "Type of payload in the log."
+        "description": "Type of payload in the log.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PrincipalEmail",
         "type": "string",
-        "description": "Email of the principal initiating the request."
+        "description": "Email of the principal initiating the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PrincipalSubject",
         "type": "string",
-        "description": "Subject or identity of the principal."
+        "description": "Subject or identity of the principal.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProjectId",
         "type": "string",
-        "description": "GCP Project ID where the event occurred."
+        "description": "GCP Project ID where the event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceiveTimestamp",
         "type": "datetime",
-        "description": "Time when the log was received."
+        "description": "Time when the log was received.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestAttributeAuth",
         "type": "string",
-        "description": "Authorization details of the request."
+        "description": "Authorization details of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestAttributeDestination",
         "type": "string",
-        "description": "Destination details of the request."
+        "description": "Destination details of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestAttributeTime",
         "type": "datetime",
-        "description": "Timestamp of the request attribute."
+        "description": "Timestamp of the request attribute.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestId",
         "type": "string",
-        "description": "Unique ID of the request."
+        "description": "Unique ID of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestName",
         "type": "string",
-        "description": "Name of the request."
+        "description": "Name of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestNetwork",
         "type": "string",
-        "description": "Network where the request was made."
+        "description": "Network where the request was made.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestRegion",
         "type": "string",
-        "description": "Region where the request originated."
+        "description": "Region where the request originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestSelfLink",
         "type": "string",
-        "description": "SelfLink URL of the request resource."
+        "description": "SelfLink URL of the request resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RequestType",
         "type": "string",
-        "description": "Type of the request."
+        "description": "Type of the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceLocation",
         "type": "string",
-        "description": "Geographic location of the resource."
+        "description": "Geographic location of the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceRegion",
         "type": "string",
-        "description": "Region of the GCP resource."
+        "description": "Region of the GCP resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseErrorCode",
         "type": "string",
-        "description": "Error code if any error occurred."
+        "description": "Error code if any error occurred.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseErrorMessage",
         "type": "string",
-        "description": "Error message returned, if any."
+        "description": "Error message returned, if any.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseErrors",
         "type": "string",
-        "description": "Details of any errors returned."
+        "description": "Details of any errors returned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseId",
         "type": "string",
-        "description": "Identifier of the response."
+        "description": "Identifier of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseInsertTime",
         "type": "datetime",
-        "description": "Insert time of the response."
+        "description": "Insert time of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseName",
         "type": "string",
-        "description": "Name of the response."
+        "description": "Name of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseOperationType",
         "type": "string",
-        "description": "Type of operation performed."
+        "description": "Type of operation performed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseProgress",
         "type": "string",
-        "description": "Progress status of the response."
+        "description": "Progress status of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseRegion",
         "type": "string",
-        "description": "Region associated with the response."
+        "description": "Region associated with the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseSelfLink",
         "type": "string",
-        "description": "SelfLink URL of the response."
+        "description": "SelfLink URL of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseSelfLinkWithId",
         "type": "string",
-        "description": "SelfLink URL with ID in the response."
+        "description": "SelfLink URL with ID in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseStartTime",
         "type": "datetime",
-        "description": "Start time of the response."
+        "description": "Start time of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseStatus",
         "type": "string",
-        "description": "Status of the response."
+        "description": "Status of the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTargetId",
         "type": "string",
-        "description": "Target ID in the response."
+        "description": "Target ID in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseTargetLink",
         "type": "string",
-        "description": "Target link in the response."
+        "description": "Target link in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseType",
         "type": "string",
-        "description": "Type of the response returned."
+        "description": "Type of the response returned.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseUser",
         "type": "string",
-        "description": "User returned in the response."
+        "description": "User returned in the response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RootTriggerId",
         "type": "string",
-        "description": "Root trigger ID of the operation."
+        "description": "Root trigger ID of the operation.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RouterId",
         "type": "string",
-        "description": "Identifier of the Cloud Router."
+        "description": "Identifier of the Cloud Router.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServiceName",
         "type": "string",
-        "description": "Name of the GCP service."
+        "description": "Name of the GCP service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Severity",
         "type": "string",
-        "description": "Severity level of the event."
+        "description": "Severity level of the event.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The time at which the log was generated."
+        "description": "The time at which the log was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserAgent",
         "type": "string",
-        "description": "User agent string of the caller."
+        "description": "User agent string of the caller.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }

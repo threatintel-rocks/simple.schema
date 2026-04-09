@@ -1,217 +1,433 @@
 {
   "AlertEvidence": {
-    "source": "Defender XDR Advanced Hunting Schema",
+    "source": "Sentinel Tables",
     "columns": [
       {
-        "name": "Timestamp",
-        "type": "datetime",
-        "description": "Date and time when the event was recorded"
-      },
-      {
-        "name": "AlertId",
+        "name": "AccountDomain",
         "type": "string",
-        "description": "Unique identifier for the alert"
-      },
-      {
-        "name": "Title",
-        "type": "string",
-        "description": "Title of the alert"
-      },
-      {
-        "name": "Categories",
-        "type": "string",
-        "description": "List of categories that the information belongs to, in JSON array format"
-      },
-      {
-        "name": "AttackTechniques",
-        "type": "string",
-        "description": "MITRE ATT&CK techniques associated with the activity that triggered the alert"
-      },
-      {
-        "name": "ServiceSource",
-        "type": "string",
-        "description": "Product or service that provided the alert information"
-      },
-      {
-        "name": "DetectionSource",
-        "type": "string",
-        "description": "Detection technology or sensor that identified the notable component or activity"
-      },
-      {
-        "name": "EntityType",
-        "type": "string",
-        "description": "Type of object, such as a file, a process, a device, or a user"
-      },
-      {
-        "name": "EvidenceRole",
-        "type": "string",
-        "description": "How the entity is involved in an alert, indicating whether it is impacted or is merely related"
-      },
-      {
-        "name": "EvidenceDirection",
-        "type": "string",
-        "description": "Indicates whether the entity is the source or the destination of a network connection"
-      },
-      {
-        "name": "FileName",
-        "type": "string",
-        "description": "Name of the file that the recorded action was applied to"
-      },
-      {
-        "name": "FolderPath",
-        "type": "string",
-        "description": "Folder containing the file that the recorded action was applied to"
-      },
-      {
-        "name": "SHA1",
-        "type": "string",
-        "description": "SHA-1 of the file that the recorded action was applied to"
-      },
-      {
-        "name": "SHA256",
-        "type": "string",
-        "description": "SHA-256 of the file that the recorded action was applied to. This field is usually not populated—use the SHA1 column when available."
-      },
-      {
-        "name": "FileSize",
-        "type": "long",
-        "description": "Size of the file in bytes"
-      },
-      {
-        "name": "ThreatFamily",
-        "type": "string",
-        "description": "Malware family that the suspicious or malicious file or process has been classified under"
-      },
-      {
-        "name": "RemoteIP",
-        "type": "string",
-        "description": "IP address that was being connected to"
-      },
-      {
-        "name": "RemoteUrl",
-        "type": "string",
-        "description": "URL or fully qualified domain name (FQDN) that was being connected to"
+        "description": "Domain of the account.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "AccountName",
         "type": "string",
-        "description": "User name of the account"
-      },
-      {
-        "name": "AccountDomain",
-        "type": "string",
-        "description": "Domain of the account"
-      },
-      {
-        "name": "AccountSid",
-        "type": "string",
-        "description": "Security Identifier (SID) of the account"
+        "description": "User name of the account.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Microsoft Entra ID"
+        "description": "Unique identifier for the account in Azure Active Directory.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountSid",
+        "type": "string",
+        "description": "Security Identifier (SID) of the account.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "AccountUpn",
         "type": "string",
-        "description": "User principal name (UPN) of the account"
+        "description": "User principal name (UPN) of the account.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
-        "name": "DeviceId",
-        "type": "string",
-        "description": "Unique identifier for the device in the service"
+        "name": "AdditionalFields",
+        "type": "dynamic",
+        "description": "Additional information about the event in JSON array format.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
-        "name": "DeviceName",
+        "name": "AlertId",
         "type": "string",
-        "description": "Fully qualified domain name (FQDN) of the device"
-      },
-      {
-        "name": "LocalIP",
-        "type": "string",
-        "description": "IP address assigned to the local device used during communication"
-      },
-      {
-        "name": "NetworkMessageId",
-        "type": "string",
-        "description": "Unique identifier for the email, generated by Office 365"
-      },
-      {
-        "name": "EmailSubject",
-        "type": "string",
-        "description": "Subject of the email"
+        "description": "Unique identifier for the alert.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "Application",
         "type": "string",
-        "description": "Application that performed the recorded action"
+        "description": "Application that performed the recorded action.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "ApplicationId",
         "type": "int",
-        "description": "Unique identifier for the application"
+        "description": "Unique identifier for the application.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
-        "name": "OAuthApplicationId",
+        "name": "AttackTechniques",
         "type": "string",
-        "description": "Unique identifier of the third-party OAuth application"
+        "description": "MITRE ATT&CK techniques associated with the activity that triggered the alert.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
-        "name": "ProcessCommandLine",
-        "type": "string",
-        "description": "Command line used to create the new process"
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
-        "name": "RegistryKey",
+        "name": "Categories",
         "type": "string",
-        "description": "Registry key that the recorded action was applied to"
-      },
-      {
-        "name": "RegistryValueName",
-        "type": "string",
-        "description": "Name of the registry value that the recorded action was applied to"
-      },
-      {
-        "name": "RegistryValueData",
-        "type": "string",
-        "description": "Data of the registry value that the recorded action was applied to"
-      },
-      {
-        "name": "AdditionalFields",
-        "type": "string",
-        "description": "Additional information about the entity or event"
-      },
-      {
-        "name": "Severity",
-        "type": "string",
-        "description": "Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert"
-      },
-      {
-        "name": "CloudResource",
-        "type": "string",
-        "description": "Cloud resource name"
+        "description": "List of categories that the information belongs to, in JSON array format.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudPlatform",
         "type": "string",
-        "description": "The cloud platform that the resource belongs to, can be Azure, Amazon Web Services, or Google Cloud Platform"
+        "description": "The cloud platform that the resource belongs to, can be Azure, Amazon Web Services, or Google Cloud Platform.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudResource",
+        "type": "string",
+        "description": "Cloud resource name.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionSource",
+        "type": "string",
+        "description": "Detection technology or sensor that identified the notable component or activity.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in the service.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceName",
+        "type": "string",
+        "description": "Fully qualified domain name (FQDN) of the machine.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSubject",
+        "type": "string",
+        "description": "Subject of the email.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityType",
+        "type": "string",
+        "description": "Type of object, such as a file, a process, a device, or a user.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EvidenceDirection",
+        "type": "string",
+        "description": "Indicates whether the entity is the source or the destination of a network connection.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EvidenceRole",
+        "type": "string",
+        "description": "How the entity is involved in an alert, indicating whether it is impacted or is merely related.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "Name of the file that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "long",
+        "description": "Size of the file in bytes.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FolderPath",
+        "type": "string",
+        "description": "Folder containing the file that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIP",
+        "type": "string",
+        "description": "IP address assigned to the local device used during communication.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkMessageId",
+        "type": "string",
+        "description": "Unique identifier for the email, generated by Office 365.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OAuthApplicationId",
+        "type": "string",
+        "description": "Unique identifier of the third-party OAuth application.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCommandLine",
+        "type": "string",
+        "description": "Command line used to create the new process.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryKey",
+        "type": "string",
+        "description": "Registry key that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValueData",
+        "type": "string",
+        "description": "Data of the registry value that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValueName",
+        "type": "string",
+        "description": "Name of the registry value that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteIP",
+        "type": "string",
+        "description": "IP address that was being connected to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteUrl",
+        "type": "string",
+        "description": "URL or fully qualified domain name (FQDN) that was being connected to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceSource",
+        "type": "string",
+        "description": "Product or service that provided the alert information.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA1",
+        "type": "string",
+        "description": "SHA-1 of the file that the recorded action was applied to.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA256",
+        "type": "string",
+        "description": "SHA-256 of the file that the recorded action was applied to. This field is usually not populated-use the SHA1 column when available.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatFamily",
+        "type": "string",
+        "description": "Malware family that the suspicious or malicious file or process has been classified under.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the record was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Title",
+        "type": "string",
+        "description": "Title of the alert.",
+        "availability": [
+          "Defender XDR",
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the event was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceType",
         "type": "string",
-        "description": "Type of cloud resource"
+        "description": "Type of cloud resource",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "ResourceID",
         "type": "string",
-        "description": "Unique identifier of the cloud resource accessed"
+        "description": "Unique identifier of the cloud resource accessed",
+        "availability": [
+          "Defender XDR"
+        ]
       },
       {
         "name": "SubscriptionId",
         "type": "string",
-        "description": "Unique identifier of the cloud service subscription"
+        "description": "Unique identifier of the cloud service subscription",
+        "availability": [
+          "Defender XDR"
+        ]
       }
+    ],
+    "sources": [
+      "Sentinel Tables",
+      "Defender XDR Advanced Hunting Schema"
     ]
   }
 }

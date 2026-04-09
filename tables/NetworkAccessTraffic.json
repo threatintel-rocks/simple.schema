@@ -5,447 +5,714 @@
       {
         "name": "AccessType",
         "type": "string",
-        "description": "Type of accessed application. Access type options: QuickAccess, PrivateAccess."
+        "description": "Type of accessed application. Access type options: QuickAccess, PrivateAccess.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Action",
         "type": "string",
-        "description": "The action taken on the network session. Allowed, Denied."
+        "description": "The action taken on the network session. Allowed, Denied.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AgentVersion",
         "type": "string",
-        "description": "The version of the agent connecting."
+        "description": "The version of the agent connecting.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AIAgentId",
         "type": "string",
-        "description": "The unique identifier of the AI agent associated with the traffic."
+        "description": "The unique identifier of the AI agent associated with the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AIAgentName",
         "type": "string",
-        "description": "The name of the AI agent associated with the traffic."
+        "description": "The name of the AI agent associated with the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppId",
         "type": "string",
-        "description": "Destination Application ID accessed in Azure AD during the transaction."
+        "description": "Destination Application ID accessed in Azure AD during the transaction.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "AppSegmentId",
         "type": "string",
-        "description": "Destination Application segment ID from Azure AD accessed during the transaction."
+        "description": "Destination Application segment ID from Azure AD accessed during the transaction.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_BilledSize",
         "type": "real",
-        "description": "The record size in bytes"
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppCatalogId",
         "type": "string",
-        "description": "The id of the application in the saas application catalog."
+        "description": "The id of the application in the saas application catalog.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppCategories",
         "type": "string",
-        "description": "The category list of the cloud application (i.e social media, search, generative AI)."
+        "description": "The category list of the cloud application (i.e social media, search, generative AI).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppCategory",
         "type": "string",
-        "description": "The category of the cloud application (i.e social media, search, generative AI)."
+        "description": "The category of the cloud application (i.e social media, search, generative AI).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppComplianceScore",
         "type": "int",
-        "description": "The compliance score of the application."
+        "description": "The compliance score of the application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppGeneralScore",
         "type": "int",
-        "description": "The general score of the application."
+        "description": "The general score of the application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppLegalScore",
         "type": "int",
-        "description": "The legal score of the application."
+        "description": "The legal score of the application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppLoginUser",
         "type": "string",
-        "description": "The username that was used to log into the application."
+        "description": "The username that was used to log into the application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppName",
         "type": "string",
-        "description": "The name of the application (i.e chatGPT, SalesForce, Bing)."
+        "description": "The name of the application (i.e chatGPT, SalesForce, Bing).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "CloudAppRiskScore",
         "type": "int",
-        "description": "The risk score of the application."
+        "description": "The risk score of the application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConnectionId",
         "type": "string",
-        "description": "Unique identifier representing the connection this traffic log was initiated from."
+        "description": "Unique identifier representing the connection this traffic log was initiated from.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConnectionStatus",
         "type": "string",
-        "description": "Status of a connection. Status options: Open, Active, Closed."
+        "description": "Status of a connection. Status options: Open, Active, Closed.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConnectorId",
         "type": "string",
-        "description": "Private access connector ID."
+        "description": "Private access connector ID.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConnectorIp",
         "type": "string",
-        "description": "Private access connector IP."
+        "description": "Private access connector IP.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ConnectorName",
         "type": "string",
-        "description": "Private access connector name."
+        "description": "Private access connector name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Description",
         "type": "string",
-        "description": "Additional details describing the traffic."
+        "description": "Additional details describing the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationFqdn",
         "type": "string",
-        "description": "The destination device hostname, including domain information when available."
+        "description": "The destination device hostname, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationIp",
         "type": "string",
-        "description": "The IP address of the connection or session destination."
+        "description": "The IP address of the connection or session destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationPort",
         "type": "int",
-        "description": "The destination IP port."
+        "description": "The destination IP port.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationUrl",
         "type": "string",
-        "description": "The Url link of the connection or session destination."
+        "description": "The Url link of the connection or session destination.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DestinationWebCategories",
         "type": "string",
-        "description": "The destination FQDN's Web Categories."
+        "description": "The destination FQDN's Web Categories.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceCategory",
         "type": "string",
-        "description": "Device type the transaction originated from. Client, Branch."
+        "description": "Device type the transaction originated from. Client, Branch.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceId",
         "type": "string",
-        "description": "The ID of the source device as reported in the record."
+        "description": "The ID of the source device as reported in the record.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceOperatingSystem",
         "type": "string",
-        "description": "The client connecting operating system type."
+        "description": "The client connecting operating system type.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DeviceOperatingSystemVersion",
         "type": "string",
-        "description": "The client connecting operating system version."
+        "description": "The client connecting operating system version.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "DnsResponseOrigin",
         "type": "string",
-        "description": "The origin of the DNS response for the traffic. Possible values: Cache, Onprem."
+        "description": "The origin of the DNS response for the traffic. Possible values: Cache, Onprem.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FilteringProfileId",
         "type": "string",
-        "description": "The ID of the Filtering Profile associated with the action performed on traffic."
+        "description": "The ID of the Filtering Profile associated with the action performed on traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "FilteringProfileName",
         "type": "string",
-        "description": "The name of the Filtering Profile associated with the action performed on traffic."
+        "description": "The name of the Filtering Profile associated with the action performed on traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpMethod",
         "type": "string",
-        "description": "The http method used in the request."
+        "description": "The http method used in the request.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpRequestContentType",
         "type": "string",
-        "description": "The content type specified in the HTTP request header."
+        "description": "The content type specified in the HTTP request header.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpResponseContentType",
         "type": "string",
-        "description": "The content type specified in the HTTP response header."
+        "description": "The content type specified in the HTTP response header.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "HttpUserAgent",
         "type": "string",
-        "description": "The user agent string from the HTTP request header."
+        "description": "The user agent string from the HTTP request header.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "InitiatingProcessName",
         "type": "string",
-        "description": "The process initiating the traffic transaction."
+        "description": "The process initiating the traffic transaction.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "_IsBillable",
         "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account"
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosClientName",
         "type": "string",
-        "description": "Name associated with client during authentication."
+        "description": "Name associated with client during authentication.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosErrorCode",
         "type": "int",
-        "description": "Kerberos error code (0-81). See KerberosErrorCodeName for corresponding error name."
+        "description": "Kerberos error code (0-81). See KerberosErrorCodeName for corresponding error name.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosErrorCodeName",
         "type": "string",
-        "description": "Kerberos error code name. Possible values: KDC_ERR_NONE (0), KDC_ERR_NAME_EXP (1), KDC_ERR_SERVICE_EXP (2), KDC_ERR_BAD_PVNO (3), KDC_ERR_C_OLD_MAST_KVNO (4), KDC_ERR_S_OLD_MAST_KVNO (5), KDC_ERR_C_PRINCIPAL_UNKNOWN (6), KDC_ERR_S_PRINCIPAL_UNKNOWN (7), KDC_ERR_PRINCIPAL_NOT_UNIQUE (8), KDC_ERR_NULL_KEY (9), KDC_ERR_CANNOT_POSTDATE (10), KDC_ERR_NEVER_VALID (11), KDC_ERR_POLICY (12), KDC_ERR_BADOPTION (13), KDC_ERR_ETYPE_NOSUPP (14), KDC_ERR_SUMTYPE_NOSUPP (15), KDC_ERR_PADATA_TYPE_NOSUPP (16), KDC_ERR_TRTYPE_NOSUPP (17), KDC_ERR_CLIENT_REVOKED (18), KDC_ERR_SERVICE_REVOKED (19), KDC_ERR_TGT_REVOKED (20), KDC_ERR_CLIENT_NOTYET (21), KDC_ERR_SERVICE_NOTYET (22), KDC_ERR_KEY_EXPIRED (23), KDC_ERR_PREAUTH_FAILED (24), KDC_ERR_PREAUTH_REQUIRED (25), KDC_ERR_SERVER_NOMATCH (26), KDC_ERR_MUST_USE_USER2USER (27), KDC_ERR_PATH_NOT_ACCEPTED (28), KDC_ERR_SVC_UNAVAILABLE (29), KRB_AP_ERR_BAD_INTEGRITY (31), KRB_AP_ERR_TKT_EXPIRED (32), KRB_AP_ERR_TKT_NYV (33), KRB_AP_ERR_REPEAT (34), KRB_AP_ERR_NOT_US (35), KRB_AP_ERR_BADMATCH (36), KRB_AP_ERR_SKEW (37), KRB_AP_ERR_BADADDR (38), KRB_AP_ERR_BADVERSION (39), KRB_AP_ERR_MSG_TYPE (40), KRB_AP_ERR_MODIFIED (41), KRB_AP_ERR_BADORDER (42), KRB_AP_ERR_BADKEYVER (44), KRB_AP_ERR_NOKEY (45), KRB_AP_ERR_MUT_FAIL (46), KRB_AP_ERR_BADDIRECTION (47), KRB_AP_ERR_METHOD (48), KRB_AP_ERR_BADSEQ (49), KRB_AP_ERR_INAPP_CKSUM (50), KRB_AP_PATH_NOT_ACCEPTED (51), KRB_ERR_RESPONSE_TOO_BIG (52), KRB_ERR_GENERIC (60), KRB_ERR_FIELD_TOOLONG (61), KDC_ERR_CLIENT_NOT_TRUSTED (62), KDC_ERR_KDC_NOT_TRUSTED (63), KDC_ERR_INVALID_SIG (64), KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED (65), KDC_ERR_CERTIFICATE_MISMATCH (66), KRB_AP_ERR_NO_TGT (67), KDC_ERR_WRONG_REALM (68), KRB_AP_ERR_USER_TO_USER_REQUIRED (69), KDC_ERR_CANT_VERIFY_CERTIFICATE (70), KDC_ERR_INVALID_CERTIFICATE (71), KDC_ERR_REVOKED_CERTIFICATE (72), KDC_ERR_REVOCATION_STATUS_UNKNOWN (73), KDC_ERR_REVOCATION_STATUS_UNAVAILABLE (74), KDC_ERR_CLIENT_NAME_MISMATCH (75), KDC_ERR_KDC_NAME_MISMATCH (76), KDC_ERR_INCONSISTENT_KEY_PURPOSE (77), KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED (78), KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED (79), KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED (80), KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED (81)."
+        "description": "Kerberos error code name. Possible values: KDC_ERR_NONE (0), KDC_ERR_NAME_EXP (1), KDC_ERR_SERVICE_EXP (2), KDC_ERR_BAD_PVNO (3), KDC_ERR_C_OLD_MAST_KVNO (4), KDC_ERR_S_OLD_MAST_KVNO (5), KDC_ERR_C_PRINCIPAL_UNKNOWN (6), KDC_ERR_S_PRINCIPAL_UNKNOWN (7), KDC_ERR_PRINCIPAL_NOT_UNIQUE (8), KDC_ERR_NULL_KEY (9), KDC_ERR_CANNOT_POSTDATE (10), KDC_ERR_NEVER_VALID (11), KDC_ERR_POLICY (12), KDC_ERR_BADOPTION (13), KDC_ERR_ETYPE_NOSUPP (14), KDC_ERR_SUMTYPE_NOSUPP (15), KDC_ERR_PADATA_TYPE_NOSUPP (16), KDC_ERR_TRTYPE_NOSUPP (17), KDC_ERR_CLIENT_REVOKED (18), KDC_ERR_SERVICE_REVOKED (19), KDC_ERR_TGT_REVOKED (20), KDC_ERR_CLIENT_NOTYET (21), KDC_ERR_SERVICE_NOTYET (22), KDC_ERR_KEY_EXPIRED (23), KDC_ERR_PREAUTH_FAILED (24), KDC_ERR_PREAUTH_REQUIRED (25), KDC_ERR_SERVER_NOMATCH (26), KDC_ERR_MUST_USE_USER2USER (27), KDC_ERR_PATH_NOT_ACCEPTED (28), KDC_ERR_SVC_UNAVAILABLE (29), KRB_AP_ERR_BAD_INTEGRITY (31), KRB_AP_ERR_TKT_EXPIRED (32), KRB_AP_ERR_TKT_NYV (33), KRB_AP_ERR_REPEAT (34), KRB_AP_ERR_NOT_US (35), KRB_AP_ERR_BADMATCH (36), KRB_AP_ERR_SKEW (37), KRB_AP_ERR_BADADDR (38), KRB_AP_ERR_BADVERSION (39), KRB_AP_ERR_MSG_TYPE (40), KRB_AP_ERR_MODIFIED (41), KRB_AP_ERR_BADORDER (42), KRB_AP_ERR_BADKEYVER (44), KRB_AP_ERR_NOKEY (45), KRB_AP_ERR_MUT_FAIL (46), KRB_AP_ERR_BADDIRECTION (47), KRB_AP_ERR_METHOD (48), KRB_AP_ERR_BADSEQ (49), KRB_AP_ERR_INAPP_CKSUM (50), KRB_AP_PATH_NOT_ACCEPTED (51), KRB_ERR_RESPONSE_TOO_BIG (52), KRB_ERR_GENERIC (60), KRB_ERR_FIELD_TOOLONG (61), KDC_ERR_CLIENT_NOT_TRUSTED (62), KDC_ERR_KDC_NOT_TRUSTED (63), KDC_ERR_INVALID_SIG (64), KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED (65), KDC_ERR_CERTIFICATE_MISMATCH (66), KRB_AP_ERR_NO_TGT (67), KDC_ERR_WRONG_REALM (68), KRB_AP_ERR_USER_TO_USER_REQUIRED (69), KDC_ERR_CANT_VERIFY_CERTIFICATE (70), KDC_ERR_INVALID_CERTIFICATE (71), KDC_ERR_REVOKED_CERTIFICATE (72), KDC_ERR_REVOCATION_STATUS_UNKNOWN (73), KDC_ERR_REVOCATION_STATUS_UNAVAILABLE (74), KDC_ERR_CLIENT_NAME_MISMATCH (75), KDC_ERR_KDC_NAME_MISMATCH (76), KDC_ERR_INCONSISTENT_KEY_PURPOSE (77), KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED (78), KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED (79), KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED (80), KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED (81).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosErrorText",
         "type": "string",
-        "description": "Kerberos error text description."
+        "description": "Kerberos error text description.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosMsgType",
         "type": "string",
-        "description": "Kerberos message type number (AS/TGS). Possible values: 10 (AS_REQ), 11 (AS_REP), 12 (TGS_REQ), 13 (TGS_REP)."
+        "description": "Kerberos message type number (AS/TGS). Possible values: 10 (AS_REQ), 11 (AS_REP), 12 (TGS_REQ), 13 (TGS_REP).",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "KerberosNonce",
         "type": "int",
-        "description": "Random number for request/reply matching."
+        "description": "Random number for request/reply matching.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "NetworkProtocol",
         "type": "string",
-        "description": "The network protocol, IPv6 or IPv4."
+        "description": "The network protocol, IPv6 or IPv4.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OnPremAccount",
         "type": "string",
-        "description": "Client principal name requesting the ticket."
+        "description": "Client principal name requesting the ticket.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "OriginHeader",
         "type": "string",
-        "description": "The origin header value."
+        "description": "The origin header value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyId",
         "type": "string",
-        "description": "The ID of the policy for which the request was denied by its rule."
+        "description": "The ID of the policy for which the request was denied by its rule.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyName",
         "type": "string",
-        "description": "The name of the filtering policy associated with the action performed on traffic."
+        "description": "The name of the filtering policy associated with the action performed on traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "PolicyRuleId",
         "type": "string",
-        "description": "The ID of the rule for which the request was denied by."
+        "description": "The ID of the rule for which the request was denied by.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ProcessingRegion",
         "type": "string",
-        "description": "Region where the request was processed by the backend service."
+        "description": "Region where the request was processed by the backend service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Realm",
         "type": "string",
-        "description": "Kerberos realm of the target service."
+        "description": "Kerberos realm of the target service.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReceivedBytes",
         "type": "long",
-        "description": "The number of bytes received."
+        "description": "The number of bytes received.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ReferrerHeader",
         "type": "string",
-        "description": "The Referer header value."
+        "description": "The Referer header value.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RemoteNetworkId",
         "type": "string",
-        "description": "The ID from which traffic was sent or received, providing visibility into the origin of the traffic."
+        "description": "The ID from which traffic was sent or received, providing visibility into the origin of the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResourceTenantId",
         "type": "string",
-        "description": "Tenant ID that owns the resource."
+        "description": "Tenant ID that owns the resource.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ResponseCode",
         "type": "int",
-        "description": "The response code returned from the server."
+        "description": "The response code returned from the server.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "RuleName",
         "type": "string",
-        "description": "The name of the rule associated with the action performed on traffic."
+        "description": "The name of the rule associated with the action performed on traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SentBytes",
         "type": "long",
-        "description": "The number of bytes sent."
+        "description": "The number of bytes sent.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ServicePrincipalName",
         "type": "string",
-        "description": "Target service the client is trying to access."
+        "description": "Target service the client is trying to access.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SessionId",
         "type": "string",
-        "description": "Unique identifier representing the session."
+        "description": "Unique identifier representing the session.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceIp",
         "type": "string",
-        "description": "The IP address from which the connection or session originated."
+        "description": "The IP address from which the connection or session originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourcePort",
         "type": "int",
-        "description": "The IP port from which the connection originated."
+        "description": "The IP port from which the connection originated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "SourceSystem",
         "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics"
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TenantId",
         "type": "string",
-        "description": "The Log Analytics workspace ID"
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "ThreatType",
         "type": "string",
-        "description": "The identified threat type associated with the traffic."
+        "description": "The identified threat type associated with the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The date and time (UTC) that the event was generated."
+        "description": "The date and time (UTC) that the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsAction",
         "type": "string",
-        "description": "The TLS action taken on the traffic."
+        "description": "The TLS action taken on the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsPolicyId",
         "type": "string",
-        "description": "The unique token identifier of the TLS policy applied to the traffic."
+        "description": "The unique token identifier of the TLS policy applied to the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsPolicyName",
         "type": "string",
-        "description": "The name for the TLS policy applied to the traffic."
+        "description": "The name for the TLS policy applied to the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsRuleId",
         "type": "string",
-        "description": "The unique identifier of the TLS rule applied to the traffic."
+        "description": "The unique identifier of the TLS rule applied to the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsRuleName",
         "type": "string",
-        "description": "The name of the TLS rule applied to the traffic."
+        "description": "The name of the TLS rule applied to the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TlsStatus",
         "type": "string",
-        "description": "The status of the Tls option."
+        "description": "The status of the Tls option.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Token3PExpiry",
         "type": "datetime",
-        "description": "The expiry date of the access token used to access the private access application."
+        "description": "The expiry date of the access token used to access the private access application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Token3PIssuedAt",
         "type": "datetime",
-        "description": "The issued date of the access token used to access the private access application."
+        "description": "The issued date of the access token used to access the private access application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Token3PUniqueId",
         "type": "string",
-        "description": "The unique token identifier of the access token used to access the private access application."
+        "description": "The unique token identifier of the access token used to access the private access application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Token3PValidFrom",
         "type": "datetime",
-        "description": "The validity date of the access token used to access the private access application."
+        "description": "The validity date of the access token used to access the private access application.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TrafficType",
         "type": "string",
-        "description": "The type of the target destination traffic."
+        "description": "The type of the target destination traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TransactionId",
         "type": "string",
-        "description": "Unique identifier that representing a roundtrip of request response."
+        "description": "Unique identifier that representing a roundtrip of request response.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "TransportProtocol",
         "type": "string",
-        "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment."
+        "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "Type",
         "type": "string",
-        "description": "The name of the table"
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UniqueTokenId",
         "type": "string",
-        "description": "The unique token identifier."
+        "description": "The unique token identifier.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserId",
         "type": "string",
-        "description": "A machine-readable, alphanumeric, unique representation of the source user."
+        "description": "A machine-readable, alphanumeric, unique representation of the source user.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "UserPrincipalName",
         "type": "string",
-        "description": "The source username, including domain information when available."
+        "description": "The source username, including domain information when available.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "VendorNames",
         "type": "string",
-        "description": "The name of the vendors who detected the threat."
+        "description": "The name of the vendors who detected the threat.",
+        "availability": [
+          "Sentinel"
+        ]
       },
       {
         "name": "XForwardedFor",
         "type": "string",
-        "description": "X-Forwarded-For header of the HTTP request."
+        "description": "X-Forwarded-For header of the HTTP request.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ]
   }
