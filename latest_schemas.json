@@ -15651,7 +15651,7 @@
       {
         "name": "InitiatingProcessRemoteSessionDeviceName",
         "type": "string",
-        "description": "Device name of the remote device from which the initiating process's RDP session was initiated.",
+        "description": "Device name of the remote device from which the initiating process s RDP session was initiated.",
         "availability": [
           "Defender XDR",
           "Sentinel"
