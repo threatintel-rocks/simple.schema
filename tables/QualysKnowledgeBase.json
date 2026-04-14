@@ -1,0 +1,231 @@
+{
+  "QualysKnowledgeBase": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Vulnerability Category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Consequence",
+        "type": "string",
+        "description": "Vulnerability Consequence.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CveId",
+        "type": "dynamic",
+        "description": "Common Vulnerabilities and Exposures identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CveUrl",
+        "type": "dynamic",
+        "description": "URL for the CVE entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Diagnosis",
+        "type": "string",
+        "description": "Diagnosis information for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryAdditionalInfo",
+        "type": "string",
+        "description": "Additional information about vulnerability discovery.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryAuthType",
+        "type": "dynamic",
+        "description": "Authentication type used for discovery.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryRemote",
+        "type": "string",
+        "description": "Remote discovery information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastServiceModificationDateTime",
+        "type": "datetime",
+        "description": "Date and time when the vulnerability was last modified in the service.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Patchable",
+        "type": "string",
+        "description": "Indicates whether the vulnerability is patchable.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciFlag",
+        "type": "string",
+        "description": "PCI compliance flag indicator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublishedDatetime",
+        "type": "datetime",
+        "description": "Date and time when the vulnerability was published.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Qid",
+        "type": "string",
+        "description": "The QID of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityLevel",
+        "type": "string",
+        "description": "Severity level of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SoftwareProduct",
+        "type": "dynamic",
+        "description": "Software product affected by the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SoftwareVendor",
+        "type": "dynamic",
+        "description": "Vendor of the affected software.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Solution",
+        "type": "string",
+        "description": "Solution or remediation steps for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatIntelligence",
+        "type": "dynamic",
+        "description": "Threat intelligence data associated with the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time when the record was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorReferenceId",
+        "type": "dynamic",
+        "description": "Vendor-specific reference identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorReferenceUrl",
+        "type": "dynamic",
+        "description": "URL for vendor-specific reference.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnTitle",
+        "type": "string",
+        "description": "Title of the ingested vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnType",
+        "type": "string",
+        "description": "Type or classification of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  }
+}

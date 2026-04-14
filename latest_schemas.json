@@ -30500,6 +30500,235 @@
       }
     ]
   },
+  "QualysKnowledgeBase": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Vulnerability Category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Consequence",
+        "type": "string",
+        "description": "Vulnerability Consequence.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CveId",
+        "type": "dynamic",
+        "description": "Common Vulnerabilities and Exposures identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CveUrl",
+        "type": "dynamic",
+        "description": "URL for the CVE entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Diagnosis",
+        "type": "string",
+        "description": "Diagnosis information for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryAdditionalInfo",
+        "type": "string",
+        "description": "Additional information about vulnerability discovery.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryAuthType",
+        "type": "dynamic",
+        "description": "Authentication type used for discovery.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryRemote",
+        "type": "string",
+        "description": "Remote discovery information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastServiceModificationDateTime",
+        "type": "datetime",
+        "description": "Date and time when the vulnerability was last modified in the service.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Patchable",
+        "type": "string",
+        "description": "Indicates whether the vulnerability is patchable.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciFlag",
+        "type": "string",
+        "description": "PCI compliance flag indicator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublishedDatetime",
+        "type": "datetime",
+        "description": "Date and time when the vulnerability was published.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Qid",
+        "type": "string",
+        "description": "The QID of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityLevel",
+        "type": "string",
+        "description": "Severity level of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SoftwareProduct",
+        "type": "dynamic",
+        "description": "Software product affected by the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SoftwareVendor",
+        "type": "dynamic",
+        "description": "Vendor of the affected software.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Solution",
+        "type": "string",
+        "description": "Solution or remediation steps for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatIntelligence",
+        "type": "dynamic",
+        "description": "Threat intelligence data associated with the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time when the record was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorReferenceId",
+        "type": "dynamic",
+        "description": "Vendor-specific reference identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorReferenceUrl",
+        "type": "dynamic",
+        "description": "URL for vendor-specific reference.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnTitle",
+        "type": "string",
+        "description": "Title of the ingested vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnType",
+        "type": "string",
+        "description": "Type or classification of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  },
   "RadiflowEvent": {
     "source": "Sentinel Tables",
     "columns": []
@@ -56274,6 +56503,200 @@
       "3rd-Party Connector Schemas"
     ]
   },
+  "D3SOARIncidents_CL": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateCreated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateModified",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentNumber",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentTitle",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentStatus",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentSeverity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentStage",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentPriority",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentDisposition",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentTags",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentOwner",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentCreator",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentTimezone",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentPlaybook",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentDescription",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentConclusion",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvestigationTeam",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkedIncidents",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentRawData",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventRawData",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawRecord",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
+  },
   "DataminrPulse_Alerts_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -63013,6 +63436,1192 @@
         "name": "web_universal_connector",
         "type": "string",
         "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
+  },
+  "NetskopeWebTransactions_CL": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Date",
+        "type": "string",
+        "description": "date.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Time",
+        "type": "string",
+        "description": "time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeTaken",
+        "type": "int",
+        "description": "time-taken.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsBytes",
+        "type": "int",
+        "description": "cs-bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScBytes",
+        "type": "int",
+        "description": "sc-bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Bytes",
+        "type": "int",
+        "description": "bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CIp",
+        "type": "string",
+        "description": "c-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SIp",
+        "type": "string",
+        "description": "s-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUsername",
+        "type": "string",
+        "description": "cs-username.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsMethod",
+        "type": "string",
+        "description": "cs-method.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUriScheme",
+        "type": "string",
+        "description": "cs-uri-scheme.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUriQuery",
+        "type": "string",
+        "description": "cs-uri-query.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUserAgent",
+        "type": "string",
+        "description": "cs-user-agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsContentType",
+        "type": "string",
+        "description": "cs-content-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScStatus",
+        "type": "int",
+        "description": "sc-status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScContentType",
+        "type": "string",
+        "description": "sc-content-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsDns",
+        "type": "string",
+        "description": "cs-dns.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsHost",
+        "type": "string",
+        "description": "cs-host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUri",
+        "type": "string",
+        "description": "cs-uri.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsUriPort",
+        "type": "int",
+        "description": "cs-uri-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CsReferer",
+        "type": "string",
+        "description": "cs-referer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSessionId",
+        "type": "string",
+        "description": "x-cs-session-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAccessMethod",
+        "type": "string",
+        "description": "x-cs-access-method.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsApp",
+        "type": "string",
+        "description": "x-cs-app.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSCountry",
+        "type": "string",
+        "description": "x-s-country.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSLatitude",
+        "type": "real",
+        "description": "x-s-latitude.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSLongitude",
+        "type": "real",
+        "description": "x-s-longitude.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSLocation",
+        "type": "string",
+        "description": "x-s-location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSRegion",
+        "type": "string",
+        "description": "x-s-region.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSZipcode",
+        "type": "int",
+        "description": "x-s-zipcode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCCountry",
+        "type": "string",
+        "description": "x-c-country.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCLatitude",
+        "type": "real",
+        "description": "x-c-latitude.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCLongitude",
+        "type": "real",
+        "description": "x-c-longitude.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCLocation",
+        "type": "string",
+        "description": "x-c-location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCRegion",
+        "type": "string",
+        "description": "x-c-region.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCZipcode",
+        "type": "int",
+        "description": "x-c-zipcode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCOs",
+        "type": "string",
+        "description": "x-c-os.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCBrowser",
+        "type": "string",
+        "description": "x-c-browser.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCBrowserVersion",
+        "type": "int",
+        "description": "x-c-browser-version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCDevice",
+        "type": "string",
+        "description": "x-c-device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSite",
+        "type": "string",
+        "description": "x-cs-site.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsTimestamp",
+        "type": "long",
+        "description": "x-cs-timestamp.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsPageId",
+        "type": "string",
+        "description": "x-cs-page-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsUserIp",
+        "type": "string",
+        "description": "x-cs-userip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsTrafficType",
+        "type": "string",
+        "description": "x-cs-traffic-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsTunnelId",
+        "type": "string",
+        "description": "x-cs-tunnel-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCategory",
+        "type": "string",
+        "description": "x-category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XOtherCategory",
+        "type": "string",
+        "description": "x-other-category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XType",
+        "type": "string",
+        "description": "x-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XServerSslErr",
+        "type": "string",
+        "description": "x-server-ssl-err.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XClientSslErr",
+        "type": "string",
+        "description": "x-client-ssl-err.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XTransactionId",
+        "type": "string",
+        "description": "x-transaction-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRequestId",
+        "type": "string",
+        "description": "x-request-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSni",
+        "type": "string",
+        "description": "x-cs-sni.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsDomainFrontedSni",
+        "type": "string",
+        "description": "x-cs-domain-fronted-sni.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCategoryId",
+        "type": "int",
+        "description": "x-category-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XOtherCategoryId",
+        "type": "string",
+        "description": "x-other-category-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrHeadersName",
+        "type": "string",
+        "description": "x-sr-headers-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrHeadersValue",
+        "type": "string",
+        "description": "x-sr-headers-value.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslJa3",
+        "type": "string",
+        "description": "x-cs-ssl-ja3.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslJa3S",
+        "type": "string",
+        "description": "x-sr-ssl-ja3s.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslBypass",
+        "type": "string",
+        "description": "x-ssl-bypass.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslBypassReason",
+        "type": "string",
+        "description": "x-ssl-bypass-reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertSubjectCn",
+        "type": "string",
+        "description": "x-r-cert-subject-cn.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertIssuerCn",
+        "type": "string",
+        "description": "x-r-cert-issuer-cn.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertStartDate",
+        "type": "string",
+        "description": "x-r-cert-startdate.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertEndDate",
+        "type": "string",
+        "description": "x-r-cert-enddate.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertValid",
+        "type": "string",
+        "description": "x-r-cert-valid.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertExpired",
+        "type": "string",
+        "description": "x-r-cert-expired.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertUntrustedRoot",
+        "type": "string",
+        "description": "x-r-cert-untrusted-root.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertIncompleteChain",
+        "type": "string",
+        "description": "x-r-cert-incomplete-chain.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertSelfSigned",
+        "type": "string",
+        "description": "x-r-cert-self-signed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertRevoked",
+        "type": "string",
+        "description": "x-r-cert-revoked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertRevocationCheck",
+        "type": "string",
+        "description": "x-r-cert-revocation-check.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRCertMismatch",
+        "type": "string",
+        "description": "x-r-cert-mismatch.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslFrontingError",
+        "type": "string",
+        "description": "x-cs-ssl-fronting-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslHandshakeError",
+        "type": "string",
+        "description": "x-cs-ssl-handshake-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslHandshakeError",
+        "type": "string",
+        "description": "x-sr-ssl-handshake-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslClientCertificateError",
+        "type": "string",
+        "description": "x-sr-ssl-client-certificate-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslMalformedSsl",
+        "type": "string",
+        "description": "x-sr-ssl-malformed-ssl.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSCustomSigningCaError",
+        "type": "string",
+        "description": "x-s-custom-signing-ca-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslEngineAction",
+        "type": "string",
+        "description": "x-cs-ssl-engine-action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslEngineActionReason",
+        "type": "string",
+        "description": "x-cs-ssl-engine-action-reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslEngineAction",
+        "type": "string",
+        "description": "x-sr-ssl-engine-action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslEngineActionReason",
+        "type": "string",
+        "description": "x-sr-ssl-engine-action-reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicySrcIp",
+        "type": "string",
+        "description": "x-ssl-policy-src-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyDstIp",
+        "type": "string",
+        "description": "x-ssl-policy-dst-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyDstHost",
+        "type": "string",
+        "description": "x-ssl-policy-dst-host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyDstHostSource",
+        "type": "string",
+        "description": "x-ssl-policy-dst-host-source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyCategories",
+        "type": "string",
+        "description": "x-ssl-policy-categories.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyAction",
+        "type": "string",
+        "description": "x-ssl-policy-action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSslPolicyName",
+        "type": "string",
+        "description": "x-ssl-policy-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslVersion",
+        "type": "string",
+        "description": "x-cs-ssl-version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSslCipher",
+        "type": "string",
+        "description": "x-cs-ssl-cipher.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslVersion",
+        "type": "string",
+        "description": "x-sr-ssl-version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSslCipher",
+        "type": "string",
+        "description": "x-sr-ssl-cipher.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSrcIpEgress",
+        "type": "string",
+        "description": "x-cs-src-ip-egress.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSDpName",
+        "type": "string",
+        "description": "x-s-dp-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSrcIp",
+        "type": "string",
+        "description": "x-cs-src-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsSrcPort",
+        "type": "int",
+        "description": "x-cs-src-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsDstIp",
+        "type": "string",
+        "description": "x-cs-dst-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsDstPort",
+        "type": "int",
+        "description": "x-cs-dst-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSrcIp",
+        "type": "string",
+        "description": "x-sr-src-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrSrcPort",
+        "type": "string",
+        "description": "x-sr-src-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrDstIp",
+        "type": "string",
+        "description": "x-sr-dst-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XSrDstPort",
+        "type": "int",
+        "description": "x-sr-dst-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsIpConnectXff",
+        "type": "string",
+        "description": "x-cs-ip-connect-xff.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsIpXff",
+        "type": "string",
+        "description": "x-cs-ip-xff.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsConnectHost",
+        "type": "string",
+        "description": "x-cs-connect-host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsConnectPort",
+        "type": "string",
+        "description": "x-cs-connect-port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsConnectUserAgent",
+        "type": "string",
+        "description": "x-cs-connect-user-agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsUrl",
+        "type": "string",
+        "description": "x-cs-url.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsUriPath",
+        "type": "string",
+        "description": "x-cs-uri-path.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsHttpVersion",
+        "type": "string",
+        "description": "x-cs-http-version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RsStatus",
+        "type": "int",
+        "description": "rs-status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppCategory",
+        "type": "string",
+        "description": "x-cs-app-category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppCci",
+        "type": "int",
+        "description": "x-cs-app-cci.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppCcl",
+        "type": "string",
+        "description": "x-cs-app-ccl.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppTags",
+        "type": "string",
+        "description": "x-cs-app-tags.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppSuite",
+        "type": "string",
+        "description": "x-cs-app-suite.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppInstanceId",
+        "type": "string",
+        "description": "x-cs-app-instance-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppInstanceName",
+        "type": "string",
+        "description": "x-cs-app-instance-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppInstanceTag",
+        "type": "string",
+        "description": "x-cs-app-instance-tag.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppActivity",
+        "type": "string",
+        "description": "x-cs-app-activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppFromUser",
+        "type": "string",
+        "description": "x-cs-app-from-user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppToUser",
+        "type": "string",
+        "description": "x-cs-app-to-user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppObjectType",
+        "type": "string",
+        "description": "x-cs-app-object-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppObjectName",
+        "type": "string",
+        "description": "x-cs-app-object-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCsAppObjectId",
+        "type": "string",
+        "description": "x-cs-app-object-id.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileType",
+        "type": "string",
+        "description": "x-rs-file-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileCategory",
+        "type": "string",
+        "description": "x-rs-file-category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileLanguage",
+        "type": "string",
+        "description": "x-rs-file-language.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileSize",
+        "type": "int",
+        "description": "x-rs-file-size.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileMd5",
+        "type": "string",
+        "description": "x-rs-file-md5.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XRsFileSha256",
+        "type": "string",
+        "description": "x-rs-file-sha256.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XError",
+        "type": "string",
+        "description": "x-error.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XCLocalTime",
+        "type": "string",
+        "description": "x-c-local-time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyAction",
+        "type": "string",
+        "description": "x-policy-action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyName",
+        "type": "string",
+        "description": "x-policy-name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicySrcIp",
+        "type": "string",
+        "description": "x-policy-src-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyDstIp",
+        "type": "string",
+        "description": "x-policy-dst-ip.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyDstHost",
+        "type": "string",
+        "description": "x-policy-dst-host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyDstHostSource",
+        "type": "string",
+        "description": "x-policy-dst-host-source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyJustificationType",
+        "type": "string",
+        "description": "x-policy-justification-type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XPolicyJustificationReason",
+        "type": "string",
+        "description": "x-policy-justification-reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XScNotificationName",
+        "type": "string",
+        "description": "x-sc-notification-name.",
         "availability": [
           "Sentinel"
         ]
@@ -86586,196 +88195,6 @@
     ],
     "solution": "BigID"
   },
-  "D3SOARIncidents_CL": {
-    "source": "3rd-Party Connector Schemas",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DateCreated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DateModified",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentNumber",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentTitle",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentStatus",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentSeverity",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentStage",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentPriority",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentDisposition",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentTags",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentOwner",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentCreator",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentTimezone",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentPlaybook",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentDescription",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentConclusion",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "InvestigationTeam",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LinkedIncidents",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IncidentRawData",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventRawData",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RawRecord",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "solution": "D3SmartSOAR"
-  },
   "IllumioFlowEventsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -88813,1188 +90232,6 @@
       }
     ],
     "solution": "Morphisec"
-  },
-  "NetskopeWebTransactions_CL": {
-    "source": "3rd-Party Connector Schemas",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Date",
-        "type": "string",
-        "description": "date.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Time",
-        "type": "string",
-        "description": "time.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TimeTaken",
-        "type": "int",
-        "description": "time-taken.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsBytes",
-        "type": "int",
-        "description": "cs-bytes.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ScBytes",
-        "type": "int",
-        "description": "sc-bytes.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Bytes",
-        "type": "int",
-        "description": "bytes.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CIp",
-        "type": "string",
-        "description": "c-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SIp",
-        "type": "string",
-        "description": "s-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUsername",
-        "type": "string",
-        "description": "cs-username.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsMethod",
-        "type": "string",
-        "description": "cs-method.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUriScheme",
-        "type": "string",
-        "description": "cs-uri-scheme.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUriQuery",
-        "type": "string",
-        "description": "cs-uri-query.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUserAgent",
-        "type": "string",
-        "description": "cs-user-agent.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsContentType",
-        "type": "string",
-        "description": "cs-content-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ScStatus",
-        "type": "int",
-        "description": "sc-status.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ScContentType",
-        "type": "string",
-        "description": "sc-content-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsDns",
-        "type": "string",
-        "description": "cs-dns.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsHost",
-        "type": "string",
-        "description": "cs-host.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUri",
-        "type": "string",
-        "description": "cs-uri.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsUriPort",
-        "type": "int",
-        "description": "cs-uri-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CsReferer",
-        "type": "string",
-        "description": "cs-referer.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSessionId",
-        "type": "string",
-        "description": "x-cs-session-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAccessMethod",
-        "type": "string",
-        "description": "x-cs-access-method.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsApp",
-        "type": "string",
-        "description": "x-cs-app.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSCountry",
-        "type": "string",
-        "description": "x-s-country.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSLatitude",
-        "type": "real",
-        "description": "x-s-latitude.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSLongitude",
-        "type": "real",
-        "description": "x-s-longitude.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSLocation",
-        "type": "string",
-        "description": "x-s-location.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSRegion",
-        "type": "string",
-        "description": "x-s-region.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSZipcode",
-        "type": "int",
-        "description": "x-s-zipcode.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCCountry",
-        "type": "string",
-        "description": "x-c-country.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCLatitude",
-        "type": "real",
-        "description": "x-c-latitude.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCLongitude",
-        "type": "real",
-        "description": "x-c-longitude.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCLocation",
-        "type": "string",
-        "description": "x-c-location.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCRegion",
-        "type": "string",
-        "description": "x-c-region.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCZipcode",
-        "type": "int",
-        "description": "x-c-zipcode.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCOs",
-        "type": "string",
-        "description": "x-c-os.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCBrowser",
-        "type": "string",
-        "description": "x-c-browser.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCBrowserVersion",
-        "type": "int",
-        "description": "x-c-browser-version.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCDevice",
-        "type": "string",
-        "description": "x-c-device.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSite",
-        "type": "string",
-        "description": "x-cs-site.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsTimestamp",
-        "type": "long",
-        "description": "x-cs-timestamp.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsPageId",
-        "type": "string",
-        "description": "x-cs-page-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsUserIp",
-        "type": "string",
-        "description": "x-cs-userip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsTrafficType",
-        "type": "string",
-        "description": "x-cs-traffic-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsTunnelId",
-        "type": "string",
-        "description": "x-cs-tunnel-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCategory",
-        "type": "string",
-        "description": "x-category.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XOtherCategory",
-        "type": "string",
-        "description": "x-other-category.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XType",
-        "type": "string",
-        "description": "x-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XServerSslErr",
-        "type": "string",
-        "description": "x-server-ssl-err.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XClientSslErr",
-        "type": "string",
-        "description": "x-client-ssl-err.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XTransactionId",
-        "type": "string",
-        "description": "x-transaction-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRequestId",
-        "type": "string",
-        "description": "x-request-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSni",
-        "type": "string",
-        "description": "x-cs-sni.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsDomainFrontedSni",
-        "type": "string",
-        "description": "x-cs-domain-fronted-sni.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCategoryId",
-        "type": "int",
-        "description": "x-category-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XOtherCategoryId",
-        "type": "string",
-        "description": "x-other-category-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrHeadersName",
-        "type": "string",
-        "description": "x-sr-headers-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrHeadersValue",
-        "type": "string",
-        "description": "x-sr-headers-value.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslJa3",
-        "type": "string",
-        "description": "x-cs-ssl-ja3.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslJa3S",
-        "type": "string",
-        "description": "x-sr-ssl-ja3s.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslBypass",
-        "type": "string",
-        "description": "x-ssl-bypass.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslBypassReason",
-        "type": "string",
-        "description": "x-ssl-bypass-reason.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertSubjectCn",
-        "type": "string",
-        "description": "x-r-cert-subject-cn.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertIssuerCn",
-        "type": "string",
-        "description": "x-r-cert-issuer-cn.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertStartDate",
-        "type": "string",
-        "description": "x-r-cert-startdate.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertEndDate",
-        "type": "string",
-        "description": "x-r-cert-enddate.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertValid",
-        "type": "string",
-        "description": "x-r-cert-valid.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertExpired",
-        "type": "string",
-        "description": "x-r-cert-expired.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertUntrustedRoot",
-        "type": "string",
-        "description": "x-r-cert-untrusted-root.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertIncompleteChain",
-        "type": "string",
-        "description": "x-r-cert-incomplete-chain.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertSelfSigned",
-        "type": "string",
-        "description": "x-r-cert-self-signed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertRevoked",
-        "type": "string",
-        "description": "x-r-cert-revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertRevocationCheck",
-        "type": "string",
-        "description": "x-r-cert-revocation-check.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRCertMismatch",
-        "type": "string",
-        "description": "x-r-cert-mismatch.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslFrontingError",
-        "type": "string",
-        "description": "x-cs-ssl-fronting-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslHandshakeError",
-        "type": "string",
-        "description": "x-cs-ssl-handshake-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslHandshakeError",
-        "type": "string",
-        "description": "x-sr-ssl-handshake-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslClientCertificateError",
-        "type": "string",
-        "description": "x-sr-ssl-client-certificate-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslMalformedSsl",
-        "type": "string",
-        "description": "x-sr-ssl-malformed-ssl.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSCustomSigningCaError",
-        "type": "string",
-        "description": "x-s-custom-signing-ca-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslEngineAction",
-        "type": "string",
-        "description": "x-cs-ssl-engine-action.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslEngineActionReason",
-        "type": "string",
-        "description": "x-cs-ssl-engine-action-reason.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslEngineAction",
-        "type": "string",
-        "description": "x-sr-ssl-engine-action.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslEngineActionReason",
-        "type": "string",
-        "description": "x-sr-ssl-engine-action-reason.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicySrcIp",
-        "type": "string",
-        "description": "x-ssl-policy-src-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyDstIp",
-        "type": "string",
-        "description": "x-ssl-policy-dst-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyDstHost",
-        "type": "string",
-        "description": "x-ssl-policy-dst-host.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyDstHostSource",
-        "type": "string",
-        "description": "x-ssl-policy-dst-host-source.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyCategories",
-        "type": "string",
-        "description": "x-ssl-policy-categories.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyAction",
-        "type": "string",
-        "description": "x-ssl-policy-action.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSslPolicyName",
-        "type": "string",
-        "description": "x-ssl-policy-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslVersion",
-        "type": "string",
-        "description": "x-cs-ssl-version.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSslCipher",
-        "type": "string",
-        "description": "x-cs-ssl-cipher.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslVersion",
-        "type": "string",
-        "description": "x-sr-ssl-version.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSslCipher",
-        "type": "string",
-        "description": "x-sr-ssl-cipher.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSrcIpEgress",
-        "type": "string",
-        "description": "x-cs-src-ip-egress.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSDpName",
-        "type": "string",
-        "description": "x-s-dp-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSrcIp",
-        "type": "string",
-        "description": "x-cs-src-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsSrcPort",
-        "type": "int",
-        "description": "x-cs-src-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsDstIp",
-        "type": "string",
-        "description": "x-cs-dst-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsDstPort",
-        "type": "int",
-        "description": "x-cs-dst-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSrcIp",
-        "type": "string",
-        "description": "x-sr-src-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrSrcPort",
-        "type": "string",
-        "description": "x-sr-src-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrDstIp",
-        "type": "string",
-        "description": "x-sr-dst-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XSrDstPort",
-        "type": "int",
-        "description": "x-sr-dst-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsIpConnectXff",
-        "type": "string",
-        "description": "x-cs-ip-connect-xff.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsIpXff",
-        "type": "string",
-        "description": "x-cs-ip-xff.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsConnectHost",
-        "type": "string",
-        "description": "x-cs-connect-host.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsConnectPort",
-        "type": "string",
-        "description": "x-cs-connect-port.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsConnectUserAgent",
-        "type": "string",
-        "description": "x-cs-connect-user-agent.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsUrl",
-        "type": "string",
-        "description": "x-cs-url.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsUriPath",
-        "type": "string",
-        "description": "x-cs-uri-path.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsHttpVersion",
-        "type": "string",
-        "description": "x-cs-http-version.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RsStatus",
-        "type": "int",
-        "description": "rs-status.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppCategory",
-        "type": "string",
-        "description": "x-cs-app-category.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppCci",
-        "type": "int",
-        "description": "x-cs-app-cci.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppCcl",
-        "type": "string",
-        "description": "x-cs-app-ccl.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppTags",
-        "type": "string",
-        "description": "x-cs-app-tags.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppSuite",
-        "type": "string",
-        "description": "x-cs-app-suite.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppInstanceId",
-        "type": "string",
-        "description": "x-cs-app-instance-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppInstanceName",
-        "type": "string",
-        "description": "x-cs-app-instance-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppInstanceTag",
-        "type": "string",
-        "description": "x-cs-app-instance-tag.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppActivity",
-        "type": "string",
-        "description": "x-cs-app-activity.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppFromUser",
-        "type": "string",
-        "description": "x-cs-app-from-user.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppToUser",
-        "type": "string",
-        "description": "x-cs-app-to-user.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppObjectType",
-        "type": "string",
-        "description": "x-cs-app-object-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppObjectName",
-        "type": "string",
-        "description": "x-cs-app-object-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCsAppObjectId",
-        "type": "string",
-        "description": "x-cs-app-object-id.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileType",
-        "type": "string",
-        "description": "x-rs-file-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileCategory",
-        "type": "string",
-        "description": "x-rs-file-category.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileLanguage",
-        "type": "string",
-        "description": "x-rs-file-language.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileSize",
-        "type": "int",
-        "description": "x-rs-file-size.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileMd5",
-        "type": "string",
-        "description": "x-rs-file-md5.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XRsFileSha256",
-        "type": "string",
-        "description": "x-rs-file-sha256.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XError",
-        "type": "string",
-        "description": "x-error.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XCLocalTime",
-        "type": "string",
-        "description": "x-c-local-time.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyAction",
-        "type": "string",
-        "description": "x-policy-action.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyName",
-        "type": "string",
-        "description": "x-policy-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicySrcIp",
-        "type": "string",
-        "description": "x-policy-src-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyDstIp",
-        "type": "string",
-        "description": "x-policy-dst-ip.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyDstHost",
-        "type": "string",
-        "description": "x-policy-dst-host.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyDstHostSource",
-        "type": "string",
-        "description": "x-policy-dst-host-source.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyJustificationType",
-        "type": "string",
-        "description": "x-policy-justification-type.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XPolicyJustificationReason",
-        "type": "string",
-        "description": "x-policy-justification-reason.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "XScNotificationName",
-        "type": "string",
-        "description": "x-sc-notification-name.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "solution": "NetskopeWebTx"
   },
   "NetskopeEventsApplication_CL": {
     "source": "3rd-Party Connector Schemas",

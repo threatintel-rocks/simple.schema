@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-14 05:20 UTC
+
+**Tables added** (1)
+
+- `QualysKnowledgeBase` (28 columns, source: Sentinel Tables)
+
+
 ### 2026-04-09 14:28 UTC
 
 **Tables added** (32)
