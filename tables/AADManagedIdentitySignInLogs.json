@@ -75,6 +75,14 @@
         ]
       },
       {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "Details of the conditional access audiences being applied for the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ConditionalAccessPolicies",
         "type": "string",
         "description": "Details of the conditional access policies being applied for the sign-in",

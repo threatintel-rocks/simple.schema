@@ -75,6 +75,14 @@
         ]
       },
       {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "Details of the conditional access audiences being applied for the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ConditionalAccessPolicies",
         "type": "string",
         "description": "Details of the conditional access policies being applied for the sign-in",
@@ -488,6 +496,14 @@
         ]
       },
       {
+        "name": "AuthenticatorAppLocation",
+        "type": "string",
+        "description": "The location of the authenticator app.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AutonomousSystemNumber",
         "type": "string",
         "description": "Autonomous System Number for the network.",
@@ -523,6 +539,14 @@
         "name": "ClientCredentialType",
         "type": "string",
         "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "Details of the conditional access audiences being applied for the sign-in.",
         "availability": [
           "Sentinel"
         ]
@@ -1868,6 +1892,14 @@
         "name": "ClientCredentialType",
         "type": "string",
         "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "Details of the conditional access audiences being applied for the sign-in.",
         "availability": [
           "Sentinel"
         ]
@@ -15651,7 +15683,7 @@
       {
         "name": "InitiatingProcessRemoteSessionDeviceName",
         "type": "string",
-        "description": "Device name of the remote device from which the initiating process s RDP session was initiated.",
+        "description": "Device name of the remote device from which the initiating process's RDP session was initiated.",
         "availability": [
           "Defender XDR",
           "Sentinel"
@@ -33256,6 +33288,14 @@
         ]
       },
       {
+        "name": "AuthenticatorAppLocation",
+        "type": "string",
+        "description": "The location of the authenticator app.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AutonomousSystemNumber",
         "type": "string",
         "description": "The Autonomous System Number (ASN) of the network used by the actor.",
@@ -33291,6 +33331,14 @@
         "name": "ClientCredentialType",
         "type": "string",
         "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "The audiences targeted by the conditional access policy.",
         "availability": [
           "Sentinel"
         ]

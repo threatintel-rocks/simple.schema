@@ -139,6 +139,14 @@
         ]
       },
       {
+        "name": "AuthenticatorAppLocation",
+        "type": "string",
+        "description": "The location of the authenticator app.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AutonomousSystemNumber",
         "type": "string",
         "description": "The Autonomous System Number (ASN) of the network used by the actor.",
@@ -174,6 +182,14 @@
         "name": "ClientCredentialType",
         "type": "string",
         "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConditionalAccessAudiences",
+        "type": "string",
+        "description": "The audiences targeted by the conditional access policy.",
         "availability": [
           "Sentinel"
         ]

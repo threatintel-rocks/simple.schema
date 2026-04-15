@@ -2,6 +2,23 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-15 05:20 UTC
+
+**Tables added** (2)
+
+- `ContrastADRAttackEvents_CL` (79 columns, source: 3rd-Party Connector Schemas)
+- `ContrastADRIncidents_CL` (18 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (6)
+
+- `AADManagedIdentitySignInLogs.ConditionalAccessAudiences` (string)
+- `AADNonInteractiveUserSignInLogs.AuthenticatorAppLocation` (string)
+- `AADNonInteractiveUserSignInLogs.ConditionalAccessAudiences` (string)
+- `AADServicePrincipalSignInLogs.ConditionalAccessAudiences` (string)
+- `SigninLogs.AuthenticatorAppLocation` (string)
+- `SigninLogs.ConditionalAccessAudiences` (string)
+
+
 ### 2026-04-14 05:20 UTC
 
 **Tables added** (1)
