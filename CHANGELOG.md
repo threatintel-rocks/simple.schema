@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-16 05:27 UTC
+
+**Columns modified** (1)
+
+- `argsentdc_CL.ref_id`: type `datetime` → `string`
+
+
 ### 2026-04-15 05:20 UTC
 
 **Tables added** (2)

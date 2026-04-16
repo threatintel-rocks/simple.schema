@@ -75616,7 +75616,7 @@
       },
       {
         "name": "ref_id",
-        "type": "datetime",
+        "type": "string",
         "description": "",
         "availability": [
           "Sentinel"
