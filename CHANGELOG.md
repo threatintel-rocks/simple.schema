@@ -2,6 +2,16 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-21 05:23 UTC
+
+**Tables added** (4)
+
+- `DynatraceAttacksV2_CL` (13 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceAuditLogsV2_CL` (11 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceProblemsV2_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceSecurityProblemsV2_CL` (17 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-04-16 05:27 UTC
 
 **Columns modified** (1)
