@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-22 05:21 UTC
+
+**Columns added** (1)
+
+- `SAPETDAlerts_CL.Users` (dynamic)
+
+
 ### 2026-04-21 05:23 UTC
 
 **Tables added** (4)

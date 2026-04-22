@@ -105,6 +105,14 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "Users",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "SAP ETD Cloud"

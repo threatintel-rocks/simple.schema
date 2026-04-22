@@ -69921,6 +69921,14 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "Users",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "custom_table": true,
