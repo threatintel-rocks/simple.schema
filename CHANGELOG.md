@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-24 05:31 UTC
+
+**Tables added** (1)
+
+- `ValimailEnforceEvents_CL` (11 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-04-22 05:21 UTC
 
 **Columns added** (1)

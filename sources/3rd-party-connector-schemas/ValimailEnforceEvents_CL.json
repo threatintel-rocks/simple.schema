@@ -1,0 +1,96 @@
+{
+  "ValimailEnforceEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Subject of the performed action. Currently domains and application users",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "email address or organization that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Action perfomed on the subject",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventChange",
+        "type": "string",
+        "description": "Detail of the action performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PerformedAt",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the action was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time (UTC) when the event was registered",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "Constant: ValimailEnforce",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Computer",
+        "type": "string",
+        "description": "Constant: ValimailReportingAPI",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCategory",
+        "type": "string",
+        "description": "Event category: User, Domain or Service management, DMARC, SPF, DKIM and policy changes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSeverity",
+        "type": "string",
+        "description": "Impact of the change: high, medium,low or informational",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsHighValueEvent",
+        "type": "bool",
+        "description": "True if the event can impact email deliverability",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ValimailEnforce"
+  }
+}
