@@ -8,7 +8,8 @@
         "description": "The AWS account ID associated with the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsRegion",
@@ -16,7 +17,8 @@
         "description": "The AWS region where the event occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingCreatedAt",
@@ -24,7 +26,8 @@
         "description": "The timestamp when the security finding was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingDescription",
@@ -32,7 +35,8 @@
         "description": "A detailed description of the AWS security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingFirstObservedAt",
@@ -40,7 +44,8 @@
         "description": "The timestamp when the security finding was first observed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingGeneratorId",
@@ -48,7 +53,8 @@
         "description": "The ID of the generator that created the security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingId",
@@ -56,7 +62,8 @@
         "description": "The unique identifier for the AWS security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingLastObservedAt",
@@ -64,7 +71,8 @@
         "description": "The timestamp when the security finding was last observed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingProcessedAt",
@@ -72,7 +80,8 @@
         "description": "The timestamp when the security finding was processed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingProductArn",
@@ -80,7 +89,8 @@
         "description": "The Amazon Resource Name (ARN) of the product that generated the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingProductFields",
@@ -88,7 +98,8 @@
         "description": "Additional fields provided by the product that generated the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingProductName",
@@ -96,7 +107,8 @@
         "description": "The name of the product that generated the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingSeverity",
@@ -104,7 +116,8 @@
         "description": "The severity level of the security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingTitle",
@@ -112,7 +125,8 @@
         "description": "The title of the AWS security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingTypes",
@@ -120,7 +134,8 @@
         "description": "The types or categories of the AWS security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsSecurityFindingUpdatedAt",
@@ -128,7 +143,8 @@
         "description": "The timestamp when the security finding was last updated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -136,7 +152,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ComplianceAssociatedStandards",
@@ -144,7 +161,8 @@
         "description": "The compliance standards associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ComplianceRelatedRequirements",
@@ -152,7 +170,8 @@
         "description": "The related compliance requirements.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ComplianceSecurityControlId",
@@ -160,7 +179,8 @@
         "description": "The ID of the security control related to compliance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ComplianceSecurityControlParameters",
@@ -168,7 +188,8 @@
         "description": "Parameters associated with the security control.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ComplianceStatus",
@@ -176,7 +197,8 @@
         "description": "The compliance status of the resource (e.g., COMPLIANT, NON_COMPLIANT).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ComplianceStatusReasons",
@@ -184,7 +206,8 @@
         "description": "The reasons for the compliance status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -192,7 +215,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "RawData",
@@ -200,7 +224,8 @@
         "description": "The raw data associated with the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecordState",
@@ -208,7 +233,8 @@
         "description": "The state of the record (e.g., ACTIVE, ARCHIVED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Remediation",
@@ -216,7 +242,8 @@
         "description": "Details about how to remediate the security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Resources",
@@ -224,7 +251,8 @@
         "description": "The resources associated with the security finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SchemaVersion",
@@ -232,7 +260,8 @@
         "description": "The version of the schema used for the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -240,7 +269,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -248,7 +278,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -256,7 +287,8 @@
         "description": "The timestamp when the event was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -264,7 +296,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "WorkflowState",
@@ -272,8 +305,10 @@
         "description": "The workflow state of the finding (e.g., NEW, RESOLVED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

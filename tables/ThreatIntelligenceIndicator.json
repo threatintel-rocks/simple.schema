@@ -8,7 +8,8 @@
         "description": "Action to take on indicator match.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Active",
@@ -16,7 +17,8 @@
         "description": "Indicates whether indicator is active.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityGroupNames",
@@ -24,7 +26,8 @@
         "description": "Activity groups associated with indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalInformation",
@@ -32,7 +35,8 @@
         "description": "Free text additional information for indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -40,7 +44,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ConfidenceScore",
@@ -48,7 +53,8 @@
         "description": "Confidence rating of the indicator, from 0 to 100.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Description",
@@ -56,7 +62,8 @@
         "description": "Description of the indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DiamondModel",
@@ -64,7 +71,8 @@
         "description": "Diamond model value for the indicator, one of adversary, capability, infrastructure or victim.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DomainName",
@@ -72,7 +80,8 @@
         "description": "The domain name observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailEncoding",
@@ -80,7 +89,8 @@
         "description": "The email encoding observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailLanguage",
@@ -88,7 +98,8 @@
         "description": "The email language observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailRecipient",
@@ -96,7 +107,8 @@
         "description": "The email recipient observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailSenderAddress",
@@ -104,7 +116,8 @@
         "description": "The email sender address observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailSenderName",
@@ -112,7 +125,8 @@
         "description": "The email sender name observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailSourceDomain",
@@ -120,7 +134,8 @@
         "description": "The email source domain observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailSourceIpAddress",
@@ -128,7 +143,8 @@
         "description": "The email source IP address observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailSubject",
@@ -136,7 +152,8 @@
         "description": "The email subject observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailXMailer",
@@ -144,7 +161,8 @@
         "description": "The email X-Mailer observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExpirationDateTime",
@@ -152,7 +170,8 @@
         "description": "Time of indicator expiration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExternalIndicatorId",
@@ -160,7 +179,8 @@
         "description": "Identifier for indicator from submitting system.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileCompileDateTime",
@@ -168,7 +188,8 @@
         "description": "The file compilation time observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileCreatedDateTime",
@@ -176,7 +197,8 @@
         "description": "The file creation time observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileHashType",
@@ -184,7 +206,8 @@
         "description": "The file hash type observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileHashValue",
@@ -192,7 +215,8 @@
         "description": "The file hash value observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileMutexName",
@@ -200,7 +224,8 @@
         "description": "The file mutex name observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileName",
@@ -208,7 +233,8 @@
         "description": "The file name observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FilePacker",
@@ -216,7 +242,8 @@
         "description": "The file packer observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FilePath",
@@ -224,7 +251,8 @@
         "description": "The file path observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileSize",
@@ -232,7 +260,8 @@
         "description": "The file size observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileType",
@@ -240,7 +269,8 @@
         "description": "The file type observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IndicatorId",
@@ -248,7 +278,8 @@
         "description": "Unique identifier for indicator, calculated by receiving system.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IndicatorProvider",
@@ -256,7 +287,8 @@
         "description": "The name of the entity that provided the indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -264,7 +296,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "KillChainActions",
@@ -272,7 +305,8 @@
         "description": "Indicates whether kill chain value 'actions' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KillChainC2",
@@ -280,7 +314,8 @@
         "description": "Indicates whether kill chain value 'C2' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KillChainDelivery",
@@ -288,7 +323,8 @@
         "description": "Indicates whether kill chain value 'delivery' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KillChainExploitation",
@@ -296,7 +332,8 @@
         "description": "Indicates whether kill chain value 'exploitation' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KillChainReconnaissance",
@@ -304,7 +341,8 @@
         "description": "Indicates whether kill chain value 'reconniassance' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KillChainWeaponization",
@@ -312,7 +350,8 @@
         "description": "Indicates whether kill chain value 'weaponization' is set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KnownFalsePositives",
@@ -320,7 +359,8 @@
         "description": "Text describing situations where indicator may cause false positives.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MalwareNames",
@@ -328,7 +368,8 @@
         "description": "List of malware names associated with indicator",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkCidrBlock",
@@ -336,7 +377,8 @@
         "description": "The network CIDR block observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDestinationAsn",
@@ -344,7 +386,8 @@
         "description": "The network destination autonomous system number observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDestinationCidrBlock",
@@ -352,7 +395,8 @@
         "description": "The network destination CIDR block observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDestinationIP",
@@ -360,7 +404,8 @@
         "description": "The network destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDestinationPort",
@@ -368,7 +413,8 @@
         "description": "The network destination port observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkIP",
@@ -376,7 +422,8 @@
         "description": "The network IP address observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkPort",
@@ -384,7 +431,8 @@
         "description": "The network port observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkProtocol",
@@ -392,7 +440,8 @@
         "description": "The network protocol observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkSourceAsn",
@@ -400,7 +449,8 @@
         "description": "The network source autonomous system number observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkSourceCidrBlock",
@@ -408,7 +458,8 @@
         "description": "The network source CIDR block observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkSourceIP",
@@ -416,7 +467,8 @@
         "description": "The network source IP address observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkSourcePort",
@@ -424,7 +476,8 @@
         "description": "The network source port observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PassiveOnly",
@@ -432,7 +485,8 @@
         "description": "Indicates whether the indicator should trigger an event that is visible to a user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -440,7 +494,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Tags",
@@ -448,7 +503,8 @@
         "description": "Free form tags.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -456,7 +512,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatSeverity",
@@ -464,7 +521,8 @@
         "description": "Indicator severity rating from 0 to 5. Higher value indicates greater severity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatType",
@@ -472,7 +530,8 @@
         "description": "Threat type of indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -480,7 +539,8 @@
         "description": "Time of indicator ingestion.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TrafficLightProtocolLevel",
@@ -488,7 +548,8 @@
         "description": "Industry standard traffic light protocol level, one of white, green, amber or red.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -496,7 +557,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Url",
@@ -504,7 +566,8 @@
         "description": "The url observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -512,8 +575,22 @@
         "description": "The user agent observable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "ApplicationId",
+        "type": "string",
+        "description": "",
+        "verified": true
+      },
+      {
+        "name": "AzureTenantId",
+        "type": "string",
+        "description": "",
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

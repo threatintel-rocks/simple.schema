@@ -8,7 +8,8 @@
         "description": "Type of the operation. Possible values are Add Update Delete and Other.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AADTenantId",
@@ -16,7 +17,8 @@
         "description": "ID of the ADD tenant",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityDateTime",
@@ -24,7 +26,8 @@
         "description": "Date and time the activity was performed in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityDisplayName",
@@ -32,7 +35,8 @@
         "description": "Activity name or the operation name. Examples include Create User and Add member to group. For full list see Azure AD activity list.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalDetails",
@@ -40,7 +44,8 @@
         "description": "Indicates additional details on the activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -48,7 +53,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Category",
@@ -56,7 +62,8 @@
         "description": "Currently Audit is the only supported value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -64,7 +71,8 @@
         "description": "Optional GUID that's passed by the client. Can help correlate client-side operations with server-side operations and is useful when tracking logs that span services.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DurationMs",
@@ -72,7 +80,8 @@
         "description": "Property is not used and can be ignored.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -80,7 +89,8 @@
         "description": "GUID that uniquely identifies the activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Identity",
@@ -88,7 +98,8 @@
         "description": "Identity from the token that was presented when the request was made. The identity can be a user account system account or service principal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatedBy",
@@ -96,7 +107,8 @@
         "description": "User or app initiated the activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -104,7 +116,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Level",
@@ -112,7 +125,8 @@
         "description": "Message type. This is currently always Informational.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Location",
@@ -120,7 +134,8 @@
         "description": "Location of the datacenter.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LoggedByService",
@@ -128,7 +143,8 @@
         "description": "Service that initiated the activity (For example: Self-service Password Management Core Directory B2C Invited Users Microsoft Identity Manager Privileged Identity Management.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -136,7 +152,8 @@
         "description": "Name of the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationVersion",
@@ -144,7 +161,8 @@
         "description": "REST API version that's requested by the client.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Resource",
@@ -152,7 +170,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceGroup",
@@ -160,7 +179,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceId",
@@ -168,7 +188,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceProvider",
@@ -176,7 +197,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Result",
@@ -184,7 +206,8 @@
         "description": "Result of the activity. Possible values are: success failure timeout unknownFutureValue.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultDescription",
@@ -192,7 +215,8 @@
         "description": "Additional description of the result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultReason",
@@ -200,7 +224,8 @@
         "description": "Describes cause of failure or timeout results.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultSignature",
@@ -208,7 +233,8 @@
         "description": "Property is not used and can be ignored.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultType",
@@ -216,7 +242,8 @@
         "description": "Result of the operation. Possible values are Success and Failure.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -224,7 +251,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetResources",
@@ -232,7 +260,8 @@
         "description": "Indicates information on which resource was changed due to the activity. Target Resource Type can be User Device Directory App Role Group Policy or Other.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -240,7 +269,8 @@
         "description": "Date and time the record was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -248,8 +278,16 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

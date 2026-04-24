@@ -8,7 +8,8 @@
         "description": "The type of data sensitivity event: classification, labeling.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetCreationTime",
@@ -16,7 +17,8 @@
         "description": "Time (UTC) at which the asset was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetLastScanTime",
@@ -24,7 +26,8 @@
         "description": "Time (UTC) at which the asset was last scanned.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetModifiedTime",
@@ -32,7 +35,8 @@
         "description": "Time (UTC) at which the asset was last modified.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetName",
@@ -40,7 +44,8 @@
         "description": "Name of the asset scanned.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetPath",
@@ -48,7 +53,8 @@
         "description": "Path of the asset scanned in a source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetType",
@@ -56,7 +62,8 @@
         "description": "Type of asset that was scanned: file, column, table, generic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -64,7 +71,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Classification",
@@ -72,7 +80,8 @@
         "description": "Names of the classifications found.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClassificationDetails",
@@ -80,7 +89,8 @@
         "description": "List of classification details: ID, name, count, uniquecount, confidence.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClassificationTrigger",
@@ -88,7 +98,8 @@
         "description": "The trigger for the classification event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileExtension",
@@ -96,7 +107,8 @@
         "description": "File extension of the asset scanned. Only populated when asset type is a file.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileSize",
@@ -104,7 +116,8 @@
         "description": "File size of the asset scanned in bytes. Only populated when asset type is a file.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -112,7 +125,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "PurviewAccountName",
@@ -120,7 +134,8 @@
         "description": "Name of the Purview account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PurviewRegion",
@@ -128,7 +143,8 @@
         "description": "Region of the Purview account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PurviewTenantId",
@@ -136,7 +152,8 @@
         "description": "Tenant ID associated with the Purview account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -144,7 +161,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabel",
@@ -152,7 +170,8 @@
         "description": "Names for the labels found.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelDetails",
@@ -160,7 +179,8 @@
         "description": "List of label details: ID, name, order.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelTrigger",
@@ -168,7 +188,8 @@
         "description": "The trigger for the sensitivity label event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceCollectionName",
@@ -176,7 +197,8 @@
         "description": "Name of the data source collection name in Purview.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceName",
@@ -184,7 +206,8 @@
         "description": "Name of the data source scanned as registered in Purview.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourcePath",
@@ -192,7 +215,8 @@
         "description": "Resource Path of the data source. Ex: ARM path for Azure resources and ARN for AWS resources.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceRegion",
@@ -200,7 +224,8 @@
         "description": "The location of the data source that was scanned.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceScanId",
@@ -208,7 +233,8 @@
         "description": "The associated Purview scan ID for the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSubscriptionId",
@@ -216,7 +242,8 @@
         "description": "Subscription ID associated with the data source. Account ID for AWS resources.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -224,7 +251,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceType",
@@ -232,7 +260,8 @@
         "description": "Type of data source scanned: azuredatalakegen1, azureblob, azuredataexplorer, amazons3 etc.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -240,7 +269,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TenantId",
@@ -248,7 +278,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -256,7 +287,8 @@
         "description": "Time (UTC) when the log was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -264,8 +296,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

@@ -8,7 +8,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Agent",
@@ -16,7 +17,8 @@
         "description": "The agentic property for sign in logs. Includes the agentType and the parentAppId when the type is AgenticInstance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AlternateSignInName",
@@ -24,7 +26,8 @@
         "description": "The identification that the user provided to sign in. It may be the userPrincipalName but it's also populated when a user signs in using other identifiers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppDisplayName",
@@ -32,7 +35,8 @@
         "description": "The application name displayed in the Azure Portal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppId",
@@ -40,7 +44,8 @@
         "description": "The application identifier in Azure Active Directory.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppliedConditionalAccessPolicies",
@@ -48,7 +53,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppliedEventListeners",
@@ -56,7 +62,8 @@
         "description": "Detailed information about the listeners, such as Azure Logic Apps and Azure Functions, that were triggered by the corresponding events in the sign-in event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppOwnerTenantId",
@@ -64,7 +71,8 @@
         "description": "The tenant identifier of the owenr of the application in Azure Active Directory.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationAppDeviceDetails",
@@ -72,7 +80,8 @@
         "description": "Details of the app and device state used during the most recent authentication step using an authentication app.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationAppPolicyEvaluationDetails",
@@ -80,7 +89,8 @@
         "description": "The details of the policies applied and enforced related to the authentication app during the latest signIn step.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationContextClassReferences",
@@ -88,7 +98,8 @@
         "description": "Contains a collection of values that represent the conditional access authentication contexts applied to the sign-in.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationDetails",
@@ -96,7 +107,8 @@
         "description": "The result of the authentication attempt and additional details on the authentication method.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationMethodsUsed",
@@ -104,7 +116,8 @@
         "description": "The authentication methods used. Possible values: SMS, Authenticator App, App Verification code, Password, FIDO, PTA, or PHS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationProcessingDetails",
@@ -112,7 +125,8 @@
         "description": "Additional authentication processing details, such as the agent name in case of PTA/PHS or Server/farm name in case of federated authentication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationProtocol",
@@ -120,7 +134,8 @@
         "description": "Lists the protocol type or grant type used in the authentication. The possible values are: none, oAuth2, ropc, wsFederation, saml20, deviceCode. For authentications that use protocols other than the possible values listed, the protocol type is listed as none.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationRequirement",
@@ -128,7 +143,8 @@
         "description": "This holds the highest level of authentication needed through all the sign-in steps, for sign-in to succeed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationRequirementPolicies",
@@ -136,7 +152,8 @@
         "description": "Sources of authentication requirement, such as conditional access, per-user MFA, identity protection, and security defaults.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticatorAppLocation",
@@ -144,7 +161,8 @@
         "description": "The location of the authenticator app.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AutonomousSystemNumber",
@@ -152,7 +170,8 @@
         "description": "The Autonomous System Number (ASN) of the network used by the actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -160,7 +179,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Category",
@@ -168,7 +188,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClientAppUsed",
@@ -176,7 +197,8 @@
         "description": "The legacy client used for sign-in activity. For example: Browser, Exchange ActiveSync, Modern clients, IMAP, MAPI, SMTP, or POP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClientCredentialType",
@@ -184,7 +206,8 @@
         "description": "The type of client credential used. Examples include client assertion, client secret, etc.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConditionalAccessAudiences",
@@ -192,7 +215,8 @@
         "description": "The audiences targeted by the conditional access policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConditionalAccessPolicies",
@@ -200,7 +224,8 @@
         "description": "A list of conditional access policies that are triggered by the corresponding sign-in activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConditionalAccessStatus",
@@ -208,7 +233,8 @@
         "description": "The status of the conditional access policy triggered. Possible values: success, failure, or notApplied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -216,7 +242,8 @@
         "description": "The identifier that's sent from the client when sign-in is initiated. This is used for troubleshooting the corresponding sign-in activity when calling for support.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CreatedDateTime",
@@ -224,7 +251,8 @@
         "description": "The date and time the sign-in was initiated. The Timestamp type is always in UTC time. For example, midnight UTC on Jan 1, 2014 is 2014-01-01T00:00:00Z.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CrossTenantAccessType",
@@ -232,7 +260,8 @@
         "description": "Describes the type of cross-tenant access used by the actor to access the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceDetail",
@@ -240,7 +269,8 @@
         "description": "The device information from where the sign-in occurred. Includes information such as deviceId, OS, and browser.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DurationMs",
@@ -248,7 +278,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FederatedCredentialId",
@@ -256,7 +287,8 @@
         "description": "Federated Credential Id.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FlaggedForReview",
@@ -264,7 +296,8 @@
         "description": "During a failed sign in, a user may click a button in the Azure portal to mark the failed event for tenant admins. If a user clicked the button to flag the failed sign in, this value is true.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GlobalSecureAccessIpAddress",
@@ -272,7 +305,8 @@
         "description": "Global secure IP address that user signed in from.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HomeTenantId",
@@ -280,7 +314,8 @@
         "description": "The tenant identifier of the user initiating the sign in. Not applicable in Managed Identity or service principal sign ins.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HomeTenantName",
@@ -288,7 +323,8 @@
         "description": "The tenant name of the external tenant who homes the entitity taking action in the customer's tenant.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -296,7 +332,8 @@
         "description": "The identifier representing the sign-in activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Identity",
@@ -304,7 +341,8 @@
         "description": "The display name of the actor identified in the signin.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IncomingTokenType",
@@ -312,7 +350,8 @@
         "description": "The type of token utilized to signIn (examples: primary refresh token, saml assertion).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IPAddress",
@@ -320,7 +359,8 @@
         "description": "The IP address of the client from where the sign-in occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IPAddressFromResourceProvider",
@@ -328,7 +368,8 @@
         "description": "The IP address a user used to reach a resource provider, used to determine Conditional Access compliance for some policies. For example, when a user interacts with Exchange Online, the IP address Exchange receives from the user may be recorded here. This value is often null.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -336,7 +377,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IsInteractive",
@@ -344,7 +386,8 @@
         "description": "Indicates whether a user sign in is interactive. In interactive sign in, the user provides an authentication factor to Azure AD. These factors include passwords, responses to MFA challenges, biometric factors, or QR codes that a user provides to Azure AD or an associated app. In non-interactive sign in, the user doesn't provide an authentication factor. Instead, the client app uses a token or code to authenticate or access a resource on behalf of a user. Non-interactive sign ins are commonly used for a client to sign in on a user's behalf in a process transparent to the user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsRisky",
@@ -352,7 +395,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsTenantRestricted",
@@ -360,7 +404,8 @@
         "description": "Indicates if a signIn is under a tenant restrictions policy or not.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsThroughGlobalSecureAccess",
@@ -368,7 +413,8 @@
         "description": "Displays whether or not a user came through Global Secure Access service or not.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Level",
@@ -376,7 +422,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Location",
@@ -384,7 +431,8 @@
         "description": "The 2 letter country code from where the sign-in occurred. Depending on IP address provided, this value may not always resolve to a city or region level of detail.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LocationDetails",
@@ -392,7 +440,8 @@
         "description": "Provides the city, state, country/region and latitude and longitude from where the sign-in happened.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MfaDetail",
@@ -400,7 +449,8 @@
         "description": "This property is deprecated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkLocationDetails",
@@ -408,7 +458,8 @@
         "description": "The network location details including the type of network used and its names.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -416,7 +467,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationVersion",
@@ -424,7 +476,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OriginalRequestId",
@@ -432,7 +485,8 @@
         "description": "The request identifier of the first request in the authentication sequence.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OriginalTransferMethod",
@@ -440,7 +494,8 @@
         "description": "Transfer method used to initiate a session throughout all subsequent requests.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessingTimeInMilliseconds",
@@ -448,7 +503,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Resource",
@@ -456,7 +512,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceDisplayName",
@@ -464,7 +521,8 @@
         "description": "The name of the resource that the user signed in to.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceGroup",
@@ -472,7 +530,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceId",
@@ -480,7 +539,8 @@
         "description": "The identifier of the resource that the user signed in to.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceIdentity",
@@ -488,7 +548,8 @@
         "description": "The resource that the user signed in to.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceOwnerTenantId",
@@ -496,7 +557,8 @@
         "description": "The tenant identifier of the owner of the resource referenced in the sign in.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceProvider",
@@ -504,7 +566,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceServicePrincipalId",
@@ -512,7 +575,8 @@
         "description": "The identifier of the service principal representing the target resource in the sign-in event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceTenantId",
@@ -520,7 +584,8 @@
         "description": "The tenant identifier of the resource referenced in the sign in.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultDescription",
@@ -528,7 +593,8 @@
         "description": "Provides the error message or the reason for failure for the corresponding sign-in activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultSignature",
@@ -536,7 +602,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultType",
@@ -544,7 +611,8 @@
         "description": "Provides the 5-6 digit error code that's generated during a sign-in event. 0 indicates success; other values are failures. You can find more information using the Azure AD Error Codes documentation orhttps://login.microsoftonline.com/error.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskDetail",
@@ -552,7 +620,8 @@
         "description": "The reason behind a specific state of a risky user, sign-in, or a risk event. Possible values: none, adminGeneratedTemporaryPassword, userPerformedSecuredPasswordChange, userPerformedSecuredPasswordReset, adminConfirmedSigninSafe, aiConfirmedSigninSafe, userPassedMFADrivenByRiskBasedPolicy, adminDismissedAllRiskForUser, or adminConfirmedSigninCompromised. The value none means that no action has been performed on the user or sign-in so far. Note: Details for this property are only available for Azure AD Premium P2 customers. All other customers are returned hidden.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskEventTypes",
@@ -560,7 +629,8 @@
         "description": "This property is deprecated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskEventTypes_V2",
@@ -568,7 +638,8 @@
         "description": "The list of risk event types associated with the sign-in. Possible values: unlikelyTravel, anonymizedIPAddress, maliciousIPAddress, unfamiliarFeatures, malwareInfectedIPAddress, suspiciousIPAddress, leakedCredentials, investigationsThreatIntelligence, or generic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevel",
@@ -576,7 +647,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevelAggregated",
@@ -584,7 +656,8 @@
         "description": "The aggregated risk level. Possible values: none, low, medium, high, or hidden. The value hidden means the user or sign-in was not enabled for Azure AD Identity Protection. Note: Details for this property are only available for Azure AD Premium P2 customers. All other customers are returned hidden.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevelDuringSignIn",
@@ -592,7 +665,8 @@
         "description": "The risk level during sign-in. Possible values: none, low, medium, high, or hidden. The value hidden means the user or sign-in was not enabled for Azure AD Identity Protection. Note: Details for this property are only available for Azure AD Premium P2 customers. All other customers are returned hidden.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskState",
@@ -600,7 +674,8 @@
         "description": "The risk state of a risky user, sign-in, or a risk event. Possible values: none, confirmedSafe, remediated, dismissed, atRisk, or confirmedCompromised.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalId",
@@ -608,7 +683,8 @@
         "description": "The application identifier used for sign-in. This field is populated when you are signing in using an application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalName",
@@ -616,7 +692,8 @@
         "description": "The application name used for sign-in. This field is populated when you are signing in using an application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SessionId",
@@ -624,7 +701,8 @@
         "description": "Id of the session that was generated during the signIn.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SessionLifetimePolicies",
@@ -632,7 +710,8 @@
         "description": "Any conditional access session management policies that were applied during the sign-in event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SignInIdentifier",
@@ -640,7 +719,8 @@
         "description": "The identification that the user provided to sign in. It may be the userPrincipalName but it's also populated when a user signs in using other identifiers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SignInIdentifierType",
@@ -648,7 +728,8 @@
         "description": "The type of sign in identifier. Possible values are: userPrincipalName, phoneNumber, proxyAddress, qrCode, onPremisesUserPrincipalName.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceAppClientId",
@@ -656,7 +737,8 @@
         "description": "The Source App's Client ID for Target Identities.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -664,7 +746,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Status",
@@ -672,7 +755,8 @@
         "description": "The sign-in status. Includes the error code and description of the error (in case of a sign-in failure).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -680,7 +764,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TokenIssuerName",
@@ -688,7 +773,8 @@
         "description": "The name of the identity provider. For example, sts.microsoft.com.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TokenIssuerType",
@@ -696,7 +782,8 @@
         "description": "The type of identity provider. The possible values are: AzureAD, or ADFederationServices, AzureADBackupAuth, ADFederationServicesMFAAdapter, NPSExtension.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TokenProtectionStatusDetails",
@@ -704,7 +791,8 @@
         "description": "Token protection creates a cryptographically secure tie between the token and the device it's issued to. This field indicates whether the signin token was bound to the device or not.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -712,7 +800,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UniqueTokenIdentifier",
@@ -720,7 +809,8 @@
         "description": "A unique base64 encoded request identifier used to track tokens issued by Azure AD as they are redeemed at resource providers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -728,7 +818,8 @@
         "description": "The user agent information related to sign-in.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserDisplayName",
@@ -736,7 +827,8 @@
         "description": "The display name of the user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserId",
@@ -744,7 +836,8 @@
         "description": "The identifier of the user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserPrincipalName",
@@ -752,7 +845,8 @@
         "description": "The UPN of the user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserType",
@@ -760,8 +854,16 @@
         "description": "Identifies whether the user is a member or guest in the tenant. Possible values are: member and guest.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

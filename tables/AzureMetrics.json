@@ -8,7 +8,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -16,7 +17,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CallerIpAddress",
@@ -24,7 +26,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Category",
@@ -32,7 +35,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Confidence",
@@ -40,7 +44,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -48,7 +53,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Count",
@@ -56,7 +62,8 @@
         "description": "Number of samples collected during the time range. Can be used to determine the number of values that contributed to the average value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Description",
@@ -64,7 +71,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DurationMs",
@@ -72,7 +80,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FirstReportedDateTime",
@@ -80,7 +89,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IndicatorThreatType",
@@ -88,7 +98,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsActive",
@@ -96,7 +107,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -104,7 +116,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LastReportedDateTime",
@@ -112,7 +125,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MaliciousIP",
@@ -120,7 +134,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Maximum",
@@ -128,7 +143,8 @@
         "description": "Maximum value collected during in the time range.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetricName",
@@ -136,7 +152,8 @@
         "description": "Display name of the metric.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Minimum",
@@ -144,7 +161,8 @@
         "description": "Minimum value collected during in the time range.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -152,7 +170,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationVersion",
@@ -160,7 +179,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteIPCountry",
@@ -168,7 +188,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteIPLatitude",
@@ -176,7 +197,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteIPLongitude",
@@ -184,7 +206,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Resource",
@@ -192,7 +215,8 @@
         "description": "Resource name of the Azure resource reporting the metric.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceGroup",
@@ -200,7 +224,8 @@
         "description": "Resource group name of the Azure resource reporting the metric.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceId",
@@ -208,7 +233,8 @@
         "description": "Resource ID of the Azure resource reporting the metric. Same as _ResourceId present for backward compatibility reasons. _ResourceId should be used",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -216,7 +242,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceProvider",
@@ -224,7 +251,8 @@
         "description": "Resource provider of the Azure resource reporting the metric.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultDescription",
@@ -232,7 +260,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultSignature",
@@ -240,7 +269,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultType",
@@ -248,7 +278,8 @@
         "description": "Reduces the set of data collected. The syntax allowed depends on the operation. See the operation's description for details.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -256,7 +287,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -264,7 +296,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SubscriptionId",
@@ -272,7 +305,8 @@
         "description": "Subscription id of the Azure resource reporting the metric.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -280,7 +314,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TimeGenerated",
@@ -288,7 +323,8 @@
         "description": "Date and time the record was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGrain",
@@ -296,7 +332,8 @@
         "description": "Time grain of the metric e.g. PT1M",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TLPLevel",
@@ -304,7 +341,8 @@
         "description": "Deprecated",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Total",
@@ -312,7 +350,8 @@
         "description": "Sum of all of the values in the time range.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -320,7 +359,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UnitName",
@@ -328,8 +368,28 @@
         "description": "Unit of the metric. Examples include Seconds Percent Bytes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "AdditionalInformation",
+        "type": "string",
+        "description": "",
+        "verified": true
+      },
+      {
+        "name": "ReportReferenceLink",
+        "type": "string",
+        "description": "",
+        "verified": true
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

@@ -8,7 +8,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ClientIp",
@@ -16,7 +17,8 @@
         "description": "The IP address of the device that was used when the activity was logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -24,7 +26,8 @@
         "description": "A unique value used to associate related rows.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CrmOrganizationUniqueName",
@@ -32,7 +35,8 @@
         "description": "Unique name of the organization.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EntityId",
@@ -40,7 +44,8 @@
         "description": "Unique identifier of the entity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EntityName",
@@ -48,7 +53,8 @@
         "description": "Name of the entity in the organization.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Fields",
@@ -56,7 +62,8 @@
         "description": "JSON of Key Value pair reflecting the values that were created or updated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InstanceUrl",
@@ -64,7 +71,8 @@
         "description": "URL to the instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -72,7 +80,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ItemType",
@@ -80,7 +89,8 @@
         "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ItemUrl",
@@ -88,7 +98,8 @@
         "description": "URL to the record emitting the log.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Message",
@@ -96,7 +107,8 @@
         "description": "Name of the message called in the Dynamics 365 SDK.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Operation",
@@ -104,7 +116,8 @@
         "description": "The name of the operation that the user is performing.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OrganizationId",
@@ -112,7 +125,8 @@
         "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OriginalObjectId",
@@ -120,7 +134,8 @@
         "description": "The ObjectId for Dataverse operation or business activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Query",
@@ -128,7 +143,8 @@
         "description": "The query filter parameters used while executing the FetchXML.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "QueryResults",
@@ -136,7 +152,8 @@
         "description": "One or multiple unique records returned by the Retrieve and Retrieve Multiple SDK message call.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultStatus",
@@ -144,7 +161,8 @@
         "description": "Indicates whether the action (specified in the Operation property) was successful or not.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceContextId",
@@ -152,7 +170,8 @@
         "description": "The unique id associated with service context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceContextIdType",
@@ -160,7 +179,8 @@
         "description": "Application defined token to define context use.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceName",
@@ -168,7 +188,8 @@
         "description": "Name of the Service generating the log.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceRecordId",
@@ -176,7 +197,8 @@
         "description": "Unique identifier of an audit record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -184,7 +206,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SystemUserId",
@@ -192,7 +215,8 @@
         "description": "Unique identifier of the user GUID in the organization.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -200,7 +224,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -208,7 +233,8 @@
         "description": "The date and time in (UTC) when the user performed the activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -216,7 +242,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -224,7 +251,8 @@
         "description": "The user agent.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserId",
@@ -232,7 +260,8 @@
         "description": "The Dataverse user ID of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserKey",
@@ -240,7 +269,8 @@
         "description": "An alternative ID for the user identified in the UserId property.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserType",
@@ -248,7 +278,8 @@
         "description": "The type of user that performed the operation. See the UserType table in Office 365 management activity api schema documentation for details on the types of users.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserUpn",
@@ -256,8 +287,10 @@
         "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
