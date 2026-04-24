@@ -35,12 +35,14 @@ Each table entry:
 {
   "AlertEvidence": {
     "source": "Defender XDR Advanced Hunting Schema",
+    "verified": true,
     "columns": [
       {
         "name": "Timestamp",
         "type": "datetime",
         "description": "Date and time when the event was recorded",
-        "availability": ["Defender XDR"]
+        "availability": ["Defender XDR"],
+        "verified": true
       }
     ]
   }
@@ -127,9 +129,37 @@ for col in table_data.get("columns", []):
         print(f"  {col['name']} is Sentinel-only")
 ```
 
+**Check if a column is verified against a live environment:**
+```python
+table_data = schema.get("DeviceEvents", {})
+for col in table_data.get("columns", []):
+    status = col.get("verified")
+    if status is True:
+        pass  # Column confirmed in live environment
+    elif status is False:
+        print(f"  {col['name']} is documented but NOT found in live environment")
+    elif status == "live_only":
+        print(f"  {col['name']} exists live but is NOT in documentation")
+```
+
+## Schema Verification
+
+Schemas are periodically **verified** against a live Microsoft Defender XDR and Sentinel environment. When a table has been verified, each column gets a `verified` field:
+
+| Value | Meaning |
+|-------|---------|
+| `true` | Column exists in both documentation and the live environment |
+| `false` | Column is documented but was **not** found in the live environment |
+| `"live_only"` | Column was found in the live environment but is **not** in documentation |
+| *(absent)* | Table has not been verified yet |
+
+Tables that have been verified also get a top-level `"verified": true` property.
+
 ## How It Works
 
 Schemas are fetched daily from official Microsoft documentation by an automated pipeline. Changes are detected by diffing the previous schema against the new one, and all modifications are recorded in the [changelog](CHANGELOG.md).
+
+Verification against live environments runs weekly and the results are published here automatically.
 
 ## License
 
