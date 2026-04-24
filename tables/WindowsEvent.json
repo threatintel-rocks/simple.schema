@@ -240,19 +240,19 @@
         "name": "Data",
         "type": "dynamic",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "SourceSystem",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "TimeCreated",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true

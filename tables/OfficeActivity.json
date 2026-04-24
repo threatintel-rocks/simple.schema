@@ -1302,67 +1302,67 @@
         "name": "ActorContextId_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "ClientIP_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "IssuedAtTime",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "OfficeTenantId_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "OrganizationId_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "Scope",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "Site_Url_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "SourceFileName_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "SourceRelativeUrl_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "UniqueTokenId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "UserId_",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true

@@ -429,7 +429,7 @@
         "name": "ConditionalAccessPoliciesV2",
         "type": "dynamic",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true

@@ -8,7 +8,8 @@
         "description": "Last date and time recorded for the agent info",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AIAgentId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the agent as assigned to it in Microsoft 365 Copilot or Copilot Studio",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AIAgentName",
@@ -24,7 +26,8 @@
         "description": "Display name of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentCreationTime",
@@ -32,7 +35,8 @@
         "description": "Date and time when the agent was created",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CreatorAccountUpn",
@@ -40,7 +44,8 @@
         "description": "User principal name (UPN) of the account that created the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OwnerAccountUpns",
@@ -48,7 +53,8 @@
         "description": "User principal names (UPN) of all the owners of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastModifiedByUpn",
@@ -56,7 +62,8 @@
         "description": "User principal name (UPN) of the account that last modified that agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastModifiedTime",
@@ -64,7 +71,8 @@
         "description": "Date and time when the agent was last modified",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastPublishedTime",
@@ -72,7 +80,8 @@
         "description": "Date and time when the agent was last published",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastPublishedByUpn",
@@ -80,7 +89,8 @@
         "description": "User principal name (UPN) of the account that last published the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "AgentDescription",
@@ -88,7 +98,8 @@
         "description": "Description of the agent as displayed in the agent's source",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentStatus",
@@ -96,7 +107,8 @@
         "description": "Status of the agent; possible values: Created, Published, Deleted",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAuthenticationType",
@@ -104,7 +116,8 @@
         "description": "The agent’s configured authentication type for users interacting with the agent; possible values: None, Microsoft, Custom",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentUsers",
@@ -112,7 +125,8 @@
         "description": "List of user principal names (UPNs) or group IDs that can use the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "KnowledgeDetails",
@@ -120,7 +134,8 @@
         "description": "Details about the knowledge sources added to the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentActionTriggers",
@@ -128,7 +143,8 @@
         "description": "List of triggers that makes an autonomous agent take action",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RawAgentInfo",
@@ -136,7 +152,8 @@
         "description": "Contents of the raw JSON that describes the agent and contains configuration details, as received from the provider",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationTrigger",
@@ -144,7 +161,8 @@
         "description": "Indicates when authentication is triggered for the agent; possible values: As Needed, Always",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccessControlPolicy",
@@ -152,7 +170,8 @@
         "description": "Users that can interact with the agent; possible values: Any, Copilot readers, Group membership, Any (multitenant)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthorizedSecurityGroupIds",
@@ -160,7 +179,8 @@
         "description": "List of Azure Active Directory Group IDs that are allowed to interact with the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentTopicsDetails",
@@ -168,7 +188,8 @@
         "description": "Specifications of the topics that the agent can perform",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentToolsDetails",
@@ -176,7 +197,8 @@
         "description": "Specifications of the tools that the agent can access and perform actions on",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EnvironmentId",
@@ -184,7 +206,8 @@
         "description": "The identifier of the Microsoft Power Platform environment the agent resides in",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Platform",
@@ -192,7 +215,8 @@
         "description": "The platform that provided the information about the agents; possible values: Copilot Studio",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsGenerativeOrchestrationEnabled",
@@ -200,7 +224,8 @@
         "description": "ndicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentAppId",
@@ -208,7 +233,8 @@
         "description": "The unique app identifier registered for the agent in Microsoft Entra",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectedAgentsSchemaNames",
@@ -216,7 +242,8 @@
         "description": "Lists the schema names of connected agents, which are independently managed agents that are linked to the main one for orchestration",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ChildAgentsSchemaNames",
@@ -224,9 +251,95 @@
         "description": "Lists the schema names of the child agents that exist within the main agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "AccessCapabilities",
+        "type": "dynamic",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "AIModel",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "ElementTypes",
+        "type": "dynamic",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "EntraBlueprintId",
+        "type": "guid",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "EntraObjectId",
+        "type": "guid",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Instructions",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "IsBlocked",
+        "type": "bool",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "RegistrySource",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceAgentId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

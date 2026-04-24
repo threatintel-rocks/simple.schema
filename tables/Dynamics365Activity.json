@@ -303,19 +303,19 @@
         "name": "Scope",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "ServiceContextId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "ServiceContextIdType",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true

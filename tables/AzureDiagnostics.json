@@ -1572,247 +1572,247 @@
         "name": "_schema_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "correlation_actionTrackingId_g",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "correlation_clientTrackingId_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "identity_claim_http_schemas_microsoft_com_claims_authnmethodsreferences_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "identity_claim_http_schemas_microsoft_com_identity_claims_objectidentifier_g",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "identity_claim_http_schemas_microsoft_com_identity_claims_scope_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "identity_claim_http_schemas_xmlsoap_org_ws_2005_05_identity_claims_upn_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "ResourceId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_DurationInMinutes_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_DurationInMinutes_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_EndDateTimeUtc_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_EndDateTimeUtc_t",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_InitialRequiredUpdatesCount_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_InstallPercentage_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_MachineId_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_MachineName_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_RebootRequired_b",
         "type": "bool",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_ScheduleName_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_StartDateTimeUtc_t",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_Status_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_StatusDescription_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_TotalUpdatesFailed_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "resultDescription_Summary_TotalUpdatesInstalled_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "SourceSystem",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "sslEnabled_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "startTime_t",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "status_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "StreamType_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "subnetId_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "subnetPrefix_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "SubscriptionId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "systemId_g",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "Tenant_g",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "TenantId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "TimeGenerated",
         "type": "datetime",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "timeTaken_d",
         "type": "real",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "Type",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "type_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "userAgent_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "vnetResourceGuid_g",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "workflowId_s",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true

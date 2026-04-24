@@ -204,13 +204,13 @@
         "name": "MG",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       },
       {
         "name": "TenantId",
         "type": "string",
         "description": "",
-        "verified": true
+        "verified": "live_only"
       }
     ],
     "verified": true
