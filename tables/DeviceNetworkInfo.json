@@ -8,8 +8,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -26,8 +24,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkAdapterName",
@@ -35,8 +32,7 @@
         "description": "Name of the network adapter",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MacAddress",
@@ -44,8 +40,7 @@
         "description": "MAC address of the network adapter",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkAdapterType",
@@ -53,8 +48,7 @@
         "description": "Network adapter type. For the possible values, refer to [this enumeration](/dotnet/api/system.net.networkinformation.networkinterfacetype).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkAdapterStatus",
@@ -62,8 +56,7 @@
         "description": "Operational status of the network adapter. For the possible values, refer to [this enumeration](/dotnet/api/system.net.networkinformation.operationalstatus).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TunnelType",
@@ -71,8 +64,7 @@
         "description": "Tunneling protocol, if the interface is used for this purpose, for example 6to4, Teredo, ISATAP, PPTP, SSTP, and SSH",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConnectedNetworks",
@@ -80,8 +72,7 @@
         "description": "Networks that the adapter is connected to. Each JSON element in the array contains the network name, category (public, private or domain), a description, and a flag indicating if it's connected publicly to the internet.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DnsAddresses",
@@ -89,8 +80,7 @@
         "description": "DNS server addresses in JSON array format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPv4Dhcp",
@@ -98,8 +88,7 @@
         "description": "IPv4 address of DHCP server",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPv6Dhcp",
@@ -107,8 +96,7 @@
         "description": "IPv6 address of DHCP server",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DefaultGateways",
@@ -116,8 +104,7 @@
         "description": "Default gateway addresses in JSON array format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPAddresses",
@@ -125,8 +112,7 @@
         "description": "JSON array containing all the IP addresses assigned to the adapter, along with their respective subnet prefix and IP address space, such as public, private, or link-local",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -134,8 +120,7 @@
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkAdapterVendor",
@@ -143,8 +128,7 @@
         "description": "Name of the manufacturer or vendor of the network adapter",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OnboardingStatus",
@@ -152,8 +136,7 @@
         "description": "Indicates whether the device is currently onboarded to Microsoft Defender for Endpoint or if the device is not supported",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "NetworkAdapterDnsSuffix",
@@ -161,40 +144,8 @@
         "description": "Domain suffix assigned to the device’s network adapter, indicating the network environment the network adapter is connected to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

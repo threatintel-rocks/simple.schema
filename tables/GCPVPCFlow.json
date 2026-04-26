@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "BytesSent",
@@ -17,8 +16,7 @@
         "description": "Amount of bytes sent from the source to the destination.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayInterconnectName",
@@ -26,8 +24,7 @@
         "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayInterconnectProjectNumber",
@@ -35,8 +32,7 @@
         "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayLocation",
@@ -44,8 +40,7 @@
         "description": "Region of the destination gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayName",
@@ -53,8 +48,7 @@
         "description": "Name of the destination gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayProjectId",
@@ -62,8 +56,7 @@
         "description": "Google Cloud project ID of the destination gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayType",
@@ -71,8 +64,7 @@
         "description": "Type of the destination gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGatewayVpc",
@@ -80,8 +72,7 @@
         "description": "VPC network details of the gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkeClusterLocation",
@@ -89,8 +80,7 @@
         "description": "Location of the destination cluster. This can be a zone or a region depending if the cluster is zonal or regional.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkeClusterName",
@@ -98,8 +88,7 @@
         "description": "Destination GKE cluster name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkePodName",
@@ -107,8 +96,7 @@
         "description": "Name of the destination Pod",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkePodNamespace",
@@ -116,8 +104,7 @@
         "description": "Namespace of the destination Pod",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkePodWorkloadName",
@@ -125,8 +112,7 @@
         "description": "Name of the top-level destination workload controller",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkePodWorkloadType",
@@ -134,8 +120,7 @@
         "description": "Type of the top-level destination workload controller.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGkeService",
@@ -143,8 +128,7 @@
         "description": "Destination GKE Service name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestGoogleServiceType",
@@ -152,8 +136,7 @@
         "description": "This field is set to GOOGLE_API if the destination is a Google API service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceGroupName",
@@ -161,8 +144,7 @@
         "description": "Name of the instance group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceGroupRegion",
@@ -170,8 +152,7 @@
         "description": "If the instance group is regional, this field is populated with the region of the instance group.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceGroupZone",
@@ -179,8 +160,7 @@
         "description": "If the instance group is zonal, this field is populated with the zone of the instance group.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceProjectId",
@@ -188,8 +168,7 @@
         "description": "ID of the Google Cloud project that contains the VM resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceRegion",
@@ -197,8 +176,7 @@
         "description": "Region of the VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceVmName",
@@ -206,8 +184,7 @@
         "description": "Instance name of the VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestInstanceZone",
@@ -215,8 +192,7 @@
         "description": "Zone of the VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestIp",
@@ -224,8 +200,7 @@
         "description": "Destination IP address",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestLocationAsn",
@@ -233,8 +208,7 @@
         "description": "The ASN of the external destination network to which this endpoint belongs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestLocationCity",
@@ -242,8 +216,7 @@
         "description": "City for external destination endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestLocationContinent",
@@ -251,8 +224,7 @@
         "description": "Continent for external destination endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestLocationCountry",
@@ -260,8 +232,7 @@
         "description": "Country for external destination endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestLocationRegion",
@@ -269,8 +240,7 @@
         "description": "Region for external destination endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestPort",
@@ -278,8 +248,7 @@
         "description": "Destination port",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestVpcName",
@@ -287,8 +256,7 @@
         "description": "Name of the network",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestVpcProjectId",
@@ -296,8 +264,7 @@
         "description": "ID of the Google Cloud project containing the VPC",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestVpcSubnetworkName",
@@ -305,8 +272,7 @@
         "description": "Name of the subnet",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestVpcSubnetworkRegion",
@@ -314,8 +280,7 @@
         "description": "Region of the subnet",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndTime",
@@ -323,8 +288,7 @@
         "description": "Timestamp of the last observed packet during the aggregated time interval.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GCPResourceType",
@@ -332,8 +296,7 @@
         "description": "Type of the resource (e.g., compute instance, DNS record).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertId",
@@ -341,8 +304,7 @@
         "description": "A unique identifier assigned to each log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InternetRoutingDetailsEgressAsn",
@@ -350,8 +312,7 @@
         "description": "List of relevant AS paths. If there are multiple AS paths available to the flow, the field might contain more than one AS path.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -359,8 +320,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LbBackendGroupLocation",
@@ -368,8 +328,7 @@
         "description": "Location of the backend group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbBackendGroupName",
@@ -377,8 +336,7 @@
         "description": "Name of the backend group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbBackendGroupType",
@@ -386,8 +344,7 @@
         "description": "Type of the backend group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbBackendServiceName",
@@ -395,8 +352,7 @@
         "description": "Name of the backend service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbForwardingRuleName",
@@ -404,8 +360,7 @@
         "description": "Name of the forwarding rule",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbForwardingRuleProjectId",
@@ -413,8 +368,7 @@
         "description": "Google Cloud project ID of the forwarding rule",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbReporter",
@@ -422,8 +376,7 @@
         "description": "Cloud Load Balancing reporter. Can be either CLIENT or BACKEND",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbScheme",
@@ -431,8 +384,7 @@
         "description": "Load balancer scheme",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbType",
@@ -440,8 +392,7 @@
         "description": "Load balancer type.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbUrlMapName",
@@ -449,8 +400,7 @@
         "description": "Name of the URL map. Populated if the type of the load balancer is APPLICATION_LOAD_BALANCER.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LbVpc",
@@ -458,8 +408,7 @@
         "description": "VPC network details of the load balancer",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Location",
@@ -467,8 +416,7 @@
         "description": "Location of the resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogName",
@@ -476,8 +424,7 @@
         "description": "The name of the log where this entry is stored.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkServiceDscp",
@@ -485,8 +432,7 @@
         "description": "If the Differentiated Services field is present in packet headers, this field is populated with the DSCP value.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PacketsSent",
@@ -494,8 +440,7 @@
         "description": "Number of packets sent from the source to the destination.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProjectId",
@@ -503,8 +448,7 @@
         "description": "ProjectId of the resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Protocol",
@@ -512,8 +456,7 @@
         "description": "The IANA protocol number",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscAttachmentProjectId",
@@ -521,8 +464,7 @@
         "description": "Google Cloud project ID of the service attachment",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscAttachmentRegion",
@@ -530,8 +472,7 @@
         "description": "Region of the service attachment",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscAttachmentVpc",
@@ -539,8 +480,7 @@
         "description": "VPC network details of the service attachment",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscEndpointConnectionId",
@@ -548,8 +488,7 @@
         "description": "Private Service Connect connection ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscEndpointProjectId",
@@ -557,8 +496,7 @@
         "description": "Google Cloud project ID of the Private Service Connect endpoint",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscEndpointRegion",
@@ -566,8 +504,7 @@
         "description": "Region of the endpoint. Not populated if the target service type is GLOBAL_GOOGLE_APIS.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscEndpointTargetServiceType",
@@ -575,8 +512,7 @@
         "description": "Target service type. Can be either GLOBAL_GOOGLE_APIS or PUBLISHED_SERVICE.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PscEndpointVpc",
@@ -584,8 +520,7 @@
         "description": "VPC network details of the Private Service Connect endpoint",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiveTimestamp",
@@ -593,8 +528,7 @@
         "description": "Timestamp of the event when it was received by the logging service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Reporter",
@@ -602,8 +536,7 @@
         "description": "The side which reported the flow.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Rttmsec",
@@ -611,8 +544,7 @@
         "description": "The measured latency is the time elapsed between sending a SEQ and receiving a corresponding ACK.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -620,8 +552,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayInterconnectName",
@@ -629,8 +560,7 @@
         "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the name of the Cloud Interconnect connection on which the VLAN attachment is configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayInterconnectProjectNumber",
@@ -638,8 +568,7 @@
         "description": "If the type of the gateway is INTERCONNECT_ATTACHMENT, this field is populated with the Google Cloud project number of the Cloud Interconnect connection on which the VLAN attachment is configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayLocation",
@@ -647,8 +576,7 @@
         "description": "Region of the gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayName",
@@ -656,8 +584,7 @@
         "description": "Name of the gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayProjectId",
@@ -665,8 +592,7 @@
         "description": "Google Cloud project ID of the gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayType",
@@ -674,8 +600,7 @@
         "description": "Type of the gateway. Can be INTERCONNECT_ATTACHMENT or VPN_TUNNEL.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGatewayVpc",
@@ -683,8 +608,7 @@
         "description": "VPC network details of the gateway",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkeClusterLocation",
@@ -692,8 +616,7 @@
         "description": "Location of the source cluster. This can be a zone or a region depending if the cluster is zonal or regional.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkeClusterName",
@@ -701,8 +624,7 @@
         "description": "Source GKE cluster name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkePodName",
@@ -710,8 +632,7 @@
         "description": "Name of the source Pod",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkePodNamespace",
@@ -719,8 +640,7 @@
         "description": "Namespace of the source Pod",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkePodWorkloadName",
@@ -728,8 +648,7 @@
         "description": "Name of the top-level source workload controller",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkePodWorkloadType",
@@ -737,8 +656,7 @@
         "description": "Type of the top-level source workload controller.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGkeService",
@@ -746,8 +664,7 @@
         "description": "Source GKE Service name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcGoogleServiceType",
@@ -755,8 +672,7 @@
         "description": "This field is set to GOOGLE_API if the source is a Google API service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceGroupName",
@@ -764,8 +680,7 @@
         "description": "Name of the source instance group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceGroupRegion",
@@ -773,8 +688,7 @@
         "description": "If the source instance group is regional, this field is populated with the region of the source instance group.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceGroupZone",
@@ -782,8 +696,7 @@
         "description": "If the source instance group is zonal, this field is populated with the zone of the source instance group.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceProjectId",
@@ -791,8 +704,7 @@
         "description": "ID of the Google Cloud project that contains the source VM resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceRegion",
@@ -800,8 +712,7 @@
         "description": "Region of the source VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceVmName",
@@ -809,8 +720,7 @@
         "description": "Instance name of the source VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcInstanceZone",
@@ -818,8 +728,7 @@
         "description": "Zone of the source VM",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcIp",
@@ -827,8 +736,7 @@
         "description": "Source IP address",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcLocationAsn",
@@ -836,8 +744,7 @@
         "description": "The ASN of the external source network to which this endpoint belongs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcLocationCity",
@@ -845,8 +752,7 @@
         "description": "City for external source endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcLocationContinent",
@@ -854,8 +760,7 @@
         "description": "Continent for external source endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcLocationCountry",
@@ -863,8 +768,7 @@
         "description": "Country for external source endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcLocationRegion",
@@ -872,8 +776,7 @@
         "description": "Region for external source endpoints.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcPort",
@@ -881,8 +784,7 @@
         "description": "Source port",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcVpcName",
@@ -890,8 +792,7 @@
         "description": "Name of the source network",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcVpcProjectId",
@@ -899,8 +800,7 @@
         "description": "ID of the Google Cloud project containing the VPC",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcVpcSubnetworkName",
@@ -908,8 +808,7 @@
         "description": "Name of the source subnet,",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcVpcSubnetworkRegion",
@@ -917,8 +816,7 @@
         "description": "Name of the source region",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -926,8 +824,7 @@
         "description": "Timestamp of the first observed packet during the aggregated time interval.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SubnetworkId",
@@ -935,8 +832,7 @@
         "description": "ID of the Google Cloud project containing the VPC",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SubnetworkName",
@@ -944,8 +840,7 @@
         "description": "Name of the subnet",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -953,8 +848,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -962,8 +856,7 @@
         "description": "The time the log entry was received by logging.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -971,8 +864,7 @@
         "description": "Timestamp of the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -980,10 +872,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "GCPResource",
@@ -17,8 +16,7 @@
         "description": "Information about the monitored resource associated with the log entry, such as VM instance, database, etc.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertId",
@@ -26,8 +24,7 @@
         "description": "A unique identifier for the log entry used to prevent duplication.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -35,8 +32,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Labels",
@@ -44,8 +40,7 @@
         "description": "A set of key-value pairs that provide additional metadata about the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogName",
@@ -53,8 +48,7 @@
         "description": "The full resource name of the log to which this log entry belongs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Operation",
@@ -62,8 +56,7 @@
         "description": "Information about an operation associated with the log entry, such as an audit trail or trace context.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProtoPayload",
@@ -71,8 +64,7 @@
         "description": "The structured payload of the log entry, typically in protocol buffer format; contains detailed event data.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiveTimestamp",
@@ -80,8 +72,7 @@
         "description": "The time the log entry was received by the logging system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -89,8 +80,7 @@
         "description": "The severity level of the log entry (e.g., DEBUG, INFO, WARNING, ERROR, CRITICAL).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -98,8 +88,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -107,8 +96,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -116,8 +104,7 @@
         "description": "The actual time the event described by the log entry occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -125,10 +112,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

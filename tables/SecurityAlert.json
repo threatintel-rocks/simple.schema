@@ -8,8 +8,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertName",
@@ -17,8 +16,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertSeverity",
@@ -26,8 +24,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertType",
@@ -35,8 +32,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -44,8 +40,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CompromisedEntity",
@@ -53,8 +48,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfidenceLevel",
@@ -62,8 +56,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfidenceScore",
@@ -71,8 +64,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -80,8 +72,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DisplayName",
@@ -89,8 +80,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndTime",
@@ -98,8 +88,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Entities",
@@ -107,8 +96,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExtendedLinks",
@@ -116,8 +104,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExtendedProperties",
@@ -125,8 +112,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -134,8 +120,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsIncident",
@@ -143,8 +128,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessingEndTime",
@@ -152,8 +136,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProductComponentName",
@@ -161,8 +144,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProductName",
@@ -170,8 +152,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProviderName",
@@ -179,8 +160,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemediationSteps",
@@ -188,8 +168,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceId",
@@ -197,8 +176,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceComputerId",
@@ -206,8 +184,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -215,8 +192,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -224,8 +200,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SubTechniques",
@@ -233,8 +208,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemAlertId",
@@ -242,8 +216,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tactics",
@@ -251,8 +224,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Techniques",
@@ -260,8 +232,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -269,8 +240,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -278,8 +248,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "VendorName",
@@ -287,8 +256,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "VendorOriginalId",
@@ -296,8 +264,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "WorkspaceResourceGroup",
@@ -305,8 +272,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "WorkspaceSubscriptionId",
@@ -314,22 +280,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
