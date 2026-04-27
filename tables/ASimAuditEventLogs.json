@@ -8,7 +8,8 @@
         "description": "The ID of the application that initiated the activity reported, including a process, browser, or service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActingAppName",
@@ -16,7 +17,8 @@
         "description": "The name of the application that initiated the activity reported, including a service, a URL, or a SaaS application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActingAppType",
@@ -24,7 +26,8 @@
         "description": "The type of acting application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActingOriginalAppType",
@@ -32,7 +35,8 @@
         "description": "The acting application type as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorOriginalUserType",
@@ -40,7 +44,8 @@
         "description": "The user type as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorScope",
@@ -48,7 +53,8 @@
         "description": "The scope, such as Azure AD tenant, in which ActorUserId and ActorUsername are defined.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorScopeId",
@@ -56,7 +62,8 @@
         "description": "The scope ID, such as Azure AD tenant ID, in which ActorUserId and ActorUsername are defined.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorSessionId",
@@ -64,7 +71,8 @@
         "description": "The unique ID of the sign-in session of the Actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUserAadId",
@@ -72,7 +80,8 @@
         "description": "The Azure Active Directory ID of the actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUserId",
@@ -80,7 +89,8 @@
         "description": "A machine-readable, alphanumeric, unique representation of the actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUserIdType",
@@ -88,7 +98,8 @@
         "description": "The type of the ID stored in the ActorUserId field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUsername",
@@ -96,7 +107,8 @@
         "description": "The Actor's username, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUsernameType",
@@ -104,7 +116,8 @@
         "description": "The type of the Actor's username specified in ActionUsername field",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUserSid",
@@ -112,7 +125,8 @@
         "description": "The Windows user ID (SIDs) of the actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActorUserType",
@@ -120,7 +134,8 @@
         "description": "The type of the Actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -128,7 +143,8 @@
         "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -136,7 +152,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DvcAction",
@@ -144,7 +161,8 @@
         "description": "For reporting security systems, the action taken by the system.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDescription",
@@ -152,7 +170,8 @@
         "description": "A descriptive text associated with the device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDomain",
@@ -160,7 +179,8 @@
         "description": "The domain of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDomainType",
@@ -168,7 +188,8 @@
         "description": "The type of DvcDomain.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcFQDN",
@@ -176,7 +197,8 @@
         "description": "The hostname of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcHostname",
@@ -184,7 +206,8 @@
         "description": "The hostname of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcId",
@@ -192,7 +215,8 @@
         "description": "The unique ID of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcIdType",
@@ -200,7 +224,8 @@
         "description": "The type of DvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcInterface",
@@ -208,7 +233,8 @@
         "description": "The network interface on which data was captured.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcIpAddr",
@@ -216,7 +242,8 @@
         "description": "The IP Address of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcMacAddr",
@@ -224,7 +251,8 @@
         "description": "The MAC address of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOriginalAction",
@@ -232,7 +260,8 @@
         "description": "The original DvcAction as provided by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOs",
@@ -240,7 +269,8 @@
         "description": "The operating system running on the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOsVersion",
@@ -248,7 +278,8 @@
         "description": "The version of the operating system on the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcScope",
@@ -256,7 +287,8 @@
         "description": "The cloud platform scope the device belongs to. DvcScope map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcScopeId",
@@ -264,7 +296,8 @@
         "description": "The cloud platform scope ID the device belongs to. DvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcZone",
@@ -272,7 +305,8 @@
         "description": "The network on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventCount",
@@ -280,7 +314,8 @@
         "description": "The number of events described by the record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventEndTime",
@@ -288,7 +323,8 @@
         "description": "The time (UTC) in which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventMessage",
@@ -296,7 +332,8 @@
         "description": "A general message or description.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalResultDetails",
@@ -304,7 +341,8 @@
         "description": "The original result details provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalSeverity",
@@ -312,7 +350,8 @@
         "description": "The original severity as provided by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalSubType",
@@ -320,7 +359,8 @@
         "description": "The original event subtype or ID, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalType",
@@ -328,7 +368,8 @@
         "description": "The original event type or ID, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalUid",
@@ -336,7 +377,8 @@
         "description": "A unique ID of the original record, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOwner",
@@ -344,7 +386,8 @@
         "description": "The owner of the event, which is usually the department or subsidiary in which it was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventProduct",
@@ -352,7 +395,8 @@
         "description": "The product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventProductVersion",
@@ -360,7 +404,8 @@
         "description": "The version of the product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventReportUrl",
@@ -368,7 +413,8 @@
         "description": "A URL provided in the event for a resource that provides more information about the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventResult",
@@ -376,7 +422,8 @@
         "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventResultDetails",
@@ -384,7 +431,8 @@
         "description": "Reason or details for the result reported in the EventResult field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSchemaVersion",
@@ -392,7 +440,8 @@
         "description": "The version of the schema.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSeverity",
@@ -400,7 +449,8 @@
         "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventStartTime",
@@ -408,7 +458,8 @@
         "description": "The time (UTC) in which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSubType",
@@ -416,7 +467,8 @@
         "description": "Describes a subdivision of the operation reported in the EventType field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventType",
@@ -424,7 +476,8 @@
         "description": "Describes the operation reported by the record",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventVendor",
@@ -432,7 +485,8 @@
         "description": "The vendor of the product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpUserAgent",
@@ -440,7 +494,8 @@
         "description": "When authentication is performed over HTTP or HTTPS, this field's value is the user_agent HTTP header provided by the acting application when performing the authentication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -448,7 +503,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "NewValue",
@@ -456,7 +512,8 @@
         "description": "The new value of Object after the operation was performed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Object",
@@ -464,7 +521,8 @@
         "description": "The name of the object on which the operation identified by EventType is performed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObjectId",
@@ -472,7 +530,8 @@
         "description": "The name of the object on which the operation identified by EventType is performed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObjectType",
@@ -480,7 +539,8 @@
         "description": "The type of Object.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OldValue",
@@ -488,7 +548,8 @@
         "description": "The old value of Object prior to the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Operation",
@@ -496,7 +557,8 @@
         "description": "The operation audited as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OriginalObjectType",
@@ -504,7 +566,8 @@
         "description": "The object type as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -512,7 +575,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleName",
@@ -520,7 +584,8 @@
         "description": "The name or ID of the rule associated with the inspection results.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleNumber",
@@ -528,7 +593,8 @@
         "description": "The number of the rule associated with the inspection results.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -536,7 +602,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDescription",
@@ -544,7 +611,8 @@
         "description": "A descriptive text associated with the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDeviceType",
@@ -552,7 +620,8 @@
         "description": "The type of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDomain",
@@ -560,7 +629,8 @@
         "description": "The domain of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDomainType",
@@ -568,7 +638,8 @@
         "description": "The type of SrcDomain.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcId",
@@ -576,7 +647,8 @@
         "description": "The ID of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcIdType",
@@ -584,7 +656,8 @@
         "description": "The type of SrcDvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcScope",
@@ -592,7 +665,8 @@
         "description": "The cloud platform scope the source device belongs to. SrcDvcScope map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcScopeId",
@@ -600,7 +674,8 @@
         "description": "The cloud platform scope ID the source device belongs to. SrcDvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcFQDN",
@@ -608,7 +683,8 @@
         "description": "The source device hostname, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoCity",
@@ -616,7 +692,8 @@
         "description": "The city associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoCountry",
@@ -624,7 +701,8 @@
         "description": "The country associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoLatitude",
@@ -632,7 +710,8 @@
         "description": "The latitude of the geographical coordinate associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoLongitude",
@@ -640,7 +719,8 @@
         "description": "The longitude of the geographical coordinate associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoRegion",
@@ -648,7 +728,8 @@
         "description": "The region within a country associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcHostname",
@@ -656,7 +737,8 @@
         "description": "The source device hostname, excluding domain information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcIpAddr",
@@ -664,7 +746,8 @@
         "description": "The Source IP address from which the connection or session originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcOriginalRiskLevel",
@@ -672,7 +755,8 @@
         "description": "The risk level associaeted with the identified Source as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPortNumber",
@@ -680,7 +764,8 @@
         "description": "The Source IP port from which the connection originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcRiskLevel",
@@ -688,7 +773,8 @@
         "description": "The risk level associated with the identified Source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -696,7 +782,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TargetAppId",
@@ -704,7 +791,8 @@
         "description": "The ID of the application to which the event applies, including a process, browser, or service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetAppName",
@@ -712,7 +800,8 @@
         "description": "The name of the application to which event applies, including a service, a URL, or a SaaS application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetAppType",
@@ -720,7 +809,8 @@
         "description": "The type of the application authorizing on behalf of the Actor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDescription",
@@ -728,7 +818,8 @@
         "description": "A descriptive text associated with the target device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDeviceType",
@@ -736,7 +827,8 @@
         "description": "The type of the target device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDomain",
@@ -744,7 +836,8 @@
         "description": "The domain of the target device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDomainType",
@@ -752,7 +845,8 @@
         "description": "The type of TargetDomain.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDvcId",
@@ -760,7 +854,8 @@
         "description": "The ID of the target device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDvcIdType",
@@ -768,7 +863,8 @@
         "description": "The type of TargetDvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDvcOs",
@@ -776,7 +872,8 @@
         "description": "The OS of the target device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDvcScope",
@@ -784,7 +881,8 @@
         "description": "The cloud platform scope the target device belongs to. TargetDvcScope map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDvcScopeId",
@@ -792,7 +890,8 @@
         "description": "The cloud platform scope ID the target device belongs to. TargetDvcScopeId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetFQDN",
@@ -800,7 +899,8 @@
         "description": "The target device hostname, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetGeoCity",
@@ -808,7 +908,8 @@
         "description": "The city associated with the target IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetGeoCountry",
@@ -816,7 +917,8 @@
         "description": "The country associated with the target IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetGeoLatitude",
@@ -824,7 +926,8 @@
         "description": "The latitude of the geographical coordinate associated with the target IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetGeoLongitude",
@@ -832,7 +935,8 @@
         "description": "The longitude of the geographical coordinate associated with the target IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetGeoRegion",
@@ -840,7 +944,8 @@
         "description": "The region within a country associated with the target IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetHostname",
@@ -848,7 +953,8 @@
         "description": "The target device hostname, excluding domain information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetIpAddr",
@@ -856,7 +962,8 @@
         "description": "The Target IP address from which the connection or session originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetOriginalAppType",
@@ -864,7 +971,8 @@
         "description": "The target application type as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetOriginalRiskLevel",
@@ -872,7 +980,8 @@
         "description": "The risk level associated with the target, as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetPortNumber",
@@ -880,7 +989,8 @@
         "description": "The Target IP port from which the connection originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetRiskLevel",
@@ -888,7 +998,8 @@
         "description": "The risk level associated with the target.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetUrl",
@@ -896,7 +1007,8 @@
         "description": "A URL associated with the target application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -904,7 +1016,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatCategory",
@@ -912,7 +1025,8 @@
         "description": "The category of the threat or malware identified in audit activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatConfidence",
@@ -920,7 +1034,8 @@
         "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatField",
@@ -928,7 +1043,8 @@
         "description": "The field for which a threat was identified.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatFirstReportedTime",
@@ -936,7 +1052,8 @@
         "description": "The first time the IP address or domain were identified as a threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatId",
@@ -944,7 +1061,8 @@
         "description": "The ID of the threat or malware identified in the audit activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatIpAddr",
@@ -952,7 +1070,8 @@
         "description": "An IP address or Domain for which a threat was identified.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatIsActive",
@@ -960,7 +1079,8 @@
         "description": "True if the threat identified is considered an active threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatLastReportedTime",
@@ -968,7 +1088,8 @@
         "description": "The last time the IP address or domain were identified as a threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatName",
@@ -976,7 +1097,8 @@
         "description": "The name of the threat or malware identified in the audit activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatOriginalConfidence",
@@ -984,7 +1106,8 @@
         "description": "The original confidence level of the threat identified, as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatOriginalRiskLevel",
@@ -992,7 +1115,8 @@
         "description": "The risk level as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatRiskLevel",
@@ -1000,7 +1124,8 @@
         "description": "The risk level associated with the identified threat. The level should be a number between 0 and 100.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -1008,7 +1133,8 @@
         "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -1016,7 +1142,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ValueType",
@@ -1024,8 +1151,10 @@
         "description": "The type of the old and new values.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

@@ -10,7 +10,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -20,7 +21,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountObjectId",
@@ -28,7 +30,8 @@
         "description": "Unique identifier for the account in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountUpn",
@@ -36,7 +39,8 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OnPremSid",
@@ -44,7 +48,8 @@
         "description": "On-premises security identifier (SID) of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountDisplayName",
@@ -52,7 +57,8 @@
         "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountName",
@@ -60,7 +66,8 @@
         "description": "User name of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountDomain",
@@ -70,7 +77,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CriticalityLevel",
@@ -78,7 +86,8 @@
         "description": "The criticality score of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -88,7 +97,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DistinguishedName",
@@ -98,7 +108,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudSid",
@@ -106,7 +117,8 @@
         "description": "Cloud security identifier of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GivenName",
@@ -114,7 +126,8 @@
         "description": "Given name or first name of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Surname",
@@ -122,7 +135,8 @@
         "description": "Surname, family name, or last name of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Department",
@@ -130,7 +144,8 @@
         "description": "Name of the department that the account user belongs to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "JobTitle",
@@ -138,7 +153,8 @@
         "description": "Job title of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailAddress",
@@ -146,7 +162,8 @@
         "description": "SMTP address of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SipProxyAddress",
@@ -154,7 +171,8 @@
         "description": "Voice over IP (VOIP) session initiation protocol (SIP) address of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Address",
@@ -162,7 +180,8 @@
         "description": "Address of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "City",
@@ -170,7 +189,8 @@
         "description": "City where the account user is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Country",
@@ -178,7 +198,8 @@
         "description": "Country/Region where the account user is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsAccountEnabled",
@@ -186,7 +207,8 @@
         "description": "Indicates whether the account is enabled or not",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Manager",
@@ -196,7 +218,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Phone",
@@ -206,7 +229,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CreatedDateTime",
@@ -216,7 +240,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ChangeSource",
@@ -226,7 +251,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "BlastRadius",
@@ -234,7 +260,8 @@
         "description": "A calculation based on the position of the user in the org tree and the user's Microsoft Entra roles and permissions; possible values: Low, Medium, High",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CompanyName",
@@ -242,7 +269,8 @@
         "description": "Name of the company for which the user works",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeletedDateTime",
@@ -250,7 +278,8 @@
         "description": "Date and time when the user account was deleted",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmployeeId",
@@ -258,7 +287,8 @@
         "description": "Employee identifier assigned to the user by the organization",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OtherMailAddresses",
@@ -266,7 +296,8 @@
         "description": "Additional email addresses of the user account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevel",
@@ -274,7 +305,8 @@
         "description": "Microsoft Entra ID risk level of the user account; possible values: Low, Medium, High",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevelDetails",
@@ -282,7 +314,8 @@
         "description": "Details regarding the Microsoft Entra ID risk level",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "State",
@@ -290,7 +323,8 @@
         "description": "State where the sign-in occurred, if available",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Tags",
@@ -300,7 +334,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssignedRoles",
@@ -310,7 +345,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PrivilegedEntraPimRoles` (Preview)",
@@ -318,7 +354,8 @@
         "description": "A snapshot of privileged role assignment schedules and eligibility schedules for the account as maintained by Microsoft Entra Privileged Identity Management (excluding activated assignments)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TenantId",
@@ -326,7 +363,8 @@
         "description": "Unique identifier representing your organization's instance of Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -336,7 +374,8 @@
           "Defender for Cloud Apps",
           "Defender for Endpoint",
           "Defender for Identity"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OnPremObjectId",
@@ -344,7 +383,8 @@
         "description": "Active Directory object ID of the user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantMembershipType",
@@ -352,7 +392,8 @@
         "description": "User type in Microsoft Entra ID; possible values: Guest, Member",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskStatus",
@@ -360,7 +401,8 @@
         "description": "Status of the user's risk; possible values: None, ConfirmedSafe, Remediated, Dismissed, AtRisk, ConfirmedCompromised, UnknownFutureValue",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAccountControl",
@@ -368,7 +410,8 @@
         "description": "Security attributes of the user account in the Active Directory domain",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IdentityEnvironment",
@@ -376,7 +419,8 @@
         "description": "Environment where the identity is used; possible values: CloudOnly, Hybrid, On-premises",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProviders",
@@ -384,7 +428,8 @@
         "description": "Source providers of the accounts for the identity; possible values: ActiveDirectory, EntraID, Okta",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GroupMembership",
@@ -392,8 +437,46 @@
         "description": "Microsoft Entra ID groups where the user account is a member",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "IdentityId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "PrivilegedEntraPimRoles",
+        "type": "dynamic",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "RiskScore",
+        "type": "int",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "RiskScoreUpdateTime",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceProvider",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

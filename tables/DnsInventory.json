@@ -8,7 +8,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Computer",
@@ -16,7 +17,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DnsSecSigned",
@@ -24,7 +26,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DomainName",
@@ -32,7 +35,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DynamicUpdate",
@@ -40,7 +44,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ForestName",
@@ -48,7 +53,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -56,7 +62,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "NameServers",
@@ -64,7 +71,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -72,7 +80,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceRecordName",
@@ -80,7 +89,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceRecordType",
@@ -88,7 +98,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServerIPs",
@@ -96,7 +107,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -104,7 +116,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -112,7 +125,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "SubType",
@@ -120,7 +134,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -128,7 +143,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -136,7 +152,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ZoneName",
@@ -144,8 +161,16 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

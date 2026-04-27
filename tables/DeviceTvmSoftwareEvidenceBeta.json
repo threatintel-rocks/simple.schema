@@ -8,7 +8,8 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareVendor",
@@ -16,7 +17,8 @@
         "description": "Name of the software publisher",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareName",
@@ -24,7 +26,8 @@
         "description": "Name of the software product",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareVersion",
@@ -32,7 +35,8 @@
         "description": "Version number of the software product",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RegistryPaths",
@@ -40,7 +44,8 @@
         "description": "Registry paths where evidence indicating the existence of the software on a device was detected",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DiskPaths",
@@ -48,7 +53,8 @@
         "description": "Disk paths where file-level evidence indicating the existence of the software on a device was detected",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastSeenTime",
@@ -56,8 +62,34 @@
         "description": "Date and time when the device was last seen by this service",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "MachineGroup",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

@@ -8,7 +8,8 @@
         "description": "Action taken by the firewall following the match with this Network Rule. For example: Firewall may Allow/Deny this specific packet.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionReason",
@@ -16,7 +17,8 @@
         "description": "When no rule is triggered for a packet, this field contains the reason for the action performed by the firewall. For example: a packet dropped because no rule matched will showDefault Action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -24,7 +26,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DestinationIp",
@@ -32,7 +35,8 @@
         "description": "Packet's destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationPort",
@@ -40,7 +44,8 @@
         "description": "Packet's destination port.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -48,7 +53,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Policy",
@@ -56,7 +62,8 @@
         "description": "Name of the policy in which the triggered rule resides.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Protocol",
@@ -64,7 +71,8 @@
         "description": "Packet's network protocol. For example: UDP, TCP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -72,7 +80,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Rule",
@@ -80,7 +89,8 @@
         "description": "Name of the triggered rule.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleCollection",
@@ -88,7 +98,8 @@
         "description": "Name of the rule collection in which the triggered rule resides.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleCollectionGroup",
@@ -96,7 +107,8 @@
         "description": "Name of the rule collection group in which the triggered rule resides.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceIp",
@@ -104,7 +116,8 @@
         "description": "Packet's source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourcePort",
@@ -112,7 +125,8 @@
         "description": "Packet's source port.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -120,7 +134,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -128,7 +143,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TenantId",
@@ -136,7 +152,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -144,7 +161,8 @@
         "description": "Timestamp (UTC) when the data plane log was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -152,8 +170,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

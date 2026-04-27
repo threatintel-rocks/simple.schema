@@ -8,7 +8,8 @@
         "description": "Type of accessed application. Access type options: QuickAccess, PrivateAccess.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Action",
@@ -16,7 +17,8 @@
         "description": "The action taken on the network session. Allowed, Denied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentVersion",
@@ -24,7 +26,8 @@
         "description": "The version of the agent connecting.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AIAgentId",
@@ -32,7 +35,8 @@
         "description": "The unique identifier of the AI agent associated with the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AIAgentName",
@@ -40,7 +44,8 @@
         "description": "The name of the AI agent associated with the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppId",
@@ -48,7 +53,8 @@
         "description": "Destination Application ID accessed in Azure AD during the transaction.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppSegmentId",
@@ -56,7 +62,8 @@
         "description": "Destination Application segment ID from Azure AD accessed during the transaction.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -64,7 +71,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CloudAppCatalogId",
@@ -72,7 +80,8 @@
         "description": "The id of the application in the saas application catalog.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppCategories",
@@ -80,7 +89,8 @@
         "description": "The category list of the cloud application (i.e social media, search, generative AI).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppCategory",
@@ -88,7 +98,8 @@
         "description": "The category of the cloud application (i.e social media, search, generative AI).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppComplianceScore",
@@ -96,7 +107,8 @@
         "description": "The compliance score of the application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppGeneralScore",
@@ -104,7 +116,8 @@
         "description": "The general score of the application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppLegalScore",
@@ -112,7 +125,8 @@
         "description": "The legal score of the application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppLoginUser",
@@ -120,7 +134,8 @@
         "description": "The username that was used to log into the application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppName",
@@ -128,7 +143,8 @@
         "description": "The name of the application (i.e chatGPT, SalesForce, Bing).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudAppRiskScore",
@@ -136,7 +152,8 @@
         "description": "The risk score of the application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectionId",
@@ -144,7 +161,8 @@
         "description": "Unique identifier representing the connection this traffic log was initiated from.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectionStatus",
@@ -152,7 +170,8 @@
         "description": "Status of a connection. Status options: Open, Active, Closed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectorId",
@@ -160,7 +179,8 @@
         "description": "Private access connector ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectorIp",
@@ -168,7 +188,8 @@
         "description": "Private access connector IP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectorName",
@@ -176,7 +197,8 @@
         "description": "Private access connector name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Description",
@@ -184,7 +206,8 @@
         "description": "Additional details describing the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationFqdn",
@@ -192,7 +215,8 @@
         "description": "The destination device hostname, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationIp",
@@ -200,7 +224,8 @@
         "description": "The IP address of the connection or session destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationPort",
@@ -208,7 +233,8 @@
         "description": "The destination IP port.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationUrl",
@@ -216,7 +242,8 @@
         "description": "The Url link of the connection or session destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationWebCategories",
@@ -224,7 +251,8 @@
         "description": "The destination FQDN's Web Categories.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceCategory",
@@ -232,7 +260,8 @@
         "description": "Device type the transaction originated from. Client, Branch.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceId",
@@ -240,7 +269,8 @@
         "description": "The ID of the source device as reported in the record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceOperatingSystem",
@@ -248,7 +278,8 @@
         "description": "The client connecting operating system type.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceOperatingSystemVersion",
@@ -256,7 +287,8 @@
         "description": "The client connecting operating system version.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DnsResponseOrigin",
@@ -264,7 +296,8 @@
         "description": "The origin of the DNS response for the traffic. Possible values: Cache, Onprem.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FilteringProfileId",
@@ -272,7 +305,8 @@
         "description": "The ID of the Filtering Profile associated with the action performed on traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FilteringProfileName",
@@ -280,7 +314,8 @@
         "description": "The name of the Filtering Profile associated with the action performed on traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpMethod",
@@ -288,7 +323,8 @@
         "description": "The http method used in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpRequestContentType",
@@ -296,7 +332,8 @@
         "description": "The content type specified in the HTTP request header.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpResponseContentType",
@@ -304,7 +341,8 @@
         "description": "The content type specified in the HTTP response header.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpUserAgent",
@@ -312,7 +350,8 @@
         "description": "The user agent string from the HTTP request header.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessName",
@@ -320,7 +359,8 @@
         "description": "The process initiating the traffic transaction.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -328,7 +368,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "KerberosClientName",
@@ -336,7 +377,8 @@
         "description": "Name associated with client during authentication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KerberosErrorCode",
@@ -344,7 +386,8 @@
         "description": "Kerberos error code (0-81). See KerberosErrorCodeName for corresponding error name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KerberosErrorCodeName",
@@ -352,7 +395,8 @@
         "description": "Kerberos error code name. Possible values: KDC_ERR_NONE (0), KDC_ERR_NAME_EXP (1), KDC_ERR_SERVICE_EXP (2), KDC_ERR_BAD_PVNO (3), KDC_ERR_C_OLD_MAST_KVNO (4), KDC_ERR_S_OLD_MAST_KVNO (5), KDC_ERR_C_PRINCIPAL_UNKNOWN (6), KDC_ERR_S_PRINCIPAL_UNKNOWN (7), KDC_ERR_PRINCIPAL_NOT_UNIQUE (8), KDC_ERR_NULL_KEY (9), KDC_ERR_CANNOT_POSTDATE (10), KDC_ERR_NEVER_VALID (11), KDC_ERR_POLICY (12), KDC_ERR_BADOPTION (13), KDC_ERR_ETYPE_NOSUPP (14), KDC_ERR_SUMTYPE_NOSUPP (15), KDC_ERR_PADATA_TYPE_NOSUPP (16), KDC_ERR_TRTYPE_NOSUPP (17), KDC_ERR_CLIENT_REVOKED (18), KDC_ERR_SERVICE_REVOKED (19), KDC_ERR_TGT_REVOKED (20), KDC_ERR_CLIENT_NOTYET (21), KDC_ERR_SERVICE_NOTYET (22), KDC_ERR_KEY_EXPIRED (23), KDC_ERR_PREAUTH_FAILED (24), KDC_ERR_PREAUTH_REQUIRED (25), KDC_ERR_SERVER_NOMATCH (26), KDC_ERR_MUST_USE_USER2USER (27), KDC_ERR_PATH_NOT_ACCEPTED (28), KDC_ERR_SVC_UNAVAILABLE (29), KRB_AP_ERR_BAD_INTEGRITY (31), KRB_AP_ERR_TKT_EXPIRED (32), KRB_AP_ERR_TKT_NYV (33), KRB_AP_ERR_REPEAT (34), KRB_AP_ERR_NOT_US (35), KRB_AP_ERR_BADMATCH (36), KRB_AP_ERR_SKEW (37), KRB_AP_ERR_BADADDR (38), KRB_AP_ERR_BADVERSION (39), KRB_AP_ERR_MSG_TYPE (40), KRB_AP_ERR_MODIFIED (41), KRB_AP_ERR_BADORDER (42), KRB_AP_ERR_BADKEYVER (44), KRB_AP_ERR_NOKEY (45), KRB_AP_ERR_MUT_FAIL (46), KRB_AP_ERR_BADDIRECTION (47), KRB_AP_ERR_METHOD (48), KRB_AP_ERR_BADSEQ (49), KRB_AP_ERR_INAPP_CKSUM (50), KRB_AP_PATH_NOT_ACCEPTED (51), KRB_ERR_RESPONSE_TOO_BIG (52), KRB_ERR_GENERIC (60), KRB_ERR_FIELD_TOOLONG (61), KDC_ERR_CLIENT_NOT_TRUSTED (62), KDC_ERR_KDC_NOT_TRUSTED (63), KDC_ERR_INVALID_SIG (64), KDC_ERR_DH_KEY_PARAMETERS_NOT_ACCEPTED (65), KDC_ERR_CERTIFICATE_MISMATCH (66), KRB_AP_ERR_NO_TGT (67), KDC_ERR_WRONG_REALM (68), KRB_AP_ERR_USER_TO_USER_REQUIRED (69), KDC_ERR_CANT_VERIFY_CERTIFICATE (70), KDC_ERR_INVALID_CERTIFICATE (71), KDC_ERR_REVOKED_CERTIFICATE (72), KDC_ERR_REVOCATION_STATUS_UNKNOWN (73), KDC_ERR_REVOCATION_STATUS_UNAVAILABLE (74), KDC_ERR_CLIENT_NAME_MISMATCH (75), KDC_ERR_KDC_NAME_MISMATCH (76), KDC_ERR_INCONSISTENT_KEY_PURPOSE (77), KDC_ERR_DIGEST_IN_CERT_NOT_ACCEPTED (78), KDC_ERR_PA_CHECKSUM_MUST_BE_INCLUDED (79), KDC_ERR_DIGEST_IN_SIGNED_DATA_NOT_ACCEPTED (80), KDC_ERR_PUBLIC_KEY_ENCRYPTION_NOT_SUPPORTED (81).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KerberosErrorText",
@@ -360,7 +404,8 @@
         "description": "Kerberos error text description.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KerberosMsgType",
@@ -368,7 +413,8 @@
         "description": "Kerberos message type number (AS/TGS). Possible values: 10 (AS_REQ), 11 (AS_REP), 12 (TGS_REQ), 13 (TGS_REP).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KerberosNonce",
@@ -376,7 +422,8 @@
         "description": "Random number for request/reply matching.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkProtocol",
@@ -384,7 +431,8 @@
         "description": "The network protocol, IPv6 or IPv4.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OnPremAccount",
@@ -392,7 +440,8 @@
         "description": "Client principal name requesting the ticket.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OriginHeader",
@@ -400,7 +449,8 @@
         "description": "The origin header value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyId",
@@ -408,7 +458,8 @@
         "description": "The ID of the policy for which the request was denied by its rule.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyName",
@@ -416,7 +467,8 @@
         "description": "The name of the filtering policy associated with the action performed on traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyRuleId",
@@ -424,7 +476,8 @@
         "description": "The ID of the rule for which the request was denied by.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessingRegion",
@@ -432,7 +485,8 @@
         "description": "Region where the request was processed by the backend service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Realm",
@@ -440,7 +494,8 @@
         "description": "Kerberos realm of the target service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceivedBytes",
@@ -448,7 +503,8 @@
         "description": "The number of bytes received.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReferrerHeader",
@@ -456,7 +512,8 @@
         "description": "The Referer header value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteNetworkId",
@@ -464,7 +521,8 @@
         "description": "The ID from which traffic was sent or received, providing visibility into the origin of the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceTenantId",
@@ -472,7 +530,8 @@
         "description": "Tenant ID that owns the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseCode",
@@ -480,7 +539,8 @@
         "description": "The response code returned from the server.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleName",
@@ -488,7 +548,8 @@
         "description": "The name of the rule associated with the action performed on traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SentBytes",
@@ -496,7 +557,8 @@
         "description": "The number of bytes sent.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalName",
@@ -504,7 +566,8 @@
         "description": "Target service the client is trying to access.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SessionId",
@@ -512,7 +575,8 @@
         "description": "Unique identifier representing the session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceIp",
@@ -520,7 +584,8 @@
         "description": "The IP address from which the connection or session originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourcePort",
@@ -528,7 +593,8 @@
         "description": "The IP port from which the connection originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -536,7 +602,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -544,7 +611,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatType",
@@ -552,7 +620,8 @@
         "description": "The identified threat type associated with the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -560,7 +629,8 @@
         "description": "The date and time (UTC) that the event was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsAction",
@@ -568,7 +638,8 @@
         "description": "The TLS action taken on the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsPolicyId",
@@ -576,7 +647,8 @@
         "description": "The unique token identifier of the TLS policy applied to the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsPolicyName",
@@ -584,7 +656,8 @@
         "description": "The name for the TLS policy applied to the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsRuleId",
@@ -592,7 +665,8 @@
         "description": "The unique identifier of the TLS rule applied to the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsRuleName",
@@ -600,7 +674,8 @@
         "description": "The name of the TLS rule applied to the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsStatus",
@@ -608,7 +683,8 @@
         "description": "The status of the Tls option.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Token3PExpiry",
@@ -616,7 +692,8 @@
         "description": "The expiry date of the access token used to access the private access application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Token3PIssuedAt",
@@ -624,7 +701,8 @@
         "description": "The issued date of the access token used to access the private access application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Token3PUniqueId",
@@ -632,7 +710,8 @@
         "description": "The unique token identifier of the access token used to access the private access application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Token3PValidFrom",
@@ -640,7 +719,8 @@
         "description": "The validity date of the access token used to access the private access application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TrafficType",
@@ -648,7 +728,8 @@
         "description": "The type of the target destination traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TransactionId",
@@ -656,7 +737,8 @@
         "description": "Unique identifier that representing a roundtrip of request response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TransportProtocol",
@@ -664,7 +746,8 @@
         "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -672,7 +755,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UniqueTokenId",
@@ -680,7 +764,8 @@
         "description": "The unique token identifier.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserId",
@@ -688,7 +773,8 @@
         "description": "A machine-readable, alphanumeric, unique representation of the source user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserPrincipalName",
@@ -696,7 +782,8 @@
         "description": "The source username, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VendorNames",
@@ -704,7 +791,8 @@
         "description": "The name of the vendors who detected the threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "XForwardedFor",
@@ -712,8 +800,10 @@
         "description": "X-Forwarded-For header of the HTTP request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
