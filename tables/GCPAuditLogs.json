@@ -8,8 +8,7 @@
         "description": "Authentication information.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthorizationInfo",
@@ -17,8 +16,7 @@
         "description": "Authorization information. If there are multiple resources or permissions involved, then there is one AuthorizationInfo element for each {resource, permission} tuple.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -26,8 +24,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "GCPResourceName",
@@ -35,8 +32,7 @@
         "description": "The resource or collection that is the target of the operation. The name is a scheme-less URI, not including the API service name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GCPResourceType",
@@ -44,8 +40,7 @@
         "description": "The identifier of the type associated with this resource, such as 'pubsub_subscription'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertId",
@@ -53,8 +48,7 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -62,8 +56,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LogName",
@@ -71,8 +64,7 @@
         "description": "Information including a suffix identifying the log sub-type (e.g., admin activity, system access, data access) and where in the hierarchy the request was made.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Metadata",
@@ -80,8 +72,7 @@
         "description": "Other service-specific data about the request, response, and other information associated with the current audited event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MethodName",
@@ -89,8 +80,7 @@
         "description": "The name of the service method or operation. For API calls, this should be the name of the API method.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NumResponseItems",
@@ -98,8 +88,7 @@
         "description": "The number of items returned from a list or query API method, if applicable.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PrincipalEmail",
@@ -107,8 +96,7 @@
         "description": "The email address of the authenticated user (or service account on behalf of third party principal) making the request. For third party identity callers, the principalSubject field is populated instead of this field. For privacy reasons, the principal email address is sometimes redacted.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProjectId",
@@ -116,8 +104,7 @@
         "description": "The identifier of the Google Cloud Platform (GCP) project associated with this resource, such as \"my-project\".",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Request",
@@ -125,8 +112,7 @@
         "description": "The operation request. This may not include all request parameters, such as those that are too large, privacy-sensitive, or duplicated elsewhere in the log record. It should never include user-generated data, such as file contents. When the JSON object represented here has a proto equivalent, the proto name will be indicated in the@typeproperty.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadata",
@@ -134,8 +120,7 @@
         "description": "Metadata about the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLocation",
@@ -143,8 +128,7 @@
         "description": "The resource location information.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceOriginalState",
@@ -152,8 +136,7 @@
         "description": "The resource original state before mutation. Present only for operations which have successfully modified the targeted resource(s). In general, this field should contain all changed fields, except those that are already been included in request, response, metadata or serviceData fields. When the JSON object represented here has a proto equivalent, the proto name will be indicated in the@typeproperty.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Response",
@@ -161,8 +144,7 @@
         "description": "The operation response. This may not include all response elements, such as those that are too large, privacy-sensitive, or duplicated elsewhere in the log record. It should never include user-generated data, such as file contents. When the JSON object represented here has a proto equivalent, the proto name will be indicated in the@typeproperty.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceData",
@@ -170,8 +152,7 @@
         "description": "An object containing fields of an arbitrary type. An additional field \"@type\" contains a URI identifying the type. Example: { \"id\": 1234, \"@type\": \"types.example.com/standard/id\" }.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceName",
@@ -179,8 +160,7 @@
         "description": "The name of the API service performing the operation. For example, 'compute.googleapis.com'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -188,8 +168,7 @@
         "description": "Optional. The severity of the log entry. For example, the following filter expression will match log entries with severities INFO, NOTICE, and WARNING.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -197,8 +176,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -206,8 +184,7 @@
         "description": "The status of the overall operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StatusMessage",
@@ -215,8 +192,7 @@
         "description": "The message status of the overall operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Subscription",
@@ -224,8 +200,7 @@
         "description": "A named resource representing the stream of messages from a single, specific topic, to be delivered to the subscribing application.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -233,8 +208,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -242,8 +216,7 @@
         "description": "The time the log entry was received by logging.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -251,8 +224,7 @@
         "description": "The time the event described by the log entry occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -260,10 +232,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

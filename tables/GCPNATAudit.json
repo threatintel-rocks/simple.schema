@@ -8,8 +8,7 @@
         "description": "Details about the authorization.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -17,8 +16,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CallerIp",
@@ -26,8 +24,7 @@
         "description": "IP address of the caller.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EncryptedInterconnectRouter",
@@ -35,8 +32,7 @@
         "description": "Whether the router uses encrypted interconnect.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GCPResourceName",
@@ -44,8 +40,7 @@
         "description": "Name of the resource affected.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GCPResourceType",
@@ -53,8 +48,7 @@
         "description": "Type of the GCP resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertId",
@@ -62,8 +56,7 @@
         "description": "A unique ID for the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -71,8 +64,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LogName",
@@ -80,8 +72,7 @@
         "description": "The name of the log stream.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MethodName",
@@ -89,8 +80,7 @@
         "description": "API method invoked.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationFirst",
@@ -98,8 +88,7 @@
         "description": "Indicates if this is the first operation in the series.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationId",
@@ -107,8 +96,7 @@
         "description": "Identifier of the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationLast",
@@ -116,8 +104,7 @@
         "description": "Indicates if this is the last operation in the series.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationProducer",
@@ -125,8 +112,7 @@
         "description": "Producer of the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PayloadRequestNats",
@@ -134,8 +120,7 @@
         "description": "NATs request payload.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PayloadType",
@@ -143,8 +128,7 @@
         "description": "Type of payload in the log.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PrincipalEmail",
@@ -152,8 +136,7 @@
         "description": "Email of the principal initiating the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PrincipalSubject",
@@ -161,8 +144,7 @@
         "description": "Subject or identity of the principal.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProjectId",
@@ -170,8 +152,7 @@
         "description": "GCP Project ID where the event occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiveTimestamp",
@@ -179,8 +160,7 @@
         "description": "Time when the log was received.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestAttributeAuth",
@@ -188,8 +168,7 @@
         "description": "Authorization details of the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestAttributeDestination",
@@ -197,8 +176,7 @@
         "description": "Destination details of the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestAttributeTime",
@@ -206,8 +184,7 @@
         "description": "Timestamp of the request attribute.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestId",
@@ -215,8 +192,7 @@
         "description": "Unique ID of the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestName",
@@ -224,8 +200,7 @@
         "description": "Name of the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestNetwork",
@@ -233,8 +208,7 @@
         "description": "Network where the request was made.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestRegion",
@@ -242,8 +216,7 @@
         "description": "Region where the request originated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestSelfLink",
@@ -251,8 +224,7 @@
         "description": "SelfLink URL of the request resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestType",
@@ -260,8 +232,7 @@
         "description": "Type of the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLocation",
@@ -269,8 +240,7 @@
         "description": "Geographic location of the resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceRegion",
@@ -278,8 +248,7 @@
         "description": "Region of the GCP resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseErrorCode",
@@ -287,8 +256,7 @@
         "description": "Error code if any error occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseErrorMessage",
@@ -296,8 +264,7 @@
         "description": "Error message returned, if any.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseErrors",
@@ -305,8 +272,7 @@
         "description": "Details of any errors returned.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseId",
@@ -314,8 +280,7 @@
         "description": "Identifier of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseInsertTime",
@@ -323,8 +288,7 @@
         "description": "Insert time of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseName",
@@ -332,8 +296,7 @@
         "description": "Name of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseOperationType",
@@ -341,8 +304,7 @@
         "description": "Type of operation performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseProgress",
@@ -350,8 +312,7 @@
         "description": "Progress status of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseRegion",
@@ -359,8 +320,7 @@
         "description": "Region associated with the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSelfLink",
@@ -368,8 +328,7 @@
         "description": "SelfLink URL of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSelfLinkWithId",
@@ -377,8 +336,7 @@
         "description": "SelfLink URL with ID in the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseStartTime",
@@ -386,8 +344,7 @@
         "description": "Start time of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseStatus",
@@ -395,8 +352,7 @@
         "description": "Status of the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseTargetId",
@@ -404,8 +360,7 @@
         "description": "Target ID in the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseTargetLink",
@@ -413,8 +368,7 @@
         "description": "Target link in the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseType",
@@ -422,8 +376,7 @@
         "description": "Type of the response returned.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseUser",
@@ -431,8 +384,7 @@
         "description": "User returned in the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RootTriggerId",
@@ -440,8 +392,7 @@
         "description": "Root trigger ID of the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RouterId",
@@ -449,8 +400,7 @@
         "description": "Identifier of the Cloud Router.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceName",
@@ -458,8 +408,7 @@
         "description": "Name of the GCP service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -467,8 +416,7 @@
         "description": "Severity level of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -476,8 +424,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -485,8 +432,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -494,8 +440,7 @@
         "description": "The time at which the log was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -503,8 +448,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgent",
@@ -512,10 +456,8 @@
         "description": "User agent string of the caller.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

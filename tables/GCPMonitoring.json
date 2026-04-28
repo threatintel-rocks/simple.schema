@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "GCPResource",
@@ -17,8 +16,7 @@
         "description": "The monitored resource associated with the metric (e.g., VM instance, GKE cluster), includes resource type and labels",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -26,8 +24,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "MetricKind",
@@ -35,8 +32,7 @@
         "description": "The type of metric: GAUGE (instant value), DELTA (change over time), or CUMULATIVE (accumulated value)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MetricLabels",
@@ -44,8 +40,7 @@
         "description": "Key-value pairs that identify the characteristics of the metric (e.g., instance ID, region, etc.)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MetricType",
@@ -53,8 +48,7 @@
         "description": "The full path of the metric type being monitored (e.g., 'compute.googleapis.com/instance/cpu/utilization')",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Points",
@@ -62,8 +56,7 @@
         "description": "A list of time series data points that contain values and timestamps for the metric",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -71,8 +64,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -80,8 +72,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -89,8 +80,7 @@
         "description": "The timestamp when the metric or log entry was generated at the source, representing the actual occurrence time of the data point.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -98,8 +88,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ValueType",
@@ -107,10 +96,8 @@
         "description": "The type of value recorded: INT64, DOUBLE, BOOL, STRING, or DISTRIBUTION",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

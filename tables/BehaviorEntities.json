@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "BehaviorId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Categories",
@@ -26,8 +24,7 @@
         "description": "Type of threat indicator or breach activity identified by the behavior, as defined by the MITRE ATT&CK framework",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceSource",
@@ -35,8 +32,7 @@
         "description": "Product or service that identified the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetectionSource",
@@ -44,8 +40,7 @@
         "description": "Detection technology or sensor that identified the notable component or activity",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataSources",
@@ -53,8 +48,7 @@
         "description": "Products or services that provided information for the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EntityType",
@@ -62,8 +56,7 @@
         "description": "Type of object, such as a file, a process, a device, or a user",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EntityRole",
@@ -71,8 +64,7 @@
         "description": "Indicates whether the entity is impacted or merely related",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetailedEntityRole",
@@ -80,8 +72,7 @@
         "description": "The roles of the entity in the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileName",
@@ -89,8 +80,7 @@
         "description": "Name of the file that the behavior applies to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FolderPath",
@@ -98,8 +88,7 @@
         "description": "Folder containing the file that the behavior applies to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SHA1",
@@ -107,8 +96,7 @@
         "description": "SHA-1 of the file that the behavior applies to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SHA256",
@@ -116,8 +104,7 @@
         "description": "SHA-256 of the file that the behavior applies to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileSize",
@@ -125,8 +112,7 @@
         "description": "Size, in bytes, of the file that the behavior applies to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatFamily",
@@ -134,8 +120,7 @@
         "description": "Malware family that the suspicious or malicious file or process has been classified under",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIP",
@@ -143,8 +128,7 @@
         "description": "IP address that was being connected to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteUrl",
@@ -152,8 +136,7 @@
         "description": "URL or fully qualified domain name (FQDN) that was being connected to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountName",
@@ -161,8 +144,7 @@
         "description": "User name of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountDomain",
@@ -170,8 +152,7 @@
         "description": "Domain of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountSid",
@@ -179,8 +160,7 @@
         "description": "Security Identifier (SID) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -188,8 +168,7 @@
         "description": "Unique identifier for the account in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CloudPlatform ",
@@ -197,8 +176,7 @@
         "description": "The cloud platform that the resource belongs to, can be Azure, Amazon Web Services, or Google Cloud Platform",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CloudResourceType ",
@@ -206,8 +184,7 @@
         "description": "Type of cloud resource",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CloudResourceId",
@@ -215,8 +192,7 @@
         "description": "Unique identifier of the cloud resource accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CloudSubscriptionId ",
@@ -224,8 +200,7 @@
         "description": "Unique identifier of the cloud service subscription",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "AccountUpn",
@@ -233,8 +208,7 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceId",
@@ -242,8 +216,7 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -251,8 +224,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LocalIP",
@@ -260,8 +232,7 @@
         "description": "IP address assigned to the local device used during communication",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkMessageId",
@@ -269,8 +240,7 @@
         "description": "Unique identifier for the email, generated by Microsoft 365",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailSubject",
@@ -278,8 +248,7 @@
         "description": "Subject of the email",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailClusterId",
@@ -287,8 +256,7 @@
         "description": "Identifier for the group of similar emails clustered based on heuristic analysis of their contents",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -296,8 +264,7 @@
         "description": "Application that performed the recorded action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationId",
@@ -305,8 +272,7 @@
         "description": "Unique identifier for the application",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "OAuthApplicationId",
@@ -314,8 +280,7 @@
         "description": "Unique identifier of the third-party OAuth application",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessCommandLine",
@@ -323,8 +288,7 @@
         "description": "Command line used to create the new process",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RegistryKey",
@@ -332,8 +296,7 @@
         "description": "Registry key that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RegistryValueName",
@@ -341,8 +304,7 @@
         "description": "Name of the registry value that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RegistryValueData",
@@ -350,8 +312,7 @@
         "description": "Data of the registry value that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -359,8 +320,7 @@
         "description": "Additional information about the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -368,113 +328,9 @@
         "description": "Type of behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "_BilledSize",
-        "type": "real",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_IsBillable",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_ItemId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_ResourceId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_SubscriptionId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_TimeReceived",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "ApplicationId_int",
-        "type": "int",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "ApplicationId_string",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "CloudPlatform",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "CloudResource",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "CloudResourceType",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "CloudSubscriptionId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }

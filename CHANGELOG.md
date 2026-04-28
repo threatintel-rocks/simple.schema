@@ -2,6 +2,679 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-28 05:54 UTC
+
+**Tables added** (1)
+
+- `Vaikora_AgentSignals_CL` (13 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (239)
+
+- `SalesforceServiceCloudV2_CL.AccessError` (string)
+- `SalesforceServiceCloudV2_CL.ActionMessage` (string)
+- `SalesforceServiceCloudV2_CL.ActionName` (string)
+- `SalesforceServiceCloudV2_CL.ActionType` (string)
+- `SalesforceServiceCloudV2_CL.ActionVersion` (string)
+- `SalesforceServiceCloudV2_CL.ActualLoggedInUserId` (string)
+- `SalesforceServiceCloudV2_CL.AgentAction` (string)
+- `SalesforceServiceCloudV2_CL.AllOrNone` (string)
+- `SalesforceServiceCloudV2_CL.ApiCaller` (string)
+- `SalesforceServiceCloudV2_CL.ApiClientCategory` (string)
+- `SalesforceServiceCloudV2_CL.ApiFamily` (string)
+- `SalesforceServiceCloudV2_CL.ApiResource` (string)
+- `SalesforceServiceCloudV2_CL.AssetId` (string)
+- `SalesforceServiceCloudV2_CL.AssetType` (string)
+- `SalesforceServiceCloudV2_CL.AuthenticationContextClassReference` (string)
+- `SalesforceServiceCloudV2_CL.AuthenticationMethodReference` (string)
+- `SalesforceServiceCloudV2_CL.AuthenticationServiceId` (string)
+- `SalesforceServiceCloudV2_CL.B2bEdition` (string)
+- `SalesforceServiceCloudV2_CL.B2bVersion` (string)
+- `SalesforceServiceCloudV2_CL.BlockedUri` (string)
+- `SalesforceServiceCloudV2_CL.BlockedUriDomain` (string)
+- `SalesforceServiceCloudV2_CL.BotIdentifier` (string)
+- `SalesforceServiceCloudV2_CL.BotSessionIdentifier` (string)
+- `SalesforceServiceCloudV2_CL.BrowserDeviceType` (string)
+- `SalesforceServiceCloudV2_CL.Bytes` (string)
+- `SalesforceServiceCloudV2_CL.CallerPackageNamespace` (string)
+- `SalesforceServiceCloudV2_CL.CancelledReason` (string)
+- `SalesforceServiceCloudV2_CL.ChangeSetName` (string)
+- `SalesforceServiceCloudV2_CL.ClientGeo` (string)
+- `SalesforceServiceCloudV2_CL.ColumnNumber` (string)
+- `SalesforceServiceCloudV2_CL.ConcurrencyMode` (string)
+- `SalesforceServiceCloudV2_CL.ConnectEnd` (string)
+- `SalesforceServiceCloudV2_CL.ConnectStart` (string)
+- `SalesforceServiceCloudV2_CL.ConnectedAppId` (string)
+- `SalesforceServiceCloudV2_CL.ConnectedAppName` (string)
+- `SalesforceServiceCloudV2_CL.ContextId` (string)
+- `SalesforceServiceCloudV2_CL.ContextMap` (string)
+- `SalesforceServiceCloudV2_CL.ContinuationId` (string)
+- `SalesforceServiceCloudV2_CL.CorrelationId` (string)
+- `SalesforceServiceCloudV2_CL.Count` (string)
+- `SalesforceServiceCloudV2_CL.CountryCode` (string)
+- `SalesforceServiceCloudV2_CL.CountsAgainstApiLimit` (string)
+- `SalesforceServiceCloudV2_CL.CurrentSandboxOrgId` (string)
+- `SalesforceServiceCloudV2_CL.DataSourceName` (string)
+- `SalesforceServiceCloudV2_CL.DatasetIds` (string)
+- `SalesforceServiceCloudV2_CL.DecodedBodySize` (string)
+- `SalesforceServiceCloudV2_CL.DelegatedUserId` (string)
+- `SalesforceServiceCloudV2_CL.DelegatedUserIdDerived` (string)
+- `SalesforceServiceCloudV2_CL.DelegatedUserName` (string)
+- `SalesforceServiceCloudV2_CL.Description` (string)
+- `SalesforceServiceCloudV2_CL.Directive` (string)
+- `SalesforceServiceCloudV2_CL.Disposition` (string)
+- `SalesforceServiceCloudV2_CL.DmlType` (string)
+- `SalesforceServiceCloudV2_CL.DocumentUri` (string)
+- `SalesforceServiceCloudV2_CL.DomComplete` (string)
+- `SalesforceServiceCloudV2_CL.DomContentLoadedEventEnd` (string)
+- `SalesforceServiceCloudV2_CL.DomContentLoadedEventStart` (string)
+- `SalesforceServiceCloudV2_CL.DomInteractive` (string)
+- `SalesforceServiceCloudV2_CL.Domain` (string)
+- `SalesforceServiceCloudV2_CL.DomainLookupEnd` (string)
+- `SalesforceServiceCloudV2_CL.DomainLookupStart` (string)
+- `SalesforceServiceCloudV2_CL.DownloadError` (string)
+- `SalesforceServiceCloudV2_CL.DownloadFormat` (string)
+- `SalesforceServiceCloudV2_CL.EasySuiteValue` (string)
+- `SalesforceServiceCloudV2_CL.EffectiveAccountId` (string)
+- `SalesforceServiceCloudV2_CL.EffectivePageTimeDeviation` (string)
+- `SalesforceServiceCloudV2_CL.EffectivePageTimeDeviationErrorType` (string)
+- `SalesforceServiceCloudV2_CL.EffectivePageTimeDeviationReason` (string)
+- `SalesforceServiceCloudV2_CL.EncodedBodySize` (string)
+- `SalesforceServiceCloudV2_CL.ErrorCode` (string)
+- `SalesforceServiceCloudV2_CL.ErrorDescription` (string)
+- `SalesforceServiceCloudV2_CL.ErrorMessage` (string)
+- `SalesforceServiceCloudV2_CL.ErrorTimestamp` (string)
+- `SalesforceServiceCloudV2_CL.EvaluationTimeMs` (string)
+- `SalesforceServiceCloudV2_CL.EventObjectType` (string)
+- `SalesforceServiceCloudV2_CL.EventTimestamp` (string)
+- `SalesforceServiceCloudV2_CL.ExceptionCategory` (string)
+- `SalesforceServiceCloudV2_CL.ExecuteMs` (string)
+- `SalesforceServiceCloudV2_CL.Expand` (string)
+- `SalesforceServiceCloudV2_CL.ExternalObject` (string)
+- `SalesforceServiceCloudV2_CL.FailureReason` (string)
+- `SalesforceServiceCloudV2_CL.FailureType` (string)
+- `SalesforceServiceCloudV2_CL.FeatureId` (string)
+- `SalesforceServiceCloudV2_CL.FetchMs` (string)
+- `SalesforceServiceCloudV2_CL.FetchStart` (string)
+- `SalesforceServiceCloudV2_CL.Filter` (string)
+- `SalesforceServiceCloudV2_CL.FirstEntityId` (string)
+- `SalesforceServiceCloudV2_CL.FirstInterimResponseStart` (string)
+- `SalesforceServiceCloudV2_CL.FlowLoadTime` (string)
+- `SalesforceServiceCloudV2_CL.FlowProcessType` (string)
+- `SalesforceServiceCloudV2_CL.FlowVersionId` (string)
+- `SalesforceServiceCloudV2_CL.ForwardedForIp` (string)
+- `SalesforceServiceCloudV2_CL.GroupId` (string)
+- `SalesforceServiceCloudV2_CL.GroupType` (string)
+- `SalesforceServiceCloudV2_CL.HasChart` (string)
+- `SalesforceServiceCloudV2_CL.Having` (string)
+- `SalesforceServiceCloudV2_CL.Host` (string)
+- `SalesforceServiceCloudV2_CL.HttpReferer` (string)
+- `SalesforceServiceCloudV2_CL.InitialReferenceIds` (string)
+- `SalesforceServiceCloudV2_CL.InitiatorType` (string)
+- `SalesforceServiceCloudV2_CL.InsecureUri` (string)
+- `SalesforceServiceCloudV2_CL.InvocationSource` (string)
+- `SalesforceServiceCloudV2_CL.InvokingApexClassName` (string)
+- `SalesforceServiceCloudV2_CL.IsBlockedRedirection` (string)
+- `SalesforceServiceCloudV2_CL.IsCancelled` (string)
+- `SalesforceServiceCloudV2_CL.IsInitial` (string)
+- `SalesforceServiceCloudV2_CL.IsManaged` (string)
+- `SalesforceServiceCloudV2_CL.IsPush` (string)
+- `SalesforceServiceCloudV2_CL.IsReleased` (string)
+- `SalesforceServiceCloudV2_CL.IsRequestCollationOn` (string)
+- `SalesforceServiceCloudV2_CL.IsRetry` (string)
+- `SalesforceServiceCloudV2_CL.IsSuccessful` (string)
+- `SalesforceServiceCloudV2_CL.JobStatus` (string)
+- `SalesforceServiceCloudV2_CL.KeyId` (string)
+- `SalesforceServiceCloudV2_CL.KeyIdDerived` (string)
+- `SalesforceServiceCloudV2_CL.KeyPrefix` (string)
+- `SalesforceServiceCloudV2_CL.KeyType` (string)
+- `SalesforceServiceCloudV2_CL.LargeLanguageModel` (string)
+- `SalesforceServiceCloudV2_CL.Library` (string)
+- `SalesforceServiceCloudV2_CL.Limit` (string)
+- `SalesforceServiceCloudV2_CL.LineNumber` (string)
+- `SalesforceServiceCloudV2_CL.LoadEventEnd` (string)
+- `SalesforceServiceCloudV2_CL.LoadEventStart` (string)
+- `SalesforceServiceCloudV2_CL.LoginSubType` (string)
+- `SalesforceServiceCloudV2_CL.LoginType` (string)
+- `SalesforceServiceCloudV2_CL.LoginUrl` (string)
+- `SalesforceServiceCloudV2_CL.MalformedUrl` (string)
+- `SalesforceServiceCloudV2_CL.MasterReportId` (string)
+- `SalesforceServiceCloudV2_CL.MemberId` (string)
+- `SalesforceServiceCloudV2_CL.Message` (string)
+- `SalesforceServiceCloudV2_CL.NamedCredentialName` (string)
+- `SalesforceServiceCloudV2_CL.NavigationType` (string)
+- `SalesforceServiceCloudV2_CL.NetworkId` (string)
+- `SalesforceServiceCloudV2_CL.NextHopProtocol` (string)
+- `SalesforceServiceCloudV2_CL.NextLink` (string)
+- `SalesforceServiceCloudV2_CL.NumGraphDepth` (string)
+- `SalesforceServiceCloudV2_CL.NumRetries` (string)
+- `SalesforceServiceCloudV2_CL.NumRows` (string)
+- `SalesforceServiceCloudV2_CL.NumberOfErrors` (string)
+- `SalesforceServiceCloudV2_CL.NumberOfInterviews` (string)
+- `SalesforceServiceCloudV2_CL.NumberOfRecords` (string)
+- `SalesforceServiceCloudV2_CL.NumberRequests` (string)
+- `SalesforceServiceCloudV2_CL.Offset` (string)
+- `SalesforceServiceCloudV2_CL.Operation` (string)
+- `SalesforceServiceCloudV2_CL.OperationStage` (string)
+- `SalesforceServiceCloudV2_CL.OperationState` (string)
+- `SalesforceServiceCloudV2_CL.OperationStatus` (string)
+- `SalesforceServiceCloudV2_CL.OperationTime` (string)
+- `SalesforceServiceCloudV2_CL.Orderby` (string)
+- `SalesforceServiceCloudV2_CL.OriginRequestId` (string)
+- `SalesforceServiceCloudV2_CL.PackageName` (string)
+- `SalesforceServiceCloudV2_CL.PageFlexiPageNameOrId` (string)
+- `SalesforceServiceCloudV2_CL.PageFlexiPageType` (string)
+- `SalesforceServiceCloudV2_CL.PageId` (string)
+- `SalesforceServiceCloudV2_CL.ParentCallout` (string)
+- `SalesforceServiceCloudV2_CL.Path` (string)
+- `SalesforceServiceCloudV2_CL.PendingSandboxOrgId` (string)
+- `SalesforceServiceCloudV2_CL.PermissionType` (string)
+- `SalesforceServiceCloudV2_CL.PlannerIdentifier` (string)
+- `SalesforceServiceCloudV2_CL.PolicyId` (string)
+- `SalesforceServiceCloudV2_CL.PolicyIdDerived` (string)
+- `SalesforceServiceCloudV2_CL.PricingApiEndpoint` (string)
+- `SalesforceServiceCloudV2_CL.PricingDetails` (string)
+- `SalesforceServiceCloudV2_CL.PricingErrorCode` (string)
+- `SalesforceServiceCloudV2_CL.PricingLogName` (string)
+- `SalesforceServiceCloudV2_CL.PricingProcedure` (string)
+- `SalesforceServiceCloudV2_CL.PricingStatus` (string)
+- `SalesforceServiceCloudV2_CL.ProcessType` (string)
+- `SalesforceServiceCloudV2_CL.PromptTemplate` (string)
+- `SalesforceServiceCloudV2_CL.ProviderType` (string)
+- `SalesforceServiceCloudV2_CL.QueryIdentifier` (string)
+- `SalesforceServiceCloudV2_CL.QueryType` (string)
+- `SalesforceServiceCloudV2_CL.RateLimitUsagePercent` (string)
+- `SalesforceServiceCloudV2_CL.RecordsFailed` (string)
+- `SalesforceServiceCloudV2_CL.RecordsProcessed` (string)
+- `SalesforceServiceCloudV2_CL.RedirectCount` (string)
+- `SalesforceServiceCloudV2_CL.RedirectEnd` (string)
+- `SalesforceServiceCloudV2_CL.RedirectReason` (string)
+- `SalesforceServiceCloudV2_CL.RedirectStart` (string)
+- `SalesforceServiceCloudV2_CL.Referrer` (string)
+- `SalesforceServiceCloudV2_CL.RemoteAddress` (string)
+- `SalesforceServiceCloudV2_CL.RenderBlockingStatus` (string)
+- `SalesforceServiceCloudV2_CL.RequestCount` (string)
+- `SalesforceServiceCloudV2_CL.RequestFormSize` (string)
+- `SalesforceServiceCloudV2_CL.RequestMethod` (string)
+- `SalesforceServiceCloudV2_CL.RequestPath` (string)
+- `SalesforceServiceCloudV2_CL.RequestStart` (string)
+- `SalesforceServiceCloudV2_CL.RequestUri` (string)
+- `SalesforceServiceCloudV2_CL.RequestedAccessLevel` (string)
+- `SalesforceServiceCloudV2_CL.Requests` (string)
+- `SalesforceServiceCloudV2_CL.RequestsLimit` (string)
+- `SalesforceServiceCloudV2_CL.ResourceSample` (string)
+- `SalesforceServiceCloudV2_CL.ResponseEnd` (string)
+- `SalesforceServiceCloudV2_CL.ResponseStart` (string)
+- `SalesforceServiceCloudV2_CL.ResponseStatus` (string)
+- `SalesforceServiceCloudV2_CL.Result` (string)
+- `SalesforceServiceCloudV2_CL.ResultSizeMb` (string)
+- `SalesforceServiceCloudV2_CL.Rows` (string)
+- `SalesforceServiceCloudV2_CL.RowsFetched` (string)
+- `SalesforceServiceCloudV2_CL.SampleFactor` (string)
+- `SalesforceServiceCloudV2_CL.SandboxId` (string)
+- `SalesforceServiceCloudV2_CL.SavedViewId` (string)
+- `SalesforceServiceCloudV2_CL.Search` (string)
+- `SalesforceServiceCloudV2_CL.SecureConnectStart` (string)
+- `SalesforceServiceCloudV2_CL.Select` (string)
+- `SalesforceServiceCloudV2_CL.Sequence` (string)
+- `SalesforceServiceCloudV2_CL.ServerRequestId` (string)
+- `SalesforceServiceCloudV2_CL.ServiceName` (string)
+- `SalesforceServiceCloudV2_CL.SizeBytes` (string)
+- `SalesforceServiceCloudV2_CL.Source` (string)
+- `SalesforceServiceCloudV2_CL.SourceFile` (string)
+- `SalesforceServiceCloudV2_CL.SourceHostname` (string)
+- `SalesforceServiceCloudV2_CL.SqlId` (string)
+- `SalesforceServiceCloudV2_CL.StartTime` (string)
+- `SalesforceServiceCloudV2_CL.Status` (string)
+- `SalesforceServiceCloudV2_CL.Subqueries` (string)
+- `SalesforceServiceCloudV2_CL.TableName` (string)
+- `SalesforceServiceCloudV2_CL.TargetHostname` (string)
+- `SalesforceServiceCloudV2_CL.TargetOrgId` (string)
+- `SalesforceServiceCloudV2_CL.Throughput` (string)
+- `SalesforceServiceCloudV2_CL.TotalExecutionTime` (string)
+- `SalesforceServiceCloudV2_CL.TotalMs` (string)
+- `SalesforceServiceCloudV2_CL.TransferSize` (string)
+- `SalesforceServiceCloudV2_CL.UiEventRelativeTimestamp` (string)
+- `SalesforceServiceCloudV2_CL.UiNumberColumns` (string)
+- `SalesforceServiceCloudV2_CL.UiRootActivityId` (string)
+- `SalesforceServiceCloudV2_CL.UiThreadResponseDelay` (string)
+- `SalesforceServiceCloudV2_CL.UniqueId` (string)
+- `SalesforceServiceCloudV2_CL.UnloadEventEnd` (string)
+- `SalesforceServiceCloudV2_CL.UnloadEventStart` (string)
+- `SalesforceServiceCloudV2_CL.UpdateType` (string)
+- `SalesforceServiceCloudV2_CL.UseApiToken` (string)
+- `SalesforceServiceCloudV2_CL.UsingMru` (string)
+- `SalesforceServiceCloudV2_CL.VfControllerSize` (string)
+- `SalesforceServiceCloudV2_CL.ViewMode` (string)
+- `SalesforceServiceCloudV2_CL.ViewingUserId` (string)
+- `SalesforceServiceCloudV2_CL.WebstoreId` (string)
+- `SalesforceServiceCloudV2_CL.WebstoreType` (string)
+- `SalesforceServiceCloudV2_CL.WorkerStart` (string)
+
+**Columns removed** (415)
+
+- `AADManagedIdentitySignInLogs.ConditionalAccessPoliciesV2`
+- `AADNonInteractiveUserSignInLogs.ConditionalAccessPoliciesV2`
+- `AADProvisioningLogs.Action`
+- `AADProvisioningLogs.StatusInfo`
+- `AADServicePrincipalSignInLogs.ConditionalAccessPoliciesV2`
+- `AADSignInEventsBeta.RiskEventTypes`
+- `AADSignInEventsBeta.RiskLevelDuringSignIn`
+- `AADSignInEventsBeta.SourceSystem`
+- `AADSignInEventsBeta.TenantId`
+- `AADSignInEventsBeta.TimeGenerated`
+- `AADSignInEventsBeta.Type`
+- `AADSpnSignInEventsBeta.IsConfidentialClient`
+- `AADSpnSignInEventsBeta.SourceSystem`
+- `AADSpnSignInEventsBeta.TenantId`
+- `AADSpnSignInEventsBeta.TimeGenerated`
+- `AADSpnSignInEventsBeta.Type`
+- `ADFSSignInLogs.ConditionalAccessPoliciesV2`
+- `AIAgentsInfo.SourceSystem`
+- `AIAgentsInfo.TenantId`
+- `AIAgentsInfo.TimeGenerated`
+- `AIAgentsInfo.Type`
+- `AlertInfo.MachineGroup`
+- `AlertInfo.SentinelWorkspaceIds`
+- `AlertInfo.SourceSystem`
+- `AlertInfo.TenantId`
+- `AlertInfo.TimeGenerated`
+- `AlertInfo.Type`
+- `AuditLogs.TenantId`
+- `AzureDiagnostics.ResourceId`
+- `AzureDiagnostics.SourceSystem`
+- `AzureDiagnostics.StreamType_s`
+- `AzureDiagnostics.SubscriptionId`
+- `AzureDiagnostics.TenantId`
+- `AzureDiagnostics.Tenant_g`
+- `AzureDiagnostics.TimeGenerated`
+- `AzureDiagnostics.Type`
+- `AzureDiagnostics._schema_s`
+- `AzureDiagnostics.correlation_actionTrackingId_g`
+- `AzureDiagnostics.correlation_clientTrackingId_s`
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_claims_authnmethodsreferences_s`
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_identity_claims_objectidentifier_g`
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_identity_claims_scope_s`
+- `AzureDiagnostics.identity_claim_http_schemas_xmlsoap_org_ws_2005_05_identity_claims_upn_s`
+- `AzureDiagnostics.resultDescription_Summary_DurationInMinutes_d`
+- `AzureDiagnostics.resultDescription_Summary_DurationInMinutes_s`
+- `AzureDiagnostics.resultDescription_Summary_EndDateTimeUtc_s`
+- `AzureDiagnostics.resultDescription_Summary_EndDateTimeUtc_t`
+- `AzureDiagnostics.resultDescription_Summary_InitialRequiredUpdatesCount_d`
+- `AzureDiagnostics.resultDescription_Summary_InstallPercentage_d`
+- `AzureDiagnostics.resultDescription_Summary_MachineId_s`
+- `AzureDiagnostics.resultDescription_Summary_MachineName_s`
+- `AzureDiagnostics.resultDescription_Summary_RebootRequired_b`
+- `AzureDiagnostics.resultDescription_Summary_ScheduleName_s`
+- `AzureDiagnostics.resultDescription_Summary_StartDateTimeUtc_t`
+- `AzureDiagnostics.resultDescription_Summary_StatusDescription_s`
+- `AzureDiagnostics.resultDescription_Summary_Status_s`
+- `AzureDiagnostics.resultDescription_Summary_TotalUpdatesFailed_d`
+- `AzureDiagnostics.resultDescription_Summary_TotalUpdatesInstalled_d`
+- `AzureDiagnostics.sslEnabled_s`
+- `AzureDiagnostics.startTime_t`
+- `AzureDiagnostics.status_s`
+- `AzureDiagnostics.subnetId_s`
+- `AzureDiagnostics.subnetPrefix_s`
+- `AzureDiagnostics.systemId_g`
+- `AzureDiagnostics.timeTaken_d`
+- `AzureDiagnostics.type_s`
+- `AzureDiagnostics.userAgent_s`
+- `AzureDiagnostics.vnetResourceGuid_g`
+- `AzureDiagnostics.workflowId_s`
+- `AzureMetrics.AdditionalInformation`
+- `AzureMetrics.ReportReferenceLink`
+- `AzureMetrics.TenantId`
+- `BehaviorEntities.ApplicationId_int`
+- `BehaviorEntities.ApplicationId_string`
+- `BehaviorEntities.CloudPlatform`
+- `BehaviorEntities.CloudResource`
+- `BehaviorEntities.CloudResourceType`
+- `BehaviorEntities.CloudSubscriptionId`
+- `BehaviorEntities.MachineGroup`
+- `BehaviorEntities.SourceSystem`
+- `BehaviorEntities.TenantId`
+- `BehaviorEntities.TimeGenerated`
+- `BehaviorEntities.Type`
+- `BehaviorEntities._BilledSize`
+- `BehaviorEntities._IsBillable`
+- `BehaviorEntities._ItemId`
+- `BehaviorEntities._ResourceId`
+- `BehaviorEntities._SubscriptionId`
+- `BehaviorEntities._TimeReceived`
+- `BehaviorInfo.MachineGroup`
+- `BehaviorInfo.SourceSystem`
+- `BehaviorInfo.TenantId`
+- `BehaviorInfo.TimeGenerated`
+- `BehaviorInfo.Type`
+- `BehaviorInfo._BilledSize`
+- `BehaviorInfo._IsBillable`
+- `BehaviorInfo._ItemId`
+- `BehaviorInfo._ResourceId`
+- `BehaviorInfo._SubscriptionId`
+- `BehaviorInfo._TimeReceived`
+- `CampaignInfo.SourceSystem`
+- `CampaignInfo.TenantId`
+- `CampaignInfo.TimeGenerated`
+- `CampaignInfo.Type`
+- `CloudAuditEvents.Account`
+- `CloudAuditEvents.AuditSource`
+- `CloudAuditEvents.AwsResourceName`
+- `CloudAuditEvents.AzureResourceId`
+- `CloudAuditEvents.GcpFullResourceName`
+- `CloudAuditEvents.SourceSystem`
+- `CloudAuditEvents.TenantId`
+- `CloudAuditEvents.TimeGenerated`
+- `CloudAuditEvents.Type`
+- `CloudDnsEvents.EventSubType`
+- `CloudDnsEvents.EventType`
+- `CloudDnsEvents.SourceSystem`
+- `CloudDnsEvents.TenantId`
+- `CloudDnsEvents.TimeGenerated`
+- `CloudDnsEvents.Type`
+- `CloudPolicyEnforcementEvents.SourceSystem`
+- `CloudPolicyEnforcementEvents.TenantId`
+- `CloudPolicyEnforcementEvents.TimeGenerated`
+- `CloudPolicyEnforcementEvents.Type`
+- `CloudProcessEvents.ReportId`
+- `CloudProcessEvents.SourceSystem`
+- `CloudProcessEvents.TenantId`
+- `CloudProcessEvents.TimeGenerated`
+- `CloudProcessEvents.Type`
+- `CloudStorageAggregatedEvents.Md5Hashes`
+- `CloudStorageAggregatedEvents.SourceSystem`
+- `CloudStorageAggregatedEvents.TenantId`
+- `CloudStorageAggregatedEvents.TimeGenerated`
+- `CloudStorageAggregatedEvents.Type`
+- `DataSecurityBehaviors.IsUnderIrmPolicy`
+- `DataSecurityBehaviors.PolicyMatchInfo`
+- `DataSecurityBehaviors.SourceSystem`
+- `DataSecurityBehaviors.TenantId`
+- `DataSecurityBehaviors.TimeGenerated`
+- `DataSecurityBehaviors.Type`
+- `DataSecurityEvents.AlertInfo`
+- `DataSecurityEvents.AttachmentInfo`
+- `DataSecurityEvents.ContentInfo`
+- `DataSecurityEvents.DeviceInfo`
+- `DataSecurityEvents.EventTime`
+- `DataSecurityEvents.IrmSequenceInfo`
+- `DataSecurityEvents.IsIrmInteresting`
+- `DataSecurityEvents.ParentContentInfo`
+- `DataSecurityEvents.PhysicalAccessPointInfo`
+- `DataSecurityEvents.Recipients`
+- `DataSecurityEvents.RemovableMediaInfo`
+- `DataSecurityEvents.RiskyAIUsageAccessedResourceInfo`
+- `DataSecurityEvents.RiskyAIUsageAppCategory`
+- `DataSecurityEvents.RiskyAIUsageSensitivityLabelsInfo`
+- `DataSecurityEvents.SharepointSiteSensitivityLabelId`
+- `DataSecurityEvents.SourceSystem`
+- `DataSecurityEvents.TeamsChannelInfo`
+- `DataSecurityEvents.TenantId`
+- `DataSecurityEvents.TimeGenerated`
+- `DataSecurityEvents.Type`
+- `DeviceFileCertificateInfo.MachineGroup`
+- `DeviceFileCertificateInfo.SourceSystem`
+- `DeviceFileCertificateInfo.TenantId`
+- `DeviceFileCertificateInfo.TimeGenerated`
+- `DeviceFileCertificateInfo.Type`
+- `DeviceFileEvents.MachineGroup`
+- `DeviceFileEvents.SourceSystem`
+- `DeviceFileEvents.TenantId`
+- `DeviceFileEvents.TimeGenerated`
+- `DeviceFileEvents.Type`
+- `DeviceImageLoadEvents.MachineGroup`
+- `DeviceImageLoadEvents.SourceSystem`
+- `DeviceImageLoadEvents.TenantId`
+- `DeviceImageLoadEvents.TimeGenerated`
+- `DeviceImageLoadEvents.Type`
+- `DeviceInfo.DlpInfo`
+- `DeviceInfo.FirmwareVersions`
+- `DeviceInfo.RestrictedDeviceSecurityOperations`
+- `DeviceInfo.SourceSystem`
+- `DeviceInfo.TenantId`
+- `DeviceInfo.TimeGenerated`
+- `DeviceInfo.Type`
+- `DeviceLogonEvents.MachineGroup`
+- `DeviceLogonEvents.SourceSystem`
+- `DeviceLogonEvents.TenantId`
+- `DeviceLogonEvents.TimeGenerated`
+- `DeviceLogonEvents.Type`
+- `DeviceNetworkEvents.MachineGroup`
+- `DeviceNetworkEvents.SourceSystem`
+- `DeviceNetworkEvents.TenantId`
+- `DeviceNetworkEvents.TimeGenerated`
+- `DeviceNetworkEvents.Type`
+- `DeviceNetworkInfo.MachineGroup`
+- `DeviceNetworkInfo.SourceSystem`
+- `DeviceNetworkInfo.TenantId`
+- `DeviceNetworkInfo.TimeGenerated`
+- `DeviceNetworkInfo.Type`
+- `DeviceProcessEvents.MachineGroup`
+- `DeviceProcessEvents.SourceSystem`
+- `DeviceProcessEvents.TenantId`
+- `DeviceProcessEvents.TimeGenerated`
+- `DeviceProcessEvents.Type`
+- `DeviceRegistryEvents.MachineGroup`
+- `DeviceRegistryEvents.SourceSystem`
+- `DeviceRegistryEvents.TenantId`
+- `DeviceRegistryEvents.TimeGenerated`
+- `DeviceRegistryEvents.Type`
+- `DeviceTvmInfoGathering.MachineGroup`
+- `DeviceTvmInfoGathering.SourceSystem`
+- `DeviceTvmInfoGathering.TenantId`
+- `DeviceTvmInfoGathering.Type`
+- `DeviceTvmInfoGatheringKB.SourceSystem`
+- `DeviceTvmInfoGatheringKB.TenantId`
+- `DeviceTvmInfoGatheringKB.Type`
+- `DeviceTvmSecureConfigurationAssessment.MachineGroup`
+- `DeviceTvmSecureConfigurationAssessment.SourceSystem`
+- `DeviceTvmSecureConfigurationAssessment.TenantId`
+- `DeviceTvmSecureConfigurationAssessment.TimeGenerated`
+- `DeviceTvmSecureConfigurationAssessment.Type`
+- `DeviceTvmSecureConfigurationAssessmentKB.SourceSystem`
+- `DeviceTvmSecureConfigurationAssessmentKB.TenantId`
+- `DeviceTvmSecureConfigurationAssessmentKB.Type`
+- `DeviceTvmSoftwareEvidenceBeta.MachineGroup`
+- `DeviceTvmSoftwareEvidenceBeta.SourceSystem`
+- `DeviceTvmSoftwareEvidenceBeta.TenantId`
+- `DeviceTvmSoftwareEvidenceBeta.Type`
+- `DeviceTvmSoftwareInventory.MachineGroup`
+- `DeviceTvmSoftwareInventory.SourceSystem`
+- `DeviceTvmSoftwareInventory.TenantId`
+- `DeviceTvmSoftwareInventory.Type`
+- `DeviceTvmSoftwareVulnerabilities.AadDeviceId`
+- `DeviceTvmSoftwareVulnerabilities.CveMitigationStatus`
+- `DeviceTvmSoftwareVulnerabilities.MachineGroup`
+- `DeviceTvmSoftwareVulnerabilities.SourceSystem`
+- `DeviceTvmSoftwareVulnerabilities.TenantId`
+- `DeviceTvmSoftwareVulnerabilities.Type`
+- `DeviceTvmSoftwareVulnerabilitiesKB.CveSupportability`
+- `DeviceTvmSoftwareVulnerabilitiesKB.CvssVector`
+- `DeviceTvmSoftwareVulnerabilitiesKB.EpssScore`
+- `DeviceTvmSoftwareVulnerabilitiesKB.SourceSystem`
+- `DeviceTvmSoftwareVulnerabilitiesKB.TenantId`
+- `DeviceTvmSoftwareVulnerabilitiesKB.Type`
+- `DisruptionAndResponseEvents.DataSource`
+- `DisruptionAndResponseEvents.LogonId`
+- `DisruptionAndResponseEvents.MachineGroup`
+- `DisruptionAndResponseEvents.ReportId`
+- `DisruptionAndResponseEvents.SessionId`
+- `DisruptionAndResponseEvents.SourceSystem`
+- `DisruptionAndResponseEvents.TargetDeviceName`
+- `DisruptionAndResponseEvents.TargetDomainName`
+- `DisruptionAndResponseEvents.TenantId`
+- `DisruptionAndResponseEvents.TimeGenerated`
+- `DisruptionAndResponseEvents.Type`
+- `DnsEvents.ReportReferenceLink`
+- `DnsEvents.TenantId`
+- `DnsInventory.TenantId`
+- `Dynamics365Activity.Scope`
+- `Dynamics365Activity.ServiceContextId`
+- `Dynamics365Activity.ServiceContextIdType`
+- `EmailAttachmentInfo.AdditionalFields`
+- `EmailAttachmentInfo.FileExtension`
+- `EmailAttachmentInfo.SourceSystem`
+- `EmailAttachmentInfo.TenantId`
+- `EmailAttachmentInfo.TimeGenerated`
+- `EmailAttachmentInfo.Type`
+- `EmailPostDeliveryEvents.EmailDirection`
+- `EmailPostDeliveryEvents.SenderFromAddress`
+- `EmailPostDeliveryEvents.SourceSystem`
+- `EmailPostDeliveryEvents.TenantId`
+- `EmailPostDeliveryEvents.TimeGenerated`
+- `EmailPostDeliveryEvents.Type`
+- `EmailUrlInfo.SourceSystem`
+- `EmailUrlInfo.TenantId`
+- `EmailUrlInfo.TimeGenerated`
+- `EmailUrlInfo.Type`
+- `EmailUrlInfo.UrlChainId`
+- `EmailUrlInfo.UrlChainPosition`
+- `EntraIdSignInEvents.GatewayJA4`
+- `EntraIdSignInEvents.IsSignInThroughGlobalSecureAccess`
+- `EntraIdSignInEvents.RiskEventTypes`
+- `EntraIdSignInEvents.RiskLevelDuringSignIn`
+- `EntraIdSignInEvents.SourceSystem`
+- `EntraIdSignInEvents.TenantId`
+- `EntraIdSignInEvents.TimeGenerated`
+- `EntraIdSignInEvents.Type`
+- `EntraIdSignInEvents.UniqueTokenId`
+- `EntraIdSpnSignInEvents.GatewayJA4`
+- `EntraIdSpnSignInEvents.IsConfidentialClient`
+- `EntraIdSpnSignInEvents.SessionId`
+- `EntraIdSpnSignInEvents.SourceSystem`
+- `EntraIdSpnSignInEvents.TenantId`
+- `EntraIdSpnSignInEvents.TimeGenerated`
+- `EntraIdSpnSignInEvents.Type`
+- `EntraIdSpnSignInEvents.UniqueTokenId`
+- `EntraIdSpnSignInEvents.UserAgent`
+- `Event.MG`
+- `Event.TenantId`
+- `ExposureGraphEdges.SourceSystem`
+- `ExposureGraphEdges.TenantId`
+- `ExposureGraphEdges.Type`
+- `ExposureGraphNodes.SourceSystem`
+- `ExposureGraphNodes.TenantId`
+- `ExposureGraphNodes.Type`
+- `FileMaliciousContentInfo.DetectionMethods`
+- `FileMaliciousContentInfo.DocumentID`
+- `FileMaliciousContentInfo.FileCreationTime`
+- `FileMaliciousContentInfo.FileName`
+- `FileMaliciousContentInfo.FileOwnerDisplayName`
+- `FileMaliciousContentInfo.FileOwnerUpn`
+- `FileMaliciousContentInfo.FileSize`
+- `FileMaliciousContentInfo.FolderPath`
+- `FileMaliciousContentInfo.LastModifiedTime`
+- `FileMaliciousContentInfo.LastModifyingAccountUpn`
+- `FileMaliciousContentInfo.SHA256`
+- `FileMaliciousContentInfo.SourceSystem`
+- `FileMaliciousContentInfo.TenantId`
+- `FileMaliciousContentInfo.ThreatNames`
+- `FileMaliciousContentInfo.ThreatTypes`
+- `FileMaliciousContentInfo.TimeGenerated`
+- `FileMaliciousContentInfo.Type`
+- `FileMaliciousContentInfo.Workload`
+- `IdentityAccountInfo.AuthenticationSourceAccountId`
+- `IdentityAccountInfo.CreatedDateTime`
+- `IdentityAccountInfo.IsPrimary`
+- `IdentityAccountInfo.SourceProviderRiskLevel`
+- `IdentityAccountInfo.SourceProviderRiskLevelDetails`
+- `IdentityAccountInfo.SourceSystem`
+- `IdentityAccountInfo.TimeGenerated`
+- `IdentityDirectoryEvents.SourceSystem`
+- `IdentityDirectoryEvents.TenantId`
+- `IdentityDirectoryEvents.TimeGenerated`
+- `IdentityDirectoryEvents.Type`
+- `IdentityEvents.AccountId`
+- `IdentityEvents.ReportId`
+- `IdentityEvents.SourceSystem`
+- `IdentityEvents.TenantId`
+- `IdentityEvents.TimeGenerated`
+- `IdentityEvents.Timestamp`
+- `IdentityEvents.Type`
+- `IdentityInfo.IdentityId`
+- `IdentityInfo.PrivilegedEntraPimRoles`
+- `IdentityInfo.RiskScore`
+- `IdentityInfo.RiskScoreUpdateTime`
+- `IdentityInfo.SourceProvider`
+- `IdentityInfo.TimeGenerated`
+- `IdentityQueryEvents.SourceSystem`
+- `IdentityQueryEvents.TenantId`
+- `IdentityQueryEvents.TimeGenerated`
+- `IdentityQueryEvents.Type`
+- `MessageEvents.MessageSubtype`
+- `MessageEvents.MessageType`
+- `MessageEvents.SourceSystem`
+- `MessageEvents.Subject`
+- `MessageEvents.TenantId`
+- `MessageEvents.ThreadName`
+- `MessageEvents.ThreadType`
+- `MessageEvents.TimeGenerated`
+- `MessageEvents.Type`
+- `MessagePostDeliveryEvents.SourceSystem`
+- `MessagePostDeliveryEvents.TenantId`
+- `MessagePostDeliveryEvents.TimeGenerated`
+- `MessagePostDeliveryEvents.Type`
+- `MessageUrlInfo.SourceSystem`
+- `MessageUrlInfo.TenantId`
+- `MessageUrlInfo.TimeGenerated`
+- `MessageUrlInfo.Type`
+- `OAuthAppInfo.SourceSystem`
+- `OAuthAppInfo.TenantId`
+- `OAuthAppInfo.TimeGenerated`
+- `OAuthAppInfo.Type`
+- `OfficeActivity.ActorContextId_`
+- `OfficeActivity.ClientIP_`
+- `OfficeActivity.IssuedAtTime`
+- `OfficeActivity.OfficeTenantId_`
+- `OfficeActivity.OrganizationId_`
+- `OfficeActivity.Scope`
+- `OfficeActivity.Site_Url_`
+- `OfficeActivity.SourceFileName_`
+- `OfficeActivity.SourceRelativeUrl_`
+- `OfficeActivity.UniqueTokenId`
+- `OfficeActivity.UserId_`
+- `SecurityAlert.SourceSystem`
+- `SecurityAlert.TenantId`
+- `SecurityEvent.AccessList`
+- `SecurityEvent.AccessReason`
+- `SecurityEvent.AzureTableName`
+- `SecurityEvent.EventOriginId`
+- `SecurityEvent.ImpersonationLevel`
+- `SecurityEvent.MG`
+- `SecurityEvent.PartitionKey`
+- `SecurityEvent.RowKey`
+- `SecurityEvent.TimeCollected`
+- `SigninLogs.TenantId`
+- `Syslog.MG`
+- `Syslog.TenantId`
+- `ThreatIntelligenceIndicator.ApplicationId`
+- `ThreatIntelligenceIndicator.AzureTenantId`
+- `UrlClickEvents.AppName`
+- `UrlClickEvents.AppVersion`
+- `UrlClickEvents.SourceId`
+- `UrlClickEvents.SourceSystem`
+- `UrlClickEvents.TenantId`
+- `UrlClickEvents.TimeGenerated`
+- `UrlClickEvents.Type`
+- `W3CIISLog.AdditionalInformation`
+- `W3CIISLog.Date`
+- `W3CIISLog.FileOffset`
+- `W3CIISLog.FileUri`
+- `W3CIISLog.MG`
+- `W3CIISLog.ReportReferenceLink`
+- `W3CIISLog.TenantId`
+- `W3CIISLog.Time`
+- `W3CIISLog.sComputerName`
+- `WindowsEvent.Data`
+- `WindowsEvent.SourceSystem`
+- `WindowsEvent.TimeCreated`
+
+**Columns modified** (3)
+
+- `AIAgentsInfo.EntraBlueprintId`: type `guid` → `string`
+- `AIAgentsInfo.EntraObjectId`: type `guid` → `string`
+- `AIAgentsInfo.IsBlocked`: type `bool` → `boolean`
+
+
 ### 2026-04-27 05:58 UTC
 
 **Columns added** (425)

@@ -9,8 +9,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountId",
@@ -19,8 +18,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -29,8 +27,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountType",
@@ -39,8 +36,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -49,8 +45,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActivityObjects",
@@ -59,8 +54,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActivityType",
@@ -69,8 +63,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -79,8 +72,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppInstanceId",
@@ -88,8 +80,7 @@
         "description": "Unique identifier for the instance of an application",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -98,8 +89,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationId",
@@ -108,8 +98,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuditSource",
@@ -118,8 +107,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -127,8 +115,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "City",
@@ -137,8 +124,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CountryCode",
@@ -147,8 +133,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceType",
@@ -157,8 +142,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPAddress",
@@ -167,8 +151,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPCategory",
@@ -177,8 +160,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPTags",
@@ -187,8 +169,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsAdminOperation",
@@ -197,8 +178,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsAnonymousProxy",
@@ -207,8 +187,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -216,8 +195,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsExternalUser",
@@ -226,8 +204,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsImpersonated",
@@ -236,8 +213,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ISP",
@@ -245,8 +221,7 @@
         "description": "Internet service provider associated with the IP address",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastSeenForUser",
@@ -255,8 +230,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OAuthAppId",
@@ -265,8 +239,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ObjectId",
@@ -275,8 +248,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ObjectName",
@@ -285,8 +257,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ObjectType",
@@ -295,8 +266,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OSPlatform",
@@ -305,8 +275,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RawEventData",
@@ -315,8 +284,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -325,8 +293,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SessionData",
@@ -335,8 +302,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -344,8 +310,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -353,8 +318,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -362,8 +326,7 @@
         "description": "Date and time (UTC) when the record was generated",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -371,8 +334,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UncommonForUser",
@@ -381,8 +343,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgent",
@@ -391,8 +352,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgentTags",
@@ -401,8 +361,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -410,8 +369,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Isp",
@@ -419,14 +377,12 @@
         "description": "Internet service provider associated with the IP address",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       }
     ],
     "sources": [
       "Sentinel Tables",
       "Defender XDR Advanced Hunting Schema"
-    ],
-    "verified": true
+    ]
   }
 }

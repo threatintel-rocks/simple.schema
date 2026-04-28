@@ -9,8 +9,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AttachmentCount",
@@ -19,8 +18,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthenticationDetails",
@@ -29,8 +27,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -38,8 +35,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "BulkComplaintLevel",
@@ -48,8 +44,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Cc",
@@ -57,8 +52,7 @@
         "description": "Indicates the addresses which are listed in Cc fields of an email",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfidenceLevel",
@@ -67,8 +61,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Connectors",
@@ -77,8 +70,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Context",
@@ -86,8 +78,7 @@
         "description": "Configuration context data of the machine",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeliveryAction",
@@ -96,8 +87,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeliveryLocation",
@@ -106,8 +96,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetectionMethods",
@@ -116,8 +105,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DistributionList",
@@ -126,8 +114,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailAction",
@@ -136,8 +123,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailActionPolicy",
@@ -146,8 +132,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailActionPolicyGuid",
@@ -156,8 +141,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailClusterId",
@@ -166,8 +150,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailDirection",
@@ -176,8 +159,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailLanguage",
@@ -186,8 +168,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailSize",
@@ -195,8 +176,7 @@
         "description": "Size of the email message.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExchangeTransportRule",
@@ -204,8 +184,7 @@
         "description": "Mail flow rules (also known as transport rules) are similar to Inbox rules that are available in Outlook and Outlook on the web. The main difference is mail flow rules take action on messages while they're in transit.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ForwardingInformation",
@@ -213,8 +192,7 @@
         "description": "A JSON array of forwarding details including the forwarding user and the forwarding type",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InternetMessageId",
@@ -223,8 +201,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -232,8 +209,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsFirstContact",
@@ -241,8 +217,7 @@
         "description": "Is this the first contact between sender and reciever.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastEventExecutionTime",
@@ -250,8 +225,7 @@
         "description": "Date and time (UTC) when the record was updated post merge.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LatestDeliveryAction",
@@ -259,8 +233,7 @@
         "description": "Last known action attempted on an email by the service or by an admin through manual remediation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LatestDeliveryLocation",
@@ -268,8 +241,7 @@
         "description": "Last known location of the email.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkMessageId",
@@ -278,8 +250,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OrgLevelAction",
@@ -288,8 +259,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OrgLevelPolicy",
@@ -298,8 +268,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecipientDomain",
@@ -307,8 +276,7 @@
         "description": "Domain of the recipient of the email.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecipientEmailAddress",
@@ -317,8 +285,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecipientObjectId",
@@ -327,8 +294,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -337,8 +303,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderDisplayName",
@@ -347,8 +312,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderFromAddress",
@@ -357,8 +321,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderFromDomain",
@@ -367,8 +330,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderIPv4",
@@ -377,8 +339,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderIPv6",
@@ -387,8 +348,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderMailFromAddress",
@@ -397,8 +357,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderMailFromDomain",
@@ -407,8 +366,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SenderObjectId",
@@ -417,8 +375,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -426,8 +383,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Subject",
@@ -436,8 +392,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -445,8 +400,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatClassification",
@@ -454,8 +408,7 @@
         "description": "Indicates the threat classification of the mail",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatNames",
@@ -464,8 +417,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatTypes",
@@ -474,8 +426,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -483,8 +434,7 @@
         "description": "Date and time (UTC) when the record was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "To",
@@ -492,8 +442,7 @@
         "description": "Indicates the addresses which are listed in To fields of an email",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -501,8 +450,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UrlCount",
@@ -511,8 +459,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserLevelAction",
@@ -521,8 +468,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserLevelPolicy",
@@ -531,8 +477,7 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -540,8 +485,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LatestDeliveryLocation`*",
@@ -549,8 +493,7 @@
         "description": "Last known location of the email",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LatestDeliveryAction`*",
@@ -558,14 +501,12 @@
         "description": "Last known action attempted on an email by the service or by an admin through manual remediation",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       }
     ],
     "sources": [
       "Sentinel Tables",
       "Defender XDR Advanced Hunting Schema"
-    ],
-    "verified": true
+    ]
   }
 }

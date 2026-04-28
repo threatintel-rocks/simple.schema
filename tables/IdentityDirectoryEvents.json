@@ -8,8 +8,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -17,8 +16,7 @@
         "description": "Type of activity that triggered the event. See the [in-portal schema reference](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) for details",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -26,8 +24,7 @@
         "description": "Application that performed the recorded action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetAccountUpn",
@@ -35,8 +32,7 @@
         "description": "User principal name (UPN) of the account that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetAccountDisplayName",
@@ -44,8 +40,7 @@
         "description": "Display name of the account that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetDeviceName",
@@ -53,8 +48,7 @@
         "description": "Fully qualified domain name (FQDN) of the device that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationDeviceName",
@@ -62,8 +56,7 @@
         "description": "Name of the device running the server application that processed the recorded action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationIPAddress",
@@ -71,8 +64,7 @@
         "description": "IP address of the device running the server application that processed the recorded action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationPort",
@@ -80,8 +72,7 @@
         "description": "Destination port of the activity",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Protocol",
@@ -89,8 +80,7 @@
         "description": "Protocol used during the communication",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountName",
@@ -98,8 +88,7 @@
         "description": "User name of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountDomain",
@@ -107,8 +96,7 @@
         "description": "Domain of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountUpn",
@@ -116,8 +104,7 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountSid",
@@ -125,8 +112,7 @@
         "description": "Security Identifier (SID) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -134,8 +120,7 @@
         "description": "Unique identifier for the account in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountDisplayName",
@@ -143,8 +128,7 @@
         "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -152,8 +136,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPAddress",
@@ -161,8 +144,7 @@
         "description": "IP address assigned to the device during communication",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Port",
@@ -170,8 +152,7 @@
         "description": "TCP port used during communication",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Location",
@@ -179,8 +160,7 @@
         "description": "City, country/region, or other geographic location associated with the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ISP",
@@ -188,8 +168,7 @@
         "description": "Internet service provider associated with the IP address",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -197,8 +176,7 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -206,34 +184,8 @@
         "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

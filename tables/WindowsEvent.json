@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Channel",
@@ -17,8 +16,7 @@
         "description": "The channel to which the event was logged.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Computer",
@@ -26,8 +24,7 @@
         "description": "The name of the computer on which the event occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Correlation",
@@ -35,8 +32,7 @@
         "description": "The activity identifiers that consumers can use to group related events together.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventData",
@@ -44,8 +40,7 @@
         "description": "Contains the event data parsed to dynamic type. If the parsing fails then this field will contain null and the RawEventData field will be populated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventID",
@@ -53,8 +48,7 @@
         "description": "The identifier that the provider used to identify the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventLevel",
@@ -62,8 +56,7 @@
         "description": "Contains the severity level of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventLevelName",
@@ -71,8 +64,7 @@
         "description": "The rendered message string of the level specified in the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventOriginId",
@@ -80,8 +72,7 @@
         "description": "VM ID obtained from the Azure Instance Metadata Service (IMDS).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventRecordId",
@@ -89,8 +80,7 @@
         "description": "The record number assigned to the event when it was logged.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -98,8 +88,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Keywords",
@@ -107,8 +96,7 @@
         "description": "A bitmask of the keywords defined in the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ManagementGroupName",
@@ -116,8 +104,7 @@
         "description": "Additional information based on the resource type.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Opcode",
@@ -125,8 +112,7 @@
         "description": "The opcode element is defined by the SystemPropertiesType complex type.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Provider",
@@ -134,8 +120,7 @@
         "description": "System Properties Type - Identifies the provider that logged the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RawEventData",
@@ -143,8 +128,7 @@
         "description": "The raw event XML when parsing fails. It's null when parsing successful.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -152,8 +136,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -161,8 +144,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "SystemProcessId",
@@ -170,8 +152,7 @@
         "description": "Identifies the process that generated the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemThreadId",
@@ -179,8 +160,7 @@
         "description": "Identifies the thread that generated the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemUserId",
@@ -188,8 +168,7 @@
         "description": "The ID of the user who is responsible for the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Task",
@@ -197,8 +176,7 @@
         "description": "The task defined in the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -206,8 +184,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -215,8 +192,7 @@
         "description": "The time stamp when the event was generated on the computer.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -224,8 +200,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Version",
@@ -233,28 +208,8 @@
         "description": "Contains the version number of the event's definition.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "Data",
-        "type": "dynamic",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeCreated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

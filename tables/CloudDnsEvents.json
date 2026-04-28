@@ -8,8 +8,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -26,8 +24,7 @@
         "description": "Type of activity that triggered the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AzureResourceId",
@@ -35,8 +32,7 @@
         "description": "Unique identifier of the Azure resource associated with the process",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AwsResourceName",
@@ -44,8 +40,7 @@
         "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GcpFullResourceName",
@@ -53,8 +48,7 @@
         "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "KubernetesResource",
@@ -62,8 +56,7 @@
         "description": "Unique identifier for the Kubernetes resource that includes the namespace, resource type and name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "KubernetesNamespace",
@@ -71,8 +64,7 @@
         "description": "The Kubernetes namespace name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "KubernetesPodName",
@@ -80,8 +72,7 @@
         "description": "The Kubernetes pod name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ContainerName",
@@ -89,8 +80,7 @@
         "description": "Name of the container in Kubernetes or another runtime environment",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ContainerId",
@@ -98,8 +88,7 @@
         "description": "The container identifier in Kubernetes or another runtime environment",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ImageName",
@@ -107,8 +96,7 @@
         "description": "Container image name or ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessName",
@@ -116,8 +104,7 @@
         "description": "The name of the process that initiated the DNS query",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessId",
@@ -125,8 +112,7 @@
         "description": "Process ID that initiated the DNS query",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DnsEventType",
@@ -134,8 +120,7 @@
         "description": "Type of event associated with DNS operation (for example, query)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "DnsEventSubType",
@@ -143,8 +128,7 @@
         "description": "Either request or response",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "DnsQuery",
@@ -152,8 +136,7 @@
         "description": "The domain that needs to be resolved",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DnsQueryTypeName",
@@ -161,8 +144,7 @@
         "description": "The DNS resource record type name as defined by the Internet Assigned Numbers Authority (IANA)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DnsResponseCodeName",
@@ -170,8 +152,7 @@
         "description": "The DNS response code name as defined by the Internet Assigned Numbers Authority (IANA).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DnsNetworkDuration",
@@ -179,8 +160,7 @@
         "description": "The DNS request duration in milliseconds",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TransactionIdHex",
@@ -188,8 +168,7 @@
         "description": "The DNS unique hex transaction ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -197,47 +176,9 @@
         "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "EventSubType",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "EventType",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }

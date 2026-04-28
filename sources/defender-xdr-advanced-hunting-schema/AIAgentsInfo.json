@@ -11,6 +11,14 @@
         ]
       },
       {
+        "name": "RegistrySource",
+        "type": "string",
+        "description": "Registry that provided the agent's metadata",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "AIAgentId",
         "type": "guid",
         "description": "Unique identifier for the agent as assigned to it in Microsoft 365 Copilot or Copilot Studio",
@@ -197,7 +205,7 @@
       {
         "name": "IsGenerativeOrchestrationEnabled",
         "type": "boolean",
-        "description": "ndicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate",
+        "description": "Indicates whether the agent uses generative orchestration (that is, dynamically chooses tools, knowledge, and actions based on context) to operate",
         "availability": [
           "Defender XDR"
         ]
@@ -222,6 +230,78 @@
         "name": "ChildAgentsSchemaNames",
         "type": "dynamic",
         "description": "Lists the schema names of the child agents that exist within the main agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "Version of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "IsBlocked",
+        "type": "boolean",
+        "description": "Indicates whether the agent has been blocked by an administrator",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Instructions",
+        "type": "string",
+        "description": "The agent's system prompt that defines its default behavior, persona, and operating boundaries",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EntraObjectId",
+        "type": "string",
+        "description": "The agent's unique enterprise application object identifier by Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EntraBlueprintId",
+        "type": "string",
+        "description": "The agent's identity blueprint principal identifier by Microsoft Entra Agent ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AIModel",
+        "type": "string",
+        "description": "The AI model powering the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AccessCapabilities",
+        "type": "dynamic",
+        "description": "Data access capabilities granted to the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ElementTypes",
+        "type": "dynamic",
+        "description": "Technical component types that make up the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceAgentId",
+        "type": "string",
+        "description": "The platform-native identifier of the agent, such as the Azure Resource Manager (ARM) identifier for Microsoft Foundry agents or the environment-scoped agent identifier for Copilot Studio agents",
         "availability": [
           "Defender XDR"
         ]

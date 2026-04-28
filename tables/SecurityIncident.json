@@ -8,8 +8,7 @@
         "description": "Additional data on the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertIds",
@@ -17,8 +16,7 @@
         "description": "The IDs of the alerts related to the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -26,8 +24,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "BookmarkIds",
@@ -35,8 +32,7 @@
         "description": "The IDs of the bookmarks related to the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Classification",
@@ -44,8 +40,7 @@
         "description": "The classification the incident was given when closed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClassificationComment",
@@ -53,8 +48,7 @@
         "description": "Description of the reason the incident was closed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClassificationReason",
@@ -62,8 +56,7 @@
         "description": "The classification reason the incident was given when closed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClosedTime",
@@ -71,8 +64,7 @@
         "description": "Timestamp (UTC) of when the incident was last closed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Comments",
@@ -80,8 +72,7 @@
         "description": "The comments added to the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedTime",
@@ -89,8 +80,7 @@
         "description": "Timestamp (UTC) of when the incident was created",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -98,8 +88,7 @@
         "description": "The description of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirstActivityTime",
@@ -107,8 +96,7 @@
         "description": "Timestamp (UTC) of when the first activity in the incident occured",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirstModifiedTime",
@@ -116,8 +104,7 @@
         "description": "Timestamp (UTC) of when the incident was first modified",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IncidentName",
@@ -125,8 +112,7 @@
         "description": "The resource name of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IncidentNumber",
@@ -134,8 +120,7 @@
         "description": "The sequential number of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IncidentUrl",
@@ -143,8 +128,7 @@
         "description": "The URI to open the incident in Azure Sentinel portal",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -152,8 +136,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Labels",
@@ -161,8 +144,7 @@
         "description": "The labels added to the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastActivityTime",
@@ -170,8 +152,7 @@
         "description": "Timestamp (UTC) of when the last activity in the incident occured",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastModifiedTime",
@@ -179,8 +160,7 @@
         "description": "Timestamp (UTC) of when the incident was last modified",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ModifiedBy",
@@ -188,8 +168,7 @@
         "description": "The source of the change in the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Owner",
@@ -197,8 +176,7 @@
         "description": "The user the incident is assigned to",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProviderIncidentId",
@@ -206,8 +184,7 @@
         "description": "The incident ID assigned by the incident provider",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProviderName",
@@ -215,8 +192,7 @@
         "description": "The name of the source provider that generated the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RelatedAnalyticRuleIds",
@@ -224,8 +200,7 @@
         "description": "The IDs of the Analytic rules associated with the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -233,8 +208,7 @@
         "description": "The severity of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -242,8 +216,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -251,8 +224,7 @@
         "description": "The status of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tasks",
@@ -260,8 +232,7 @@
         "description": "The tasks added to the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -269,8 +240,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -278,8 +248,7 @@
         "description": "Timestamp (UTC) of when the incident was ingested",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Title",
@@ -287,8 +256,7 @@
         "description": "The title of the incident",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -296,10 +264,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

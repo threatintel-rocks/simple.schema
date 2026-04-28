@@ -8,8 +8,7 @@
         "description": "Unique identifier for the CrowdStrike agent that generated the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AggregateId",
@@ -17,8 +16,7 @@
         "description": "Identifier for aggregated alerts from the same source.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertType",
@@ -26,8 +24,7 @@
         "description": "The type or category of the CrowdStrike alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToName",
@@ -35,8 +32,7 @@
         "description": "Name of the user assigned to handle the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToUid",
@@ -44,8 +40,7 @@
         "description": "User ID of the assigned user.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToUuid",
@@ -53,8 +48,7 @@
         "description": "UUID of the assigned user.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -62,8 +56,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Cid",
@@ -71,8 +64,7 @@
         "description": "Customer ID in the CrowdStrike platform.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CompositeId",
@@ -80,8 +72,7 @@
         "description": "Composite identifier combining multiple alert attributes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Confidence",
@@ -89,8 +80,7 @@
         "description": "Confidence score of the alert (0-100).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CrawledTimestamp",
@@ -98,8 +88,7 @@
         "description": "Timestamp when the alert data was last crawled.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedTimestamp",
@@ -107,8 +96,7 @@
         "description": "Timestamp when the alert was first created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataDomains",
@@ -116,8 +104,7 @@
         "description": "Domains associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -125,8 +112,7 @@
         "description": "Detailed description of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DisplayName",
@@ -134,8 +120,7 @@
         "description": "Human-readable name for the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailSent",
@@ -143,8 +128,7 @@
         "description": "Indicates if an email notification was sent for this alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "External",
@@ -152,8 +136,7 @@
         "description": "Indicates if the alert originated from an external source.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Id",
@@ -161,8 +144,7 @@
         "description": "Unique identifier for the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -170,8 +152,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Name",
@@ -179,8 +160,7 @@
         "description": "Name of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Objective",
@@ -188,8 +168,7 @@
         "description": "The attacker's presumed objective.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PatternId",
@@ -197,8 +176,7 @@
         "description": "Identifier for the detection pattern that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Platform",
@@ -206,8 +184,7 @@
         "description": "Operating system or platform where the alert was detected.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Product",
@@ -215,8 +192,7 @@
         "description": "CrowdStrike product that generated the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Scenario",
@@ -224,8 +200,7 @@
         "description": "Security scenario that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SecondsToResolved",
@@ -233,8 +208,7 @@
         "description": "Time in seconds from alert creation to resolution.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SecondsToTriaged",
@@ -242,8 +216,7 @@
         "description": "Time in seconds from alert creation to triage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -251,8 +224,7 @@
         "description": "Severity level of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SeverityName",
@@ -260,8 +232,7 @@
         "description": "Text representation of the severity level.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ShowInUi",
@@ -269,8 +240,7 @@
         "description": "Indicates if the alert should be displayed in the user interface.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceProducts",
@@ -278,8 +248,7 @@
         "description": "List of products that contributed to this alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -287,8 +256,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceVendors",
@@ -296,8 +264,7 @@
         "description": "List of vendors associated with the alert sources.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -305,8 +272,7 @@
         "description": "Current status of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tactic",
@@ -314,8 +280,7 @@
         "description": "MITRE ATT&CK tactic associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TacticId",
@@ -323,8 +288,7 @@
         "description": "Identifier of the MITRE ATT&CK tactic.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tags",
@@ -332,8 +296,7 @@
         "description": "Custom tags associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Technique",
@@ -341,8 +304,7 @@
         "description": "MITRE ATT&CK technique associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TechniqueId",
@@ -350,8 +312,7 @@
         "description": "Identifier of the MITRE ATT&CK technique.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -359,8 +320,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -368,8 +328,7 @@
         "description": "The timestamp (UTC) when the alert was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -377,8 +336,7 @@
         "description": "Time when the alert event occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -386,8 +344,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UpdatedTimestamp",
@@ -395,10 +352,8 @@
         "description": "Time when the alert was last updated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

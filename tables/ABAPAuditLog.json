@@ -8,8 +8,7 @@
         "description": "The AbapProgramName is a four-character alphanumeric code that is used identify a specific program within the SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AgentId",
@@ -17,8 +16,7 @@
         "description": "Unique agent or integration suite identifier.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertSeverity",
@@ -26,8 +24,7 @@
         "description": "The AlertSeverity is a number between 0 and 255; the larger the number, the greater the severity.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertSeverityText",
@@ -35,8 +32,7 @@
         "description": "The AlertSeverityText refers to the text description associated with a specific alert or notification severity level. It provides a detailed explanation of the severity level and is used in various SAP transactions and reports.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertValue",
@@ -44,8 +40,7 @@
         "description": "The AlertValue represents the importance of the message of a log attribute, characterized by color and severity.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuditClassId",
@@ -53,8 +48,7 @@
         "description": "The AuditClassId is a numeric identifier used to classify different types of audit events in SAP. It helps group similar events together and is used in various transactions and reports to provide information about audit events and to help with auditing and compliance requirements.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -62,8 +56,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ClientId",
@@ -71,8 +64,7 @@
         "description": "The ClientId is a three-digit number that identifies a specific client within an SAP system. The ClientId is used in various SAP transactions and configuration settings to identify the client and ensure that the correct client is being accessed or configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Computer",
@@ -80,8 +72,7 @@
         "description": "The Computer refers to the name or IP address of the user's machine. It is used to identify the machine from which a specific activity or event was performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Email",
@@ -89,8 +80,7 @@
         "description": "The Email refers to the email address associated with a specific user. It is used to identify the user via email within the SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Host",
@@ -98,8 +88,7 @@
         "description": "The Host refers to the name of the computer or server on which the SAP system is running. It is used to identify and locate the SAP system within a network.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Instance",
@@ -107,8 +96,7 @@
         "description": "The Instance refers to a specific installation of an SAP system on a server. An SAP system can have multiple instances running on the same server, each with its own set of processes and resources. The Instance is identified by a unique name that is set during the installation of the SAP system, following syntax: <HOST><SYSID><SYSNR>.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -116,8 +104,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "MessageClass",
@@ -125,8 +112,7 @@
         "description": "The MessageClass is a grouping or category for specific messages or log entries used to organize and classify messages and log entries within an SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MessageContainerId",
@@ -134,8 +120,7 @@
         "description": "The MessageContainerId is a unique identifier for a specific message container, which is a logical grouping of related messages or log entries within an SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MessageId",
@@ -143,8 +128,7 @@
         "description": "The MessageId is a unique identifier for a specific message or log entry used to identify and track messages and log entries within an SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MessageText",
@@ -152,8 +136,7 @@
         "description": "The MessageText is the text of a specific message or log entry. It provides information about the event or issue that is being logged and is used in various SAP transactions and reports to provide context and details about specific messages or log entries.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MonitoringObjectName",
@@ -161,8 +144,7 @@
         "description": "The MonitoringObjectName is the name of the object being monitored by a specific monitoring activity. It is used in various SAP monitoring tools and reports to provide information about the status and performance of the monitored object.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MonitorShortName",
@@ -170,8 +152,7 @@
         "description": "The MonitorShortName is the short name of the MTE(Monitoring Tree Element) in which the alert occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIpCountry",
@@ -179,8 +160,7 @@
         "description": "The country of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIpLatitude",
@@ -188,8 +168,7 @@
         "description": "The Latitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIpLongitude",
@@ -197,8 +176,7 @@
         "description": "The Longitude of the TerminalIpV6 according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SalDateChar8",
@@ -206,8 +184,7 @@
         "description": "The SalDateChar8 is the date the event occured in char8 format (yyyyMMdd) eg: 20190101.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SalIpAddress",
@@ -215,8 +192,7 @@
         "description": "The SALIpAddress refers to the IP address associated with a specific user or system that generated a specific log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SalTimeChar6",
@@ -224,8 +200,7 @@
         "description": "The SalTimeChar6 is the time the event occured in char6 format (hhMMss) eg: 110804.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SapProcessType",
@@ -233,8 +208,7 @@
         "description": "The SapProcessType refers to the type of process that is being executed within the SAP system. This can include various types of processes such as background jobs, dialog processes, or update processes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SapWorkProcessName",
@@ -242,8 +216,7 @@
         "description": "The SapWorkProcessName refers to the name of a specific work process within the SAP system used to identify and monitor specific work processes. It is typically a unique alphanumeric code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -251,8 +224,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemId",
@@ -260,8 +232,7 @@
         "description": "The SystemId is a unique identifier for a specific SAP system. It is a three-character alphanumeric code that is used to distinguish between different SAP systems.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemNumber",
@@ -269,8 +240,7 @@
         "description": "The SystemNumber is a two-digit number that identifies a specific SAP system. It is set during the installation of an SAP system and cannot be changed afterwards. The SystemNumber is used in various SAP transactions and configuration settings to identify the system and ensure that the correct system is being accessed or configured.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemRole",
@@ -278,8 +248,7 @@
         "description": "The SAP system's role.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SystemUniqueId",
@@ -287,8 +256,7 @@
         "description": "Unique system identifier.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -296,8 +264,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TerminalIpV6",
@@ -305,8 +272,7 @@
         "description": "The TerminalIPv6 refers to the IPv6 address associated with the user's terminal or device. It is used to identify the location and origin of specific activities or events performed by the user within the SAP system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -314,8 +280,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TransactionCode",
@@ -323,8 +288,7 @@
         "description": "the TransactionCode is a unique identifier for a specific SAP transaction used to identify and execute a specific transaction within the SAP system. It is typically a four-character alphanumeric code and can be used in various SAP transactions and reports.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -332,8 +296,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UpdatedOn",
@@ -341,8 +304,7 @@
         "description": "The date and time of the event occured in the SAP system in UTC format.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "User",
@@ -350,8 +312,7 @@
         "description": "The User who performed the a specific event or activity.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Variable1",
@@ -359,8 +320,7 @@
         "description": "The Variable1 used by the SAP system for additional information regarding the event or activity that was performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Variable2",
@@ -368,8 +328,7 @@
         "description": "The Variable2 used by the SAP system for additional information regarding the event or activity that was performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Variable3",
@@ -377,8 +336,7 @@
         "description": "The Variable3 used by the SAP system for additional information regarding the event or activity that was performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Variable4",
@@ -386,10 +344,8 @@
         "description": "The Variable4 used by the SAP system for additional information regarding the event or activity that was performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
