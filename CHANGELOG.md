@@ -2,6 +2,56 @@
 
 All schema changes are tracked automatically.
 
+### 2026-04-29 05:49 UTC
+
+**Columns added** (44)
+
+- `ZoomV2_CL.Action` (string)
+- `ZoomV2_CL.ActivityType` (string)
+- `ZoomV2_CL.CallInNumber` (string)
+- `ZoomV2_CL.CategoryType` (string)
+- `ZoomV2_CL.ClientType` (string)
+- `ZoomV2_CL.CountryName` (string)
+- `ZoomV2_CL.CreateTime` (datetime)
+- `ZoomV2_CL.CustomAttributes` (dynamic)
+- `ZoomV2_CL.Dept` (string)
+- `ZoomV2_CL.Duration` (real)
+- `ZoomV2_CL.Email` (string)
+- `ZoomV2_CL.EndTime` (datetime)
+- `ZoomV2_CL.EventName` (string)
+- `ZoomV2_CL.EventType` (string)
+- `ZoomV2_CL.FreeUsage` (string)
+- `ZoomV2_CL.HostEmail` (string)
+- `ZoomV2_CL.HostId` (string)
+- `ZoomV2_CL.HostName` (string)
+- `ZoomV2_CL.Id` (string)
+- `ZoomV2_CL.IpAddress` (string)
+- `ZoomV2_CL.LastClientVersion` (string)
+- `ZoomV2_CL.LastLoginTime` (datetime)
+- `ZoomV2_CL.MeetingId` (real)
+- `ZoomV2_CL.MeetingMinutes` (real)
+- `ZoomV2_CL.MeetingType` (string)
+- `ZoomV2_CL.Meetings` (real)
+- `ZoomV2_CL.NewUsers` (real)
+- `ZoomV2_CL.OperationDetail` (string)
+- `ZoomV2_CL.Operator` (string)
+- `ZoomV2_CL.Participants` (real)
+- `ZoomV2_CL.PhoneNumber` (string)
+- `ZoomV2_CL.PlanUsage` (string)
+- `ZoomV2_CL.Rate` (real)
+- `ZoomV2_CL.ReportDate` (string)
+- `ZoomV2_CL.SignaledNumber` (string)
+- `ZoomV2_CL.StartTime` (datetime)
+- `ZoomV2_CL.Time` (datetime)
+- `ZoomV2_CL.TimeGenerated` (datetime)
+- `ZoomV2_CL.Total` (real)
+- `ZoomV2_CL.Usage` (string)
+- `ZoomV2_CL.UserName` (string)
+- `ZoomV2_CL.UserType` (real)
+- `ZoomV2_CL.Uuid` (string)
+- `ZoomV2_CL.Version` (string)
+
+
 ### 2026-04-28 05:54 UTC
 
 **Tables added** (1)

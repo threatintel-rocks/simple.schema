@@ -77289,8 +77289,365 @@
   },
   "ZoomV2_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Time generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of event (dates, users, telephony_usage, cloud_recording_storage, operation_logs, activity_logs)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventName",
+        "type": "string",
+        "description": "Name of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomAttributes",
+        "type": "dynamic",
+        "description": "Custom attributes that have been assigned to the user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Dept",
+        "type": "string",
+        "description": "User department",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "Email address/User email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "User ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MeetingMinutes",
+        "type": "real",
+        "description": "Meeting minutes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Meetings",
+        "type": "real",
+        "description": "Number of meetings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Participants",
+        "type": "real",
+        "description": "Number of participants",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActivityType",
+        "type": "string",
+        "description": "Object type (ctivity type 'Sign in'/'Sign out')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "User display name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usage",
+        "type": "string",
+        "description": "Storage used on the date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlanUsage",
+        "type": "string",
+        "description": "Paid storage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FreeUsage",
+        "type": "string",
+        "description": "Free storage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportDate",
+        "type": "string",
+        "description": "Date for the report",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NewUsers",
+        "type": "real",
+        "description": "Number of new users",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operator",
+        "type": "string",
+        "description": "Operator who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CategoryType",
+        "type": "string",
+        "description": "Category type of the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationDetail",
+        "type": "string",
+        "description": "Details of the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Time",
+        "type": "datetime",
+        "description": "The time at which the event was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientType",
+        "type": "string",
+        "description": "The client interface type using which the activity was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CallInNumber",
+        "type": "string",
+        "description": "Caller's call-in number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryName",
+        "type": "string",
+        "description": "Country name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Duration",
+        "type": "real",
+        "description": "Call leg duration",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "Call leg end time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostEmail",
+        "type": "string",
+        "description": "User email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "User display name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostId",
+        "type": "string",
+        "description": "The user ID of the meeting host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MeetingId",
+        "type": "real",
+        "description": "Unique identifier of the meeting",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MeetingType",
+        "type": "string",
+        "description": "Meeting type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PhoneNumber",
+        "type": "string",
+        "description": "Toll-free telephone number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rate",
+        "type": "real",
+        "description": "Calling rate for the telephone call",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignaledNumber",
+        "type": "string",
+        "description": "The number that is signaled to Zoom",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTime",
+        "type": "datetime",
+        "description": "Call leg start time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Total",
+        "type": "real",
+        "description": "Total cost (USD) for Call Out. Calculated as plan rate by duration",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "Meeting UUID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "Zoom client version of the user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastClientVersion",
+        "type": "string",
+        "description": "Last Zoom client version used by the user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginTime",
+        "type": "datetime",
+        "description": "The last time the user logged in",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreateTime",
+        "type": "datetime",
+        "description": "The time the user was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserType",
+        "type": "real",
+        "description": "User type as numeric value (1=Basic, 2=Licensed, etc.) - populated by user reports only",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   },
   "Zoom_CL": {
     "source": "Sentinel Tables",
