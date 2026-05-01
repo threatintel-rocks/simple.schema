@@ -2,6 +2,82 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-01 06:11 UTC
+
+**Columns added** (2)
+
+- `CloudflareV2_CL.NELType` (string)
+- `CloudflareV2_CL.Transport` (string)
+
+**Columns removed** (1)
+
+- `CloudflareV2_CL.LogType`
+
+**Columns modified** (61)
+
+- `CloudflareV2_CL.ApplicationIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.ApplicationNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.AssetMetadata`: type `string` → `dynamic`
+- `CloudflareV2_CL.AuthoritativeNameServerIPs`: type `string` → `dynamic`
+- `CloudflareV2_CL.Body`: type `string` → `dynamic`
+- `CloudflareV2_CL.BotDetectionIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.BotDetectionTags`: type `string` → `dynamic`
+- `CloudflareV2_CL.BotTags`: type `string` → `dynamic`
+- `CloudflareV2_CL.CNAMECategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.CNAMECategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.CNAMEs`: type `string` → `dynamic`
+- `CloudflareV2_CL.CNAMEsReversed`: type `string` → `dynamic`
+- `CloudflareV2_CL.CategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.CategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.ContentScanObjResults`: type `string` → `dynamic`
+- `CloudflareV2_CL.ContentScanObjSizes`: type `int` → `dynamic`
+- `CloudflareV2_CL.ContentScanObjTypes`: type `string` → `dynamic`
+- `CloudflareV2_CL.Cookies`: type `string` → `dynamic`
+- `CloudflareV2_CL.DownloadMatchedDlpProfileEntries`: type `string` → `dynamic`
+- `CloudflareV2_CL.DownloadMatchedDlpProfiles`: type `string` → `dynamic`
+- `CloudflareV2_CL.DownloadedFileNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.EDEErrors`: type `int` → `dynamic`
+- `CloudflareV2_CL.EdgeResponseCompressionRatio`: type `string` → `real`
+- `CloudflareV2_CL.FileInfo`: type `string` → `dynamic`
+- `CloudflareV2_CL.Headers`: type `string` → `dynamic`
+- `CloudflareV2_CL.InitialCategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.InitialCategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.InitialResolvedIPs`: type `string` → `dynamic`
+- `CloudflareV2_CL.JA4Signals`: type `string` → `dynamic`
+- `CloudflareV2_CL.MatchedCategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.MatchedCategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.MatchedIndicatorFeedIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.MatchedIndicatorFeedNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.Metadata`: type `string` → `dynamic`
+- `CloudflareV2_CL.NewValue`: type `string` → `dynamic`
+- `CloudflareV2_CL.OldValue`: type `string` → `dynamic`
+- `CloudflareV2_CL.PostureExpectedJSON`: type `string` → `dynamic`
+- `CloudflareV2_CL.PostureReceivedJSON`: type `string` → `dynamic`
+- `CloudflareV2_CL.QueryCategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.QueryCategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.QueryIndicatorFeedIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.QueryIndicatorFeedNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.RData`: type `string` → `dynamic`
+- `CloudflareV2_CL.RequestContextCategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.RequestContextCategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.RequestHeaders`: type `string` → `dynamic`
+- `CloudflareV2_CL.ResolvedIPCategoryIDs`: type `int` → `dynamic`
+- `CloudflareV2_CL.ResolvedIPCategoryNames`: type `string` → `dynamic`
+- `CloudflareV2_CL.ResolvedIPContinentCodes`: type `string` → `dynamic`
+- `CloudflareV2_CL.ResolvedIPCountryCodes`: type `string` → `dynamic`
+- `CloudflareV2_CL.ResourceRecords`: type `string` → `dynamic`
+- `CloudflareV2_CL.ResponseHeaders`: type `string` → `dynamic`
+- `CloudflareV2_CL.SecurityActions`: type `string` → `dynamic`
+- `CloudflareV2_CL.SecurityRuleIDs`: type `string` → `dynamic`
+- `CloudflareV2_CL.SecuritySources`: type `string` → `dynamic`
+- `CloudflareV2_CL.SessionEndTime`: type `datetime` → `string`
+- `CloudflareV2_CL.SessionStartTime`: type `datetime` → `string`
+- `CloudflareV2_CL.TemporaryAccessApprovers`: type `string` → `dynamic`
+- `CloudflareV2_CL.UploadMatchedDlpProfileEntries`: type `string` → `dynamic`
+- `CloudflareV2_CL.UploadMatchedDlpProfiles`: type `string` → `dynamic`
+- `CloudflareV2_CL.UploadedFileNames`: type `string` → `dynamic`
+
+
 ### 2026-04-29 05:49 UTC
 
 **Columns added** (44)
