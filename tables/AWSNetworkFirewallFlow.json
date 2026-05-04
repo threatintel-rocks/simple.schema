@@ -8,7 +8,8 @@
         "description": "Indicates whether the ACK flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppProto",
@@ -16,7 +17,8 @@
         "description": "The application layer protocol detected (e.g., HTTP, HTTPS, DNS).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AvailabilityZone",
@@ -24,7 +26,8 @@
         "description": "The AWS Availability Zone where the firewall instance is located.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -32,7 +35,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DestIp",
@@ -40,7 +44,8 @@
         "description": "The destination IP address of the packet.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestPort",
@@ -48,7 +53,8 @@
         "description": "The destination port to which the packet was sent.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Ecn",
@@ -56,7 +62,8 @@
         "description": "Indicates whether the ECN flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventTimestamp",
@@ -64,7 +71,8 @@
         "description": "The epoch timestamp of when the event occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventType",
@@ -72,7 +80,8 @@
         "description": "The type of event recorded (e.g., flow, alert, drop, pass).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Fin",
@@ -80,7 +89,8 @@
         "description": "Indicates whether the FIN flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FirewallName",
@@ -88,7 +98,8 @@
         "description": "The name of the AWS Network Firewall instance generating the log.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FlowId",
@@ -96,7 +107,8 @@
         "description": "A unique identifier for the network flow related to this event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -104,7 +116,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "NetFlowAge",
@@ -112,7 +125,8 @@
         "description": "The duration of the network flow in seconds.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowBytes",
@@ -120,7 +134,8 @@
         "description": "The total number of bytes transferred in the network flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowEnd",
@@ -128,7 +143,8 @@
         "description": "The timestamp when the network flow ended.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowMaxttl",
@@ -136,7 +152,8 @@
         "description": "The maximum Time-to-Live (TTL) observed in the network flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowMinttl",
@@ -144,7 +161,8 @@
         "description": "The minimum Time-to-Live (TTL) observed in the network flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowPkts",
@@ -152,7 +170,8 @@
         "description": "The number of packets in the network flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetFlowStart",
@@ -160,7 +179,8 @@
         "description": "The timestamp when the network flow started.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Proto",
@@ -168,7 +188,8 @@
         "description": "The protocol used (e.g., TCP, UDP, ICMP).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Psh",
@@ -176,7 +197,8 @@
         "description": "Indicates whether the PSH flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Rst",
@@ -184,7 +206,8 @@
         "description": "Indicates whether the RST flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -192,7 +215,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcIp",
@@ -200,7 +224,8 @@
         "description": "The source IP address of the packet that triggered the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPort",
@@ -208,7 +233,8 @@
         "description": "The source port from which the packet originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Syn",
@@ -216,7 +242,8 @@
         "description": "Indicates whether the SYN flag is set in the TCP packet (true/false).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TCPFlags",
@@ -224,7 +251,8 @@
         "description": "The TCP flags observed in the packet",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -232,7 +260,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -240,7 +269,8 @@
         "description": "The timestamp when the log entry was created in AWS Network Firewall.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Timestamp",
@@ -248,7 +278,8 @@
         "description": "The exact timestamp when the event was captured.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -256,8 +287,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

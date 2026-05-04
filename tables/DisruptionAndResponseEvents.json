@@ -8,7 +8,8 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -16,7 +17,8 @@
         "description": "Type of disruption action taken<br>**Tip**: For more information, see [ActionType values](#actiontype-values).",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceId",
@@ -24,7 +26,8 @@
         "description": "Unique identifier for the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceDeviceId",
@@ -32,7 +35,8 @@
         "description": "Unique identifier for the device that the attack originated from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDeviceId",
@@ -40,7 +44,8 @@
         "description": "Unique identifier for the device that was targeted or attacked",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetDeviceName ",
@@ -48,7 +53,8 @@
         "description": "Name of the device that was targeted or attacked",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TargetDomainName ",
@@ -56,7 +62,8 @@
         "description": "Domain name of the device that was targeted or attacked",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DeviceName",
@@ -64,7 +71,8 @@
         "description": "Name of the device that reported the event; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DomainName",
@@ -72,7 +80,8 @@
         "description": "Domain name that the device that reported the event is joined to; the reporting device can be the one that blocked the access, the compromised device itself, or even a different device that is aware of the attack",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessId",
@@ -80,7 +89,8 @@
         "description": "Process ID (PID) of the process that triggered that block action, based on the perspective of the reporting device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessFileName",
@@ -88,7 +98,8 @@
         "description": "Name of the process that triggered the block action, based on the perspective of the reporting device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceUserSid",
@@ -96,7 +107,8 @@
         "description": "The security identifier of the account conducting the malicious activity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceUserName",
@@ -104,7 +116,8 @@
         "description": "The user name of the account conducting the malicious activity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceUserDomainName",
@@ -112,7 +125,8 @@
         "description": "The domain name of the account conducting the malicious activity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceIpAddress",
@@ -120,7 +134,8 @@
         "description": "IP address where the attacker communication originated from and was blocked by automatic attack disruption",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourcePort",
@@ -128,7 +143,8 @@
         "description": "Port where the attacker communication originated from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IpAddress",
@@ -136,7 +152,8 @@
         "description": "IP address that the attacker attempted to access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Port",
@@ -144,7 +161,8 @@
         "description": "Port that the attacker attempted to access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceDeviceName",
@@ -152,7 +170,8 @@
         "description": "Host name of the device where the attack originated from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceDomainName",
@@ -160,7 +179,8 @@
         "description": "Domain name of the device where the attack originated from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationProtocol",
@@ -168,7 +188,8 @@
         "description": "Authentication protocol that the compromised user used to sign in; possible values: Undefined, NTLM, Kerberos",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Service",
@@ -176,7 +197,8 @@
         "description": "Name of the service the attacker attempted to use, if the attacker signed in using Kerberos or NTLM; for example: SMB, HTTP, cifs, SMB, host, ldap, SMB, krbtgt",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InterfaceUuid",
@@ -184,7 +206,8 @@
         "description": "Unique identifier (UUID) for the Remote Procedure Call (RPC) interface that the attacker attempted to access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InterfaceFriendlyName",
@@ -192,7 +215,8 @@
         "description": "Friendly name of the interface represented by the interface UUID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileName",
@@ -200,7 +224,8 @@
         "description": "Name of the file that the attacker attempted to access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ShareName",
@@ -208,7 +233,8 @@
         "description": "Name of the share location that the attacker attempted to access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogonType",
@@ -216,7 +242,8 @@
         "description": "Type of logon session the user attempted; possible values: interactive, remote interactive (RDP), network, batch job, service",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogonId ",
@@ -224,7 +251,8 @@
         "description": "Identifier for a logon session; this is unique on the same device only between restarts",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "SessionId ",
@@ -232,7 +260,8 @@
         "description": "Unique number assigned to a user by a website's server for the duration of the visit or session",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CompromisedAccountCount",
@@ -240,7 +269,8 @@
         "description": "Number of compromised accounts that are part of the policy",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyId",
@@ -248,7 +278,8 @@
         "description": "Unique identifier for the policy",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyName",
@@ -256,7 +287,8 @@
         "description": "Name of the policy",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyVersion",
@@ -264,7 +296,8 @@
         "description": "Version of the policy",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyHash",
@@ -272,7 +305,8 @@
         "description": "Unique hash of the policy",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DataSources",
@@ -280,7 +314,8 @@
         "description": "Products or services that provided information for the event; for example: Microsoft Defender for Endpoint",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IsPolicyOn",
@@ -288,7 +323,8 @@
         "description": "Indicates the current state of the policy on the device at the time of the disruption event; possible values: true (the policy is on, therefore it was applied or enforced), false (the policy was turned off or revoked from the device)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportType",
@@ -296,9 +332,77 @@
         "description": "The nature and impact level of the reported event; possible values: Prevented (the action, such as a connection or authentication attempt, was fully blocked before execution), Blocked (an active connection or session was forcibly terminated, with partial impact on the device), PolicyUpdated (the client received and possibly applied a new policy)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "DataSource",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "LogonId",
+        "type": "long",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "MachineGroup",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "ReportId",
+        "type": "long",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SessionId",
+        "type": "long",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TargetDeviceName",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TargetDomainName",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

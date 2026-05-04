@@ -8,7 +8,8 @@
         "description": "The email address of the authenticated principal making the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationInfoPrincipalSubject",
@@ -16,7 +17,8 @@
         "description": "The unique subject identifier for the principal (useful for federated identities).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationInfoServiceAccountKeyName",
@@ -24,7 +26,8 @@
         "description": "The resource name of the service account key used to authenticate the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthorizationInfo",
@@ -32,7 +35,8 @@
         "description": "Details on the authorization checks performed, including the permissions evaluated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -40,7 +44,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "GCPResourceName",
@@ -48,7 +53,8 @@
         "description": "The name of the resource that the operation is acting on.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GCPResourceType",
@@ -56,7 +62,8 @@
         "description": "The type of resource involved in the operation (e.g., project, folder, organization).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InsertID",
@@ -64,7 +71,8 @@
         "description": "A unique ID for the log entry used for deduplication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -72,7 +80,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LogName",
@@ -80,7 +89,8 @@
         "description": "The full resource name of the log (e.g., projects/[PROJECT_ID]/logs/[LOG_ID]).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataParentDeltaDestinationParentId",
@@ -88,7 +98,8 @@
         "description": "The destination parent ID when a resource moves between parents (e.g., folder or org).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataParentDeltaDestinationParentType",
@@ -96,7 +107,8 @@
         "description": "The type of destination parent (e.g., folder, organization).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataParentDeltaSourceParentId",
@@ -104,7 +116,8 @@
         "description": "The original parent ID of the resource before the move.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataParentDeltaSourceParentType",
@@ -112,7 +125,8 @@
         "description": "The type of source parent (e.g., folder, organization).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataType",
@@ -120,7 +134,8 @@
         "description": "The type of metadata associated with the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MethodName",
@@ -128,7 +143,8 @@
         "description": "The API method that was called (e.g., google.cloud.resourcemanager.v3.Projects.CreateProject).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NumResponseItems",
@@ -136,7 +152,8 @@
         "description": "The number of items returned in the response, if applicable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationFirst",
@@ -144,7 +161,8 @@
         "description": "Indicates whether this is the first log entry for a long-running operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationID",
@@ -152,7 +170,8 @@
         "description": "An identifier for a long-running operation shared across related log entries.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationLast",
@@ -160,7 +179,8 @@
         "description": "Indicates whether this is the last log entry for a long-running operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationProducer",
@@ -168,7 +188,8 @@
         "description": "The name of the producer of the operation (e.g., the GCP service executing the operation).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadType",
@@ -176,7 +197,8 @@
         "description": "The type of the log payload (e.g., protoPayload, textPayload).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceiveTimestamp",
@@ -184,7 +206,8 @@
         "description": "The time the log entry was received by Cloud Logging.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestConstraint",
@@ -192,7 +215,8 @@
         "description": "The Org Policy constraint specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestCreateTime",
@@ -200,7 +224,8 @@
         "description": "The timestamp when the resource was created as specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestCustomConstraint",
@@ -208,7 +233,8 @@
         "description": "Custom constraint configuration specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestDestinationParent",
@@ -216,7 +242,8 @@
         "description": "The resource name of the destination parent, used in resource moves.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestFolderDisplayName",
@@ -224,7 +251,8 @@
         "description": "The display name of the folder provided in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestFolderParent",
@@ -232,7 +260,8 @@
         "description": "The parent resource of the folder specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestLifecycleState",
@@ -240,7 +269,8 @@
         "description": "The lifecycle state of the resource in the request (e.g., ACTIVE, DELETE_REQUESTED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestListValue",
@@ -248,7 +278,8 @@
         "description": "A list of values specified in the request (e.g., tags, constraints).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataCallerIP",
@@ -256,7 +287,8 @@
         "description": "The IP address of the caller who made the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
@@ -264,7 +296,8 @@
         "description": "The user agent String provided by the caller's client application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataDestinationAttributes",
@@ -272,7 +305,8 @@
         "description": "Metadata about the request destination, such as port or protocol.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
@@ -280,7 +314,8 @@
         "description": "Authentication attributes related to the request, such as authority selector or principal email.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesReason",
@@ -288,7 +323,8 @@
         "description": "The reason or justification for making the request (if provided).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
@@ -296,7 +332,8 @@
         "description": "The timestamp when the request was made.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestName",
@@ -304,7 +341,8 @@
         "description": "The name or ID of the resource targeted by the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestOptionsRequestedPolicyVersion",
@@ -312,7 +350,8 @@
         "description": "The version of the IAM policy format requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPageSize",
@@ -320,7 +359,8 @@
         "description": "The number of results to return per page in a list request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestParent",
@@ -328,7 +368,8 @@
         "description": "The parent resource (e.g., folder or org) under which the request is being made.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyAuditConfigs",
@@ -336,7 +377,8 @@
         "description": "The audit configuration settings defined in the policy request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyBindings",
@@ -344,7 +386,8 @@
         "description": "A list of role bindings defined in the IAM policy request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyEtag",
@@ -352,7 +395,8 @@
         "description": "The ETag used for concurrency control in the policy request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyName",
@@ -360,7 +404,8 @@
         "description": "The resource name of the policy being modified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicySpec",
@@ -368,7 +413,8 @@
         "description": "Detailed specification of the Org Policy being applied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectCreateTime",
@@ -376,7 +422,8 @@
         "description": "The time the project was created as per the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectId",
@@ -384,7 +431,8 @@
         "description": "The project ID associated with the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectLabels",
@@ -392,7 +440,8 @@
         "description": "Key-value labels assigned to the project in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectLifecycleState",
@@ -400,7 +449,8 @@
         "description": "The lifecycle state of the project (e.g., ACTIVE, DELETE_REQUESTED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectName",
@@ -408,7 +458,8 @@
         "description": "The display name of the project specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectParent",
@@ -416,7 +467,8 @@
         "description": "The parent resource (folder or organization) under which the project is created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectProjectId",
@@ -424,7 +476,8 @@
         "description": "The unique project ID provided in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProjectProjectNumber",
@@ -432,7 +485,8 @@
         "description": "The numerical project identifier.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestQuery",
@@ -440,7 +494,8 @@
         "description": "A query String used for filtering results (e.g., in search or list operations).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestResource",
@@ -448,7 +503,8 @@
         "description": "The full representation of the resource included in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestTagBindingParent",
@@ -456,7 +512,8 @@
         "description": "The full name of the resource to which the tag is being bound.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestTagBindingTagValue",
@@ -464,7 +521,8 @@
         "description": "The tag value being bound to a resource in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestTagKeyName",
@@ -472,7 +530,8 @@
         "description": "The full resource name of the tag key referenced in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestTagValueName",
@@ -480,7 +539,8 @@
         "description": "The full resource name of the tag value in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestType",
@@ -488,7 +548,8 @@
         "description": "The type of request being made (e.g., Create, Update, Delete).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestUpdateMask",
@@ -496,7 +557,8 @@
         "description": "A comma-separated list specifying the fields to be updated in a partial update request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsFolderId",
@@ -504,7 +566,8 @@
         "description": "The folder ID associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsMethod",
@@ -512,7 +575,8 @@
         "description": "The method name label used for filtering in logs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsOrganizationId",
@@ -520,7 +584,8 @@
         "description": "The organization ID associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsProjectId",
@@ -528,7 +593,8 @@
         "description": "The project ID associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsService",
@@ -536,7 +602,8 @@
         "description": "The service name label used for filtering in logs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseAuditConfigs",
@@ -544,7 +611,8 @@
         "description": "The audit configurations returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBindings",
@@ -552,7 +620,8 @@
         "description": "The IAM role bindings included in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseCreateTime",
@@ -560,7 +629,8 @@
         "description": "The timestamp when the resource was created, as returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseDescription",
@@ -568,7 +638,8 @@
         "description": "A description of the resource or result returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseDisplayName",
@@ -576,7 +647,8 @@
         "description": "The display name of the resource returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseEtag",
@@ -584,7 +656,8 @@
         "description": "The ETag used for concurrency control in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseLabels",
@@ -592,7 +665,8 @@
         "description": "The key-value labels attached to the resource in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseLifecycleState",
@@ -600,7 +674,8 @@
         "description": "The lifecycle state of the resource in the response (e.g., ACTIVE, DELETE_REQUESTED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseName",
@@ -608,7 +683,8 @@
         "description": "The full resource name returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseNamespacedName",
@@ -616,7 +692,8 @@
         "description": "A namespaced identifier for the resource (used in tagging).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseParent",
@@ -624,7 +701,8 @@
         "description": "The parent resource name associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponsePolicySpec",
@@ -632,7 +710,8 @@
         "description": "The policy specification returned in the response (Org Policy or IAM policy).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseProjectId",
@@ -640,7 +719,8 @@
         "description": "The project ID returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseProjectNumber",
@@ -648,7 +728,8 @@
         "description": "The project ID returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseShortName",
@@ -656,7 +737,8 @@
         "description": "The short, user-defined name of the resource returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseState",
@@ -664,7 +746,8 @@
         "description": "The current state of the resource (e.g., ACTIVE, DELETED).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTagKey",
@@ -672,7 +755,8 @@
         "description": "The tag key associated with the resource returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTagValue",
@@ -680,7 +764,8 @@
         "description": "The tag value associated with the resource in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTagValueNamespacedName",
@@ -688,7 +773,8 @@
         "description": "A fully qualified name (including tag key) for the tag value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseType",
@@ -696,7 +782,8 @@
         "description": "The type of the response payload.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseUpdateTime",
@@ -704,7 +791,8 @@
         "description": "The time when the resource was last updated, as per the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataPolicyDeltaBindingDeltas",
@@ -712,7 +800,8 @@
         "description": "Changes (additions or removals) to IAM bindings as part of the policy delta.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataType",
@@ -720,7 +809,8 @@
         "description": "The type of service-specific data returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceName",
@@ -728,7 +818,8 @@
         "description": "The name of the GCP service handling the request (e.g., cloudresourcemanager.googleapis.com).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -736,7 +827,8 @@
         "description": "Log level indicating the severity of the event (e.g., INFO, ERROR).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -744,7 +836,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Status",
@@ -752,7 +845,8 @@
         "description": "The status of the request, including error codes and messages if the operation failed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -760,7 +854,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -768,7 +863,8 @@
         "description": "The time the log entry was received by logging.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Timestamp",
@@ -776,7 +872,8 @@
         "description": "The time the event described by the log entry occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -784,8 +881,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

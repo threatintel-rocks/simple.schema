@@ -8,7 +8,8 @@
         "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CvssScore",
@@ -16,7 +17,8 @@
         "description": "Severity score assigned to the security vulnerability under the Common Vulnerability Scoring System (CVSS)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsExploitAvailable",
@@ -24,7 +26,8 @@
         "description": "Indicates whether exploit code for the vulnerability is publicly available",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VulnerabilitySeverityLevel",
@@ -32,7 +35,8 @@
         "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastModifiedTime",
@@ -40,7 +44,8 @@
         "description": "Date and time the item or related metadata was last modified",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PublishedDate",
@@ -48,7 +53,8 @@
         "description": "Date vulnerability was disclosed to the public",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VulnerabilityDescription",
@@ -56,7 +62,8 @@
         "description": "Description of the vulnerability and associated risks",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AffectedSoftware",
@@ -64,8 +71,46 @@
         "description": "List of all software products affected by the vulnerability",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "CveSupportability",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "CvssVector",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "EpssScore",
+        "type": "real",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

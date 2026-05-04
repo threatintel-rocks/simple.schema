@@ -8,7 +8,8 @@
         "description": "The source of the label action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionSourceDetail",
@@ -16,7 +17,8 @@
         "description": "More details about the source of the label action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppAccessContext",
@@ -24,7 +26,8 @@
         "description": "The application context for the user or service principal that performed the action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Application",
@@ -32,7 +35,8 @@
         "description": "The application that where the activity happened.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ApplicationMode",
@@ -40,7 +44,8 @@
         "description": "The label application mode, how the label was applied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AutoSensitivityLabelPolicyInfo",
@@ -48,7 +53,8 @@
         "description": "Auto Sensitivity Label Policy Info",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -56,7 +62,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ClientIP",
@@ -64,7 +71,8 @@
         "description": "The IP address of the device that was used when the activity was logged. The IP address is displayed in either an IPv4 or IPv6 address format.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Common",
@@ -72,7 +80,8 @@
         "description": "Azure Information Protection - common event data.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConditionMatch",
@@ -80,7 +89,8 @@
         "description": "The condition match that triggered the auto labeling.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ContentType",
@@ -88,7 +98,8 @@
         "description": "Content type.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -96,7 +107,8 @@
         "description": "Correlation ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CurrentProtectionType",
@@ -104,7 +116,8 @@
         "description": "Current protection event information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CurrentProtectionTypeName",
@@ -112,7 +125,8 @@
         "description": "The type of protection applied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DataState",
@@ -120,7 +134,8 @@
         "description": "Azure Information Protection - data state.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceName",
@@ -128,7 +143,8 @@
         "description": "The device on which the activity happened.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailInfo",
@@ -136,7 +152,8 @@
         "description": "The information required when the internalTarget is an email.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExchangeMetaData",
@@ -144,7 +161,8 @@
         "description": "Exchange auto labeling metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExecutionRuleId",
@@ -152,7 +170,8 @@
         "description": "The ID of the rule that was executed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExecutionRuleName",
@@ -160,7 +179,8 @@
         "description": "The name of the rule that was executed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExecutionRuleVersion",
@@ -168,7 +188,8 @@
         "description": "The version of the rule that was executed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -176,7 +197,8 @@
         "description": "Unique identifier of an audit record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IrmContentId",
@@ -184,7 +206,8 @@
         "description": "The unique ID used for identifying the encrypted document after the operation is complete.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -192,7 +215,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IsViewableByExternalUsers",
@@ -200,7 +224,8 @@
         "description": "Is viewable by external users.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ItemCreationTime",
@@ -208,7 +233,8 @@
         "description": "The date and time the item was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ItemLastModifiedTime",
@@ -216,7 +242,8 @@
         "description": "The date and time the item was last modified.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ItemName",
@@ -224,7 +251,8 @@
         "description": "The item name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ItemSize",
@@ -232,7 +260,8 @@
         "description": "The item size.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "JustificationText",
@@ -240,7 +269,8 @@
         "description": "The justification to be provided, when configured by the admin in the sensitivity label policy, only when the sensitivity label is downgraded or removed by the user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LabelAction",
@@ -248,7 +278,8 @@
         "description": "The action applied by the label.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LabelAppliedDateTime",
@@ -256,7 +287,8 @@
         "description": "The date and time the label was applied.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LabelEventType",
@@ -264,7 +296,8 @@
         "description": "The label operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LabelName",
@@ -272,7 +305,8 @@
         "description": "The label name applied to the item.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LabelVersion",
@@ -280,7 +314,8 @@
         "description": "The label version applied by the auto labeling policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MachineName",
@@ -288,7 +323,8 @@
         "description": "The machine name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MgtRuleId",
@@ -296,7 +332,8 @@
         "description": "Management rule ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObjectId",
@@ -304,7 +341,8 @@
         "description": "For SharePoint and OneDrive for Business activity, the full path name of the file or folder accessed by the user. For Exchange admin audit logging, the name of the object that was modified by the cmdlet.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OldSensitivityLabelId",
@@ -312,7 +350,8 @@
         "description": "The identifier of the sensitivity label previously applied to the document before the operation to change/remove the label was triggered.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OldSensitivityLabelOwnerEmail",
@@ -320,7 +359,8 @@
         "description": "The email address of the owner of the old sensitivity label.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Operation",
@@ -328,7 +368,8 @@
         "description": "The name of the user or admin activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OrganizationId",
@@ -336,7 +377,8 @@
         "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization, regardless of the Office 365 service in which it occurs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OverriddenActions",
@@ -344,7 +386,8 @@
         "description": "Actions that were overridden by the rule actions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OverRideReason",
@@ -352,7 +395,8 @@
         "description": "The reason the sensitivity label was overridden.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OverRideType",
@@ -360,7 +404,8 @@
         "description": "Override type.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Platform",
@@ -368,7 +413,8 @@
         "description": "The platform on which the activity happened.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyId",
@@ -376,7 +422,8 @@
         "description": "Policy ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyName",
@@ -384,7 +431,8 @@
         "description": "Policy name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PolicyVersion",
@@ -392,7 +440,8 @@
         "description": "Policy version.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PreviousProtectionType",
@@ -400,7 +449,8 @@
         "description": "Previous protection event information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PreviousProtectionTypeName",
@@ -408,7 +458,8 @@
         "description": "Previous protection type.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProtectionEventData",
@@ -416,7 +467,8 @@
         "description": "Azure Information Protection - protection event data.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProtectionEventTypeName",
@@ -424,7 +476,8 @@
         "description": "Protection event type name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Receivers",
@@ -432,7 +485,8 @@
         "description": "The email addresses of the receivers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecordType",
@@ -440,7 +494,8 @@
         "description": "The type of operation indicated by the record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecordTypeName",
@@ -448,7 +503,8 @@
         "description": "The record type name.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultStatus",
@@ -456,7 +512,8 @@
         "description": "Indicates whether the action (specified in the Operation property) was successful or not. Possible values are Succeeded, PartiallySucceeded, or Failed. For Exchange admin activity, the value is either True or False.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleActions",
@@ -464,7 +521,8 @@
         "description": "Actions defined by the rules.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleMode",
@@ -472,7 +530,8 @@
         "description": "The current mode of the rule.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Scope",
@@ -480,7 +539,8 @@
         "description": "Was this event created by a hosted O365 service or an on-premises server.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ScopedLocationId",
@@ -488,7 +548,8 @@
         "description": "The address that triggered the policy match.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Sender",
@@ -496,7 +557,8 @@
         "description": "The email address of the sender.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitiveInfoDetectionIsIncluded",
@@ -504,7 +566,8 @@
         "description": "Determines if sensitive info detection is included.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitiveInfoTypeData",
@@ -512,7 +575,8 @@
         "description": "Azure Information Protection - sensitive information types.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelEventFailureData",
@@ -520,7 +584,8 @@
         "description": "Sensitivity Label Event Failure Data",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelId",
@@ -528,7 +593,8 @@
         "description": "The identifier for the sensitivity label recommended, as per the policy that was matched based on the contents of the document.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelOwnerEmail",
@@ -536,7 +602,8 @@
         "description": "The email address of the owner of the sensitivity label.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelPolicyId",
@@ -544,7 +611,8 @@
         "description": "The identifier for the sensitivity labeling policy that was matched based on the content of the document.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -552,7 +620,8 @@
         "description": "The severity of the auto label policy match.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SharePointMetaData",
@@ -560,7 +629,8 @@
         "description": "SharePoint auto labeling metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -568,7 +638,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetLocation",
@@ -576,7 +647,8 @@
         "description": "The location of the document with respect to the user' device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -584,7 +656,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -592,7 +665,8 @@
         "description": "The date and time when the user performed the activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -600,7 +674,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserId",
@@ -608,7 +683,8 @@
         "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserKey",
@@ -616,7 +692,8 @@
         "description": "An alternative ID for the user identified in the UserId property. This property is populated with the passport unique ID (PUID) for events performed by users in SharePoint, OneDrive for Business, and Exchange.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserType",
@@ -624,7 +701,8 @@
         "description": "The type of user that performed the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Workload",
@@ -632,7 +710,8 @@
         "description": "The Office 365 service where the activity occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "WorkLoadItemId",
@@ -640,8 +719,10 @@
         "description": "The workload item id.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
