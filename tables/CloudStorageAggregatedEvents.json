@@ -8,8 +8,7 @@
         "description": "The start time during which the data was aggregated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataAggregationEndTime",
@@ -17,8 +16,7 @@
         "description": "The end time during which the data was aggregated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataSource",
@@ -26,8 +24,7 @@
         "description": "The source of the aggregated logs",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SubscriptionId",
@@ -35,8 +32,7 @@
         "description": "Unique identifier assigned to the Azure subscription",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceGroup",
@@ -44,8 +40,7 @@
         "description": "Name of the resource group where the storage account resides",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StorageAccount",
@@ -53,8 +48,7 @@
         "description": "The identifier for the storage account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StorageContainer",
@@ -62,8 +56,7 @@
         "description": "The identifier for the storage container",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StorageFileShare",
@@ -71,8 +64,7 @@
         "description": "The identifier for the storage file share",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceType",
@@ -80,8 +72,7 @@
         "description": "Specifies the type of storage service (for example, Blob, ADLS Gen2, Files.REST, Files.SMB)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IpAddress",
@@ -89,8 +80,7 @@
         "description": "The IP addresses from which the storage was accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgentHeader",
@@ -98,8 +88,7 @@
         "description": "Details of the user agent accessing the storage (for example, browser or application)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationNamesList",
@@ -107,8 +96,7 @@
         "description": "A list of storage operations performed (for example, CreateContainer, DeleteContainer)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthenticationType",
@@ -116,8 +104,7 @@
         "description": "The authentication method used to access the storage (for example, AccountKey, SAS, Oauth)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -125,8 +112,7 @@
         "description": "The unique identifier of the object is making the storage access",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountTenantId",
@@ -134,8 +120,7 @@
         "description": "The unique identifier of the Azure tenant",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountApplicationId",
@@ -143,8 +128,7 @@
         "description": "The application ID associated with the storage access",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountUpn",
@@ -152,8 +136,7 @@
         "description": "The user principal name of the accessing user",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountType",
@@ -161,8 +144,7 @@
         "description": "The account type used",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationsCount",
@@ -170,8 +152,7 @@
         "description": "The total number of storage operations performed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SuccessfulOperationsCount",
@@ -179,8 +160,7 @@
         "description": "The count of successful storage operations",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FailedOperationsCount",
@@ -188,8 +168,7 @@
         "description": "The count of failed storage operations",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirstEventTimestamp",
@@ -197,8 +176,7 @@
         "description": "The timestamp of the first observed operation in the aggregation period",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LastEventTimestamp",
@@ -206,8 +184,7 @@
         "description": "The timestamp of the last observed operation in the aggregation period",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "TotalResponseLength",
@@ -215,8 +192,7 @@
         "description": "The total response length of all GET operations during the aggregation period",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SuccessfulReadOperations",
@@ -224,8 +200,7 @@
         "description": "The count of successful read operations",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DistinctGetOperations",
@@ -233,8 +208,7 @@
         "description": "The count of distinct GET operations performed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AnonymousSuccessfulOperations",
@@ -242,8 +216,7 @@
         "description": "The count of successful anonymous operations",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HasAnonymousResourceNotFoundFailures",
@@ -251,8 +224,7 @@
         "description": "Indicates whether anonymous resource not found failures occurred",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CountryName",
@@ -260,8 +232,7 @@
         "description": "The name of the country from where the storage was accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CityName",
@@ -269,8 +240,7 @@
         "description": "The name of the city from where the storage was accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ProvinceName",
@@ -278,8 +248,7 @@
         "description": "The name of the province or state from where the storage was accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ClientSystemServiceName",
@@ -287,8 +256,7 @@
         "description": "The name of the system service is in the data center",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ClientCloudPlatformName",
@@ -296,8 +264,7 @@
         "description": "The name of the cloud platform where the data center is located",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsTorExitNode",
@@ -305,8 +272,7 @@
         "description": "Indicates whether the IP address is a Tor exit node",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsKnownSuspiciousIp",
@@ -314,8 +280,7 @@
         "description": "Indicates whether the IP address is known to be suspicious",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsPrivateIp",
@@ -323,8 +288,7 @@
         "description": "Indicates whether the IP address is private",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "SuspiciousUserAgentName",
@@ -332,8 +296,7 @@
         "description": "The name of the suspicious user agent accessing the storage",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "HashReputationMd5List",
@@ -341,8 +304,7 @@
         "description": "A list of MD5 hash reputations for the accessed resources",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "AzureResourceId",
@@ -350,8 +312,7 @@
         "description": "The Azure Resource ID of the storage account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Location",
@@ -359,8 +320,7 @@
         "description": "The location of the storage account (region)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -368,8 +328,7 @@
         "description": "Indicate the time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -377,8 +336,7 @@
         "description": "GUID to identify the record in the specific table",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -386,8 +344,7 @@
         "description": "Type of action (aggregated logs)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -395,41 +352,9 @@
         "description": "Additional information about the event in JSON array format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "Md5Hashes",
-        "type": "dynamic",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }

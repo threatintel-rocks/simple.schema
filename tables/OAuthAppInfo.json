@@ -8,8 +8,7 @@
         "description": "Unique identifier for the record",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -17,8 +16,7 @@
         "description": "Date and time when the record was created",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OAuthAppId",
@@ -26,8 +24,7 @@
         "description": "The unique  identifier for the app as assigned by Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServicePrincipalId",
@@ -35,8 +32,7 @@
         "description": "The unique identifier for the service principal instance of the application in the tenant",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppName",
@@ -44,8 +40,7 @@
         "description": "The application's display name as exposed by the associated service principal",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AddedOnTime",
@@ -53,8 +48,7 @@
         "description": "Date and time when the application was registered",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastModifiedTime",
@@ -62,8 +56,7 @@
         "description": "Timestamp when the app was last modified",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppStatus",
@@ -71,8 +64,7 @@
         "description": "Status of the app; can be: Enabled, DisabledByMicrosoft, DisabledByAppGovernancePolicy, DisabledByUser, Deleted (information for apps with Deleted status is only available for 30 days since the app was deleted)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "VerifiedPublisher",
@@ -80,8 +72,7 @@
         "description": "Specifies details about the verified publisher of the application which this service principal represents. It includes information such as: DisplayName, VerifiedPublisherId, AddedDateTime",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PrivilegeLevel",
@@ -89,8 +80,7 @@
         "description": "The privilege level of the app based on the highest classified permission granted to the app",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Permissions",
@@ -98,8 +88,7 @@
         "description": "Contains an array of permission objects; each permission object includes PermissionName, TargetAppId, TargetAppDisplayName, PermissionType, PrivilegeLevel, UsageStatus",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConsentedUsersCount",
@@ -107,8 +96,7 @@
         "description": "Count of users who have consented to the app; this information is only available when the app isn't admin consented",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsAdminConsented",
@@ -116,8 +104,7 @@
         "description": "Value is True if a user has provided admin consent to the app on behalf of all the users in the org, otherwise the value is False",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppOrigin",
@@ -125,8 +112,7 @@
         "description": "Specifies whether the app is internal to the organization or registered in an external tenant",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastUsedTime",
@@ -134,8 +120,7 @@
         "description": "Date and time when the app last signed in. Tracking of this data goes back to June, 2022",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppOwnerTenantId",
@@ -143,35 +128,9 @@
         "description": "Specifies the ID of the tenant where the app was registered",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }

@@ -8,8 +8,7 @@
         "description": "User principal name or email address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActorUserId",
@@ -17,8 +16,7 @@
         "description": "Internal user key or GUID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActorUserType",
@@ -26,8 +24,7 @@
         "description": "Type of user (e.g., Regular, Admin, System).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AgentId",
@@ -35,8 +32,7 @@
         "description": "The version number or version ID of the agent involved.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AgentName",
@@ -44,8 +40,7 @@
         "description": "A friendly readable name of the agent.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AIModelName",
@@ -53,8 +48,7 @@
         "description": "Name of the AI model used (for extensibility).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AIModelVersion",
@@ -62,8 +56,7 @@
         "description": "Version of the AI model used.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppHost",
@@ -71,8 +64,7 @@
         "description": "Application that hosts copilot.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppIdentity",
@@ -80,8 +72,7 @@
         "description": "Identity of the application hosting the copilot interaction.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -89,8 +80,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ClientRegion",
@@ -98,8 +88,7 @@
         "description": "Region of the client.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -107,8 +96,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LLMEventData",
@@ -116,8 +104,7 @@
         "description": "Parsed LLM event data (for copilot different RecordTypes).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogVersion",
@@ -125,8 +112,7 @@
         "description": "Version of the LLM log format.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OrganizationId",
@@ -134,8 +120,7 @@
         "description": "Organization GUID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecordId",
@@ -143,8 +128,7 @@
         "description": "Unique identifier for the audit record.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecordType",
@@ -152,8 +136,7 @@
         "description": "Normalized record type name (e.g., CopilotInteraction, UpdateCopilotSettings).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -161,8 +144,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcIpAddr",
@@ -170,8 +152,7 @@
         "description": "IP address of the client.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -179,8 +160,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -188,8 +168,7 @@
         "description": "Timestamp of the audit event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -197,8 +176,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Version",
@@ -206,8 +184,7 @@
         "description": "Version of the audit schema or event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Workload",
@@ -215,10 +192,8 @@
         "description": "The workload or product (e.g., Copilot, AzureOpenAI).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

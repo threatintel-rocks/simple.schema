@@ -8,8 +8,7 @@
         "description": "A string that represents a human-readable and understandable description of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalExtensions",
@@ -17,8 +16,7 @@
         "description": "A placeholder for additional fields. Fields are logged as key-value pairs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationProtocol",
@@ -26,8 +24,7 @@
         "description": "The protocol used in the application, such as HTTP, HTTPS, SSHv2, Telnet, POP, IMPA, IMAPS, and so on.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -35,8 +32,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CollectorHostName",
@@ -44,8 +40,7 @@
         "description": "The hostname of the collector machine running the agent.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CommunicationDirection",
@@ -53,8 +48,7 @@
         "description": "Any information about the direction the observed communication has taken. Valid values: 0 = Inbound, 1 = Outbound.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Computer",
@@ -62,8 +56,7 @@
         "description": "Host, from Syslog.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationDnsDomain",
@@ -71,8 +64,7 @@
         "description": "The DNS part of the fully-qualified domain name (FQDN).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationHostName",
@@ -80,8 +72,7 @@
         "description": "The destination that the event refers to in an IP network. The format should be an FQDN associated with the destination node, when a node is available. For example: host.domain.com or host.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationIP",
@@ -89,8 +80,7 @@
         "description": "The destination IpV4 address that the event refers to in an IP network.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationMACAddress",
@@ -98,8 +88,7 @@
         "description": "The destination MAC address (FQDN).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationNTDomain",
@@ -107,8 +96,7 @@
         "description": "The Windows domain name of the destination address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationPort",
@@ -116,8 +104,7 @@
         "description": "Destination port. Valid values: 0 - 65535.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationProcessId",
@@ -125,8 +112,7 @@
         "description": "The ID of the destination process associated with the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationProcessName",
@@ -134,8 +120,7 @@
         "description": "The name of the event's destination process, such as telnetd or sshd.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationServiceName",
@@ -143,8 +128,7 @@
         "description": "The service that is targeted by the event. For example: sshd.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationTranslatedAddress",
@@ -152,8 +136,7 @@
         "description": "Identifies the translated destination referred to by the event in an IP network, as an IPv4 IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationTranslatedPort",
@@ -161,8 +144,7 @@
         "description": "Port after translation, such as a firewall Valid port numbers: 0 - 65535.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationUserID",
@@ -170,8 +152,7 @@
         "description": "Identifies the destination user by ID. For example: in Unix, the root user is generally associated with the user ID 0.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationUserName",
@@ -179,8 +160,7 @@
         "description": "Identifies the destination user by name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationUserPrivileges",
@@ -188,8 +168,7 @@
         "description": "Defines the destination use's privileges. Valid values: Admninistrator, User, Guest.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceAction",
@@ -197,8 +176,7 @@
         "description": "The action mentioned in the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceAddress",
@@ -206,8 +184,7 @@
         "description": "The IPv4 address of the device generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomDate1",
@@ -215,8 +192,7 @@
         "description": "One of two timestamp fields available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomDate1Label",
@@ -224,8 +200,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomDate2",
@@ -233,8 +208,7 @@
         "description": "One of two timestamp fields available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomDate2Label",
@@ -242,8 +216,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint1",
@@ -251,8 +224,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint1Label",
@@ -260,8 +232,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint2",
@@ -269,8 +240,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint2Label",
@@ -278,8 +248,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint3",
@@ -287,8 +256,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint3Label",
@@ -296,8 +264,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint4",
@@ -305,8 +272,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomFloatingPoint4Label",
@@ -314,8 +280,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address1",
@@ -323,8 +288,7 @@
         "description": "One of four IPv6 address fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address1Label",
@@ -332,8 +296,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address2",
@@ -341,8 +304,7 @@
         "description": "One of four IPv6 address fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address2Label",
@@ -350,8 +312,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address3",
@@ -359,8 +320,7 @@
         "description": "One of four IPv6 address fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address3Label",
@@ -368,8 +328,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address4",
@@ -377,8 +336,7 @@
         "description": "One of four IPv6 address fields available to map fields that do not apply to any other in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomIPv6Address4Label",
@@ -386,8 +344,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber1",
@@ -395,8 +352,7 @@
         "description": "Soon to be a deprecated field. Will be replaced by FieldDeviceCustomNumber1.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber1Label",
@@ -404,8 +360,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber2",
@@ -413,8 +368,7 @@
         "description": "Soon to be a deprecated field. Will be replaced by FieldDeviceCustomNumber2.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber2Label",
@@ -422,8 +376,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber3",
@@ -431,8 +384,7 @@
         "description": "Soon to be a deprecated field. Will be replaced by FieldDeviceCustomNumber3.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomNumber3Label",
@@ -440,8 +392,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString1",
@@ -449,8 +400,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString1Label",
@@ -458,8 +408,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString2",
@@ -467,8 +416,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString2Label",
@@ -476,8 +424,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString3",
@@ -485,8 +432,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString3Label",
@@ -494,8 +440,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString4",
@@ -503,8 +448,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString4Label",
@@ -512,8 +456,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString5",
@@ -521,8 +464,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString5Label",
@@ -530,8 +472,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString6",
@@ -539,8 +480,7 @@
         "description": "One of six strings available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceCustomString6Label",
@@ -548,8 +488,7 @@
         "description": "All custom fields have a corresponding label field. Each of these fields is a string and describes the purpose of the custom field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceDnsDomain",
@@ -557,8 +496,7 @@
         "description": "The DNS domain part of the full qualified domain name (FQDN).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceEventCategory",
@@ -566,8 +504,7 @@
         "description": "Represents the category assigned by the originating device. Devices often use their own categorization schema to classify event. Example: '/Monitor/Disk/Read'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceEventClassID",
@@ -575,8 +512,7 @@
         "description": "String or integer that serves as a unique identifier per event type.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceExternalID",
@@ -584,8 +520,7 @@
         "description": "A name that uniquely identifies the device generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceFacility",
@@ -593,8 +528,7 @@
         "description": "The facility generating the event. For example: auth or local1.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceInboundInterface",
@@ -602,8 +536,7 @@
         "description": "The interface on which the packet or data entered the device. For example: ethernet1/2.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceMacAddress",
@@ -611,8 +544,7 @@
         "description": "The MAC address of the device generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -620,8 +552,7 @@
         "description": "The FQDN associated with the device node, when a node is available. For example: host.domain.com or host.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceNtDomain",
@@ -629,8 +560,7 @@
         "description": "The Windows domain of the device address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceOutboundInterface",
@@ -638,8 +568,7 @@
         "description": "Interface on which the packet or data left the device.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DevicePayloadId",
@@ -647,8 +576,7 @@
         "description": "Unique identifier for the payload associated with the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceProduct",
@@ -656,8 +584,7 @@
         "description": "String that together with device product and version definitions, uniquely identifies the type of sending device.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceTimeZone",
@@ -665,8 +592,7 @@
         "description": "Timezone of the device generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceTranslatedAddress",
@@ -674,8 +600,7 @@
         "description": "Identifies the translated device address that the event refers to, in an IP network. The format is an Ipv4 address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceVendor",
@@ -683,8 +608,7 @@
         "description": "String that together with device product and version definitions, uniquely identifies the type of sending device.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceVersion",
@@ -692,8 +616,7 @@
         "description": "String that together with device product and version definitions, uniquely identifies the type of sending device.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndTime",
@@ -701,8 +624,7 @@
         "description": "The time at which the activity related to the event ended.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventCount",
@@ -710,8 +632,7 @@
         "description": "A count associated with the event, showing how many times the same event was observed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventOutcome",
@@ -719,8 +640,7 @@
         "description": "Displays the outcome, usually as 'success' or 'failure'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventType",
@@ -728,8 +648,7 @@
         "description": "Event type. Value values include: 0: base event, 1: aggregated, 2: correlation event, 3: action event. Note: This event can be omitted for base events.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExternalID",
@@ -737,8 +656,7 @@
         "description": "Soon to be a deprecated field. Will be replaced by ExtID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExtID",
@@ -746,8 +664,7 @@
         "description": "An ID used by the originating device (will replace legacy ExternalID). Typically, these values have increasing values that are each associated with an event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FieldDeviceCustomNumber1",
@@ -755,8 +672,7 @@
         "description": "One of three number fields available to map fields that do not apply to any other in this dictionary (will replace legacy DeviceCustomNumber1). Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FieldDeviceCustomNumber2",
@@ -764,8 +680,7 @@
         "description": "One of three number fields available to map fields that do not apply to any other in this dictionary (will replace legacy DeviceCustomNumber2). Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FieldDeviceCustomNumber3",
@@ -773,8 +688,7 @@
         "description": "One of three number fields available to map fields that do not apply to any other in this dictionary (will replace legacy DeviceCustomNumber3). Use sparingly and seek a more specific, dictionary supplied field when possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileCreateTime",
@@ -782,8 +696,7 @@
         "description": "Time when the file was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileHash",
@@ -791,8 +704,7 @@
         "description": "Hash of a file.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileID",
@@ -800,8 +712,7 @@
         "description": "An ID associated with a file, such as the inode.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileModificationTime",
@@ -809,8 +720,7 @@
         "description": "Time when the file was last modified.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileName",
@@ -818,8 +728,7 @@
         "description": "The file's name, without the path.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FilePath",
@@ -827,8 +736,7 @@
         "description": "Full path to the file, including the filename. For example: C:\\ProgramFiles\\WindowsNT\\Accessories\\wordpad.exe or /usr/bin/zip.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FilePermission",
@@ -836,8 +744,7 @@
         "description": "The file's permissions. For example: '2,1,1'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileSize",
@@ -845,8 +752,7 @@
         "description": "The size of the file in bytes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileType",
@@ -854,8 +760,7 @@
         "description": "File type, such as pipe, socket, and so on.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexDate1",
@@ -863,8 +768,7 @@
         "description": "A timestamp field available to map a timestamp that does not apply to any other defined timestamp field in this dictionary. Use all flex fields sparingly and seek a more specific, dictionary supplied field when possible. These fields are typically reserved for customer use and should not be set by vendors unless necessary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexDate1Label",
@@ -872,8 +776,7 @@
         "description": "The label field is a string and describes the purpose of the flex field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexNumber1",
@@ -881,8 +784,7 @@
         "description": "Number fields available to map Int data that does not apply to any other field in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexNumber1Label",
@@ -890,8 +792,7 @@
         "description": "The label that describes the value in FlexNumber1",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexNumber2",
@@ -899,8 +800,7 @@
         "description": "Number fields available to map Int data that does not apply to any other field in this dictionary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexNumber2Label",
@@ -908,8 +808,7 @@
         "description": "The label that describes the value in FlexNumber2",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexString1",
@@ -917,8 +816,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible. These fields are typically reserved for customer use and should not be set by vendors unless necessary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexString1Label",
@@ -926,8 +824,7 @@
         "description": "The label field is a string and describes the purpose of the flex field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexString2",
@@ -935,8 +832,7 @@
         "description": "One of four floating point fields available to map fields that do not apply to any other in this dictionary. Use sparingly and seek a more specific, dictionary supplied field when possible. These fields are typically reserved for customer use and should not be set by vendors unless necessary.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FlexString2Label",
@@ -944,8 +840,7 @@
         "description": "The label field is a string and describes the purpose of the flex field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IndicatorThreatType",
@@ -953,8 +848,7 @@
         "description": "The threat type of the MaliciousIP according to our TI feed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -962,8 +856,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LogSeverity",
@@ -971,8 +864,7 @@
         "description": "A string or integer that describes the importance of the event. Valid string values: Unknown , Low, Medium, High, Very-High Valid integer values are: 0-3 = Low, 4-6 = Medium, 7-8 = High, 9-10 = Very-High.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MaliciousIP",
@@ -980,8 +872,7 @@
         "description": "If one of the IP in the message was correlate with the current TI feed we have it will show up here.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MaliciousIPCountry",
@@ -989,8 +880,7 @@
         "description": "The country of the MaliciousIP according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MaliciousIPLatitude",
@@ -998,8 +888,7 @@
         "description": "The Latitude of the MaliciousIP according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MaliciousIPLongitude",
@@ -1007,8 +896,7 @@
         "description": "The Longitude of the MaliciousIP according to the GEO information at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Message",
@@ -1016,8 +904,7 @@
         "description": "A message that gives more details about the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileCreateTime",
@@ -1025,8 +912,7 @@
         "description": "Time when the old file was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileHash",
@@ -1034,8 +920,7 @@
         "description": "Hash of the old file.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileID",
@@ -1043,8 +928,7 @@
         "description": "And ID associated with the old file, such as the inode.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileModificationTime",
@@ -1052,8 +936,7 @@
         "description": "Time when the old file was last modified.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileName",
@@ -1061,8 +944,7 @@
         "description": "Name of the old file.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFilePath",
@@ -1070,8 +952,7 @@
         "description": "Full path to the old file, including the filename. For example: C:\\ProgramFiles\\WindowsNT\\Accessories\\wordpad.exe or /usr/bin/zip.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFilePermission",
@@ -1079,8 +960,7 @@
         "description": "Permissions of the old file. For example: '2,1,1'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileSize",
@@ -1088,8 +968,7 @@
         "description": "The size of the old file in bytes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldFileType",
@@ -1097,8 +976,7 @@
         "description": "File type of the old file, such as a pipe, socket, and so on.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OriginalLogSeverity",
@@ -1106,8 +984,7 @@
         "description": "A non-mapped version of LogSeverity. For example: Warning/Critical/Info insted of the normilized Low/Medium/High in the LogSeverity Field",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessID",
@@ -1115,8 +992,7 @@
         "description": "Defines the ID of the process on the device generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessName",
@@ -1124,8 +1000,7 @@
         "description": "Process name associated with the event. For example: in UNIX, the process generating the syslog entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Protocol",
@@ -1133,8 +1008,7 @@
         "description": "Transport protocol that identifies the Layer-4 protocol used. Possible values include protocol names, such as TCP or UDP.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Reason",
@@ -1142,8 +1016,7 @@
         "description": "The reason an audit event was generated. For example 'bad password' or 'unknown user'. This could also be an error or return code. Example: '0x1234'.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiptTime",
@@ -1151,8 +1024,7 @@
         "description": "The time at which the event related to the activity was received. Different then the 'Timegenerated' field, which is when the event was recieved in the log collector machine.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceivedBytes",
@@ -1160,8 +1032,7 @@
         "description": "Number of bytes transferred inbound.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIP",
@@ -1169,8 +1040,7 @@
         "description": "The remote IP address, derived from the event's direction value, if possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemotePort",
@@ -1178,8 +1048,7 @@
         "description": "The remote port, derived from the event's direction value, if possible.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportReferenceLink",
@@ -1187,8 +1056,7 @@
         "description": "Link to the report of the TI feed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestClientApplication",
@@ -1196,8 +1064,7 @@
         "description": "The user agent associated with the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestContext",
@@ -1205,8 +1072,7 @@
         "description": "Describes the content from which the request originated, such as the HTTP Referrer.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCookies",
@@ -1214,8 +1080,7 @@
         "description": "Cookies associated with the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMethod",
@@ -1223,8 +1088,7 @@
         "description": "The method used to access a URL. Valid values include methods such as POST, GET, and so on.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestURL",
@@ -1232,8 +1096,7 @@
         "description": "The URL accessed for an HTTP request, including the protocol. For example: http://www/secure.com.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -1241,8 +1104,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SentBytes",
@@ -1250,8 +1112,7 @@
         "description": "Number of bytes transferred outbound.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SimplifiedDeviceAction",
@@ -1259,8 +1120,7 @@
         "description": "A mapped version of DeviceAction, such as Denied > Deny.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceDnsDomain",
@@ -1268,8 +1128,7 @@
         "description": "The DNS domain part of the complete FQDN.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceHostName",
@@ -1277,8 +1136,7 @@
         "description": "Identifies the source that event refers to in an IP network. Format should be a fully qualified domain name (DQDN) associated with the source node, when a node is available. For example: host or host.domain.com.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceIP",
@@ -1286,8 +1144,7 @@
         "description": "The source that an event refers to in an IP network, as an IPv4 address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceMACAddress",
@@ -1295,8 +1152,7 @@
         "description": "Source MAC address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceNTDomain",
@@ -1304,8 +1160,7 @@
         "description": "The Windows domain name for the source address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourcePort",
@@ -1313,8 +1168,7 @@
         "description": "The source port number. Valid port numbers are 0 - 65535.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceProcessId",
@@ -1322,8 +1176,7 @@
         "description": "The ID of the source process associated with the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceProcessName",
@@ -1331,8 +1184,7 @@
         "description": "The name of the event's source process.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceServiceName",
@@ -1340,8 +1192,7 @@
         "description": "The service responsible for generating the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -1349,8 +1200,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceTranslatedAddress",
@@ -1358,8 +1208,7 @@
         "description": "Identifies the translated source that the event refers to in an IP network.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceTranslatedPort",
@@ -1367,8 +1216,7 @@
         "description": "Source port after translation, such as a firewall. Valid port numbers are 0 - 65535.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceUserID",
@@ -1376,8 +1224,7 @@
         "description": "Identifies the source user by ID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceUserName",
@@ -1385,8 +1232,7 @@
         "description": "Identifies the source user by name. Email addresses are also mapped into the UserName fields. The sender is a candidate to put into this field.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceUserPrivileges",
@@ -1394,8 +1240,7 @@
         "description": "The source user's privileges. Valid values include: Administrator, User, Guest.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -1403,8 +1248,7 @@
         "description": "The time when the activity that the event refers to started.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -1412,8 +1256,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "TenantId",
@@ -1421,8 +1264,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatConfidence",
@@ -1430,8 +1272,7 @@
         "description": "The threat confidence of the MaliciousIP according to our TI feed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatDescription",
@@ -1439,8 +1280,7 @@
         "description": "The threat description of the MaliciousIP according to our TI feed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatSeverity",
@@ -1448,8 +1288,7 @@
         "description": "The threat severity of the MaliciousIP according to our TI feed at the time of the record ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -1457,8 +1296,7 @@
         "description": "Event collection time in UTC.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -1466,10 +1304,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

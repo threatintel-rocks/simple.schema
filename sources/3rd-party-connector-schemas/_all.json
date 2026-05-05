@@ -41191,7 +41191,7 @@
     ],
     "solution": "SOC Prime CCF"
   },
-  "SalesforceServiceCloudV2_CL": {
+  "SalesforceServiceCloudV3_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
