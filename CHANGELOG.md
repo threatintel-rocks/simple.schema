@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-09 05:44 UTC
+
+**Tables added** (2)
+
+- `ZimperiumMitigationLogV2_CL` (31 columns, source: 3rd-Party Connector Schemas)
+- `ZimperiumThreatLogV2_CL` (104 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-05-05 05:37 UTC
 
 **Tables added** (1)
