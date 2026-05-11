@@ -8,7 +8,8 @@
         "description": "Date and time when the record was generated or updated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "BehaviorId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -24,7 +26,8 @@
         "description": "Type of behavior. Refer to the catalog of behaviors detected by Microsoft Purview Insider Risk Management.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StartTime",
@@ -32,7 +35,8 @@
         "description": "Date and time of the first activity related to the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EndTime",
@@ -40,7 +44,8 @@
         "description": "Date and time of the last activity related to the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AttackTechniques",
@@ -48,7 +53,8 @@
         "description": "MITRE ATT&CK techniques associated with the activity that triggered the behavior. Refer to subtechniques in the insider risk management behavior catalog.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Categories",
@@ -56,7 +62,8 @@
         "description": "Type of threat indicator or breach activity identified by the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionCategory",
@@ -64,7 +71,8 @@
         "description": "Category of action that triggered the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Description",
@@ -72,7 +80,8 @@
         "description": "Description of the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceSource",
@@ -80,7 +89,8 @@
         "description": "Product or service that identified the behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DetectionSource",
@@ -88,7 +98,8 @@
         "description": "Detection technology or sensor that identified the notable component or activity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityCount",
@@ -96,7 +107,8 @@
         "description": "Total user activity events recorded under this behavior",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsAnomalous",
@@ -104,7 +116,8 @@
         "description": "Indicates if this behavior is anomalous (1) or not (0)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsContentHidden",
@@ -112,7 +125,8 @@
         "description": "Indicates if the behavior involves hidden content on a device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountUpn",
@@ -120,7 +134,8 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountEmail",
@@ -128,7 +143,8 @@
         "description": "Email address of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Application",
@@ -136,7 +152,8 @@
         "description": "Application that performed the recorded action",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceInfo",
@@ -144,7 +161,8 @@
         "description": "List of device information for the device involved in this behavior, including device ID, device name, and the number of events in which the device is involved; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitivityLabelInfo",
@@ -152,7 +170,8 @@
         "description": "List of sensitivity labels assigned to content involved in this behavior, including the unique identifier for the Microsoft Information Protection sensitivity label assigned to the related content, the name of the sensitivity label, and the number of events in the behavior involving this label; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensitiveInfoTypesInfo",
@@ -160,7 +179,8 @@
         "description": "List of sensitive info types detected in the content involved in this behavior, including the unique identifier for the sensitive info type, the name of the sensitive info type, and the number of events in the behavior involving this sensitive info type; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UrlDomainInfo",
@@ -168,7 +188,8 @@
         "description": "List of websites or service URLs involved in the behavior, including the name of the URL domain, the direction of data (sent or received from domain), type of URL domain (customer-configured or based on watchlists), and the number of events in the behavior involving the specific domain; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SharepointSiteInfo",
@@ -176,7 +197,8 @@
         "description": "List of SharePoint sites involved in this behavior, including the unique identifier for the SharePoint site, the name of the SharePoint site, and the number of events in the behavior involving the SharePoint site; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecipientEmailInfo",
@@ -184,7 +206,8 @@
         "description": "List of information about the recipient involved in the behavior, including the email address of the recipient and the number of events in the behavior involving the recipient; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemovableMediaInfo",
@@ -192,7 +215,8 @@
         "description": "List of any removable media involved in the behavior, including the serial number of the removable media device, the manufacturer of the removable media device, and the model of the removable device; in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PrinterName",
@@ -200,7 +224,8 @@
         "description": "List of printers involved in the behavior; in array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PriorityContentMatchInfo",
@@ -208,9 +233,47 @@
         "description": "List of priority content matches identified within this behavior and their associated details. Priority content definitions are done by the admins for each Insider risk management policy. Displayed in JSON array format.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
+      },
+      {
+        "name": "IsUnderIrmPolicy",
+        "type": "bool",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "PolicyMatchInfo",
+        "type": "dynamic",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

@@ -8,7 +8,8 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DataSource",
@@ -24,7 +26,8 @@
         "description": "Data source for the cloud audit events, can be GCP (for Google Cloud Platform), AWS (for Amazon Web Services), Azure (for Azure Resource Manager), Kubernetes Audit (for Kubernetes), or other cloud platforms",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -32,7 +35,8 @@
         "description": "Type of activity that triggered the event, can be: Unknown, Create, Read, Update, Delete, Other",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -40,7 +44,8 @@
         "description": "Audit event operation name as it appears in the record, usually includes both resource type and operation",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceId",
@@ -48,7 +53,8 @@
         "description": "Unique identifier of the cloud resource accessed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IPAddress",
@@ -56,7 +62,8 @@
         "description": "The client IP address used to access the cloud resource or control plane",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsAnonymousProxy",
@@ -64,7 +71,8 @@
         "description": "Indicates whether the IP address belongs to a known anonymous proxy (1) or no (0)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CountryCode",
@@ -72,7 +80,8 @@
         "description": "Two-letter code indicating the country where the client IP address is geolocated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "City",
@@ -80,7 +89,8 @@
         "description": "City where the client IP address is geolocated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Isp",
@@ -88,7 +98,8 @@
         "description": "Internet service provider (ISP) associated with the IP address",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -96,7 +107,8 @@
         "description": "User agent information from the web browser or other client application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RawEventData",
@@ -104,7 +116,8 @@
         "description": "Full raw event information from the data source in JSON format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -112,9 +125,65 @@
         "description": "Additional information about the audit event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "Account",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "AuditSource",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "AwsResourceName",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "AzureResourceId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "GcpFullResourceName",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

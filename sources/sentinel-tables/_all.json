@@ -66507,6 +66507,11 @@
     "columns": [],
     "custom_table": true
   },
+  "OktaV2_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
   "Okta_CL": {
     "source": "Sentinel Tables",
     "columns": [],

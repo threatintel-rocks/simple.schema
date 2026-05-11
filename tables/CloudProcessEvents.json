@@ -8,7 +8,8 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AzureResourceId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier of the Azure resource associated with the process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsResourceName",
@@ -24,7 +26,8 @@
         "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GcpFullResourceName",
@@ -32,7 +35,8 @@
         "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ContainerImageName",
@@ -40,7 +44,8 @@
         "description": "The container image name or ID, if it exists",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KubernetesNamespace",
@@ -48,7 +53,8 @@
         "description": "The Kubernetes namespace name",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KubernetesPodName",
@@ -56,7 +62,8 @@
         "description": "The Kubernetes pod name",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "KubernetesResource",
@@ -64,7 +71,8 @@
         "description": "Identifier value that includes namespace, resource type and name",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ContainerName",
@@ -72,7 +80,8 @@
         "description": "Name of the container in Kubernetes or another runtime environment",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ContainerId",
@@ -80,7 +89,8 @@
         "description": "The container identifier in Kubernetes or another runtime environment",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -88,7 +98,8 @@
         "description": "Type of activity that triggered the event. See the in-portal schema reference for details.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileName",
@@ -96,7 +107,8 @@
         "description": "Name of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FolderPath",
@@ -104,7 +116,8 @@
         "description": "Folder containing the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessId",
@@ -112,7 +125,8 @@
         "description": "Process ID (PID) of the newly created process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessName",
@@ -120,7 +134,8 @@
         "description": "The name of the process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ParentProcessName",
@@ -128,7 +143,8 @@
         "description": "The name of the parent process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ParentProcessId",
@@ -136,7 +152,8 @@
         "description": "The process ID (PID) of the parent process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessCommandLine",
@@ -144,7 +161,8 @@
         "description": "Command line used to create the new process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessCreationTime",
@@ -152,7 +170,8 @@
         "description": "Date and time the process was created",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessCurrentWorkingDirectory",
@@ -160,7 +179,8 @@
         "description": "Current working directory of the running process",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountName",
@@ -168,7 +188,8 @@
         "description": "User name of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogonId",
@@ -176,7 +197,8 @@
         "description": "Identifier for a logon session. This identifier is unique on the same pod or container between restarts.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessId",
@@ -184,7 +206,8 @@
         "description": "Process ID (PID) of the process that initiated the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -192,9 +215,41 @@
         "description": "Additional information about the event in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }
