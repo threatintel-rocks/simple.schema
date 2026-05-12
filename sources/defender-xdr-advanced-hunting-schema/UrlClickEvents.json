@@ -93,7 +93,63 @@
       {
         "name": "ReportId",
         "type": "string",
-        "description": "The unique identifier for a click event. For clickthrough scenarios, report ID would have same value, and therefore it should be used to correlate a click event.",
+        "description": "The unique identifier for a click event. For clickthrough scenarios, report ID would have same value, and therefore it should be used to correlate a click event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "The application's display name as exposed by the associated service principal",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AppVersion",
+        "type": "string",
+        "description": "Version of the client application where the click occurred",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceId",
+        "type": "string",
+        "description": "Unique identifier for the source of the click",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example, `OpsManager` for Windows agent, either direct connect or Operations Manager, `Linux` for all Linux agents, or `Azure` for Azure Diagnostics",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The date and time when the user clicked on the link. The value is identical to `Timestamp` and intended for Microsoft Defender for Endpoints queries compatibility",
         "availability": [
           "Defender XDR"
         ]
