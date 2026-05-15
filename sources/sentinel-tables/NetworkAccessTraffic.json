@@ -43,6 +43,22 @@
         ]
       },
       {
+        "name": "AIDetectionConfidence",
+        "type": "int",
+        "description": "Confidence level of the AI detection result.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AIDetectionEvidence",
+        "type": "string",
+        "description": "Evidence details for the AI detection result.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AppId",
         "type": "string",
         "description": "Destination Application ID accessed in Azure AD during the transaction.",
@@ -323,9 +339,25 @@
         ]
       },
       {
+        "name": "IsAgentic",
+        "type": "bool",
+        "description": "Indicates whether the traffic was detected as agentic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "_IsBillable",
         "type": "string",
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsTokenAgentic",
+        "type": "bool",
+        "description": "Indicates whether the token used in the traffic was issued to an AI agent.",
         "availability": [
           "Sentinel"
         ]
@@ -427,9 +459,25 @@
         ]
       },
       {
+        "name": "ProcessArgs",
+        "type": "string",
+        "description": "The process arguments associated with the network request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ProcessingRegion",
         "type": "string",
         "description": "Region where the request was processed by the backend service.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessTree",
+        "type": "string",
+        "description": "The process tree associated with the network request.",
         "availability": [
           "Sentinel"
         ]

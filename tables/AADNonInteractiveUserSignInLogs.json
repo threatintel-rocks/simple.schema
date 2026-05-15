@@ -163,6 +163,14 @@
         ]
       },
       {
+        "name": "ClientSessionId",
+        "type": "string",
+        "description": "The client session ID associated with the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ConditionalAccessAudiences",
         "type": "string",
         "description": "Details of the conditional access audiences being applied for the sign-in.",
