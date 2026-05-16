@@ -2,6 +2,18 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-16 05:50 UTC
+
+**Tables added** (6)
+
+- `SailPointIDN_EventsV2_CL` (40 columns, source: 3rd-Party Connector Schemas)
+- `StriderShieldEmailAddresses_CL` (12 columns, source: 3rd-Party Connector Schemas)
+- `StriderShieldEmailDomains_CL` (12 columns, source: 3rd-Party Connector Schemas)
+- `StriderShieldRiskSignalsDefinitions_CL` (7 columns, source: 3rd-Party Connector Schemas)
+- `StriderShieldRiskSignals_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `StriderShieldTerms_CL` (12 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-05-15 06:28 UTC
 
 **Tables added** (3)

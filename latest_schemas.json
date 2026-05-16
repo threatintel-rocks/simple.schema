@@ -97398,6 +97398,332 @@
     ],
     "solution": "RubrikSecurityCloud"
   },
+  "SailPointIDN_EventsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the audit event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Human-readable name of the event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "UTC timestamp when the event was created in SailPoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action performed during the event (e.g., USER_STEP_UP_AUTH).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "High-level event type category (e.g., USER_MANAGEMENT, AUTH). Maps from API field 'type'; renamed to avoid conflict with the Azure Monitor reserved 'Type' system column.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechnicalName",
+        "type": "string",
+        "description": "Technical name identifying the specific event subtype (e.g., USER_AUTHENTICATION_STEP_UP_SETUP_PASSED).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "description": "Operation performed during the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Outcome status of the event (e.g., PASSED, FAILED).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorName",
+        "type": "string",
+        "description": "Name of the actor that triggered the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetName",
+        "type": "string",
+        "description": "Name of the target object affected by the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Org",
+        "type": "string",
+        "description": "SailPoint tenant/org identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Pod",
+        "type": "string",
+        "description": "SailPoint infrastructure pod where the event originated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Stack",
+        "type": "string",
+        "description": "Stack or service layer where the event originated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesOperation",
+        "type": "string",
+        "description": "Operation type within the event attributes (e.g., for aggregation events).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesProcessId",
+        "type": "string",
+        "description": "Process ID of the aggregation job.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesDuration",
+        "type": "string",
+        "description": "Duration of the aggregation process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesIdentitiesProcessed",
+        "type": "string",
+        "description": "Number of identities processed during aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesIdentitiesTotal",
+        "type": "string",
+        "description": "Total number of identities in the aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesIdentitiesSelected",
+        "type": "string",
+        "description": "Number of identities selected during aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesGroupsDeltaTokenBefore",
+        "type": "string",
+        "description": "Groups delta token before aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesGroupsDeltaTokenAfter",
+        "type": "string",
+        "description": "Groups delta token after aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesHostName",
+        "type": "string",
+        "description": "Host name associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesUserId",
+        "type": "string",
+        "description": "User ID associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesScope",
+        "type": "string",
+        "description": "Scope of the event action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesSourceId",
+        "type": "string",
+        "description": "Source ID associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesUserDeltaTokenAfter",
+        "type": "string",
+        "description": "User delta token after aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesUserDeltaTokenBefore",
+        "type": "string",
+        "description": "User delta token before aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesDirectoryRolesDeltaTokenAfter",
+        "type": "string",
+        "description": "Directory roles delta token after aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesDirectoryRolesDeltaTokenBefore",
+        "type": "string",
+        "description": "Directory roles delta token before aggregation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesAggregationId",
+        "type": "string",
+        "description": "Aggregation job ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesSourceName",
+        "type": "string",
+        "description": "Source name associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributesCapability",
+        "type": "string",
+        "description": "Capability associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Objects",
+        "type": "dynamic",
+        "description": "Related object names or identifiers involved in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Additional contextual details about the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrackingNumber",
+        "type": "string",
+        "description": "Tracking number for access request-related events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Synced",
+        "type": "datetime",
+        "description": "UTC timestamp when the event was synced to the platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DocType",
+        "type": "string",
+        "description": "SailPoint internal Elasticsearch document type (value is always 'event'). Renamed from 'SailPointDocType'; maps from API field '_type'.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Index",
+        "type": "string",
+        "description": "SailPoint internal Elasticsearch index identifier. Renamed from 'SailPointIndex'; maps from API field '_index'.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "Hard-coded source system identifier for backwards compatibility with the Azure Function connector (SailPointIDN_Events_CL). Value is always 'RestAPI'.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SailPointIdentityNow"
+  },
   "SalesforceServiceCloudV3_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -101193,6 +101519,404 @@
       }
     ],
     "solution": "Sophos Endpoint Protection"
+  },
+  "StriderShieldEmailAddresses_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "isNew",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "md5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNamePrimary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "collections",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "counterparties",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignal",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "descriptions",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "dates_added",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNameSecondary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "changes",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Strider Shield"
+  },
+  "StriderShieldEmailDomains_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "isNew",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "md5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNamePrimary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "collections",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "counterparties",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignal",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "descriptions",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "dates_added",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNameSecondary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "changes",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Strider Shield"
+  },
+  "StriderShieldRiskSignals_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignal",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignalsCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Strider Shield"
+  },
+  "StriderShieldRiskSignalsDefinitions_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_abbr",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_description",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_email",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_domain",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "risk_category_term",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Strider Shield"
+  },
+  "StriderShieldTerms_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "isNew",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "md5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNamePrimary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "collections",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "counterparties",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignal",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "descriptions",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "dates_added",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNameSecondary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "changes",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Strider Shield"
   },
   "StyxViewAlerts_CL": {
     "source": "3rd-Party Connector Schemas",
