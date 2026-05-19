@@ -697,6 +697,476 @@
     ],
     "solution": "AWS EKS"
   },
+  "AgariAPDPolicyLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertDefinitionName",
+        "type": "string",
+        "description": "Name of the alert definition associated with the policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the policy event was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the policy event was last updated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "boolean",
+        "description": "Policy Event Summary flag",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyAction",
+        "type": "string",
+        "description": "Action taken by the policy (deliver, mark-spam, move, inbox, delete, none)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyEnabled",
+        "type": "boolean",
+        "description": "Whether the policy that triggered this event is enabled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NotifiedOriginalRecipients",
+        "type": "boolean",
+        "description": "Whether the original email recipients were notified about this policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminRecipients",
+        "type": "dynamic",
+        "description": "Array of admin email addresses notified about this policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  },
+  "AgariAPDTCLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the message (UUID)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "To",
+        "type": "string",
+        "description": "Recipient email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "From",
+        "type": "string",
+        "description": "Sender email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FromDomain",
+        "type": "string",
+        "description": "Domain of the sender email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackTypes",
+        "type": "dynamic",
+        "description": "Array of detected attack types (e.g. phishing, credential_theft)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimestampMs",
+        "type": "long",
+        "description": "Timestamp in milliseconds when the message was processed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageDate",
+        "type": "datetime",
+        "description": "Date and time the message was received",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "IP address of the sending mail server",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sbrs",
+        "type": "string",
+        "description": "SenderBase Reputation Score of the sending IP",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainReputation",
+        "type": "int",
+        "description": "Reputation score of the sending domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyIds",
+        "type": "dynamic",
+        "description": "Array of policy IDs that matched this message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainTags",
+        "type": "dynamic",
+        "description": "Array of tags applied to the sending domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAttachment",
+        "type": "boolean",
+        "description": "Whether the message has attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageDetailsLink",
+        "type": "string",
+        "description": "URL to view the message details in the Agari console",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentSha256",
+        "type": "dynamic",
+        "description": "Array of SHA-256 hashes of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentExtensions",
+        "type": "dynamic",
+        "description": "Array of file extensions of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentFilenames",
+        "type": "dynamic",
+        "description": "Array of filenames of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  },
+  "AgariAPRInvestigationsLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the investigation attachment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filename",
+        "type": "string",
+        "description": "Original filename of the attachment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentType",
+        "type": "string",
+        "description": "MIME content type of the attachment (e.g. application/pdf, message/rfc822)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Size",
+        "type": "long",
+        "description": "File size of the attachment in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "SHA-256 hash of the attachment for threat intelligence correlation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the attachment was added to the investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentType",
+        "type": "string",
+        "description": "Category of attachment (e.g. screenshot, email_source, pcap)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Url",
+        "type": "string",
+        "description": "URL to download the attachment from the Agari console",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  },
+  "AgariBPAlertsLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "Type of alert (e.g., authentication_spike, phishing)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastNotifiedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last notified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResolvedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was resolved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last updated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "string",
+        "description": "Human-readable summary of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "Domain associated with the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SpfFailHosts",
+        "type": "dynamic",
+        "description": "Array of hosts with SPF authentication failures",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DkimFailHosts",
+        "type": "dynamic",
+        "description": "Array of hosts with DKIM authentication failures",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Links",
+        "type": "dynamic",
+        "description": "Related API links for failure stats and samples",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  },
+  "AgariBPThreatFeedSubs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the threat feed submission",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uri",
+        "type": "string",
+        "description": "URL IoC extracted from the threat feed submission",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the submission was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatFeedId",
+        "type": "long",
+        "description": "Identifier of the parent threat feed",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  },
   "AliCloudActionTrailLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [

@@ -1,0 +1,88 @@
+{
+  "AgariAPDPolicyLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertDefinitionName",
+        "type": "string",
+        "description": "Name of the alert definition associated with the policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the policy event was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the policy event was last updated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "boolean",
+        "description": "Policy Event Summary flag",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyAction",
+        "type": "string",
+        "description": "Action taken by the policy (deliver, mark-spam, move, inbox, delete, none)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyEnabled",
+        "type": "boolean",
+        "description": "Whether the policy that triggered this event is enabled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NotifiedOriginalRecipients",
+        "type": "boolean",
+        "description": "Whether the original email recipients were notified about this policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminRecipients",
+        "type": "dynamic",
+        "description": "Array of admin email addresses notified about this policy event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "AgariBPThreatFeedSubs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the threat feed submission",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uri",
+        "type": "string",
+        "description": "URL IoC extracted from the threat feed submission",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the submission was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatFeedId",
+        "type": "long",
+        "description": "Identifier of the parent threat feed",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  }
+}

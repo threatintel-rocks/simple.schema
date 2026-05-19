@@ -1,0 +1,80 @@
+{
+  "AgariAPRInvestigationsLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the investigation attachment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filename",
+        "type": "string",
+        "description": "Original filename of the attachment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentType",
+        "type": "string",
+        "description": "MIME content type of the attachment (e.g. application/pdf, message/rfc822)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Size",
+        "type": "long",
+        "description": "File size of the attachment in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "SHA-256 hash of the attachment for threat intelligence correlation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the attachment was added to the investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentType",
+        "type": "string",
+        "description": "Category of attachment (e.g. screenshot, email_source, pcap)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Url",
+        "type": "string",
+        "description": "URL to download the attachment from the Agari console",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  }
+}

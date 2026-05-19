@@ -1,0 +1,160 @@
+{
+  "AgariAPDTCLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the message (UUID)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "To",
+        "type": "string",
+        "description": "Recipient email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "From",
+        "type": "string",
+        "description": "Sender email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FromDomain",
+        "type": "string",
+        "description": "Domain of the sender email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackTypes",
+        "type": "dynamic",
+        "description": "Array of detected attack types (e.g. phishing, credential_theft)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimestampMs",
+        "type": "long",
+        "description": "Timestamp in milliseconds when the message was processed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageDate",
+        "type": "datetime",
+        "description": "Date and time the message was received",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "IP address of the sending mail server",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sbrs",
+        "type": "string",
+        "description": "SenderBase Reputation Score of the sending IP",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainReputation",
+        "type": "int",
+        "description": "Reputation score of the sending domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyIds",
+        "type": "dynamic",
+        "description": "Array of policy IDs that matched this message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainTags",
+        "type": "dynamic",
+        "description": "Array of tags applied to the sending domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAttachment",
+        "type": "boolean",
+        "description": "Whether the message has attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageDetailsLink",
+        "type": "string",
+        "description": "URL to view the message details in the Agari console",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentSha256",
+        "type": "dynamic",
+        "description": "Array of SHA-256 hashes of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentExtensions",
+        "type": "dynamic",
+        "description": "Array of file extensions of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentFilenames",
+        "type": "dynamic",
+        "description": "Array of filenames of message attachments",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  }
+}

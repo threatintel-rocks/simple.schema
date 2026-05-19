@@ -1,0 +1,104 @@
+{
+  "AgariBPAlertsLog_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "long",
+        "description": "Unique identifier for the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "Type of alert (e.g., authentication_spike, phishing)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastNotifiedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last notified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResolvedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was resolved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last updated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "string",
+        "description": "Human-readable summary of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "Domain associated with the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SpfFailHosts",
+        "type": "dynamic",
+        "description": "Array of hosts with SPF authentication failures",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DkimFailHosts",
+        "type": "dynamic",
+        "description": "Array of hosts with DKIM authentication failures",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Links",
+        "type": "dynamic",
+        "description": "Related API links for failure stats and samples",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Agari"
+  }
+}

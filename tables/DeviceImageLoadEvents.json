@@ -8,8 +8,7 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -26,8 +24,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -35,8 +32,7 @@
         "description": "Type of activity that triggered the event. See the [in-portal schema reference](advanced-hunting-schema-tables.md?#get-schema-information-in-the-security-center) for details.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileName",
@@ -44,8 +40,7 @@
         "description": "Name of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FolderPath",
@@ -53,8 +48,7 @@
         "description": "Folder containing the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SHA1",
@@ -62,8 +56,7 @@
         "description": "SHA-1 of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SHA256",
@@ -71,8 +64,7 @@
         "description": "SHA-256 of the file that the recorded action was applied to. This field is usually not populated — use the SHA1 column when available.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MD5",
@@ -80,8 +72,7 @@
         "description": "MD5 hash of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FileSize",
@@ -89,8 +80,7 @@
         "description": "Size of the file in bytes",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessAccountDomain",
@@ -98,8 +88,7 @@
         "description": "Domain of the account that ran the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessAccountName",
@@ -107,8 +96,7 @@
         "description": "User name of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID user name of the account that ran the process responsible for the event might be shown instead",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessAccountSid",
@@ -116,8 +104,7 @@
         "description": "Security Identifier (SID) of the account that ran the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessAccountUpn",
@@ -125,8 +112,7 @@
         "description": "User principal name (UPN) of the account that ran the process responsible for the event; if the device is registered in Microsoft Entra ID, the Entra ID UPN of the account that ran the process responsible for the event might be shown instead",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessAccountObjectId",
@@ -134,8 +120,7 @@
         "description": "Microsoft Entra object ID of the user account that ran the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessIntegrityLevel",
@@ -143,8 +128,7 @@
         "description": "Integrity level of the process that initiated the event. Windows assigns integrity levels to processes based on certain characteristics, such as if they were launched from an internet download. These integrity levels influence permissions to resources.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessTokenElevation",
@@ -152,8 +136,7 @@
         "description": "Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessSHA1",
@@ -161,8 +144,7 @@
         "description": "SHA-1 of the process (image file) that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessSHA256",
@@ -170,8 +152,7 @@
         "description": "SHA-256 of the process (image file) that initiated the event. This field is usually not populated — use the SHA1 column when available.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessMD5",
@@ -179,8 +160,7 @@
         "description": "MD5 hash of the process (image file) that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessFileName",
@@ -188,8 +168,7 @@
         "description": "Name of the process file that initiated the event; if unavailable, the name of the process that initiated the event might be shown instead",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessFileSize",
@@ -197,8 +176,7 @@
         "description": "Size of the file that ran the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoCompanyName",
@@ -206,8 +184,7 @@
         "description": "Company name from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoProductName",
@@ -215,8 +192,7 @@
         "description": "Product name from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoProductVersion",
@@ -224,8 +200,7 @@
         "description": "Product version from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoInternalFileName",
@@ -233,8 +208,7 @@
         "description": "Internal file name from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoOriginalFileName",
@@ -242,8 +216,7 @@
         "description": "Original file name from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessVersionInfoFileDescription",
@@ -251,8 +224,7 @@
         "description": "Description from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessId",
@@ -260,8 +232,7 @@
         "description": "Process ID (PID) of the process that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessCommandLine",
@@ -269,8 +240,7 @@
         "description": "Command line used to run the process that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessCreationTime",
@@ -278,8 +248,7 @@
         "description": "Date and time when the process that initiated the event was started",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessFolderPath",
@@ -287,8 +256,7 @@
         "description": "Folder containing the process (image file) that initiated the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessParentId",
@@ -296,8 +264,7 @@
         "description": "Process ID (PID) of the parent process that spawned the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessParentFileName",
@@ -305,8 +272,7 @@
         "description": "Name of the parent process that spawned the process responsible for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessParentCreationTime",
@@ -314,8 +280,7 @@
         "description": "Date and time when the parent of the process responsible for the event was started",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -323,8 +288,7 @@
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppGuardContainerId",
@@ -332,8 +296,7 @@
         "description": "Identifier for the virtualized container used by Application Guard to isolate browser activity",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessSessionId",
@@ -341,8 +304,7 @@
         "description": "Windows session ID of the initiating process",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsInitiatingProcessRemoteSession",
@@ -350,8 +312,7 @@
         "description": "Indicates whether the initiating process was run under a remote desktop protocol (RDP) session (true) or locally (false)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessRemoteSessionDeviceName",
@@ -359,8 +320,7 @@
         "description": "Device name of the remote device from which the initiating process's RDP session was initiated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InitiatingProcessRemoteSessionIP",
@@ -368,8 +328,7 @@
         "description": "IP address of the remote device from which the initiating process's RDP session was initiated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessUniqueId",
@@ -377,8 +336,7 @@
         "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "InitiatingProcessUniqueId",
@@ -386,40 +344,8 @@
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
