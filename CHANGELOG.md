@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-20 06:45 UTC
+
+**Tables added** (1)
+
+- `IllumioInsightsGraph_CL` (35 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-05-19 06:44 UTC
 
 **Tables added** (5)
