@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-21 06:47 UTC
+
+**Tables removed** (1)
+
+- `OpenAIChatCompletions_CL`
+
+
 ### 2026-05-20 06:45 UTC
 
 **Tables added** (1)
