@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "DnssecOkBit",
@@ -17,8 +16,7 @@
         "description": "A flag indicating that the resolver supports DNSSEC records.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EDNS0BufferSize",
@@ -26,8 +24,7 @@
         "description": "Client's EDNS0 buffer size. Specifies the maximum packet size allowed in responses in bytes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ErrorMessage",
@@ -35,8 +32,7 @@
         "description": "Description of the error returned to the client. Empty if request is successful.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ErrorNumber",
@@ -44,8 +40,7 @@
         "description": "Error number matching the returned response code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -53,8 +48,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Protocol",
@@ -62,8 +56,7 @@
         "description": "Protocol used to send the DNS query. For example: TCP, UDP.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryClass",
@@ -71,8 +64,7 @@
         "description": "DNS query's query class.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryId",
@@ -80,8 +72,7 @@
         "description": "DNS query's query ID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryName",
@@ -89,8 +80,7 @@
         "description": "DNS query's name to resolve.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryType",
@@ -98,8 +88,7 @@
         "description": "DNS query's query type.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestDurationSecs",
@@ -107,8 +96,7 @@
         "description": "Duration of the DNS request from the time it arrived to the firewall and until a response was sent to the client.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestSize",
@@ -116,8 +104,7 @@
         "description": "The size of the DNS request in bytes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -125,8 +112,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseCode",
@@ -134,8 +120,7 @@
         "description": "DNS reponse code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseFlags",
@@ -143,8 +128,7 @@
         "description": "DNS reponse flags, comma separated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSize",
@@ -152,8 +136,7 @@
         "description": "DNS reponse syze in bytes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceIp",
@@ -161,8 +144,7 @@
         "description": "DNS query's source IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourcePort",
@@ -170,8 +152,7 @@
         "description": "DNS query's source Port.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -179,8 +160,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -188,8 +168,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "TenantId",
@@ -197,8 +176,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -206,8 +184,7 @@
         "description": "Timestamp (UTC) when the data plane log was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -215,10 +192,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
