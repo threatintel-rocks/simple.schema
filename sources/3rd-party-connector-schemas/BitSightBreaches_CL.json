@@ -1,0 +1,120 @@
+{
+  "BitSightBreaches_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company that experienced the breach (enriched).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company that experienced the breach (enriched).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Guid",
+        "type": "string",
+        "description": "Unique identifier of the breach event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BreachDate",
+        "type": "string",
+        "description": "Date the breach event was recorded (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateCreated",
+        "type": "string",
+        "description": "Date this breach record was created in BitSight.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Text",
+        "type": "string",
+        "description": "Description of the breach event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviewUrl",
+        "type": "string",
+        "description": "URL to a preview article about the breach.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Breach event category (e.g., Human Error, Hacking).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTypeDescription",
+        "type": "string",
+        "description": "Detailed description of the breach event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "Numeric severity level of the breach.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BreachedCompanies",
+        "type": "dynamic",
+        "description": "Array of companies directly affected by the breach.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DependentCompanies",
+        "type": "dynamic",
+        "description": "Array of dependent companies impacted by this breach.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name assigned during connector setup.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "BitSightAlerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Guid",
+        "type": "string",
+        "description": "Unique identifier of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "The type of alert (e.g., THIRD_PARTY_INTEL).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertDate",
+        "type": "string",
+        "description": "The date the alert was triggered (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartDate",
+        "type": "string",
+        "description": "The start date of the alert (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyUrl",
+        "type": "string",
+        "description": "URL of the company associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FolderGuid",
+        "type": "string",
+        "description": "Folder GUID associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FolderName",
+        "type": "string",
+        "description": "Folder name associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Alert severity level (e.g., INFORMATIONAL).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Trigger",
+        "type": "string",
+        "description": "What triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertSetName",
+        "type": "string",
+        "description": "Name of the alert set.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertSetGuid",
+        "type": "string",
+        "description": "GUID of the alert set.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name assigned during connector setup.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

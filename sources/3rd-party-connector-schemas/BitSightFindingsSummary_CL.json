@@ -1,0 +1,64 @@
+{
+  "BitSightFindingsSummary_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company associated with the findings summary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company associated with the findings summary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartDate",
+        "type": "string",
+        "description": "Start date of the reporting period (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndDate",
+        "type": "string",
+        "description": "End date of the reporting period (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Stats",
+        "type": "dynamic",
+        "description": "Array of per-stat objects. Expanded row-per-stat at query time by the KQL parser via mv-expand into Name, StatId, Confidence, EventCount, HostCount, FirstSeen columns.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

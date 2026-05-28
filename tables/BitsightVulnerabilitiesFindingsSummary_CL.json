@@ -1,0 +1,56 @@
+{
+  "BitsightVulnerabilitiesFindingsSummary_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Slug identifier for the vulnerability type (e.g., 'patching_cadence').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "Human-readable name of the vulnerability type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of what the vulnerability type measures.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity level of the vulnerability type (e.g., 'high', 'medium', 'low').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

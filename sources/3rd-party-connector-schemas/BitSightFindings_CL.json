@@ -1,0 +1,256 @@
+{
+  "BitSightFindings_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemporaryId",
+        "type": "string",
+        "description": "The temporary identifier for a finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company associated with the finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company associated with the finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskCategory",
+        "type": "string",
+        "description": "The risk category (e.g., Diligence, Compromised Systems, User Behavior).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVector",
+        "type": "string",
+        "description": "The risk vector slug for this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVectorLabel",
+        "type": "string",
+        "description": "Human-readable label for the risk vector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityCategory",
+        "type": "string",
+        "description": "Severity category (MINOR, MODERATE, MATERIAL, SEVERE).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "real",
+        "description": "Numeric severity score.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "string",
+        "description": "Date the finding was first observed (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "string",
+        "description": "Date the finding was most recently observed (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentlyActive",
+        "type": "boolean",
+        "description": "Indicates if the finding is currently active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetCategory",
+        "type": "string",
+        "description": "Category of the affected asset.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assets",
+        "type": "dynamic",
+        "description": "Array of assets associated with this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Detailed finding data object (CVE info, diligence annotations, remediations, etc.).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EvidenceKey",
+        "type": "string",
+        "description": "Key identifying the source of evidence for the finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttributedCompanies",
+        "type": "dynamic",
+        "description": "Array of companies to which this finding has been attributed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationHistory",
+        "type": "dynamic",
+        "description": "Remediation history object (last_requested_refresh_date, last_refresh_status, etc.).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AffectsRating",
+        "type": "boolean",
+        "description": "Indicates whether this finding contributes to the company's overall rating.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "dynamic",
+        "description": "Array of analyst comments attached to this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Duration",
+        "type": "int",
+        "description": "Number of days the finding has been active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GracePeriodEndDate",
+        "type": "string",
+        "description": "Date until which the finding is in a grace period and does not affect the rating (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GuestNetworkEndDate",
+        "type": "string",
+        "description": "Date until which the finding is suppressed as a guest network (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImpactsRiskVectorDetails",
+        "type": "dynamic",
+        "description": "Object describing which risk vectors are impacted by this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NoRvGradeImpactEndDate",
+        "type": "string",
+        "description": "Date until which the finding has no risk vector grade impact (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedFindings",
+        "type": "dynamic",
+        "description": "Array of finding identifiers related to this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemainingDecay",
+        "type": "int",
+        "description": "Number of days remaining in the finding's decay window.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Remediated",
+        "type": "boolean",
+        "description": "Indicates whether this finding has been remediated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RolledupObservationId",
+        "type": "string",
+        "description": "Identifier of the rolled-up observation this finding belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Array of tags applied to this finding.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name assigned during connector setup.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

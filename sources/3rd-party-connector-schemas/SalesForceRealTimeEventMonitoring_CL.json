@@ -1,0 +1,1536 @@
+{
+  "SalesForceRealTimeEventMonitoring_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of event, used to filter logs (e.g., LoginEvent, UriEvent).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDate",
+        "type": "datetime",
+        "description": "The time when the specified event was captured.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventIdentifier",
+        "type": "string",
+        "description": "The unique ID of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "The origin user's unique ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginKey",
+        "type": "string",
+        "description": "The string that ties together all events in a given user's login session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionKey",
+        "type": "string",
+        "description": "The user's unique session ID. Use this value to identify all user events within a session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "The source IP address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EvaluationTime",
+        "type": "real",
+        "description": "The amount of time it took to evaluate the policy in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "The ID of the transaction policy associated with this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyOutcome",
+        "type": "string",
+        "description": "The result of the transaction policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionLevel",
+        "type": "string",
+        "description": "Session-level security that controls user access to features such as connected apps and reporting.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedEventIdentifier",
+        "type": "string",
+        "description": "The EventIdentifier of the related event for multi-factor authentication flows.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginHistoryId",
+        "type": "string",
+        "description": "Tracks a user session so you can correlate user activity with a particular login instance.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedDate",
+        "type": "datetime",
+        "description": "The date and time when the event record was created in Salesforce.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventUuid",
+        "type": "string",
+        "description": "The universally unique identifier (UUID) of the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReplayId",
+        "type": "string",
+        "description": "The replay ID used to resume event streaming from a specific point in the event stream.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedById",
+        "type": "string",
+        "description": "The ID of the user who created the event record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastReferencedDate",
+        "type": "datetime",
+        "description": "The timestamp for when the current user last viewed a record related to this record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastViewedDate",
+        "type": "datetime",
+        "description": "The timestamp for when the current user last viewed this record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueriedEntities",
+        "type": "string",
+        "description": "The type of entities associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Score",
+        "type": "real",
+        "description": "A number representing the anomaly score for the activity tracked by this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Summary",
+        "type": "string",
+        "description": "A text summary of the threat that caused this event to be created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "description": "The operation being performed on the entity (e.g., Read, Create, Update, Delete).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityEventData",
+        "type": "string",
+        "description": "The set of browser fingerprint features about the anomaly that triggered this event, in JSON format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RowsProcessed",
+        "type": "real",
+        "description": "Total row count for the current operation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The user agent used in the HTTP request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserType",
+        "type": "string",
+        "description": "The category of user license (e.g., Standard, Guest, CspLitePortal).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "The application used to access the org.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginType",
+        "type": "string",
+        "description": "The type of login used to access the session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The display name of the entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Platform",
+        "type": "string",
+        "description": "The operating system name and version used during the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Records",
+        "type": "dynamic",
+        "description": "A JSON string that represents the queried data records.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionName",
+        "type": "string",
+        "description": "The name of the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalInfo",
+        "type": "string",
+        "description": "JSON serialization of additional information captured from the HTTP headers.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnomalySubType",
+        "type": "string",
+        "description": "The sub-type of the anomaly event, indicating the specific anomaly category detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiType",
+        "type": "string",
+        "description": "The type of API used (e.g., SOAP Enterprise, SOAP Partner, REST, Bulk).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "The name of the application that the user accessed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BotId",
+        "type": "string",
+        "description": "The ID of the bot.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BotSessionIdentifier",
+        "type": "string",
+        "description": "The bot session ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Browser",
+        "type": "string",
+        "description": "The browser name and version if known (e.g., Chrome 77, Firefox, Safari).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "City",
+        "type": "string",
+        "description": "The city where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ColumnHeaders",
+        "type": "string",
+        "description": "Comma-separated values of column headers (API names, not UI labels).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Country",
+        "type": "string",
+        "description": "The country where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryIso",
+        "type": "string",
+        "description": "The ISO 3166 code for the country where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSource",
+        "type": "string",
+        "description": "The source of the event (e.g., API, Classic, Lightning).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutionIdentifier",
+        "type": "string",
+        "description": "Unique identifier to correlate multiple data chunks from a single execution.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginUrl",
+        "type": "string",
+        "description": "The URL of the login page.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumberOfColumns",
+        "type": "int",
+        "description": "The number of columns in the list view or report.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OwnerId",
+        "type": "string",
+        "description": "The ID of the org or user who owns the record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlannerId",
+        "type": "string",
+        "description": "The ID of the agent planner.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PostalCode",
+        "type": "string",
+        "description": "The postal code where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Query",
+        "type": "string",
+        "description": "The SOQL query.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordId",
+        "type": "string",
+        "description": "The ID of the record being viewed or edited.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestIdentifier",
+        "type": "string",
+        "description": "The unique ID of a single transaction.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Scope",
+        "type": "string",
+        "description": "Defines the scope of the data (e.g., user, team, organization).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sequence",
+        "type": "int",
+        "description": "Incremental sequence number that indicates the order of multiple correlated events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subdivision",
+        "type": "string",
+        "description": "The name of the subdivision where the user's IP address is physically located (e.g., state).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AcceptLanguage",
+        "type": "string",
+        "description": "List of HTTP Headers that specify the natural language the client understands.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Activity",
+        "type": "string",
+        "description": "The action the user attempted that requires identity verification.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiAnomalyEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the API anomaly event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiVersionNumber",
+        "type": "real",
+        "description": "The numeric version of the API.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiVersion",
+        "type": "string",
+        "description": "The API version string. If no version number is available, Unknown is returned.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "The ID of the app provider seeking authentication.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthMethodReference",
+        "type": "string",
+        "description": "The authentication method used by a third-party identification provider for OpenID Connect SSO.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthServiceId",
+        "type": "string",
+        "description": "The 18-character ID for an authentication service for a login event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthSessionId",
+        "type": "string",
+        "description": "The ID of the authentication session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CanDownloadPdf",
+        "type": "boolean",
+        "description": "Indicates whether the downloaded PDF was converted from another file type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CipherSuite",
+        "type": "string",
+        "description": "The TLS cipher suite used for the login.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Client",
+        "type": "string",
+        "description": "The service that executed the API event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientVersion",
+        "type": "string",
+        "description": "The version number of the login client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectedAppId",
+        "type": "string",
+        "description": "The 15-character ID of the connected app associated with the API call.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionType",
+        "type": "string",
+        "description": "The type of connection (e.g., CDMA, WIFI, LTE).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentSize",
+        "type": "int",
+        "description": "The size of the document in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CredentialStuffingEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the credential stuffing event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentIp",
+        "type": "string",
+        "description": "The IP address of the newly observed fingerprint that deviates from the previous one.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentPlatform",
+        "type": "string",
+        "description": "The platform of the newly observed fingerprint that deviates from the previous one.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentScreen",
+        "type": "string",
+        "description": "The screen of the newly observed fingerprint that deviates from the previous one.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentUserAgent",
+        "type": "string",
+        "description": "The user agent of the newly observed fingerprint that deviates from the previous one.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentWindow",
+        "type": "string",
+        "description": "The browser window of the newly observed fingerprint that deviates from the previous one.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardId",
+        "type": "string",
+        "description": "The ID of the dashboard that the report was part of.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardName",
+        "type": "string",
+        "description": "The title of the dashboard that the report was part of.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DelegatedOrganizationId",
+        "type": "string",
+        "description": "Organization ID of the admin who logs in as another user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DelegatedUsername",
+        "type": "string",
+        "description": "Username of the admin who logs in as another user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "The description of the report.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeveloperName",
+        "type": "string",
+        "description": "The unique name of the object in the API.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "The unique identifier used to identify a device when tracking events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceModel",
+        "type": "string",
+        "description": "The name of the device model.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicePlatform",
+        "type": "string",
+        "description": "The type of application experience in name:experience:form format.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceSessionId",
+        "type": "string",
+        "description": "The unique identifier of the user's session based on page load time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayedFieldEntities",
+        "type": "string",
+        "description": "The API values of the fields displayed on the report, including grouped column entity names.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DocumentId",
+        "type": "string",
+        "description": "The 18-character ID of the document being downloaded.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Duration",
+        "type": "real",
+        "description": "The duration in milliseconds since the page start time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectivePageTime",
+        "type": "real",
+        "description": "The time in milliseconds for the page to load before a user could interact with it.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectivePageTimeDeviationErrorType",
+        "type": "string",
+        "description": "Indicates the origin of an error when the page has a loading deviation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectivePageTimeDeviationReason",
+        "type": "string",
+        "description": "The reason for deviation in page loading time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElapsedTime",
+        "type": "int",
+        "description": "The amount of time it took for the request to complete in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ErrorCode",
+        "type": "string",
+        "description": "The error code for the authentication issue.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventGroup",
+        "type": "string",
+        "description": "ID of the verification attempt; multiple attempts in a session share the same ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSourceDetail",
+        "type": "string",
+        "description": "The source of the event providing additional detail beyond EventSource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExportFileFormat",
+        "type": "string",
+        "description": "The format of the exported report (e.g., CSV, Excel).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeatureContribution",
+        "type": "real",
+        "description": "A percentage representing how much the feature contributed to the anomaly score.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeatureName",
+        "type": "string",
+        "description": "The name of the feature that contributed to the anomaly score.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeatureValue",
+        "type": "real",
+        "description": "The value of the feature that contributed to the anomaly score.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileAction",
+        "type": "string",
+        "description": "The action taken on the file (e.g., API_DOWNLOAD, PREVIEW, UI_DOWNLOAD, UPLOAD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "The name of the file including the file extension.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSource",
+        "type": "string",
+        "description": "Origin of the document (S=Salesforce, E=External, L=Social Customer Service).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileType",
+        "type": "string",
+        "description": "The content type of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilterCriteria",
+        "type": "dynamic",
+        "description": "A JSON string that represents the filter criteria at the time the event was captured.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Format",
+        "type": "string",
+        "description": "The format of the report (e.g., Matrix, MultiBlock, Summary, Tabular).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ForwardedForIp",
+        "type": "string",
+        "description": "The value in the X-Forwarded-For header of HTTP requests sent by the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupedColumnHeaders",
+        "type": "string",
+        "description": "Comma-separated values of grouped column fields in summary, matrix, and joined reports.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GuestUserAnomalyEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the guest user anomaly event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasEffectivePageTimeDeviation",
+        "type": "boolean",
+        "description": "Indicates when a deviation is detected in effective page time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasExternalUsers",
+        "type": "boolean",
+        "description": "Indicates whether external users are impacted by the operation that triggered a permission change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasLogoutUrl",
+        "type": "boolean",
+        "description": "Indicates whether a logout URL has been assigned to the app.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpMethod",
+        "type": "string",
+        "description": "The HTTP method of the login request (e.g., GET, POST).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpReferer",
+        "type": "string",
+        "description": "The referring URI of the page receiving the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SalesforceObjectId",
+        "type": "string",
+        "description": "The Salesforce record ID of the event store object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityUsed",
+        "type": "string",
+        "description": "The identity (username) of the user being authenticated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImpactedUserIds",
+        "type": "dynamic",
+        "description": "A list of IDs of the users affected by the event. Maximum of 1,000 user IDs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InitiatedBy",
+        "type": "string",
+        "description": "The code describing how the authentication request was initiated (e.g., IdP, SP, OauthAuthorize).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsLatestVersion",
+        "type": "boolean",
+        "description": "Indicates whether the file is the most current version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsScheduled",
+        "type": "boolean",
+        "description": "Indicates whether the report was scheduled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Latitude",
+        "type": "real",
+        "description": "The latitude where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ListViewId",
+        "type": "string",
+        "description": "The ID of the list view associated with this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginAnomalyEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the login anomaly event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginAsCategory",
+        "type": "string",
+        "description": "Represents how the user logs in as another user (e.g., OrgAdmin, Community).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginAccessChangeExpDate",
+        "type": "datetime",
+        "description": "The expiration date of the login access change granted to another user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginAccessChangeGranteeName",
+        "type": "string",
+        "description": "The name of the user or entity granted login access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginAccessChangeGranteeType",
+        "type": "string",
+        "description": "The type of the grantee for login access (e.g., Admin, Support).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginGeoId",
+        "type": "string",
+        "description": "The Salesforce ID of the LoginGeo object associated with the login user's IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginLatitude",
+        "type": "real",
+        "description": "The latitude where the user's IP address is physically located during login.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginLongitude",
+        "type": "real",
+        "description": "The longitude where the user's IP address is physically located during login.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginSubType",
+        "type": "string",
+        "description": "The type of login flow used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Longitude",
+        "type": "real",
+        "description": "The longitude where the user's IP address is physically located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "The failure message if the operation failed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "The ID of the Experience Cloud site that the user is logging in to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationDetail",
+        "type": "string",
+        "description": "The type of operation that triggers a permission change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationStatus",
+        "type": "string",
+        "description": "Whether the operation performed on the entity succeeded or failed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrderBy",
+        "type": "string",
+        "description": "The column that the list view is sorted by.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsName",
+        "type": "string",
+        "description": "The operating system name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "The operating system version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageStartTime",
+        "type": "datetime",
+        "description": "The time when the page was initially loaded.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PageUrl",
+        "type": "string",
+        "description": "Relative URL of the top-level Lightning Experience or Salesforce mobile app page.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentIdList",
+        "type": "dynamic",
+        "description": "The IDs of the affected permission sets or permission set groups.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentNameList",
+        "type": "dynamic",
+        "description": "The names of the affected permission sets or permission set groups.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PermissionExpiration",
+        "type": "datetime",
+        "description": "The timestamp when the permission change expires.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PermissionExpirationList",
+        "type": "dynamic",
+        "description": "Timestamps specifying when added permissions will be revoked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PermissionList",
+        "type": "dynamic",
+        "description": "The list of permissions that are enabled or disabled in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PermissionType",
+        "type": "string",
+        "description": "The type of permission updated in the event (e.g., ObjectPermission, UserPermission).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Policy",
+        "type": "string",
+        "description": "The identity verification security policy or setting.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousIp",
+        "type": "string",
+        "description": "The IP address of the previous fingerprint before the deviation was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPageAppName",
+        "type": "string",
+        "description": "The internal name of the previous application accessed from the App Launcher.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPageEntityId",
+        "type": "string",
+        "description": "The unique previous page entity identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPageEntityType",
+        "type": "string",
+        "description": "The previous page entity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPageUrl",
+        "type": "string",
+        "description": "The relative URL of the previous Lightning Experience or Salesforce mobile app page.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPlatform",
+        "type": "string",
+        "description": "The platform of the previous fingerprint before the deviation was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousScreen",
+        "type": "string",
+        "description": "The screen of the previous fingerprint before the deviation was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousUserAgent",
+        "type": "string",
+        "description": "The user agent of the previous fingerprint before the deviation was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousWindow",
+        "type": "string",
+        "description": "The browser window of the previous fingerprint before the deviation was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessDuration",
+        "type": "real",
+        "description": "The amount of time to download the file in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Remarks",
+        "type": "string",
+        "description": "The text users see when prompted to verify their identity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemoteIdentifier",
+        "type": "string",
+        "description": "Reserved for future use.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Report",
+        "type": "string",
+        "description": "The report ID for which this anomaly event was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportAnomalyEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the report anomaly event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "The ID of the report associated with this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestedEntities",
+        "type": "string",
+        "description": "Objects queried by the guest user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SalesforceResourceId",
+        "type": "string",
+        "description": "The ID of the connected app resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RowsReturned",
+        "type": "real",
+        "description": "The number of rows of data returned in the current batch.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SamlEntityUrl",
+        "type": "string",
+        "description": "The authentication URL of the SAML provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkAppType",
+        "type": "string",
+        "description": "The mobile SDK application type (e.g., NATIVE, HYBRID, REACTNATIVE).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkAppVersion",
+        "type": "string",
+        "description": "The version of the mobile SDK the application uses.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SdkVersion",
+        "type": "string",
+        "description": "The mobile SDK application version number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionHijackingEventNumber",
+        "type": "string",
+        "description": "The unique number automatically assigned to the session hijacking event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SoqlCommands",
+        "type": "string",
+        "description": "SOQL commands run by the guest user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SsoType",
+        "type": "string",
+        "description": "The type of SSO (e.g., Oidc, Saml).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "The status of the login attempt or operation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StatusDetail",
+        "type": "string",
+        "description": "Additional status detail for the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetUrl",
+        "type": "string",
+        "description": "The URL redirected to after logging in as another user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TlsProtocol",
+        "type": "string",
+        "description": "The TLS protocol version used for the login (e.g., TLS 1.2, TLS 1.3).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalControllerEvents",
+        "type": "int",
+        "description": "The number of times controllers were triggered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uri",
+        "type": "string",
+        "description": "The URI of the page receiving the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UseApiToken",
+        "type": "string",
+        "description": "Indicates login with API Token - T token, or P password.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgentDetail",
+        "type": "string",
+        "description": "The type of client used to make the request as a string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserCount",
+        "type": "string",
+        "description": "The number of users affected by the event. Maximum value of 1,000.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserNameDetail",
+        "type": "string",
+        "description": "The username in user@company.com format at the time the event was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserTypeDetail",
+        "type": "string",
+        "description": "The category of user license for the user involved in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VerificationMethod",
+        "type": "string",
+        "description": "The method by which the user attempted to verify identity (e.g., Email, Sms, U2F, Totp).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VersionId",
+        "type": "string",
+        "description": "The specific version of a document in Salesforce CRM Content or Files.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VersionNumber",
+        "type": "string",
+        "description": "The version number of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Salesforce Service Cloud"
+  }
+}

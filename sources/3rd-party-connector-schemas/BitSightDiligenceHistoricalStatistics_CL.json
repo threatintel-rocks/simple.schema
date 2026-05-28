@@ -1,0 +1,64 @@
+{
+  "BitSightDiligenceHistoricalStatistics_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordDate",
+        "type": "string",
+        "description": "The date of the historical record (YYYY-MM-DD).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Grade",
+        "type": "string",
+        "description": "Letter grade for this record period.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Counts",
+        "type": "dynamic",
+        "description": "Array of per-category count objects ({ count, category }). Expanded row-per-category at query time by the KQL parser via mv-expand.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

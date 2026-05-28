@@ -1,0 +1,128 @@
+{
+  "BitSightCompanyRatingDetails_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVectorSlug",
+        "type": "string",
+        "description": "URL-friendly identifier for the risk vector (dict key — always null due to CCF JSONPath limitation; use RiskVectorLabel).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVectorLabel",
+        "type": "string",
+        "description": "Human-readable name of the risk vector (API field: name).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskCategory",
+        "type": "string",
+        "description": "Parent risk category for the risk vector (API field: category).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CategoryOrder",
+        "type": "int",
+        "description": "Display order of the category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rating",
+        "type": "int",
+        "description": "Numeric score for this risk vector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Grade",
+        "type": "string",
+        "description": "Letter grade for this risk vector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Percentile",
+        "type": "int",
+        "description": "Percentile rank compared to peers for this risk vector (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GradeColor",
+        "type": "string",
+        "description": "Hex color code associated with the grade for UI display (e.g., '#239563').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVectorOrder",
+        "type": "int",
+        "description": "Display order of the risk vector within its category.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayUrl",
+        "type": "string",
+        "description": "URL to the risk vector detail page in BitSight portal.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Beta",
+        "type": "boolean",
+        "description": "Indicates if this risk vector is in beta status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

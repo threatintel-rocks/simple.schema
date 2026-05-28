@@ -2,6 +2,27 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-28 06:49 UTC
+
+**Tables added** (15)
+
+- `BitSightAlerts_CL` (15 columns, source: 3rd-Party Connector Schemas)
+- `BitSightBreaches_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `BitSightCompanyDetails_CL` (43 columns, source: 3rd-Party Connector Schemas)
+- `BitSightCompanyRatingDetails_CL` (15 columns, source: 3rd-Party Connector Schemas)
+- `BitSightDiligenceHistoricalStatistics_CL` (7 columns, source: 3rd-Party Connector Schemas)
+- `BitSightDiligenceStatistics_CL` (16 columns, source: 3rd-Party Connector Schemas)
+- `BitSightFindingsSummary_CL` (7 columns, source: 3rd-Party Connector Schemas)
+- `BitSightFindings_CL` (31 columns, source: 3rd-Party Connector Schemas)
+- `BitSightObservationStatistics_CL` (8 columns, source: 3rd-Party Connector Schemas)
+- `BitsightIndustrialStatistics_CL` (8 columns, source: 3rd-Party Connector Schemas)
+- `BitsightVulnerabilitiesFindingsSummary_CL` (6 columns, source: 3rd-Party Connector Schemas)
+- `SalesForceRealTimeEventMonitoring_CL` (191 columns, source: 3rd-Party Connector Schemas)
+- `SonraiSecurityTickets_CL` (13 columns, source: 3rd-Party Connector Schemas)
+- `VMwareWorkspaceOneDeviceApps_CL` (10 columns, source: 3rd-Party Connector Schemas)
+- `VMwareWorkspaceOneDevices_CL` (30 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-05-26 06:42 UTC
 
 **Columns removed** (409)

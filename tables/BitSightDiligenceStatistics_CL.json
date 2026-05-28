@@ -1,0 +1,136 @@
+{
+  "BitSightDiligenceStatistics_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVector",
+        "type": "string",
+        "description": "Risk vector slug (dict key — always null due to CCF JSONPath limitation).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Unknown",
+        "type": "int",
+        "description": "Count of findings with unknown severity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Bad",
+        "type": "int",
+        "description": "Count of bad findings.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Warn",
+        "type": "int",
+        "description": "Count of warn findings.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Neutral",
+        "type": "int",
+        "description": "Count of neutral findings.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Fair",
+        "type": "int",
+        "description": "Count of fair findings.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Good",
+        "type": "int",
+        "description": "Count of good findings.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SpearPhishing",
+        "type": "int",
+        "description": "[domain_squatting] Count of spear-phishing lookalike domains.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BitFlip",
+        "type": "int",
+        "description": "[domain_squatting] Count of bit-flip lookalike domains.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TypographicalErrors",
+        "type": "int",
+        "description": "[domain_squatting] Count of typographical-error lookalike domains.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TldVariant",
+        "type": "int",
+        "description": "[domain_squatting] Count of TLD-variant lookalike domains.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalCount",
+        "type": "int",
+        "description": "[domain_squatting] Total count of all lookalike domain types.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

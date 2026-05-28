@@ -1,0 +1,352 @@
+{
+  "BitSightCompanyDetails_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Guid",
+        "type": "string",
+        "description": "Unique identifier (GUID) for the company in BitSight.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Shortname",
+        "type": "string",
+        "description": "Short name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyType",
+        "type": "string",
+        "description": "The type of entity (e.g., CURATED,PRIVATE).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrimaryDomain",
+        "type": "string",
+        "description": "Primary internet domain of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Homepage",
+        "type": "string",
+        "description": "URL of the company homepage.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayUrl",
+        "type": "string",
+        "description": "URL to the company overview page in BitSight portal.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sparkline",
+        "type": "string",
+        "description": "URL to the company rating sparkline image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Industry",
+        "type": "string",
+        "description": "Industry sector name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IndustrySlug",
+        "type": "string",
+        "description": "URL-friendly identifier for the industry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubIndustry",
+        "type": "string",
+        "description": "Sub-industry name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubIndustrySlug",
+        "type": "string",
+        "description": "URL-friendly identifier for the sub-industry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ipv4Count",
+        "type": "int",
+        "description": "Number of IPv4 addresses attributed to the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PeopleCount",
+        "type": "int",
+        "description": "Number of people associated with the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SearchCount",
+        "type": "int",
+        "description": "Number of searches for the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomerMonitoringCount",
+        "type": "int",
+        "description": "Number of customers monitoring this company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentRating",
+        "type": "int",
+        "description": "Current overall BitSight security rating.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RatingIndustryMedian",
+        "type": "string",
+        "description": "Comparison of company rating to industry median (e.g., above, below).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ratings",
+        "type": "dynamic",
+        "description": "Array of historical rating snapshots, each with rating_date, rating, range, and rating_color.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubscriptionType",
+        "type": "string",
+        "description": "Type of BitSight subscription (e.g., Continuous Monitoring).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubscriptionTypeKey",
+        "type": "string",
+        "description": "Machine-readable subscription type key.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubscriptionEndDate",
+        "type": "string",
+        "description": "Date the subscription ends (YYYY-MM-DD), or null.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BulkEmailSenderStatus",
+        "type": "string",
+        "description": "Bulk email sender classification (e.g., NONE).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityGrade",
+        "type": "string",
+        "description": "Security grade, if available.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProvider",
+        "type": "boolean",
+        "description": "Indicates whether this company is a service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasCompanyTree",
+        "type": "boolean",
+        "description": "Indicates whether the company has a company tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasPreferredContact",
+        "type": "boolean",
+        "description": "Indicates whether the company has a preferred contact.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBundle",
+        "type": "boolean",
+        "description": "Indicates whether this is a bundle entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsPrimary",
+        "type": "boolean",
+        "description": "Indicates whether this is the primary company record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InSpmPortfolio",
+        "type": "boolean",
+        "description": "Indicates whether the company is in the SPM portfolio.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsMycompMysubsBundle",
+        "type": "boolean",
+        "description": "Indicates whether this is a my-company/my-subsidiaries bundle.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsCsp",
+        "type": "boolean",
+        "description": "Indicates whether the company is a cloud service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasDelegatedSecurityControls",
+        "type": "boolean",
+        "description": "Indicates whether security controls have been delegated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomId",
+        "type": "dynamic",
+        "description": "Customer-assigned identifier for the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AvailableUpgradeTypes",
+        "type": "dynamic",
+        "description": "Array of available upgrade types for this company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyFeatures",
+        "type": "dynamic",
+        "description": "Array of feature flags enabled for the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedCompanies",
+        "type": "dynamic",
+        "description": "Array of related company references.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrimaryCompany",
+        "type": "dynamic",
+        "description": "Primary company object (guid, name), or null.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComplianceClaim",
+        "type": "dynamic",
+        "description": "Compliance claim object, or null.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Permissions",
+        "type": "dynamic",
+        "description": "Object of permission flags for this company (can_annotate, can_view_forensics, etc.).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}

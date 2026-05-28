@@ -1,0 +1,72 @@
+{
+  "BitSightObservationStatistics_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyName",
+        "type": "string",
+        "description": "Name of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompanyGuid",
+        "type": "string",
+        "description": "GUID of the company.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskVector",
+        "type": "string",
+        "description": "Risk vector slug (dict key — always null due to CCF JSONPath limitation).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObservationCount",
+        "type": "int",
+        "description": "Total number of observations for this risk vector in the measurement period.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountPeriod",
+        "type": "string",
+        "description": "Measurement period (e.g., 'year').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AverageDurationDays",
+        "type": "real",
+        "description": "Average duration in days for observations.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connection name identifier for multi-instance tracking.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "BitSight"
+  }
+}
