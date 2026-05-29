@@ -1,0 +1,303 @@
+{
+  "Rapid7InsightVMCloudAssets": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "AssessedForPolicies",
+        "type": "bool",
+        "description": "Whether an asset was assessed for policies",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssessedForVulnerabilities",
+        "type": "bool",
+        "description": "Whether an asset was assessed for vulnerabilities",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetType",
+        "type": "string",
+        "description": "The type of asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CredentialAssessments",
+        "type": "string",
+        "description": "The credential assessments for the asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CriticalVulnerabilities",
+        "type": "real",
+        "description": "The count of critical vulnerability findings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Exploits",
+        "type": "real",
+        "description": "The count of known unique exploits that can be used to exploit vulnerabilities on the asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The host name (local or FQDN)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The asset identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "The IPv4 or IPv6 address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastAssessedForVulnerabilities",
+        "type": "datetime",
+        "description": "The time at which an asset was assessed for vulnerabilities",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastScanEnd",
+        "type": "datetime",
+        "description": "The time at which the last scan of the asset ended",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastScanStart",
+        "type": "datetime",
+        "description": "The time at which the last scan of the asset started",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Mac",
+        "type": "string",
+        "description": "The Media Access Control (MAC) address with format specification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareKits",
+        "type": "real",
+        "description": "The count of known unique malware kits that can be used to attack vulnerabilities",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModerateVulnerabilities",
+        "type": "real",
+        "description": "The count of moderate vulnerability findings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "New",
+        "type": "string",
+        "description": "Vulnerabilities that are new in the latest version (when comparison time is supplied)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsArchitecture",
+        "type": "string",
+        "description": "The architecture of the operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsDescription",
+        "type": "string",
+        "description": "The description of the operating system (containing vendor, family, product, version and architecture)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsFamily",
+        "type": "string",
+        "description": "The family of the operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsName",
+        "type": "string",
+        "description": "The name of the operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsSystemName",
+        "type": "string",
+        "description": "A combination of vendor and family (with redundancies removed), suitable for grouping",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsType",
+        "type": "string",
+        "description": "The type of operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVendor",
+        "type": "string",
+        "description": "The vendor of the operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "The version of the operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Remediated",
+        "type": "string",
+        "description": "Vulnerabilities that were remediated in the latest version (when comparison time is supplied)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskScore",
+        "type": "real",
+        "description": "The risk score (with criticality adjustments) of the asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Same",
+        "type": "string",
+        "description": "Vulnerabilities that are the same between current and comparison time (when comparison time is supplied and includeSame is true)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SevereVulnerabilities",
+        "type": "real",
+        "description": "The count of severe vulnerability findings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "string",
+        "description": "The tags applied to the asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time the event was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalVulnerabilities",
+        "type": "real",
+        "description": "The total count of vulnerability findings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UniqueIdentifiers",
+        "type": "string",
+        "description": "Unique identifiers found on the asset, such as hardware or operating system identifiers",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  }
+}

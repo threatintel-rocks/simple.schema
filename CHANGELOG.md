@@ -2,6 +2,40 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-29 06:50 UTC
+
+**Tables added** (13)
+
+- `AirlockDigitalExecutionHistories_CL` (26 columns, source: 3rd-Party Connector Schemas)
+- `AirlockDigitalFileActivitySummary_CL` (17 columns, source: 3rd-Party Connector Schemas)
+- `AirlockDigitalServerActivities_CL` (6 columns, source: 3rd-Party Connector Schemas)
+- `GzSecurityEvents_CL` (0 columns, source: Sentinel Tables)
+- `HalcyonEvents_CL` (0 columns, source: Sentinel Tables)
+- `NordStellar_CL` (9 columns, source: 3rd-Party Connector Schemas)
+- `OpenAIAuditLogs` (0 columns, source: Sentinel Tables)
+- `Rapid7InsightVMCloudAssets` (37 columns, source: Sentinel Tables)
+- `Rapid7InsightVMCloudVulnerabilities` (49 columns, source: Sentinel Tables)
+- `SalesforceAuditTrail` (18 columns, source: Sentinel Tables)
+- `Tenable_IE_CL` (0 columns, source: Sentinel Tables)
+- `UpwindLogsAssets_CL` (0 columns, source: Sentinel Tables)
+- `blacklens_CL` (0 columns, source: Sentinel Tables)
+
+**Tables removed** (12)
+
+- `ContrastADRIncident_CL`
+- `ContrastADR_CL`
+- `HalcyonAuthenticationEvents_CL`
+- `HalcyonDnsActivity_CL`
+- `HalcyonFileActivity_CL`
+- `HalcyonNetworkSession_CL`
+- `HalcyonProcessEvent_CL`
+- `MailRiskEmails_CL`
+- `OktaV2_CL`
+- `SailPointIDN_Events_CL`
+- `SailPointIDN_Triggers_CL`
+- `SalesforceServiceCloudV2_CL`
+
+
 ### 2026-05-28 06:49 UTC
 
 **Tables added** (15)

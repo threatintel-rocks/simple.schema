@@ -1,0 +1,151 @@
+{
+  "SalesforceAuditTrail": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedByContext",
+        "type": "string",
+        "description": "The context in which the user made the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedByEmail",
+        "type": "string",
+        "description": "The email of the user who made the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedById",
+        "type": "string",
+        "description": "The ID of the user who made the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedByIssuer",
+        "type": "string",
+        "description": "The issuer of the user's identity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedByName",
+        "type": "string",
+        "description": "The name of the user who made the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedByUsername",
+        "type": "string",
+        "description": "The username of the user who made the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedDate",
+        "type": "datetime",
+        "description": "The date and time when the change was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DelegateUser",
+        "type": "string",
+        "description": "The user who delegated the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Display",
+        "type": "string",
+        "description": "A user-friendly display name for the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique identifier for the audit trail entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Section",
+        "type": "string",
+        "description": "The section of the Salesforce setup that was changed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  }
+}

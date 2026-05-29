@@ -1,6 +1,6 @@
 {
-  "RedSiftEmailForensics_CL": {
-    "source": "Sentinel Tables",
+  "AirlockDigitalExecutionHistories_CL": {
+    "source": "3rd-Party Connector Schemas",
     "columns": [
       {
         "name": "TimeGenerated",
@@ -11,226 +11,206 @@
         ]
       },
       {
-        "name": "EventTime",
-        "type": "datetime",
-        "description": "",
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ActivityId",
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Timestamp of execution event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutionType",
         "type": "int",
-        "description": "",
+        "description": "Execution type code (0-18): Trusted, Blocked, Audit, OTP, etc.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ActivityName",
+        "name": "Username",
         "type": "string",
-        "description": "",
+        "description": "User account that executed the file",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "CategoryUid",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CategoryName",
+        "name": "Hostname",
         "type": "string",
-        "description": "",
+        "description": "Host machine name where execution occurred",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ClassUid",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClassName",
+        "name": "NetDomain",
         "type": "string",
-        "description": "",
+        "description": "Network domain",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "TypeUid",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SeverityId",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Severity",
+        "name": "FileName",
         "type": "string",
-        "description": "",
+        "description": "Full path of the executed file",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Direction",
+        "name": "ParentPolicy",
         "type": "string",
-        "description": "",
+        "description": "Parent policy group name",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Message",
+        "name": "PolicyName",
         "type": "string",
-        "description": "",
+        "description": "Airlock policy name applied",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ProtocolName",
+        "name": "PolicyVersion",
         "type": "string",
-        "description": "",
+        "description": "Policy version identifier",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EmailFrom",
+        "name": "CommandLine",
         "type": "string",
-        "description": "",
+        "description": "Command line arguments",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EmailSubject",
+        "name": "Publisher",
         "type": "string",
-        "description": "",
+        "description": "Code signing publisher",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EmailReturnPath",
+        "name": "ParentProcess",
         "type": "string",
-        "description": "",
+        "description": "Parent process name",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EmailMessageUid",
+        "name": "GrandparentProcess",
         "type": "string",
-        "description": "",
+        "description": "Grandparent process name",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EmailUrls",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DkimResult",
+        "name": "SHA256",
         "type": "string",
-        "description": "",
+        "description": "SHA-256 file hash",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SpfResult",
+        "name": "MD5",
         "type": "string",
-        "description": "",
+        "description": "MD5 file hash",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SrcIp",
+        "name": "SHA128",
         "type": "string",
-        "description": "",
+        "description": "SHA-128 file hash",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "DstHostname",
+        "name": "SHA384",
         "type": "string",
-        "description": "",
+        "description": "SHA-384 file hash",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Enrichments",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Observables",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CorrelationUid",
+        "name": "SHA512",
         "type": "string",
-        "description": "",
+        "description": "SHA-512 file hash",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ProductName",
+        "name": "IPAddress",
         "type": "string",
-        "description": "",
+        "description": "IP address",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "LogName",
+        "name": "LocalIPAddress",
         "type": "string",
-        "description": "",
+        "description": "Local IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionId",
+        "type": "string",
+        "description": "Browser extension ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionName",
+        "type": "string",
+        "description": "Browser extension name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionType",
+        "type": "string",
+        "description": "Extension type (1=CRX, 2=XPI)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionBrowser",
+        "type": "string",
+        "description": "Browser type (1=Chrome, 2=Firefox, 3=Edge)",
         "availability": [
           "Sentinel"
         ]
       }
     ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
+    "solution": "AirlockDigital"
   }
 }

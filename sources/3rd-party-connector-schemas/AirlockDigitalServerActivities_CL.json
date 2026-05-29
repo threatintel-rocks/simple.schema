@@ -1,0 +1,56 @@
+{
+  "AirlockDigitalServerActivities_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Event timestamp (when server activity occurred)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Task",
+        "type": "string",
+        "description": "Type of server task performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "User associated with the task",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the server activity",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  }
+}

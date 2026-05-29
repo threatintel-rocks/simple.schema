@@ -1167,6 +1167,416 @@
     ],
     "solution": "Agari"
   },
+  "AirlockDigitalExecutionHistories_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Timestamp of execution event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutionType",
+        "type": "int",
+        "description": "Execution type code (0-18): Trusted, Blocked, Audit, OTP, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "User account that executed the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Host machine name where execution occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetDomain",
+        "type": "string",
+        "description": "Network domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "Full path of the executed file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentPolicy",
+        "type": "string",
+        "description": "Parent policy group name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyName",
+        "type": "string",
+        "description": "Airlock policy name applied",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyVersion",
+        "type": "string",
+        "description": "Policy version identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CommandLine",
+        "type": "string",
+        "description": "Command line arguments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Publisher",
+        "type": "string",
+        "description": "Code signing publisher",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentProcess",
+        "type": "string",
+        "description": "Parent process name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GrandparentProcess",
+        "type": "string",
+        "description": "Grandparent process name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA256",
+        "type": "string",
+        "description": "SHA-256 file hash",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MD5",
+        "type": "string",
+        "description": "MD5 file hash",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA128",
+        "type": "string",
+        "description": "SHA-128 file hash",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA384",
+        "type": "string",
+        "description": "SHA-384 file hash",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SHA512",
+        "type": "string",
+        "description": "SHA-512 file hash",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIPAddress",
+        "type": "string",
+        "description": "Local IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionId",
+        "type": "string",
+        "description": "Browser extension ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionName",
+        "type": "string",
+        "description": "Browser extension name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionType",
+        "type": "string",
+        "description": "Extension type (1=CRX, 2=XPI)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionBrowser",
+        "type": "string",
+        "description": "Browser type (1=Chrome, 2=Firefox, 3=Edge)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  },
+  "AirlockDigitalFileActivitySummary_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimePeriod",
+        "type": "string",
+        "description": "Time period for the summary",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartDate",
+        "type": "string",
+        "description": "Start date of the summary period",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndDate",
+        "type": "string",
+        "description": "End date of the summary period",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyFilter",
+        "type": "string",
+        "description": "Policy filter name (if applied)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NewFilesCount",
+        "type": "int",
+        "description": "Count of unique new file hashes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MaliciousFilesCount",
+        "type": "int",
+        "description": "Count of malicious files (optional)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalUntrustedTotal",
+        "type": "int",
+        "description": "Total count of untrusted executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalUntrustedUnique",
+        "type": "int",
+        "description": "Unique count of untrusted executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedTotal",
+        "type": "int",
+        "description": "Total count of blocked executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedUnique",
+        "type": "int",
+        "description": "Unique count of blocked executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditTotal",
+        "type": "int",
+        "description": "Total count of audited executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditUnique",
+        "type": "int",
+        "description": "Unique count of audited executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrustedTotal",
+        "type": "int",
+        "description": "Total count of trusted executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OtpTotal",
+        "type": "int",
+        "description": "Total count of one-time password executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlocklistTotal",
+        "type": "int",
+        "description": "Total count of blocklist executions",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlocklistAuditTotal",
+        "type": "int",
+        "description": "Total count of blocklist audit executions",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  },
+  "AirlockDigitalServerActivities_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Event timestamp (when server activity occurred)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Task",
+        "type": "string",
+        "description": "Type of server task performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "User associated with the task",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the server activity",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  },
   "AliCloudActionTrailLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -39748,6 +40158,84 @@
       }
     ],
     "solution": "Netskopev2"
+  },
+  "NordStellar_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Timestamp when the event was ingested into Microsoft Sentinel. Derived from event.date_added (leaked-data, dark-web, domain-permutation), event.detected_at (attack-surface), or the envelope time field as fallback.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique NordStellar event identifier (GUID).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "NordStellar event type, e.g. DATA_BREACH, COMBO_LIST, MALWARE_INFECTION, CONSUMER_CREDENTIAL, DARK_WEB_FORUM_POST, DARK_WEB_TELEGRAM_POST, DARK_WEB_RANSOMWARE_POST, DARK_WEB_MARKETPLACE_POST, DOMAIN_PERMUTATION, ATTACK_SURFACE_WEB_APPLICATION_VULNERABILITY, ATTACK_SURFACE_NETWORK_SERVICE_VULNERABILITY, ATTACK_SURFACE_DNS_VULNERABILITY.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Module",
+        "type": "string",
+        "description": "NordStellar source module: LEAKED_DATA, DARK_WEB_MONITORING, DOMAIN_SQUATTING, or ATTACK_SURFACE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevel",
+        "type": "string",
+        "description": "NordStellar risk level: CRITICAL, HIGH, MEDIUM, LOW, or INFORMATIONAL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetType",
+        "type": "string",
+        "description": "Asset type for leaked-data events (asset.type, e.g. EMAIL/DOMAIN/IP/PHONE), domain-permutation events (hardcoded to DOMAIN), or asset source kind for attack-surface events (source_type, e.g. WEB_APPLICATION/NETWORK_SERVICE/DNS). Empty for dark-web events whose target lives in type-specific fields inside Details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetValue",
+        "type": "string",
+        "description": "Asset value: nested asset.value (leaked-data), original_domain (domain-permutation), or root-level asset_value (attack-surface). Empty for dark-web events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags attached to the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Full NordStellar event payload as received in the webhook envelope's `event` field. Contains every type-specific field (queryable as `Details.<field>` or `Details['<field>']`) and, for convenience and forward compatibility, also includes the source values for the promoted columns above.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "NordStellar"
   },
   "OneLoginEventsV2_CL": {
     "source": "3rd-Party Connector Schemas",

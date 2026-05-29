@@ -1,0 +1,399 @@
+{
+  "Rapid7InsightVMCloudVulnerabilities": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "Added",
+        "type": "datetime",
+        "description": "The date the vulnerability coverage was added (ISO 8601 YYYY-MM-DD)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Categories",
+        "type": "string",
+        "description": "Comma-separated list of categories the vulnerability is classified under",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cves",
+        "type": "string",
+        "description": "All CVEs assigned to this vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2AccessComplexity",
+        "type": "string",
+        "description": "Enum: L/M/H. CVSS v2 Access Complexity - attack conditions required to exploit",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2AccessVector",
+        "type": "string",
+        "description": "Enum: L/A/N. CVSS v2 Access Vector - how the vulnerability is exploited (Local/Adjacent/Network)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2Authentication",
+        "type": "string",
+        "description": "Enum: N/S/M. CVSS v2 Authentication - number of authentications required to exploit",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2AvailabilityImpact",
+        "type": "string",
+        "description": "Enum: N/P/C. CVSS v2 Availability Impact - impact to availability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2ConfidentialityImpact",
+        "type": "string",
+        "description": "Enum: N/P/C. CVSS v2 Confidentiality Impact - impact on confidentiality",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2ExploitScore",
+        "type": "real",
+        "description": "The CVSS v2 exploit score",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2ImpactScore",
+        "type": "real",
+        "description": "The CVSS v2 impact score",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2IntegrityImpact",
+        "type": "string",
+        "description": "Enum: N/P/C. CVSS v2 Integrity Impact - impact to integrity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2Score",
+        "type": "real",
+        "description": "The CVSS v2 score (0-10)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV2Vector",
+        "type": "string",
+        "description": "The CVSS v2 vector",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3AttackComplexity",
+        "type": "string",
+        "description": "Enum: L/H. CVSS v3 Attack Complexity - conditions beyond attacker control required",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3AttackVector",
+        "type": "string",
+        "description": "Enum: N/A/L/P. CVSS v3 Attack Vector - context of exploitation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3AvailabilityImpact",
+        "type": "string",
+        "description": "Enum: N/L/H. CVSS v3 Availability Impact - impact to availability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3ConfidentialityImpact",
+        "type": "string",
+        "description": "Enum: N/L/H. CVSS v3 Confidentiality Impact - impact on confidentiality",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3ExploitScore",
+        "type": "real",
+        "description": "The CVSS v3 exploit score",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3ImpactScore",
+        "type": "real",
+        "description": "The CVSS v3 impact score",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3IntegrityImpact",
+        "type": "string",
+        "description": "Enum: N/L/H. CVSS v3 Integrity Impact - impact to integrity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3PrivilegesRequired",
+        "type": "string",
+        "description": "Enum: N/L/H. CVSS v3 Privileges Required - level of privileges needed before exploit",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3Scope",
+        "type": "string",
+        "description": "Enum: U/C. CVSS v3 Scope - impact remains in same authority or crosses",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3Score",
+        "type": "real",
+        "description": "The CVSS v3 score (0-10)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3UserInteraction",
+        "type": "string",
+        "description": "Enum: N/R. CVSS v3 User Interaction - whether user action is required",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CvssV3Vector",
+        "type": "string",
+        "description": "The CVSS v3 vector",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DenialOfService",
+        "type": "bool",
+        "description": "Whether the vulnerability can lead to Denial of Service (DoS)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "A verbose description of the vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Exploits",
+        "type": "string",
+        "description": "The exploits that can be used to exploit a vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The identifier of the vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Links",
+        "type": "string",
+        "description": "References to security standards this vulnerability is a part of",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareKits",
+        "type": "string",
+        "description": "The malware kits that are known to be used to exploit the vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Modified",
+        "type": "datetime",
+        "description": "The last date the vulnerability was modified (ISO 8601 YYYY-MM-DD)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciCvssScore",
+        "type": "real",
+        "description": "The CVSS score adjusted for PCI rules (0-10)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciFail",
+        "type": "bool",
+        "description": "Whether presence on a host would cause a PCI failure",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciSeverityScore",
+        "type": "real",
+        "description": "The severity score adjusted for PCI rules (0-10)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciSpecialNotes",
+        "type": "string",
+        "description": "Special notes or remarks about the vulnerability pertaining to PCI compliance",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PciStatus",
+        "type": "string",
+        "description": "The PCI compliance status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Published",
+        "type": "datetime",
+        "description": "The date the vulnerability was first published (ISO 8601 YYYY-MM-DD)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "References",
+        "type": "string",
+        "description": "Condensed references to security standards: [<source>:<id>,...]",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskScore",
+        "type": "real",
+        "description": "The risk score of the vulnerability (e.g., Rapid7 Real Risk , 0-1000)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "The severity of the vulnerability (none, informational, low, moderate, severe, critical)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityScore",
+        "type": "real",
+        "description": "The severity score of the vulnerability (0-10)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time the event was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilityTitle",
+        "type": "string",
+        "description": "The title (summary) of the vulnerability",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  }
+}
