@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-05-30 06:19 UTC
+
+**Tables added** (1)
+
+- `FortyTwoCrunchAPIProtectionV2_CL` (18 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-05-29 06:50 UTC
 
 **Tables added** (13)
