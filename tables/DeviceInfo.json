@@ -8,7 +8,8 @@
         "description": "Last date and time recorded for the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceName",
@@ -24,7 +26,8 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClientVersion",
@@ -32,7 +35,8 @@
         "description": "Version of the endpoint agent or sensor running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PublicIP",
@@ -40,7 +44,8 @@
         "description": "Public IP address used by the onboarded device to connect to the Microsoft  Defender for Endpoint service. This could be the IP address of the device itself, a NAT device, or a proxy.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSArchitecture",
@@ -48,7 +53,8 @@
         "description": "Architecture of the operating system running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSPlatform",
@@ -56,7 +62,8 @@
         "description": "Platform of the operating system running on the device. This indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10 and Windows 7.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSBuild",
@@ -64,7 +71,8 @@
         "description": "Build version of the operating system running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsAzureADJoined",
@@ -72,7 +80,8 @@
         "description": "Boolean indicator of whether device is joined to the Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "JoinType",
@@ -80,7 +89,8 @@
         "description": "The device's Microsoft Entra ID join type",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AadDeviceId",
@@ -88,7 +98,8 @@
         "description": "Unique identifier for the device in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LoggedOnUsers",
@@ -96,7 +107,8 @@
         "description": "List of all users that are logged on the device at the time of the event in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RegistryDeviceTag",
@@ -104,7 +116,8 @@
         "description": "Device tag added through the registry",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSVersion",
@@ -112,7 +125,8 @@
         "description": "Version of the operating system running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MachineGroup",
@@ -120,7 +134,8 @@
         "description": "Machine group of the device. This group is used by role-based access control to determine access to the device.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -128,7 +143,8 @@
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OnboardingStatus",
@@ -136,7 +152,8 @@
         "description": "Indicates whether the device is currently onboarded or not to  Microsoft Defender For Endpoint or if the device is not supported",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -144,7 +161,8 @@
         "description": "Additional information about the event in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceCategory",
@@ -152,7 +170,8 @@
         "description": "Broader classification that groups certain device types under the following categories: Endpoint, Network device, IoT, Unknown",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceType",
@@ -160,7 +179,8 @@
         "description": "Type of device based on purpose and functionality, such as network device, workstation, server, mobile, gaming console, or printer",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceSubtype",
@@ -168,7 +188,8 @@
         "description": "Additional modifier for certain types of devices, for example, a mobile device can be a tablet or a smartphone; only available if device discovery finds enough information about this attribute",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Model",
@@ -176,7 +197,8 @@
         "description": "Model name or number of the product from the vendor or manufacturer, only available if device discovery finds enough information about this attribute",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Vendor",
@@ -184,7 +206,8 @@
         "description": "Name of the product vendor or manufacturer, only available if device discovery finds enough information about this attribute",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSDistribution",
@@ -192,7 +215,8 @@
         "description": "Distribution of the OS platform, such as Ubuntu or RedHat for Linux platforms",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSVersionInfo",
@@ -200,7 +224,8 @@
         "description": "Additional information about the OS version, such as the popular name, code name, or version number",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MergedDeviceIds",
@@ -208,7 +233,8 @@
         "description": "Previous device IDs that have been assigned to the same device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MergedToDeviceId",
@@ -216,7 +242,8 @@
         "description": "The most recent device ID assigned to a device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsInternetFacing",
@@ -224,7 +251,8 @@
         "description": "Indicates whether the device is internet-facing",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SensorHealthState",
@@ -232,7 +260,8 @@
         "description": "Indicates health of the device's EDR sensor, if onboarded to Microsoft Defender For Endpoint",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsExcluded",
@@ -240,7 +269,8 @@
         "description": "Determines if the device is currently excluded from Microsoft Defender for Vulnerability Management experiences",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExclusionReason",
@@ -248,7 +278,8 @@
         "description": "Indicates the reason for device exclusion",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExposureLevel",
@@ -256,7 +287,8 @@
         "description": "The device's level of vulnerability to exploitation based on its exposure score; can be: Low, Medium, High",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssetValue",
@@ -264,7 +296,8 @@
         "description": "Priority or value assigned to the device in relation to its importance in computing the organization's exposure score; can be: Low, Normal (Default), High",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceManualTags",
@@ -272,7 +305,8 @@
         "description": "Device tags created manually using the portal UI or public API",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceDynamicTags",
@@ -280,7 +314,8 @@
         "description": "Device tags added and removed dynamically based on dynamic rules",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectivityType",
@@ -288,7 +323,8 @@
         "description": "Type of connectivity from the device to the cloud",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HostDeviceId",
@@ -296,7 +332,8 @@
         "description": "Device ID of the device running Windows Subsystem for Linux",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AzureResourceId",
@@ -304,7 +341,8 @@
         "description": "Unique identifier of the Azure resource associated with the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AwsResourceName",
@@ -312,7 +350,8 @@
         "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GcpFullResourceName",
@@ -320,7 +359,8 @@
         "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HardwareUuid",
@@ -328,7 +368,8 @@
         "description": "Universally Unique Identifier (UUID) of the device's hardware",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CloudPlatforms",
@@ -336,7 +377,8 @@
         "description": "The cloud platforms that the device belongs to. Can be Azure, Amazon Web Services, Google Cloud Platform and Azure Arc.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AzureVmId",
@@ -344,7 +386,8 @@
         "description": "Unique identifier assigned to the device in Azure",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AzureVmSubscriptionId",
@@ -352,7 +395,8 @@
         "description": "Unique identifier of the Azure subscription associated with the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsTransient",
@@ -360,7 +404,8 @@
         "description": "Indicates whether this device is classified as short-lived or transient based on the frequency of appearance of the device on the network",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OsBuildRevision",
@@ -368,7 +413,8 @@
         "description": "Build revision number of the operating system running on the machine",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MitigationStatus",
@@ -376,7 +422,8 @@
         "description": "Indicates the mitigation action applied to a device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Site",
@@ -384,7 +431,8 @@
         "description": "Represents the physical location where the device is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DiscoverySources",
@@ -392,8 +440,52 @@
         "description": "Products or services that have seen or reported the device, including when they last reported it.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "DlpInfo",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "FirmwareVersions",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "RestrictedDeviceSecurityOperations",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

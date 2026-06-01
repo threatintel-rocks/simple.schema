@@ -82755,6 +82755,56 @@
     "columns": [],
     "custom_table": true
   },
+  "TaniumComplyCompliance_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumComplyVulnerabilities_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumDefenderHealth_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumDiscoverUnmanagedAssets_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumHighUptime_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumPatchCoverageStatus_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumPatchListApplicability_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumPatchListCompliance_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumSCCMClientHealth_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "TaniumThreatResponse_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
   "Tenable_IE_CL": {
     "source": "Sentinel Tables",
     "columns": [],
