@@ -1,0 +1,144 @@
+{
+  "CiscoUmbrellaDNS_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the DNS event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostGranularIdentity",
+        "type": "string",
+        "description": "The first identity matched with this request in order of granularity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "All identities associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternalIp",
+        "type": "string",
+        "description": "The internal IP address that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "The external IP address that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Whether the request was allowed or blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryType",
+        "type": "string",
+        "description": "The type of DNS request that was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseCode",
+        "type": "string",
+        "description": "The DNS return code for this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "The domain that was requested.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Categories",
+        "type": "string",
+        "description": "The security or content categories that the destination matches.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostGranularIdentityType",
+        "type": "string",
+        "description": "The first identity type matched with this request in order of granularity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypes",
+        "type": "string",
+        "description": "The type of identity that made the request, for example: Roaming Computer, Network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedCategories",
+        "type": "string",
+        "description": "The categories that resulted in the destination being blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the access rule when the DNS request is matched by a policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationCountries",
+        "type": "string",
+        "description": "The two-character country identifier of the domain that was requested.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  }
+}

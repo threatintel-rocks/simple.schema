@@ -9597,6 +9597,2650 @@
     ],
     "solution": "Cisco Secure Endpoint"
   },
+  "CiscoUmbrellaAdminAudit_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the admin audit event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the administrative change event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "The email of the user that triggered the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "The account name of the user who created the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditType",
+        "type": "string",
+        "description": "Where the change was made, such as settings or a policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The type of change made, such as Create, update, or Delete.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoggedInFrom",
+        "type": "string",
+        "description": "The user's IP source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Before",
+        "type": "string",
+        "description": "The policy or setting before the change was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "After",
+        "type": "string",
+        "description": "The policy or setting after the change was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaCloudFirewall_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the cloud-delivered firewall traffic event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginIds",
+        "type": "dynamic",
+        "description": "The unique identity of the network tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "The names of the network tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityType",
+        "type": "string",
+        "description": "The type of identity that made the request. Should always be CDFW Tunnel Device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Direction",
+        "type": "string",
+        "description": "The direction of the packet. It is destined either towards the internet or to the customer's network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Protocol",
+        "type": "string",
+        "description": "The actual protocol of the traffic. Valid values are: TCP, UDP, or ICMP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketSize",
+        "type": "string",
+        "description": "The size in bytes of the packet sent to the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "The internal IP address of the user-generated traffic towards the CDFW. If the traffic goes through NAT before it comes to CDFW, it will be the NAT IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourcePort",
+        "type": "string",
+        "description": "The internal port number of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The destination IP address of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "The destination port number of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataCenter",
+        "type": "string",
+        "description": "The name of the data center that processed the user-generated traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the rule that processed the user traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The final verdict whether to allow or block the traffic based on the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Fqdns",
+        "type": "string",
+        "description": "The fully qualified domain names (FQDNs) that match the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationListIds",
+        "type": "string",
+        "description": "The destination list IDs that Secure Access applied in the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstPacketTimestamp",
+        "type": "string",
+        "description": "The timestamp when the first packet of the session was received in UTC in seconds. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastPacketTimestamp",
+        "type": "string",
+        "description": "The timestamp when the last packet of the session was received in UTC in seconds. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketsSent",
+        "type": "string",
+        "description": "The number of packets sent during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketsReceived",
+        "type": "string",
+        "description": "The number of packets received during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesSent",
+        "type": "string",
+        "description": "The number of bytes sent during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesReceived",
+        "type": "string",
+        "description": "The number of bytes received during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwEventId",
+        "type": "string",
+        "description": "The ID of the firewall event. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationCountry",
+        "type": "string",
+        "description": "The ISO-3166 alpha-2 two-character identifier of the country associated with the destination IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsRegion",
+        "type": "string",
+        "description": "The AWS region that stores your VPN logs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "The unique application ID identified for the current session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateAppGroupId",
+        "type": "string",
+        "description": "The unique ID of the private resource group ID that the private resource belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateFlow",
+        "type": "string",
+        "description": "TRUE if Secure Access applied a private access rule to the user-generated traffic, and FALSE if Secure Access applied an internet access rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PostureId",
+        "type": "string",
+        "description": "The unique ID of the endpoint posture profile.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CasiCategoryIds",
+        "type": "dynamic",
+        "description": "Name of the Application category to which the App ID belongs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficSource",
+        "type": "string",
+        "description": "The source of the user-generated traffic. Valid values are 0 - Unknown, 1 - VPN,2 – ZTNA, 3 - Network Tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentCategoryIds",
+        "type": "string",
+        "description": "ID of one or more content categories matched by the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentCategoryListIds",
+        "type": "string",
+        "description": "ID of one or more content category lists that include categories matched by the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The public IP address assigned to a session as it exits the Secure Access ZTA infrastructure en route to the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Egress",
+        "type": "string",
+        "description": "TRUE indicates that the egress IP was a reserved IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "A unique identifier generated for each network request, the Event Correlation ID stitches together all related events across various security services (Firewall, SWG, ZTNA) to provide a unified, end-to-end view of a single traffic flow.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaDLP_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the DLP event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of event that matched a data identifier. Real Time denotes a proxy-based DLP event triggered by a Real Time rule and SaaS API denotes a DLP event triggered by any of the SaaS API rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UniqueEventId",
+        "type": "string",
+        "description": "The unique identifier for the event. There can be multiple violation matches in one event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "The severity of the rule: Low/Info, Medium/Warn, High/Alert, or Critical.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identity",
+        "type": "string",
+        "description": "The source that triggered the violation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Owner",
+        "type": "string",
+        "description": "The owner of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The name of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "The application of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Destination",
+        "type": "string",
+        "description": "The domain of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "If the violation was Blocked or Monitored.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rule",
+        "type": "string",
+        "description": "The DLP rule name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataClassification",
+        "type": "string",
+        "description": "The data classification whose data identifier matched on the violation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataIdentifier",
+        "type": "string",
+        "description": "The data identifier that matched on the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentType",
+        "type": "string",
+        "description": "The mime type of the file that matches the data identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "string",
+        "description": "The size of the file in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256Hash",
+        "type": "string",
+        "description": "The hex digest of the response content.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileLabel",
+        "type": "string",
+        "description": "The file name label that matched on the file properties.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationCategoryName",
+        "type": "string",
+        "description": "The category of the requested web application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficDirection",
+        "type": "string",
+        "description": "Direction of traffic. (Applies only to some applications, such as OpenAI API and OpenAI ChatGPT.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceName",
+        "type": "string",
+        "description": "The name of the private resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceGroupName",
+        "type": "string",
+        "description": "The private resource group name if the matched rule destination was a private resource group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationProtocol",
+        "type": "string",
+        "description": "The protocol of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The IP address of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "The port of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaDNS_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the DNS event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostGranularIdentity",
+        "type": "string",
+        "description": "The first identity matched with this request in order of granularity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "All identities associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternalIp",
+        "type": "string",
+        "description": "The internal IP address that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "The external IP address that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Whether the request was allowed or blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryType",
+        "type": "string",
+        "description": "The type of DNS request that was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseCode",
+        "type": "string",
+        "description": "The DNS return code for this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "The domain that was requested.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Categories",
+        "type": "string",
+        "description": "The security or content categories that the destination matches.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostGranularIdentityType",
+        "type": "string",
+        "description": "The first identity type matched with this request in order of granularity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypes",
+        "type": "string",
+        "description": "The type of identity that made the request, for example: Roaming Computer, Network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedCategories",
+        "type": "string",
+        "description": "The categories that resulted in the destination being blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the access rule when the DNS request is matched by a policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationCountries",
+        "type": "string",
+        "description": "The two-character country identifier of the domain that was requested.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaFileEvent_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the request transaction, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RetentionPolicy",
+        "type": "string",
+        "description": "The number of days that AWS S3 stores your Secure Access File Events log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsRegion",
+        "type": "string",
+        "description": "The AWS region where Secure Access stores your logs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirewallEventId",
+        "type": "string",
+        "description": "The ID of the firewall event. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileAction",
+        "type": "string",
+        "description": "The action taken on a file in a remote browser isolation session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Disposition",
+        "type": "string",
+        "description": "The status of the files proxied and scanned by Cisco Advanced Malware Protection (AMP) as part of the File Inspection feature. Valid values are: CLEAN, MALWARE, UNKNOWN.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "The SHA-256 checksum hash of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Direction",
+        "type": "string",
+        "description": "The traffic direction of the file event. Valid values are: UNKNOWN, UPLOAD, DOWNLOAD.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatName",
+        "type": "string",
+        "description": "Name of the threat identified for files with MALWARE disposition.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileStaticAnalysis",
+        "type": "string",
+        "description": "The status of the file static sample analysis.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatScore",
+        "type": "string",
+        "description": "The threat score most recently associated with this file. This is a value from 0 to 100.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileTypeId",
+        "type": "string",
+        "description": "The type of file. For example, PDF or MSEXE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "The name of the file involved with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "string",
+        "description": "The size of the file in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArchiveFileName",
+        "type": "string",
+        "description": "The name of the archive file involved with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArchiveDepth",
+        "type": "string",
+        "description": "The level (if any) at which the file was nested in an archive file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ArchiveSha",
+        "type": "string",
+        "description": "The SHA-256 checksum hash of the archive file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpStatus",
+        "type": "string",
+        "description": "The verdict of the DLP scanning service.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedBy",
+        "type": "string",
+        "description": "The Secure Access component or service that enforced the policy or control related to this event (e.g., Firewall, Web Proxy).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementId",
+        "type": "string",
+        "description": "The unique identifier of the enforcement action taken by a Firepower Threat Defense (FTD) device integrated with Secure Access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementName",
+        "type": "string",
+        "description": "The name or type of enforcement action taken by a FTD device integrated with Secure Access (e.g., Malware Block, URL Category Block).",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaIPS_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the IPS detection event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "All tunnel identities that are associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypes",
+        "type": "string",
+        "description": "The type of identity that is associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeneratorId",
+        "type": "string",
+        "description": "Unique ID assigned to the part of the IPS that generated the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignatureId",
+        "type": "string",
+        "description": "Used to uniquely identify signatures.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignatureMessage",
+        "type": "string",
+        "description": "A brief description of the signature.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignatureListId",
+        "type": "string",
+        "description": "Unique ID assigned to a Default or Custom Signature List.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "The severity level of the rule. Valid values are: High, Medium, Low, and Very Low.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackClassification",
+        "type": "string",
+        "description": "The category of attack detected by a rule that is part of a more general type of attack class. Valid values are: trojan-activity, attempted-user, and unknown.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cves",
+        "type": "string",
+        "description": "A list of information about security vulnerabilities and exposures.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpProtocol",
+        "type": "string",
+        "description": "The actual protocol of the traffic, such as TCP, UDP, ICMP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "The unique identifier of a session, which is used to group the correlated events between various services.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "The IP of the computer making the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourcePort",
+        "type": "string",
+        "description": "The port number of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The IP address of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "The destination port number of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The action performed when criteria meets a rule, for example: block, warn, and would_block.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationMode",
+        "type": "string",
+        "description": "The mode of operation of the IPS, either detection or prevention. Valid values are: IDS, IPS, and UNKNOWN.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyResourceId",
+        "type": "string",
+        "description": "The ID of the IPS policy resource. An example of a policy resource is: signature list.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Direction",
+        "type": "string",
+        "description": "The direction of the packet that matches the signature. Valid values are: S2C, C2S, and UNKNOWN.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirewallRuleId",
+        "type": "string",
+        "description": "The ID of the rule that matches the firewall session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpsConfigType",
+        "type": "string",
+        "description": "The type of the IPS configuration. Valid values are: CONFIG, PROFILE, and UNKNOWN.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsRegion",
+        "type": "string",
+        "description": "The AWS region where Secure Access stores your logs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationId",
+        "type": "string",
+        "description": "The ID of the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CasiCategoryIds",
+        "type": "string",
+        "description": "The name of the Application category to which the App ID belongs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataCenter",
+        "type": "string",
+        "description": "The name of the data center that processed the user-generated traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The public IP address assigned to a session as it exits the Secure Access ZTA infrastructure en route to the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Egress",
+        "type": "string",
+        "description": "TRUE indicates that the egress IP was a reserved IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedBy",
+        "type": "string",
+        "description": "The Secure Access component or service that enforced the policy or control related to this event (e.g., Firewall, Web Proxy).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementId",
+        "type": "string",
+        "description": "The unique identifier of the enforcement action taken by a Firepower Threat Defense (FTD) device integrated with Secure Access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementName",
+        "type": "string",
+        "description": "The name or type of enforcement action taken by a FTD device integrated with Secure Access (e.g., Malware Block, URL Category Block).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "A unique identifier generated for each network request, the Event Correlation ID stitches together all related events across various security services (Firewall, SWG, ZTNA) to provide a unified, end-to-end view of a single traffic flow.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaRemoteAccessVPN_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the RAVPN event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The name of the node on the Cisco headend side where user VPN connections are established and events are generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsRegion",
+        "type": "string",
+        "description": "The AWS region that stores your VPN logs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The label that describes the type of event. Valid values are: CONNECTED, DISCONNECTED, FAILED, or UNKNOWN.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginIds",
+        "type": "dynamic",
+        "description": "The internal IP address of the device that connected to the Secure Access remote VPN services.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginType",
+        "type": "string",
+        "description": "The type of device connected to the Secure Access VPN services.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "The ID of the VPN user. The ID is the email address associated with the user account.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RetentionDays",
+        "type": "string",
+        "description": "The number of days that AWS S3 stores your Secure Access VPN log.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StorageLocation",
+        "type": "string",
+        "description": "The two-character label that identifies the location of your Cisco-managed VPN logs. Configure the storage location on Secure Access for your organization. The storage location options are: eu or us.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MspOrganizationId",
+        "type": "string",
+        "description": "The Secure Access managed organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "The unique ID of the VPN session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionType",
+        "type": "string",
+        "description": "The protocol used by the device with the VPN session, for example: TLS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpnProfile",
+        "type": "string",
+        "description": "The name of the VPN connection profile that establishes a VPN session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublicIp",
+        "type": "string",
+        "description": "The public IP address of the device with the Cisco Secure Client and VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedIp",
+        "type": "string",
+        "description": "The IP address assigned to the device with the Cisco Secure Client and VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectedAt",
+        "type": "string",
+        "description": "The date and time of the start of the initial CONNECTED VPN event for a DISCONNECTED event expressed in milliseconds as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisconnectionReason",
+        "type": "string",
+        "description": "The description of the VPN disconnected event. The value is null for other event types.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "The type and version of the user device's operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnyConnectVersion",
+        "type": "string",
+        "description": "The version of the Cisco Secure Client with the VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AsaSyslogId",
+        "type": "string",
+        "description": "The ID of the Cisco ASA syslog used to generate this log event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "The ID of the device with the Cisco Secure Client and VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "The ID of the client machine used for authentication.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublicIpv6",
+        "type": "string",
+        "description": "The public IP v6 address of the device with the Cisco Secure Client and VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedIpv6",
+        "type": "string",
+        "description": "The IP v6 address assigned to the device with the Cisco Secure Client and VPN module.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityGroupTag",
+        "type": "string",
+        "description": "Security group tag matched as a source by a rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DapRecordName",
+        "type": "string",
+        "description": "The posture profile assessed by Cisco Secure Client HostScan.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DapConnectionType",
+        "type": "string",
+        "description": "The RAVPN session connection type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FailedReasons",
+        "type": "dynamic",
+        "description": "The error codes for failed remote connection requests.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogMessage",
+        "type": "string",
+        "description": "Log message details communications between devices involved in 802.1X port-based network access. This message is used to troubleshoot issues with authentication, authorization, and accounting (AAA) processes, including RADIUS servers.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AsaSyslogClass",
+        "type": "string",
+        "description": "The syslog message class categorizes syslog messages by type, representing a device's feature or function.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AsaSyslogDescriptor",
+        "type": "string",
+        "description": "The syslog message format typically includes a timestamp, a hostname or IP address, facility code, severity level, and the actual log message content, all of which are used for system logging and analysis.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaWebTraffic_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the Web traffic event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyIdentityLabel",
+        "type": "string",
+        "description": "The identity that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternalClientIp",
+        "type": "string",
+        "description": "The internal IP address of the computer making the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalClientIp",
+        "type": "string",
+        "description": "The egress IP address of the network where the request originated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The destination IP address of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentType",
+        "type": "string",
+        "description": "The type of web content, typically text/html.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Whether the request was allowed or blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Url",
+        "type": "string",
+        "description": "The URL requested.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Referer",
+        "type": "string",
+        "description": "The referring domain or URL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The browser agent that made the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StatusCode",
+        "type": "string",
+        "description": "The HTTP status code; should always be 200 or 201.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestSize",
+        "type": "string",
+        "description": "Request size in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseSize",
+        "type": "string",
+        "description": "Response size in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseBodySize",
+        "type": "string",
+        "description": "Response body size in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256Hash",
+        "type": "string",
+        "description": "The hex digest of the response content.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Categories",
+        "type": "string",
+        "description": "The security categories for this request, such as Malware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AvDetections",
+        "type": "string",
+        "description": "The detection name according to the antivirus engine used in file inspection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Puas",
+        "type": "string",
+        "description": "A list of all potentially unwanted application (PUA) results for the proxied file as returned by the antivirus scanner.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AmpDisposition",
+        "type": "string",
+        "description": "The status of the files proxied and scanned by Cisco Advanced Malware Protection (AMP) as part of the File Inspection feature; can be Clean, Malicious or Unknown.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AmpMalwareName",
+        "type": "string",
+        "description": "If Malicious, the name of the malware according to AMP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AmpScore",
+        "type": "string",
+        "description": "The score of the malware from AMP. This field returns blank (\"\") unless the verdict is Unknown, in which the value will be 0.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyIdentityType",
+        "type": "string",
+        "description": "The first identity type that made the request. Examples: Roaming Computer, Network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedCategories",
+        "type": "string",
+        "description": "The category that resulted in the destination being blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "All identities associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypes",
+        "type": "string",
+        "description": "The type of identities that were associated with the request. Examples: Roaming Computer, Network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestMethod",
+        "type": "string",
+        "description": "The HTTP request method. Examples: GET, POST, HEAD, PUT, DELETE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpStatus",
+        "type": "string",
+        "description": "If the request was Blocked for DLP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CertificateErrors",
+        "type": "string",
+        "description": "Any certificate or protocol errors in the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "The name of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RulesetId",
+        "type": "string",
+        "description": "The ID number assigned to the ruleset.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID number assigned to the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationListIds",
+        "type": "string",
+        "description": "The ID number assigned to a destination list.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsolateAction",
+        "type": "string",
+        "description": "The remote browser isolation state associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileAction",
+        "type": "string",
+        "description": "The action taken on a file in a remote browser isolation session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WarnStatus",
+        "type": "string",
+        "description": "The Warn page's state associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ForwardingMethod",
+        "type": "string",
+        "description": "The method used to forward the proxy events. Example: Secure Web Appliance.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Producer",
+        "type": "string",
+        "description": "The producer of the proxy events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MspOrganizationId",
+        "type": "string",
+        "description": "The Secure Access parent organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoLocationOfBlockedDestinationCountries",
+        "type": "string",
+        "description": "The ISO-3166 IDs of one or more countries where destination IPs blocked by policy are located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationIds",
+        "type": "string",
+        "description": "The ID of the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The hostname of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataCenter",
+        "type": "string",
+        "description": "The name of the data center that processed the user-generated traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Egress",
+        "type": "string",
+        "description": "TRUE indicates that the egress IP was a reserved IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServerName",
+        "type": "string",
+        "description": "The name of the server according to the TLS protocol server name indication (SNI), if present, or from the server's SAN certificate common name (CN).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeBasedRule",
+        "type": "string",
+        "description": "TRUE indicates that a the rule was applied due to a time condition.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityOverridden",
+        "type": "string",
+        "description": "TRUE indicates that security filtering was explicitly overridden and not applied during enforcement.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectedResponseFileType",
+        "type": "string",
+        "description": "The file type that resulted in a blocked response. Examples: exe, avi.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WarnCategories",
+        "type": "string",
+        "description": "The ID of one or more content categories in lists matched for a Warn action by the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationEntityName",
+        "type": "string",
+        "description": "It refers to the specific name of an application entity within a system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationEntityCategory",
+        "type": "string",
+        "description": "It represents the classification grouping of application entities based on shared characteristics or functions.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The public IP address assigned to a session as it exits the Secure Access ZTA infrastructure en route to the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AiModelName",
+        "type": "string",
+        "description": "Indicates the name of the AI model involved in the transaction or event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AiSupplyChainCategories",
+        "type": "string",
+        "description": "The list of AI supply chain categories associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "A unique identifier generated for each network request, the Event Correlation ID stitches together all related events across various security services (Firewall, SWG, ZTNA) to provide a unified, end-to-end view of a single traffic flow.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaZeroTrustAccessFlow_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the ZTA event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityEmail",
+        "type": "string",
+        "description": "The email address of the Active Directory user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityLabels",
+        "type": "string",
+        "description": "The list of labels for the identity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypeLabels",
+        "type": "string",
+        "description": "The label of the identity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MspOrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID of the parent managed service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The hostname of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TransactionId",
+        "type": "string",
+        "description": "Universally unique identifier (UUID) of the transaction associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceId",
+        "type": "string",
+        "description": "The ID that Secure Access assigns to the customer-defined private application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceGroupId",
+        "type": "string",
+        "description": "The ID if the rule matched is based on the private application group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppConnectorId",
+        "type": "string",
+        "description": "The ID of the App Connector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppConnectorGroupId",
+        "type": "string",
+        "description": "The group ID of the App Connector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RulesetId",
+        "type": "string",
+        "description": "The ID of the ruleset.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the access rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionStatus",
+        "type": "string",
+        "description": "The status of the request to connect to the private resource. Valid values are: Connected, Reset, Terminated, or Unknown.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionFailureReason",
+        "type": "string",
+        "description": "The error codes for failed connection requests.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HeadendType",
+        "type": "string",
+        "description": "The type of the headend. Valid values are: CLAP or BAP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of flow event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RxBytes",
+        "type": "string",
+        "description": "The number of bytes received during the session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TxBytes",
+        "type": "string",
+        "description": "The number of bytes transmitted or sent during the session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The egress IP address is not included in the flow logs and appears as empty. However, it can be found in the ZTA logs using the same transaction ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressPort",
+        "type": "string",
+        "description": "The egress port number of the network where the request originated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NtGroupId",
+        "type": "string",
+        "description": "The tunnel ID associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ZtaSourcePort",
+        "type": "string",
+        "description": "The port number used by the Zero Trust proxy service to connect to an unmanaged device requesting a connection to a private resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedBy",
+        "type": "string",
+        "description": "The Secure Access component or service that enforced the policy or control related to this event (e.g., Firewall, Web Proxy).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementId",
+        "type": "string",
+        "description": "The unique identifier of the enforcement action taken by a Firepower Threat Defense (FTD) device integrated with Secure Access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementName",
+        "type": "string",
+        "description": "The name or type of enforcement action taken by a FTD device integrated with Secure Access (e.g., Malware Block, URL Category Block).",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
+  "CiscoUmbrellaZeroTrustAccess_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the ZTA event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityEmail",
+        "type": "string",
+        "description": "The email address of the Active Directory user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityLabels",
+        "type": "string",
+        "description": "The list of labels for the identity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTypeLabels",
+        "type": "string",
+        "description": "The label of the identity type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The hostname of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verdict",
+        "type": "string",
+        "description": "Whether the user has access to a resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientOs",
+        "type": "string",
+        "description": "The operating system of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientBrowser",
+        "type": "string",
+        "description": "The name of the browser on the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientGeoLocation",
+        "type": "string",
+        "description": "The regional location of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "The IP address of the user device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RulesetId",
+        "type": "string",
+        "description": "The ID of the ruleset.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the access rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateAppGroupId",
+        "type": "string",
+        "description": "The ID of the private application group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateAppId",
+        "type": "string",
+        "description": "The ID of the private application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceId",
+        "type": "string",
+        "description": "The ID that Secure Access assigns to the customer-defined private application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceGroupId",
+        "type": "string",
+        "description": "The ID if the rule matched is based on the private application group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StepUpAuthType",
+        "type": "string",
+        "description": "The type of authentication. Valid values are: SAML_SSO, MFA, or NONE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StepUpAuthResult",
+        "type": "string",
+        "description": "The result of the authentication. Valid values are: SUCCESS or FAILURE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StepUpAuthTokenLife",
+        "type": "string",
+        "description": "The time in seconds between when you generated the token and used the token.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PostureId",
+        "type": "string",
+        "description": "ID of the matching posture profile.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestedIdFqdn",
+        "type": "string",
+        "description": "The IP or FQDN of the requested application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResolvedIp",
+        "type": "string",
+        "description": "The IP of the application returned by the proxy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppConnectorGroupId",
+        "type": "string",
+        "description": "The group ID of the App Connector.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HeadendType",
+        "type": "string",
+        "description": "The type of the headend. Valid values are: CLAP or BAP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DuoDeviceId",
+        "type": "string",
+        "description": "The ID of the Duo App on the device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DuoDeviceIdString",
+        "type": "string",
+        "description": "The ID label of the Duo App on the device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemPassword",
+        "type": "string",
+        "description": "Whether the system password is enabled with its timeout in seconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientFirewall",
+        "type": "string",
+        "description": "The client system firewall. Valid values are SYS or NONE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiskEncryption",
+        "type": "string",
+        "description": "The client Disk Encryption Type. Valid values are: SYS, NONE or THIRD PARTY.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AntiMalwareAgents",
+        "type": "dynamic",
+        "description": "The clients' anti malware agents.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TransactionId",
+        "type": "string",
+        "description": "A unique identifier generated by the Secure Client for each network request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockReason",
+        "type": "string",
+        "description": "The reason for the transaction being blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationPort",
+        "type": "string",
+        "description": "The port of the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationProtocol",
+        "type": "string",
+        "description": "The type of protocol used for transactions.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TunnelType",
+        "type": "string",
+        "description": "The type of tunnel used to connect to the ZTA proxy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecureClientVersion",
+        "type": "string",
+        "description": "The version of the Cisco Secure Client on the endpoint device accessing a private resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PossibleMatchRulesetId",
+        "type": "dynamic",
+        "description": "For a block event, the ID of the ruleset that could have allowed the transaction if not for the block reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PossibleMatchRuleId",
+        "type": "dynamic",
+        "description": "For a block event, the ID of the rule within the ruleset that could have allowed the transaction if not for the block reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PossibleMatchPosture",
+        "type": "dynamic",
+        "description": "For a block event, the posture that could have allowed the transaction if not for the block reason.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessId",
+        "type": "dynamic",
+        "description": "The ID of the source process that initiated the transaction from the client side..",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessName",
+        "type": "dynamic",
+        "description": "The name of the source process that initiated the transaction from the client side (e.g., chrome.exe).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessHash",
+        "type": "dynamic",
+        "description": "The hash of the source process that initiated the transaction from the client side.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessUserName",
+        "type": "dynamic",
+        "description": "The user name associated with the source process that initiated the transaction from the client side.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdJoinedId",
+        "type": "string",
+        "description": "ID of the device if it is joined to an Active Directory domain.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcedBy",
+        "type": "string",
+        "description": "The Secure Access component or service that enforced the policy or control related to this event (e.g., Firewall, Web Proxy).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementId",
+        "type": "string",
+        "description": "The unique identifier of the enforcement action taken by a Firepower Threat Defense (FTD) device integrated with Secure Access.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FtdEnforcementName",
+        "type": "string",
+        "description": "The name or type of enforcement action taken by a Cisco Secure Firewall Threat Defense device that is integrated with Secure Access, for example, Malware Block and URL Category Block.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MdmSource",
+        "type": "string",
+        "description": "The specific Mobile Device Manager (MDM) platform integrated with Secure Access providing device management and compliance information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MdmDeviceId",
+        "type": "string",
+        "description": "The unique identifier assigned to the device by the integrated MDM platform, enabling Secure Access to track and manage the device's access privileges.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MdmIsManaged",
+        "type": "string",
+        "description": "Indicates whether the device is currently under active management by the integrated MDM platform: TRUE or FALSE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MdmIsCompliant",
+        "type": "string",
+        "description": "Indicates whether the device meets the compliance policies defined within the integrated MDM platform: TRUE or FALSE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MdmLastUpdated",
+        "type": "string",
+        "description": "The date and time that Secure Access last received updated device information from the integrated MDM platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrustedNetwork",
+        "type": "string",
+        "description": "The trusted network that was applied during policy enforcement.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectedTrustedNetworks",
+        "type": "string",
+        "description": "A list of trusted networks that were detected by the client during the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ZtaProfileId",
+        "type": "string",
+        "description": "The unique identifier of the applicable ZTA profile associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The public IP address assigned to a session as it exits the Secure Access ZTA infrastructure en route to the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  },
   "CloudflareV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [

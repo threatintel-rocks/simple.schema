@@ -1,0 +1,312 @@
+{
+  "CiscoUmbrellaCloudFirewall_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the cloud-delivered firewall traffic event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginIds",
+        "type": "dynamic",
+        "description": "The unique identity of the network tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identities",
+        "type": "string",
+        "description": "The names of the network tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityType",
+        "type": "string",
+        "description": "The type of identity that made the request. Should always be CDFW Tunnel Device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Direction",
+        "type": "string",
+        "description": "The direction of the packet. It is destined either towards the internet or to the customer's network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Protocol",
+        "type": "string",
+        "description": "The actual protocol of the traffic. Valid values are: TCP, UDP, or ICMP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketSize",
+        "type": "string",
+        "description": "The size in bytes of the packet sent to the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "The internal IP address of the user-generated traffic towards the CDFW. If the traffic goes through NAT before it comes to CDFW, it will be the NAT IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourcePort",
+        "type": "string",
+        "description": "The internal port number of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The destination IP address of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "The destination port number of the user-generated traffic towards the CDFW.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataCenter",
+        "type": "string",
+        "description": "The name of the data center that processed the user-generated traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "The ID of the rule that processed the user traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The final verdict whether to allow or block the traffic based on the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Fqdns",
+        "type": "string",
+        "description": "The fully qualified domain names (FQDNs) that match the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationListIds",
+        "type": "string",
+        "description": "The destination list IDs that Secure Access applied in the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstPacketTimestamp",
+        "type": "string",
+        "description": "The timestamp when the first packet of the session was received in UTC in seconds. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastPacketTimestamp",
+        "type": "string",
+        "description": "The timestamp when the last packet of the session was received in UTC in seconds. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketsSent",
+        "type": "string",
+        "description": "The number of packets sent during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketsReceived",
+        "type": "string",
+        "description": "The number of packets received during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesSent",
+        "type": "string",
+        "description": "The number of bytes sent during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesReceived",
+        "type": "string",
+        "description": "The number of bytes received during the session. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwEventId",
+        "type": "string",
+        "description": "The ID of the firewall event. Populated only for traffic handled by Cisco Secure Firewall.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationCountry",
+        "type": "string",
+        "description": "The ISO-3166 alpha-2 two-character identifier of the country associated with the destination IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsRegion",
+        "type": "string",
+        "description": "The AWS region that stores your VPN logs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "The unique application ID identified for the current session.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateAppGroupId",
+        "type": "string",
+        "description": "The unique ID of the private resource group ID that the private resource belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateFlow",
+        "type": "string",
+        "description": "TRUE if Secure Access applied a private access rule to the user-generated traffic, and FALSE if Secure Access applied an internet access rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PostureId",
+        "type": "string",
+        "description": "The unique ID of the endpoint posture profile.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CasiCategoryIds",
+        "type": "dynamic",
+        "description": "Name of the Application category to which the App ID belongs.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficSource",
+        "type": "string",
+        "description": "The source of the user-generated traffic. Valid values are 0 - Unknown, 1 - VPN,2 – ZTNA, 3 - Network Tunnel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentCategoryIds",
+        "type": "string",
+        "description": "ID of one or more content categories matched by the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentCategoryListIds",
+        "type": "string",
+        "description": "ID of one or more content category lists that include categories matched by the rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EgressIp",
+        "type": "string",
+        "description": "The public IP address assigned to a session as it exits the Secure Access ZTA infrastructure en route to the destination application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Egress",
+        "type": "string",
+        "description": "TRUE indicates that the egress IP was a reserved IP.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "A unique identifier generated for each network request, the Event Correlation ID stitches together all related events across various security services (Firewall, SWG, ZTNA) to provide a unified, end-to-end view of a single traffic flow.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  }
+}

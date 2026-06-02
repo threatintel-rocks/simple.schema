@@ -1,0 +1,216 @@
+{
+  "CiscoUmbrellaDLP_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the DLP event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of event that matched a data identifier. Real Time denotes a proxy-based DLP event triggered by a Real Time rule and SaaS API denotes a DLP event triggered by any of the SaaS API rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UniqueEventId",
+        "type": "string",
+        "description": "The unique identifier for the event. There can be multiple violation matches in one event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "The severity of the rule: Low/Info, Medium/Warn, High/Alert, or Critical.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Identity",
+        "type": "string",
+        "description": "The source that triggered the violation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Owner",
+        "type": "string",
+        "description": "The owner of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The name of the file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "The application of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Destination",
+        "type": "string",
+        "description": "The domain of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "If the violation was Blocked or Monitored.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rule",
+        "type": "string",
+        "description": "The DLP rule name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataClassification",
+        "type": "string",
+        "description": "The data classification whose data identifier matched on the violation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataIdentifier",
+        "type": "string",
+        "description": "The data identifier that matched on the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContentType",
+        "type": "string",
+        "description": "The mime type of the file that matches the data identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "string",
+        "description": "The size of the file in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256Hash",
+        "type": "string",
+        "description": "The hex digest of the response content.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileLabel",
+        "type": "string",
+        "description": "The file name label that matched on the file properties.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationCategoryName",
+        "type": "string",
+        "description": "The category of the requested web application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficDirection",
+        "type": "string",
+        "description": "Direction of traffic. (Applies only to some applications, such as OpenAI API and OpenAI ChatGPT.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceName",
+        "type": "string",
+        "description": "The name of the private resource.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PrivateResourceGroupName",
+        "type": "string",
+        "description": "The private resource group name if the matched rule destination was a private resource group.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationProtocol",
+        "type": "string",
+        "description": "The protocol of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "The IP address of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "string",
+        "description": "The port of the destination.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The Secure Access organization ID.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoUmbrella"
+  }
+}
