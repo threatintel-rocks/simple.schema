@@ -369,6 +369,14 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "LogonID",
+        "type": "long",
+        "description": "A unique identifier for the user initiating the event, enabling attribution of network activity to the originating interactive user across privilege escalation and session transitions. This field is located inside AdditionalFields/InitiatingProcessPosixEffectiveUser",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

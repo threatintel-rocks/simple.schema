@@ -87729,8 +87729,7 @@
           "Defender XDR"
         ]
       }
-    ],
-    "preview": true
+    ]
   },
   "CloudDnsEvents": {
     "source": "Defender XDR Advanced Hunting Schema",
@@ -87911,8 +87910,7 @@
           "Defender XDR"
         ]
       }
-    ],
-    "preview": true
+    ]
   },
   "CloudPolicyEnforcementEvents": {
     "source": "Defender XDR Advanced Hunting Schema",
@@ -88215,6 +88213,38 @@
         "name": "InitiatingProcessId",
         "type": "string",
         "description": "Process ID (PID) of the process that initiated the event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ImageDigest",
+        "type": "string",
+        "description": "The container's image digest",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "The unique identifier of the agent, which is the sensor instance on a node",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "The geographical region where the cluster is located",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The node's hostname",
         "availability": [
           "Defender XDR"
         ]
@@ -90225,6 +90255,14 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "LogonID",
+        "type": "long",
+        "description": "A unique identifier for the user initiating the event, enabling attribution of file activity to the originating interactive user across privilege escalation and session transitions. This field is located inside AdditionalFields/InitiatingProcessPosixEffectiveUser",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   },
@@ -91749,6 +91787,14 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "LogonID",
+        "type": "long",
+        "description": "A unique identifier for the user initiating the event, enabling attribution of network activity to the originating interactive user across privilege escalation and session transitions. This field is located inside AdditionalFields/InitiatingProcessPosixEffectiveUser",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   },
@@ -92444,6 +92490,14 @@
         "name": "InitiatingProcessUniqueId",
         "type": "string",
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LogonID",
+        "type": "long",
+        "description": "A unique identifier for the user initiating the event, enabling attribution of process activity to the originating interactive user across privilege escalation and session transitions. This field is located inside AdditionalFields/InitiatingProcessPosixEffectiveUser",
         "availability": [
           "Defender XDR"
         ]
@@ -94288,6 +94342,14 @@
         "name": "DeliveryLocation",
         "type": "string",
         "description": "Location where the email was delivered: Inbox/Folder, On-premises/External, Junk, Quarantine, Failed, Dropped, Deleted items",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceLocation",
+        "type": "string",
+        "description": "Source folder or location where the post-delivery action occurred: Inbox, JunkEmail, DeletedItems",
         "availability": [
           "Defender XDR"
         ]

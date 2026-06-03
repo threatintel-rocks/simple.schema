@@ -2,6 +2,20 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-03 08:13 UTC
+
+**Columns added** (8)
+
+- `CloudProcessEvents.AgentId` (string)
+- `CloudProcessEvents.HostName` (string)
+- `CloudProcessEvents.ImageDigest` (string)
+- `CloudProcessEvents.Region` (string)
+- `DeviceFileEvents.LogonID` (long)
+- `DeviceNetworkEvents.LogonID` (long)
+- `DeviceProcessEvents.LogonID` (long)
+- `EmailPostDeliveryEvents.SourceLocation` (string)
+
+
 ### 2026-06-02 07:21 UTC
 
 **Tables added** (10)

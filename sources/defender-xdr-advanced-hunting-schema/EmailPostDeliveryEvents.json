@@ -75,6 +75,14 @@
         ]
       },
       {
+        "name": "SourceLocation",
+        "type": "string",
+        "description": "Source folder or location where the post-delivery action occurred: Inbox, JunkEmail, DeletedItems",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "ThreatTypes",
         "type": "string",
         "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats",
