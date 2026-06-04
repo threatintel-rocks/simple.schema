@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-04 07:21 UTC
+
+**Tables added** (1)
+
+- `AgentsInfo` (35 columns, source: Defender XDR Advanced Hunting Schema)
+
+
 ### 2026-06-03 08:13 UTC
 
 **Columns added** (8)

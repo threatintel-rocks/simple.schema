@@ -1,0 +1,288 @@
+{
+  "AgentsInfo": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time the agent information was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "Unique identifier for the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AgentName",
+        "type": "string",
+        "description": "Display name of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Platform",
+        "type": "string",
+        "description": "The platform that provided the information about the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AgentDescription",
+        "type": "string",
+        "description": "Description of the agent as displayed in the agent's source",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "Version of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceAgentId",
+        "type": "string",
+        "description": "Native identifier assigned by the platform where the agent originated",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EntraAgentId",
+        "type": "string",
+        "description": "The agent's unique enterprise application object identifier by Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EntraBlueprintId",
+        "type": "string",
+        "description": "The unique identifier by Microsoft Entra ID for the agent identity blueprint, which serves as the template from which the agent's identity was created",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ToolsAuthenticationType",
+        "type": "dynamic",
+        "description": "Structured summary of agent identity, authentication, and authorization model",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Permissions",
+        "type": "dynamic",
+        "description": "Permissions record of the agent, including those that have been requested and granted, their approval state, and consent enumeration",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "PublishedStatus",
+        "type": "string",
+        "description": "The agent's publication status; possible values: `Draft`, `Published",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LifecycleStatus",
+        "type": "string",
+        "description": "The agent's current operational state in the tenant; possible values: `Active`, `Blocked`, `Uninstalled`, `Deleted",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Availability",
+        "type": "string",
+        "description": "The deployment scope of the agent (that is, whether deployed to all users, specific groups, or individual users)",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "CreatedDateTime",
+        "type": "datetime",
+        "description": "Date and time when the agent was created",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LastPublishedDateTime",
+        "type": "datetime",
+        "description": "Date and time when the agent was last published or deployed",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "LastUpdatedDateTime",
+        "type": "datetime",
+        "description": "Date and time when the agent's metadata was last modified",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Owners",
+        "type": "dynamic",
+        "description": "Primary owners of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SharedWith",
+        "type": "dynamic",
+        "description": "The users and security groups the agent has been shared with",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "InstanceCount",
+        "type": "int",
+        "description": "Number of agent instances created from the same Microsoft Entra ID agent identity blueprint",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Instructions",
+        "type": "string",
+        "description": "The agent's system prompt that defines its default behavior, persona, and operating boundaries",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Model",
+        "type": "string",
+        "description": "The AI model powering the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Channels",
+        "type": "dynamic",
+        "description": "The channels or surfaces where the agent can operate, such as Microsoft 365 applications or APIs",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Capabilities",
+        "type": "dynamic",
+        "description": "The intents, actions, skills, and orchestrations of the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "DeclaredDataSources",
+        "type": "dynamic",
+        "description": "The data repositories and knowledge sources the agent can access",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "DeclaredTools",
+        "type": "dynamic",
+        "description": "Functional tools the agent can invoke at runtime",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "McpServers",
+        "type": "dynamic",
+        "description": "The Model Context Protocol (MCP) servers connected to the agent, including server URLs and credential configuration",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Skills",
+        "type": "dynamic",
+        "description": "Skills attached to the agent",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ConnectedAgents",
+        "type": "dynamic",
+        "description": "List of other agents connected to the agent for multi-agent orchestration",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Memory",
+        "type": "dynamic",
+        "description": "The agent's declarative memory store configuration",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Triggers",
+        "type": "dynamic",
+        "description": "List of the agent's triggers",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Guardrails",
+        "type": "dynamic",
+        "description": "Guardrails attached to the agent and their coverage",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Endpoints",
+        "type": "dynamic",
+        "description": "List of agent runtime endpoints, including URL, transport type, and external connectivity flag",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ObservabilityId",
+        "type": "dynamic",
+        "description": "Unique identifier used to correlate the agent with its usage and activity data in Microsoft Agent 365",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RawAgentInfo",
+        "type": "dynamic",
+        "description": "Additional information about the agent, in JSON format",
+        "availability": [
+          "Defender XDR"
+        ]
+      }
+    ],
+    "preview": true
+  }
+}
