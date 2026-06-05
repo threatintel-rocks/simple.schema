@@ -28519,6 +28519,370 @@
     ],
     "solution": "Feedly"
   },
+  "FilewallExchange_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "application",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "timestamp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "subject",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "sender",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "recipient",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "mail_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "summary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "policy_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "policy_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_timestamp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_by_admin",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_reason",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "attachments",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Filewall for Microsoft 365"
+  },
+  "FilewallFile_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "application",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "timestamp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "state",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "status",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "owner",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "drive_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "policy_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "policy_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_by_admin",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_reason",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "release_timestamp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "path",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "file_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "version",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "new_sha1",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "original_sha1",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "new_sha256",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "original_sha256",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "size",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "block_reason",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "summary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "site_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Filewall for Microsoft 365"
+  },
   "FireworkV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -29911,17 +30275,9 @@
         ]
       },
       {
-        "name": "CreatedAt",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
         "name": "Org",
         "type": "string",
-        "description": "",
+        "description": "The GitHub organization associated with the audit log event.",
         "availability": [
           "Sentinel"
         ]
@@ -29929,7 +30285,7 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "",
+        "description": "The name of the action that was performed, for example user.login or repo.create.",
         "availability": [
           "Sentinel"
         ]
@@ -29937,7 +30293,7 @@
       {
         "name": "Repo",
         "type": "string",
-        "description": "",
+        "description": "The name of the repository associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -29945,239 +30301,7 @@
       {
         "name": "Actor",
         "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "User",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Permission",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Visibility",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PreviousVisibility",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OldPermission",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Team",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "BlockedUser",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OperationType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PublicRepo",
-        "type": "boolean",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OrgId",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "InviteeEmail",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActorIp",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActorId",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActorIsBot",
-        "type": "boolean",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "BusinessId",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RepoId",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserAgent",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserId",
-        "type": "real",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Email",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RepositorySecurityConfigurationFailureReason",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RepositorySecurityConfigurationState",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SecurityConfigurationName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OauthApplication",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OauthApplicationUrl",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OauthApplicationState",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Reason",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MembershipType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserCanInviteCollaborators",
-        "type": "boolean",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CanCreateRepositories",
-        "type": "boolean",
-        "description": "",
+        "description": "The actor who performed the action.",
         "availability": [
           "Sentinel"
         ]
@@ -30185,7 +30309,247 @@
       {
         "name": "CountryCode",
         "type": "string",
-        "description": "",
+        "description": "The country code from the actor's location.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "The user that was affected by the action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Permission",
+        "type": "string",
+        "description": "The permission level granted or associated with the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Visibility",
+        "type": "string",
+        "description": "The repository visibility, for example public or private.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousVisibility",
+        "type": "string",
+        "description": "The previous repository visibility before the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OldPermission",
+        "type": "string",
+        "description": "The previous permission level before the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Team",
+        "type": "string",
+        "description": "The team associated with the audit log event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedUser",
+        "type": "string",
+        "description": "The username of the account being blocked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationType",
+        "type": "string",
+        "description": "The type of operation performed, for example create, modify, or delete.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublicRepo",
+        "type": "boolean",
+        "description": "Whether the repository is public.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrgId",
+        "type": "real",
+        "description": "The numeric identifier of the GitHub organization.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "real",
+        "description": "The time the audit log event was recorded, given as a Unix timestamp in milliseconds.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InviteeEmail",
+        "type": "string",
+        "description": "The email address of the person invited.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorIp",
+        "type": "string",
+        "description": "The IP address of the actor who performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorId",
+        "type": "real",
+        "description": "The numeric identifier of the actor who performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorIsBot",
+        "type": "boolean",
+        "description": "Whether the actor is a bot account.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BusinessId",
+        "type": "real",
+        "description": "The numeric identifier of the GitHub Enterprise business.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RepoId",
+        "type": "real",
+        "description": "The numeric identifier of the repository.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The user agent string of the client that initiated the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "real",
+        "description": "The numeric identifier of the affected user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "The email address associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RepositorySecurityConfigurationFailureReason",
+        "type": "dynamic",
+        "description": "The reason a repository security configuration failed to apply.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RepositorySecurityConfigurationState",
+        "type": "dynamic",
+        "description": "The state of the repository security configuration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityConfigurationName",
+        "type": "string",
+        "description": "The name of the security configuration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OauthApplication",
+        "type": "string",
+        "description": "The name of the OAuth application involved in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OauthApplicationUrl",
+        "type": "string",
+        "description": "The URL of the OAuth application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OauthApplicationState",
+        "type": "string",
+        "description": "The state of the OAuth application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "The reason for the action or event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MembershipType",
+        "type": "string",
+        "description": "The type of membership, for example admin or member.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserCanInviteCollaborators",
+        "type": "boolean",
+        "description": "Whether the user has permission to invite collaborators.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CanCreateRepositories",
+        "type": "boolean",
+        "description": "Whether the user has permission to create repositories.",
         "availability": [
           "Sentinel"
         ]
@@ -30193,7 +30557,7 @@
       {
         "name": "SecurityConfigurationId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -30201,7 +30565,7 @@
       {
         "name": "InvitationId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the invitation.",
         "availability": [
           "Sentinel"
         ]
@@ -30209,7 +30573,7 @@
       {
         "name": "Topic",
         "type": "string",
-        "description": "",
+        "description": "The topic associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30217,7 +30581,7 @@
       {
         "name": "DocumentId",
         "type": "string",
-        "description": "",
+        "description": "A unique identifier for the audit event.",
         "availability": [
           "Sentinel"
         ]
@@ -30225,7 +30589,7 @@
       {
         "name": "Business",
         "type": "string",
-        "description": "",
+        "description": "The name of the GitHub Enterprise business.",
         "availability": [
           "Sentinel"
         ]
@@ -30233,7 +30597,7 @@
       {
         "name": "RequestCategory",
         "type": "string",
-        "description": "",
+        "description": "The category of the request.",
         "availability": [
           "Sentinel"
         ]
@@ -30241,7 +30605,7 @@
       {
         "name": "OauthApplicationId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the OAuth application.",
         "availability": [
           "Sentinel"
         ]
@@ -30249,7 +30613,7 @@
       {
         "name": "OldRepoPermission",
         "type": "string",
-        "description": "",
+        "description": "The previous repository permission before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -30257,7 +30621,7 @@
       {
         "name": "NewRepoPermission",
         "type": "string",
-        "description": "",
+        "description": "The new repository permission after the change.",
         "availability": [
           "Sentinel"
         ]
@@ -30265,7 +30629,7 @@
       {
         "name": "RepositoriesRemovedNames",
         "type": "string",
-        "description": "",
+        "description": "The names of repositories that were removed.",
         "availability": [
           "Sentinel"
         ]
@@ -30273,7 +30637,7 @@
       {
         "name": "Active",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the resource is currently active.",
         "availability": [
           "Sentinel"
         ]
@@ -30281,7 +30645,7 @@
       {
         "name": "ActiveWas",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the resource was previously active.",
         "availability": [
           "Sentinel"
         ]
@@ -30289,7 +30653,7 @@
       {
         "name": "Data",
         "type": "string",
-        "description": "",
+        "description": "Additional data associated with the event, serialized as a JSON string.",
         "availability": [
           "Sentinel"
         ]
@@ -30297,7 +30661,7 @@
       {
         "name": "Config",
         "type": "string",
-        "description": "",
+        "description": "The current configuration associated with the event, serialized as a JSON string.",
         "availability": [
           "Sentinel"
         ]
@@ -30305,7 +30669,7 @@
       {
         "name": "ConfigWas",
         "type": "string",
-        "description": "",
+        "description": "The previous configuration before the change, serialized as a JSON string.",
         "availability": [
           "Sentinel"
         ]
@@ -30313,7 +30677,7 @@
       {
         "name": "ContentType",
         "type": "string",
-        "description": "",
+        "description": "The content type of the resource.",
         "availability": [
           "Sentinel"
         ]
@@ -30321,7 +30685,7 @@
       {
         "name": "DeployKeyFingerprint",
         "type": "string",
-        "description": "",
+        "description": "The fingerprint of the deploy key.",
         "availability": [
           "Sentinel"
         ]
@@ -30329,7 +30693,7 @@
       {
         "name": "Emoji",
         "type": "string",
-        "description": "",
+        "description": "The emoji associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30337,7 +30701,7 @@
       {
         "name": "Events",
         "type": "string",
-        "description": "",
+        "description": "The current events configuration, serialized as a JSON string.",
         "availability": [
           "Sentinel"
         ]
@@ -30345,7 +30709,7 @@
       {
         "name": "EventsWere",
         "type": "string",
-        "description": "",
+        "description": "The previous events configuration before the change, serialized as a JSON string.",
         "availability": [
           "Sentinel"
         ]
@@ -30353,7 +30717,7 @@
       {
         "name": "Explanation",
         "type": "string",
-        "description": "",
+        "description": "An explanation or additional context for the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30361,7 +30725,7 @@
       {
         "name": "Fingerprint",
         "type": "string",
-        "description": "",
+        "description": "The fingerprint of the key or certificate.",
         "availability": [
           "Sentinel"
         ]
@@ -30369,7 +30733,7 @@
       {
         "name": "HookId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the webhook.",
         "availability": [
           "Sentinel"
         ]
@@ -30377,7 +30741,7 @@
       {
         "name": "LimitedAvailability",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the feature has limited availability.",
         "availability": [
           "Sentinel"
         ]
@@ -30385,7 +30749,7 @@
       {
         "name": "Message",
         "type": "string",
-        "description": "",
+        "description": "A message associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30393,7 +30757,7 @@
       {
         "name": "Name",
         "type": "string",
-        "description": "",
+        "description": "The name of the resource associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30401,7 +30765,7 @@
       {
         "name": "OldUser",
         "type": "string",
-        "description": "",
+        "description": "The previous user before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -30409,7 +30773,7 @@
       {
         "name": "OpensshPublicKey",
         "type": "string",
-        "description": "",
+        "description": "The OpenSSH public key associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30417,7 +30781,7 @@
       {
         "name": "ReadOnly",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the resource is read-only.",
         "availability": [
           "Sentinel"
         ]
@@ -30425,7 +30789,7 @@
       {
         "name": "TargetLogin",
         "type": "string",
-        "description": "",
+        "description": "The login of the target user.",
         "availability": [
           "Sentinel"
         ]
@@ -30433,7 +30797,7 @@
       {
         "name": "TransportProtocol",
         "type": "real",
-        "description": "",
+        "description": "The type of protocol (for example, HTTP or SSH) used to transfer Git data.",
         "availability": [
           "Sentinel"
         ]
@@ -30441,7 +30805,7 @@
       {
         "name": "TransportProtocolName",
         "type": "string",
-        "description": "",
+        "description": "A human readable name for the protocol used to transfer Git data.",
         "availability": [
           "Sentinel"
         ]
@@ -30449,7 +30813,7 @@
       {
         "name": "StartedAt",
         "type": "datetime",
-        "description": "",
+        "description": "The time the workflow or job started.",
         "availability": [
           "Sentinel"
         ]
@@ -30457,7 +30821,7 @@
       {
         "name": "CompletedAt",
         "type": "datetime",
-        "description": "",
+        "description": "The time the workflow or job completed.",
         "availability": [
           "Sentinel"
         ]
@@ -30465,7 +30829,7 @@
       {
         "name": "Conclusion",
         "type": "string",
-        "description": "",
+        "description": "The conclusion status of the workflow run, for example success or failure.",
         "availability": [
           "Sentinel"
         ]
@@ -30473,7 +30837,7 @@
       {
         "name": "Event",
         "type": "string",
-        "description": "",
+        "description": "The event that triggered the workflow.",
         "availability": [
           "Sentinel"
         ]
@@ -30481,7 +30845,7 @@
       {
         "name": "HeadBranch",
         "type": "string",
-        "description": "",
+        "description": "The head branch of the workflow run.",
         "availability": [
           "Sentinel"
         ]
@@ -30489,7 +30853,7 @@
       {
         "name": "HeadSha",
         "type": "string",
-        "description": "",
+        "description": "The HEAD SHA of the commit that triggered the workflow.",
         "availability": [
           "Sentinel"
         ]
@@ -30497,7 +30861,7 @@
       {
         "name": "RunAttempt",
         "type": "real",
-        "description": "",
+        "description": "The attempt number of the workflow run.",
         "availability": [
           "Sentinel"
         ]
@@ -30505,7 +30869,7 @@
       {
         "name": "RunNumber",
         "type": "real",
-        "description": "",
+        "description": "The run number of the workflow.",
         "availability": [
           "Sentinel"
         ]
@@ -30513,7 +30877,7 @@
       {
         "name": "TriggerId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the trigger.",
         "availability": [
           "Sentinel"
         ]
@@ -30521,7 +30885,7 @@
       {
         "name": "WorkflowId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the workflow.",
         "availability": [
           "Sentinel"
         ]
@@ -30529,7 +30893,7 @@
       {
         "name": "WorkflowRunId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the workflow run.",
         "availability": [
           "Sentinel"
         ]
@@ -30537,7 +30901,7 @@
       {
         "name": "EnvironmentName",
         "type": "string",
-        "description": "",
+        "description": "The name of the deployment environment.",
         "availability": [
           "Sentinel"
         ]
@@ -30545,7 +30909,7 @@
       {
         "name": "IsHostedRunner",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the runner is a GitHub-hosted runner.",
         "availability": [
           "Sentinel"
         ]
@@ -30553,7 +30917,7 @@
       {
         "name": "JobName",
         "type": "string",
-        "description": "",
+        "description": "The name of the workflow job.",
         "availability": [
           "Sentinel"
         ]
@@ -30561,7 +30925,7 @@
       {
         "name": "JobWorkflowRef",
         "type": "string",
-        "description": "",
+        "description": "The reference to the reusable workflow used by the job.",
         "availability": [
           "Sentinel"
         ]
@@ -30569,7 +30933,7 @@
       {
         "name": "RunnerGroupId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the runner group.",
         "availability": [
           "Sentinel"
         ]
@@ -30577,7 +30941,7 @@
       {
         "name": "RunnerGroupName",
         "type": "string",
-        "description": "",
+        "description": "The name of the runner group.",
         "availability": [
           "Sentinel"
         ]
@@ -30585,7 +30949,7 @@
       {
         "name": "RunnerId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the runner.",
         "availability": [
           "Sentinel"
         ]
@@ -30593,7 +30957,7 @@
       {
         "name": "RunnerLabels",
         "type": "string",
-        "description": "",
+        "description": "The labels assigned to the runner.",
         "availability": [
           "Sentinel"
         ]
@@ -30601,7 +30965,7 @@
       {
         "name": "RunnerName",
         "type": "string",
-        "description": "",
+        "description": "The name of the runner.",
         "availability": [
           "Sentinel"
         ]
@@ -30609,7 +30973,7 @@
       {
         "name": "SecretsPassed",
         "type": "string",
-        "description": "",
+        "description": "The secrets passed to the workflow or job.",
         "availability": [
           "Sentinel"
         ]
@@ -30617,7 +30981,7 @@
       {
         "name": "HashedToken",
         "type": "string",
-        "description": "",
+        "description": "The hashed token used for authentication.",
         "availability": [
           "Sentinel"
         ]
@@ -30625,7 +30989,7 @@
       {
         "name": "ProgrammaticAccessType",
         "type": "string",
-        "description": "",
+        "description": "The type of programmatic access used.",
         "availability": [
           "Sentinel"
         ]
@@ -30633,7 +30997,7 @@
       {
         "name": "RequestAccessSecurityHeader",
         "type": "string",
-        "description": "",
+        "description": "The security header of the access request.",
         "availability": [
           "Sentinel"
         ]
@@ -30641,7 +31005,7 @@
       {
         "name": "TokenId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the token.",
         "availability": [
           "Sentinel"
         ]
@@ -30649,7 +31013,7 @@
       {
         "name": "PullRequestId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the pull request.",
         "availability": [
           "Sentinel"
         ]
@@ -30657,7 +31021,7 @@
       {
         "name": "PullRequestTitle",
         "type": "string",
-        "description": "",
+        "description": "The title of the pull request.",
         "availability": [
           "Sentinel"
         ]
@@ -30665,7 +31029,7 @@
       {
         "name": "PullRequestUrl",
         "type": "string",
-        "description": "",
+        "description": "The URL of the pull request.",
         "availability": [
           "Sentinel"
         ]
@@ -30673,7 +31037,7 @@
       {
         "name": "OldRolePermissions",
         "type": "string",
-        "description": "",
+        "description": "The previous role permissions before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -30681,7 +31045,7 @@
       {
         "name": "RolePermissions",
         "type": "string",
-        "description": "",
+        "description": "The current role permissions.",
         "availability": [
           "Sentinel"
         ]
@@ -30689,7 +31053,7 @@
       {
         "name": "RequestId",
         "type": "string",
-        "description": "",
+        "description": "The unique identifier of the request.",
         "availability": [
           "Sentinel"
         ]
@@ -30697,7 +31061,7 @@
       {
         "name": "BaseRole",
         "type": "string",
-        "description": "",
+        "description": "The base role for the organization or repository.",
         "availability": [
           "Sentinel"
         ]
@@ -30705,7 +31069,7 @@
       {
         "name": "CustomPattern",
         "type": "string",
-        "description": "",
+        "description": "The custom secret scanning pattern.",
         "availability": [
           "Sentinel"
         ]
@@ -30713,7 +31077,7 @@
       {
         "name": "Source",
         "type": "string",
-        "description": "",
+        "description": "The source of the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30721,7 +31085,7 @@
       {
         "name": "ActivityType",
         "type": "string",
-        "description": "",
+        "description": "The type of activity that was performed.",
         "availability": [
           "Sentinel"
         ]
@@ -30729,7 +31093,7 @@
       {
         "name": "GhsaId",
         "type": "string",
-        "description": "",
+        "description": "The GitHub Security Advisory identifier.",
         "availability": [
           "Sentinel"
         ]
@@ -30737,7 +31101,7 @@
       {
         "name": "Recipient",
         "type": "string",
-        "description": "",
+        "description": "The recipient of the action.",
         "availability": [
           "Sentinel"
         ]
@@ -30745,7 +31109,7 @@
       {
         "name": "RunnerOwnerType",
         "type": "string",
-        "description": "",
+        "description": "The type of the runner owner, for example organization or enterprise.",
         "availability": [
           "Sentinel"
         ]
@@ -30753,7 +31117,7 @@
       {
         "name": "OrganizationRoleId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the organization role.",
         "availability": [
           "Sentinel"
         ]
@@ -30761,7 +31125,7 @@
       {
         "name": "OrganizationRoleName",
         "type": "string",
-        "description": "",
+        "description": "The name of the organization role.",
         "availability": [
           "Sentinel"
         ]
@@ -30769,7 +31133,7 @@
       {
         "name": "Owner",
         "type": "string",
-        "description": "",
+        "description": "The owner of the resource.",
         "availability": [
           "Sentinel"
         ]
@@ -30777,7 +31141,7 @@
       {
         "name": "OldTokenExpiration",
         "type": "real",
-        "description": "",
+        "description": "The previous token expiration timestamp.",
         "availability": [
           "Sentinel"
         ]
@@ -30785,7 +31149,7 @@
       {
         "name": "ExemptAdministrators",
         "type": "boolean",
-        "description": "",
+        "description": "Whether administrators are exempt from the rule.",
         "availability": [
           "Sentinel"
         ]
@@ -30793,7 +31157,7 @@
       {
         "name": "TokenExpiration",
         "type": "real",
-        "description": "",
+        "description": "The token expiration timestamp.",
         "availability": [
           "Sentinel"
         ]
@@ -30801,7 +31165,7 @@
       {
         "name": "Policy",
         "type": "string",
-        "description": "",
+        "description": "The policy associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30809,7 +31173,7 @@
       {
         "name": "ApplicationClientId",
         "type": "string",
-        "description": "",
+        "description": "The client ID of the application.",
         "availability": [
           "Sentinel"
         ]
@@ -30817,7 +31181,7 @@
       {
         "name": "Integration",
         "type": "string",
-        "description": "",
+        "description": "The integration associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -30825,7 +31189,7 @@
       {
         "name": "RepositoriesRemoved",
         "type": "string",
-        "description": "",
+        "description": "The repositories removed from the integration or configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -30833,7 +31197,7 @@
       {
         "name": "RepositorySelection",
         "type": "string",
-        "description": "",
+        "description": "The repository selection mode, for example all or selected.",
         "availability": [
           "Sentinel"
         ]
@@ -30841,7 +31205,7 @@
       {
         "name": "NewProjectBaseRole",
         "type": "string",
-        "description": "",
+        "description": "The new base role for the project.",
         "availability": [
           "Sentinel"
         ]
@@ -30849,7 +31213,7 @@
       {
         "name": "OldProjectBaseRole",
         "type": "string",
-        "description": "",
+        "description": "The previous base role for the project.",
         "availability": [
           "Sentinel"
         ]
@@ -30857,7 +31221,7 @@
       {
         "name": "ProjectId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the project.",
         "availability": [
           "Sentinel"
         ]
@@ -30865,7 +31229,7 @@
       {
         "name": "ProjectNumber",
         "type": "real",
-        "description": "",
+        "description": "The project number.",
         "availability": [
           "Sentinel"
         ]
@@ -30873,7 +31237,7 @@
       {
         "name": "PublicProject",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the project is public.",
         "availability": [
           "Sentinel"
         ]
@@ -30881,7 +31245,7 @@
       {
         "name": "RulesetBypassActors",
         "type": "string",
-        "description": "",
+        "description": "The actors that can bypass the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30889,7 +31253,7 @@
       {
         "name": "RulesetConditions",
         "type": "string",
-        "description": "",
+        "description": "The conditions of the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30897,7 +31261,7 @@
       {
         "name": "RulesetEnforcement",
         "type": "string",
-        "description": "",
+        "description": "The enforcement level of the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30905,7 +31269,7 @@
       {
         "name": "RulesetId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30913,7 +31277,7 @@
       {
         "name": "RulesetName",
         "type": "string",
-        "description": "",
+        "description": "The name of the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30921,7 +31285,7 @@
       {
         "name": "RulesetRules",
         "type": "string",
-        "description": "",
+        "description": "The rules defined in the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30929,7 +31293,7 @@
       {
         "name": "RulesetSourceType",
         "type": "string",
-        "description": "",
+        "description": "The source type of the ruleset, for example organization or repository.",
         "availability": [
           "Sentinel"
         ]
@@ -30937,7 +31301,7 @@
       {
         "name": "RulesetRulesDeleted",
         "type": "string",
-        "description": "",
+        "description": "The rules deleted from the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30945,7 +31309,7 @@
       {
         "name": "RulesetConditionsUpdated",
         "type": "string",
-        "description": "",
+        "description": "The updated conditions of the ruleset.",
         "availability": [
           "Sentinel"
         ]
@@ -30953,7 +31317,7 @@
       {
         "name": "AdminEnforced",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the branch protection rule is enforced for administrators.",
         "availability": [
           "Sentinel"
         ]
@@ -30961,7 +31325,7 @@
       {
         "name": "AllowDeletionsEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for allowing branch deletions.",
         "availability": [
           "Sentinel"
         ]
@@ -30969,7 +31333,7 @@
       {
         "name": "AllowForcePushesEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for allowing force pushes.",
         "availability": [
           "Sentinel"
         ]
@@ -30977,7 +31341,7 @@
       {
         "name": "AuthorizedActorNames",
         "type": "string",
-        "description": "",
+        "description": "The names of actors authorized to bypass branch protection.",
         "availability": [
           "Sentinel"
         ]
@@ -30985,7 +31349,7 @@
       {
         "name": "CreateProtected",
         "type": "boolean",
-        "description": "",
+        "description": "Whether branch creation is protected.",
         "availability": [
           "Sentinel"
         ]
@@ -30993,7 +31357,7 @@
       {
         "name": "DismissStaleReviewsOnPush",
         "type": "boolean",
-        "description": "",
+        "description": "Whether stale pull request reviews are dismissed on new pushes.",
         "availability": [
           "Sentinel"
         ]
@@ -31001,7 +31365,7 @@
       {
         "name": "EnforcementLevel",
         "type": "string",
-        "description": "",
+        "description": "The enforcement level of the protection rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31009,7 +31373,7 @@
       {
         "name": "IgnoreApprovalsFromContributors",
         "type": "boolean",
-        "description": "",
+        "description": "Whether approvals from contributors are ignored.",
         "availability": [
           "Sentinel"
         ]
@@ -31017,7 +31381,7 @@
       {
         "name": "LinearHistoryRequirementEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for requiring linear commit history.",
         "availability": [
           "Sentinel"
         ]
@@ -31025,7 +31389,7 @@
       {
         "name": "LockAllowsFetchAndMerge",
         "type": "boolean",
-        "description": "",
+        "description": "Whether locked branches allow fetch and merge.",
         "availability": [
           "Sentinel"
         ]
@@ -31033,7 +31397,7 @@
       {
         "name": "LockBranchEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for branch locking.",
         "availability": [
           "Sentinel"
         ]
@@ -31041,7 +31405,7 @@
       {
         "name": "MergeQueueEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for merge queue.",
         "availability": [
           "Sentinel"
         ]
@@ -31049,7 +31413,7 @@
       {
         "name": "PullRequestReviewsEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for pull request reviews.",
         "availability": [
           "Sentinel"
         ]
@@ -31057,7 +31421,7 @@
       {
         "name": "RequireCodeOwnerReview",
         "type": "boolean",
-        "description": "",
+        "description": "Whether code owner review is required.",
         "availability": [
           "Sentinel"
         ]
@@ -31065,7 +31429,7 @@
       {
         "name": "RequireLastPushApproval",
         "type": "boolean",
-        "description": "",
+        "description": "Whether approval from someone other than the last pusher is required.",
         "availability": [
           "Sentinel"
         ]
@@ -31073,7 +31437,7 @@
       {
         "name": "RequiredApprovingReviewCount",
         "type": "real",
-        "description": "",
+        "description": "The number of required approving reviews.",
         "availability": [
           "Sentinel"
         ]
@@ -31081,7 +31445,7 @@
       {
         "name": "RequiredDeploymentsEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for required deployments.",
         "availability": [
           "Sentinel"
         ]
@@ -31089,7 +31453,7 @@
       {
         "name": "RequiredReviewThreadResolutionEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for required review thread resolution.",
         "availability": [
           "Sentinel"
         ]
@@ -31097,7 +31461,7 @@
       {
         "name": "RequiredStatusChecksEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for required status checks.",
         "availability": [
           "Sentinel"
         ]
@@ -31105,7 +31469,7 @@
       {
         "name": "SignatureRequirementEnforcementLevel",
         "type": "real",
-        "description": "",
+        "description": "The enforcement level for commit signature requirements.",
         "availability": [
           "Sentinel"
         ]
@@ -31113,7 +31477,7 @@
       {
         "name": "StrictRequiredStatusChecksPolicy",
         "type": "boolean",
-        "description": "",
+        "description": "Whether strict required status checks policy is enabled.",
         "availability": [
           "Sentinel"
         ]
@@ -31121,7 +31485,7 @@
       {
         "name": "AllowedValues",
         "type": "string",
-        "description": "",
+        "description": "The allowed values for a custom property.",
         "availability": [
           "Sentinel"
         ]
@@ -31129,7 +31493,7 @@
       {
         "name": "DefaultValue",
         "type": "string",
-        "description": "",
+        "description": "The default value for a custom property.",
         "availability": [
           "Sentinel"
         ]
@@ -31137,7 +31501,7 @@
       {
         "name": "DefinitionId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the custom property definition.",
         "availability": [
           "Sentinel"
         ]
@@ -31145,7 +31509,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "",
+        "description": "The description of the resource or event.",
         "availability": [
           "Sentinel"
         ]
@@ -31153,7 +31517,7 @@
       {
         "name": "PropertyName",
         "type": "string",
-        "description": "",
+        "description": "The name of the custom property.",
         "availability": [
           "Sentinel"
         ]
@@ -31161,7 +31525,7 @@
       {
         "name": "ValueType",
         "type": "string",
-        "description": "",
+        "description": "The data type of the custom property value.",
         "availability": [
           "Sentinel"
         ]
@@ -31169,7 +31533,7 @@
       {
         "name": "ValuesEditableBy",
         "type": "string",
-        "description": "",
+        "description": "Who can edit the custom property values.",
         "availability": [
           "Sentinel"
         ]
@@ -31177,7 +31541,7 @@
       {
         "name": "OldValuesEditableBy",
         "type": "string",
-        "description": "",
+        "description": "Who could previously edit the custom property values.",
         "availability": [
           "Sentinel"
         ]
@@ -31185,7 +31549,7 @@
       {
         "name": "OldDefaultValue",
         "type": "string",
-        "description": "",
+        "description": "The previous default value for a custom property.",
         "availability": [
           "Sentinel"
         ]
@@ -31193,7 +31557,7 @@
       {
         "name": "OldRequired",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the custom property was previously required.",
         "availability": [
           "Sentinel"
         ]
@@ -31201,7 +31565,7 @@
       {
         "name": "Required",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the custom property is required.",
         "availability": [
           "Sentinel"
         ]
@@ -31209,7 +31573,7 @@
       {
         "name": "Enablement",
         "type": "string",
-        "description": "",
+        "description": "The enablement state of a feature or configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31217,7 +31581,7 @@
       {
         "name": "OwnerType",
         "type": "string",
-        "description": "",
+        "description": "The type of the owner, for example user or organization.",
         "availability": [
           "Sentinel"
         ]
@@ -31225,7 +31589,7 @@
       {
         "name": "CommitId",
         "type": "string",
-        "description": "",
+        "description": "The commit identifier associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31233,7 +31597,7 @@
       {
         "name": "RuleSuiteId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the rule suite evaluation.",
         "availability": [
           "Sentinel"
         ]
@@ -31241,7 +31605,7 @@
       {
         "name": "Referrer",
         "type": "string",
-        "description": "",
+        "description": "The referrer URL or source.",
         "availability": [
           "Sentinel"
         ]
@@ -31249,7 +31613,7 @@
       {
         "name": "Reasons",
         "type": "string",
-        "description": "",
+        "description": "The reasons for the action or decision.",
         "availability": [
           "Sentinel"
         ]
@@ -31257,7 +31621,7 @@
       {
         "name": "OverriddenCodes",
         "type": "string",
-        "description": "",
+        "description": "The codes that were overridden.",
         "availability": [
           "Sentinel"
         ]
@@ -31265,7 +31629,7 @@
       {
         "name": "After",
         "type": "string",
-        "description": "",
+        "description": "The state after the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31273,7 +31637,7 @@
       {
         "name": "Before",
         "type": "string",
-        "description": "",
+        "description": "The state before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31281,7 +31645,7 @@
       {
         "name": "Branch",
         "type": "string",
-        "description": "",
+        "description": "The branch associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31289,7 +31653,7 @@
       {
         "name": "IssueTypeName",
         "type": "string",
-        "description": "",
+        "description": "The name of the issue type.",
         "availability": [
           "Sentinel"
         ]
@@ -31297,7 +31661,7 @@
       {
         "name": "OldDescription",
         "type": "string",
-        "description": "",
+        "description": "The previous description before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31305,7 +31669,7 @@
       {
         "name": "OldEnabled",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the feature was previously enabled.",
         "availability": [
           "Sentinel"
         ]
@@ -31313,7 +31677,7 @@
       {
         "name": "OldIssueTypeName",
         "type": "string",
-        "description": "",
+        "description": "The previous issue type name before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31321,7 +31685,7 @@
       {
         "name": "NewAccess",
         "type": "string",
-        "description": "",
+        "description": "The new access level after the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31329,7 +31693,7 @@
       {
         "name": "OldAccess",
         "type": "string",
-        "description": "",
+        "description": "The previous access level before the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31337,7 +31701,7 @@
       {
         "name": "UpdatedAllowedTypes",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the allowed types were updated.",
         "availability": [
           "Sentinel"
         ]
@@ -31345,7 +31709,7 @@
       {
         "name": "NewPolicy",
         "type": "string",
-        "description": "",
+        "description": "The new policy after the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31353,7 +31717,7 @@
       {
         "name": "NewRepoRunnersPolicy",
         "type": "string",
-        "description": "",
+        "description": "The new repository runners policy after the change.",
         "availability": [
           "Sentinel"
         ]
@@ -31361,7 +31725,7 @@
       {
         "name": "OldRepoRunnersPolicy",
         "type": "string",
-        "description": "",
+        "description": "The previous repository runners policy.",
         "availability": [
           "Sentinel"
         ]
@@ -31369,7 +31733,7 @@
       {
         "name": "Limit",
         "type": "real",
-        "description": "",
+        "description": "The limit value associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31377,7 +31741,7 @@
       {
         "name": "RunnerGroupRestrictedToWorkflows",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the runner group is restricted to specific workflows.",
         "availability": [
           "Sentinel"
         ]
@@ -31385,7 +31749,7 @@
       {
         "name": "RunnerGroupSelectedWorkflowRefs",
         "type": "string",
-        "description": "",
+        "description": "The workflow references selected for the runner group.",
         "availability": [
           "Sentinel"
         ]
@@ -31393,7 +31757,7 @@
       {
         "name": "RunnerGroupAllowPublic",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the runner group allows public repositories.",
         "availability": [
           "Sentinel"
         ]
@@ -31401,7 +31765,7 @@
       {
         "name": "IpAllowListEntry",
         "type": "string",
-        "description": "",
+        "description": "The IP allow list entry.",
         "availability": [
           "Sentinel"
         ]
@@ -31409,7 +31773,7 @@
       {
         "name": "TwoFactorMethod",
         "type": "string",
-        "description": "",
+        "description": "The two-factor authentication method used.",
         "availability": [
           "Sentinel"
         ]
@@ -31417,7 +31781,7 @@
       {
         "name": "AlertNumbers",
         "type": "string",
-        "description": "",
+        "description": "The alert numbers associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31425,7 +31789,7 @@
       {
         "name": "CommitOid",
         "type": "string",
-        "description": "",
+        "description": "The commit object identifier (OID).",
         "availability": [
           "Sentinel"
         ]
@@ -31433,7 +31797,7 @@
       {
         "name": "Ref",
         "type": "string",
-        "description": "",
+        "description": "The Git reference associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31441,7 +31805,7 @@
       {
         "name": "DefaultForNewPrivateRepos",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the configuration is the default for new private repositories.",
         "availability": [
           "Sentinel"
         ]
@@ -31449,7 +31813,7 @@
       {
         "name": "DefaultForNewPublicRepos",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the configuration is the default for new public repositories.",
         "availability": [
           "Sentinel"
         ]
@@ -31457,7 +31821,7 @@
       {
         "name": "DomainName",
         "type": "string",
-        "description": "",
+        "description": "The domain name associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31465,7 +31829,7 @@
       {
         "name": "Key",
         "type": "string",
-        "description": "",
+        "description": "The key associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31473,7 +31837,7 @@
       {
         "name": "SecurityConfigurationCodeScanning",
         "type": "string",
-        "description": "",
+        "description": "The code scanning setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31481,7 +31845,7 @@
       {
         "name": "SecurityConfigurationCodeSecuritySkuEnabled",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the code security SKU is enabled in the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31489,7 +31853,7 @@
       {
         "name": "SecurityConfigurationCreatedAt",
         "type": "datetime",
-        "description": "",
+        "description": "The creation date of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31497,7 +31861,7 @@
       {
         "name": "SecurityConfigurationDependabotAlerts",
         "type": "string",
-        "description": "",
+        "description": "The Dependabot alerts setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31505,7 +31869,7 @@
       {
         "name": "SecurityConfigurationDependabotSecurityUpdates",
         "type": "string",
-        "description": "",
+        "description": "The Dependabot security updates setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31513,7 +31877,7 @@
       {
         "name": "SecurityConfigurationDependencyGraph",
         "type": "string",
-        "description": "",
+        "description": "The dependency graph setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31521,7 +31885,7 @@
       {
         "name": "SecurityConfigurationDependencyGraphAutosubmitAction",
         "type": "string",
-        "description": "",
+        "description": "The dependency graph autosubmit action setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31529,7 +31893,7 @@
       {
         "name": "SecurityConfigurationDescription",
         "type": "string",
-        "description": "",
+        "description": "The description of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31537,7 +31901,7 @@
       {
         "name": "SecurityConfigurationEnableGhas",
         "type": "boolean",
-        "description": "",
+        "description": "Whether GitHub Advanced Security is enabled in the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31545,7 +31909,7 @@
       {
         "name": "SecurityConfigurationPrivateVulnerabilityReporting",
         "type": "string",
-        "description": "",
+        "description": "The private vulnerability reporting setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31553,7 +31917,7 @@
       {
         "name": "SecurityConfigurationSecretProtectionSkuEnabled",
         "type": "boolean",
-        "description": "",
+        "description": "Whether the secret protection SKU is enabled in the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31561,7 +31925,7 @@
       {
         "name": "SecurityConfigurationSecretScanning",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31569,7 +31933,7 @@
       {
         "name": "SecurityConfigurationSecretScanningDelegatedBypass",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning delegated bypass setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31577,7 +31941,7 @@
       {
         "name": "SecurityConfigurationSecretScanningGenericSecrets",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning generic secrets setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31585,7 +31949,7 @@
       {
         "name": "SecurityConfigurationSecretScanningNonProviderPatterns",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning non-provider patterns setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31593,7 +31957,7 @@
       {
         "name": "SecurityConfigurationSecretScanningPushProtection",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning push protection setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31601,7 +31965,7 @@
       {
         "name": "SecurityConfigurationSecretScanningValidityChecks",
         "type": "string",
-        "description": "",
+        "description": "The secret scanning validity checks setting of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31609,7 +31973,7 @@
       {
         "name": "SecurityConfigurationUpdatedAt",
         "type": "datetime",
-        "description": "",
+        "description": "The last update date of the security configuration.",
         "availability": [
           "Sentinel"
         ]
@@ -31617,7 +31981,7 @@
       {
         "name": "ThreatModel",
         "type": "string",
-        "description": "",
+        "description": "The threat model associated with the event.",
         "availability": [
           "Sentinel"
         ]
@@ -31625,7 +31989,7 @@
       {
         "name": "QuerySuite",
         "type": "string",
-        "description": "",
+        "description": "The code scanning query suite.",
         "availability": [
           "Sentinel"
         ]
@@ -31633,7 +31997,7 @@
       {
         "name": "VulnerabilityAlertRuleActionsAlertActionsAutoDismiss",
         "type": "string",
-        "description": "",
+        "description": "The auto-dismiss setting for vulnerability alert rule actions.",
         "availability": [
           "Sentinel"
         ]
@@ -31641,7 +32005,7 @@
       {
         "name": "VulnerabilityAlertRuleActionsVersion",
         "type": "real",
-        "description": "",
+        "description": "The version of the vulnerability alert rule actions.",
         "availability": [
           "Sentinel"
         ]
@@ -31649,7 +32013,7 @@
       {
         "name": "VulnerabilityAlertRuleConditionsCwe",
         "type": "string",
-        "description": "",
+        "description": "The CWE conditions for the vulnerability alert rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31657,7 +32021,7 @@
       {
         "name": "VulnerabilityAlertRuleConditionsEcosystem",
         "type": "string",
-        "description": "",
+        "description": "The ecosystem conditions for the vulnerability alert rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31665,7 +32029,7 @@
       {
         "name": "VulnerabilityAlertRuleConditionsScope",
         "type": "string",
-        "description": "",
+        "description": "The scope conditions for the vulnerability alert rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31673,7 +32037,7 @@
       {
         "name": "VulnerabilityAlertRuleId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the vulnerability alert rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31681,7 +32045,7 @@
       {
         "name": "VulnerabilityAlertRuleName",
         "type": "string",
-        "description": "",
+        "description": "The name of the vulnerability alert rule.",
         "availability": [
           "Sentinel"
         ]
@@ -31689,7 +32053,7 @@
       {
         "name": "DismissalApproverId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the user who approved the dismissal.",
         "availability": [
           "Sentinel"
         ]
@@ -31697,7 +32061,7 @@
       {
         "name": "SsoUrl",
         "type": "string",
-        "description": "",
+        "description": "The single sign-on URL.",
         "availability": [
           "Sentinel"
         ]
@@ -31705,7 +32069,7 @@
       {
         "name": "Issuer",
         "type": "string",
-        "description": "",
+        "description": "The issuer of the SSO or SAML identity.",
         "availability": [
           "Sentinel"
         ]
@@ -31713,7 +32077,7 @@
       {
         "name": "ExternalIdentityUsername",
         "type": "string",
-        "description": "",
+        "description": "The username of the external identity.",
         "availability": [
           "Sentinel"
         ]
@@ -31721,7 +32085,7 @@
       {
         "name": "ExternalIdentityNameid",
         "type": "string",
-        "description": "",
+        "description": "The NameID of the external identity.",
         "availability": [
           "Sentinel"
         ]
@@ -31729,7 +32093,7 @@
       {
         "name": "AuditLogStreamResult",
         "type": "string",
-        "description": "",
+        "description": "The result of the audit log stream operation.",
         "availability": [
           "Sentinel"
         ]
@@ -31737,7 +32101,7 @@
       {
         "name": "AuditLogStreamSinkDetails",
         "type": "string",
-        "description": "",
+        "description": "The details of the audit log stream sink.",
         "availability": [
           "Sentinel"
         ]
@@ -31745,7 +32109,7 @@
       {
         "name": "AuditLogStreamId",
         "type": "real",
-        "description": "",
+        "description": "The numeric identifier of the audit log stream.",
         "availability": [
           "Sentinel"
         ]
@@ -31753,7 +32117,7 @@
       {
         "name": "AuditLogStreamSink",
         "type": "string",
-        "description": "",
+        "description": "The sink type of the audit log stream.",
         "availability": [
           "Sentinel"
         ]

@@ -101,7 +101,7 @@
       {
         "name": "AppName",
         "type": "string",
-        "description": "The application's display name as exposed by the associated service principal",
+        "description": "Name of the client application where the click occurred",
         "availability": [
           "Defender XDR"
         ]

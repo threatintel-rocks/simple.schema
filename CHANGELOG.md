@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-05 07:04 UTC
+
+**Tables added** (2)
+
+- `FilewallExchange_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `FilewallFile_CL` (26 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-04 07:21 UTC
 
 **Tables added** (1)
