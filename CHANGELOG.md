@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-06 06:25 UTC
+
+**Columns added** (1)
+
+- `LookoutMtdV2_CL.oid` (string)
+
+
 ### 2026-06-05 07:04 UTC
 
 **Tables added** (2)

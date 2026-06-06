@@ -65723,6 +65723,14 @@
         ]
       },
       {
+        "name": "oid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "enterprise_guid",
         "type": "string",
         "description": "",
