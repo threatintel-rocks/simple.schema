@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-10 07:04 UTC
+
+**Tables added** (2)
+
+- `M365AuditGeneral_CL` (321 columns, source: 3rd-Party Connector Schemas)
+- `MuleSoftCloudhubLogs_CL` (13 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-09 06:44 UTC
 
 **Columns removed** (409)

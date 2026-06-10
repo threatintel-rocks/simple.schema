@@ -1,0 +1,112 @@
+{
+  "MuleSoftCloudhubLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp when the log was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Level",
+        "type": "string",
+        "description": "Log level (INFO, WARN, ERROR, DEBUG, FATAL)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Logger",
+        "type": "string",
+        "description": "Logger name (Java class or component)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Log message content",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Thread",
+        "type": "string",
+        "description": "Thread name that generated the log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Exception",
+        "type": "string",
+        "description": "Exception stack trace if present",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationDomainName",
+        "type": "string",
+        "description": "MuleSoft CloudHub application domain name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "CloudHub worker instance ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkerId",
+        "type": "string",
+        "description": "Worker identifier (e.g., worker-0)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Environment",
+        "type": "string",
+        "description": "MuleSoft environment name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "CloudHub region",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationData",
+        "type": "dynamic",
+        "description": "Customer-specific application data in JSON format",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Mulesoft"
+  }
+}

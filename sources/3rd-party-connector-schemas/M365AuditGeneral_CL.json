@@ -1,0 +1,2576 @@
+{
+  "M365AuditGeneral_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the event was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the audit record",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordType",
+        "type": "int",
+        "description": "The type of operation indicated by the record",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "The date and time in UTC when the user performed the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "description": "The name of the user or admin activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "The GUID for your organization's Microsoft 365 tenant",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserType",
+        "type": "int",
+        "description": "The type of user that performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserKey",
+        "type": "string",
+        "description": "An alternative ID for the user identified in the UserId property",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Workload",
+        "type": "string",
+        "description": "The Microsoft 365 service where the activity occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultStatus",
+        "type": "string",
+        "description": "Indicates whether the action was successful or not",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "The name of the object that was modified by the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "The UPN of the user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIP",
+        "type": "string",
+        "description": "The IP address of the device that was used when the activity was logged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Scope",
+        "type": "string",
+        "description": "Was this event created by a hosted Microsoft 365 service or an on-premises server",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CopilotEventData",
+        "type": "dynamic",
+        "description": "Copilot-specific event data including AI system plugins, accessed resources, messages, and model transparency details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentID",
+        "type": "string",
+        "description": "Unique identifier of the Agent",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentName",
+        "type": "string",
+        "description": "The name of the Agent",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentType",
+        "type": "int",
+        "description": "The type of the Agent - Microsoft (1P), External (3P), Shared by users (Shared), Built by your org (External)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAssignments",
+        "type": "dynamic",
+        "description": "Collection of GUID of Users and Groups associated with the agent activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ForAllUsers",
+        "type": "boolean",
+        "description": "Whether the activity associated with the agent was captured for the entire organization or not",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Property",
+        "type": "string",
+        "description": "The tenant wide setting name that was updated by the admin",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemovedIdentities",
+        "type": "dynamic",
+        "description": "Collection of GUID of Users or Groups that were removed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedIdentities",
+        "type": "dynamic",
+        "description": "Collection of GUID of Users or Groups that were added",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NewValue",
+        "type": "string",
+        "description": "The new value of the setting",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OldValue",
+        "type": "string",
+        "description": "The old value or the new setting",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entity",
+        "type": "string",
+        "description": "ProjectEntity the audit was for",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "ProjectAction that was taken",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OnBehalfOfResId",
+        "type": "string",
+        "description": "The resource Id the action was taken on behalf of",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CaseId",
+        "type": "string",
+        "description": "The identity (GUID) of the eDiscovery case",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CaseName",
+        "type": "string",
+        "description": "The name of the eDiscovery case",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object1Id",
+        "type": "string",
+        "description": "The ID of the object (for example, a search, hold, or review set) that was created, accessed, or changed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object1Name",
+        "type": "string",
+        "description": "The name of the object (for example, a search, hold or review set) that was created, accessed, or changed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object1Type",
+        "type": "string",
+        "description": "The type of the eDiscovery object that the user created, deleted, or modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object2Id",
+        "type": "string",
+        "description": "The ID of the object (for example, a search, hold, or review set) that was created, accessed, or changed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object2Name",
+        "type": "string",
+        "description": "The name of the object (for example, a search, hold or review set) that was created, accessed, or changed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object2Type",
+        "type": "string",
+        "description": "The type of the eDiscovery object that the user created, deleted, or modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTime",
+        "type": "datetime",
+        "description": "The date and time in Coordinated Universal Time (UTC) when the eDiscovery activity was started",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "The date and time in Coordinated Universal Time (UTC) when the eDiscovery activity was ended",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserCancelled",
+        "type": "boolean",
+        "description": "Whether the specific activity was cancelled by the user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemIds",
+        "type": "dynamic",
+        "description": "Item IDs associated with the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemNames",
+        "type": "dynamic",
+        "description": "Item names associated with the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataSources",
+        "type": "dynamic",
+        "description": "A list of source IDs, source names and locations associated to the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryId",
+        "type": "string",
+        "description": "The ID of the query associated with the activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryText",
+        "type": "string",
+        "description": "The query text associated with the activity, such as a search statistic process or add to review process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryFiles",
+        "type": "dynamic",
+        "description": "Input file names used to generate the query. This is specific to the search by file gesture",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Settings",
+        "type": "dynamic",
+        "description": "Settings applied to the eDiscovery activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtendedProperties",
+        "type": "dynamic",
+        "description": "Additional properties related to the eDiscovery activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExportName",
+        "type": "string",
+        "description": "Name of the eDiscovery export",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobId",
+        "type": "string",
+        "description": "The GUID of the eDiscovery process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordNumber",
+        "type": "string",
+        "description": "Used when an audit record is divided into multiple parts due to size. It indicates the sequence of each part within the total splits",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientRequestId",
+        "type": "string",
+        "description": "A GUID that can be used to correlate this cmdlet with portal operations. This information is used only by Microsoft support",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CmdletVersion",
+        "type": "string",
+        "description": "The build version of the cmdlet when it was run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EffectiveOrganization",
+        "type": "string",
+        "description": "The GUID for the organization impacted by the cmdlet. (Deprecated: This parameter will eventually stop appearing.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserServicePlan",
+        "type": "string",
+        "description": "The service plan assigned to the user who ran the cmdlet",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientApplication",
+        "type": "string",
+        "description": "If the cmdlet was run by an application, as opposed to remote PowerShell, this field contains the application name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Parameters",
+        "type": "string",
+        "description": "The name and value for parameters that were used with the cmdlet that do not include personal data",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NonPiiParameters",
+        "type": "string",
+        "description": "The name and value for parameters that were used with the cmdlet that include personal data. (Deprecated: This field will eventually stop appearing and its content will be merged with the Parameters field.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertId",
+        "type": "string",
+        "description": "The Guid of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "Type of the alert. Alert types include: System, Custom",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "The Guid of the policy that triggered the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Status of the alert. Statuses include: Active, Investigating, Resolved, Dismissed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity of the alert. Severity levels include: Low, Medium, High",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Category of the alert. Categories include: AccessGovernance, DataGovernance, DataLossPrevention, InsiderRiskManagement, MailFlow, ThreatManagement, Other",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Source",
+        "type": "string",
+        "description": "Source of the alert. Sources include: Office 365 Security & Compliance, Cloud App Security",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "string",
+        "description": "Comments left by the users who have viewed the alert. By default, it's 'New alert'",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "The detailed data blob of the alert or alert entity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertEntityId",
+        "type": "string",
+        "description": "The identifier for the alert entity. This parameter is only applicable to AlertEntityGenerated events",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityType",
+        "type": "string",
+        "description": "Type of the alert or alert entity. Entity types include: User, Recipients, Sender, MalwareFamily",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorUserId",
+        "type": "string",
+        "description": "Email of user that performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorYammerUserId",
+        "type": "long",
+        "description": "ID of user that performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataExportType",
+        "type": "string",
+        "description": "Returns 'data' if data export includes messages, notes, files, topics, users and groups; returns 'user' if data export includes users only",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileId",
+        "type": "long",
+        "description": "ID of the file in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "Name of the file in the operation. Appears blank if not relevant to the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupName",
+        "type": "string",
+        "description": "Name of the group in the operation. Appears blank if not relevant to the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsSoftDelete",
+        "type": "boolean",
+        "description": "Returns 'true' if the network's data retention policy is set to Soft Delete; returns 'false' if the network's data retention policy is set to Hard Delete",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MeetingId",
+        "type": "string",
+        "description": "The ID of the event/teams meeting in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageId",
+        "type": "long",
+        "description": "ID of the message in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedProperties",
+        "type": "dynamic",
+        "description": "Includes the name of the property that was modified, the new value of the modified object and the previous value of the modified object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "YammerNetworkId",
+        "type": "long",
+        "description": "Network ID of the user that performed the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetObjectId",
+        "type": "string",
+        "description": "Entra Id of the target user in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetUserId",
+        "type": "string",
+        "description": "Email of target user in the operation. Appears blank if not relevant to the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetYammerUserId",
+        "type": "long",
+        "description": "ID of target user in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreadId",
+        "type": "long",
+        "description": "ID of the Message thread in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VersionId",
+        "type": "long",
+        "description": "Version ID of the file in the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentData",
+        "type": "dynamic",
+        "description": "Data about attachments in the email message that triggered the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionType",
+        "type": "string",
+        "description": "The type of detection. For example: Inline, Detected at delivery, Delayed: Detected after delivery, ZAP: Removed after delivery by zero-hour auto purge (ZAP). Events with ZAP detection type are typically preceded by a message with a Delayed detection type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionMethod",
+        "type": "string",
+        "description": "The detection method or technology used by Defender for Office 365",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternetMessageId",
+        "type": "string",
+        "description": "The Internet Message Id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkMessageId",
+        "type": "string",
+        "description": "The Exchange Online Network Message Id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "P1Sender",
+        "type": "string",
+        "description": "The MAIL FROM address used in SMTP transmission of the email message between email servers (also known as the 5321.MailFrom address, P1 sender, or envelope sender)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "P2Sender",
+        "type": "string",
+        "description": "The From address (also known as the 5322.From address or P2 sender) that's shown in email clients",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Policy",
+        "type": "string",
+        "description": "The type of threat policy (for example, Anti-spam or Anti-phish) and related action type (for example, High Confidence Spam, Spam, or Phish) relevant to the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipients",
+        "type": "dynamic",
+        "description": "An array of recipients of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderIp",
+        "type": "string",
+        "description": "The IPv4 or IPv6 address that submitted the message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "The subject line of the message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verdict",
+        "type": "string",
+        "description": "The message verdict",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageTime",
+        "type": "datetime",
+        "description": "Date and time in Coordinated Universal Time (UTC) the email message was received or sent",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDeepLink",
+        "type": "string",
+        "description": "Deep-link to the email event in Threat Explorer or Real-time detections",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeliveryAction",
+        "type": "string",
+        "description": "The original delivery action on the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalDeliverylocation",
+        "type": "string",
+        "description": "The original delivery location of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LatestDeliverylocation",
+        "type": "string",
+        "description": "The latest delivery location of the email message at the time of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Directionality",
+        "type": "string",
+        "description": "Identifies whether an email message was inbound, outbound, or an intra-org message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatsAndDetectionTech",
+        "type": "string",
+        "description": "The threats and the corresponding detection technologies. This field exposes all the threats on an email message, including the latest addition on spam verdict",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalActionsAndResults",
+        "type": "dynamic",
+        "description": "The additional actions that were taken on the email, such as ZAP or Manual Remediation. Also includes the corresponding results",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Connectors",
+        "type": "string",
+        "description": "The names and GUIDs of the connectors associated with the email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthDetails",
+        "type": "dynamic",
+        "description": "The authentication checks that are done for the email. Also includes the values for SPF, DKIM, DMARC, and CompAuth",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemOverrides",
+        "type": "dynamic",
+        "description": "Overrides that are applicable to the email. These can be system or user overrides",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PhishConfidenceLevel",
+        "type": "string",
+        "description": "Indicates the confidence level associated with Phish verdict. It can be Normal or High",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BatchID",
+        "type": "string",
+        "description": "A unique identifier for a group of records that are processed together",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CampaignID",
+        "type": "string",
+        "description": "A unique identifier for the attack simulation training campaign",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserDisplayName",
+        "type": "string",
+        "description": "The display name of the user involved in the attack simulation training campaign",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackTechnique",
+        "type": "string",
+        "description": "The attack technique used in the simulation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CampaignType",
+        "type": "string",
+        "description": "The type of attack simulation campaign. The different types are simulation campaign, training campaign, simulation automation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeData",
+        "type": "datetime",
+        "description": "Campaign launch time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTimeData",
+        "type": "datetime",
+        "description": "Campaign end time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackSimEvent",
+        "type": "string",
+        "description": "Type of event (user activity or message delivery state)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackSimAdminEvent",
+        "type": "string",
+        "description": "The type of attack sim admin event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CourseID",
+        "type": "string",
+        "description": "A unique identifier for a training course",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserTrainingEvent",
+        "type": "string",
+        "description": "The type of user training event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionRegistered",
+        "type": "string",
+        "description": "Admin submission is registered and is pending for processing",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionDeliveryCheck",
+        "type": "string",
+        "description": "Admin submission system checked the email's policy",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionSubmitting",
+        "type": "string",
+        "description": "Admin submission system is submitting the email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionSubmitted",
+        "type": "string",
+        "description": "Admin submission system submitted the email",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionTriage",
+        "type": "string",
+        "description": "Admin submission triaged by grader",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionTimeout",
+        "type": "string",
+        "description": "Admin submission timed out with no result",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserSubmission",
+        "type": "string",
+        "description": "Submission was first reported by an end user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserSubmissionTriage",
+        "type": "string",
+        "description": "User submission is triaged by grader",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomSubmission",
+        "type": "string",
+        "description": "Message reported by a user was sent to the organization's custom mailbox as set in the user reported messages settings",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackSimUserSubmission",
+        "type": "string",
+        "description": "The user-reported message was actually a phish simulation training message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdminSubmissionTablAllow",
+        "type": "string",
+        "description": "An allow entry in the Tenant Allow/Block List was created at time of submission to immediately take action on similar messages while it is being rescanned",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubmissionNotification",
+        "type": "string",
+        "description": "Admin feedback is sent to end user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvestigationId",
+        "type": "string",
+        "description": "Investigation ID/GUID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvestigationName",
+        "type": "string",
+        "description": "Name of the investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvestigationType",
+        "type": "string",
+        "description": "Type of the investigation. Can take one of the following values: User-Reported Messages, Zapped Malware, Zapped Phish, Url Verdict Change",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastUpdateTimeUtc",
+        "type": "datetime",
+        "description": "UTC time of the last update for an investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTimeUtc",
+        "type": "datetime",
+        "description": "Start time for an investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeeplinkURL",
+        "type": "string",
+        "description": "Deep link URL to an investigation in the Microsoft Defender portal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Actions",
+        "type": "dynamic",
+        "description": "Collection of actions recommended by an investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionType",
+        "type": "string",
+        "description": "The type of the action, such as email remediation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionStatus",
+        "type": "string",
+        "description": "Values include: Pending, Running, Waiting on resource, Completed, Failed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApprovedBy",
+        "type": "string",
+        "description": "Null if auto approved; otherwise, the username/id",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimestampUtc",
+        "type": "datetime",
+        "description": "The timestamp of the action status change",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionId",
+        "type": "string",
+        "description": "Unique identifier for action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedAlertIds",
+        "type": "dynamic",
+        "description": "Alerts related to an investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTimeUtc",
+        "type": "datetime",
+        "description": "Action final status update timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceIdentifiers",
+        "type": "string",
+        "description": "Consists of the Azure Active Directory tenant ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entities",
+        "type": "dynamic",
+        "description": "List of one or more affected entities by action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Audit",
+        "type": "string",
+        "description": "System information related to the hygiene event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "string",
+        "description": "The type of hygiene event. The values for this parameter are Listed or Delisted",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "long",
+        "description": "The ID of the hygiene event type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventValue",
+        "type": "string",
+        "description": "The user who was impacted",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "Details about the hygiene event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "The name of the app where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardName",
+        "type": "string",
+        "description": "The name of the dashboard where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataClassification",
+        "type": "string",
+        "description": "The data classification, if any, for the dashboard where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DatasetName",
+        "type": "string",
+        "description": "The name of the dataset where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MembershipInformation",
+        "type": "dynamic",
+        "description": "Membership information about the group",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrgAppPermission",
+        "type": "string",
+        "description": "Permissions list for an organizational app (entire organization, specific users, or specific groups)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportName",
+        "type": "string",
+        "description": "The name of the report where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharingInformation",
+        "type": "dynamic",
+        "description": "Information about the person to whom a sharing invitation is sent",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SwitchState",
+        "type": "string",
+        "description": "Information about the state of various tenant level switches",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkSpaceName",
+        "type": "string",
+        "description": "The name of the workspace where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WpaUserRole",
+        "type": "string",
+        "description": "The Viva Insights role of the user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationDetails",
+        "type": "dynamic",
+        "description": "A list of extended properties for the setting that was changed. Each property has a Name and Value",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestType",
+        "type": "string",
+        "description": "The type of quarantine request performed by a user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestSource",
+        "type": "string",
+        "description": "Quarantine request come from the Microsoft Defender portal, a cmdlet, or a URLlink",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReleaseTo",
+        "type": "string",
+        "description": "The recipient of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FormsUserTypes",
+        "type": "dynamic",
+        "description": "The role of the user who performed the action. The values for this parameter are Admin, Owner, Responder, or Coauthor",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceApp",
+        "type": "string",
+        "description": "Indicates if the action is from Forms website or from another App",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FormName",
+        "type": "string",
+        "description": "The name of the current form",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FormId",
+        "type": "string",
+        "description": "The Id of the target form",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FormTypes",
+        "type": "dynamic",
+        "description": "Indicates whether this is a Form, Quiz, or Survey",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActivityParameters",
+        "type": "string",
+        "description": "JSON string containing activity parameters. For more information, see Microsoft Forms activities",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sender",
+        "type": "string",
+        "description": "The email address in the From field of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Receivers",
+        "type": "dynamic",
+        "description": "All email addresses in the To, CC, and Bcc fields of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemName",
+        "type": "string",
+        "description": "The string in the Subject field of the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LabelId",
+        "type": "string",
+        "description": "The GUID of the sensitivity label applied to the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LabelName",
+        "type": "string",
+        "description": "The name of the sensitivity label applied to the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LabelAction",
+        "type": "string",
+        "description": "The actions specified by the sensitivity label that were applied to the email message before the message entered the mail transport pipeline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LabelAppliedDateTime",
+        "type": "datetime",
+        "description": "The date the sensitivity label was applied to the email message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApplicationMode",
+        "type": "string",
+        "description": "Specifies how the sensitivity label was applied to the email message. The Privileged value indicates the label was manually applied by a user. The Standard value indicates the label was auto-applied by a client-side or service-side labeling process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Recipient email address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthenticationMethod",
+        "type": "string",
+        "description": "Authentication method when accessing the message, i.e. OTP, Yahoo, Gmail, Microsoft",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthenticationStatus",
+        "type": "string",
+        "description": "0: Success, 1: Failure",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationStatus",
+        "type": "string",
+        "description": "0: Success, 1: Failure",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentName",
+        "type": "string",
+        "description": "Name of the attachment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationProperties",
+        "type": "dynamic",
+        "description": "Extra properties, i.e. number of OTP passcode sent, email subject, etc.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TaskId",
+        "type": "string",
+        "description": "Unique identifier of the periodic data connector instance. Data connectors import data in periodic intervals",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemId",
+        "type": "string",
+        "description": "Unique identifier of the item (for example, an email message) being imported",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemSize",
+        "type": "long",
+        "description": "The size of the item being imported",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceUserId",
+        "type": "string",
+        "description": "The unique identifier of the user from the third-party data source. For example, for a Slack data connector, this property specifies the user Id in Slack workspace",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FailureType",
+        "type": "string",
+        "description": "Indicates the type of data import failure. For example, the value incorrectusermapping indicates the item wasn't imported because no user mapping between the third-party data source and Microsoft 365 could be found",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultMessage",
+        "type": "string",
+        "description": "Indicates the type of failure, such as Duplicate message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsRetry",
+        "type": "boolean",
+        "description": "Indicates whether the data connector retried to import the item",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attachments",
+        "type": "dynamic",
+        "description": "A list of attachments received from the third-party data source",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataStoreType",
+        "type": "string",
+        "description": "Indicates which data store the data was downloaded from. Refer DataStoreType for all possible values",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAction",
+        "type": "string",
+        "description": "Indicates what action user had performed on the data store. Refer DataLakeUserAction for all possible values",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExportTriggeredAt",
+        "type": "datetime",
+        "description": "Indicates when the data export was triggered",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NameOfDownloadedZipFile",
+        "type": "string",
+        "description": "The name of the compressed file the admin had downloaded from the Data Lake",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Invitation",
+        "type": "string",
+        "description": "Details of the invite sent to the recipient of the Data Share",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientUUID",
+        "type": "string",
+        "description": "The Client UUID of the Viva Glint instance",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ImportType",
+        "type": "string",
+        "description": "The data import source type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataDSRControl",
+        "type": "string",
+        "description": "This in-platform control determines whether survey data is deleted when a user is removed from the Viva Glint platform",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscardEmployeeIds",
+        "type": "string",
+        "description": "This in-platform control specifies whether the Employee IDs of previously deleted employees are disregarded or retained in the Viva Glint platform",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtendedCompletionDate",
+        "type": "datetime",
+        "description": "The new date to which a closed survey cycle has been extended",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedBackComponentName",
+        "type": "string",
+        "description": "The name of a specific component within the 360 feedback program",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Detail",
+        "type": "string",
+        "description": "A description of the event or the activity that occurred in Viva Goals",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "The name of the user who triggered the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRole",
+        "type": "string",
+        "description": "The role of the user who triggered this event in Viva Goals. This value mentions if the user is an organization admin or an owner",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationName",
+        "type": "string",
+        "description": "The name of the organization in Viva Goals where the event was triggered",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationOwner",
+        "type": "string",
+        "description": "The owner of the organization in Viva Goals where the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationAdmins",
+        "type": "dynamic",
+        "description": "The admin(s) of the organization in Viva Goals where the event occurred. There can be one or more admins in the organization",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "The user agent (browser details) of the user who triggered the event. UserAgent might not be present in case of a system generated event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedFields",
+        "type": "dynamic",
+        "description": "A list of attributes that were modified along with its new and old values output as a JSON",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ItemDetails",
+        "type": "dynamic",
+        "description": "Additional properties about the object that was modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EditMethodology",
+        "type": "string",
+        "description": "How the policy was created / edited",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountOfArtifactsBeingAdded",
+        "type": "int",
+        "description": "Number of artifacts being added",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountOfArtifactsBeingRemoved",
+        "type": "int",
+        "description": "Number of artifacts being removed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceType",
+        "type": "string",
+        "description": "Whether it is a SharePoint, Exchange, or OneDriveForBusiness policy",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationMethodology",
+        "type": "string",
+        "description": "How the Restore Task was created / edited",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RestoreTime",
+        "type": "datetime",
+        "description": "Time which the item is being restored to",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RestoreLocationType",
+        "type": "string",
+        "description": "Location type that the item is being restored to",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RestoreLocation",
+        "type": "string",
+        "description": "Location that the item is being restored to",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BackupItemID",
+        "type": "string",
+        "description": "ID of the Backup Item being restored",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProtectionUnitID",
+        "type": "string",
+        "description": "Protection Unit ID of the item being restored",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SuccessStatus",
+        "type": "string",
+        "description": "Whether the restore operation was successful",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BackupItemType",
+        "type": "string",
+        "description": "Whether the Backup Item is a Site / Account / Mailbox",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "URLPath",
+        "type": "string",
+        "description": "The URL that was browsed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainURL",
+        "type": "string",
+        "description": "The domain URL that was browsed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScenarioType",
+        "type": "string",
+        "description": "The name of automation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PromptText",
+        "type": "string",
+        "description": "The Copilot prompt that's run by the LLM",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AutomationId",
+        "type": "string",
+        "description": "A unique identifier that correlates all activities related to each run of the Copilot prompt",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerMode",
+        "type": "string",
+        "description": "The schedule for when the Copilot prompt runs, shown in cron format",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlaceType",
+        "type": "string",
+        "description": "The type for the place item that is created/updated/deleted by the request. For example, 'Building', 'Room', 'Desk', and so on",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp when the Spark Notebook execution was submitted/started",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Compute",
+        "type": "string",
+        "description": "Compute selected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DatabaseName",
+        "type": "dynamic",
+        "description": "The workspace the command ran on",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TableName",
+        "type": "string",
+        "description": "Name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionDurationInSecs",
+        "type": "string",
+        "description": "Total duration of the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionStartTime",
+        "type": "datetime",
+        "description": "Start time for the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionEndTime",
+        "type": "datetime",
+        "description": "End time for the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KernalId",
+        "type": "string",
+        "description": "Jupyter KernelId, uniquely identifies the Notebook session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "Correlation ID for the various code blocks executed with a Spark session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Interface",
+        "type": "string",
+        "description": "Interface from where the notebook was run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobType",
+        "type": "string",
+        "description": "Type of Job like Notebook, KQL",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobName",
+        "type": "string",
+        "description": "Name of the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Schedule",
+        "type": "string",
+        "description": "Schedule details, if configured for the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RunID",
+        "type": "string",
+        "description": "ID of a specific job run instance",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobRunStatus",
+        "type": "string",
+        "description": "Status of the job execution",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Logs",
+        "type": "string",
+        "description": "Logs from the notebook run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobExecutionDurationInSecs",
+        "type": "long",
+        "description": "Time taken for job execution",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobTotalDurationInSecs",
+        "type": "long",
+        "description": "Total Duration of the job operation including session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobStartTime",
+        "type": "datetime",
+        "description": "Start time of the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobEndTime",
+        "type": "datetime",
+        "description": "End time of the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DatabasesRead",
+        "type": "dynamic",
+        "description": "The list of workspaces read by the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DatabasesWrite",
+        "type": "dynamic",
+        "description": "The list of workspaces written to by the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TablesRead",
+        "type": "dynamic",
+        "description": "The list of tables read by the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TablesWrite",
+        "type": "dynamic",
+        "description": "The list of tables written to by the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Query",
+        "type": "string",
+        "description": "KQL query or notebook executed in the job",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultTableCount",
+        "type": "long",
+        "description": "Output Table Count",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QueryResponse",
+        "type": "string",
+        "description": "Response from executing the KQL query",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalRows",
+        "type": "dynamic",
+        "description": "Total Rows returned from query execution. List of values if multiple queries executed at once",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComponentFault",
+        "type": "string",
+        "description": "The entity that caused the query to fail. For example, if the query result is too large, the ComponentFault is 'Client'. If an internal error occurred, the ComponentFault is 'Server'",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FailureReason",
+        "type": "string",
+        "description": "If KQL query failed, the reason for failure",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutionDuration",
+        "type": "long",
+        "description": "Time taken for query execution, in milliseconds",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalCPU",
+        "type": "long",
+        "description": "Total CPU Duration of the run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MemoryPeak",
+        "type": "long",
+        "description": "Memory Peak of the KQL query execution",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BillingAzureSubscriptionId",
+        "type": "string",
+        "description": "Azure subscription chosen for Microsoft Sentinel data lake billing",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BillingAzureResourceGroupName",
+        "type": "string",
+        "description": "Azure resource group chosen for Microsoft Sentinel data lake billing",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProvisioningStatus",
+        "type": "string",
+        "description": "Status of provisioning the lake",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataOnboardingAtSetup",
+        "type": "string",
+        "description": "Data sets ingested during Microsoft Sentinel data lake onboarding",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tables",
+        "type": "dynamic",
+        "description": "List of table names ingested during Microsoft Sentinel data lake onboarding",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubscriptionsEnabled",
+        "type": "dynamic",
+        "description": "List of subscriptions enabled for ARG ingestion",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataOnboardingStatus",
+        "type": "string",
+        "description": "Status of operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventOccurenceTime",
+        "type": "datetime",
+        "description": "Timestamp of the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ToolID",
+        "type": "string",
+        "description": "Identifier of the AI Tool",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ToolName",
+        "type": "string",
+        "description": "Name of the AI Tool",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InputParameters",
+        "type": "string",
+        "description": "Parameters given to the tool",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "APIsCalled",
+        "type": "dynamic",
+        "description": "APIs called by the AI Tool",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataScanned",
+        "type": "long",
+        "description": "Total GBs Scanned",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalCpuHours",
+        "type": "long",
+        "description": "Total CPU Duration of the run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalSCUHours",
+        "type": "long",
+        "description": "Total SCUs used in the run",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GraphName",
+        "type": "string",
+        "description": "Name of the graph instance",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperationInput",
+        "type": "string",
+        "description": "Parameters of graph action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GraphQueryStats",
+        "type": "string",
+        "description": "Collection of response metadata",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GraphQueryStatus",
+        "type": "string",
+        "description": "Response of the query or action on graph",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataCenterSecurityEventType",
+        "type": "string",
+        "description": "The type of cmdlet event in lock box",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationTime",
+        "type": "datetime",
+        "description": "The start time of the elevation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationApprover",
+        "type": "string",
+        "description": "The name of a Microsoft manager",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationApprovedTime",
+        "type": "datetime",
+        "description": "The timestamp for when the elevation was approved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationRequestId",
+        "type": "string",
+        "description": "A unique identifier for the elevation request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationRole",
+        "type": "string",
+        "description": "The role the elevation was requested for",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ElevationDuration",
+        "type": "int",
+        "description": "The duration for which the elevation was active",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GenericInfo",
+        "type": "string",
+        "description": "Used for comments and other generic information",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventName",
+        "type": "string",
+        "description": "A description of the event or the activity that occurred in Viva Pulse",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PulseId",
+        "type": "string",
+        "description": "Id of the pulse survey",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDetails",
+        "type": "dynamic",
+        "description": "Additional properties about the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharePointMetaData",
+        "type": "dynamic",
+        "description": "Describes metadata about the document in SharePoint or OneDrive that contained the sensitive information",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExchangeMetaData",
+        "type": "dynamic",
+        "description": "Describes metadata about the email message that contained the sensitive information",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointMetaData",
+        "type": "dynamic",
+        "description": "Describes metadata about the document in endpoint that contained the sensitive information",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExceptionInfo",
+        "type": "string",
+        "description": "Identifies reasons why a policy no longer applies and/or any information about false positive and/or override noted by the end user",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyDetails",
+        "type": "dynamic",
+        "description": "Information about 1 or more policies that triggered the DLP event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SensitiveInfoDetectionIsIncluded",
+        "type": "boolean",
+        "description": "Indicates whether the event contains the value of the sensitive data type and surrounding context from the source content",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SensitiveInfoTypeData",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyMatchInfo",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchedPolicies",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetFilePath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Application",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha1",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnforcementMode",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "long",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceLocationType",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationLocationType",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MDATPDeviceId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RMSEncrypted",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EvaluationSource",
+        "type": "string",
+        "description": "DLP evaluation source (e.g., DlpPolicyEventBasedAssistantOneDriveForBusiness)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentId",
+        "type": "string",
+        "description": "DLP incident identifier (GUID)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Microsoft 365 Audit General and DLP"
+  }
+}
