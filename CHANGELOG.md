@@ -2,6 +2,28 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-11 07:26 UTC
+
+**Tables added** (2)
+
+- `CiscoETDv2_CL` (9 columns, source: 3rd-Party Connector Schemas)
+- `MulesoftCloudhubAlerts_CL` (13 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (3)
+
+- `ContrastADRAttackEvents_CL.codeLocation` (dynamic)
+- `ContrastADRAttackEvents_CL.request_parameters` (dynamic)
+- `ContrastADRAttackEvents_CL.vectorAnalysis` (dynamic)
+
+**Columns modified** (5)
+
+- `ContrastADRAttackEvents_CL.attackPayload_attackerInput_applicableAttack`: type `bool` → `boolean`
+- `ContrastADRAttackEvents_CL.attackPayload_attackerInput_confirmedAttack`: type `bool` → `boolean`
+- `ContrastADRAttackEvents_CL.attackPayload_attackerInput_effectiveAttack`: type `bool` → `boolean`
+- `ContrastADRAttackEvents_CL.host_isDocker`: type `bool` → `boolean`
+- `ContrastADRAttackEvents_CL.host_isKubernetes`: type `bool` → `boolean`
+
+
 ### 2026-06-10 07:04 UTC
 
 **Tables added** (2)

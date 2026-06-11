@@ -1,0 +1,80 @@
+{
+  "CiscoETDv2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp of the email event from Cisco ETD.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type: create or update.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageId",
+        "type": "string",
+        "description": "Unique identifier of the email message.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verdict",
+        "type": "string",
+        "description": "Threat verdict: phishing, malicious, bec, spam, scam, graymail.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sender",
+        "type": "string",
+        "description": "Sender email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Primary recipient email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "message",
+        "type": "dynamic",
+        "description": "Full Cisco ETD message event object.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco ETD"
+  }
+}

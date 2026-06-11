@@ -1,0 +1,112 @@
+{
+  "MulesoftCloudhubAlerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was created (Unix epoch milliseconds)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastModified",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last modified (Unix epoch milliseconds)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Alert severity level",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Mulesoft organization identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnvironmentId",
+        "type": "string",
+        "description": "Mulesoft environment identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductName",
+        "type": "string",
+        "description": "Product name (e.g., cloudhub)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Enabled",
+        "type": "boolean",
+        "description": "Whether the alert is enabled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsSystem",
+        "type": "boolean",
+        "description": "Whether this is a system-generated alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Condition",
+        "type": "dynamic",
+        "description": "Alert condition configuration including type, resources, and resource type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Actions",
+        "type": "dynamic",
+        "description": "Alert actions configuration including notification settings",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Mulesoft"
+  }
+}

@@ -49499,6 +49499,22 @@
         ]
       },
       {
+        "name": "codeLocation",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "vectorAnalysis",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "detectedTime",
         "type": "long",
         "description": "",
@@ -49772,7 +49788,7 @@
       },
       {
         "name": "host_isKubernetes",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -49780,7 +49796,7 @@
       },
       {
         "name": "host_isDocker",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -49788,7 +49804,7 @@
       },
       {
         "name": "attackPayload_attackerInput_confirmedAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -49796,7 +49812,7 @@
       },
       {
         "name": "attackPayload_attackerInput_effectiveAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -49804,7 +49820,7 @@
       },
       {
         "name": "attackPayload_attackerInput_applicableAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -49893,6 +49909,14 @@
       {
         "name": "request_protocol",
         "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "request_parameters",
+        "type": "dynamic",
         "description": "",
         "availability": [
           "Sentinel"

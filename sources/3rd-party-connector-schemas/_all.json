@@ -7953,6 +7953,84 @@
     ],
     "solution": "Check Point Cyberint IOC"
   },
+  "CiscoETDv2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp of the email event from Cisco ETD.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type: create or update.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageId",
+        "type": "string",
+        "description": "Unique identifier of the email message.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Verdict",
+        "type": "string",
+        "description": "Threat verdict: phishing, malicious, bec, spam, scam, graymail.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sender",
+        "type": "string",
+        "description": "Sender email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Primary recipient email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "message",
+        "type": "dynamic",
+        "description": "Full Cisco ETD message event object.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco ETD"
+  },
   "CiscoSecureEndpointAuditLogsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -16259,6 +16337,22 @@
         ]
       },
       {
+        "name": "codeLocation",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "vectorAnalysis",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "detectedTime",
         "type": "long",
         "description": "",
@@ -16532,7 +16626,7 @@
       },
       {
         "name": "host_isKubernetes",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -16540,7 +16634,7 @@
       },
       {
         "name": "host_isDocker",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -16548,7 +16642,7 @@
       },
       {
         "name": "attackPayload_attackerInput_confirmedAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -16556,7 +16650,7 @@
       },
       {
         "name": "attackPayload_attackerInput_effectiveAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -16564,7 +16658,7 @@
       },
       {
         "name": "attackPayload_attackerInput_applicableAttack",
-        "type": "bool",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -16653,6 +16747,14 @@
       {
         "name": "request_protocol",
         "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "request_parameters",
+        "type": "dynamic",
         "description": "",
         "availability": [
           "Sentinel"
@@ -38926,6 +39028,116 @@
       }
     ],
     "solution": "Morphisec"
+  },
+  "MulesoftCloudhubAlerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the alert was created (Unix epoch milliseconds)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastModified",
+        "type": "datetime",
+        "description": "Timestamp when the alert was last modified (Unix epoch milliseconds)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Alert severity level",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Mulesoft organization identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnvironmentId",
+        "type": "string",
+        "description": "Mulesoft environment identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductName",
+        "type": "string",
+        "description": "Product name (e.g., cloudhub)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Enabled",
+        "type": "boolean",
+        "description": "Whether the alert is enabled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsSystem",
+        "type": "boolean",
+        "description": "Whether this is a system-generated alert",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Condition",
+        "type": "dynamic",
+        "description": "Alert condition configuration including type, resources, and resource type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Actions",
+        "type": "dynamic",
+        "description": "Alert actions configuration including notification settings",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Mulesoft"
   },
   "MuleSoftCloudhubLogs_CL": {
     "source": "3rd-Party Connector Schemas",
