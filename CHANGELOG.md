@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-12 07:19 UTC
+
+**Tables added** (1)
+
+- `FieldEffectAROAlerts_CL` (11 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-11 07:26 UTC
 
 **Tables added** (2)
