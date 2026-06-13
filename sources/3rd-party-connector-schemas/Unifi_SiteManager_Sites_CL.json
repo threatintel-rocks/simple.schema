@@ -1,0 +1,208 @@
+{
+  "Unifi_SiteManager_Sites_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "Unique identifier of the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostId",
+        "type": "string",
+        "description": "Unique identifier of the host managing this site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "Display name of the site (parsed from meta.name)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Site description (parsed from meta.desc)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GatewayMac",
+        "type": "string",
+        "description": "MAC address of the gateway/console managing this site (parsed from meta.gatewayMac)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timezone",
+        "type": "string",
+        "description": "Site timezone (parsed from meta.timezone)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalDevices",
+        "type": "int",
+        "description": "Total number of devices at the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineDevices",
+        "type": "int",
+        "description": "Number of devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineWifiDevices",
+        "type": "int",
+        "description": "Number of WiFi devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineWiredDevices",
+        "type": "int",
+        "description": "Number of wired devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineGatewayDevices",
+        "type": "int",
+        "description": "Number of gateway devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PendingUpdateDevices",
+        "type": "int",
+        "description": "Number of devices with pending firmware updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CriticalNotifications",
+        "type": "int",
+        "description": "Count of critical-severity site notifications",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WifiClients",
+        "type": "int",
+        "description": "Number of WiFi clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredClients",
+        "type": "int",
+        "description": "Number of wired clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GuestClients",
+        "type": "int",
+        "description": "Number of guest clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WanUptimePct",
+        "type": "real",
+        "description": "WAN uptime percentage (parsed from siteStatistics.percentages.wanUptime)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WifiTxRetryPct",
+        "type": "real",
+        "description": "WiFi TX retry percentage (parsed from siteStatistics.percentages.txRetry)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpsMode",
+        "type": "string",
+        "description": "IPS mode of the gateway (e.g., ips, ids, off)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InspectionState",
+        "type": "string",
+        "description": "Deep packet inspection state (on, off)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Meta",
+        "type": "dynamic",
+        "description": "Raw site metadata (kept for forward-compatibility and ad-hoc access)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteStatistics",
+        "type": "dynamic",
+        "description": "Raw site statistics (kept for forward-compatibility and ad-hoc access)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Permission",
+        "type": "string",
+        "description": "API caller's permission level for this site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsOwner",
+        "type": "boolean",
+        "description": "Whether the API caller owns this site",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  }
+}

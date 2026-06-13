@@ -60809,6 +60809,604 @@
     ],
     "solution": "Tropico"
   },
+  "Unifi_SiteManager_Devices_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique device identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Mac",
+        "type": "string",
+        "description": "Device MAC address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Device name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Model",
+        "type": "string",
+        "description": "Device model identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Shortname",
+        "type": "string",
+        "description": "Device short name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "Device IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductLine",
+        "type": "string",
+        "description": "UniFi product line (e.g., network, protect)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Device status (online, offline, updating, etc.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "Firmware version",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirmwareStatus",
+        "type": "string",
+        "description": "Firmware update status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateAvailable",
+        "type": "string",
+        "description": "Available firmware update version",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsConsole",
+        "type": "boolean",
+        "description": "Whether device is a UniFi console",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsManaged",
+        "type": "boolean",
+        "description": "Whether device is managed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartupTime",
+        "type": "string",
+        "description": "Device startup timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdoptionTime",
+        "type": "string",
+        "description": "Device adoption timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "User-defined device note",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uidb",
+        "type": "dynamic",
+        "description": "UniFi device database metadata",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  },
+  "Unifi_SiteManager_Hosts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique host identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HardwareId",
+        "type": "string",
+        "description": "Hardware identifier of the host device",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostType",
+        "type": "string",
+        "description": "Type of host (e.g., ucore, uck, udm)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "Host IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Owner",
+        "type": "boolean",
+        "description": "Whether the API caller owns this host",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBlocked",
+        "type": "boolean",
+        "description": "Whether the host is blocked",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistrationTime",
+        "type": "string",
+        "description": "Host registration timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastConnectionStateChange",
+        "type": "string",
+        "description": "Last connection state change timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LatestBackupTime",
+        "type": "string",
+        "description": "Latest backup timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserData",
+        "type": "dynamic",
+        "description": "User-defined data including apps and console group members",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportedState",
+        "type": "dynamic",
+        "description": "Host reported state (varies by UniFi OS version)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  },
+  "Unifi_SiteManager_ISPMetrics_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MetricType",
+        "type": "string",
+        "description": "Type of ISP metric (e.g., latency, speed, uptime)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostId",
+        "type": "string",
+        "description": "Unique identifier of the host reporting metrics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "Unique identifier of the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Periods",
+        "type": "dynamic",
+        "description": "Array of metric periods containing ISP performance data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  },
+  "Unifi_SiteManager_Sites_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "Unique identifier of the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostId",
+        "type": "string",
+        "description": "Unique identifier of the host managing this site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "Display name of the site (parsed from meta.name)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Site description (parsed from meta.desc)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GatewayMac",
+        "type": "string",
+        "description": "MAC address of the gateway/console managing this site (parsed from meta.gatewayMac)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timezone",
+        "type": "string",
+        "description": "Site timezone (parsed from meta.timezone)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalDevices",
+        "type": "int",
+        "description": "Total number of devices at the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineDevices",
+        "type": "int",
+        "description": "Number of devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineWifiDevices",
+        "type": "int",
+        "description": "Number of WiFi devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineWiredDevices",
+        "type": "int",
+        "description": "Number of wired devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OfflineGatewayDevices",
+        "type": "int",
+        "description": "Number of gateway devices currently offline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PendingUpdateDevices",
+        "type": "int",
+        "description": "Number of devices with pending firmware updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CriticalNotifications",
+        "type": "int",
+        "description": "Count of critical-severity site notifications",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WifiClients",
+        "type": "int",
+        "description": "Number of WiFi clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredClients",
+        "type": "int",
+        "description": "Number of wired clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GuestClients",
+        "type": "int",
+        "description": "Number of guest clients connected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WanUptimePct",
+        "type": "real",
+        "description": "WAN uptime percentage (parsed from siteStatistics.percentages.wanUptime)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WifiTxRetryPct",
+        "type": "real",
+        "description": "WiFi TX retry percentage (parsed from siteStatistics.percentages.txRetry)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpsMode",
+        "type": "string",
+        "description": "IPS mode of the gateway (e.g., ips, ids, off)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InspectionState",
+        "type": "string",
+        "description": "Deep packet inspection state (on, off)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Meta",
+        "type": "dynamic",
+        "description": "Raw site metadata (kept for forward-compatibility and ad-hoc access)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteStatistics",
+        "type": "dynamic",
+        "description": "Raw site statistics (kept for forward-compatibility and ad-hoc access)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Permission",
+        "type": "string",
+        "description": "API caller's permission level for this site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsOwner",
+        "type": "boolean",
+        "description": "Whether the API caller owns this site",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  },
+  "UtimacoESKMKmipServerLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event timestamp (mapped from ts field)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Subsystem or component generating the log (e.g., KMIP Server)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "string",
+        "description": "Event type (e.g., StateChange, Authentication Failure, Authentication Success, ClientOperation)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Full human-readable log message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IP",
+        "type": "string",
+        "description": "Client IP address associated with the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "KMIP user account associated with the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UUID",
+        "type": "string",
+        "description": "Unique identifier of the KMIP managed object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "description": "KMIP operation performed (e.g., CREATE, DESTROY, REGISTER, ACTIVATE, REVOKE, SIGN, GET, LOCATE, CERTIFY, ADD_ATTRIBUTE)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "Type of KMIP object (e.g., SYMMETRIC_KEY, PUBLIC_KEY, PRIVATE_KEY, CERTIFICATE)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Result",
+        "type": "string",
+        "description": "Operation result (e.g., SUCCESS, OPERATION_FAILED)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "Reason code when operation fails (e.g., PERMISSION_DENIED, ITEM_NOT_FOUND)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Utimaco Enterprise Secure Key Manager"
+  },
   "CarbonBlack_Alerts_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [

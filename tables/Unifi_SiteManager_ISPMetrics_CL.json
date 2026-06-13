@@ -1,0 +1,48 @@
+{
+  "Unifi_SiteManager_ISPMetrics_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MetricType",
+        "type": "string",
+        "description": "Type of ISP metric (e.g., latency, speed, uptime)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostId",
+        "type": "string",
+        "description": "Unique identifier of the host reporting metrics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteId",
+        "type": "string",
+        "description": "Unique identifier of the site",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Periods",
+        "type": "dynamic",
+        "description": "Array of metric periods containing ISP performance data",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  }
+}

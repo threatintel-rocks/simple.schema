@@ -1,0 +1,104 @@
+{
+  "Unifi_SiteManager_Hosts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique host identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HardwareId",
+        "type": "string",
+        "description": "Hardware identifier of the host device",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostType",
+        "type": "string",
+        "description": "Type of host (e.g., ucore, uck, udm)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "Host IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Owner",
+        "type": "boolean",
+        "description": "Whether the API caller owns this host",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBlocked",
+        "type": "boolean",
+        "description": "Whether the host is blocked",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistrationTime",
+        "type": "string",
+        "description": "Host registration timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastConnectionStateChange",
+        "type": "string",
+        "description": "Last connection state change timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LatestBackupTime",
+        "type": "string",
+        "description": "Latest backup timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserData",
+        "type": "dynamic",
+        "description": "User-defined data including apps and console group members",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReportedState",
+        "type": "dynamic",
+        "description": "Host reported state (varies by UniFi OS version)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  }
+}

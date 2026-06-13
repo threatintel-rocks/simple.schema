@@ -1,0 +1,96 @@
+{
+  "UtimacoESKMKmipServerLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event timestamp (mapped from ts field)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Subsystem or component generating the log (e.g., KMIP Server)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "string",
+        "description": "Event type (e.g., StateChange, Authentication Failure, Authentication Success, ClientOperation)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Full human-readable log message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IP",
+        "type": "string",
+        "description": "Client IP address associated with the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "KMIP user account associated with the operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UUID",
+        "type": "string",
+        "description": "Unique identifier of the KMIP managed object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Operation",
+        "type": "string",
+        "description": "KMIP operation performed (e.g., CREATE, DESTROY, REGISTER, ACTIVATE, REVOKE, SIGN, GET, LOCATE, CERTIFY, ADD_ATTRIBUTE)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "Type of KMIP object (e.g., SYMMETRIC_KEY, PUBLIC_KEY, PRIVATE_KEY, CERTIFICATE)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Result",
+        "type": "string",
+        "description": "Operation result (e.g., SUCCESS, OPERATION_FAILED)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Reason",
+        "type": "string",
+        "description": "Reason code when operation fails (e.g., PERMISSION_DENIED, ITEM_NOT_FOUND)",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Utimaco Enterprise Secure Key Manager"
+  }
+}

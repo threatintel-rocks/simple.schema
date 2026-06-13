@@ -1,0 +1,152 @@
+{
+  "Unifi_SiteManager_Devices_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event generation time",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique device identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Mac",
+        "type": "string",
+        "description": "Device MAC address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Device name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Model",
+        "type": "string",
+        "description": "Device model identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Shortname",
+        "type": "string",
+        "description": "Device short name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "Device IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductLine",
+        "type": "string",
+        "description": "UniFi product line (e.g., network, protect)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Device status (online, offline, updating, etc.)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "string",
+        "description": "Firmware version",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirmwareStatus",
+        "type": "string",
+        "description": "Firmware update status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateAvailable",
+        "type": "string",
+        "description": "Available firmware update version",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsConsole",
+        "type": "boolean",
+        "description": "Whether device is a UniFi console",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsManaged",
+        "type": "boolean",
+        "description": "Whether device is managed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartupTime",
+        "type": "string",
+        "description": "Device startup timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdoptionTime",
+        "type": "string",
+        "description": "Device adoption timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "User-defined device note",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uidb",
+        "type": "dynamic",
+        "description": "UniFi device database metadata",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "UniFi Site Manager (CCF)"
+  }
+}

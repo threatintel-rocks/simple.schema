@@ -2,6 +2,17 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-13 06:55 UTC
+
+**Tables added** (5)
+
+- `Unifi_SiteManager_Devices_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `Unifi_SiteManager_Hosts_CL` (12 columns, source: 3rd-Party Connector Schemas)
+- `Unifi_SiteManager_ISPMetrics_CL` (5 columns, source: 3rd-Party Connector Schemas)
+- `Unifi_SiteManager_Sites_CL` (25 columns, source: 3rd-Party Connector Schemas)
+- `UtimacoESKMKmipServerLogs_CL` (11 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-12 07:19 UTC
 
 **Tables added** (1)
