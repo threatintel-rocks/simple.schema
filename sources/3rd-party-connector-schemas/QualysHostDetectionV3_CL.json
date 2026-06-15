@@ -13,7 +13,7 @@
       {
         "name": "HostId",
         "type": "string",
-        "description": "",
+        "description": "Unique host identifier from Qualys VM.",
         "availability": [
           "Sentinel"
         ]
@@ -21,7 +21,7 @@
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "",
+        "description": "Primary IP address reported for the host.",
         "availability": [
           "Sentinel"
         ]
@@ -29,7 +29,7 @@
       {
         "name": "TrackingMethod",
         "type": "string",
-        "description": "",
+        "description": "Method Qualys uses to track and identify the host.",
         "availability": [
           "Sentinel"
         ]
@@ -37,7 +37,7 @@
       {
         "name": "OperatingSystem",
         "type": "string",
-        "description": "",
+        "description": "Operating system details resolved from the Qualys host record.",
         "availability": [
           "Sentinel"
         ]
@@ -45,7 +45,7 @@
       {
         "name": "DnsName",
         "type": "string",
-        "description": "",
+        "description": "DNS name associated with the host.",
         "availability": [
           "Sentinel"
         ]
@@ -53,7 +53,7 @@
       {
         "name": "NetBios",
         "type": "string",
-        "description": "",
+        "description": "NetBIOS name associated with the host.",
         "availability": [
           "Sentinel"
         ]
@@ -61,7 +61,7 @@
       {
         "name": "QGHostId",
         "type": "string",
-        "description": "",
+        "description": "QualysGuard host identifier.",
         "availability": [
           "Sentinel"
         ]
@@ -69,7 +69,7 @@
       {
         "name": "LastScanDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent scan timestamp for the host.",
         "availability": [
           "Sentinel"
         ]
@@ -77,7 +77,7 @@
       {
         "name": "LastVMScannedDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent VM scan timestamp reported by Qualys.",
         "availability": [
           "Sentinel"
         ]
@@ -85,7 +85,7 @@
       {
         "name": "LastVMAuthScannedDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent authenticated VM scan timestamp.",
         "availability": [
           "Sentinel"
         ]
@@ -93,7 +93,7 @@
       {
         "name": "DetectionList",
         "type": "dynamic",
-        "description": "",
+        "description": "Collection of vulnerability detections reported for the host.",
         "availability": [
           "Sentinel"
         ]

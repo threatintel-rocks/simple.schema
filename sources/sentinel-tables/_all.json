@@ -10166,6 +10166,10 @@
       }
     ]
   },
+  "AirlockDigitalExecutionHistories": {
+    "source": "Sentinel Tables",
+    "columns": []
+  },
   "AlertEvidence": {
     "source": "Sentinel Tables",
     "columns": [
@@ -37991,6 +37995,10 @@
     "source": "Sentinel Tables",
     "columns": []
   },
+  "VMwareWorkspaceOneDevices": {
+    "source": "Sentinel Tables",
+    "columns": []
+  },
   "W3CIISLog": {
     "source": "Sentinel Tables",
     "columns": [
@@ -44780,6 +44788,96 @@
       "3rd-Party Connector Schemas"
     ]
   },
+  "CiscoUmbrellaAdminAudit_CL": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the admin audit event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "string",
+        "description": "The date and time of the administrative change event, expressed as a UTC-formatted string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "The email of the user that triggered the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "The account name of the user who created the change.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditType",
+        "type": "string",
+        "description": "Where the change was made, such as settings or a policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The type of change made, such as Create, update, or Delete.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoggedInFrom",
+        "type": "string",
+        "description": "The user's IP source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Before",
+        "type": "string",
+        "description": "The policy or setting before the change was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "After",
+        "type": "string",
+        "description": "The policy or setting after the change was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
+  },
   "Cisco_Umbrella_audit_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -50908,6 +51006,11 @@
     "columns": [],
     "custom_table": true
   },
+  "CyberArkEPM_Events_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
   "CyberArk_AuditEvents_CL": {
     "source": "Sentinel Tables",
     "columns": [
@@ -51157,6 +51260,11 @@
       "Sentinel Tables",
       "3rd-Party Connector Schemas"
     ]
+  },
+  "CyberArk_EPMEvents_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
   },
   "CyberSixgill_Alerts_CL": {
     "source": "Sentinel Tables",
@@ -62894,6 +63002,11 @@
       "3rd-Party Connector Schemas"
     ]
   },
+  "GitHubAdvancedSecurityAlerts_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
   "GitHubAuditLogPolling_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -69480,6 +69593,88 @@
     "columns": [],
     "custom_table": true
   },
+  "NordStellar_CL": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Timestamp when the event was ingested into Microsoft Sentinel. Derived from event.date_added (leaked-data, dark-web, domain-permutation), event.detected_at (attack-surface), or the envelope time field as fallback.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique NordStellar event identifier (GUID).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "NordStellar event type, e.g. DATA_BREACH, COMBO_LIST, MALWARE_INFECTION, CONSUMER_CREDENTIAL, DARK_WEB_FORUM_POST, DARK_WEB_TELEGRAM_POST, DARK_WEB_RANSOMWARE_POST, DARK_WEB_MARKETPLACE_POST, DOMAIN_PERMUTATION, ATTACK_SURFACE_WEB_APPLICATION_VULNERABILITY, ATTACK_SURFACE_NETWORK_SERVICE_VULNERABILITY, ATTACK_SURFACE_DNS_VULNERABILITY.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Module",
+        "type": "string",
+        "description": "NordStellar source module: LEAKED_DATA, DARK_WEB_MONITORING, DOMAIN_SQUATTING, or ATTACK_SURFACE.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevel",
+        "type": "string",
+        "description": "NordStellar risk level: CRITICAL, HIGH, MEDIUM, LOW, or INFORMATIONAL.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetType",
+        "type": "string",
+        "description": "Asset type for leaked-data events (asset.type, e.g. EMAIL/DOMAIN/IP/PHONE), domain-permutation events (hardcoded to DOMAIN), or asset source kind for attack-surface events (source_type, e.g. WEB_APPLICATION/NETWORK_SERVICE/DNS). Empty for dark-web events whose target lives in type-specific fields inside Details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetValue",
+        "type": "string",
+        "description": "Asset value: nested asset.value (leaked-data), original_domain (domain-permutation), or root-level asset_value (attack-surface). Empty for dark-web events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags attached to the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "dynamic",
+        "description": "Full NordStellar event payload as received in the webhook envelope's `event` field. Contains every type-specific field (queryable as `Details.<field>` or `Details['<field>']`) and, for convenience and forward compatibility, also includes the source values for the promoted columns above.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
+  },
   "OCI_LogsV2_CL": {
     "source": "Sentinel Tables",
     "columns": [
@@ -74268,7 +74463,7 @@
       {
         "name": "HostId",
         "type": "string",
-        "description": "",
+        "description": "Unique host identifier from Qualys VM.",
         "availability": [
           "Sentinel"
         ]
@@ -74276,7 +74471,7 @@
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "",
+        "description": "Primary IP address reported for the host.",
         "availability": [
           "Sentinel"
         ]
@@ -74284,7 +74479,7 @@
       {
         "name": "TrackingMethod",
         "type": "string",
-        "description": "",
+        "description": "Method Qualys uses to track and identify the host.",
         "availability": [
           "Sentinel"
         ]
@@ -74292,7 +74487,7 @@
       {
         "name": "OperatingSystem",
         "type": "string",
-        "description": "",
+        "description": "Operating system details resolved from the Qualys host record.",
         "availability": [
           "Sentinel"
         ]
@@ -74300,7 +74495,7 @@
       {
         "name": "DnsName",
         "type": "string",
-        "description": "",
+        "description": "DNS name associated with the host.",
         "availability": [
           "Sentinel"
         ]
@@ -74308,7 +74503,7 @@
       {
         "name": "NetBios",
         "type": "string",
-        "description": "",
+        "description": "NetBIOS name associated with the host.",
         "availability": [
           "Sentinel"
         ]
@@ -74316,7 +74511,7 @@
       {
         "name": "QGHostId",
         "type": "string",
-        "description": "",
+        "description": "QualysGuard host identifier.",
         "availability": [
           "Sentinel"
         ]
@@ -74324,7 +74519,7 @@
       {
         "name": "LastScanDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent scan timestamp for the host.",
         "availability": [
           "Sentinel"
         ]
@@ -74332,7 +74527,7 @@
       {
         "name": "LastVMScannedDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent VM scan timestamp reported by Qualys.",
         "availability": [
           "Sentinel"
         ]
@@ -74340,7 +74535,7 @@
       {
         "name": "LastVMAuthScannedDateTime",
         "type": "datetime",
-        "description": "",
+        "description": "Most recent authenticated VM scan timestamp.",
         "availability": [
           "Sentinel"
         ]
@@ -74348,7 +74543,7 @@
       {
         "name": "DetectionList",
         "type": "dynamic",
-        "description": "",
+        "description": "Collection of vulnerability detections reported for the host.",
         "availability": [
           "Sentinel"
         ]
@@ -82638,6 +82833,112 @@
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
+  },
+  "StriderShieldEmailAddresses_CL": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "isNew",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "md5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNamePrimary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "collections",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "counterparties",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "riskSignal",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "descriptions",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "dates_added",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "itemNameSecondary",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "changes",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   },
   "SymantecICDx_CL": {
     "source": "Sentinel Tables",

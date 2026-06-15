@@ -9,7 +9,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountName",
@@ -18,7 +19,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountSid",
@@ -27,7 +29,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -36,7 +39,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -45,7 +49,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppGuardContainerId",
@@ -54,7 +59,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -62,7 +68,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CreatedProcessSessionId",
@@ -71,7 +78,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceId",
@@ -80,7 +88,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceName",
@@ -89,7 +98,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileName",
@@ -98,7 +108,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileOriginIP",
@@ -107,7 +118,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileOriginUrl",
@@ -116,7 +128,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileSize",
@@ -125,7 +138,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FolderPath",
@@ -134,7 +148,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessAccountDomain",
@@ -143,7 +158,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessAccountName",
@@ -152,7 +168,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessAccountObjectId",
@@ -161,7 +178,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessAccountSid",
@@ -170,7 +188,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessAccountUpn",
@@ -179,7 +198,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessCommandLine",
@@ -188,7 +208,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessCreationTime",
@@ -197,7 +218,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessFileName",
@@ -206,7 +228,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessFileSize",
@@ -215,7 +238,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessFolderPath",
@@ -224,7 +248,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessId",
@@ -233,7 +258,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessLogonId",
@@ -242,7 +268,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessMD5",
@@ -251,7 +278,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessParentCreationTime",
@@ -260,7 +288,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessParentFileName",
@@ -269,7 +298,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessParentId",
@@ -278,7 +308,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessRemoteSessionDeviceName",
@@ -287,7 +318,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessRemoteSessionIP",
@@ -296,7 +328,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessSessionId",
@@ -305,7 +338,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessSHA1",
@@ -314,7 +348,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessSHA256",
@@ -323,7 +358,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessUniqueId",
@@ -332,7 +368,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoCompanyName",
@@ -341,7 +378,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoFileDescription",
@@ -350,7 +388,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoInternalFileName",
@@ -358,7 +397,8 @@
         "description": "Internal file name from the version information of the process (image file) responsible for the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoOriginalFileName",
@@ -367,7 +407,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoProductName",
@@ -376,7 +417,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatingProcessVersionInfoProductVersion",
@@ -385,7 +427,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -393,7 +436,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IsInitiatingProcessRemoteSession",
@@ -402,7 +446,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsProcessRemoteSession",
@@ -411,7 +456,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LocalIP",
@@ -420,7 +466,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LocalPort",
@@ -429,7 +476,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogonId",
@@ -438,7 +486,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MachineGroup",
@@ -446,7 +495,8 @@
         "description": "Machine group of the machine. This group is used by role-based access control to determine access to the machine.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MD5",
@@ -455,7 +505,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessCommandLine",
@@ -464,7 +515,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessCreationTime",
@@ -473,7 +525,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessId",
@@ -482,7 +535,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessRemoteSessionDeviceName",
@@ -491,7 +545,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessRemoteSessionIP",
@@ -500,7 +555,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProcessTokenElevation",
@@ -509,7 +565,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RegistryKey",
@@ -518,7 +575,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RegistryValueData",
@@ -527,7 +585,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RegistryValueName",
@@ -536,7 +595,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteDeviceName",
@@ -545,7 +605,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteIP",
@@ -554,7 +615,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemotePort",
@@ -563,7 +625,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteUrl",
@@ -572,7 +635,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -581,7 +645,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SHA1",
@@ -590,7 +655,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SHA256",
@@ -599,7 +665,8 @@
         "availability": [
           "Defender XDR",
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -607,7 +674,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -615,7 +683,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -623,7 +692,8 @@
         "description": "Date and time the event was recorded by the MDE agent on the endpoint.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -631,7 +701,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Timestamp",
@@ -639,7 +710,8 @@
         "description": "Date and time when the event was recorded",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": " InitiatingProcessVersionInfoInternalFileName",
@@ -647,7 +719,8 @@
         "description": "Internal file name from the version information of the process (image file) responsible for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ProcessUniqueId",
@@ -655,12 +728,14 @@
         "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       }
     ],
     "sources": [
       "Sentinel Tables",
       "Defender XDR Advanced Hunting Schema"
-    ]
+    ],
+    "verified": true
   }
 }
