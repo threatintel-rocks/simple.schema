@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "BehaviorId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Title",
@@ -26,8 +24,7 @@
         "description": "Title of the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -35,8 +32,7 @@
         "description": "Description of the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Categories",
@@ -44,8 +40,7 @@
         "description": "Type of threat indicator or breach activity identified by the behavior, as defined by the MITRE ATT&CK framework",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AttackTechniques",
@@ -53,8 +48,7 @@
         "description": "MITRE ATT&CK techniques associated with the activity that triggered the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceSource",
@@ -62,8 +56,7 @@
         "description": "Product or service that identified the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetectionSource",
@@ -71,8 +64,7 @@
         "description": "Detection technology or sensor that identified the notable component or activity",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataSources",
@@ -80,8 +72,7 @@
         "description": "Products or services that provided information for the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceId",
@@ -89,8 +80,7 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountUpn",
@@ -98,8 +88,7 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -107,8 +96,7 @@
         "description": "Unique identifier for the account in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -116,8 +104,7 @@
         "description": "Date and time of the first activity related to the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndTime",
@@ -125,8 +112,7 @@
         "description": "Date and time of the last activity related to the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -134,8 +120,7 @@
         "description": "Additional information about the behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -143,77 +128,9 @@
         "description": "Type of behavior",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "_BilledSize",
-        "type": "real",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_IsBillable",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_ItemId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_ResourceId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_SubscriptionId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "_TimeReceived",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }
