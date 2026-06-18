@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-18 07:31 UTC
+
+**Tables added** (1)
+
+- `BV_ClaudeCompliance_ComplianceActivities_CL` (17 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-16 08:43 UTC
 
 **Tables added** (2)
