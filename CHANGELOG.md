@@ -2,6 +2,21 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-20 06:58 UTC
+
+**Columns modified** (9)
+
+- `IllumioInsightsGraph_CL.DestPort`: type `long` → `int`
+- `IllumioInsightsGraph_CL.DestThreatLevel`: type `long` → `int`
+- `IllumioInsightsGraph_CL.FlowCount`: type `long` → `int`
+- `IllumioInsightsGraph_CL.Port`: type `long` → `int`
+- `IllumioInsightsGraph_CL.SrcPort`: type `long` → `int`
+- `IllumioInsightsGraph_CL.SrcThreatLevel`: type `long` → `int`
+- `IllumioInsightsGraph_CL.TimeGenerated`: type `string` → `datetime`
+- `IllumioInsightsGraph_CL.TotalReceivedBytes`: type `long` → `int`
+- `IllumioInsightsGraph_CL.TotalSentBytes`: type `long` → `int`
+
+
 ### 2026-06-18 07:31 UTC
 
 **Tables added** (1)

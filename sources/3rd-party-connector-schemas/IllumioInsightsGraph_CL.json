@@ -4,7 +4,7 @@
     "columns": [
       {
         "name": "TimeGenerated",
-        "type": "string",
+        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
@@ -92,7 +92,7 @@
       },
       {
         "name": "Port",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -124,7 +124,7 @@
       },
       {
         "name": "TotalSentBytes",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -132,7 +132,7 @@
       },
       {
         "name": "TotalReceivedBytes",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -140,7 +140,7 @@
       },
       {
         "name": "SrcThreatLevel",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -164,7 +164,7 @@
       },
       {
         "name": "DestThreatLevel",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -188,7 +188,7 @@
       },
       {
         "name": "SrcPort",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -196,7 +196,7 @@
       },
       {
         "name": "DestPort",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
@@ -220,7 +220,7 @@
       },
       {
         "name": "FlowCount",
-        "type": "long",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
