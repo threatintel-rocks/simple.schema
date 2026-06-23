@@ -93,7 +93,7 @@
       {
         "name": "FirstActivityTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the first activity in the incident occured",
+        "description": "Timestamp (UTC) of when the first activity in the incident occurred",
         "availability": [
           "Sentinel"
         ]
@@ -149,7 +149,7 @@
       {
         "name": "LastActivityTime",
         "type": "datetime",
-        "description": "Timestamp (UTC) of when the last activity in the incident occured",
+        "description": "Timestamp (UTC) of when the last activity in the incident occurred",
         "availability": [
           "Sentinel"
         ]

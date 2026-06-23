@@ -4884,14 +4884,6 @@
         ]
       },
       {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "InitiatingProcessUniqueId",
         "type": "string",
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
@@ -5510,14 +5502,6 @@
         ]
       },
       {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "InitiatingProcessUniqueId",
         "type": "string",
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
@@ -5862,14 +5846,6 @@
         "name": "InitiatingProcessRemoteSessionIP",
         "type": "string",
         "description": "IP address of the remote device from which the initiating process's RDP session was initiated",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
         ]
@@ -6669,14 +6645,6 @@
         ]
       },
       {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "InitiatingProcessUniqueId",
         "type": "string",
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",
@@ -7037,14 +7005,6 @@
         "name": "InitiatingProcessRemoteSessionIP",
         "type": "string",
         "description": "IP address of the remote device from which the initiating process's RDP session was initiated",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
         ]
@@ -8108,14 +8068,6 @@
         "name": "InitiatingProcessRemoteSessionIP",
         "type": "string",
         "description": "IP address of the remote device from which the initiating process's RDP session was initiated",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
         "availability": [
           "Defender XDR"
         ]

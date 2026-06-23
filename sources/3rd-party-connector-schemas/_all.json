@@ -63095,6 +63095,746 @@
     ],
     "solution": "Varonis Purview"
   },
+  "VeeamAuthorizationEventsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "string",
+        "description": "User who created the authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExpirationTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization expires",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique authorization event identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedBy",
+        "type": "string",
+        "description": "User who processed the authorization",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization was processed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "Current authorization state",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
+  "VeeamCovewareFindingsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CovewareHostName",
+        "type": "string",
+        "description": "Coveware server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Artifact",
+        "type": "string",
+        "description": "File or process path",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of security event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueId",
+        "type": "string",
+        "description": "MITRE ATT&CK technique identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp when event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstRunOrAccessed",
+        "type": "datetime",
+        "description": "First time artifact was run or accessed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Machine hostname where event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventActivity",
+        "type": "string",
+        "description": "Description of security activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Country",
+        "type": "string",
+        "description": "Geographic location of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique finding identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Md5Hash",
+        "type": "string",
+        "description": "MD5 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha1Hash",
+        "type": "string",
+        "description": "SHA1 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256Hash",
+        "type": "string",
+        "description": "SHA256 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "Unique machine identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevel",
+        "type": "string",
+        "description": "Security risk level assessment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanTime",
+        "type": "datetime",
+        "description": "Timestamp when scan was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "User account associated with event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
+  "VeeamMalwareEventsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareEventType",
+        "type": "string",
+        "description": "Type of malware detection event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareState",
+        "type": "string",
+        "description": "Current state of malware event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Source",
+        "type": "string",
+        "description": "Source that triggered the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity level of malware threat",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique malware event identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionTimeUtc",
+        "type": "datetime",
+        "description": "UTC timestamp of malware detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineDisplayName",
+        "type": "string",
+        "description": "Display name of affected machine",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineUuid",
+        "type": "string",
+        "description": "Unique identifier of affected machine",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineBackupObjectId",
+        "type": "string",
+        "description": "Backup object ID for affected machine",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "string",
+        "description": "Detailed information about malware detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "string",
+        "description": "User or system that created the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Engine",
+        "type": "string",
+        "description": "Antivirus engine that detected malware",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
+  "VeeamOneTriggeredAlarmsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VoneHostName",
+        "type": "string",
+        "description": "Veeam ONE server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredAlarmId",
+        "type": "int",
+        "description": "Unique identifier for triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlarmTemplateId",
+        "type": "int",
+        "description": "Template identifier for alarm type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PredefinedAlarmId",
+        "type": "int",
+        "description": "Predefined alarm rule identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredTime",
+        "type": "datetime",
+        "description": "Timestamp when alarm was triggered",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current alarm status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed alarm description",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "Additional comments or notes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RepeatCount",
+        "type": "int",
+        "description": "Number of times alarm has repeated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "int",
+        "description": "Identifier of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectName",
+        "type": "string",
+        "description": "Name of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "Type of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChildAlarmsCount",
+        "type": "int",
+        "description": "Number of child alarms",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationDescription",
+        "type": "string",
+        "description": "Detailed description of the alarm event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationMode",
+        "type": "string",
+        "description": "Recommended remediation mode for the alarm event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
+  "VeeamSecurityComplianceAnalyzerV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Assessment status of security best practice",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for best practice assessment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BestPractice",
+        "type": "string",
+        "description": "Security best practice being evaluated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "Additional notes and recommendations",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
+  "VeeamSessionsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionType",
+        "type": "string",
+        "description": "Type of Veeam session operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "Current state of the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique session identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Display name of the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobId",
+        "type": "string",
+        "description": "Associated job identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "Timestamp when session was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "Timestamp when session completed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProgressPercent",
+        "type": "int",
+        "description": "Session completion percentage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultStatus",
+        "type": "string",
+        "description": "Session result status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultMessage",
+        "type": "string",
+        "description": "Session result message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultIsCanceled",
+        "type": "boolean",
+        "description": "Whether session was canceled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VeeamResourceId",
+        "type": "string",
+        "description": "Veeam resource identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceReference",
+        "type": "string",
+        "description": "Reference to associated resource",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentSessionId",
+        "type": "string",
+        "description": "Parent session identifier if applicable",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Platform name associated with the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Platform identifier associated with the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usn",
+        "type": "long",
+        "description": "Update sequence number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Result",
+        "type": "string",
+        "description": "Session result status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Session result message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsCanceled",
+        "type": "boolean",
+        "description": "Whether session was canceled",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  },
   "VersasecCmsErrorLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [

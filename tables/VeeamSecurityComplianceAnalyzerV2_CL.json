@@ -1,0 +1,56 @@
+{
+  "VeeamSecurityComplianceAnalyzerV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Assessment status of security best practice",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for best practice assessment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BestPractice",
+        "type": "string",
+        "description": "Security best practice being evaluated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "Additional notes and recommendations",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  }
+}

@@ -181,7 +181,7 @@
       {
         "name": "SalDateChar8",
         "type": "string",
-        "description": "The SalDateChar8 is the date the event occured in char8 format (yyyyMMdd) eg: 20190101.",
+        "description": "The SalDateChar8 is the date the event occurred in char8 format (yyyyMMdd) eg: 20190101.",
         "availability": [
           "Sentinel"
         ]
@@ -197,7 +197,7 @@
       {
         "name": "SalTimeChar6",
         "type": "string",
-        "description": "The SalTimeChar6 is the time the event occured in char6 format (hhMMss) eg: 110804.",
+        "description": "The SalTimeChar6 is the time the event occurred in char6 format (hhMMss) eg: 110804.",
         "availability": [
           "Sentinel"
         ]
@@ -301,7 +301,7 @@
       {
         "name": "UpdatedOn",
         "type": "datetime",
-        "description": "The date and time of the event occured in the SAP system in UTC format.",
+        "description": "The date and time of the event occurred in the SAP system in UTC format.",
         "availability": [
           "Sentinel"
         ]

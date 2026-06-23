@@ -459,14 +459,6 @@
         ]
       },
       {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "InitiatingProcessUniqueId",
         "type": "string",
         "description": "Unique identifier of the initiating process; this is equal to the Process Start Key in Windows devices",

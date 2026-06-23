@@ -1,0 +1,144 @@
+{
+  "VeeamOneTriggeredAlarmsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VoneHostName",
+        "type": "string",
+        "description": "Veeam ONE server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredAlarmId",
+        "type": "int",
+        "description": "Unique identifier for triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlarmTemplateId",
+        "type": "int",
+        "description": "Template identifier for alarm type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PredefinedAlarmId",
+        "type": "int",
+        "description": "Predefined alarm rule identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredTime",
+        "type": "datetime",
+        "description": "Timestamp when alarm was triggered",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current alarm status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed alarm description",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "Additional comments or notes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RepeatCount",
+        "type": "int",
+        "description": "Number of times alarm has repeated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "int",
+        "description": "Identifier of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectName",
+        "type": "string",
+        "description": "Name of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "Type of object that triggered alarm",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChildAlarmsCount",
+        "type": "int",
+        "description": "Number of child alarms",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationDescription",
+        "type": "string",
+        "description": "Detailed description of the alarm event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationMode",
+        "type": "string",
+        "description": "Recommended remediation mode for the alarm event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  }
+}

@@ -1,0 +1,152 @@
+{
+  "VeeamCovewareFindingsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CovewareHostName",
+        "type": "string",
+        "description": "Coveware server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Artifact",
+        "type": "string",
+        "description": "File or process path",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of security event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueId",
+        "type": "string",
+        "description": "MITRE ATT&CK technique identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "Timestamp when event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstRunOrAccessed",
+        "type": "datetime",
+        "description": "First time artifact was run or accessed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Machine hostname where event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventActivity",
+        "type": "string",
+        "description": "Description of security activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Country",
+        "type": "string",
+        "description": "Geographic location of the event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique finding identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Md5Hash",
+        "type": "string",
+        "description": "MD5 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha1Hash",
+        "type": "string",
+        "description": "SHA1 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256Hash",
+        "type": "string",
+        "description": "SHA256 hash of the file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "Unique machine identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevel",
+        "type": "string",
+        "description": "Security risk level assessment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanTime",
+        "type": "datetime",
+        "description": "Timestamp when scan was performed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "User account associated with event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  }
+}

@@ -69,7 +69,7 @@
       {
         "name": "DataClassification",
         "type": "string",
-        "description": "The data classification, if exists, for the dashboard where the event occurred.",
+        "description": "The data classification, if it exists, for the dashboard where the event occurred.",
         "availability": [
           "Sentinel"
         ]

@@ -8,8 +8,7 @@
         "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent when data is pulled from Azure storage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -17,8 +16,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "cIP",
@@ -26,8 +24,7 @@
         "description": "IP address of the client that accessed the web server.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Computer",
@@ -35,8 +32,7 @@
         "description": "Name of the computer that the event was collected from.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Confidence",
@@ -44,8 +40,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csBytes",
@@ -53,8 +48,7 @@
         "description": "Number of bytes that the server received.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csCookie",
@@ -62,8 +56,7 @@
         "description": "Content of the cookie sent or received if any.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csHost",
@@ -71,8 +64,7 @@
         "description": "Host header name if any.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csMethod",
@@ -80,8 +72,7 @@
         "description": "Method of the request such as GET or POST.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csReferer",
@@ -89,8 +80,7 @@
         "description": "Site that the user last visited. This site provided a link to the current site.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csUriQuery",
@@ -98,8 +88,7 @@
         "description": "The query if any that the client was trying to perform. A Universal Resource Identifier (URI) query is necessary only for dynamic pages.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csUriStem",
@@ -107,8 +96,7 @@
         "description": "Target of the action such as a web page for example Default.htm.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csUserAgent",
@@ -116,8 +104,7 @@
         "description": "Browser type of the client.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csUserName",
@@ -125,8 +112,7 @@
         "description": "Name of the authenticated user that accessed the server. Anonymous users are indicated by a hyphen.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "csVersion",
@@ -134,8 +120,7 @@
         "description": "Protocol version that the client used.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -143,8 +128,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirstReportedDateTime",
@@ -152,8 +136,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IndicatorThreatType",
@@ -161,8 +144,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsActive",
@@ -170,8 +152,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -179,8 +160,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LastReportedDateTime",
@@ -188,8 +168,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MaliciousIP",
@@ -197,8 +176,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services (through Azure Diagnostics Extension).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ManagementGroupName",
@@ -206,8 +184,7 @@
         "description": "Name of the management group for Operations Manager agents. For other agents this is AOI-<workspace ID>.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIPCountry",
@@ -215,8 +192,7 @@
         "description": "Country/region of the IP address of the client.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIPLatitude",
@@ -224,8 +200,7 @@
         "description": "Latitude of the client IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIPLongitude",
@@ -233,8 +208,7 @@
         "description": "Longitude of the client IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -242,8 +216,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Role",
@@ -251,8 +224,7 @@
         "description": "Role instance of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RoleInstance",
@@ -260,8 +232,7 @@
         "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and data is pulled from Azure storage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "scBytes",
@@ -269,8 +240,7 @@
         "description": "Number of bytes that the server sent.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "scStatus",
@@ -278,8 +248,7 @@
         "description": "HTTP status code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "scSubStatus",
@@ -287,8 +256,7 @@
         "description": "Substatus error code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "scWin32Status",
@@ -296,8 +264,7 @@
         "description": "Windows status code.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -305,8 +272,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "sIP",
@@ -314,8 +280,7 @@
         "description": "IP address of the server on which the log file entry was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -323,8 +288,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "sPort",
@@ -332,8 +296,7 @@
         "description": "Server port number that is configured for the service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "sSiteName",
@@ -341,8 +304,7 @@
         "description": "Name of the IIS site.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StorageAccount",
@@ -350,8 +312,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -359,8 +320,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -368,8 +328,7 @@
         "description": "Date and time the record was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeTaken",
@@ -377,8 +336,7 @@
         "description": "Length of time to process the request in milliseconds.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TLPLevel",
@@ -386,8 +344,7 @@
         "description": "Only populated for IIS logs collected from Azure Cloud Services through Azure Diagnostics Extension.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -395,64 +352,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "AdditionalInformation",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Date",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "FileOffset",
-        "type": "int",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "FileUri",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "MG",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "ReportReferenceLink",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "sComputerName",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Time",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

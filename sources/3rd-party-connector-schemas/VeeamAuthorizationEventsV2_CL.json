@@ -1,0 +1,96 @@
+{
+  "VeeamAuthorizationEventsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "string",
+        "description": "User who created the authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExpirationTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization expires",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique authorization event identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of authorization request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedBy",
+        "type": "string",
+        "description": "User who processed the authorization",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedTime",
+        "type": "datetime",
+        "description": "Timestamp when authorization was processed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "Current authorization state",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  }
+}

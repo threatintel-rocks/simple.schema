@@ -648,14 +648,6 @@
         "availability": [
           "Defender XDR"
         ]
-      },
-      {
-        "name": "ProcessUniqueId",
-        "type": "string",
-        "description": "Unique identifier of the process; this is equal to the Process Start Key in Windows devices",
-        "availability": [
-          "Defender XDR"
-        ]
       }
     ],
     "sources": [

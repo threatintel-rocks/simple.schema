@@ -1,0 +1,184 @@
+{
+  "VeeamSessionsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VbrHostName",
+        "type": "string",
+        "description": "Veeam Backup & Replication server hostname",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionType",
+        "type": "string",
+        "description": "Type of Veeam session operation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "Current state of the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique session identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Display name of the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "JobId",
+        "type": "string",
+        "description": "Associated job identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "Timestamp when session was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "Timestamp when session completed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProgressPercent",
+        "type": "int",
+        "description": "Session completion percentage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultStatus",
+        "type": "string",
+        "description": "Session result status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultMessage",
+        "type": "string",
+        "description": "Session result message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResultIsCanceled",
+        "type": "boolean",
+        "description": "Whether session was canceled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VeeamResourceId",
+        "type": "string",
+        "description": "Veeam resource identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceReference",
+        "type": "string",
+        "description": "Reference to associated resource",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentSessionId",
+        "type": "string",
+        "description": "Parent session identifier if applicable",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Platform name associated with the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Platform identifier associated with the session",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usn",
+        "type": "long",
+        "description": "Update sequence number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Result",
+        "type": "string",
+        "description": "Session result status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Session result message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsCanceled",
+        "type": "boolean",
+        "description": "Whether session was canceled",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Veeam"
+  }
+}
