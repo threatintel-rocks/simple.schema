@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-06-24 06:41 UTC
+
+**Tables added** (2)
+
+- `PanoraysCompanyFindingPOC_CL` (20 columns, source: 3rd-Party Connector Schemas)
+- `TrendMicroCASV2_CL` (31 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-06-23 06:44 UTC
 
 **Tables added** (6)

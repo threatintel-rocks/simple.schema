@@ -1,0 +1,256 @@
+{
+  "TrendMicroCASV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogItemId",
+        "type": "string",
+        "description": "Unique identifier for the log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Service",
+        "type": "string",
+        "description": "Cloud service where the event occurred (exchange, sharepoint, onedrive, dropbox, box, googledrive, gmail, teams, exchangeserver, salesforce_sandbox, salesforce_production, teams_chat).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "string",
+        "description": "Type of security event (securityrisk, virtualanalyzer, ransomware, dlp).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanType",
+        "type": "string",
+        "description": "The type of scan performed on the message or file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AffectedUser",
+        "type": "string",
+        "description": "Email address or username of the affected user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "File path or location where the threat was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionTime",
+        "type": "datetime",
+        "description": "Timestamp when the threat was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredPolicyName",
+        "type": "string",
+        "description": "Name of the security policy that was triggered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredSecurityFilter",
+        "type": "string",
+        "description": "Security filter that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action taken by the security system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionResult",
+        "type": "string",
+        "description": "Result of the action taken.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageId",
+        "type": "string",
+        "description": "Unique identifier for the email message.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageSender",
+        "type": "string",
+        "description": "Email address of the message sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageRecipient",
+        "type": "dynamic",
+        "description": "Email addresses of message recipients.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageSubmitTime",
+        "type": "datetime",
+        "description": "Timestamp when the email message was submitted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageDeliveryTime",
+        "type": "datetime",
+        "description": "Timestamp when the email message was delivered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageSubject",
+        "type": "string",
+        "description": "Subject line of the email message.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailMessageFileName",
+        "type": "string",
+        "description": "Name of the attachment file in the email.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName",
+        "type": "string",
+        "description": "Name of the file where the threat was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileUploadTime",
+        "type": "datetime",
+        "description": "Timestamp when the file was uploaded.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityRiskName",
+        "type": "string",
+        "description": "Name of the identified security risk.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectedBy",
+        "type": "string",
+        "description": "Detection mechanism or engine that identified the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevel",
+        "type": "string",
+        "description": "Risk level classification (e.g., High, Medium, Low).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSHA1",
+        "type": "string",
+        "description": "SHA-1 hash of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSHA256",
+        "type": "string",
+        "description": "SHA-256 hash of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VirusName",
+        "type": "string",
+        "description": "Name of the virus or malware detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionType",
+        "type": "string",
+        "description": "Type of detection method used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RansomwareName",
+        "type": "string",
+        "description": "Name of the ransomware variant detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeredDlpTemplate",
+        "type": "dynamic",
+        "description": "Data Loss Prevention template that was triggered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Trend Micro Cloud App Security"
+  }
+}
