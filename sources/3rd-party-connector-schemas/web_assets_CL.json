@@ -1,6 +1,6 @@
 {
   "web_assets_CL": {
-    "source": "Sentinel Tables",
+    "source": "3rd-Party Connector Schemas",
     "columns": [
       {
         "name": "TimeGenerated",
@@ -75,10 +75,6 @@
         ]
       }
     ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
+    "solution": "HolmSecurity"
   }
 }

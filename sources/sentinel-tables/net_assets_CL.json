@@ -1,7 +1,140 @@
 {
   "net_assets_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Time the record was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "Asset creation date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Asset name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Asset tags",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "Object type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "Unique identifier for the asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperatingSystem",
+        "type": "string",
+        "description": "Operating system",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilitiesCount",
+        "type": "int",
+        "description": "Number of vulnerabilities",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastDetected",
+        "type": "datetime",
+        "description": "Last detected date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "IP address of the network asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpRange",
+        "type": "string",
+        "description": "IP range of the network asset",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "Host name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Details",
+        "type": "string",
+        "description": "Additional details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BusinessImpact",
+        "type": "string",
+        "description": "Business impact",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostsPersonalData",
+        "type": "boolean",
+        "description": "Whether the asset hosts personal data",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "dynamic",
+        "description": "Vulnerability severity breakdown",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }
