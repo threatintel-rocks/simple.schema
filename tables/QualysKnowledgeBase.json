@@ -8,7 +8,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Category",
@@ -16,7 +17,8 @@
         "description": "Vulnerability Category.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Consequence",
@@ -24,7 +26,8 @@
         "description": "Vulnerability Consequence.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CveId",
@@ -32,7 +35,8 @@
         "description": "Common Vulnerabilities and Exposures identifier.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CveUrl",
@@ -40,7 +44,8 @@
         "description": "URL for the CVE entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Diagnosis",
@@ -48,7 +53,8 @@
         "description": "Diagnosis information for the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DiscoveryAdditionalInfo",
@@ -56,7 +62,8 @@
         "description": "Additional information about vulnerability discovery.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DiscoveryAuthType",
@@ -64,7 +71,8 @@
         "description": "Authentication type used for discovery.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DiscoveryRemote",
@@ -72,7 +80,8 @@
         "description": "Remote discovery information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -80,7 +89,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LastServiceModificationDateTime",
@@ -88,7 +98,8 @@
         "description": "Date and time when the vulnerability was last modified in the service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Patchable",
@@ -96,7 +107,8 @@
         "description": "Indicates whether the vulnerability is patchable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PciFlag",
@@ -104,7 +116,8 @@
         "description": "PCI compliance flag indicator.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PublishedDatetime",
@@ -112,7 +125,8 @@
         "description": "Date and time when the vulnerability was published.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Qid",
@@ -120,7 +134,8 @@
         "description": "The QID of the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SeverityLevel",
@@ -128,7 +143,8 @@
         "description": "Severity level of the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareProduct",
@@ -136,7 +152,8 @@
         "description": "Software product affected by the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareVendor",
@@ -144,7 +161,8 @@
         "description": "Vendor of the affected software.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Solution",
@@ -152,7 +170,8 @@
         "description": "Solution or remediation steps for the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -160,7 +179,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -168,7 +188,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatIntelligence",
@@ -176,7 +197,8 @@
         "description": "Threat intelligence data associated with the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -184,7 +206,8 @@
         "description": "Date and time when the record was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -192,7 +215,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VendorReferenceId",
@@ -200,7 +224,8 @@
         "description": "Vendor-specific reference identifier.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VendorReferenceUrl",
@@ -208,7 +233,8 @@
         "description": "URL for vendor-specific reference.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VulnTitle",
@@ -216,7 +242,8 @@
         "description": "Title of the ingested vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VulnType",
@@ -224,8 +251,10 @@
         "description": "Type or classification of the vulnerability.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
