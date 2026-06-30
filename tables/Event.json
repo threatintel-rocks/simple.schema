@@ -8,8 +8,7 @@
         "description": "Azure deployment ID of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -17,8 +16,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Computer",
@@ -26,8 +24,7 @@
         "description": "Name of the computer that the event was collected from.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventCategory",
@@ -35,8 +32,7 @@
         "description": "Category of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventData",
@@ -44,8 +40,7 @@
         "description": "All event data in raw format.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventID",
@@ -53,8 +48,7 @@
         "description": "Number of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventLevel",
@@ -62,8 +56,7 @@
         "description": "Severity of the event in numeric form.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventLevelName",
@@ -71,8 +64,7 @@
         "description": "Severity of the event in text form.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventLog",
@@ -80,8 +72,7 @@
         "description": "Name of the event log that the event was collected from.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -89,8 +80,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ManagementGroupName",
@@ -98,8 +88,7 @@
         "description": "Name of the management group for System Center Operations Manager agents. For other agents this value is AOI-<workspace ID>",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Message",
@@ -107,8 +96,7 @@
         "description": "Event message for the different Languages. The language is defined by the LCID attribute.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ParameterXml",
@@ -116,8 +104,7 @@
         "description": "Event parameter values in XML format.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RenderedDescription",
@@ -125,8 +112,7 @@
         "description": "Event description with parameter values.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -134,8 +120,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Role",
@@ -143,8 +128,7 @@
         "description": "Role of the cloud service the log belongs to. Only populated when events are collected using Azure Diagnostics agent and collected from Azure storage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Source",
@@ -152,8 +136,7 @@
         "description": "Source of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -161,8 +144,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -170,8 +152,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -179,8 +160,7 @@
         "description": "Date and time the record was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -188,8 +168,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserName",
@@ -197,22 +176,8 @@
         "description": "User name of the account that logged the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "MG",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

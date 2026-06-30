@@ -8,8 +8,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CollectorHostName",
@@ -17,8 +16,7 @@
         "description": "Name of the system on which the collector agent is installed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Computer",
@@ -26,8 +24,7 @@
         "description": "Computer from which the event originated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventTime",
@@ -35,8 +32,7 @@
         "description": "Date and time that the event was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Facility",
@@ -44,8 +40,7 @@
         "description": "The part of the system that generated the message.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HostIP",
@@ -53,8 +48,7 @@
         "description": "IP address of the system from which the message originated. Depending on network configuration/topology, this may have a blank or placeholder value, especially when the message originates from a remote device.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HostName",
@@ -62,8 +56,7 @@
         "description": "Name of the system from which the message originated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -71,8 +64,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ProcessID",
@@ -80,8 +72,7 @@
         "description": "ID of the process that generated the message.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessName",
@@ -89,8 +80,7 @@
         "description": "Name of the process that generated the message.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -98,8 +88,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SeverityLevel",
@@ -107,8 +96,7 @@
         "description": "Severity level of the event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -116,8 +104,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -125,8 +112,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "SyslogMessage",
@@ -134,8 +120,7 @@
         "description": "Text of the message.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -143,8 +128,7 @@
         "description": "Date and time the record was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -152,22 +136,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "MG",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
