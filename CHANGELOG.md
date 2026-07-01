@@ -2,6 +2,32 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-01 07:07 UTC
+
+**Tables added** (1)
+
+- `AkamaiSIEMEvent_CL` (55 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (16)
+
+- `WsSecurityEvents_CL.Activity` (string)
+- `WsSecurityEvents_CL.AdditionalExtensions` (string)
+- `WsSecurityEvents_CL.DeviceAction` (string)
+- `WsSecurityEvents_CL.DeviceCustomString1` (string)
+- `WsSecurityEvents_CL.DeviceCustomString1Label` (string)
+- `WsSecurityEvents_CL.DeviceCustomString2` (string)
+- `WsSecurityEvents_CL.DeviceCustomString2Label` (string)
+- `WsSecurityEvents_CL.DeviceEventClassID` (string)
+- `WsSecurityEvents_CL.DeviceVendor` (string)
+- `WsSecurityEvents_CL.LogSeverity` (int)
+- `WsSecurityEvents_CL.Message` (string)
+- `WsSecurityEvents_CL.PersistenceTimestamp` (datetime)
+- `WsSecurityEvents_CL.SimplifiedDeviceAction` (string)
+- `WsSecurityEvents_CL.SourceHostName` (string)
+- `WsSecurityEvents_CL.SourceUserName` (string)
+- `WsSecurityEvents_CL.TimeGenerated` (datetime)
+
+
 ### 2026-06-30 06:53 UTC
 
 **Columns removed** (400)
