@@ -2,6 +2,16 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-03 06:27 UTC
+
+**Tables added** (4)
+
+- `ESETInspectV2_CL` (39 columns, source: 3rd-Party Connector Schemas)
+- `GitHubAuditLogsV3_CL` (242 columns, source: 3rd-Party Connector Schemas)
+- `IntegrationTableIncidentsV2_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `IntegrationTableV2_CL` (41 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-07-01 07:07 UTC
 
 **Tables added** (1)

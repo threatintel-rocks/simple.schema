@@ -1,0 +1,336 @@
+{
+  "IntegrationTableV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the log entry was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TypeName",
+        "type": "string",
+        "description": "The specific type name of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectName",
+        "type": "string",
+        "description": "Name of the detected object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectTypeName",
+        "type": "string",
+        "description": "Type name of the detected object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OccurTime",
+        "type": "string",
+        "description": "ISO 8601 timestamp when the detection occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "Human-readable display name of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Responses",
+        "type": "dynamic",
+        "description": "Array of response actions taken for the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectHashSha1",
+        "type": "string",
+        "description": "SHA1 hash of the detected object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityLevel",
+        "type": "string",
+        "description": "Severity level of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Category classification of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectUrl",
+        "type": "string",
+        "description": "URL reference to the detected object",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "Unique identifier for the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductIds",
+        "type": "string",
+        "description": "ESET product selected for this connector instance (EP, EI, or ECOS)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Circumstances",
+        "type": "string",
+        "description": "Circumstances surrounding the detection (v2 direct field, v1 nested in context.circumstances)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "Username associated with the detection (v2 direct field, v1 nested in context.userName)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Device",
+        "type": "dynamic",
+        "description": "Device object with displayName and uuid (v2 API only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "dynamic",
+        "description": "Email object with attachments, headers, sender, recipient (v2 API only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "File",
+        "type": "dynamic",
+        "description": "File object with path, hashes, size (v2 API only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkTraffic",
+        "type": "dynamic",
+        "description": "Network traffic object with source/destination details (v2 API only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Process",
+        "type": "dynamic",
+        "description": "Process object with commandLine, path, uuid (v2 API only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkCommunication",
+        "type": "dynamic",
+        "description": "Network communication details (v1 API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionUuid",
+        "type": "string",
+        "description": "Detection UUID (mapped from uuid for compatibility)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "dynamic",
+        "description": "Context information about the detection (v1 API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupSize",
+        "type": "int",
+        "description": "Number of similar detections grouped together",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityScore",
+        "type": "string",
+        "description": "Severity score as string for backward compatibility. DEPRECATED: for SeverityScoreInt",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityScoreInt",
+        "type": "int",
+        "description": "Severity score as integer (correct API type)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceDisplayName",
+        "type": "string",
+        "description": "Display name of the device (v2: device.displayName object; v1: not available in payload)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceUuid",
+        "type": "string",
+        "description": "UUID of the device (v2: device.uuid object; v1: context.deviceUuid)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserNameBase",
+        "type": "string",
+        "description": "Base username associated with the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessPath",
+        "type": "string",
+        "description": "Path of the process involved (v2 direct field, v1 nested in context.process.path)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessUuid",
+        "type": "string",
+        "description": "UUID of the process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCommandline",
+        "type": "string",
+        "description": "Process command line",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectSizeBytes",
+        "type": "int",
+        "description": "Size of the detected object in bytes as integer for backward compatibility. DEPRECATED: for ObjectSizeBytesString",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectSizeBytesString",
+        "type": "string",
+        "description": "Size of the detected object in bytes as string (correct API type)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EdrRuleUuid",
+        "type": "string",
+        "description": "EDR rule UUID that triggered the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "Additional notes about the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Resolved",
+        "type": "boolean",
+        "description": "Whether the detection has been resolved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudOfficeTenantUuid",
+        "type": "string",
+        "description": "Cloud office tenant UUID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanUuid",
+        "type": "string",
+        "description": "Scan session UUID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringEvent",
+        "type": "dynamic",
+        "description": "Event that triggered the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ESET Protect Platform"
+  }
+}

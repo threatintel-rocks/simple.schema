@@ -1,0 +1,320 @@
+{
+  "ESETInspectV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the log entry was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "int",
+        "description": "Unique detection ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "UUID of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionType",
+        "type": "int",
+        "description": "Type of detection (numeric: 0=UnknownAlarm, 1=RuleActivated, 2=MalwareFoundOnDisk, 3=MalwareFoundInMemory, 4=ExploitDetected, 5=FirewallDetection, 7=BlockedAddress, 8=CryptoBlockerDetection)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionTypeDescription",
+        "type": "string",
+        "description": "Human-readable description of the detection type (enriched from DetectionType field)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreationTime",
+        "type": "datetime",
+        "description": "Timestamp when the detection was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComputerId",
+        "type": "string",
+        "description": "Computer identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComputerName",
+        "type": "string",
+        "description": "Name of the computer where detection occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComputerUuid",
+        "type": "string",
+        "description": "UUID of the computer",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity level of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityScore",
+        "type": "int",
+        "description": "Numeric severity score",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Priority",
+        "type": "string",
+        "description": "Priority level of the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Handled",
+        "type": "boolean",
+        "description": "Whether the detection has been handled",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Resolved",
+        "type": "boolean",
+        "description": "Whether the detection has been resolved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Note",
+        "type": "string",
+        "description": "Additional notes about the detection",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleName",
+        "type": "string",
+        "description": "Name of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "ID of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleUuid",
+        "type": "string",
+        "description": "UUID of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatName",
+        "type": "string",
+        "description": "Name of the detected threat",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatUri",
+        "type": "string",
+        "description": "URI reference for the threat",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleId",
+        "type": "string",
+        "description": "Module identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleName",
+        "type": "string",
+        "description": "Name of the module/file",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleSha1",
+        "type": "string",
+        "description": "SHA1 hash of the module",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleSignatureType",
+        "type": "int",
+        "description": "Module signature type (90=Trusted, 80=Valid, 75=AdHoc, 70=None, 60=Invalid, 0=Unknown)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleSignatureTypeDescription",
+        "type": "string",
+        "description": "Human-readable description of module signature type (enriched from ModuleSignatureType field)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleSigner",
+        "type": "string",
+        "description": "Signer of the module",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleFirstSeenLocally",
+        "type": "datetime",
+        "description": "When the module was first seen locally",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleLastExecutedLocally",
+        "type": "datetime",
+        "description": "When the module was last executed locally",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleLgAge",
+        "type": "int",
+        "description": "LiveGrid age of the module",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleLgPopularity",
+        "type": "int",
+        "description": "LiveGrid popularity of the module",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModuleLgReputation",
+        "type": "int",
+        "description": "LiveGrid reputation of the module",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessId",
+        "type": "string",
+        "description": "Process identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessPath",
+        "type": "string",
+        "description": "Path of the process involved",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCommandLine",
+        "type": "string",
+        "description": "Process command line arguments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessUser",
+        "type": "string",
+        "description": "User account associated with the process",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductIds",
+        "type": "string",
+        "description": "ESET product selected for this connector instance (EP, EI, or ECOS)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BaseUrl",
+        "type": "string",
+        "description": "Base URL of the ESET Inspect server (enriched from connector configuration)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeepLink",
+        "type": "string",
+        "description": "Deep link URL to view this detection in ESET Inspect console",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ESET Protect Platform"
+  }
+}
