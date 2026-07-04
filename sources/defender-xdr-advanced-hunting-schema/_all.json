@@ -9437,7 +9437,7 @@
       {
         "name": "FileType",
         "type": "string",
-        "description": "File extension type",
+        "description": "File content type",
         "availability": [
           "Defender XDR"
         ]
