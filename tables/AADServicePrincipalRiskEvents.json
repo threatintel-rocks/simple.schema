@@ -8,7 +8,8 @@
         "description": "Indicates the activity type the detected risk is linked to.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityDateTime",
@@ -16,7 +17,8 @@
         "description": "Date and time when the risky activity occurred in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalInfo",
@@ -24,7 +26,8 @@
         "description": "Additional information associated with the risk detection in JSON format.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AppId",
@@ -32,7 +35,8 @@
         "description": "The unique identifier for the associated application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -40,7 +44,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CorrelationId",
@@ -48,7 +53,8 @@
         "description": "Correlation ID of the sign-in activity associated with the risk detection. Nullable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DetectedDateTime",
@@ -56,7 +62,8 @@
         "description": "Date and time when the risk was detected in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DetectionTimingType",
@@ -64,7 +71,8 @@
         "description": "Timing of the detected risk , whether real-time or offline.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -72,7 +80,8 @@
         "description": "Unique identifier of the risk detection. Inherited from entity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IpAddress",
@@ -80,7 +89,8 @@
         "description": "Provides the IP address of the client from where the risk occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -88,7 +98,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "KeyIds",
@@ -96,7 +107,8 @@
         "description": "The unique identifier (GUID) for the key credential associated with the risk detection.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastUpdatedDateTime",
@@ -104,7 +116,8 @@
         "description": "Date and time when the risk detection was last updated in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Location",
@@ -112,7 +125,8 @@
         "description": "Location of the sign-in.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -120,7 +134,8 @@
         "description": "Name of the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestId",
@@ -128,7 +143,8 @@
         "description": "Request identifier of the sign-in activity associated with the risk detection. Nullable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskDetail",
@@ -136,7 +152,8 @@
         "description": "Details of the detected risk. Note: Details for this property are only available for Azure AD Premium P2 customers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskEventType",
@@ -144,7 +161,8 @@
         "description": "The type of risk event detected.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskLevel",
@@ -152,7 +170,8 @@
         "description": "Level of the detected risk. Note: details for this property are only available for Azure AD Premium P2 customers.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RiskState",
@@ -160,7 +179,8 @@
         "description": "The state of a detected risky service principal or sign-in activity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalDisplayName",
@@ -168,7 +188,8 @@
         "description": "The display name for the service principal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalId",
@@ -176,7 +197,8 @@
         "description": "The unique identifier for the service principal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Source",
@@ -184,7 +206,8 @@
         "description": "Source of the risk detection. For example, identityProtection.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -192,7 +215,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -200,7 +224,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -208,7 +233,8 @@
         "description": "The date and time of the event in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TokenIssuerType",
@@ -216,7 +242,8 @@
         "description": "Indicates the type of token issuer for the detected sign-in risk.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -224,8 +251,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
