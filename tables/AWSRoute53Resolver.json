@@ -8,8 +8,7 @@
         "description": "The AWS account ID that owns the VPC which sent the query.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Answers",
@@ -17,8 +16,7 @@
         "description": "Array of DNS response records, including resolved IP addresses and other query-related information.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -26,8 +24,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "FirewallDomainListId",
@@ -35,8 +32,7 @@
         "description": "ID of the domain list that matched the query domain.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirewallRuleAction",
@@ -44,8 +40,7 @@
         "description": "Rule action from the matching firewall rule.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FirewallRuleGroupId",
@@ -53,8 +48,7 @@
         "description": "ID of the firewall rule group that applied to the query.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -62,8 +56,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LogType",
@@ -71,8 +64,7 @@
         "description": "Indicates the type of DNS log (e.g. ResolverQueryLogs).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryClass",
@@ -80,8 +72,7 @@
         "description": "The DNS query class. Usually IN (Internet).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryName",
@@ -89,8 +80,7 @@
         "description": "The domain name that was queried.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "QueryType",
@@ -98,8 +88,7 @@
         "description": "The DNS record type requested (e.g. A, AAAA, MX).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Rcode",
@@ -107,8 +96,7 @@
         "description": "Textual DNS response code (e.g. NOERROR, NXDOMAIN).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Region",
@@ -116,8 +104,7 @@
         "description": "AWS region where the log was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -125,8 +112,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcAddr",
@@ -134,8 +120,7 @@
         "description": "The source IP address of the instance that made the query.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcIds",
@@ -143,8 +128,7 @@
         "description": "Identifiers related to the source instance where the DNS query originated from or passed through.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SrcPort",
@@ -152,8 +136,7 @@
         "description": "The source port on the instance that made the query.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -161,8 +144,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -170,8 +152,7 @@
         "description": "The time the DNS query was received by Route 53 Resolver.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Transport",
@@ -179,8 +160,7 @@
         "description": "The protocol used to send the query (e.g. UDP, TCP, TLS).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -188,8 +168,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Version",
@@ -197,8 +176,7 @@
         "description": "Version of the log format.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "VpcId",
@@ -206,10 +184,8 @@
         "description": "The ID of the VPC where the DNS query originated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

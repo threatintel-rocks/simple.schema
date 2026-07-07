@@ -8,8 +8,7 @@
         "description": "The type specifc fields that Sentinel adds. Contains the TLPLevel: white, green, amber, or red.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AzureTenantId",
@@ -17,8 +16,7 @@
         "description": "The tenant that submitted the indicator.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -26,8 +24,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Confidence",
@@ -35,8 +32,7 @@
         "description": "The confidence that the creator has in the correctness of their data. The value must be a number in the range of 0-100.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Created",
@@ -44,8 +40,7 @@
         "description": "The date when the indicator was created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Data",
@@ -53,8 +48,7 @@
         "description": "All object properties, formatted according to the STIX specification (https://docs.oasis-open.org/cti/stix/v2.1/os/stix-v2.1-os.pdf).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Id",
@@ -62,8 +56,7 @@
         "description": "A value that uniquely identifies the indicator STIX object. This value is usable with Sentinel APIs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsActive",
@@ -71,8 +64,7 @@
         "description": "A value that specifies if an indicator is active and valid for detections.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -80,8 +72,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsDeleted",
@@ -89,8 +80,7 @@
         "description": "A value that indicates whether the data was deleted from Sentinel or not.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastUpdateMethod",
@@ -98,8 +88,7 @@
         "description": "The component that last updated the indicator.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Modified",
@@ -107,8 +96,7 @@
         "description": "The date when the indicator was modified.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ObservableKey",
@@ -116,8 +104,7 @@
         "description": "The entire left-hand side of an equality comparison from the pattern.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ObservableValue",
@@ -125,8 +112,7 @@
         "description": "The entire right-hand side of an equality comparison from the pattern.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Pattern",
@@ -134,8 +120,7 @@
         "description": "The detection pattern for this indicator MAY be expressed as a STIX pattern.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -143,8 +128,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Revoked",
@@ -152,8 +136,7 @@
         "description": "A value that specifies whether the indicator was revoked.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -161,8 +144,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -170,8 +152,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Tags",
@@ -179,8 +160,7 @@
         "description": "Sentinel defined tags for the indicator.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -188,8 +168,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -197,8 +176,7 @@
         "description": "The time of indicator ingestion.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -206,8 +184,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ValidFrom",
@@ -215,8 +192,7 @@
         "description": "The time from which this indicator is considered a valid indicator of the behaviors it is related or represents.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ValidUntil",
@@ -224,8 +200,7 @@
         "description": "The time at which this indicator should no longer be considered a valid indicator of the bahviors it is related to or represents.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "WorkspaceId",
@@ -233,10 +208,8 @@
         "description": "The workspace that submitted the indicator.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
