@@ -1,0 +1,88 @@
+{
+  "CiscoMerakiAirMarshalEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ssid",
+        "type": "string",
+        "description": "Detected SSID name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Bssids",
+        "type": "dynamic",
+        "description": "Array of BSSID objects with containment and detection information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Channels",
+        "type": "dynamic",
+        "description": "Array of channels where the SSID was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the rogue AP was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the rogue AP was last detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredMacs",
+        "type": "dynamic",
+        "description": "Array of detected wired MAC addresses.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredVlans",
+        "type": "dynamic",
+        "description": "Array of detected VLAN identifiers.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredLastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the wired connection was last seen.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network ID where the Air Marshal event was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  }
+}

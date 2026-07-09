@@ -1,0 +1,96 @@
+{
+  "CiscoMerakiOrganizationNetworks_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Organization identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkName",
+        "type": "string",
+        "description": "Network name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypes",
+        "type": "dynamic",
+        "description": "Array of network product types (appliance, switch, wireless, etc.).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeZone",
+        "type": "string",
+        "description": "Network time zone.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Array of network tags.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnrollmentString",
+        "type": "string",
+        "description": "Enrollment string for the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardUrl",
+        "type": "string",
+        "description": "Dashboard URL for the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "string",
+        "description": "Additional description or notes about the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBoundToConfigTemplate",
+        "type": "boolean",
+        "description": "Indicates if the network is bound to a configuration template.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  }
+}

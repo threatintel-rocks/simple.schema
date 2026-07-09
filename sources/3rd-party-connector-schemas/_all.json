@@ -1727,452 +1727,6 @@
     ],
     "solution": "AirlockDigital"
   },
-  "AkamaiSIEMEvent_CL": {
-    "source": "3rd-Party Connector Schemas",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventType",
-        "type": "string",
-        "description": "Event type identifier, typically 'akamai_siem'.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ApiVersion",
-        "type": "string",
-        "description": "API schema version for this event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Format",
-        "type": "string",
-        "description": "Response format descriptor returned by the API (e.g., 'json').",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ConfigId",
-        "type": "string",
-        "description": "Unique identifier of the Akamai security configuration that generated the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PolicyId",
-        "type": "string",
-        "description": "Security policy identifier within the configuration.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientIp",
-        "type": "string",
-        "description": "IP address of the client that triggered the security event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AppliedAction",
-        "type": "string",
-        "description": "Action taken in response to the attack (e.g., alert, deny, abort).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientReputation",
-        "type": "string",
-        "description": "Client reputation score or category as assessed by Akamai.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ApiId",
-        "type": "string",
-        "description": "API definition identifier if the event is associated with an API endpoint.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SlowPostAction",
-        "type": "string",
-        "description": "Slow POST protection action applied (e.g., alert, abort).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SlowPostRate",
-        "type": "string",
-        "description": "Observed rate for a slow POST attack attempt.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleActions",
-        "type": "string",
-        "description": "Semicolon-delimited, URL-encoded, base64-encoded list of rule actions that triggered.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleData",
-        "type": "string",
-        "description": "Semicolon-delimited, URL-encoded, base64-encoded rule data payload for matched rules.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleMessages",
-        "type": "string",
-        "description": "Semicolon-delimited, URL-encoded, base64-encoded human-readable messages for matched rules.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleSelectors",
-        "type": "string",
-        "description": "Semicolon-delimited, URL-encoded, base64-encoded selectors (request parts) that matched the rules.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleTags",
-        "type": "string",
-        "description": "Semicolon-delimited, URL-encoded, base64-encoded tags classifying the matched rules.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RuleVersions",
-        "type": "string",
-        "description": "Semicolon-delimited, base64-encoded list of rule versions corresponding to each matched rule.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Rules",
-        "type": "string",
-        "description": "Semicolon-delimited, base64-encoded list of matched rule IDs (e.g., '950002;950006').",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GeoAsn",
-        "type": "string",
-        "description": "Autonomous System Number (ASN) of the client's network.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GeoCity",
-        "type": "string",
-        "description": "City derived from the client's IP address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GeoContinent",
-        "type": "string",
-        "description": "Numeric continent identifier derived from the client's IP address, as returned by the Akamai geo lookup.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GeoCountry",
-        "type": "string",
-        "description": "ISO 3166-1 alpha-2 country code derived from the client's IP address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GeoRegionCode",
-        "type": "string",
-        "description": "Region or state code derived from the client's IP address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpRequestId",
-        "type": "string",
-        "description": "Unique request identifier assigned by Akamai.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpRequestTime",
-        "type": "datetime",
-        "description": "Unix epoch timestamp (seconds) when the HTTP request was received.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpHost",
-        "type": "string",
-        "description": "HTTP Host header value from the inbound request.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpMethod",
-        "type": "string",
-        "description": "HTTP method of the request (e.g., GET, POST, PUT).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpPath",
-        "type": "string",
-        "description": "Request URL path.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpPort",
-        "type": "string",
-        "description": "TCP port number used for the connection.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpProtocol",
-        "type": "string",
-        "description": "HTTP protocol version (e.g., HTTP/1.1, HTTP/2).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpQueryString",
-        "type": "string",
-        "description": "URL query string of the request.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpResponseCode",
-        "type": "string",
-        "description": "HTTP status code returned by the origin or WAF (e.g., 200, 403). Source field: httpMessage.status.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpResponseBytes",
-        "type": "string",
-        "description": "Number of bytes in the HTTP response body, returned as a string by the API.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpRequestHeaders",
-        "type": "string",
-        "description": "URL-encoded request headers captured by the WAF.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HttpResponseHeaders",
-        "type": "string",
-        "description": "URL-encoded response headers captured by the WAF.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "BotScore",
-        "type": "string",
-        "description": "Bot risk score assigned by Akamai Bot Manager (0-100; higher = more bot-like).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "BotResponseSegment",
-        "type": "string",
-        "description": "Bot Manager response segment identifier used to categorise the bot action taken.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientAppBundleId",
-        "type": "string",
-        "description": "Mobile application bundle identifier, present for requests from Akamai SDK-instrumented mobile apps.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientAppVersion",
-        "type": "string",
-        "description": "Version of the mobile application, present for SDK-instrumented requests.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientSdkVersion",
-        "type": "string",
-        "description": "Version of the Akamai mobile SDK embedded in the client application.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientTelemetryType",
-        "type": "string",
-        "description": "Telemetry source type code indicating how the client data was collected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IdentityJa4",
-        "type": "string",
-        "description": "JA4 TLS client fingerprint - a compact string representing the TLS handshake characteristics of the client.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IdentityTlsFingerprintV2",
-        "type": "string",
-        "description": "Akamai TLS fingerprint v2 (hex string) derived from the client TLS handshake.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IdentityTlsFingerprintV3",
-        "type": "string",
-        "description": "Akamai TLS fingerprint v3 string; includes version prefix and fingerprint value.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskAllow",
-        "type": "string",
-        "description": "Indicates whether the user was allowed (1) or blocked (0) based on user risk evaluation.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskEmailDomain",
-        "type": "string",
-        "description": "Email domain of the user associated with this request.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskGeneral",
-        "type": "string",
-        "description": "General risk signals as pipe-delimited key:value pairs (e.g., 'duc_1h:10|duc_1d:30').",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskOriginUserId",
-        "type": "string",
-        "description": "Unique user identifier from the origin system (e.g., internal user ID).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskRisk",
-        "type": "string",
-        "description": "Risk signal breakdown as pipe-delimited key:value pairs (e.g., 'udfp:1325gdg4/M|unp:74256/H').",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskScore",
-        "type": "string",
-        "description": "Composite user risk score (0-100; higher = riskier).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskStatus",
-        "type": "string",
-        "description": "User risk evaluation status code.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskTrust",
-        "type": "string",
-        "description": "Trust signal breakdown as pipe-delimited key:value pairs (e.g., 'ugp:US').",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskUsername",
-        "type": "string",
-        "description": "Authenticated username associated with the request.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UserRiskUuid",
-        "type": "string",
-        "description": "UUID of the user risk session, used to correlate risk signals across requests.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "solution": "Akamai DDOS Protection"
-  },
   "AliCloudActionTrailLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -9754,6 +9308,502 @@
       }
     ],
     "solution": "Cisco ETD"
+  },
+  "CiscoMerakiAirMarshalEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ssid",
+        "type": "string",
+        "description": "Detected SSID name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Bssids",
+        "type": "dynamic",
+        "description": "Array of BSSID objects with containment and detection information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Channels",
+        "type": "dynamic",
+        "description": "Array of channels where the SSID was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the rogue AP was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the rogue AP was last detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredMacs",
+        "type": "dynamic",
+        "description": "Array of detected wired MAC addresses.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredVlans",
+        "type": "dynamic",
+        "description": "Array of detected VLAN identifiers.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WiredLastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the wired connection was last seen.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network ID where the Air Marshal event was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  },
+  "CiscoMerakiNetworkClients_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "string",
+        "description": "Unique client identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Client MAC address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "IPv4 address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpV6Address",
+        "type": "string",
+        "description": "IPv6 address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpV6LocalAddress",
+        "type": "string",
+        "description": "IPv6 local link address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Client device description or name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the client was first seen on the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the client was last seen on the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Manufacturer",
+        "type": "string",
+        "description": "Device manufacturer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperatingSystem",
+        "type": "string",
+        "description": "Operating system of the client device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "Username associated with the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Vlan",
+        "type": "string",
+        "description": "VLAN identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ssid",
+        "type": "string",
+        "description": "SSID name for wireless clients.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Switchport",
+        "type": "string",
+        "description": "Switch port name or identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WirelessCapabilities",
+        "type": "string",
+        "description": "Wireless capabilities or standards (e.g., 802.11b).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SmInstalled",
+        "type": "boolean",
+        "description": "Indicates if Meraki Systems Manager is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceMac",
+        "type": "string",
+        "description": "MAC address of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Client status (Online/Offline).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usage",
+        "type": "dynamic",
+        "description": "Usage statistics including sent and received bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NamedVlan",
+        "type": "string",
+        "description": "Named VLAN assigned to the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdaptivePolicyGroup",
+        "type": "string",
+        "description": "Adaptive policy group assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceTypePrediction",
+        "type": "string",
+        "description": "Predicted device type and OS version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceSerial",
+        "type": "string",
+        "description": "Serial number of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceName",
+        "type": "string",
+        "description": "Name of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceConnection",
+        "type": "string",
+        "description": "Connection type (Wired/Wireless).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "string",
+        "description": "Additional notes about the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupPolicy8021x",
+        "type": "string",
+        "description": "802.1x group policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PskGroup",
+        "type": "string",
+        "description": "Pre-shared key group assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network ID where the client was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  },
+  "CiscoMerakiOrganizationNetworks_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Organization identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkName",
+        "type": "string",
+        "description": "Network name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypes",
+        "type": "dynamic",
+        "description": "Array of network product types (appliance, switch, wireless, etc.).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeZone",
+        "type": "string",
+        "description": "Network time zone.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Array of network tags.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnrollmentString",
+        "type": "string",
+        "description": "Enrollment string for the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardUrl",
+        "type": "string",
+        "description": "Dashboard URL for the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "string",
+        "description": "Additional description or notes about the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBoundToConfigTemplate",
+        "type": "boolean",
+        "description": "Indicates if the network is bound to a configuration template.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  },
+  "CiscoMerakiOrganizations_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Organization identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationName",
+        "type": "string",
+        "description": "Organization name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardUrl",
+        "type": "string",
+        "description": "Dashboard URL for the organization.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Api",
+        "type": "dynamic",
+        "description": "API configuration object indicating if API is enabled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Licensing",
+        "type": "dynamic",
+        "description": "Licensing model information (e.g., co-term, per-device).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "type": "dynamic",
+        "description": "Cloud region information including region name and host details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Management",
+        "type": "dynamic",
+        "description": "Management metadata including MSP ID and other management details.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
   },
   "CiscoSecureEndpointAuditLogsV2_CL": {
     "source": "3rd-Party Connector Schemas",
@@ -32280,6 +32330,156 @@
       }
     ],
     "solution": "Flare"
+  },
+  "GambitPoliciesIssues_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IssueId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IssueStatus",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceDisplayId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostPlatform",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Environment",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AffectedSystems",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyDescription",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyCategories",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BusinessImpacts",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RemediationSteps",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastEvaluationTime",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "GambitSecurity"
   },
   "GigamonV2_CL": {
     "source": "3rd-Party Connector Schemas",

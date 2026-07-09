@@ -1,0 +1,72 @@
+{
+  "CiscoMerakiOrganizations_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Organization identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationName",
+        "type": "string",
+        "description": "Organization name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DashboardUrl",
+        "type": "string",
+        "description": "Dashboard URL for the organization.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Api",
+        "type": "dynamic",
+        "description": "API configuration object indicating if API is enabled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Licensing",
+        "type": "dynamic",
+        "description": "Licensing model information (e.g., co-term, per-device).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "type": "dynamic",
+        "description": "Cloud region information including region name and host details.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Management",
+        "type": "dynamic",
+        "description": "Management metadata including MSP ID and other management details.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  }
+}

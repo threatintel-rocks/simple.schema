@@ -1,0 +1,248 @@
+{
+  "CiscoMerakiNetworkClients_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "string",
+        "description": "Unique client identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Client MAC address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "IPv4 address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpV6Address",
+        "type": "string",
+        "description": "IPv6 address of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpV6LocalAddress",
+        "type": "string",
+        "description": "IPv6 local link address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Client device description or name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the client was first seen on the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the client was last seen on the network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Manufacturer",
+        "type": "string",
+        "description": "Device manufacturer.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OperatingSystem",
+        "type": "string",
+        "description": "Operating system of the client device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Username",
+        "type": "string",
+        "description": "Username associated with the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Vlan",
+        "type": "string",
+        "description": "VLAN identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ssid",
+        "type": "string",
+        "description": "SSID name for wireless clients.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Switchport",
+        "type": "string",
+        "description": "Switch port name or identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WirelessCapabilities",
+        "type": "string",
+        "description": "Wireless capabilities or standards (e.g., 802.11b).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SmInstalled",
+        "type": "boolean",
+        "description": "Indicates if Meraki Systems Manager is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceMac",
+        "type": "string",
+        "description": "MAC address of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Client status (Online/Offline).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usage",
+        "type": "dynamic",
+        "description": "Usage statistics including sent and received bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NamedVlan",
+        "type": "string",
+        "description": "Named VLAN assigned to the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdaptivePolicyGroup",
+        "type": "string",
+        "description": "Adaptive policy group assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceTypePrediction",
+        "type": "string",
+        "description": "Predicted device type and OS version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceSerial",
+        "type": "string",
+        "description": "Serial number of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceName",
+        "type": "string",
+        "description": "Name of the recent device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecentDeviceConnection",
+        "type": "string",
+        "description": "Connection type (Wired/Wireless).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "string",
+        "description": "Additional notes about the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupPolicy8021x",
+        "type": "string",
+        "description": "802.1x group policy.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PskGroup",
+        "type": "string",
+        "description": "Pre-shared key group assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkId",
+        "type": "string",
+        "description": "Network ID where the client was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  }
+}

@@ -2,6 +2,21 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-09 06:39 UTC
+
+**Tables added** (5)
+
+- `CiscoMerakiAirMarshalEvents_CL` (10 columns, source: 3rd-Party Connector Schemas)
+- `CiscoMerakiNetworkClients_CL` (30 columns, source: 3rd-Party Connector Schemas)
+- `CiscoMerakiOrganizationNetworks_CL` (11 columns, source: 3rd-Party Connector Schemas)
+- `CiscoMerakiOrganizations_CL` (8 columns, source: 3rd-Party Connector Schemas)
+- `GambitPoliciesIssues_CL` (18 columns, source: 3rd-Party Connector Schemas)
+
+**Tables removed** (1)
+
+- `AkamaiSIEMEvent_CL`
+
+
 ### 2026-07-07 06:40 UTC
 
 **Columns removed** (410)
