@@ -1,0 +1,152 @@
+{
+  "AtlassianAuditEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier for the audit event - used for deduplication and correlation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Event action type - primary field for threat detection (e.g., user.access.granted, user.authentication.failed, policy.updated, api.token.created)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventMessage",
+        "type": "string",
+        "description": "Human-readable security event description for investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorEmail",
+        "type": "string",
+        "description": "Primary identity - email of user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorId",
+        "type": "string",
+        "description": "Actor unique identifier for correlation across events",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorName",
+        "type": "string",
+        "description": "Human-readable actor name for investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthType",
+        "type": "string",
+        "description": "Authentication method - api-token, container-token, connect-token, OAuth (detects token vs interactive login)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthTokenLabel",
+        "type": "string",
+        "description": "Token/app identification - critical for detecting compromised API keys or unauthorized integrations",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OnBehalfOfEmail",
+        "type": "string",
+        "description": "Delegation detection - identifies impersonation or privilege escalation scenarios",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "Third-party app monitoring - detects unauthorized app usage or OAuth token compromise",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Network origin - suspicious IP detection, IP allowlist validation, impossible travel",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryName",
+        "type": "string",
+        "description": "Geo-analysis - impossible travel detection, geographic anomalies, country-based alerting",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CityName",
+        "type": "string",
+        "description": "City-level tracking - location-based alerting, regional access patterns",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "dynamic",
+        "description": "Target identification - users, groups, policies affected by action (enables detailed investigation)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Container",
+        "type": "dynamic",
+        "description": "Scope context - organization, site, product where action occurred (multi-tenant environments)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedAt",
+        "type": "datetime",
+        "description": "Event processing timestamp - latency monitoring, detects API delays or event manipulation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventUrl",
+        "type": "string",
+        "description": "Investigation link - direct access to full event details in Atlassian API",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AtlassianOrganizationAudit"
+  }
+}

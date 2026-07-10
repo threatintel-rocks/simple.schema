@@ -1,0 +1,208 @@
+{
+  "CheckPointEmailSecuritySpamExceptions_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "Unique identifier for the spam exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentMd5",
+        "type": "string",
+        "description": "MD5 hash of the attachment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmail",
+        "type": "string",
+        "description": "Email address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderName",
+        "type": "string",
+        "description": "Name of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Recipient email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderClientIp",
+        "type": "string",
+        "description": "Client IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomain",
+        "type": "string",
+        "description": "Domain of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderIp",
+        "type": "string",
+        "description": "IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomains",
+        "type": "string",
+        "description": "Domains contained in email links.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "Comment associated with the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionNeeded",
+        "type": "string",
+        "description": "Action required for the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchOnlyFuture",
+        "type": "string",
+        "description": "Indicates if the exception applies only to future emails.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QuarantineAll",
+        "type": "string",
+        "description": "Indicates if all matching emails should be quarantined.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IgnoringSpfCheck",
+        "type": "boolean",
+        "description": "Indicates if SPF check is ignored.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubjectMatching",
+        "type": "string",
+        "description": "Subject matching criteria (e.g., contains, equals).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomainMatching",
+        "type": "string",
+        "description": "Link domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderNameMatching",
+        "type": "string",
+        "description": "Sender name matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomainMatching",
+        "type": "string",
+        "description": "Sender domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmailMatching",
+        "type": "string",
+        "description": "Sender email matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecipientMatching",
+        "type": "string",
+        "description": "Recipient matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedBy",
+        "type": "string",
+        "description": "User ID who added the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EditedBy",
+        "type": "string",
+        "description": "User ID who last edited the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateTime",
+        "type": "datetime",
+        "description": "Timestamp when the exception was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Email Security"
+  }
+}

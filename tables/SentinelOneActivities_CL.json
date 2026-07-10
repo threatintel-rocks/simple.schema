@@ -5,7 +5,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -13,7 +13,7 @@
       {
         "name": "AgentUpdatedVersion",
         "type": "string",
-        "description": "The version of the agent that was updated.",
+        "description": "Agent updated version",
         "availability": [
           "Sentinel"
         ]
@@ -21,7 +21,7 @@
       {
         "name": "UserId",
         "type": "string",
-        "description": "The unique identifier for the user.",
+        "description": "User id",
         "availability": [
           "Sentinel"
         ]
@@ -29,7 +29,7 @@
       {
         "name": "ThreatId",
         "type": "string",
-        "description": "The unique identifier for the threat.",
+        "description": "Threat id",
         "availability": [
           "Sentinel"
         ]
@@ -37,7 +37,7 @@
       {
         "name": "PrimaryDescription",
         "type": "string",
-        "description": "The primary description of the event.",
+        "description": "Primary description",
         "availability": [
           "Sentinel"
         ]
@@ -45,7 +45,7 @@
       {
         "name": "SecondaryDescription",
         "type": "string",
-        "description": "The secondary description of the event.",
+        "description": "Secondary description",
         "availability": [
           "Sentinel"
         ]
@@ -53,7 +53,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the record.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -61,7 +61,7 @@
       {
         "name": "GroupId",
         "type": "string",
-        "description": "The unique identifier for the group.",
+        "description": "Group id",
         "availability": [
           "Sentinel"
         ]
@@ -69,7 +69,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -77,7 +77,7 @@
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The name of the account associated with the event.",
+        "description": "Account name",
         "availability": [
           "Sentinel"
         ]
@@ -85,7 +85,7 @@
       {
         "name": "Data",
         "type": "string",
-        "description": "Activity metadata.",
+        "description": "Data",
         "availability": [
           "Sentinel"
         ]
@@ -93,7 +93,7 @@
       {
         "name": "AgentId",
         "type": "string",
-        "description": "The unique identifier for the agent.",
+        "description": "Agent id",
         "availability": [
           "Sentinel"
         ]
@@ -101,7 +101,7 @@
       {
         "name": "Hash",
         "type": "string",
-        "description": "The hash associated with the event.",
+        "description": "Hash",
         "availability": [
           "Sentinel"
         ]
@@ -109,7 +109,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -117,7 +117,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "The description of the event.",
+        "description": "Description",
         "availability": [
           "Sentinel"
         ]
@@ -125,7 +125,7 @@
       {
         "name": "ActivityUuid",
         "type": "string",
-        "description": "The UUID of the activity associated with the event.",
+        "description": "Activity uuid",
         "availability": [
           "Sentinel"
         ]
@@ -133,7 +133,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier for the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -141,7 +141,7 @@
       {
         "name": "ActivityType",
         "type": "real",
-        "description": "The type of activity represented by an integer.",
+        "description": "Activity type",
         "availability": [
           "Sentinel"
         ]
@@ -149,7 +149,7 @@
       {
         "name": "SiteName",
         "type": "string",
-        "description": "The name of the site associated with the event.",
+        "description": "Site name",
         "availability": [
           "Sentinel"
         ]
@@ -157,7 +157,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The unique identifier for the account.",
+        "description": "Account id",
         "availability": [
           "Sentinel"
         ]
@@ -165,7 +165,7 @@
       {
         "name": "OsFamily",
         "type": "string",
-        "description": "The operating system family, such as macOS.",
+        "description": "Os family",
         "availability": [
           "Sentinel"
         ]
@@ -173,7 +173,7 @@
       {
         "name": "GroupName",
         "type": "string",
-        "description": "The name of the group associated with the event.",
+        "description": "Group name",
         "availability": [
           "Sentinel"
         ]
@@ -181,7 +181,7 @@
       {
         "name": "Comments",
         "type": "string",
-        "description": "Any comments associated with the event.",
+        "description": "Comments",
         "availability": [
           "Sentinel"
         ]

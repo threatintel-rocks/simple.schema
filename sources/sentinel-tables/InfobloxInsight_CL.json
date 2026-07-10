@@ -1,7 +1,140 @@
 {
   "InfobloxInsight_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the insight was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InsightId",
+        "type": "string",
+        "description": "Unique identifier for the insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateChanged",
+        "type": "datetime",
+        "description": "Timestamp when the insight was last modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsNotBlockedCount",
+        "type": "string",
+        "description": "Number of events that were not blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedSource",
+        "type": "string",
+        "description": "Source of the threat intelligence feed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostRecentAt",
+        "type": "datetime",
+        "description": "Timestamp of the most recent event related to this insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumEvents",
+        "type": "string",
+        "description": "Total number of events associated with this insight (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityText",
+        "type": "string",
+        "description": "Priority level in text format (e.g., CRITICAL, HIGH, MEDIUM, LOW)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartedAt",
+        "type": "datetime",
+        "description": "Timestamp when the insight was first detected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the insight (e.g., Active, Closed, Dismissed)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TClass",
+        "type": "string",
+        "description": "Threat class or category",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TFamily",
+        "type": "string",
+        "description": "Threat family classification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatType",
+        "type": "string",
+        "description": "Type of threat detected (e.g., Malware, DNS Tunneling, C2, DGA)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsBlockedCount",
+        "type": "string",
+        "description": "Number of events that were blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector friendly name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantHost",
+        "type": "string",
+        "description": "Infoblox API host extracted from the configured API URL",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   }
 }

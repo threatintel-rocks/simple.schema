@@ -2,6 +2,39 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-10 06:38 UTC
+
+**Tables added** (8)
+
+- `AkamaiSIEMEvent_CL` (55 columns, source: 3rd-Party Connector Schemas)
+- `AtlassianAuditEvents_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `CheckPointEmailSecAntiPhishingExceptions_CL` (25 columns, source: 3rd-Party Connector Schemas)
+- `CheckPointEmailSecurityAuditLogs_CL` (9 columns, source: 3rd-Party Connector Schemas)
+- `CheckPointEmailSecurityEvents_CL` (17 columns, source: 3rd-Party Connector Schemas)
+- `CheckPointEmailSecuritySpamExceptions_CL` (25 columns, source: 3rd-Party Connector Schemas)
+- `NetskopeAlertEvents_CL` (255 columns, source: 3rd-Party Connector Schemas)
+- `SentinelOneAlertsV2_CL` (20 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (16)
+
+- `InfobloxInsight_CL.ConnectorName` (string)
+- `InfobloxInsight_CL.DateChanged` (datetime)
+- `InfobloxInsight_CL.EventsBlockedCount` (string)
+- `InfobloxInsight_CL.EventsNotBlockedCount` (string)
+- `InfobloxInsight_CL.FeedSource` (string)
+- `InfobloxInsight_CL.InsightId` (string)
+- `InfobloxInsight_CL.MostRecentAt` (datetime)
+- `InfobloxInsight_CL.NumEvents` (string)
+- `InfobloxInsight_CL.PriorityText` (string)
+- `InfobloxInsight_CL.StartedAt` (datetime)
+- `InfobloxInsight_CL.Status` (string)
+- `InfobloxInsight_CL.TClass` (string)
+- `InfobloxInsight_CL.TFamily` (string)
+- `InfobloxInsight_CL.TenantHost` (string)
+- `InfobloxInsight_CL.ThreatType` (string)
+- `InfobloxInsight_CL.TimeGenerated` (datetime)
+
+
 ### 2026-07-09 06:39 UTC
 
 **Tables added** (5)

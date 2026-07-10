@@ -5,7 +5,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]

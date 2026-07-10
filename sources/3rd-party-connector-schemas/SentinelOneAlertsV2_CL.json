@@ -1,5 +1,5 @@
 {
-  "SentinelOneActivities_CL": {
+  "SentinelOneAlertsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -11,57 +11,25 @@
         ]
       },
       {
-        "name": "AgentUpdatedVersion",
+        "name": "AlertId",
         "type": "string",
-        "description": "Agent updated version",
+        "description": "Unique identifier of the unified alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "UserId",
+        "name": "AlertName",
         "type": "string",
-        "description": "User id",
+        "description": "Human-readable alert name.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ThreatId",
-        "type": "string",
-        "description": "Threat id",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PrimaryDescription",
-        "type": "string",
-        "description": "Primary description",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SecondaryDescription",
-        "type": "string",
-        "description": "Secondary description",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Id",
-        "type": "string",
-        "description": "Id",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "GroupId",
-        "type": "string",
-        "description": "Group id",
+        "name": "DetectedAt",
+        "type": "datetime",
+        "description": "Time the alert was detected.",
         "availability": [
           "Sentinel"
         ]
@@ -69,39 +37,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "Created at",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AccountName",
-        "type": "string",
-        "description": "Account name",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Data",
-        "type": "string",
-        "description": "Data",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AgentId",
-        "type": "string",
-        "description": "Agent id",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Hash",
-        "type": "string",
-        "description": "Hash",
+        "description": "Time the alert was created.",
         "availability": [
           "Sentinel"
         ]
@@ -109,79 +45,119 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "Updated at",
+        "description": "Time the alert was last updated.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Description",
+        "name": "Status",
         "type": "string",
-        "description": "Description",
+        "description": "Current status of the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ActivityUuid",
+        "name": "Severity",
         "type": "string",
-        "description": "Activity uuid",
+        "description": "Severity of the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SiteId",
+        "name": "AnalystVerdict",
         "type": "string",
-        "description": "Site id",
+        "description": "Analyst verdict assigned to the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ActivityType",
-        "type": "real",
-        "description": "Activity type",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SiteName",
+        "name": "ExternalId",
         "type": "string",
-        "description": "Site name",
+        "description": "External identifier of the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "AccountId",
+        "name": "StorylineId",
         "type": "string",
-        "description": "Account id",
+        "description": "Associated storyline identifier.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "OsFamily",
-        "type": "string",
-        "description": "Os family",
+        "name": "AttackSurfaces",
+        "type": "dynamic",
+        "description": "Attack surfaces associated with the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "GroupName",
+        "name": "ConfidenceLevel",
         "type": "string",
-        "description": "Group name",
+        "description": "Confidence level of the detection.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Comments",
+        "name": "Classification",
         "type": "string",
-        "description": "Comments",
+        "description": "Classification of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Product",
+        "type": "string",
+        "description": "Detection source product.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Vendor",
+        "type": "string",
+        "description": "Detection source vendor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssigneeName",
+        "type": "string",
+        "description": "Full name of the assignee.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssigneeEmail",
+        "type": "string",
+        "description": "Email of the assignee.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assets",
+        "type": "dynamic",
+        "description": "Assets associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataSources",
+        "type": "dynamic",
+        "description": "Data sources associated with the alert.",
         "availability": [
           "Sentinel"
         ]

@@ -65018,8 +65018,141 @@
   },
   "InfobloxInsight_CL": {
     "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the insight was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InsightId",
+        "type": "string",
+        "description": "Unique identifier for the insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateChanged",
+        "type": "datetime",
+        "description": "Timestamp when the insight was last modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsNotBlockedCount",
+        "type": "string",
+        "description": "Number of events that were not blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedSource",
+        "type": "string",
+        "description": "Source of the threat intelligence feed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostRecentAt",
+        "type": "datetime",
+        "description": "Timestamp of the most recent event related to this insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumEvents",
+        "type": "string",
+        "description": "Total number of events associated with this insight (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityText",
+        "type": "string",
+        "description": "Priority level in text format (e.g., CRITICAL, HIGH, MEDIUM, LOW)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartedAt",
+        "type": "datetime",
+        "description": "Timestamp when the insight was first detected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the insight (e.g., Active, Closed, Dismissed)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TClass",
+        "type": "string",
+        "description": "Threat class or category",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TFamily",
+        "type": "string",
+        "description": "Threat family classification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatType",
+        "type": "string",
+        "description": "Type of threat detected (e.g., Malware, DNS Tunneling, C2, DGA)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsBlockedCount",
+        "type": "string",
+        "description": "Number of events that were blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector friendly name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantHost",
+        "type": "string",
+        "description": "Infoblox API host extracted from the configured API URL",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "custom_table": true,
+    "sources": [
+      "Sentinel Tables",
+      "3rd-Party Connector Schemas"
+    ]
   },
   "Infoblox_Failed_Indicators_CL": {
     "source": "Sentinel Tables",
@@ -81474,7 +81607,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -81482,7 +81615,7 @@
       {
         "name": "AgentUpdatedVersion",
         "type": "string",
-        "description": "The version of the agent that was updated.",
+        "description": "Agent updated version",
         "availability": [
           "Sentinel"
         ]
@@ -81490,7 +81623,7 @@
       {
         "name": "UserId",
         "type": "string",
-        "description": "The unique identifier for the user.",
+        "description": "User id",
         "availability": [
           "Sentinel"
         ]
@@ -81498,7 +81631,7 @@
       {
         "name": "ThreatId",
         "type": "string",
-        "description": "The unique identifier for the threat.",
+        "description": "Threat id",
         "availability": [
           "Sentinel"
         ]
@@ -81506,7 +81639,7 @@
       {
         "name": "PrimaryDescription",
         "type": "string",
-        "description": "The primary description of the event.",
+        "description": "Primary description",
         "availability": [
           "Sentinel"
         ]
@@ -81514,7 +81647,7 @@
       {
         "name": "SecondaryDescription",
         "type": "string",
-        "description": "The secondary description of the event.",
+        "description": "Secondary description",
         "availability": [
           "Sentinel"
         ]
@@ -81522,7 +81655,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the record.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -81530,7 +81663,7 @@
       {
         "name": "GroupId",
         "type": "string",
-        "description": "The unique identifier for the group.",
+        "description": "Group id",
         "availability": [
           "Sentinel"
         ]
@@ -81538,7 +81671,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -81546,7 +81679,7 @@
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The name of the account associated with the event.",
+        "description": "Account name",
         "availability": [
           "Sentinel"
         ]
@@ -81554,7 +81687,7 @@
       {
         "name": "Data",
         "type": "string",
-        "description": "Activity metadata.",
+        "description": "Data",
         "availability": [
           "Sentinel"
         ]
@@ -81562,7 +81695,7 @@
       {
         "name": "AgentId",
         "type": "string",
-        "description": "The unique identifier for the agent.",
+        "description": "Agent id",
         "availability": [
           "Sentinel"
         ]
@@ -81570,7 +81703,7 @@
       {
         "name": "Hash",
         "type": "string",
-        "description": "The hash associated with the event.",
+        "description": "Hash",
         "availability": [
           "Sentinel"
         ]
@@ -81578,7 +81711,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -81586,7 +81719,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "The description of the event.",
+        "description": "Description",
         "availability": [
           "Sentinel"
         ]
@@ -81594,7 +81727,7 @@
       {
         "name": "ActivityUuid",
         "type": "string",
-        "description": "The UUID of the activity associated with the event.",
+        "description": "Activity uuid",
         "availability": [
           "Sentinel"
         ]
@@ -81602,7 +81735,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier for the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -81610,7 +81743,7 @@
       {
         "name": "ActivityType",
         "type": "real",
-        "description": "The type of activity represented by an integer.",
+        "description": "Activity type",
         "availability": [
           "Sentinel"
         ]
@@ -81618,7 +81751,7 @@
       {
         "name": "SiteName",
         "type": "string",
-        "description": "The name of the site associated with the event.",
+        "description": "Site name",
         "availability": [
           "Sentinel"
         ]
@@ -81626,7 +81759,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The unique identifier for the account.",
+        "description": "Account id",
         "availability": [
           "Sentinel"
         ]
@@ -81634,7 +81767,7 @@
       {
         "name": "OsFamily",
         "type": "string",
-        "description": "The operating system family, such as macOS.",
+        "description": "Os family",
         "availability": [
           "Sentinel"
         ]
@@ -81642,7 +81775,7 @@
       {
         "name": "GroupName",
         "type": "string",
-        "description": "The name of the group associated with the event.",
+        "description": "Group name",
         "availability": [
           "Sentinel"
         ]
@@ -81650,7 +81783,7 @@
       {
         "name": "Comments",
         "type": "string",
-        "description": "Any comments associated with the event.",
+        "description": "Comments",
         "availability": [
           "Sentinel"
         ]
@@ -81668,7 +81801,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -81676,7 +81809,7 @@
       {
         "name": "Uuid",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Uuid",
         "availability": [
           "Sentinel"
         ]
@@ -81684,7 +81817,7 @@
       {
         "name": "MitigationMode",
         "type": "string",
-        "description": "The mitigation mode applied.",
+        "description": "Mitigation mode",
         "availability": [
           "Sentinel"
         ]
@@ -81692,7 +81825,7 @@
       {
         "name": "NetworkStatus",
         "type": "string",
-        "description": "The network status of the object.",
+        "description": "Network status",
         "availability": [
           "Sentinel"
         ]
@@ -81700,7 +81833,7 @@
       {
         "name": "InstallerType",
         "type": "string",
-        "description": "The type of installer used.",
+        "description": "Installer type",
         "availability": [
           "Sentinel"
         ]
@@ -81708,7 +81841,7 @@
       {
         "name": "MitigationModeSuspicious",
         "type": "string",
-        "description": "The suspicious mitigation mode applied.",
+        "description": "Mitigation mode suspicious",
         "availability": [
           "Sentinel"
         ]
@@ -81716,7 +81849,7 @@
       {
         "name": "IsPendingUninstall",
         "type": "boolean",
-        "description": "Indicates whether the object is pending uninstallation.",
+        "description": "Is pending uninstall",
         "availability": [
           "Sentinel"
         ]
@@ -81724,7 +81857,7 @@
       {
         "name": "InRemoteShellSession",
         "type": "boolean",
-        "description": "Indicates whether the object is in a remote shell session.",
+        "description": "In remote shell session",
         "availability": [
           "Sentinel"
         ]
@@ -81732,7 +81865,7 @@
       {
         "name": "LastLoggedInUserName",
         "type": "string",
-        "description": "The username of the last logged-in user.",
+        "description": "Last logged in user name",
         "availability": [
           "Sentinel"
         ]
@@ -81740,7 +81873,7 @@
       {
         "name": "OsRevision",
         "type": "string",
-        "description": "The OS revision.",
+        "description": "Os revision",
         "availability": [
           "Sentinel"
         ]
@@ -81748,7 +81881,7 @@
       {
         "name": "OsArch",
         "type": "string",
-        "description": "The OS architecture.",
+        "description": "Os arch",
         "availability": [
           "Sentinel"
         ]
@@ -81756,7 +81889,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -81764,7 +81897,7 @@
       {
         "name": "ComputerName",
         "type": "string",
-        "description": "The name of the computer.",
+        "description": "Computer name",
         "availability": [
           "Sentinel"
         ]
@@ -81772,7 +81905,7 @@
       {
         "name": "TotalMemory",
         "type": "real",
-        "description": "The total memory available in MB.",
+        "description": "Total memory",
         "availability": [
           "Sentinel"
         ]
@@ -81780,7 +81913,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -81788,7 +81921,7 @@
       {
         "name": "GroupId",
         "type": "string",
-        "description": "The unique identifier for the group.",
+        "description": "Group id",
         "availability": [
           "Sentinel"
         ]
@@ -81796,7 +81929,7 @@
       {
         "name": "LastActiveDate",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last active.",
+        "description": "Last active date",
         "availability": [
           "Sentinel"
         ]
@@ -81804,7 +81937,7 @@
       {
         "name": "FullDiskScanLastUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the full disk scan was last updated.",
+        "description": "Full disk scan last updated at",
         "availability": [
           "Sentinel"
         ]
@@ -81812,7 +81945,7 @@
       {
         "name": "AllowRemoteShell",
         "type": "boolean",
-        "description": "Indicates whether remote shell is allowed.",
+        "description": "Allow remote shell",
         "availability": [
           "Sentinel"
         ]
@@ -81820,7 +81953,7 @@
       {
         "name": "RangerVersion",
         "type": "string",
-        "description": "The version of the ranger.",
+        "description": "Ranger version",
         "availability": [
           "Sentinel"
         ]
@@ -81828,7 +81961,7 @@
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The account name.",
+        "description": "Account name",
         "availability": [
           "Sentinel"
         ]
@@ -81836,7 +81969,7 @@
       {
         "name": "ScanStatus",
         "type": "string",
-        "description": "The scan status of the object.",
+        "description": "Scan status",
         "availability": [
           "Sentinel"
         ]
@@ -81844,7 +81977,7 @@
       {
         "name": "Domain",
         "type": "string",
-        "description": "The domain of the object.",
+        "description": "Domain",
         "availability": [
           "Sentinel"
         ]
@@ -81852,7 +81985,7 @@
       {
         "name": "MissingPermissions",
         "type": "string",
-        "description": "Details of the missing permissions.",
+        "description": "Missing permissions",
         "availability": [
           "Sentinel"
         ]
@@ -81860,7 +81993,7 @@
       {
         "name": "IsActive",
         "type": "boolean",
-        "description": "Indicates whether the object is active.",
+        "description": "Is active",
         "availability": [
           "Sentinel"
         ]
@@ -81868,7 +82001,7 @@
       {
         "name": "GroupIp",
         "type": "string",
-        "description": "The IP address of the group.",
+        "description": "Group ip",
         "availability": [
           "Sentinel"
         ]
@@ -81876,7 +82009,7 @@
       {
         "name": "ThreatRebootRequired",
         "type": "boolean",
-        "description": "Indicates whether a reboot is required due to a threat.",
+        "description": "Threat reboot required",
         "availability": [
           "Sentinel"
         ]
@@ -81884,7 +82017,7 @@
       {
         "name": "GroupUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the group was last updated.",
+        "description": "Group updated at",
         "availability": [
           "Sentinel"
         ]
@@ -81892,7 +82025,7 @@
       {
         "name": "ExternalId",
         "type": "string",
-        "description": "The external identifier associated with the object.",
+        "description": "External id",
         "availability": [
           "Sentinel"
         ]
@@ -81900,7 +82033,7 @@
       {
         "name": "MachineType",
         "type": "string",
-        "description": "The type of machine.",
+        "description": "Machine type",
         "availability": [
           "Sentinel"
         ]
@@ -81908,7 +82041,7 @@
       {
         "name": "RegisteredAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was registered.",
+        "description": "Registered at",
         "availability": [
           "Sentinel"
         ]
@@ -81916,7 +82049,7 @@
       {
         "name": "AppsVulnerabilityStatus",
         "type": "string",
-        "description": "The vulnerability status of the applications.",
+        "description": "Apps vulnerability status",
         "availability": [
           "Sentinel"
         ]
@@ -81924,7 +82057,7 @@
       {
         "name": "CoreCount",
         "type": "real",
-        "description": "The number of CPU cores.",
+        "description": "Core count",
         "availability": [
           "Sentinel"
         ]
@@ -81932,7 +82065,7 @@
       {
         "name": "Locations",
         "type": "string",
-        "description": "The locations associated with the object.",
+        "description": "Locations",
         "availability": [
           "Sentinel"
         ]
@@ -81940,7 +82073,7 @@
       {
         "name": "ScanFinishedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was finished.",
+        "description": "Scan finished at",
         "availability": [
           "Sentinel"
         ]
@@ -81948,7 +82081,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -81956,7 +82089,7 @@
       {
         "name": "ExternalIp",
         "type": "string",
-        "description": "The external IP address of the object.",
+        "description": "External ip",
         "availability": [
           "Sentinel"
         ]
@@ -81964,7 +82097,7 @@
       {
         "name": "LocationType",
         "type": "string",
-        "description": "The type of location.",
+        "description": "Location type",
         "availability": [
           "Sentinel"
         ]
@@ -81972,7 +82105,7 @@
       {
         "name": "PolicyUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the policy was last updated.",
+        "description": "Policy updated at",
         "availability": [
           "Sentinel"
         ]
@@ -81980,7 +82113,7 @@
       {
         "name": "IsDecommissioned",
         "type": "boolean",
-        "description": "Indicates whether the object is decommissioned.",
+        "description": "Is decommissioned",
         "availability": [
           "Sentinel"
         ]
@@ -81988,7 +82121,7 @@
       {
         "name": "CpuId",
         "type": "string",
-        "description": "The identifier of the CPU.",
+        "description": "Cpu id",
         "availability": [
           "Sentinel"
         ]
@@ -81996,7 +82129,7 @@
       {
         "name": "NetworkInterfaces",
         "type": "string",
-        "description": "Details of the network interfaces.",
+        "description": "Network interfaces",
         "availability": [
           "Sentinel"
         ]
@@ -82004,7 +82137,7 @@
       {
         "name": "IsUninstalled",
         "type": "boolean",
-        "description": "Indicates whether the object is uninstalled.",
+        "description": "Is uninstalled",
         "availability": [
           "Sentinel"
         ]
@@ -82012,7 +82145,7 @@
       {
         "name": "ActiveDirectory",
         "type": "string",
-        "description": "Details about the active directory.",
+        "description": "Active directory",
         "availability": [
           "Sentinel"
         ]
@@ -82020,7 +82153,7 @@
       {
         "name": "ScanStartedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was started.",
+        "description": "Scan started at",
         "availability": [
           "Sentinel"
         ]
@@ -82028,7 +82161,7 @@
       {
         "name": "RangerStatus",
         "type": "string",
-        "description": "The status of the ranger.",
+        "description": "Ranger status",
         "availability": [
           "Sentinel"
         ]
@@ -82036,7 +82169,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier for the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -82044,7 +82177,7 @@
       {
         "name": "AgentVersion",
         "type": "string",
-        "description": "The version of the agent.",
+        "description": "Agent version",
         "availability": [
           "Sentinel"
         ]
@@ -82052,7 +82185,7 @@
       {
         "name": "OsUsername",
         "type": "string",
-        "description": "The username associated with the operating system.",
+        "description": "Os username",
         "availability": [
           "Sentinel"
         ]
@@ -82060,7 +82193,7 @@
       {
         "name": "EncryptedApplications",
         "type": "boolean",
-        "description": "Indicates whether the applications are encrypted.",
+        "description": "Encrypted applications",
         "availability": [
           "Sentinel"
         ]
@@ -82068,7 +82201,7 @@
       {
         "name": "LastIpToMgmt",
         "type": "string",
-        "description": "The last IP address used for management.",
+        "description": "Last ip to mgmt",
         "availability": [
           "Sentinel"
         ]
@@ -82076,7 +82209,7 @@
       {
         "name": "CpuCount",
         "type": "real",
-        "description": "The number of CPUs.",
+        "description": "Cpu count",
         "availability": [
           "Sentinel"
         ]
@@ -82084,7 +82217,7 @@
       {
         "name": "ScanAbortedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was aborted.",
+        "description": "Scan aborted at",
         "availability": [
           "Sentinel"
         ]
@@ -82092,7 +82225,7 @@
       {
         "name": "SiteName",
         "type": "string",
-        "description": "The name of the site.",
+        "description": "Site name",
         "availability": [
           "Sentinel"
         ]
@@ -82100,7 +82233,7 @@
       {
         "name": "ActiveThreats",
         "type": "real",
-        "description": "The number of active threats.",
+        "description": "Active threats",
         "availability": [
           "Sentinel"
         ]
@@ -82108,7 +82241,7 @@
       {
         "name": "Infected",
         "type": "boolean",
-        "description": "Indicates whether the object is infected.",
+        "description": "Infected",
         "availability": [
           "Sentinel"
         ]
@@ -82116,7 +82249,7 @@
       {
         "name": "ConsoleMigrationStatus",
         "type": "string",
-        "description": "The status of the console migration.",
+        "description": "Console migration status",
         "availability": [
           "Sentinel"
         ]
@@ -82124,7 +82257,7 @@
       {
         "name": "OsType",
         "type": "string",
-        "description": "The type of operating system.",
+        "description": "Os type",
         "availability": [
           "Sentinel"
         ]
@@ -82132,7 +82265,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The unique identifier for the account.",
+        "description": "Account id",
         "availability": [
           "Sentinel"
         ]
@@ -82140,7 +82273,7 @@
       {
         "name": "GroupName",
         "type": "string",
-        "description": "The name of the group.",
+        "description": "Group name",
         "availability": [
           "Sentinel"
         ]
@@ -82148,7 +82281,7 @@
       {
         "name": "OsName",
         "type": "string",
-        "description": "The name of the operating system.",
+        "description": "Os name",
         "availability": [
           "Sentinel"
         ]
@@ -82156,7 +82289,7 @@
       {
         "name": "IsUpToDate",
         "type": "boolean",
-        "description": "Indicates whether the object is up to date.",
+        "description": "Is up to date",
         "availability": [
           "Sentinel"
         ]
@@ -82164,7 +82297,7 @@
       {
         "name": "LicenseKey",
         "type": "string",
-        "description": "The license key associated with the object.",
+        "description": "License key",
         "availability": [
           "Sentinel"
         ]
@@ -82172,7 +82305,7 @@
       {
         "name": "UserActionsNeeded",
         "type": "string",
-        "description": "Details of the user actions needed.",
+        "description": "User actions needed",
         "availability": [
           "Sentinel"
         ]
@@ -82180,7 +82313,7 @@
       {
         "name": "ModelName",
         "type": "string",
-        "description": "The model name of the object.",
+        "description": "Model name",
         "availability": [
           "Sentinel"
         ]
@@ -82188,7 +82321,7 @@
       {
         "name": "OsStartTime",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the operating system started.",
+        "description": "Os start time",
         "availability": [
           "Sentinel"
         ]
@@ -82196,7 +82329,7 @@
       {
         "name": "NetworkQuarantineEnabled",
         "type": "boolean",
-        "description": "Is Network Quarantine Enabled on the device.",
+        "description": "Network quarantine enabled",
         "availability": [
           "Sentinel"
         ]
@@ -82204,7 +82337,7 @@
       {
         "name": "OperationalStateExpiration",
         "type": "string",
-        "description": "Agent operational state.",
+        "description": "Operational state expiration",
         "availability": [
           "Sentinel"
         ]
@@ -82212,7 +82345,7 @@
       {
         "name": "RemoteProfilingState",
         "type": "string",
-        "description": "Agent remote profiling state.",
+        "description": "Remote profiling state",
         "availability": [
           "Sentinel"
         ]
@@ -82312,7 +82445,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -82320,7 +82453,7 @@
       {
         "name": "Creator",
         "type": "string",
-        "description": "The name of the creator.",
+        "description": "Creator",
         "availability": [
           "Sentinel"
         ]
@@ -82328,7 +82461,7 @@
       {
         "name": "RegistrationToken",
         "type": "string",
-        "description": "The token used for registration.",
+        "description": "Registration token",
         "availability": [
           "Sentinel"
         ]
@@ -82336,7 +82469,7 @@
       {
         "name": "IsDefault",
         "type": "string",
-        "description": "Indicates whether this is the default setting.",
+        "description": "Is default",
         "availability": [
           "Sentinel"
         ]
@@ -82344,7 +82477,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -82352,7 +82485,7 @@
       {
         "name": "TotalAgents",
         "type": "string",
-        "description": "The total number of agents.",
+        "description": "Total agents",
         "availability": [
           "Sentinel"
         ]
@@ -82360,7 +82493,7 @@
       {
         "name": "Inherits",
         "type": "string",
-        "description": "Indicates whether the object inherits properties.",
+        "description": "Inherits",
         "availability": [
           "Sentinel"
         ]
@@ -82368,7 +82501,7 @@
       {
         "name": "Name",
         "type": "string",
-        "description": "The name of the object.",
+        "description": "Name",
         "availability": [
           "Sentinel"
         ]
@@ -82376,7 +82509,7 @@
       {
         "name": "Rank",
         "type": "real",
-        "description": "The rank of the object.",
+        "description": "Rank",
         "availability": [
           "Sentinel"
         ]
@@ -82384,7 +82517,7 @@
       {
         "name": "FilterName",
         "type": "string",
-        "description": "The name of the filter applied.",
+        "description": "Filter name",
         "availability": [
           "Sentinel"
         ]
@@ -82392,7 +82525,7 @@
       {
         "name": "GroupType",
         "type": "string",
-        "description": "The type of the object.",
+        "description": "Group type",
         "availability": [
           "Sentinel"
         ]
@@ -82400,7 +82533,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -82408,7 +82541,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -82416,7 +82549,7 @@
       {
         "name": "CreatorId",
         "type": "string",
-        "description": "The unique identifier of the creator.",
+        "description": "Creator id",
         "availability": [
           "Sentinel"
         ]
@@ -82424,7 +82557,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier of the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -82432,7 +82565,7 @@
       {
         "name": "FilterId",
         "type": "string",
-        "description": "The unique identifier of the filter.",
+        "description": "Filter id",
         "availability": [
           "Sentinel"
         ]
@@ -82450,7 +82583,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]

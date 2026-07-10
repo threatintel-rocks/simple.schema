@@ -1727,6 +1727,452 @@
     ],
     "solution": "AirlockDigital"
   },
+  "AkamaiSIEMEvent_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Event type identifier, typically 'akamai_siem'.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiVersion",
+        "type": "string",
+        "description": "API schema version for this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Format",
+        "type": "string",
+        "description": "Response format descriptor returned by the API (e.g., 'json').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigId",
+        "type": "string",
+        "description": "Unique identifier of the Akamai security configuration that generated the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "Security policy identifier within the configuration.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "IP address of the client that triggered the security event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppliedAction",
+        "type": "string",
+        "description": "Action taken in response to the attack (e.g., alert, deny, abort).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientReputation",
+        "type": "string",
+        "description": "Client reputation score or category as assessed by Akamai.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ApiId",
+        "type": "string",
+        "description": "API definition identifier if the event is associated with an API endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SlowPostAction",
+        "type": "string",
+        "description": "Slow POST protection action applied (e.g., alert, abort).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SlowPostRate",
+        "type": "string",
+        "description": "Observed rate for a slow POST attack attempt.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleActions",
+        "type": "string",
+        "description": "Semicolon-delimited, URL-encoded, base64-encoded list of rule actions that triggered.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleData",
+        "type": "string",
+        "description": "Semicolon-delimited, URL-encoded, base64-encoded rule data payload for matched rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleMessages",
+        "type": "string",
+        "description": "Semicolon-delimited, URL-encoded, base64-encoded human-readable messages for matched rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleSelectors",
+        "type": "string",
+        "description": "Semicolon-delimited, URL-encoded, base64-encoded selectors (request parts) that matched the rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleTags",
+        "type": "string",
+        "description": "Semicolon-delimited, URL-encoded, base64-encoded tags classifying the matched rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleVersions",
+        "type": "string",
+        "description": "Semicolon-delimited, base64-encoded list of rule versions corresponding to each matched rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Rules",
+        "type": "string",
+        "description": "Semicolon-delimited, base64-encoded list of matched rule IDs (e.g., '950002;950006').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoAsn",
+        "type": "string",
+        "description": "Autonomous System Number (ASN) of the client's network.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoCity",
+        "type": "string",
+        "description": "City derived from the client's IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoContinent",
+        "type": "string",
+        "description": "Numeric continent identifier derived from the client's IP address, as returned by the Akamai geo lookup.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoCountry",
+        "type": "string",
+        "description": "ISO 3166-1 alpha-2 country code derived from the client's IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GeoRegionCode",
+        "type": "string",
+        "description": "Region or state code derived from the client's IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpRequestId",
+        "type": "string",
+        "description": "Unique request identifier assigned by Akamai.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpRequestTime",
+        "type": "datetime",
+        "description": "Unix epoch timestamp (seconds) when the HTTP request was received.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpHost",
+        "type": "string",
+        "description": "HTTP Host header value from the inbound request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpMethod",
+        "type": "string",
+        "description": "HTTP method of the request (e.g., GET, POST, PUT).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpPath",
+        "type": "string",
+        "description": "Request URL path.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpPort",
+        "type": "string",
+        "description": "TCP port number used for the connection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpProtocol",
+        "type": "string",
+        "description": "HTTP protocol version (e.g., HTTP/1.1, HTTP/2).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpQueryString",
+        "type": "string",
+        "description": "URL query string of the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpResponseCode",
+        "type": "string",
+        "description": "HTTP status code returned by the origin or WAF (e.g., 200, 403). Source field: httpMessage.status.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpResponseBytes",
+        "type": "string",
+        "description": "Number of bytes in the HTTP response body, returned as a string by the API.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpRequestHeaders",
+        "type": "string",
+        "description": "URL-encoded request headers captured by the WAF.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpResponseHeaders",
+        "type": "string",
+        "description": "URL-encoded response headers captured by the WAF.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BotScore",
+        "type": "string",
+        "description": "Bot risk score assigned by Akamai Bot Manager (0-100; higher = more bot-like).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BotResponseSegment",
+        "type": "string",
+        "description": "Bot Manager response segment identifier used to categorise the bot action taken.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientAppBundleId",
+        "type": "string",
+        "description": "Mobile application bundle identifier, present for requests from Akamai SDK-instrumented mobile apps.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientAppVersion",
+        "type": "string",
+        "description": "Version of the mobile application, present for SDK-instrumented requests.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientSdkVersion",
+        "type": "string",
+        "description": "Version of the Akamai mobile SDK embedded in the client application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientTelemetryType",
+        "type": "string",
+        "description": "Telemetry source type code indicating how the client data was collected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityJa4",
+        "type": "string",
+        "description": "JA4 TLS client fingerprint - a compact string representing the TLS handshake characteristics of the client.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTlsFingerprintV2",
+        "type": "string",
+        "description": "Akamai TLS fingerprint v2 (hex string) derived from the client TLS handshake.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IdentityTlsFingerprintV3",
+        "type": "string",
+        "description": "Akamai TLS fingerprint v3 string; includes version prefix and fingerprint value.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskAllow",
+        "type": "string",
+        "description": "Indicates whether the user was allowed (1) or blocked (0) based on user risk evaluation.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskEmailDomain",
+        "type": "string",
+        "description": "Email domain of the user associated with this request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskGeneral",
+        "type": "string",
+        "description": "General risk signals as pipe-delimited key:value pairs (e.g., 'duc_1h:10|duc_1d:30').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskOriginUserId",
+        "type": "string",
+        "description": "Unique user identifier from the origin system (e.g., internal user ID).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskRisk",
+        "type": "string",
+        "description": "Risk signal breakdown as pipe-delimited key:value pairs (e.g., 'udfp:1325gdg4/M|unp:74256/H').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskScore",
+        "type": "string",
+        "description": "Composite user risk score (0-100; higher = riskier).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskStatus",
+        "type": "string",
+        "description": "User risk evaluation status code.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskTrust",
+        "type": "string",
+        "description": "Trust signal breakdown as pipe-delimited key:value pairs (e.g., 'ugp:US').",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskUsername",
+        "type": "string",
+        "description": "Authenticated username associated with the request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserRiskUuid",
+        "type": "string",
+        "description": "UUID of the user risk session, used to correlate risk signals across requests.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Akamai DDOS Protection"
+  },
   "AliCloudActionTrailLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -4670,6 +5116,156 @@
       }
     ],
     "solution": "AtlassianJiraAudit"
+  },
+  "AtlassianAuditEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier for the audit event - used for deduplication and correlation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Event action type - primary field for threat detection (e.g., user.access.granted, user.authentication.failed, policy.updated, api.token.created)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventMessage",
+        "type": "string",
+        "description": "Human-readable security event description for investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorEmail",
+        "type": "string",
+        "description": "Primary identity - email of user who performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorId",
+        "type": "string",
+        "description": "Actor unique identifier for correlation across events",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorName",
+        "type": "string",
+        "description": "Human-readable actor name for investigation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthType",
+        "type": "string",
+        "description": "Authentication method - api-token, container-token, connect-token, OAuth (detects token vs interactive login)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthTokenLabel",
+        "type": "string",
+        "description": "Token/app identification - critical for detecting compromised API keys or unauthorized integrations",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OnBehalfOfEmail",
+        "type": "string",
+        "description": "Delegation detection - identifies impersonation or privilege escalation scenarios",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "Third-party app monitoring - detects unauthorized app usage or OAuth token compromise",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Network origin - suspicious IP detection, IP allowlist validation, impossible travel",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryName",
+        "type": "string",
+        "description": "Geo-analysis - impossible travel detection, geographic anomalies, country-based alerting",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CityName",
+        "type": "string",
+        "description": "City-level tracking - location-based alerting, regional access patterns",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "dynamic",
+        "description": "Target identification - users, groups, policies affected by action (enables detailed investigation)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Container",
+        "type": "dynamic",
+        "description": "Scope context - organization, site, product where action occurred (multi-tenant environments)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessedAt",
+        "type": "datetime",
+        "description": "Event processing timestamp - latency monitoring, detects API delays or event manipulation",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventUrl",
+        "type": "string",
+        "description": "Investigation link - direct access to full event details in Atlassian API",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AtlassianOrganizationAudit"
   },
   "Auth0Logs_CL": {
     "source": "3rd-Party Connector Schemas",
@@ -9230,6 +9826,638 @@
       }
     ],
     "solution": "Check Point Cyberint IOC"
+  },
+  "CheckPointEmailSecAntiPhishingExceptions_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "Unique identifier for the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentMd5",
+        "type": "string",
+        "description": "MD5 hash of the attachment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmail",
+        "type": "string",
+        "description": "Email address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderName",
+        "type": "string",
+        "description": "Name of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Recipient email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderClientIp",
+        "type": "string",
+        "description": "Client IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomain",
+        "type": "string",
+        "description": "Domain of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderIp",
+        "type": "string",
+        "description": "IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomains",
+        "type": "string",
+        "description": "Domains contained in email links.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "Comment associated with the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionNeeded",
+        "type": "string",
+        "description": "Action required for the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchOnlyFuture",
+        "type": "string",
+        "description": "Indicates if the exception applies only to future emails.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QuarantineAll",
+        "type": "string",
+        "description": "Indicates if all matching emails should be quarantined.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IgnoringSpfCheck",
+        "type": "boolean",
+        "description": "Indicates if SPF check is ignored.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubjectMatching",
+        "type": "string",
+        "description": "Subject matching criteria (e.g., contains, equals).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomainMatching",
+        "type": "string",
+        "description": "Link domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderNameMatching",
+        "type": "string",
+        "description": "Sender name matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomainMatching",
+        "type": "string",
+        "description": "Sender domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmailMatching",
+        "type": "string",
+        "description": "Sender email matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecipientMatching",
+        "type": "string",
+        "description": "Recipient matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedBy",
+        "type": "string",
+        "description": "User ID who added the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EditedBy",
+        "type": "string",
+        "description": "User ID who last edited the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateTime",
+        "type": "datetime",
+        "description": "Timestamp when the exception was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Email Security"
+  },
+  "CheckPointEmailSecurityAuditLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditId",
+        "type": "string",
+        "description": "Unique identifier for the audit log entry.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity level of the audit event (e.g., Notice, Warning).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Timestamp when the audit log was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "string",
+        "description": "User email who performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Module",
+        "type": "string",
+        "description": "Module or service that generated the log (e.g., CLOUDINFRA).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Category of the audit event (e.g., Authentication, Configuration).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Event",
+        "type": "string",
+        "description": "Event type (e.g., Login, Logout, ConfigChange).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventData",
+        "type": "string",
+        "description": "Additional event data and details.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Email Security"
+  },
+  "CheckPointEmailSecurityEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier for the security event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomerId",
+        "type": "string",
+        "description": "Customer identifier in the Check Point platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Saas",
+        "type": "string",
+        "description": "SaaS platform source (e.g., office365_emails, gmail).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "Entity identifier associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "State",
+        "type": "string",
+        "description": "Current state of the event (e.g., dismissed, active).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Type of security event (e.g., dlp, phishing, malware).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfidenceIndicator",
+        "type": "string",
+        "description": "Confidence level of the threat detection (e.g., malicious, suspicious).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCreated",
+        "type": "datetime",
+        "description": "Timestamp when the event was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "Severity level of the event (Low, Medium, High, Highest).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "Additional event data.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the security event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderAddress",
+        "type": "string",
+        "description": "Email address of the sender associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityLink",
+        "type": "string",
+        "description": "Deep link to the entity in the Check Point portal.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Actions",
+        "type": "dynamic",
+        "description": "Actions taken on or available for the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalData",
+        "type": "string",
+        "description": "Additional parameters and links related to the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AvailableEventActions",
+        "type": "dynamic",
+        "description": "List of available actions that can be performed on the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Email Security"
+  },
+  "CheckPointEmailSecuritySpamExceptions_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityId",
+        "type": "string",
+        "description": "Unique identifier for the spam exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttachmentMd5",
+        "type": "string",
+        "description": "MD5 hash of the attachment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmail",
+        "type": "string",
+        "description": "Email address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderName",
+        "type": "string",
+        "description": "Name of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Recipient",
+        "type": "string",
+        "description": "Recipient email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderClientIp",
+        "type": "string",
+        "description": "Client IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomain",
+        "type": "string",
+        "description": "Domain of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderIp",
+        "type": "string",
+        "description": "IP address of the sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomains",
+        "type": "string",
+        "description": "Domains contained in email links.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "Email subject line.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "Comment associated with the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionNeeded",
+        "type": "string",
+        "description": "Action required for the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MatchOnlyFuture",
+        "type": "string",
+        "description": "Indicates if the exception applies only to future emails.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QuarantineAll",
+        "type": "string",
+        "description": "Indicates if all matching emails should be quarantined.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IgnoringSpfCheck",
+        "type": "boolean",
+        "description": "Indicates if SPF check is ignored.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubjectMatching",
+        "type": "string",
+        "description": "Subject matching criteria (e.g., contains, equals).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinkDomainMatching",
+        "type": "string",
+        "description": "Link domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderNameMatching",
+        "type": "string",
+        "description": "Sender name matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderDomainMatching",
+        "type": "string",
+        "description": "Sender domain matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SenderEmailMatching",
+        "type": "string",
+        "description": "Sender email matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecipientMatching",
+        "type": "string",
+        "description": "Recipient matching criteria.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedBy",
+        "type": "string",
+        "description": "User ID who added the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EditedBy",
+        "type": "string",
+        "description": "User ID who last edited the exception.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateTime",
+        "type": "datetime",
+        "description": "Timestamp when the exception was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Email Security"
   },
   "CiscoETDv2_CL": {
     "source": "3rd-Party Connector Schemas",
@@ -38827,6 +40055,140 @@
     ],
     "solution": "ImpervaCloudWAF"
   },
+  "InfobloxInsight_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (in UTC) when the insight was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InsightId",
+        "type": "string",
+        "description": "Unique identifier for the insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateChanged",
+        "type": "datetime",
+        "description": "Timestamp when the insight was last modified",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsNotBlockedCount",
+        "type": "string",
+        "description": "Number of events that were not blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FeedSource",
+        "type": "string",
+        "description": "Source of the threat intelligence feed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostRecentAt",
+        "type": "datetime",
+        "description": "Timestamp of the most recent event related to this insight",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumEvents",
+        "type": "string",
+        "description": "Total number of events associated with this insight (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityText",
+        "type": "string",
+        "description": "Priority level in text format (e.g., CRITICAL, HIGH, MEDIUM, LOW)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartedAt",
+        "type": "datetime",
+        "description": "Timestamp when the insight was first detected",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the insight (e.g., Active, Closed, Dismissed)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TClass",
+        "type": "string",
+        "description": "Threat class or category",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TFamily",
+        "type": "string",
+        "description": "Threat family classification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatType",
+        "type": "string",
+        "description": "Type of threat detected (e.g., Malware, DNS Tunneling, C2, DGA)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsBlockedCount",
+        "type": "string",
+        "description": "Number of events that were blocked (string from API)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector friendly name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantHost",
+        "type": "string",
+        "description": "Infoblox API host extracted from the configured API URL",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Infoblox SOC Insights"
+  },
   "Island_UserEvents_V2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -44556,6 +45918,2052 @@
       }
     ],
     "solution": "Mulesoft"
+  },
+  "NetskopeAlertEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccessMethod",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AccountName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Acked",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActingUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Activity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Alert",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertSource",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "App",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppGdprLevel",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppSessionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Appact",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Appcategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Appsuite",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assignee",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuditType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Bcc",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BreachDate",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BreachId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BreachScore",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Browser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BrowserSessionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cc",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cci",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ccl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientPackets",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudProvider",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ComputerName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnDuration",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnEndtime",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnStarttime",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CustomAttr",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationFileDirectory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationFileName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationFilePath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionEngine",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Device",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceClassification",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceSn",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Dinsid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpFile",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpFingerprintClassification",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpFingerprintMatch",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpFingerprintScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpIncidentId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpIsUniqueCount",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpMatchInfo",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpParentId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpProfile",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpProfileName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpRule",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpRuleCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpRuleScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpRuleSeverity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DlpUniqueCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DnsProfile",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Domain",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainIp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Driver",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstCountry",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstGeoipSrc",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstLatitude",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstLocation",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstLongitude",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstRegion",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstTimezone",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstZipcode",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Dsthost",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Dstip",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Dstport",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Eeml",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailFromUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailModified",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailTitle",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EncryptionStatus",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventUuid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutableHash",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExecutableSigned",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileCategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileClsEncrypted",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileExposure",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileMd5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileOrigin",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileOwner",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePdl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSize",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filename",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filepath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Fllg",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Flpp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FromUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IaasRemediated",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IaasRemediatedBy",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IaasRemediatedOn",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IaasRemediationAction",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IncidentId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InlineDlpMatchInfo",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Instance",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpProtocol",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LatestIncidentId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Loc",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalMd5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalSha1",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalSha256",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalSourceTime",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalSev",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareSeverity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagedApp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagementID",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Md5",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MessageId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MimeType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedDate",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetskopePop",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkSessionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Nsdeviceuid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NumUsers",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Numbytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Oauth",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Object",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Org",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationUnit",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Os",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsDetails",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsFamily",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Owner",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OwnerPdl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Page",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Pid",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Policy",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyAction",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyNameEnforced",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyVersion",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PopId",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Port",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCertSubject",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessPath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublisherCn",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RecordType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RedirectUrl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Referer",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegionName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Req",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReqCnt",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceCategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResourceGroup",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Resp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RespCnt",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResponseTime",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskLevelId",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaProfileName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaRuleCompliance",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaRuleName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SaRuleSeverity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SanctionedInstance",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sender",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServerBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServerPackets",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Serverity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionDuration",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SessionNumberUnique",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityId",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityLevel",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharedCredentialUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharedDomains",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharedWith",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SharedType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Site",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SmtpStatus",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SmtpTo",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Spet",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Spst",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcCountry",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcGeoipSrc",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcLatitude",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcLocation",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcLongitude",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcNetwork",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcRegion",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcTimezone",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcZipcode",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Srcip",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Srcport",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTime",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subject",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subtype",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SuppressionCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TelemetryApp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Thr",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "long",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ToUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalPackets",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TransactionId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TssLicense",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TssMode",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TunnelId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tur",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TwoFactorAuth",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NsType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UncPath",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UrNormalized",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Url",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserConfidenceIndex",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserConfidenceLevel",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Useragent",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Usergroup",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Userip",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Userkey",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Violation",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WatchlistName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WebUrl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "NetskopeAlertEvents"
   },
   "NetskopeWebTransactions_CL": {
     "source": "3rd-Party Connector Schemas",
@@ -62991,7 +66399,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -62999,7 +66407,7 @@
       {
         "name": "AgentUpdatedVersion",
         "type": "string",
-        "description": "The version of the agent that was updated.",
+        "description": "Agent updated version",
         "availability": [
           "Sentinel"
         ]
@@ -63007,7 +66415,7 @@
       {
         "name": "UserId",
         "type": "string",
-        "description": "The unique identifier for the user.",
+        "description": "User id",
         "availability": [
           "Sentinel"
         ]
@@ -63015,7 +66423,7 @@
       {
         "name": "ThreatId",
         "type": "string",
-        "description": "The unique identifier for the threat.",
+        "description": "Threat id",
         "availability": [
           "Sentinel"
         ]
@@ -63023,7 +66431,7 @@
       {
         "name": "PrimaryDescription",
         "type": "string",
-        "description": "The primary description of the event.",
+        "description": "Primary description",
         "availability": [
           "Sentinel"
         ]
@@ -63031,7 +66439,7 @@
       {
         "name": "SecondaryDescription",
         "type": "string",
-        "description": "The secondary description of the event.",
+        "description": "Secondary description",
         "availability": [
           "Sentinel"
         ]
@@ -63039,7 +66447,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the record.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -63047,7 +66455,7 @@
       {
         "name": "GroupId",
         "type": "string",
-        "description": "The unique identifier for the group.",
+        "description": "Group id",
         "availability": [
           "Sentinel"
         ]
@@ -63055,7 +66463,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -63063,7 +66471,7 @@
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The name of the account associated with the event.",
+        "description": "Account name",
         "availability": [
           "Sentinel"
         ]
@@ -63071,7 +66479,7 @@
       {
         "name": "Data",
         "type": "string",
-        "description": "Activity metadata.",
+        "description": "Data",
         "availability": [
           "Sentinel"
         ]
@@ -63079,7 +66487,7 @@
       {
         "name": "AgentId",
         "type": "string",
-        "description": "The unique identifier for the agent.",
+        "description": "Agent id",
         "availability": [
           "Sentinel"
         ]
@@ -63087,7 +66495,7 @@
       {
         "name": "Hash",
         "type": "string",
-        "description": "The hash associated with the event.",
+        "description": "Hash",
         "availability": [
           "Sentinel"
         ]
@@ -63095,7 +66503,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the record was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63103,7 +66511,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "The description of the event.",
+        "description": "Description",
         "availability": [
           "Sentinel"
         ]
@@ -63111,7 +66519,7 @@
       {
         "name": "ActivityUuid",
         "type": "string",
-        "description": "The UUID of the activity associated with the event.",
+        "description": "Activity uuid",
         "availability": [
           "Sentinel"
         ]
@@ -63119,7 +66527,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier for the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -63127,7 +66535,7 @@
       {
         "name": "ActivityType",
         "type": "real",
-        "description": "The type of activity represented by an integer.",
+        "description": "Activity type",
         "availability": [
           "Sentinel"
         ]
@@ -63135,7 +66543,7 @@
       {
         "name": "SiteName",
         "type": "string",
-        "description": "The name of the site associated with the event.",
+        "description": "Site name",
         "availability": [
           "Sentinel"
         ]
@@ -63143,7 +66551,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The unique identifier for the account.",
+        "description": "Account id",
         "availability": [
           "Sentinel"
         ]
@@ -63151,7 +66559,7 @@
       {
         "name": "OsFamily",
         "type": "string",
-        "description": "The operating system family, such as macOS.",
+        "description": "Os family",
         "availability": [
           "Sentinel"
         ]
@@ -63159,7 +66567,7 @@
       {
         "name": "GroupName",
         "type": "string",
-        "description": "The name of the group associated with the event.",
+        "description": "Group name",
         "availability": [
           "Sentinel"
         ]
@@ -63167,7 +66575,7 @@
       {
         "name": "Comments",
         "type": "string",
-        "description": "Any comments associated with the event.",
+        "description": "Comments",
         "availability": [
           "Sentinel"
         ]
@@ -63181,7 +66589,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -63189,7 +66597,7 @@
       {
         "name": "Uuid",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Uuid",
         "availability": [
           "Sentinel"
         ]
@@ -63197,7 +66605,7 @@
       {
         "name": "MitigationMode",
         "type": "string",
-        "description": "The mitigation mode applied.",
+        "description": "Mitigation mode",
         "availability": [
           "Sentinel"
         ]
@@ -63205,7 +66613,7 @@
       {
         "name": "NetworkStatus",
         "type": "string",
-        "description": "The network status of the object.",
+        "description": "Network status",
         "availability": [
           "Sentinel"
         ]
@@ -63213,7 +66621,7 @@
       {
         "name": "InstallerType",
         "type": "string",
-        "description": "The type of installer used.",
+        "description": "Installer type",
         "availability": [
           "Sentinel"
         ]
@@ -63221,7 +66629,7 @@
       {
         "name": "MitigationModeSuspicious",
         "type": "string",
-        "description": "The suspicious mitigation mode applied.",
+        "description": "Mitigation mode suspicious",
         "availability": [
           "Sentinel"
         ]
@@ -63229,7 +66637,7 @@
       {
         "name": "IsPendingUninstall",
         "type": "boolean",
-        "description": "Indicates whether the object is pending uninstallation.",
+        "description": "Is pending uninstall",
         "availability": [
           "Sentinel"
         ]
@@ -63237,7 +66645,7 @@
       {
         "name": "InRemoteShellSession",
         "type": "boolean",
-        "description": "Indicates whether the object is in a remote shell session.",
+        "description": "In remote shell session",
         "availability": [
           "Sentinel"
         ]
@@ -63245,7 +66653,7 @@
       {
         "name": "LastLoggedInUserName",
         "type": "string",
-        "description": "The username of the last logged-in user.",
+        "description": "Last logged in user name",
         "availability": [
           "Sentinel"
         ]
@@ -63253,7 +66661,7 @@
       {
         "name": "OsRevision",
         "type": "string",
-        "description": "The OS revision.",
+        "description": "Os revision",
         "availability": [
           "Sentinel"
         ]
@@ -63261,7 +66669,7 @@
       {
         "name": "OsArch",
         "type": "string",
-        "description": "The OS architecture.",
+        "description": "Os arch",
         "availability": [
           "Sentinel"
         ]
@@ -63269,7 +66677,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -63277,7 +66685,7 @@
       {
         "name": "ComputerName",
         "type": "string",
-        "description": "The name of the computer.",
+        "description": "Computer name",
         "availability": [
           "Sentinel"
         ]
@@ -63285,7 +66693,7 @@
       {
         "name": "TotalMemory",
         "type": "real",
-        "description": "The total memory available in MB.",
+        "description": "Total memory",
         "availability": [
           "Sentinel"
         ]
@@ -63293,7 +66701,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -63301,7 +66709,7 @@
       {
         "name": "GroupId",
         "type": "string",
-        "description": "The unique identifier for the group.",
+        "description": "Group id",
         "availability": [
           "Sentinel"
         ]
@@ -63309,7 +66717,7 @@
       {
         "name": "LastActiveDate",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last active.",
+        "description": "Last active date",
         "availability": [
           "Sentinel"
         ]
@@ -63317,7 +66725,7 @@
       {
         "name": "FullDiskScanLastUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the full disk scan was last updated.",
+        "description": "Full disk scan last updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63325,7 +66733,7 @@
       {
         "name": "AllowRemoteShell",
         "type": "boolean",
-        "description": "Indicates whether remote shell is allowed.",
+        "description": "Allow remote shell",
         "availability": [
           "Sentinel"
         ]
@@ -63333,7 +66741,7 @@
       {
         "name": "RangerVersion",
         "type": "string",
-        "description": "The version of the ranger.",
+        "description": "Ranger version",
         "availability": [
           "Sentinel"
         ]
@@ -63341,7 +66749,7 @@
       {
         "name": "AccountName",
         "type": "string",
-        "description": "The account name.",
+        "description": "Account name",
         "availability": [
           "Sentinel"
         ]
@@ -63349,7 +66757,7 @@
       {
         "name": "ScanStatus",
         "type": "string",
-        "description": "The scan status of the object.",
+        "description": "Scan status",
         "availability": [
           "Sentinel"
         ]
@@ -63357,7 +66765,7 @@
       {
         "name": "Domain",
         "type": "string",
-        "description": "The domain of the object.",
+        "description": "Domain",
         "availability": [
           "Sentinel"
         ]
@@ -63365,7 +66773,7 @@
       {
         "name": "MissingPermissions",
         "type": "string",
-        "description": "Details of the missing permissions.",
+        "description": "Missing permissions",
         "availability": [
           "Sentinel"
         ]
@@ -63373,7 +66781,7 @@
       {
         "name": "IsActive",
         "type": "boolean",
-        "description": "Indicates whether the object is active.",
+        "description": "Is active",
         "availability": [
           "Sentinel"
         ]
@@ -63381,7 +66789,7 @@
       {
         "name": "GroupIp",
         "type": "string",
-        "description": "The IP address of the group.",
+        "description": "Group ip",
         "availability": [
           "Sentinel"
         ]
@@ -63389,7 +66797,7 @@
       {
         "name": "ThreatRebootRequired",
         "type": "boolean",
-        "description": "Indicates whether a reboot is required due to a threat.",
+        "description": "Threat reboot required",
         "availability": [
           "Sentinel"
         ]
@@ -63397,7 +66805,7 @@
       {
         "name": "GroupUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the group was last updated.",
+        "description": "Group updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63405,7 +66813,7 @@
       {
         "name": "ExternalId",
         "type": "string",
-        "description": "The external identifier associated with the object.",
+        "description": "External id",
         "availability": [
           "Sentinel"
         ]
@@ -63413,7 +66821,7 @@
       {
         "name": "MachineType",
         "type": "string",
-        "description": "The type of machine.",
+        "description": "Machine type",
         "availability": [
           "Sentinel"
         ]
@@ -63421,7 +66829,7 @@
       {
         "name": "RegisteredAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was registered.",
+        "description": "Registered at",
         "availability": [
           "Sentinel"
         ]
@@ -63429,7 +66837,7 @@
       {
         "name": "AppsVulnerabilityStatus",
         "type": "string",
-        "description": "The vulnerability status of the applications.",
+        "description": "Apps vulnerability status",
         "availability": [
           "Sentinel"
         ]
@@ -63437,7 +66845,7 @@
       {
         "name": "CoreCount",
         "type": "real",
-        "description": "The number of CPU cores.",
+        "description": "Core count",
         "availability": [
           "Sentinel"
         ]
@@ -63445,7 +66853,7 @@
       {
         "name": "Locations",
         "type": "string",
-        "description": "The locations associated with the object.",
+        "description": "Locations",
         "availability": [
           "Sentinel"
         ]
@@ -63453,7 +66861,7 @@
       {
         "name": "ScanFinishedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was finished.",
+        "description": "Scan finished at",
         "availability": [
           "Sentinel"
         ]
@@ -63461,7 +66869,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63469,7 +66877,7 @@
       {
         "name": "ExternalIp",
         "type": "string",
-        "description": "The external IP address of the object.",
+        "description": "External ip",
         "availability": [
           "Sentinel"
         ]
@@ -63477,7 +66885,7 @@
       {
         "name": "LocationType",
         "type": "string",
-        "description": "The type of location.",
+        "description": "Location type",
         "availability": [
           "Sentinel"
         ]
@@ -63485,7 +66893,7 @@
       {
         "name": "PolicyUpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the policy was last updated.",
+        "description": "Policy updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63493,7 +66901,7 @@
       {
         "name": "IsDecommissioned",
         "type": "boolean",
-        "description": "Indicates whether the object is decommissioned.",
+        "description": "Is decommissioned",
         "availability": [
           "Sentinel"
         ]
@@ -63501,7 +66909,7 @@
       {
         "name": "CpuId",
         "type": "string",
-        "description": "The identifier of the CPU.",
+        "description": "Cpu id",
         "availability": [
           "Sentinel"
         ]
@@ -63509,7 +66917,7 @@
       {
         "name": "NetworkInterfaces",
         "type": "string",
-        "description": "Details of the network interfaces.",
+        "description": "Network interfaces",
         "availability": [
           "Sentinel"
         ]
@@ -63517,7 +66925,7 @@
       {
         "name": "IsUninstalled",
         "type": "boolean",
-        "description": "Indicates whether the object is uninstalled.",
+        "description": "Is uninstalled",
         "availability": [
           "Sentinel"
         ]
@@ -63525,7 +66933,7 @@
       {
         "name": "ActiveDirectory",
         "type": "string",
-        "description": "Details about the active directory.",
+        "description": "Active directory",
         "availability": [
           "Sentinel"
         ]
@@ -63533,7 +66941,7 @@
       {
         "name": "ScanStartedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was started.",
+        "description": "Scan started at",
         "availability": [
           "Sentinel"
         ]
@@ -63541,7 +66949,7 @@
       {
         "name": "RangerStatus",
         "type": "string",
-        "description": "The status of the ranger.",
+        "description": "Ranger status",
         "availability": [
           "Sentinel"
         ]
@@ -63549,7 +66957,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier for the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -63557,7 +66965,7 @@
       {
         "name": "AgentVersion",
         "type": "string",
-        "description": "The version of the agent.",
+        "description": "Agent version",
         "availability": [
           "Sentinel"
         ]
@@ -63565,7 +66973,7 @@
       {
         "name": "OsUsername",
         "type": "string",
-        "description": "The username associated with the operating system.",
+        "description": "Os username",
         "availability": [
           "Sentinel"
         ]
@@ -63573,7 +66981,7 @@
       {
         "name": "EncryptedApplications",
         "type": "boolean",
-        "description": "Indicates whether the applications are encrypted.",
+        "description": "Encrypted applications",
         "availability": [
           "Sentinel"
         ]
@@ -63581,7 +66989,7 @@
       {
         "name": "LastIpToMgmt",
         "type": "string",
-        "description": "The last IP address used for management.",
+        "description": "Last ip to mgmt",
         "availability": [
           "Sentinel"
         ]
@@ -63589,7 +66997,7 @@
       {
         "name": "CpuCount",
         "type": "real",
-        "description": "The number of CPUs.",
+        "description": "Cpu count",
         "availability": [
           "Sentinel"
         ]
@@ -63597,7 +67005,7 @@
       {
         "name": "ScanAbortedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the scan was aborted.",
+        "description": "Scan aborted at",
         "availability": [
           "Sentinel"
         ]
@@ -63605,7 +67013,7 @@
       {
         "name": "SiteName",
         "type": "string",
-        "description": "The name of the site.",
+        "description": "Site name",
         "availability": [
           "Sentinel"
         ]
@@ -63613,7 +67021,7 @@
       {
         "name": "ActiveThreats",
         "type": "real",
-        "description": "The number of active threats.",
+        "description": "Active threats",
         "availability": [
           "Sentinel"
         ]
@@ -63621,7 +67029,7 @@
       {
         "name": "Infected",
         "type": "boolean",
-        "description": "Indicates whether the object is infected.",
+        "description": "Infected",
         "availability": [
           "Sentinel"
         ]
@@ -63629,7 +67037,7 @@
       {
         "name": "ConsoleMigrationStatus",
         "type": "string",
-        "description": "The status of the console migration.",
+        "description": "Console migration status",
         "availability": [
           "Sentinel"
         ]
@@ -63637,7 +67045,7 @@
       {
         "name": "OsType",
         "type": "string",
-        "description": "The type of operating system.",
+        "description": "Os type",
         "availability": [
           "Sentinel"
         ]
@@ -63645,7 +67053,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "The unique identifier for the account.",
+        "description": "Account id",
         "availability": [
           "Sentinel"
         ]
@@ -63653,7 +67061,7 @@
       {
         "name": "GroupName",
         "type": "string",
-        "description": "The name of the group.",
+        "description": "Group name",
         "availability": [
           "Sentinel"
         ]
@@ -63661,7 +67069,7 @@
       {
         "name": "OsName",
         "type": "string",
-        "description": "The name of the operating system.",
+        "description": "Os name",
         "availability": [
           "Sentinel"
         ]
@@ -63669,7 +67077,7 @@
       {
         "name": "IsUpToDate",
         "type": "boolean",
-        "description": "Indicates whether the object is up to date.",
+        "description": "Is up to date",
         "availability": [
           "Sentinel"
         ]
@@ -63677,7 +67085,7 @@
       {
         "name": "LicenseKey",
         "type": "string",
-        "description": "The license key associated with the object.",
+        "description": "License key",
         "availability": [
           "Sentinel"
         ]
@@ -63685,7 +67093,7 @@
       {
         "name": "UserActionsNeeded",
         "type": "string",
-        "description": "Details of the user actions needed.",
+        "description": "User actions needed",
         "availability": [
           "Sentinel"
         ]
@@ -63693,7 +67101,7 @@
       {
         "name": "ModelName",
         "type": "string",
-        "description": "The model name of the object.",
+        "description": "Model name",
         "availability": [
           "Sentinel"
         ]
@@ -63701,7 +67109,7 @@
       {
         "name": "OsStartTime",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the operating system started.",
+        "description": "Os start time",
         "availability": [
           "Sentinel"
         ]
@@ -63709,7 +67117,7 @@
       {
         "name": "NetworkQuarantineEnabled",
         "type": "boolean",
-        "description": "Is Network Quarantine Enabled on the device.",
+        "description": "Network quarantine enabled",
         "availability": [
           "Sentinel"
         ]
@@ -63717,7 +67125,7 @@
       {
         "name": "OperationalStateExpiration",
         "type": "string",
-        "description": "Agent operational state.",
+        "description": "Operational state expiration",
         "availability": [
           "Sentinel"
         ]
@@ -63725,7 +67133,7 @@
       {
         "name": "RemoteProfilingState",
         "type": "string",
-        "description": "Agent remote profiling state.",
+        "description": "Remote profiling state",
         "availability": [
           "Sentinel"
         ]
@@ -63733,77 +67141,165 @@
     ],
     "solution": "SentinelOne"
   },
-  "SentinelOneAlerts_CL": {
+  "SentinelOneAlertsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SourceProcessInfo",
+        "name": "AlertId",
         "type": "string",
-        "description": "Information about the source process.",
+        "description": "Unique identifier of the unified alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "AlertInfo",
+        "name": "AlertName",
         "type": "string",
-        "description": "Details about the alert.",
+        "description": "Human-readable alert name.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "AgentDetectionInfo",
-        "type": "string",
-        "description": "Detection information related to the agent.",
+        "name": "DetectedAt",
+        "type": "datetime",
+        "description": "Time the alert was detected.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "RuleInfo",
-        "type": "string",
-        "description": "Information regarding the applied rule.",
+        "name": "CreatedAt",
+        "type": "datetime",
+        "description": "Time the alert was created.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ContainerInfo",
-        "type": "string",
-        "description": "Information about the container.",
+        "name": "UpdatedAt",
+        "type": "datetime",
+        "description": "Time the alert was last updated.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SourceParentProcessInfo",
+        "name": "Status",
         "type": "string",
-        "description": "Information about the parent process of the source.",
+        "description": "Current status of the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "TargetProcessInfo",
+        "name": "Severity",
         "type": "string",
-        "description": "Details regarding the target process.",
+        "description": "Severity of the alert.",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "KubernetesInfo",
+        "name": "AnalystVerdict",
         "type": "string",
-        "description": "Kubernetes-related information.",
+        "description": "Analyst verdict assigned to the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalId",
+        "type": "string",
+        "description": "External identifier of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StorylineId",
+        "type": "string",
+        "description": "Associated storyline identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AttackSurfaces",
+        "type": "dynamic",
+        "description": "Attack surfaces associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfidenceLevel",
+        "type": "string",
+        "description": "Confidence level of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Classification",
+        "type": "string",
+        "description": "Classification of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Product",
+        "type": "string",
+        "description": "Detection source product.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Vendor",
+        "type": "string",
+        "description": "Detection source vendor.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssigneeName",
+        "type": "string",
+        "description": "Full name of the assignee.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssigneeEmail",
+        "type": "string",
+        "description": "Email of the assignee.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assets",
+        "type": "dynamic",
+        "description": "Assets associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataSources",
+        "type": "dynamic",
+        "description": "Data sources associated with the alert.",
         "availability": [
           "Sentinel"
         ]
@@ -63817,7 +67313,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -63825,7 +67321,7 @@
       {
         "name": "Creator",
         "type": "string",
-        "description": "The name of the creator.",
+        "description": "Creator",
         "availability": [
           "Sentinel"
         ]
@@ -63833,7 +67329,7 @@
       {
         "name": "RegistrationToken",
         "type": "string",
-        "description": "The token used for registration.",
+        "description": "Registration token",
         "availability": [
           "Sentinel"
         ]
@@ -63841,7 +67337,7 @@
       {
         "name": "IsDefault",
         "type": "string",
-        "description": "Indicates whether this is the default setting.",
+        "description": "Is default",
         "availability": [
           "Sentinel"
         ]
@@ -63849,7 +67345,7 @@
       {
         "name": "UpdatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was last updated.",
+        "description": "Updated at",
         "availability": [
           "Sentinel"
         ]
@@ -63857,7 +67353,7 @@
       {
         "name": "TotalAgents",
         "type": "string",
-        "description": "The total number of agents.",
+        "description": "Total agents",
         "availability": [
           "Sentinel"
         ]
@@ -63865,7 +67361,7 @@
       {
         "name": "Inherits",
         "type": "string",
-        "description": "Indicates whether the object inherits properties.",
+        "description": "Inherits",
         "availability": [
           "Sentinel"
         ]
@@ -63873,7 +67369,7 @@
       {
         "name": "Name",
         "type": "string",
-        "description": "The name of the object.",
+        "description": "Name",
         "availability": [
           "Sentinel"
         ]
@@ -63881,7 +67377,7 @@
       {
         "name": "Rank",
         "type": "real",
-        "description": "The rank of the object.",
+        "description": "Rank",
         "availability": [
           "Sentinel"
         ]
@@ -63889,7 +67385,7 @@
       {
         "name": "FilterName",
         "type": "string",
-        "description": "The name of the filter applied.",
+        "description": "Filter name",
         "availability": [
           "Sentinel"
         ]
@@ -63897,7 +67393,7 @@
       {
         "name": "GroupType",
         "type": "string",
-        "description": "The type of the object.",
+        "description": "Group type",
         "availability": [
           "Sentinel"
         ]
@@ -63905,7 +67401,7 @@
       {
         "name": "Id",
         "type": "string",
-        "description": "The unique identifier for the object.",
+        "description": "Id",
         "availability": [
           "Sentinel"
         ]
@@ -63913,7 +67409,7 @@
       {
         "name": "CreatedAt",
         "type": "datetime",
-        "description": "The timestamp (UTC) when the object was created.",
+        "description": "Created at",
         "availability": [
           "Sentinel"
         ]
@@ -63921,7 +67417,7 @@
       {
         "name": "CreatorId",
         "type": "string",
-        "description": "The unique identifier of the creator.",
+        "description": "Creator id",
         "availability": [
           "Sentinel"
         ]
@@ -63929,7 +67425,7 @@
       {
         "name": "SiteId",
         "type": "string",
-        "description": "The unique identifier of the site.",
+        "description": "Site id",
         "availability": [
           "Sentinel"
         ]
@@ -63937,7 +67433,7 @@
       {
         "name": "FilterId",
         "type": "string",
-        "description": "The unique identifier of the filter.",
+        "description": "Filter id",
         "availability": [
           "Sentinel"
         ]
@@ -63951,7 +67447,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -64320,6 +67816,84 @@
         "name": "AgentRealtimeInfo",
         "type": "dynamic",
         "description": "The information of the agent in realtime.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SentinelOne"
+  },
+  "SentinelOneAlerts_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProcessInfo",
+        "type": "string",
+        "description": "Information about the source process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertInfo",
+        "type": "string",
+        "description": "Details about the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentDetectionInfo",
+        "type": "string",
+        "description": "Detection information related to the agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleInfo",
+        "type": "string",
+        "description": "Information regarding the applied rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerInfo",
+        "type": "string",
+        "description": "Information about the container.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceParentProcessInfo",
+        "type": "string",
+        "description": "Information about the parent process of the source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetProcessInfo",
+        "type": "string",
+        "description": "Details regarding the target process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KubernetesInfo",
+        "type": "string",
+        "description": "Kubernetes-related information.",
         "availability": [
           "Sentinel"
         ]
