@@ -359,7 +359,7 @@
         "type": "string",
         "description": "Status of the user's risk; possible values: None, ConfirmedSafe, Remediated, Dismissed, AtRisk, ConfirmedCompromised, UnknownFutureValue",
         "availability": [
-          "Defender XDR"
+          "Sentinel"
         ]
       },
       {

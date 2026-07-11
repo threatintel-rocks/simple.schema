@@ -393,6 +393,14 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "DlpInfo",
+        "type": "string",
+        "description": "Properties related to Endpoint Data Loss Prevention (DLP).[*](#dlp-only)",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

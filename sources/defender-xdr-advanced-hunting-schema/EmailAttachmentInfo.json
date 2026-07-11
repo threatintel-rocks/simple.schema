@@ -69,7 +69,15 @@
       {
         "name": "FileType",
         "type": "string",
-        "description": "File content type",
+        "description": "File extension type",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "FileExtension",
+        "type": "string",
+        "description": "File extension of the attachment",
         "availability": [
           "Defender XDR"
         ]
@@ -118,6 +126,14 @@
         "name": "ReportId",
         "type": "string",
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "string",
+        "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
         ]

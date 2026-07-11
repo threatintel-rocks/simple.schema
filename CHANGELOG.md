@@ -2,6 +2,21 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-11 05:36 UTC
+
+**Columns added** (9)
+
+- `DeviceInfo.DlpInfo` (string)
+- `EmailAttachmentInfo.AdditionalFields` (string)
+- `EmailAttachmentInfo.FileExtension` (string)
+- `EmailPostDeliveryEvents.EmailDirection` (string)
+- `EmailPostDeliveryEvents.SenderFromAddress` (string)
+- `EmailUrlInfo.UrlChainId` (string)
+- `EmailUrlInfo.UrlChainPosition` (int)
+- `FileMaliciousContentInfo.UrlChainId` (string)
+- `FileMaliciousContentInfo.UrlChainPosition` (int)
+
+
 ### 2026-07-10 06:38 UTC
 
 **Tables added** (8)

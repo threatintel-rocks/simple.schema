@@ -75,14 +75,6 @@
         ]
       },
       {
-        "name": "SourceLocation",
-        "type": "string",
-        "description": "Source folder or location where the post-delivery action occurred: Inbox, JunkEmail, DeletedItems",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "ThreatTypes",
         "type": "string",
         "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats",
@@ -102,6 +94,30 @@
         "name": "ReportId",
         "type": "string",
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SenderFromAddress",
+        "type": "string",
+        "description": "Sender email address in the FROM header, which is visible to email recipients on their email clients",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EmailDirection",
+        "type": "string",
+        "description": "Direction of the email relative to your network: Inbound, Outbound, Intra-org",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceLocation",
+        "type": "string",
+        "description": "Location where the email triggered zero-hour auto purge (ZAP)",
         "availability": [
           "Defender XDR"
         ]

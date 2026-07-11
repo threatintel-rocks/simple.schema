@@ -43,6 +43,22 @@
         ]
       },
       {
+        "name": "UrlChainId",
+        "type": "string",
+        "description": "Unique identifier of the entire URL chain",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UrlChainPosition",
+        "type": "int",
+        "description": "Position of the URL in the URL chain relative to the root URL, which is assigned 0",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "ReportId",
         "type": "string",
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns",

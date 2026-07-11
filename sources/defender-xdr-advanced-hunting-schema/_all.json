@@ -6254,6 +6254,14 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "DlpInfo",
+        "type": "string",
+        "description": "Properties related to Endpoint Data Loss Prevention (DLP).[*](#dlp-only)",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   },
@@ -9437,7 +9445,15 @@
       {
         "name": "FileType",
         "type": "string",
-        "description": "File content type",
+        "description": "File extension type",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "FileExtension",
+        "type": "string",
+        "description": "File extension of the attachment",
         "availability": [
           "Defender XDR"
         ]
@@ -9486,6 +9502,14 @@
         "name": "ReportId",
         "type": "string",
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AdditionalFields",
+        "type": "string",
+        "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
         ]
@@ -9814,6 +9838,78 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "ExchangeTransportRule",
+        "type": "string",
+        "description": "Mail flow rules (also known as transport rules) that took action on the email while it was in transit; mail flow rules are similar to the Inbox rules available in Outlook and Outlook on the web",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ForwardingInformation",
+        "type": "string",
+        "description": "JSON array of forwarding details, including the forwarding user and the forwarding type",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "string",
+        "description": "Protection context in which the detection ran, for example, Priority Account Protection",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "To",
+        "type": "string",
+        "description": "Addresses listed in the To fields of the email",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Cc",
+        "type": "string",
+        "description": "Addresses listed in the Cc fields of the email",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ThreatClassification",
+        "type": "string",
+        "description": "Threat classification applied to the email",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RecipientDomain",
+        "type": "string",
+        "description": "Domain address of the recipient",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EmailSize",
+        "type": "long",
+        "description": "Size of the email message in bytes",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "IsFirstContact",
+        "type": "int",
+        "description": "Whether the email was the first contact between the sender and recipient (1 if yes, 0 if no)",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   },
@@ -9893,14 +9989,6 @@
         ]
       },
       {
-        "name": "SourceLocation",
-        "type": "string",
-        "description": "Source folder or location where the post-delivery action occurred: Inbox, JunkEmail, DeletedItems",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "ThreatTypes",
         "type": "string",
         "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats",
@@ -9920,6 +10008,30 @@
         "name": "ReportId",
         "type": "string",
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SenderFromAddress",
+        "type": "string",
+        "description": "Sender email address in the FROM header, which is visible to email recipients on their email clients",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EmailDirection",
+        "type": "string",
+        "description": "Direction of the email relative to your network: Inbound, Outbound, Intra-org",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceLocation",
+        "type": "string",
+        "description": "Location where the email triggered zero-hour auto purge (ZAP)",
         "availability": [
           "Defender XDR"
         ]
@@ -9965,6 +10077,22 @@
         "name": "UrlLocation",
         "type": "string",
         "description": "Indicates which part of the email the URL is located",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UrlChainId",
+        "type": "string",
+        "description": "Unique identifier of the entire URL chain",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UrlChainPosition",
+        "type": "int",
+        "description": "Position of the URL in the URL chain relative to the root URL, which is assigned 0",
         "availability": [
           "Defender XDR"
         ]
@@ -10686,6 +10814,22 @@
         "name": "UrlLocation",
         "type": "string",
         "description": "Indicates which part of the email the URL is located",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UrlChainId",
+        "type": "string",
+        "description": "Unique identifier of the entire URL chain",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UrlChainPosition",
+        "type": "int",
+        "description": "Position of the URL in the URL chain relative to the root URL, which is assigned 0",
         "availability": [
           "Defender XDR"
         ]
@@ -11938,7 +12082,7 @@
         "type": "string",
         "description": "Status of the user's risk; possible values: None, ConfirmedSafe, Remediated, Dismissed, AtRisk, ConfirmedCompromised, UnknownFutureValue",
         "availability": [
-          "Defender XDR"
+          "Sentinel"
         ]
       },
       {
