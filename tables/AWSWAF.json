@@ -8,7 +8,8 @@
         "description": "The terminating action taken by AWS WAF (ALLOW, BLOCK, CAPTCHA, or Challenge).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Args",
@@ -16,7 +17,8 @@
         "description": "The query string parameters of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -24,7 +26,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CaptchaResponse",
@@ -32,7 +35,8 @@
         "description": "Status of the CAPTCHA action for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ChallengeResponse",
@@ -40,7 +44,8 @@
         "description": "Status of the security challenge for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClientIp",
@@ -48,7 +53,8 @@
         "description": "IP address of the client making the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Country",
@@ -56,7 +62,8 @@
         "description": "Country of origin for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ExcludedRules",
@@ -64,7 +71,8 @@
         "description": "Rules excluded from evaluation in the rule group.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FormatVersion",
@@ -72,7 +80,8 @@
         "description": "Version of the AWS WAF log format.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Headers",
@@ -80,7 +89,8 @@
         "description": "Headers included in the HTTP request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpMethod",
@@ -88,7 +98,8 @@
         "description": "The HTTP method (GET, POST, etc.) of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpRequest",
@@ -96,7 +107,8 @@
         "description": "Metadata about the HTTP request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpSourceId",
@@ -104,7 +116,8 @@
         "description": "ID of the associated resource (e.g., CloudFront distribution, Load Balancer).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpSourceName",
@@ -112,7 +125,8 @@
         "description": "Source of the request (e.g., CF, APIGW, ALB).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpVersion",
@@ -120,7 +134,8 @@
         "description": "HTTP version used in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -128,7 +143,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Ja3Fingerprint",
@@ -136,7 +152,8 @@
         "description": "JA3 fingerprint of the TLS Client Hello.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Labels",
@@ -144,7 +161,8 @@
         "description": "Labels applied to the request by rules.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NonTerminatingMatchingRules",
@@ -152,7 +170,8 @@
         "description": "List of rules that matched but didn't terminate the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OversizeFields",
@@ -160,7 +179,8 @@
         "description": "Fields in the request that exceeded AWS WAF inspection limits.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RateBasedRuleList",
@@ -168,7 +188,8 @@
         "description": "List of rate-based rules applied to the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestHeadersInserted",
@@ -176,7 +197,8 @@
         "description": "Headers inserted for custom request handling.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestId",
@@ -184,7 +206,8 @@
         "description": "Request ID for the network request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseCodeSent",
@@ -192,7 +215,8 @@
         "description": "HTTP response code sent to the client.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleGroupId",
@@ -200,7 +224,8 @@
         "description": "ID of the rule group that matched.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RuleGroupList",
@@ -208,7 +233,8 @@
         "description": "List of rule groups that acted on the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -216,7 +242,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -224,7 +251,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TerminatingRule",
@@ -232,7 +260,8 @@
         "description": "The rule that terminated the request. If this is present, it contains action, ruleId, ruleMatchDetails, and any additional information provided for each rule varies according factors such as the rule configuration, rule match type, and details of the match.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TerminatingRuleId",
@@ -240,7 +269,8 @@
         "description": "ID of the network rule that matched.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TerminatingRuleMatchDetails",
@@ -248,7 +278,8 @@
         "description": "Details of the rule that terminated the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TerminatingRuleType",
@@ -256,7 +287,8 @@
         "description": "Type of rule that terminated the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -264,7 +296,8 @@
         "description": "Timestamp when the log was processed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -272,7 +305,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Uri",
@@ -280,7 +314,8 @@
         "description": "The URI of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "WebAclId",
@@ -288,8 +323,10 @@
         "description": "The GUID of the web ACL applied to the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
