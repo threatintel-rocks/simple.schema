@@ -9093,6 +9093,30 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "source_classification_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "source_classification_color",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "source_classification_definition",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "Box"
