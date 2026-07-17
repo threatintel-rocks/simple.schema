@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-17 05:36 UTC
+
+**Tables added** (2)
+
+- `CheckpointHEC_CL` (33 columns, source: 3rd-Party Connector Schemas)
+- `TransmitSecurityActivity_V2_CL` (21 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-07-14 05:25 UTC
 
 **Columns added** (3)

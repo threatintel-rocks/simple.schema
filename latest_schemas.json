@@ -104355,6 +104355,276 @@
     ],
     "solution": "Checkpoint Email Security"
   },
+  "CheckpointHEC_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_raw",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_raw",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailEmailId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSubject",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailTo",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailFromEmail",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailFromName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailBbc",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailCc",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailReplyTo",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailBodyContentType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailMessageId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailDirection",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailAttachmentCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailAttachmentsPayloads",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailLinks",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSenderClientIp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSenderServerIp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailDkimResults",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailDmarcResults",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSpfResults",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSaasSpamVerdict",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventEventId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventConfidenceIndicator",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventConfidenceLevel",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCurrentState",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDescription",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventPolicyRuleId",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventAction",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventProvider",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Checkpoint Harmony Email and Collaboration"
+  },
   "CiscoETDv2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -124136,6 +124406,180 @@
       }
     ],
     "solution": "TheHive"
+  },
+  "TransmitSecurityActivity_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time when the log entry was generated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Activity",
+        "type": "string",
+        "description": "Activity name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "Application identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "string",
+        "description": "Client identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceTenantId",
+        "type": "string",
+        "description": "Tenant identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Device identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "User identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ip",
+        "type": "string",
+        "description": "IP address from which the event originated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "User agent string from the client",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "When the event occurred",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvocationId",
+        "type": "string",
+        "description": "Unique invocation identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalAppId",
+        "type": "string",
+        "description": "Hashed app ID before enrichment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalUserId",
+        "type": "string",
+        "description": "Hashed user ID before enrichment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetResourceId",
+        "type": "string",
+        "description": "Target resource identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetResourceType",
+        "type": "string",
+        "description": "Target resource type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorId",
+        "type": "string",
+        "description": "Actor identifier (e.g. admin user for admin activities)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorType",
+        "type": "string",
+        "description": "Actor type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalActorId",
+        "type": "string",
+        "description": "Hashed actor ID before enrichment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FlowId",
+        "type": "string",
+        "description": "Flow identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationId",
+        "type": "string",
+        "description": "Correlation identifier for tracking related events",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdditionalParams",
+        "type": "dynamic",
+        "description": "Additional parameters as free-form JSON",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "TransmitSecurity"
   },
   "TrellixEvents_CL": {
     "source": "3rd-Party Connector Schemas",
