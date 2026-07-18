@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-18 05:20 UTC
+
+**Tables added** (1)
+
+- `McasShadowItReporting` (27 columns, source: Sentinel Tables)
+
+
 ### 2026-07-17 05:36 UTC
 
 **Tables added** (2)
