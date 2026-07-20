@@ -8,7 +8,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "GCPResourceType",
@@ -16,7 +17,8 @@
         "description": "The type of GCP resource (e.g., 'CloudRunService', 'CloudRunJob').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InsertId",
@@ -24,7 +26,8 @@
         "description": "Unique identifier for the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -32,7 +35,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "JsonPayloadMessage",
@@ -40,7 +44,8 @@
         "description": "The message field extracted from the jsonPayload.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "JsonPayloadRequest",
@@ -48,7 +53,8 @@
         "description": "The request field extracted from the jsonPayload.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Labels",
@@ -56,7 +62,8 @@
         "description": "Generic labels associated with the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogName",
@@ -64,7 +71,8 @@
         "description": "The name of the log from which the entry originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadAuthenticationInfoPrincipalSubject",
@@ -72,7 +80,8 @@
         "description": "The subject identifier of the authenticated principal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadAuthenticationInfoServiceAccountKeyName",
@@ -80,7 +89,8 @@
         "description": "The name of the service account key used for authentication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadAuthInfoPrincipalEmail",
@@ -88,7 +98,8 @@
         "description": "The email address of the principal (user or service account) that initiated the action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadAuthorizationInfo",
@@ -96,7 +107,8 @@
         "description": "Detailed authorization information for the logged action, represented as a Dynamic (JSON) object.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadMethodName",
@@ -104,7 +116,8 @@
         "description": "The name of the API method that was invoked.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestBuildpackBuildBaseImage",
@@ -112,7 +125,8 @@
         "description": "The base image used by the buildpack for the build process.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestBuildpackBuildEnableAutomaticUpdates",
@@ -120,7 +134,8 @@
         "description": "Indicates whether automatic updates are enabled for the buildpack build.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingApiVersion",
@@ -128,7 +143,8 @@
         "description": "The API version of the Cloud Run domain mapping in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingKind",
@@ -136,7 +152,8 @@
         "description": "The 'kind' of the Cloud Run domain mapping (e.g., 'DomainMapping').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingMetadataAnnotations",
@@ -144,7 +161,8 @@
         "description": "Annotations associated with the Cloud Run domain mapping's request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingMetadataName",
@@ -152,7 +170,8 @@
         "description": "The name of the Cloud Run domain mapping within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingMetadataNameSpace",
@@ -160,7 +179,8 @@
         "description": "The namespace of the Cloud Run domain mapping within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingSpec",
@@ -168,7 +188,8 @@
         "description": "The specification details of the Cloud Run domain mapping in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestDomainMappingStatus",
@@ -176,7 +197,8 @@
         "description": "The status of the Cloud Run domain mapping in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestImageUri",
@@ -184,7 +206,8 @@
         "description": "The URI of the container image used for the Cloud Run service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobApiVersion",
@@ -192,7 +215,8 @@
         "description": "The API version of the Cloud Run job in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobKind",
@@ -200,7 +224,8 @@
         "description": "The 'kind' of the Cloud Run job (e.g., 'Job').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobMetadataAnnotations",
@@ -208,7 +233,8 @@
         "description": "Annotations associated with the Cloud Run job's request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobMetadataName",
@@ -216,7 +242,8 @@
         "description": "The name of the Cloud Run job within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobMetadataNameSpace",
@@ -224,7 +251,8 @@
         "description": "The namespace of the Cloud Run job within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestJobSpec",
@@ -232,7 +260,8 @@
         "description": "The specification details of the Cloud Run job in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestLabelSelector",
@@ -240,7 +269,8 @@
         "description": "The label selector used in the request, typically for filtering resources.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadrequestMetadataCallerIp",
@@ -248,7 +278,8 @@
         "description": "The IP address of the client that made the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadrequestMetadatacallerSuppliedUserAgent",
@@ -256,7 +287,8 @@
         "description": "The user agent String provided by the caller.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadrequestMetadataDestinationAttributes",
@@ -264,7 +296,8 @@
         "description": "Attributes related to the destination of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadrequestMetadatarequestAttributesAuth",
@@ -272,7 +305,8 @@
         "description": "Authentication attributes embedded within the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestMetadataRequestAttributesReason",
@@ -280,7 +314,8 @@
         "description": "The reason specified in the request attributes metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadrequestMetadatarequestAttributesTime",
@@ -288,7 +323,8 @@
         "description": "The timestamp associated with the request attributes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestName",
@@ -296,7 +332,8 @@
         "description": "The name of the specific request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestOptionsRequestedPolicyVersion",
@@ -304,7 +341,8 @@
         "description": "The requested policy version within the request options.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestParent",
@@ -312,7 +350,8 @@
         "description": "The parent resource of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestRegion",
@@ -320,7 +359,8 @@
         "description": "The GCP region where the request originated or was processed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestResource",
@@ -328,7 +368,8 @@
         "description": "The resource specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceApiVersion",
@@ -336,7 +377,8 @@
         "description": "The API version of the Cloud Run service in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceKind",
@@ -344,7 +386,8 @@
         "description": "The 'kind' of the Cloud Run service (e.g., 'Service').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceLatestRevision",
@@ -352,7 +395,8 @@
         "description": "The name of the latest revision for the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataAnnotations",
@@ -360,7 +404,8 @@
         "description": "Annotations associated with the Cloud Run service's request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataCreationTimestamp",
@@ -368,7 +413,8 @@
         "description": "The timestamp when the Cloud Run service in the request metadata was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataGeneration",
@@ -376,7 +422,8 @@
         "description": "The generation number of the Cloud Run service in the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadatalabels",
@@ -384,7 +431,8 @@
         "description": "Labels from the Cloud Run service metadata within the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataName",
@@ -392,7 +440,8 @@
         "description": "The name of the Cloud Run service within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataNameSpace",
@@ -400,7 +449,8 @@
         "description": "The namespace of the Cloud Run service within the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataResourceVersion",
@@ -408,7 +458,8 @@
         "description": "The resource version of the Cloud Run service in the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataSelfLink",
@@ -416,7 +467,8 @@
         "description": "The self-link URL for the Cloud Run service in the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceMetadataUID",
@@ -424,7 +476,8 @@
         "description": "The unique identifier (UID) of the Cloud Run service in the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceObservedGeneration",
@@ -432,7 +485,8 @@
         "description": "The observed generation of the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceReadyRevision",
@@ -440,7 +494,8 @@
         "description": "The name of the ready revision for the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceServiceURL",
@@ -448,7 +503,8 @@
         "description": "The URL of the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceSpec",
@@ -456,7 +512,8 @@
         "description": "The specification details of the Cloud Run service in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceStatusConditions",
@@ -464,7 +521,8 @@
         "description": "Conditions indicating the current state of the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestServiceTraffic",
@@ -472,7 +530,8 @@
         "description": "Traffic distribution settings for the Cloud Run service in the request status.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestStorageSourceGeneration",
@@ -480,7 +539,8 @@
         "description": "The generation of the storage source used in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadRequestType",
@@ -488,7 +548,8 @@
         "description": "The type of request made to the Cloud Run service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResourceLocationCurrentLocations",
@@ -496,7 +557,8 @@
         "description": "Current location(s) of the resource involved in the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResourceName",
@@ -504,7 +566,8 @@
         "description": "The name of the GCP resource relevant to the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseApiVersion",
@@ -512,7 +575,8 @@
         "description": "The API version of the response from the Cloud Run service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseKind",
@@ -520,7 +584,8 @@
         "description": "The 'kind' of resource returned in the response (e.g., 'Service').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataAnnotations",
@@ -528,7 +593,8 @@
         "description": "Annotations associated with the response metadata, typically key-value pairs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataCreationTimestamp",
@@ -536,7 +602,8 @@
         "description": "The timestamp when the resource in the response metadata was created.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataGeneration",
@@ -544,7 +611,8 @@
         "description": "The generation number of the resource in the response metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataName",
@@ -552,7 +620,8 @@
         "description": "The name of the resource within the response metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataResourceVersion",
@@ -560,7 +629,8 @@
         "description": "The resource version of the resource in the response metadata, indicating its state.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataSelfLink",
@@ -568,7 +638,8 @@
         "description": "The self-link URL for the resource in the response metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseMetadataUID",
@@ -576,7 +647,8 @@
         "description": "The unique identifier (UID) of the resource in the response metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseNameSpace",
@@ -584,7 +656,8 @@
         "description": "The namespace of the resource within the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseServiceMetadatalabels",
@@ -592,7 +665,8 @@
         "description": "Labels from the service metadata within the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseSpec",
@@ -600,7 +674,8 @@
         "description": "The specification details of the resource in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseStatus",
@@ -608,7 +683,8 @@
         "description": "The status of the operation or resource in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadResponseType",
@@ -616,7 +692,8 @@
         "description": "The type of response received from the Cloud Run service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadServiceName",
@@ -624,7 +701,8 @@
         "description": "The name of the GCP service involved in the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadType",
@@ -632,7 +710,8 @@
         "description": "The type of payload contained within the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceiveTimestamp",
@@ -640,7 +719,8 @@
         "description": "The timestamp when the log entry was received by Log Analytics.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsConfigurationName",
@@ -648,7 +728,8 @@
         "description": "The name of the associated Cloud Run configuration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsJobName",
@@ -656,7 +737,8 @@
         "description": "The name of the associated Cloud Run job.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelslocation",
@@ -664,7 +746,8 @@
         "description": "The GCP location of the Cloud Run resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsProjectId",
@@ -672,7 +755,8 @@
         "description": "The GCP project ID where the Cloud Run resource resides.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsRevisionName",
@@ -680,7 +764,8 @@
         "description": "The name of the associated Cloud Run revision.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsServiceName",
@@ -688,7 +773,8 @@
         "description": "The name of the associated Cloud Run service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -696,7 +782,8 @@
         "description": "The severity level of the log entry (e.g., INFO, WARNING, ERROR).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -704,7 +791,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -712,7 +800,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -720,7 +809,8 @@
         "description": "The timestamp when the log entry was originally generated in GCP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -728,8 +818,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

@@ -8,7 +8,8 @@
         "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -16,7 +17,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DstAppId",
@@ -24,7 +26,8 @@
         "description": "The ID of the destination application, as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstAppName",
@@ -32,7 +35,8 @@
         "description": "The name of the destination application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstAppType",
@@ -40,7 +44,8 @@
         "description": "The type of the destination application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstBytes",
@@ -48,7 +53,8 @@
         "description": "The number of bytes sent from the destination to the source for the connection or session. If the event is aggregated, DstBytes is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDescription",
@@ -56,7 +62,8 @@
         "description": "A descriptive text associated with the destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDeviceType",
@@ -64,7 +71,8 @@
         "description": "The type of the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDomain",
@@ -72,7 +80,8 @@
         "description": "The domain of the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDomainType",
@@ -80,7 +89,8 @@
         "description": "The type of DstDomain.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDvcId",
@@ -88,7 +98,8 @@
         "description": "The ID of the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstDvcIdType",
@@ -96,7 +107,8 @@
         "description": "The type of DstDvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstFQDN",
@@ -104,7 +116,8 @@
         "description": "The destination device hostname, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstGeoCity",
@@ -112,7 +125,8 @@
         "description": "The city associated with the destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstGeoCountry",
@@ -120,7 +134,8 @@
         "description": "The country associated with the destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstGeoLatitude",
@@ -128,7 +143,8 @@
         "description": "The latitude of the geographical coordinate associated with the destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstGeoLongitude",
@@ -136,7 +152,8 @@
         "description": "The longitude of the geographical coordinate associated with the destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstGeoRegion",
@@ -144,7 +161,8 @@
         "description": "The region, or state, within a country associated with the destination IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstHostname",
@@ -152,7 +170,8 @@
         "description": "The destination device hostname, excluding domain information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstInterfaceGuid",
@@ -160,7 +179,8 @@
         "description": "The GUID of the network interface used on the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstInterfaceName",
@@ -168,7 +188,8 @@
         "description": "The network interface used for the connection or session by the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstIpAddr",
@@ -176,7 +197,8 @@
         "description": "The IP address of the connection or session destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstMacAddr",
@@ -184,7 +206,8 @@
         "description": "The MAC address of the network interface used for the connection or session by the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstNatIpAddr",
@@ -192,7 +215,8 @@
         "description": "The DstNatIpAddr represents either of: The original address of the destination device if network address translation was used or the IP address used by the intermediary device for communication with the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstNatPortNumber",
@@ -200,7 +224,8 @@
         "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstOriginalUserType",
@@ -208,7 +233,8 @@
         "description": "The original destination user type, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstPackets",
@@ -216,7 +242,8 @@
         "description": "The number of packets sent from the destination to the source for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, DstPackets is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstPortNumber",
@@ -224,7 +251,8 @@
         "description": "The destination IP port.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstSubscriptionId",
@@ -232,7 +260,8 @@
         "description": "The cloud platform subscription ID the destination device belongs to. DstSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstUserId",
@@ -240,7 +269,8 @@
         "description": "A machine-readable, alphanumeric, unique representation of the destination user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstUserIdType",
@@ -248,7 +278,8 @@
         "description": "The type of the ID stored in the DstUserId field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstUsername",
@@ -256,7 +287,8 @@
         "description": "The destination username, including domain information when available. Use the simple form only if domain information isn't available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstUsernameType",
@@ -264,7 +296,8 @@
         "description": "Specifies the type of the username stored in the DstUsername field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstUserType",
@@ -272,7 +305,8 @@
         "description": "The type of destination user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstVlanId",
@@ -280,7 +314,8 @@
         "description": "The VLAN ID related to the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstZone",
@@ -288,7 +323,8 @@
         "description": "The network zone of the destination, as defined by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Dvc",
@@ -296,7 +332,8 @@
         "description": "A unique identifier of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcAction",
@@ -304,7 +341,8 @@
         "description": "The action taken on the network session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDescription",
@@ -312,7 +350,8 @@
         "description": "A descriptive text associated with the device. For example: Primary Domain Controller.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDomain",
@@ -320,7 +359,8 @@
         "description": "The domain of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcDomainType",
@@ -328,7 +368,8 @@
         "description": "The type of DvcDomain. Possible values include 'Windows' and 'FQDN'.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcFQDN",
@@ -336,7 +377,8 @@
         "description": "The hostname of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcHostname",
@@ -344,7 +386,8 @@
         "description": "The hostname of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcId",
@@ -352,7 +395,8 @@
         "description": "The unique ID of the device on which the event occurred or which reported the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcIdType",
@@ -360,7 +404,8 @@
         "description": "The type of DvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcInboundInterface",
@@ -368,7 +413,8 @@
         "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcInterface",
@@ -376,7 +422,8 @@
         "description": "The network interface on which data was captured. This field is typically relevant to network related activity which is captured by an intermediate or tap device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcIpAddr",
@@ -384,7 +431,8 @@
         "description": "The IP Address of the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcMacAddr",
@@ -392,7 +440,8 @@
         "description": "The MAC address of the device on which the event occurred or which reported the event. Example: 00:1B:44:11:3A:B7.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOriginalAction",
@@ -400,7 +449,8 @@
         "description": "The original DvcAction as provided by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOs",
@@ -408,7 +458,8 @@
         "description": "The operating system running on the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOsVersion",
@@ -416,7 +467,8 @@
         "description": "The version of the operating system on the device reporting the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcOutboundInterface",
@@ -424,7 +476,8 @@
         "description": "If reported by an intermediary device, the network interface used by the NAT device for the connection to the destination device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcSubscriptionId",
@@ -432,7 +485,8 @@
         "description": "The cloud platform subscription ID the device belongs to. DvcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DvcZone",
@@ -440,7 +494,8 @@
         "description": "The network on which the event occurred or which reported the event. The zone is defined by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventCount",
@@ -448,7 +503,8 @@
         "description": "This value is used when the source supports aggregation, and a single record may represent multiple events.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventEndTime",
@@ -456,7 +512,8 @@
         "description": "The time in which the event ended. If the source supports aggregation and the record represents multiple events, the time that the last event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventMessage",
@@ -464,7 +521,8 @@
         "description": "A general message or description.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalResultDetails",
@@ -472,7 +530,8 @@
         "description": "The original result details provided by the source. This value is used to derive EventResultDetails, which should have only one of the values documented for each schema.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalSeverity",
@@ -480,7 +539,8 @@
         "description": "The original severity as provided by the reporting device. This value is used to derive EventSeverity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalSubType",
@@ -488,7 +548,8 @@
         "description": "The original event subtype or ID, if provided by the source. For example, this field will be used to store the original Windows logon type. This value is used to derive EventSubType, which should have only one of the values documented for each schema.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalType",
@@ -496,7 +557,8 @@
         "description": "The original event type or ID, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventOriginalUid",
@@ -504,7 +566,8 @@
         "description": "A unique ID of the original record, if provided by the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventProduct",
@@ -512,7 +575,8 @@
         "description": "The product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventProductVersion",
@@ -520,7 +584,8 @@
         "description": "The version of the product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventReportUrl",
@@ -528,7 +593,8 @@
         "description": "A URL provided in the event for a resource that provides more information about the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventResult",
@@ -536,7 +602,8 @@
         "description": "The outcome of the event, represented by one of the following values: Success, Partial, Failure, NA (Not Applicable). The value may not be provided directly by the sources, in which case it is derived from other event fields, for example, the EventResultDetails field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventResultDetails",
@@ -544,7 +611,8 @@
         "description": "Reason or details for the result reported in the EventResult field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSchemaVersion",
@@ -552,7 +620,8 @@
         "description": "The version of the schema.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSeverity",
@@ -560,7 +629,8 @@
         "description": "The severity of the event. Valid values are: Informational, Low, Medium, or High.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventStartTime",
@@ -568,7 +638,8 @@
         "description": "The time in which the event started. If the source supports aggregation and the record represents multiple events, the time that the first event was generated. If not provided by the source record, this field aliases the TimeGenerated field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventSubType",
@@ -576,7 +647,8 @@
         "description": "Additional description of the event type, if applicable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventType",
@@ -584,7 +656,8 @@
         "description": "The operation reported by the record.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EventVendor",
@@ -592,7 +665,8 @@
         "description": "The vendor of the product generating the event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -600,7 +674,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "NetworkApplicationProtocol",
@@ -608,7 +683,8 @@
         "description": "The application layer protocol used by the connection or session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkBytes",
@@ -616,7 +692,8 @@
         "description": "Number of bytes sent in both directions. If both BytesReceived and BytesSent exist, BytesTotal should equal their sum. If the event is aggregated, NetworkBytes is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkConnectionHistory",
@@ -624,7 +701,8 @@
         "description": "TCP flags and other potential IP header information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDirection",
@@ -632,7 +710,8 @@
         "description": "The direction of the connection or session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkDuration",
@@ -640,7 +719,8 @@
         "description": "The amount of time, in milliseconds, for the completion of the network session or connection.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkIcmpCode",
@@ -648,7 +728,8 @@
         "description": "For an ICMP message, the ICMP message type numeric value as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkIcmpType",
@@ -656,7 +737,8 @@
         "description": "For an ICMP message, the ICMP message type text representation, as described in RFC 2780 for IPv4 network connections, or in RFC 4443 for IPv6 network connections.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkPackets",
@@ -664,7 +746,8 @@
         "description": "The number of packets sent in both directions. If both PacketsReceived and PacketsSent exist, BytesTotal should equal their sum. The meaning of a packet is defined by the reporting device. If the event is aggregated, NetworkPackets is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkProtocol",
@@ -672,7 +755,8 @@
         "description": "The IP protocol used by the connection or session as listed in IANA protocol assignment, which is typically TCP, UDP, or ICMP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkProtocolVersion",
@@ -680,7 +764,8 @@
         "description": "The version of NetworkProtocol.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkRuleName",
@@ -688,7 +773,8 @@
         "description": "The name or ID of the rule by which DvcAction was decided upon.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkRuleNumber",
@@ -696,7 +782,8 @@
         "description": "The number of the rule by which DvcAction was decided upon.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NetworkSessionId",
@@ -704,7 +791,8 @@
         "description": "The session identifier as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -712,7 +800,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -720,7 +809,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcAppId",
@@ -728,7 +818,8 @@
         "description": "The ID of the source application, as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcAppName",
@@ -736,7 +827,8 @@
         "description": "The name of the source application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcAppType",
@@ -744,7 +836,8 @@
         "description": "The type of the source application.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcBytes",
@@ -752,7 +845,8 @@
         "description": "The number of bytes sent from the source to the destination for the connection or session. If the event is aggregated, SrcBytes is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDescription",
@@ -760,7 +854,8 @@
         "description": "A descriptive text associated with the source.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDeviceType",
@@ -768,7 +863,8 @@
         "description": "The type of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDomain",
@@ -776,7 +872,8 @@
         "description": "The domain of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDomainType",
@@ -784,7 +881,8 @@
         "description": "The type of SrcDomain.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcId",
@@ -792,7 +890,8 @@
         "description": "The ID of the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcDvcIdType",
@@ -800,7 +899,8 @@
         "description": "The type of SrcDvcId.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcFQDN",
@@ -808,7 +908,8 @@
         "description": "The source device hostname, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoCity",
@@ -816,7 +917,8 @@
         "description": "The city associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoCountry",
@@ -824,7 +926,8 @@
         "description": "The country associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoLatitude",
@@ -832,7 +935,8 @@
         "description": "The latitude of the geographical coordinate associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoLongitude",
@@ -840,7 +944,8 @@
         "description": "The longitude of the geographical coordinate associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcGeoRegion",
@@ -848,7 +953,8 @@
         "description": "The region within a country associated with the source IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcHostname",
@@ -856,7 +962,8 @@
         "description": "The source device hostname, excluding domain information. If no device name is available, may store the relevant IP address.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcInterfaceGuid",
@@ -864,7 +971,8 @@
         "description": "The GUID of the network interface used on the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcInterfaceName",
@@ -872,7 +980,8 @@
         "description": "The network interface used for the connection or session by the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcIpAddr",
@@ -880,7 +989,8 @@
         "description": "The IP address from which the connection or session originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcMacAddr",
@@ -888,7 +998,8 @@
         "description": "The MAC address of the network interface from which the connection or session originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcNatIpAddr",
@@ -896,7 +1007,8 @@
         "description": "The SrcNatIpAddr represents either of: The original address of the source device if network address translation was used or the IP address used by the intermediary device for communication with the destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcNatPortNumber",
@@ -904,7 +1016,8 @@
         "description": "If reported by an intermediary NAT device, the port used by the NAT device for communication with the destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcOriginalUserType",
@@ -912,7 +1025,8 @@
         "description": "The original destination user type, if provided by the by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPackets",
@@ -920,7 +1034,8 @@
         "description": "The number of packets sent from the source to the destination for the connection or session. The meaning of a packet is defined by the reporting device. If the event is aggregated, SrcPackets is the sum over all aggregated sessions.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPortNumber",
@@ -928,7 +1043,8 @@
         "description": "The IP port from which the connection originated. Might not be relevant for a session comprising multiple connections.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcSubscriptionId",
@@ -936,7 +1052,8 @@
         "description": "The cloud platform subscription ID the source device belongs to. SrcSubscriptionId map to a subscription ID on Azure and to an account ID on AWS.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcUserId",
@@ -944,7 +1061,8 @@
         "description": "A machine-readable, alphanumeric, unique representation of the source user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcUserIdType",
@@ -952,7 +1070,8 @@
         "description": "The type of the ID stored in the SrcUserId field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcUsername",
@@ -960,7 +1079,8 @@
         "description": "The source username, including domain information when available.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcUsernameType",
@@ -968,7 +1088,8 @@
         "description": "Specifies the type of the username stored in the SrcUsername field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcUserType",
@@ -976,7 +1097,8 @@
         "description": "The type of the source user.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcVlanId",
@@ -984,7 +1106,8 @@
         "description": "The VLAN ID related to the source device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcZone",
@@ -992,7 +1115,8 @@
         "description": "The network zone of the source, as defined by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -1000,7 +1124,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TcpFlagsAck",
@@ -1008,7 +1133,8 @@
         "description": "The TCP ACK flag reported. The acknowledgment flag is used to acknowledge the successful receipt of a packet. As we can see from the diagram above, the receiver sends an ACK as well as a SYN in the second step of the three way handshake process to tell the sender that it received its initial packet.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlagsFin",
@@ -1016,7 +1142,8 @@
         "description": "The TCP FIN flag reported. The finished flag means there is no more data from the sender. Therefore, it is used in the last packet sent from the sender.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlagsPsh",
@@ -1024,7 +1151,8 @@
         "description": "The TCP PSH flag reported. The push flag is somewhat similar to the URG flag and tells the receiver to process these packets as they are received instead of buffering them.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlagsRst",
@@ -1032,7 +1160,8 @@
         "description": "The TCP RST flag reported. The reset flag gets sent from the receiver to the sender when a packet is sent to a particular host that was not expecting it.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlagsSyn",
@@ -1040,7 +1169,8 @@
         "description": "The TCP SYN flag reported. The synchronisation flag is used as a first step in establishing a three way handshake between two hosts. Only the first packet from both the sender and receiver should have this flag set.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlagsUrg",
@@ -1048,7 +1178,8 @@
         "description": "The TCP URG flag reported. The urgent flag is used to notify the receiver to process the urgent packets before processing all other packets. The receiver will be notified when all known urgent data has been received. See RFC 6093 for more details.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -1056,7 +1187,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatCategory",
@@ -1064,7 +1196,8 @@
         "description": "The category of the threat or malware identified in the network session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatConfidence",
@@ -1072,7 +1205,8 @@
         "description": "The confidence level of the threat identified, normalized to a value between 0 and a 100.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatField",
@@ -1080,7 +1214,8 @@
         "description": "The field for which a threat was identified. The value is either SrcIpAddr, DstIpAddr, Domain, or DnsResponseName.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatFirstReportedTime",
@@ -1088,7 +1223,8 @@
         "description": "The first time the IP address or domain were identified as a threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatId",
@@ -1096,7 +1232,8 @@
         "description": "The ID of the threat or malware identified in the network session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatIpAddr",
@@ -1104,7 +1241,8 @@
         "description": "An IP address for which a threat was identified. The field ThreatField contains the name of the field ThreatIpAddr represents.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatIsActive",
@@ -1112,7 +1250,8 @@
         "description": "True ID the threat identified is considered an active threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatLastReportedTime",
@@ -1120,7 +1259,8 @@
         "description": "The last time the IP address or domain were identified as a threat.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatName",
@@ -1128,7 +1268,8 @@
         "description": "The name of the threat or malware identified in the network session.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatOriginalConfidence",
@@ -1136,7 +1277,8 @@
         "description": "The original confidence level of the threat identified, as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatOriginalRiskLevel",
@@ -1144,7 +1286,8 @@
         "description": "The risk level as reported by the reporting device.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatRiskLevel",
@@ -1152,7 +1295,8 @@
         "description": "The risk level associated with the session. The level is a number between 0 to 100.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -1160,7 +1304,8 @@
         "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -1168,8 +1313,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

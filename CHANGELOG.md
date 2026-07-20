@@ -2,6 +2,549 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-20 06:19 UTC
+
+**Columns added** (399)
+
+- `AADManagedIdentitySignInLogs.ConditionalAccessPoliciesV2` (dynamic)
+- `AADNonInteractiveUserSignInLogs.ConditionalAccessPoliciesV2` (dynamic)
+- `AADProvisioningLogs.Action` (string)
+- `AADProvisioningLogs.StatusInfo` (string)
+- `AADServicePrincipalSignInLogs.ConditionalAccessPoliciesV2` (dynamic)
+- `AADSignInEventsBeta.RiskEventTypes` (string)
+- `AADSignInEventsBeta.RiskLevelDuringSignIn` (int)
+- `AADSignInEventsBeta.SourceSystem` (string)
+- `AADSignInEventsBeta.TenantId` (string)
+- `AADSignInEventsBeta.TimeGenerated` (datetime)
+- `AADSignInEventsBeta.Type` (string)
+- `AADSpnSignInEventsBeta.IsConfidentialClient` (bool)
+- `AADSpnSignInEventsBeta.SourceSystem` (string)
+- `AADSpnSignInEventsBeta.TenantId` (string)
+- `AADSpnSignInEventsBeta.TimeGenerated` (datetime)
+- `AADSpnSignInEventsBeta.Type` (string)
+- `ADFSSignInLogs.ConditionalAccessPoliciesV2` (dynamic)
+- `AlertInfo.MachineGroup` (string)
+- `AlertInfo.SentinelWorkspaceIds` (string)
+- `AlertInfo.SourceSystem` (string)
+- `AlertInfo.TenantId` (string)
+- `AlertInfo.TimeGenerated` (datetime)
+- `AlertInfo.Type` (string)
+- `AuditLogs.TenantId` (string)
+- `AzureDiagnostics.ResourceId` (string)
+- `AzureDiagnostics.SourceSystem` (string)
+- `AzureDiagnostics.StreamType_s` (string)
+- `AzureDiagnostics.SubscriptionId` (string)
+- `AzureDiagnostics.TenantId` (string)
+- `AzureDiagnostics.Tenant_g` (string)
+- `AzureDiagnostics.TimeGenerated` (datetime)
+- `AzureDiagnostics.Type` (string)
+- `AzureDiagnostics._schema_s` (string)
+- `AzureDiagnostics.correlation_actionTrackingId_g` (string)
+- `AzureDiagnostics.correlation_clientTrackingId_s` (string)
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_claims_authnmethodsreferences_s` (string)
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_identity_claims_objectidentifier_g` (string)
+- `AzureDiagnostics.identity_claim_http_schemas_microsoft_com_identity_claims_scope_s` (string)
+- `AzureDiagnostics.identity_claim_http_schemas_xmlsoap_org_ws_2005_05_identity_claims_upn_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_DurationInMinutes_d` (real)
+- `AzureDiagnostics.resultDescription_Summary_DurationInMinutes_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_EndDateTimeUtc_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_EndDateTimeUtc_t` (datetime)
+- `AzureDiagnostics.resultDescription_Summary_InitialRequiredUpdatesCount_d` (real)
+- `AzureDiagnostics.resultDescription_Summary_InstallPercentage_d` (real)
+- `AzureDiagnostics.resultDescription_Summary_MachineId_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_MachineName_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_RebootRequired_b` (bool)
+- `AzureDiagnostics.resultDescription_Summary_ScheduleName_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_StartDateTimeUtc_t` (datetime)
+- `AzureDiagnostics.resultDescription_Summary_StatusDescription_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_Status_s` (string)
+- `AzureDiagnostics.resultDescription_Summary_TotalUpdatesFailed_d` (real)
+- `AzureDiagnostics.resultDescription_Summary_TotalUpdatesInstalled_d` (real)
+- `AzureDiagnostics.sslEnabled_s` (string)
+- `AzureDiagnostics.startTime_t` (datetime)
+- `AzureDiagnostics.status_s` (string)
+- `AzureDiagnostics.subnetId_s` (string)
+- `AzureDiagnostics.subnetPrefix_s` (string)
+- `AzureDiagnostics.systemId_g` (string)
+- `AzureDiagnostics.timeTaken_d` (real)
+- `AzureDiagnostics.type_s` (string)
+- `AzureDiagnostics.userAgent_s` (string)
+- `AzureDiagnostics.vnetResourceGuid_g` (string)
+- `AzureDiagnostics.workflowId_s` (string)
+- `AzureMetrics.AdditionalInformation` (string)
+- `AzureMetrics.ReportReferenceLink` (string)
+- `AzureMetrics.TenantId` (string)
+- `BehaviorEntities.CloudPlatform` (string)
+- `BehaviorEntities.CloudResource` (string)
+- `BehaviorEntities.CloudResourceType` (string)
+- `BehaviorEntities.CloudSubscriptionId` (string)
+- `BehaviorEntities.MachineGroup` (string)
+- `BehaviorEntities.SourceSystem` (string)
+- `BehaviorEntities.TenantId` (string)
+- `BehaviorEntities.TimeGenerated` (datetime)
+- `BehaviorEntities.Type` (string)
+- `BehaviorEntities._BilledSize` (real)
+- `BehaviorEntities._IsBillable` (string)
+- `BehaviorEntities._ItemId` (string)
+- `BehaviorEntities._ResourceId` (string)
+- `BehaviorEntities._SubscriptionId` (string)
+- `BehaviorEntities._TimeReceived` (datetime)
+- `BehaviorInfo.Insights` (string)
+- `BehaviorInfo.MachineGroup` (string)
+- `BehaviorInfo.SourceSystem` (string)
+- `BehaviorInfo.TenantId` (string)
+- `BehaviorInfo.TimeGenerated` (datetime)
+- `BehaviorInfo.Type` (string)
+- `BehaviorInfo._BilledSize` (real)
+- `BehaviorInfo._IsBillable` (string)
+- `BehaviorInfo._ItemId` (string)
+- `BehaviorInfo._ResourceId` (string)
+- `BehaviorInfo._SubscriptionId` (string)
+- `BehaviorInfo._TimeReceived` (datetime)
+- `CampaignInfo.SourceSystem` (string)
+- `CampaignInfo.TenantId` (string)
+- `CampaignInfo.TimeGenerated` (datetime)
+- `CampaignInfo.Type` (string)
+- `CloudAuditEvents.Account` (string)
+- `CloudAuditEvents.AuditSource` (string)
+- `CloudAuditEvents.AwsResourceName` (string)
+- `CloudAuditEvents.AzureResourceId` (string)
+- `CloudAuditEvents.GcpFullResourceName` (string)
+- `CloudAuditEvents.SourceSystem` (string)
+- `CloudAuditEvents.TenantId` (string)
+- `CloudAuditEvents.TimeGenerated` (datetime)
+- `CloudAuditEvents.Type` (string)
+- `CloudDnsEvents.EventSubType` (string)
+- `CloudDnsEvents.EventType` (string)
+- `CloudDnsEvents.SourceSystem` (string)
+- `CloudDnsEvents.TenantId` (string)
+- `CloudDnsEvents.TimeGenerated` (datetime)
+- `CloudDnsEvents.Type` (string)
+- `CloudPolicyEnforcementEvents.SourceSystem` (string)
+- `CloudPolicyEnforcementEvents.TenantId` (string)
+- `CloudPolicyEnforcementEvents.TimeGenerated` (datetime)
+- `CloudPolicyEnforcementEvents.Type` (string)
+- `CloudProcessEvents.ReportId` (string)
+- `CloudProcessEvents.SourceSystem` (string)
+- `CloudProcessEvents.TenantId` (string)
+- `CloudProcessEvents.TimeGenerated` (datetime)
+- `CloudProcessEvents.Type` (string)
+- `CloudStorageAggregatedEvents.Md5Hashes` (dynamic)
+- `CloudStorageAggregatedEvents.SourceSystem` (string)
+- `CloudStorageAggregatedEvents.TenantId` (string)
+- `CloudStorageAggregatedEvents.TimeGenerated` (datetime)
+- `CloudStorageAggregatedEvents.Type` (string)
+- `DataSecurityBehaviors.IsUnderIrmPolicy` (bool)
+- `DataSecurityBehaviors.PolicyMatchInfo` (dynamic)
+- `DataSecurityBehaviors.SourceSystem` (string)
+- `DataSecurityBehaviors.TenantId` (string)
+- `DataSecurityBehaviors.TimeGenerated` (datetime)
+- `DataSecurityBehaviors.Type` (string)
+- `DataSecurityEvents.AlertInfo` (dynamic)
+- `DataSecurityEvents.AttachmentInfo` (dynamic)
+- `DataSecurityEvents.ContentInfo` (dynamic)
+- `DataSecurityEvents.DeviceInfo` (dynamic)
+- `DataSecurityEvents.EventTime` (datetime)
+- `DataSecurityEvents.IrmSequenceInfo` (dynamic)
+- `DataSecurityEvents.IsIrmInteresting` (bool)
+- `DataSecurityEvents.ParentContentInfo` (dynamic)
+- `DataSecurityEvents.PhysicalAccessPointInfo` (dynamic)
+- `DataSecurityEvents.Recipients` (string)
+- `DataSecurityEvents.RemovableMediaInfo` (dynamic)
+- `DataSecurityEvents.RiskyAIUsageAccessedResourceInfo` (dynamic)
+- `DataSecurityEvents.RiskyAIUsageAppCategory` (string)
+- `DataSecurityEvents.RiskyAIUsageSensitivityLabelsInfo` (dynamic)
+- `DataSecurityEvents.SharepointSiteSensitivityLabelId` (string)
+- `DataSecurityEvents.SourceSystem` (string)
+- `DataSecurityEvents.TeamsChannelInfo` (dynamic)
+- `DataSecurityEvents.TenantId` (string)
+- `DataSecurityEvents.TimeGenerated` (datetime)
+- `DataSecurityEvents.Type` (string)
+- `DeviceFileCertificateInfo.MachineGroup` (string)
+- `DeviceFileCertificateInfo.SourceSystem` (string)
+- `DeviceFileCertificateInfo.TenantId` (string)
+- `DeviceFileCertificateInfo.TimeGenerated` (datetime)
+- `DeviceFileCertificateInfo.Type` (string)
+- `DeviceFileEvents.MachineGroup` (string)
+- `DeviceFileEvents.SourceSystem` (string)
+- `DeviceFileEvents.TenantId` (string)
+- `DeviceFileEvents.TimeGenerated` (datetime)
+- `DeviceFileEvents.Type` (string)
+- `DeviceImageLoadEvents.MachineGroup` (string)
+- `DeviceImageLoadEvents.SourceSystem` (string)
+- `DeviceImageLoadEvents.TenantId` (string)
+- `DeviceImageLoadEvents.TimeGenerated` (datetime)
+- `DeviceImageLoadEvents.Type` (string)
+- `DeviceInfo.DeviceRoles` (string)
+- `DeviceInfo.FirmwareVersions` (string)
+- `DeviceInfo.RestrictedDeviceSecurityOperations` (string)
+- `DeviceInfo.SourceSystem` (string)
+- `DeviceInfo.TenantId` (string)
+- `DeviceInfo.TimeGenerated` (datetime)
+- `DeviceInfo.Type` (string)
+- `DeviceLogonEvents.MachineGroup` (string)
+- `DeviceLogonEvents.SourceSystem` (string)
+- `DeviceLogonEvents.TenantId` (string)
+- `DeviceLogonEvents.TimeGenerated` (datetime)
+- `DeviceLogonEvents.Type` (string)
+- `DeviceNetworkEvents.MachineGroup` (string)
+- `DeviceNetworkEvents.SourceSystem` (string)
+- `DeviceNetworkEvents.TenantId` (string)
+- `DeviceNetworkEvents.TimeGenerated` (datetime)
+- `DeviceNetworkEvents.Type` (string)
+- `DeviceNetworkInfo.MachineGroup` (string)
+- `DeviceNetworkInfo.SourceSystem` (string)
+- `DeviceNetworkInfo.TenantId` (string)
+- `DeviceNetworkInfo.TimeGenerated` (datetime)
+- `DeviceNetworkInfo.Type` (string)
+- `DeviceProcessEvents.MachineGroup` (string)
+- `DeviceProcessEvents.SourceSystem` (string)
+- `DeviceProcessEvents.TenantId` (string)
+- `DeviceProcessEvents.TimeGenerated` (datetime)
+- `DeviceProcessEvents.Type` (string)
+- `DeviceRegistryEvents.MachineGroup` (string)
+- `DeviceRegistryEvents.SourceSystem` (string)
+- `DeviceRegistryEvents.TenantId` (string)
+- `DeviceRegistryEvents.TimeGenerated` (datetime)
+- `DeviceRegistryEvents.Type` (string)
+- `DeviceTvmInfoGathering.MachineGroup` (string)
+- `DeviceTvmInfoGathering.SourceSystem` (string)
+- `DeviceTvmInfoGathering.TenantId` (string)
+- `DeviceTvmInfoGathering.Type` (string)
+- `DeviceTvmInfoGatheringKB.SourceSystem` (string)
+- `DeviceTvmInfoGatheringKB.TenantId` (string)
+- `DeviceTvmInfoGatheringKB.Type` (string)
+- `DeviceTvmSecureConfigurationAssessment.MachineGroup` (string)
+- `DeviceTvmSecureConfigurationAssessment.SourceSystem` (string)
+- `DeviceTvmSecureConfigurationAssessment.TenantId` (string)
+- `DeviceTvmSecureConfigurationAssessment.TimeGenerated` (datetime)
+- `DeviceTvmSecureConfigurationAssessment.Type` (string)
+- `DeviceTvmSecureConfigurationAssessmentKB.SourceSystem` (string)
+- `DeviceTvmSecureConfigurationAssessmentKB.TenantId` (string)
+- `DeviceTvmSecureConfigurationAssessmentKB.Type` (string)
+- `DeviceTvmSoftwareEvidenceBeta.MachineGroup` (string)
+- `DeviceTvmSoftwareEvidenceBeta.SourceSystem` (string)
+- `DeviceTvmSoftwareEvidenceBeta.TenantId` (string)
+- `DeviceTvmSoftwareEvidenceBeta.Type` (string)
+- `DeviceTvmSoftwareInventory.MachineGroup` (string)
+- `DeviceTvmSoftwareInventory.SourceSystem` (string)
+- `DeviceTvmSoftwareInventory.TenantId` (string)
+- `DeviceTvmSoftwareInventory.Type` (string)
+- `DeviceTvmSoftwareVulnerabilities.AadDeviceId` (string)
+- `DeviceTvmSoftwareVulnerabilities.CveMitigationStatus` (string)
+- `DeviceTvmSoftwareVulnerabilities.MachineGroup` (string)
+- `DeviceTvmSoftwareVulnerabilities.SourceSystem` (string)
+- `DeviceTvmSoftwareVulnerabilities.TenantId` (string)
+- `DeviceTvmSoftwareVulnerabilities.Type` (string)
+- `DeviceTvmSoftwareVulnerabilitiesKB.CveSupportability` (string)
+- `DeviceTvmSoftwareVulnerabilitiesKB.CvssVector` (string)
+- `DeviceTvmSoftwareVulnerabilitiesKB.EpssScore` (real)
+- `DeviceTvmSoftwareVulnerabilitiesKB.SourceSystem` (string)
+- `DeviceTvmSoftwareVulnerabilitiesKB.TenantId` (string)
+- `DeviceTvmSoftwareVulnerabilitiesKB.Type` (string)
+- `DisruptionAndResponseEvents.DataSource` (string)
+- `DisruptionAndResponseEvents.LogonId` (long)
+- `DisruptionAndResponseEvents.MachineGroup` (string)
+- `DisruptionAndResponseEvents.ReportId` (long)
+- `DisruptionAndResponseEvents.SessionId` (long)
+- `DisruptionAndResponseEvents.SourceSystem` (string)
+- `DisruptionAndResponseEvents.TargetDeviceName` (string)
+- `DisruptionAndResponseEvents.TargetDomainName` (string)
+- `DisruptionAndResponseEvents.TenantId` (string)
+- `DisruptionAndResponseEvents.TimeGenerated` (datetime)
+- `DisruptionAndResponseEvents.Type` (string)
+- `DnsEvents.ReportReferenceLink` (string)
+- `DnsEvents.TenantId` (string)
+- `DnsInventory.TenantId` (string)
+- `Dynamics365Activity.Scope` (string)
+- `Dynamics365Activity.ServiceContextId` (string)
+- `Dynamics365Activity.ServiceContextIdType` (string)
+- `EmailAttachmentInfo.SourceSystem` (string)
+- `EmailAttachmentInfo.TenantId` (string)
+- `EmailAttachmentInfo.TimeGenerated` (datetime)
+- `EmailAttachmentInfo.Type` (string)
+- `EmailPostDeliveryEvents.SourceSystem` (string)
+- `EmailPostDeliveryEvents.TenantId` (string)
+- `EmailPostDeliveryEvents.TimeGenerated` (datetime)
+- `EmailPostDeliveryEvents.Type` (string)
+- `EmailUrlInfo.SourceSystem` (string)
+- `EmailUrlInfo.TenantId` (string)
+- `EmailUrlInfo.TimeGenerated` (datetime)
+- `EmailUrlInfo.Type` (string)
+- `EntraIdSignInEvents.GatewayJA4` (string)
+- `EntraIdSignInEvents.IsSignInThroughGlobalSecureAccess` (bool)
+- `EntraIdSignInEvents.RiskEventTypes` (string)
+- `EntraIdSignInEvents.RiskLevelDuringSignIn` (int)
+- `EntraIdSignInEvents.SourceSystem` (string)
+- `EntraIdSignInEvents.TenantId` (string)
+- `EntraIdSignInEvents.TimeGenerated` (datetime)
+- `EntraIdSignInEvents.Type` (string)
+- `EntraIdSignInEvents.UniqueTokenId` (string)
+- `EntraIdSpnSignInEvents.GatewayJA4` (string)
+- `EntraIdSpnSignInEvents.IsConfidentialClient` (bool)
+- `EntraIdSpnSignInEvents.SessionId` (string)
+- `EntraIdSpnSignInEvents.SourceSystem` (string)
+- `EntraIdSpnSignInEvents.TenantId` (string)
+- `EntraIdSpnSignInEvents.TimeGenerated` (datetime)
+- `EntraIdSpnSignInEvents.Type` (string)
+- `EntraIdSpnSignInEvents.UniqueTokenId` (string)
+- `EntraIdSpnSignInEvents.UserAgent` (string)
+- `Event.MG` (string)
+- `Event.TenantId` (string)
+- `ExposureGraphEdges.SourceSystem` (string)
+- `ExposureGraphEdges.TenantId` (string)
+- `ExposureGraphEdges.Type` (string)
+- `ExposureGraphNodes.SourceSystem` (string)
+- `ExposureGraphNodes.TenantId` (string)
+- `ExposureGraphNodes.Type` (string)
+- `FileMaliciousContentInfo.DetectionMethods` (dynamic)
+- `FileMaliciousContentInfo.DocumentID` (string)
+- `FileMaliciousContentInfo.FileCreationTime` (datetime)
+- `FileMaliciousContentInfo.FileName` (string)
+- `FileMaliciousContentInfo.FileOwnerDisplayName` (string)
+- `FileMaliciousContentInfo.FileOwnerUpn` (string)
+- `FileMaliciousContentInfo.FileSize` (long)
+- `FileMaliciousContentInfo.FolderPath` (string)
+- `FileMaliciousContentInfo.LastModifiedTime` (datetime)
+- `FileMaliciousContentInfo.LastModifyingAccountUpn` (string)
+- `FileMaliciousContentInfo.SHA256` (string)
+- `FileMaliciousContentInfo.SourceSystem` (string)
+- `FileMaliciousContentInfo.TenantId` (string)
+- `FileMaliciousContentInfo.ThreatNames` (string)
+- `FileMaliciousContentInfo.ThreatTypes` (string)
+- `FileMaliciousContentInfo.TimeGenerated` (datetime)
+- `FileMaliciousContentInfo.Type` (string)
+- `FileMaliciousContentInfo.Workload` (string)
+- `IdentityAccountInfo.AuthenticationSourceAccountId` (string)
+- `IdentityAccountInfo.CreatedDateTime` (datetime)
+- `IdentityAccountInfo.IsPrimary` (bool)
+- `IdentityAccountInfo.SourceProviderRiskLevel` (string)
+- `IdentityAccountInfo.SourceProviderRiskLevelDetails` (string)
+- `IdentityAccountInfo.SourceSystem` (string)
+- `IdentityAccountInfo.TimeGenerated` (datetime)
+- `IdentityDirectoryEvents.SourceSystem` (string)
+- `IdentityDirectoryEvents.TenantId` (string)
+- `IdentityDirectoryEvents.TimeGenerated` (datetime)
+- `IdentityDirectoryEvents.Type` (string)
+- `IdentityEvents.AccountId` (string)
+- `IdentityEvents.ReportId` (string)
+- `IdentityEvents.SourceSystem` (string)
+- `IdentityEvents.TenantId` (string)
+- `IdentityEvents.TimeGenerated` (datetime)
+- `IdentityEvents.Timestamp` (datetime)
+- `IdentityEvents.Type` (string)
+- `IdentityInfo.IdentityId` (string)
+- `IdentityInfo.PrivilegedEntraPimRoles` (dynamic)
+- `IdentityInfo.RiskScore` (int)
+- `IdentityInfo.RiskScoreUpdateTime` (datetime)
+- `IdentityInfo.SourceProvider` (string)
+- `IdentityInfo.TimeGenerated` (datetime)
+- `IdentityQueryEvents.SourceSystem` (string)
+- `IdentityQueryEvents.TenantId` (string)
+- `IdentityQueryEvents.TimeGenerated` (datetime)
+- `IdentityQueryEvents.Type` (string)
+- `MessageEvents.MessageSubtype` (string)
+- `MessageEvents.MessageType` (string)
+- `MessageEvents.SourceSystem` (string)
+- `MessageEvents.Subject` (string)
+- `MessageEvents.TenantId` (string)
+- `MessageEvents.ThreadName` (string)
+- `MessageEvents.ThreadType` (string)
+- `MessageEvents.TimeGenerated` (datetime)
+- `MessageEvents.Type` (string)
+- `MessagePostDeliveryEvents.SourceSystem` (string)
+- `MessagePostDeliveryEvents.TenantId` (string)
+- `MessagePostDeliveryEvents.TimeGenerated` (datetime)
+- `MessagePostDeliveryEvents.Type` (string)
+- `MessageUrlInfo.SourceSystem` (string)
+- `MessageUrlInfo.TenantId` (string)
+- `MessageUrlInfo.TimeGenerated` (datetime)
+- `MessageUrlInfo.Type` (string)
+- `OAuthAppInfo.AssignedRoles` (dynamic)
+- `OAuthAppInfo.RiskScore` (int)
+- `OAuthAppInfo.SourceSystem` (string)
+- `OAuthAppInfo.TenantId` (string)
+- `OAuthAppInfo.TimeGenerated` (datetime)
+- `OAuthAppInfo.Type` (string)
+- `OfficeActivity.ActorContextId_` (string)
+- `OfficeActivity.ClientIP_` (string)
+- `OfficeActivity.IssuedAtTime` (datetime)
+- `OfficeActivity.OfficeTenantId_` (string)
+- `OfficeActivity.OrganizationId_` (string)
+- `OfficeActivity.Scope` (string)
+- `OfficeActivity.Site_Url_` (string)
+- `OfficeActivity.SourceFileName_` (string)
+- `OfficeActivity.SourceRelativeUrl_` (string)
+- `OfficeActivity.UniqueTokenId` (string)
+- `OfficeActivity.UserId_` (string)
+- `SecurityAlert.SourceSystem` (string)
+- `SecurityAlert.TenantId` (string)
+- `SecurityEvent.AccessList` (string)
+- `SecurityEvent.AccessReason` (string)
+- `SecurityEvent.AzureTableName` (string)
+- `SecurityEvent.EventOriginId` (string)
+- `SecurityEvent.ImpersonationLevel` (string)
+- `SecurityEvent.MG` (string)
+- `SecurityEvent.PartitionKey` (string)
+- `SecurityEvent.RowKey` (string)
+- `SecurityEvent.TimeCollected` (datetime)
+- `SigninLogs.TenantId` (string)
+- `Syslog.MG` (string)
+- `Syslog.TenantId` (string)
+- `ThreatIntelligenceIndicator.ApplicationId` (string)
+- `ThreatIntelligenceIndicator.AzureTenantId` (string)
+- `W3CIISLog.AdditionalInformation` (string)
+- `W3CIISLog.Date` (string)
+- `W3CIISLog.FileOffset` (int)
+- `W3CIISLog.FileUri` (string)
+- `W3CIISLog.MG` (string)
+- `W3CIISLog.ReportReferenceLink` (string)
+- `W3CIISLog.TenantId` (string)
+- `W3CIISLog.Time` (string)
+- `W3CIISLog.sComputerName` (string)
+- `WindowsEvent.Data` (dynamic)
+- `WindowsEvent.SourceSystem` (string)
+- `WindowsEvent.TimeCreated` (datetime)
+
+**Columns removed** (135)
+
+- `OCI_LogsV2_CL.EventEndTime`
+- `OCI_LogsV2_CL.EventStartTime`
+- `OCI_LogsV2_CL.data`
+- `OCI_LogsV2_CL.data_additionalDetails_X_Real_Port_s`
+- `OCI_LogsV2_CL.data_additionalDetails_description_s`
+- `OCI_LogsV2_CL.data_additionalDetails_homeRegionKey_s`
+- `OCI_LogsV2_CL.data_additionalDetails_id_s`
+- `OCI_LogsV2_CL.data_additionalDetails_isAccessable_b`
+- `OCI_LogsV2_CL.data_additionalDetails_isFreeTier_b`
+- `OCI_LogsV2_CL.data_additionalDetails_lifeCycleState_s`
+- `OCI_LogsV2_CL.data_additionalDetails_namespace_s`
+- `OCI_LogsV2_CL.data_additionalDetails_oracleMyServicesIdentifier_s`
+- `OCI_LogsV2_CL.data_additionalDetails_type_s`
+- `OCI_LogsV2_CL.data_bytesOut_d`
+- `OCI_LogsV2_CL.data_destinationAddress_s`
+- `OCI_LogsV2_CL.data_destinationPort_d`
+- `OCI_LogsV2_CL.data_freeformTags_VCN_s`
+- `OCI_LogsV2_CL.data_identity_ipAddress_s`
+- `OCI_LogsV2_CL.data_protocolName_s`
+- `OCI_LogsV2_CL.data_protocol_d`
+- `OCI_LogsV2_CL.data_request_headers_Accept_Encoding_s`
+- `OCI_LogsV2_CL.data_request_headers_Accept_Language_s`
+- `OCI_LogsV2_CL.data_request_headers_Accept_s`
+- `OCI_LogsV2_CL.data_request_headers_Cache_Control_s`
+- `OCI_LogsV2_CL.data_request_headers_Connection_s`
+- `OCI_LogsV2_CL.data_request_headers_Content_Length_d`
+- `OCI_LogsV2_CL.data_request_headers_Content_Type_s`
+- `OCI_LogsV2_CL.data_request_headers_Cookie_s`
+- `OCI_LogsV2_CL.data_request_headers_Date_t`
+- `OCI_LogsV2_CL.data_request_headers_If_None_Match_s`
+- `OCI_LogsV2_CL.data_request_headers_Origin_s`
+- `OCI_LogsV2_CL.data_request_headers_Referer_s`
+- `OCI_LogsV2_CL.data_request_headers_User_Agent_s`
+- `OCI_LogsV2_CL.data_request_headers_X_Forwarded_Host_s`
+- `OCI_LogsV2_CL.data_request_headers_X_Forwarded_Port_s`
+- `OCI_LogsV2_CL.data_request_headers_X_Forwarded_Proto_s`
+- `OCI_LogsV2_CL.data_request_headers_X_OCI_LB_NetworkMetadata_s`
+- `OCI_LogsV2_CL.data_request_headers_X_OCI_LB_PrivateAccessMetadata_s`
+- `OCI_LogsV2_CL.data_request_headers_X_Oracle_Auth_Client_CN_s`
+- `OCI_LogsV2_CL.data_request_headers_X_Real_Port_s`
+- `OCI_LogsV2_CL.data_request_headers_accept_language_s`
+- `OCI_LogsV2_CL.data_request_headers_auth_info_s`
+- `OCI_LogsV2_CL.data_request_headers_authorization_s`
+- `OCI_LogsV2_CL.data_request_headers_date_t`
+- `OCI_LogsV2_CL.data_request_headers_oci_skip_authorization_for_splat_s`
+- `OCI_LogsV2_CL.data_request_headers_oci_splat_audited_s`
+- `OCI_LogsV2_CL.data_request_headers_oci_splat_generated_ocids_s`
+- `OCI_LogsV2_CL.data_request_headers_oci_splat_internal_context_s`
+- `OCI_LogsV2_CL.data_request_headers_opc_client_info_s`
+- `OCI_LogsV2_CL.data_request_headers_opc_obo_token_s`
+- `OCI_LogsV2_CL.data_request_headers_opc_principal_s`
+- `OCI_LogsV2_CL.data_request_headers_opc_request_id_s`
+- `OCI_LogsV2_CL.data_request_headers_opc_retry_token_s`
+- `OCI_LogsV2_CL.data_request_headers_x_content_sha256_s`
+- `OCI_LogsV2_CL.data_request_headers_x_date_t`
+- `OCI_LogsV2_CL.data_request_parameters_accessLevel_s`
+- `OCI_LogsV2_CL.data_request_parameters_availabilityDomain_s`
+- `OCI_LogsV2_CL.data_request_parameters_compartmentIdInSubtree_b`
+- `OCI_LogsV2_CL.data_request_parameters_endTime_t`
+- `OCI_LogsV2_CL.data_request_parameters_fields_s`
+- `OCI_LogsV2_CL.data_request_parameters_granularity_s`
+- `OCI_LogsV2_CL.data_request_parameters_includeSubcompartments_b`
+- `OCI_LogsV2_CL.data_request_parameters_isBanner_b`
+- `OCI_LogsV2_CL.data_request_parameters_isMergeEnabled_s`
+- `OCI_LogsV2_CL.data_request_parameters_limit_d`
+- `OCI_LogsV2_CL.data_request_parameters_operatingSystemVersion_s`
+- `OCI_LogsV2_CL.data_request_parameters_operatingSystem_s`
+- `OCI_LogsV2_CL.data_request_parameters_page_s`
+- `OCI_LogsV2_CL.data_request_parameters_param0_s`
+- `OCI_LogsV2_CL.data_request_parameters_protocol_s`
+- `OCI_LogsV2_CL.data_request_parameters_shape_s`
+- `OCI_LogsV2_CL.data_request_parameters_sortBy_s`
+- `OCI_LogsV2_CL.data_request_parameters_sortOrder_s`
+- `OCI_LogsV2_CL.data_request_parameters_startTime_t`
+- `OCI_LogsV2_CL.data_request_parameters_streamPoolId_s`
+- `OCI_LogsV2_CL.data_request_parameters_tenancy_s`
+- `OCI_LogsV2_CL.data_response_headers_Access_Control_Allow_Credentials_s`
+- `OCI_LogsV2_CL.data_response_headers_Access_Control_Allow_Origin_s`
+- `OCI_LogsV2_CL.data_response_headers_Access_Control_Expose_Headers_s`
+- `OCI_LogsV2_CL.data_response_headers_Cache_Control_s`
+- `OCI_LogsV2_CL.data_response_headers_Connection_s`
+- `OCI_LogsV2_CL.data_response_headers_Content_Encoding_s`
+- `OCI_LogsV2_CL.data_response_headers_Content_Length_d`
+- `OCI_LogsV2_CL.data_response_headers_Content_Security_Policy_s`
+- `OCI_LogsV2_CL.data_response_headers_Content_Type_s`
+- `OCI_LogsV2_CL.data_response_headers_Date_t`
+- `OCI_LogsV2_CL.data_response_headers_ETag_s`
+- `OCI_LogsV2_CL.data_response_headers_Etag_s`
+- `OCI_LogsV2_CL.data_response_headers_Location_s`
+- `OCI_LogsV2_CL.data_response_headers_Opc_Request_Id_s`
+- `OCI_LogsV2_CL.data_response_headers_Pragma_s`
+- `OCI_LogsV2_CL.data_response_headers_Strict_Transport_Security_s`
+- `OCI_LogsV2_CL.data_response_headers_Timing_Allow_Origin_s`
+- `OCI_LogsV2_CL.data_response_headers_Transfer_Encoding_s`
+- `OCI_LogsV2_CL.data_response_headers_Vary_s`
+- `OCI_LogsV2_CL.data_response_headers_X_Content_Type_Options_s`
+- `OCI_LogsV2_CL.data_response_headers_X_FRAME_OPTIONS_s`
+- `OCI_LogsV2_CL.data_response_headers_X_Frame_Options_s`
+- `OCI_LogsV2_CL.data_response_headers_X_Xss_Protection_s`
+- `OCI_LogsV2_CL.data_response_headers_access_control_allow_credentials_s`
+- `OCI_LogsV2_CL.data_response_headers_access_control_allow_methods_s`
+- `OCI_LogsV2_CL.data_response_headers_access_control_allow_origin_s`
+- `OCI_LogsV2_CL.data_response_headers_access_control_expose_headers_s`
+- `OCI_LogsV2_CL.data_response_headers_date_t`
+- `OCI_LogsV2_CL.data_response_headers_opc_limit_d`
+- `OCI_LogsV2_CL.data_response_headers_opc_next_page_s`
+- `OCI_LogsV2_CL.data_response_headers_opc_prev_page_s`
+- `OCI_LogsV2_CL.data_response_headers_opc_previous_page_s`
+- `OCI_LogsV2_CL.data_response_headers_opc_request_id_s`
+- `OCI_LogsV2_CL.data_response_headers_opc_work_request_id_s`
+- `OCI_LogsV2_CL.data_response_headers_x_api_id_s`
+- `OCI_LogsV2_CL.data_response_responseTime_d`
+- `OCI_LogsV2_CL.data_response_status_d`
+- `OCI_LogsV2_CL.data_sourceAddress_s`
+- `OCI_LogsV2_CL.data_sourcePort_d`
+- `OCI_LogsV2_CL.data_stateChange_current_Instance_agentConfig_s`
+- `OCI_LogsV2_CL.data_stateChange_current_Instance_availabilityConfig_s`
+- `OCI_LogsV2_CL.data_stateChange_current_Instance_definedTags_s`
+- `OCI_LogsV2_CL.data_stateChange_current_LoadBalancers_s`
+- `OCI_LogsV2_CL.data_stateChange_current_configuration_s`
+- `OCI_LogsV2_CL.data_stateChange_current_definedTags_Oracle_Tags_s`
+- `OCI_LogsV2_CL.data_stateChange_current_definedTags_s`
+- `OCI_LogsV2_CL.data_stateChange_current_freeformTags_s`
+- `OCI_LogsV2_CL.data_stateChange_current_keyValue_s`
+- `OCI_LogsV2_CL.data_stateChange_current_lifecycleDetails_s`
+- `OCI_LogsV2_CL.data_stateChange_current_systemTags_orcl_cloud_s`
+- `OCI_LogsV2_CL.data_stateChange_current_tenancyId_s`
+- `OCI_LogsV2_CL.data_stateChange_current_timeLastModified_t`
+- `OCI_LogsV2_CL.data_version_s`
+- `OCI_LogsV2_CL.dataschema_s`
+- `OCI_LogsV2_CL.id_s`
+- `OCI_LogsV2_CL.oracle`
+- `OCI_LogsV2_CL.oracle_ingestedtime_t`
+- `OCI_LogsV2_CL.specversion_s`
+- `OCI_LogsV2_CL.time_t`
+
+
 ### 2026-07-18 05:20 UTC
 
 **Tables added** (1)
