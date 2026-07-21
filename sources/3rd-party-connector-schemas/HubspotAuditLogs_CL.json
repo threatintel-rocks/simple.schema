@@ -1,0 +1,64 @@
+{
+  "HubspotAuditLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "ActingUser",
+        "type": "dynamic",
+        "description": "An object containing the user's ID and email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "The type of user action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the action event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp of when the action was performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubCategory",
+        "type": "string",
+        "description": "The subcategory of user action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetObjectId",
+        "type": "string",
+        "description": "The ID of the object that the user performed the action on.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Hubspot"
+  }
+}

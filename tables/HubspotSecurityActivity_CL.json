@@ -1,0 +1,96 @@
+{
+  "HubspotSecurityActivity_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "ActingUser",
+        "type": "string",
+        "description": "The email address of the user associated with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryCode",
+        "type": "string",
+        "description": "The country code of the location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp of when activity occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the login event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InfoUrl",
+        "type": "string",
+        "description": "The URL of the page where the activity occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "The IP address used for the login attempt.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "The location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "The ID of the object that the activity was performed on.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegionCode",
+        "type": "string",
+        "description": "The region code of the location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "int",
+        "description": "The ID of the user associated with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Hubspot"
+  }
+}

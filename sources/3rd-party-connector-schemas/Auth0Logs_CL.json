@@ -5,7 +5,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "",
+        "description": "The time when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -13,7 +13,7 @@
       {
         "name": "event_date",
         "type": "datetime",
-        "description": "",
+        "description": "Date and time when the event occurred (event-occurrence time).",
         "availability": [
           "Sentinel"
         ]
@@ -21,7 +21,7 @@
       {
         "name": "EventType",
         "type": "string",
-        "description": "",
+        "description": "Type of event.",
         "availability": [
           "Sentinel"
         ]
@@ -29,7 +29,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "",
+        "description": "Description of this event.",
         "availability": [
           "Sentinel"
         ]
@@ -37,7 +37,7 @@
       {
         "name": "Connection",
         "type": "string",
-        "description": "",
+        "description": "Name of the connection the event relates to.",
         "availability": [
           "Sentinel"
         ]
@@ -45,7 +45,7 @@
       {
         "name": "ConnectionId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the connection the event relates to.",
         "availability": [
           "Sentinel"
         ]
@@ -53,7 +53,7 @@
       {
         "name": "ClientId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the application (client) that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -61,7 +61,7 @@
       {
         "name": "ClientName",
         "type": "string",
-        "description": "",
+        "description": "Name of the application (client) that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -69,7 +69,7 @@
       {
         "name": "SrcIpAddr",
         "type": "string",
-        "description": "",
+        "description": "IP address of the log event source.",
         "availability": [
           "Sentinel"
         ]
@@ -77,7 +77,7 @@
       {
         "name": "HttpUserAgent",
         "type": "string",
-        "description": "",
+        "description": "User agent that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -85,7 +85,7 @@
       {
         "name": "SrcHostname",
         "type": "string",
-        "description": "",
+        "description": "Hostname the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -93,7 +93,7 @@
       {
         "name": "ActorUserId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the user involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -101,7 +101,7 @@
       {
         "name": "ActorUsername",
         "type": "string",
-        "description": "",
+        "description": "Name of the user involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -109,7 +109,7 @@
       {
         "name": "Audience",
         "type": "string",
-        "description": "",
+        "description": "API audience the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -117,7 +117,7 @@
       {
         "name": "Scope",
         "type": "string",
-        "description": "",
+        "description": "Scopes the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -125,7 +125,7 @@
       {
         "name": "Strategy",
         "type": "string",
-        "description": "",
+        "description": "Name of the strategy involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -133,7 +133,7 @@
       {
         "name": "StrategyType",
         "type": "string",
-        "description": "",
+        "description": "Type of strategy involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -141,7 +141,7 @@
       {
         "name": "LocationInfo",
         "type": "dynamic",
-        "description": "",
+        "description": "Geographical location information of the event source.",
         "availability": [
           "Sentinel"
         ]
@@ -149,7 +149,7 @@
       {
         "name": "Details",
         "type": "dynamic",
-        "description": "",
+        "description": "Additional useful details related to the event, in JSON format.",
         "availability": [
           "Sentinel"
         ]
@@ -157,7 +157,7 @@
       {
         "name": "LogId",
         "type": "string",
-        "description": "",
+        "description": "Unique identifier of the log event.",
         "availability": [
           "Sentinel"
         ]
@@ -165,7 +165,7 @@
       {
         "name": "TenantName",
         "type": "string",
-        "description": "",
+        "description": "Name of the Auth0 tenant that produced the event.",
         "availability": [
           "Sentinel"
         ]
@@ -173,7 +173,15 @@
       {
         "name": "IsMobile",
         "type": "boolean",
-        "description": "",
+        "description": "Indicates whether the event originated from a mobile device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Auth0Domain",
+        "type": "string",
+        "description": "Auth0 host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
         "availability": [
           "Sentinel"
         ]

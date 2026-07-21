@@ -5273,7 +5273,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "",
+        "description": "The time when the log entry was generated.",
         "availability": [
           "Sentinel"
         ]
@@ -5281,7 +5281,7 @@
       {
         "name": "event_date",
         "type": "datetime",
-        "description": "",
+        "description": "Date and time when the event occurred (event-occurrence time).",
         "availability": [
           "Sentinel"
         ]
@@ -5289,7 +5289,7 @@
       {
         "name": "EventType",
         "type": "string",
-        "description": "",
+        "description": "Type of event.",
         "availability": [
           "Sentinel"
         ]
@@ -5297,7 +5297,7 @@
       {
         "name": "Description",
         "type": "string",
-        "description": "",
+        "description": "Description of this event.",
         "availability": [
           "Sentinel"
         ]
@@ -5305,7 +5305,7 @@
       {
         "name": "Connection",
         "type": "string",
-        "description": "",
+        "description": "Name of the connection the event relates to.",
         "availability": [
           "Sentinel"
         ]
@@ -5313,7 +5313,7 @@
       {
         "name": "ConnectionId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the connection the event relates to.",
         "availability": [
           "Sentinel"
         ]
@@ -5321,7 +5321,7 @@
       {
         "name": "ClientId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the application (client) that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5329,7 +5329,7 @@
       {
         "name": "ClientName",
         "type": "string",
-        "description": "",
+        "description": "Name of the application (client) that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5337,7 +5337,7 @@
       {
         "name": "SrcIpAddr",
         "type": "string",
-        "description": "",
+        "description": "IP address of the log event source.",
         "availability": [
           "Sentinel"
         ]
@@ -5345,7 +5345,7 @@
       {
         "name": "HttpUserAgent",
         "type": "string",
-        "description": "",
+        "description": "User agent that triggered the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5353,7 +5353,7 @@
       {
         "name": "SrcHostname",
         "type": "string",
-        "description": "",
+        "description": "Hostname the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -5361,7 +5361,7 @@
       {
         "name": "ActorUserId",
         "type": "string",
-        "description": "",
+        "description": "Identifier of the user involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5369,7 +5369,7 @@
       {
         "name": "ActorUsername",
         "type": "string",
-        "description": "",
+        "description": "Name of the user involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5377,7 +5377,7 @@
       {
         "name": "Audience",
         "type": "string",
-        "description": "",
+        "description": "API audience the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -5385,7 +5385,7 @@
       {
         "name": "Scope",
         "type": "string",
-        "description": "",
+        "description": "Scopes the event applies to.",
         "availability": [
           "Sentinel"
         ]
@@ -5393,7 +5393,7 @@
       {
         "name": "Strategy",
         "type": "string",
-        "description": "",
+        "description": "Name of the strategy involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5401,7 +5401,7 @@
       {
         "name": "StrategyType",
         "type": "string",
-        "description": "",
+        "description": "Type of strategy involved in the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5409,7 +5409,7 @@
       {
         "name": "LocationInfo",
         "type": "dynamic",
-        "description": "",
+        "description": "Geographical location information of the event source.",
         "availability": [
           "Sentinel"
         ]
@@ -5417,7 +5417,7 @@
       {
         "name": "Details",
         "type": "dynamic",
-        "description": "",
+        "description": "Additional useful details related to the event, in JSON format.",
         "availability": [
           "Sentinel"
         ]
@@ -5425,7 +5425,7 @@
       {
         "name": "LogId",
         "type": "string",
-        "description": "",
+        "description": "Unique identifier of the log event.",
         "availability": [
           "Sentinel"
         ]
@@ -5433,7 +5433,7 @@
       {
         "name": "TenantName",
         "type": "string",
-        "description": "",
+        "description": "Name of the Auth0 tenant that produced the event.",
         "availability": [
           "Sentinel"
         ]
@@ -5441,7 +5441,15 @@
       {
         "name": "IsMobile",
         "type": "boolean",
-        "description": "",
+        "description": "Indicates whether the event originated from a mobile device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Auth0Domain",
+        "type": "string",
+        "description": "Auth0 host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -39271,6 +39279,162 @@
     ],
     "solution": "HolmSecurity"
   },
+  "HubspotAuditLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "ActingUser",
+        "type": "dynamic",
+        "description": "An object containing the user's ID and email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "The action performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "The type of user action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the action event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp of when the action was performed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubCategory",
+        "type": "string",
+        "description": "The subcategory of user action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetObjectId",
+        "type": "string",
+        "description": "The ID of the object that the user performed the action on.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Hubspot"
+  },
+  "HubspotSecurityActivity_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "ActingUser",
+        "type": "string",
+        "description": "The email address of the user associated with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryCode",
+        "type": "string",
+        "description": "The country code of the location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp of when activity occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the login event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InfoUrl",
+        "type": "string",
+        "description": "The URL of the page where the activity occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "The IP address used for the login attempt.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "The location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "The ID of the object that the activity was performed on.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegionCode",
+        "type": "string",
+        "description": "The region code of the location where the login was attempted.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "The type of activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "int",
+        "description": "The ID of the user associated with the activity.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Hubspot"
+  },
   "CyberpionActionItems_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -68726,6 +68890,1004 @@
       }
     ],
     "solution": "TacitRedThreatIntelligence"
+  },
+  "Tailscale_Audit_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventGroupID",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionDetails",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Actor",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Target",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Origin",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "New",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Old",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Devices_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Os",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientVersion",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdateAvailable",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Authorized",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsExternal",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Expires",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KeyExpiryDisabled",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlocksIncomingConnections",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Addresses",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnabledRoutes",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdvertisedRoutes",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientConnectivity",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineKey",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NodeKey",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Distro",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SshEnabled",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectedToControl",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TailnetLockKey",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TailnetLockError",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Users_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TailnetId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Role",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CurrentlyConnected",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProfilePicUrl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Keys_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KeyId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Expires",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Revoked",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Capabilities",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KeyType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExpirySeconds",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Webhooks_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndpointUrl",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProviderType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatorLoginName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastModified",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Subscriptions",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Settings_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicesApprovalOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicesAutoUpdatesOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicesKeyDurationDays",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UsersApprovalOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UsersRoleAllowedToJoinExternalTailnets",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkFlowLoggingOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegionalRoutingOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PostureIdentityCollectionOn",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Dns_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Nameservers",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MagicDNS",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SearchPaths",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_Network_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NodeId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FlowStart",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FlowEnd",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcNode",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcNodeName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcOs",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcTags",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcAddresses",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstNodes",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstCount",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstNodeId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstNodeName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstUser",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstOs",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstTags",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DstAddresses",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VirtualTraffic",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SubnetTraffic",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExitTraffic",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PhysicalTraffic",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasVirtualTraffic",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasSubnetTraffic",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasExitTraffic",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasPhysicalTraffic",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsRelayed",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
+  },
+  "Tailscale_PostureIntegrations_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IntegrationId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Provider",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId_Provider",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigOverwrites",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Tailscale (CCF)"
   },
   "TheHiveData_CL": {
     "source": "3rd-Party Connector Schemas",

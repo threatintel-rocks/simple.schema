@@ -8,8 +8,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppCategory",
@@ -17,8 +16,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppId",
@@ -26,8 +24,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppInstance",
@@ -35,8 +32,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppName",
@@ -44,8 +40,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppScore",
@@ -53,8 +48,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppTags",
@@ -62,8 +56,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -71,8 +64,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "BlockedEvents",
@@ -80,8 +72,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Date",
@@ -89,8 +80,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DownloadedBytes",
@@ -98,8 +88,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnrichedUserName",
@@ -107,8 +96,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IpAddress",
@@ -116,8 +104,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -125,8 +112,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "MachineId",
@@ -134,8 +120,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MachineName",
@@ -143,8 +128,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RawUserName",
@@ -152,8 +136,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RichUserName",
@@ -161,8 +144,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -170,8 +152,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StreamName",
@@ -179,8 +160,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -188,8 +168,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -197,8 +176,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TotalBytes",
@@ -206,8 +184,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TotalEvents",
@@ -215,8 +192,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -224,8 +200,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UploadedBytes",
@@ -233,8 +208,7 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserName",
@@ -242,10 +216,8 @@
         "description": "",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
