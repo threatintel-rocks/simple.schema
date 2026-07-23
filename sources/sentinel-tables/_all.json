@@ -79205,6 +79205,14 @@
         ]
       },
       {
+        "name": "SecureConnectionStart",
+        "type": "string",
+        "description": "The secure connection start time.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Select",
         "type": "string",
         "description": "The select clause.",

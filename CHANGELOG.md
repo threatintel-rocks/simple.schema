@@ -2,6 +2,17 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-23 05:48 UTC
+
+**Tables added** (1)
+
+- `PRODAFTUstaCompromisedCredentials_CL` (22 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (1)
+
+- `SalesforceServiceCloudV3_CL.SecureConnectionStart` (string)
+
+
 ### 2026-07-21 05:45 UTC
 
 **Tables added** (11)
