@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-24 05:45 UTC
+
+**Tables removed** (1)
+
+- `GambitPoliciesIssues_CL`
+
+
 ### 2026-07-23 05:48 UTC
 
 **Tables added** (1)
