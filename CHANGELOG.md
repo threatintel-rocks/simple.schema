@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-25 05:39 UTC
+
+**Tables added** (1)
+
+- `GambitPoliciesIssues_CL` (18 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-07-24 05:45 UTC
 
 **Tables removed** (1)
