@@ -8,7 +8,8 @@
         "description": "Date and time the agent information was recorded",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentName",
@@ -24,7 +26,8 @@
         "description": "Display name of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Platform",
@@ -32,7 +35,8 @@
         "description": "The platform that provided the information about the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AgentDescription",
@@ -40,7 +44,8 @@
         "description": "Description of the agent as displayed in the agent's source",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Version",
@@ -48,7 +53,8 @@
         "description": "Version of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceAgentId",
@@ -56,7 +62,8 @@
         "description": "Native identifier assigned by the platform where the agent originated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EntraAgentId",
@@ -64,7 +71,8 @@
         "description": "The agent's unique enterprise application object identifier by Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EntraBlueprintId",
@@ -72,7 +80,8 @@
         "description": "The unique identifier by Microsoft Entra ID for the agent identity blueprint, which serves as the template from which the agent's identity was created",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ToolsAuthenticationType",
@@ -80,7 +89,8 @@
         "description": "Structured summary of agent identity, authentication, and authorization model",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Permissions",
@@ -88,7 +98,8 @@
         "description": "Permissions record of the agent, including those that have been requested and granted, their approval state, and consent enumeration",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PublishedStatus",
@@ -96,7 +107,8 @@
         "description": "The agent's publication status; possible values: `Draft`, `Published",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LifecycleStatus",
@@ -104,7 +116,8 @@
         "description": "The agent's current operational state in the tenant; possible values: `Active`, `Blocked`, `Uninstalled`, `Deleted",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Availability",
@@ -112,7 +125,8 @@
         "description": "The deployment scope of the agent (that is, whether deployed to all users, specific groups, or individual users)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CreatedDateTime",
@@ -120,7 +134,8 @@
         "description": "Date and time when the agent was created",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastPublishedDateTime",
@@ -128,7 +143,8 @@
         "description": "Date and time when the agent was last published or deployed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastUpdatedDateTime",
@@ -136,7 +152,8 @@
         "description": "Date and time when the agent's metadata was last modified",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Owners",
@@ -144,7 +161,8 @@
         "description": "Primary owners of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SharedWith",
@@ -152,7 +170,8 @@
         "description": "The users and security groups the agent has been shared with",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InstanceCount",
@@ -160,7 +179,8 @@
         "description": "Number of agent instances created from the same Microsoft Entra ID agent identity blueprint",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Instructions",
@@ -168,7 +188,8 @@
         "description": "The agent's system prompt that defines its default behavior, persona, and operating boundaries",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Model",
@@ -176,7 +197,8 @@
         "description": "The AI model powering the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Channels",
@@ -184,7 +206,8 @@
         "description": "The channels or surfaces where the agent can operate, such as Microsoft 365 applications or APIs",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Capabilities",
@@ -192,7 +215,8 @@
         "description": "The intents, actions, skills, and orchestrations of the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeclaredDataSources",
@@ -200,7 +224,8 @@
         "description": "The data repositories and knowledge sources the agent can access",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeclaredTools",
@@ -208,7 +233,8 @@
         "description": "Functional tools the agent can invoke at runtime",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "McpServers",
@@ -216,7 +242,8 @@
         "description": "The Model Context Protocol (MCP) servers connected to the agent, including server URLs and credential configuration",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Skills",
@@ -224,7 +251,8 @@
         "description": "Skills attached to the agent",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConnectedAgents",
@@ -232,7 +260,8 @@
         "description": "List of other agents connected to the agent for multi-agent orchestration",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Memory",
@@ -240,7 +269,8 @@
         "description": "The agent's declarative memory store configuration",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Triggers",
@@ -248,7 +278,8 @@
         "description": "List of the agent's triggers",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Guardrails",
@@ -256,7 +287,8 @@
         "description": "Guardrails attached to the agent and their coverage",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Endpoints",
@@ -264,7 +296,8 @@
         "description": "List of agent runtime endpoints, including URL, transport type, and external connectivity flag",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObservabilityId",
@@ -272,7 +305,8 @@
         "description": "Unique identifier used to correlate the agent with its usage and activity data in Microsoft Agent 365",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RawAgentInfo",
@@ -280,9 +314,47 @@
         "description": "Additional information about the agent, in JSON format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

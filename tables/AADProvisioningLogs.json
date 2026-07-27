@@ -8,7 +8,8 @@
         "description": "Unique Azure AD tenant ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -16,7 +17,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Category",
@@ -24,7 +26,8 @@
         "description": "Category of the event",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ChangeId",
@@ -32,7 +35,8 @@
         "description": "Unique ID of this change in this cycle",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -40,7 +44,8 @@
         "description": "ID to provide provisioning trail",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CycleId",
@@ -48,7 +53,8 @@
         "description": "Unique ID per job iteration",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DurationMs",
@@ -56,7 +62,8 @@
         "description": "Indicates how long this provisioning action took to finish",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -64,7 +71,8 @@
         "description": "Indicates the unique ID for the activity",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InitiatedBy",
@@ -72,7 +80,8 @@
         "description": "Details of who initiated this provisioning",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -80,7 +89,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "JobId",
@@ -88,7 +98,8 @@
         "description": "The unique ID for the whole provisioning job",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ModifiedProperties",
@@ -96,7 +107,8 @@
         "description": "Details of each property that was modified in this provisioning action on this object",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -104,7 +116,8 @@
         "description": "Name of the operation",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationVersion",
@@ -112,7 +125,8 @@
         "description": "The REST API version that's requested by the client",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProvisioningAction",
@@ -120,7 +134,8 @@
         "description": "Indicates the activity name or the operation name. For a list of activities logged, refer to Azure AD activity list",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProvisioningStatusInfo",
@@ -128,7 +143,8 @@
         "description": "Details of provisioning status",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProvisioningSteps",
@@ -136,7 +152,8 @@
         "description": "Details of each step in provisioning",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultDescription",
@@ -144,7 +161,8 @@
         "description": "When available, provides the error description for the provisioning operation",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultSignature",
@@ -152,7 +170,8 @@
         "description": "Contains the error code, if any, for the provisioning operation",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResultType",
@@ -160,7 +179,8 @@
         "description": "The result of the provisioning operation can be Success, Failure, or Skipped",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipal",
@@ -168,7 +188,8 @@
         "description": "Represents the service principal used for provisioning",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceIdentity",
@@ -176,7 +197,8 @@
         "description": "Details of source object being provisioned",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -184,7 +206,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetIdentity",
@@ -192,7 +215,8 @@
         "description": "Details of target object being provisioned",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetSystem",
@@ -200,7 +224,8 @@
         "description": "Details of target system of the object being provisioned",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -208,7 +233,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -216,7 +242,8 @@
         "description": "The date and time of the event in UTC",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -224,8 +251,22 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "StatusInfo",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

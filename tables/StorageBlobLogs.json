@@ -8,7 +8,8 @@
         "description": "The access tier of the storage account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountName",
@@ -16,7 +17,8 @@
         "description": "The name of the storage account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationHash",
@@ -24,7 +26,8 @@
         "description": "The hash of authentication token.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationType",
@@ -32,7 +35,8 @@
         "description": "The type of authentication that was used to make the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthorizationDetails",
@@ -40,7 +44,8 @@
         "description": "Detailed policy information used to authorize the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -48,7 +53,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "CallerIpAddress",
@@ -56,7 +62,8 @@
         "description": "The IP address of the requester, including the port number.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Category",
@@ -64,7 +71,8 @@
         "description": "The category of requested operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ClientRequestId",
@@ -72,7 +80,8 @@
         "description": "The x-ms-client-request-id header value of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ConditionsUsed",
@@ -80,7 +89,8 @@
         "description": "A semicolon-separated list of key-value pairs that represent a condition.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ContentLengthHeader",
@@ -88,7 +98,8 @@
         "description": "The value of the Content-Length header for the request sent to the storage service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -96,7 +107,8 @@
         "description": "The ID that is used to correlate logs across resources.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationUri",
@@ -104,7 +116,8 @@
         "description": "Records the destination URI for operations.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DurationMs",
@@ -112,7 +125,8 @@
         "description": "The total time, expressed in milliseconds, to perform the requested operation. This includes the time to read the incoming request, and to send the response to the requester.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Etag",
@@ -120,7 +134,8 @@
         "description": "The ETag identifier for the returned object, in quotes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -128,7 +143,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LastModifiedTime",
@@ -136,7 +152,8 @@
         "description": "The Last Modified Time (LMT) for the returned object. This field is empty for operations that can return multiple objects.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Location",
@@ -144,7 +161,8 @@
         "description": "The location of storage account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetricResponseType",
@@ -152,7 +170,8 @@
         "description": "Records the metric response for correlation between metrics and logs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObjectKey",
@@ -160,7 +179,8 @@
         "description": "The key of the requested object, in quotes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationCount",
@@ -168,7 +188,8 @@
         "description": "The number of each logged operation that is involved in the request. This count starts with an index of 0. Some requests require more than one operation, such as a request to copy a blob. Most requests perform only one operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationName",
@@ -176,7 +197,8 @@
         "description": "The type of REST operation that was performed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationVersion",
@@ -184,7 +206,8 @@
         "description": "The storage service version that was specified when the request was made. This is equivalent to the value of the x-ms-version header.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Protocol",
@@ -192,7 +215,8 @@
         "description": "The protocol that is used in the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReferrerHeader",
@@ -200,7 +224,8 @@
         "description": "The Referer header value.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RehydratePriority",
@@ -208,7 +233,8 @@
         "description": "The priority used to rehydrate an archived blob.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySize",
@@ -216,7 +242,8 @@
         "description": "The size of the request packets, expressed in bytes, that are read by the storage service. If a request is unsuccessful, this value might be empty.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterAppId",
@@ -224,7 +251,8 @@
         "description": "The Open Authorization (OAuth) application ID that is used as the requester.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterAudience",
@@ -232,7 +260,8 @@
         "description": "The OAuth audience of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterObjectId",
@@ -240,7 +269,8 @@
         "description": "The OAuth object ID of the requester.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterTenantId",
@@ -248,7 +278,8 @@
         "description": "The OAuth tenant ID of identity.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterTokenIssuer",
@@ -256,7 +287,8 @@
         "description": "The OAuth token issuer.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequesterUpn",
@@ -264,7 +296,8 @@
         "description": "The User Principal Names of requestor.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestHeaderSize",
@@ -272,7 +305,8 @@
         "description": "The size of the request header expressed in bytes. If a request is unsuccessful, this value might be empty.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMd5",
@@ -280,7 +314,8 @@
         "description": "The value of either the Content-MD5 header or the x-ms-content-md5 header in the request. The MD5 hash value specified in this field represents the content in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_ResourceId",
@@ -288,7 +323,8 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBodySize",
@@ -296,7 +332,8 @@
         "description": "The size of the response packets written by the storage service, in bytes. If a request is unsuccessful, this value may be empty.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseHeaderSize",
@@ -304,7 +341,8 @@
         "description": "The size of the response header expressed in bytes. If a request is unsuccessful, this value might be empty.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseMd5",
@@ -312,7 +350,8 @@
         "description": "The value of the MD5 hash calculated by the storage service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SasExpiryStatus",
@@ -320,7 +359,8 @@
         "description": "Records any violations in the request SAS token as per the SAS policy set in the storage account. Ex: longer SAS token duration specified than allowed per SAS policy",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SchemaVersion",
@@ -328,7 +368,8 @@
         "description": "The schema version of the log.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServerLatencyMs",
@@ -336,7 +377,8 @@
         "description": "The total time expressed in milliseconds to perform the requested operation. This value doesn't include network latency (the time to read the incoming request and send the response to the requester).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceType",
@@ -344,7 +386,8 @@
         "description": "The service associated with this request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceAccessTier",
@@ -352,7 +395,8 @@
         "description": "The source tier of the storage account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -360,7 +404,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceUri",
@@ -368,7 +413,8 @@
         "description": "Records the source URI for operations.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusCode",
@@ -376,7 +422,8 @@
         "description": "The HTTP status code for the request. If the request is interrupted, this value might be set to Unknown.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusText",
@@ -384,7 +431,8 @@
         "description": "The status of the requested operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_SubscriptionId",
@@ -392,7 +440,8 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "TenantId",
@@ -400,7 +449,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -408,7 +458,8 @@
         "description": "The Universal Time Coordinated (UTC) time when the request was received by storage.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TlsVersion",
@@ -416,7 +467,8 @@
         "description": "The TLS version used in the connection of request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -424,7 +476,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Uri",
@@ -432,7 +485,8 @@
         "description": "Uniform resource identifier that is requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgentHeader",
@@ -440,8 +494,10 @@
         "description": "The User-Agent header value, in quotes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
