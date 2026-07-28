@@ -8,8 +8,7 @@
         "description": "The action performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -17,8 +16,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CreatedByContext",
@@ -26,8 +24,7 @@
         "description": "The context in which the user made the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedByEmail",
@@ -35,8 +32,7 @@
         "description": "The email of the user who made the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedById",
@@ -44,8 +40,7 @@
         "description": "The ID of the user who made the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedByIssuer",
@@ -53,8 +48,7 @@
         "description": "The issuer of the user's identity.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedByName",
@@ -62,8 +56,7 @@
         "description": "The name of the user who made the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedByUsername",
@@ -71,8 +64,7 @@
         "description": "The username of the user who made the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedDate",
@@ -80,8 +72,7 @@
         "description": "The date and time when the change was made.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DelegateUser",
@@ -89,8 +80,7 @@
         "description": "The user who delegated the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Display",
@@ -98,8 +88,7 @@
         "description": "A user-friendly display name for the change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Id",
@@ -107,8 +96,7 @@
         "description": "The unique identifier for the audit trail entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -116,8 +104,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Section",
@@ -125,8 +112,7 @@
         "description": "The section of the Salesforce setup that was changed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -134,8 +120,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -143,8 +128,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -152,8 +136,7 @@
         "description": "The timestamp (in UTC) when the log entry was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -161,10 +144,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

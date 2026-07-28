@@ -1,17 +1,9 @@
 {
-  "DnsInventory": {
-    "source": "Sentinel Tables",
+  "emiocintel_CL": {
+    "source": "3rd-Party Connector Schemas",
     "columns": [
       {
-        "name": "_BilledSize",
-        "type": "real",
-        "description": "The record size in bytes",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Computer",
+        "name": "indicator_type",
         "type": "string",
         "description": "",
         "availability": [
@@ -19,7 +11,7 @@
         ]
       },
       {
-        "name": "DnsSecSigned",
+        "name": "indicator_value",
         "type": "string",
         "description": "",
         "availability": [
@@ -27,7 +19,7 @@
         ]
       },
       {
-        "name": "DomainName",
+        "name": "activity",
         "type": "string",
         "description": "",
         "availability": [
@@ -35,7 +27,23 @@
         ]
       },
       {
-        "name": "DynamicUpdate",
+        "name": "confidence",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "severity",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "malicious",
         "type": "string",
         "description": "",
         "availability": [
@@ -43,7 +51,7 @@
         ]
       },
       {
-        "name": "ForestName",
+        "name": "kill_chain_stage",
         "type": "string",
         "description": "",
         "availability": [
@@ -51,72 +59,80 @@
         ]
       },
       {
-        "name": "_IsBillable",
-        "type": "string",
-        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "NameServers",
-        "type": "string",
+        "name": "first_seen",
+        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "_ResourceId",
-        "type": "string",
-        "description": "A unique identifier for the resource that the record is associated with",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ResourceRecordName",
-        "type": "string",
+        "name": "last_seen",
+        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ResourceRecordType",
-        "type": "string",
+        "name": "added_to_feed",
+        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ServerIPs",
-        "type": "string",
+        "name": "valid_until",
+        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "name": "is_blocking",
+        "type": "boolean",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "_SubscriptionId",
-        "type": "string",
-        "description": "A unique identifier for the subscription that the record is associated with",
+        "name": "is_unique",
+        "type": "boolean",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "SubType",
-        "type": "string",
+        "name": "malware_types",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "has_cve",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "has_campaign",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ingestion_used_fallback_time",
+        "type": "boolean",
         "description": "",
         "availability": [
           "Sentinel"
@@ -129,23 +145,8 @@
         "availability": [
           "Sentinel"
         ]
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "The name of the table",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ZoneName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
       }
-    ]
+    ],
+    "solution": "Check Point EM ThreatCloud Intelligence Feed"
   }
 }

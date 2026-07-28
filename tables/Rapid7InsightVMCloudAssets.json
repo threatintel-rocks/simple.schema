@@ -8,8 +8,7 @@
         "description": "Whether an asset was assessed for policies",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssessedForVulnerabilities",
@@ -17,8 +16,7 @@
         "description": "Whether an asset was assessed for vulnerabilities",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssetType",
@@ -26,8 +24,7 @@
         "description": "The type of asset",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -35,8 +32,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CredentialAssessments",
@@ -44,8 +40,7 @@
         "description": "The credential assessments for the asset",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CriticalVulnerabilities",
@@ -53,8 +48,7 @@
         "description": "The count of critical vulnerability findings",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Exploits",
@@ -62,8 +56,7 @@
         "description": "The count of known unique exploits that can be used to exploit vulnerabilities on the asset",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HostName",
@@ -71,8 +64,7 @@
         "description": "The host name (local or FQDN)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Id",
@@ -80,8 +72,7 @@
         "description": "The asset identifier",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Ip",
@@ -89,8 +80,7 @@
         "description": "The IPv4 or IPv6 address",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -98,8 +88,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "LastAssessedForVulnerabilities",
@@ -107,8 +96,7 @@
         "description": "The time at which an asset was assessed for vulnerabilities",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastScanEnd",
@@ -116,8 +104,7 @@
         "description": "The time at which the last scan of the asset ended",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastScanStart",
@@ -125,8 +112,7 @@
         "description": "The time at which the last scan of the asset started",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Mac",
@@ -134,8 +120,7 @@
         "description": "The Media Access Control (MAC) address with format specification",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MalwareKits",
@@ -143,8 +128,7 @@
         "description": "The count of known unique malware kits that can be used to attack vulnerabilities",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ModerateVulnerabilities",
@@ -152,8 +136,7 @@
         "description": "The count of moderate vulnerability findings",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "New",
@@ -161,8 +144,7 @@
         "description": "Vulnerabilities that are new in the latest version (when comparison time is supplied)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsArchitecture",
@@ -170,8 +152,7 @@
         "description": "The architecture of the operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsDescription",
@@ -179,8 +160,7 @@
         "description": "The description of the operating system (containing vendor, family, product, version and architecture)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsFamily",
@@ -188,8 +168,7 @@
         "description": "The family of the operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsName",
@@ -197,8 +176,7 @@
         "description": "The name of the operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsSystemName",
@@ -206,8 +184,7 @@
         "description": "A combination of vendor and family (with redundancies removed), suitable for grouping",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsType",
@@ -215,8 +192,7 @@
         "description": "The type of operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsVendor",
@@ -224,8 +200,7 @@
         "description": "The vendor of the operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OsVersion",
@@ -233,8 +208,7 @@
         "description": "The version of the operating system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Remediated",
@@ -242,8 +216,7 @@
         "description": "Vulnerabilities that were remediated in the latest version (when comparison time is supplied)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RiskScore",
@@ -251,8 +224,7 @@
         "description": "The risk score (with criticality adjustments) of the asset",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Same",
@@ -260,8 +232,7 @@
         "description": "Vulnerabilities that are the same between current and comparison time (when comparison time is supplied and includeSame is true)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SevereVulnerabilities",
@@ -269,8 +240,7 @@
         "description": "The count of severe vulnerability findings",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -278,8 +248,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tags",
@@ -287,8 +256,7 @@
         "description": "The tags applied to the asset",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -296,8 +264,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -305,8 +272,7 @@
         "description": "The time the event was generated",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TotalVulnerabilities",
@@ -314,8 +280,7 @@
         "description": "The total count of vulnerability findings",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -323,8 +288,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UniqueIdentifiers",
@@ -332,10 +296,8 @@
         "description": "Unique identifiers found on the asset, such as hardware or operating system identifiers",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
