@@ -137,6 +137,14 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "AirlockDigital"

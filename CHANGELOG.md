@@ -2,6 +2,15 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-29 05:46 UTC
+
+**Columns added** (3)
+
+- `AirlockDigitalExecutionHistories_CL.ConnectorName` (string)
+- `AirlockDigitalFileActivitySummary_CL.ConnectorName` (string)
+- `AirlockDigitalServerActivities_CL.ConnectorName` (string)
+
+
 ### 2026-07-28 05:41 UTC
 
 **Tables added** (1)
