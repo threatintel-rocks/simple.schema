@@ -115,6 +115,46 @@
         ]
       },
       {
+        "name": "actor_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "actor_account_uuid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "account_uuid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "user_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "user_account_uuid",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "action",
         "type": "string",
         "description": "",
@@ -19770,6 +19810,100 @@
       }
     ],
     "solution": "Cloudflare CCF"
+  },
+  "CommvaultAlertsCCF_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Timestamp derived from the anomaly refTime field.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RefTime",
+        "type": "long",
+        "description": "Raw epoch timestamp (seconds) from the Commvault anomaly event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnomalyType",
+        "type": "int",
+        "description": "Bitfield integer representing the type(s) of anomaly detected. Common bits: 64=Ransomware, 8192=VSA Attack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreateCount",
+        "type": "int",
+        "description": "Number of files created during the anomaly window.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeleteCount",
+        "type": "int",
+        "description": "Number of files deleted during the anomaly window.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModCount",
+        "type": "int",
+        "description": "Number of files modified during the anomaly window.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RenameCount",
+        "type": "int",
+        "description": "Number of files renamed during the anomaly window.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InfectedFilesCount",
+        "type": "int",
+        "description": "Number of files identified as infected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "Location or region associated with the anomaly.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientName",
+        "type": "string",
+        "description": "Name of the Commvault client (endpoint) where the anomaly was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientId",
+        "type": "int",
+        "description": "Numeric identifier of the Commvault client.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Commvault Security IQ"
   },
   "ContrastADRAttackEvents_CL": {
     "source": "3rd-Party Connector Schemas",

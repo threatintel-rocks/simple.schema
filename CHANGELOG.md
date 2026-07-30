@@ -2,6 +2,21 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-30 05:35 UTC
+
+**Tables added** (1)
+
+- `CommvaultAlertsCCF_CL` (11 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (5)
+
+- `OnePasswordEventLogs_CL.account_uuid` (string)
+- `OnePasswordEventLogs_CL.actor_account_uuid` (string)
+- `OnePasswordEventLogs_CL.actor_type` (string)
+- `OnePasswordEventLogs_CL.user_account_uuid` (string)
+- `OnePasswordEventLogs_CL.user_type` (string)
+
+
 ### 2026-07-29 05:46 UTC
 
 **Columns added** (3)
