@@ -1,0 +1,6 @@
+{
+  "MuleSoftCloudhubLogs": {
+    "source": "Sentinel Tables",
+    "columns": []
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "ABNORMAL_SECURITY_THREAT_LOG_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "apifirewall_log_1_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  }
+}

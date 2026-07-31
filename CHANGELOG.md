@@ -2,6 +2,80 @@
 
 All schema changes are tracked automatically.
 
+### 2026-07-31 06:01 UTC
+
+**Tables added** (54)
+
+- `ABNORMAL_SECURITY_ABUSE_MAILBOX_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_ATO_CASE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_AUDIT_LOG_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_CASE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_LOGS_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_POSTURE_CHANGE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_REMEDIATION_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_THREAT_LOG_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_VENDOR_CASE_CL` (0 columns, source: Sentinel Tables)
+- `AkamaiSIEMEvent` (0 columns, source: Sentinel Tables)
+- `AtlassianAuditEvents` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_CVAD_Events_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_SPA_Events_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_indicatorEventDetails_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_indicatorSummary_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_riskScoreChange_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_userProfile_V1_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceASM_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceEMAIL_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceIncidents_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceModelAlerts_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceResponseActions_CL` (0 columns, source: Sentinel Tables)
+- `DarktraceSystemStatusAlerts_CL` (0 columns, source: Sentinel Tables)
+- `FortinetFortiNdrCloudRaw_CL` (0 columns, source: Sentinel Tables)
+- `FortyTwoCrunchAPIProtectionV2` (0 columns, source: Sentinel Tables)
+- `HalcyonAlertUpdatesV2_CL` (0 columns, source: Sentinel Tables)
+- `HalcyonEventsV2_CL` (0 columns, source: Sentinel Tables)
+- `IllumioInsightsGraph` (0 columns, source: Sentinel Tables)
+- `IllumioInsights_CL` (0 columns, source: Sentinel Tables)
+- `MuleSoftCloudhubLogs` (0 columns, source: Sentinel Tables)
+- `RelevanceSystemAlerts_CL` (0 columns, source: Sentinel Tables)
+- `SailPointIDN_Events_CL` (0 columns, source: Sentinel Tables)
+- `SailPointIDN_Triggers_CL` (0 columns, source: Sentinel Tables)
+- `StealthTalkAnomalousAuth_CL` (0 columns, source: Sentinel Tables)
+- `TrendMicroCAS_CL` (0 columns, source: Sentinel Tables)
+- `VMwareWorkspaceOneDeviceApps` (0 columns, source: Sentinel Tables)
+- `ZeroFoxAdvancedDarkWeb_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBotnetCC_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBotnet_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBreaches_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxCompromisedCredentials_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxCreditCards_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDarkWeb_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDiscord_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDisruption_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxEmailAddresses_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxExploits_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxIndicators_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxKeyIncidents_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxNationalIds_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxPhysicalThreats_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxTelegram_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxVulnerabilities_CL` (0 columns, source: Sentinel Tables)
+- `apifirewall_log_1_CL` (0 columns, source: Sentinel Tables)
+
+**Tables removed** (11)
+
+- `ASimNetworkSessionLogs`
+- `FncEventsDetections_CL`
+- `FncEventsObservation_CL`
+- `FncEventsSuricata_CL`
+- `HalcyonEvents_CL`
+- `IlumioInsights`
+- `OpenSystemsAuthenticationLogs_CL`
+- `OpenSystemsFirewallLogs_CL`
+- `OpenSystemsProxyLogs_CL`
+- `OpenSystemsZtnaLogs_CL`
+- `UpwindLogsAssets_CL`
+
+
 ### 2026-07-30 05:35 UTC
 
 **Tables added** (1)
