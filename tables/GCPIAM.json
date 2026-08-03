@@ -8,7 +8,8 @@
         "description": "Subject associated with the authenticated principal in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthInfoPrincipalEmail",
@@ -16,7 +17,8 @@
         "description": "The email address associated with the principal (e.g., user, service account) performing the action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthInfoPrincipalSubject",
@@ -24,7 +26,8 @@
         "description": "The subject or identifier associated with the principal performing the action.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthInfoServiceAccountDelegationInfo",
@@ -32,7 +35,8 @@
         "description": "Delegation information for a service account.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthorizationInfo",
@@ -40,7 +44,8 @@
         "description": "Information related to the authorization of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -48,7 +53,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "GCPResourceName",
@@ -56,7 +62,8 @@
         "description": "The name of the resource involved in the request or logged event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GCPResourceType",
@@ -64,7 +71,8 @@
         "description": "The type of resource involved in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InsertId",
@@ -72,7 +80,8 @@
         "description": "A unique identifier for the log entry, typically used for deduplication.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -80,7 +89,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LogName",
@@ -88,7 +98,8 @@
         "description": "The name of the log in which the entry resides.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataIdentityDelegationChain",
@@ -96,7 +107,8 @@
         "description": "A chain of delegated identities for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataMappedPrincipal",
@@ -104,7 +116,8 @@
         "description": "Mapped principal in the metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataType",
@@ -112,7 +125,8 @@
         "description": "The type of metadata being provided.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MethodName",
@@ -120,7 +134,8 @@
         "description": "The name of the method being invoked.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NumResponseItems",
@@ -128,7 +143,8 @@
         "description": "The number of items returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationFirst",
@@ -136,7 +152,8 @@
         "description": "Boolean indicating whether this is the first operation in a sequence.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationId",
@@ -144,7 +161,8 @@
         "description": "A unique identifier for the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationLast",
@@ -152,7 +170,8 @@
         "description": "Boolean indicating whether this is the last operation in a sequence.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationProducer",
@@ -160,7 +179,8 @@
         "description": "The producer (system or service) that initiated the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadType",
@@ -168,7 +188,8 @@
         "description": "The type of payload being processed or transmitted.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceiveTimestamp",
@@ -176,7 +197,8 @@
         "description": "Timestamp representing the time when the log entry was received by the system.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestAccountId",
@@ -184,7 +206,8 @@
         "description": "Account ID associated with the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestFullResourceName",
@@ -192,7 +215,8 @@
         "description": "Full name of the resource requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestGrantType",
@@ -200,7 +224,8 @@
         "description": "The grant type associated with the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestIncludeInactiveApiRoles",
@@ -208,7 +233,8 @@
         "description": "Boolean indicating whether inactive API roles should be included in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestKeyTypes",
@@ -216,7 +242,8 @@
         "description": "Types of keys involved in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataCallerIp",
@@ -224,7 +251,8 @@
         "description": "The IP address from which the request originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
@@ -232,7 +260,8 @@
         "description": "The user-agent String provided by the caller during the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
@@ -240,7 +269,8 @@
         "description": "Time-related attributes of the request metadata.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestName",
@@ -248,7 +278,8 @@
         "description": "The name of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestOptionsRequestedPolicyVersion",
@@ -256,7 +287,8 @@
         "description": "The version of the policy requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPageSize",
@@ -264,7 +296,8 @@
         "description": "The size of the page requested in a paginated request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPageToken",
@@ -272,7 +305,8 @@
         "description": "Token for pagination in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestParent",
@@ -280,7 +314,8 @@
         "description": "The parent resource of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyAuditConfigs",
@@ -288,7 +323,8 @@
         "description": "Configuration for auditing in the request policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyBindings",
@@ -296,7 +332,8 @@
         "description": "Binding configurations associated with the request policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPolicyEtag",
@@ -304,7 +341,8 @@
         "description": "The ETag value for the request policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPrivateKeyType",
@@ -312,7 +350,8 @@
         "description": "Type of private key being used in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRemoveDeletedServiceAccounts",
@@ -320,7 +359,8 @@
         "description": "Boolean indicating if deleted service accounts should be removed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRequestedTokenType",
@@ -328,7 +368,8 @@
         "description": "The type of token requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestResource",
@@ -336,7 +377,8 @@
         "description": "The resource being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRoleDescription",
@@ -344,7 +386,8 @@
         "description": "Description of the role being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRoleId",
@@ -352,7 +395,8 @@
         "description": "The unique identifier for the role.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRoleIncludedPermissions",
@@ -360,7 +404,8 @@
         "description": "Permissions included in the role in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestRoleTitle",
@@ -368,7 +413,8 @@
         "description": "Title of the role being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestServiceAccountDescription",
@@ -376,7 +422,8 @@
         "description": "Description of the service account being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestServiceAccountDisplayName",
@@ -384,7 +431,8 @@
         "description": "Display name of the service account being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestShowDeleted",
@@ -392,7 +440,8 @@
         "description": "Boolean indicating if deleted items should be included in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestSkipVisibilityCheck",
@@ -400,7 +449,8 @@
         "description": "Boolean indicating whether the visibility check for the request should be skipped.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestSubjectTokenType",
@@ -408,7 +458,8 @@
         "description": "The type of subject token being used in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestType",
@@ -416,7 +467,8 @@
         "description": "The type of request being made.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestUpdateMaskPaths",
@@ -424,7 +476,8 @@
         "description": "The paths to be updated in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestView",
@@ -432,7 +485,8 @@
         "description": "The view or perspective for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsEmailId",
@@ -440,7 +494,8 @@
         "description": "Email identifier associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsLocation",
@@ -448,7 +503,8 @@
         "description": "The geographical or logical location of the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsMethod",
@@ -456,7 +512,8 @@
         "description": "The method associated with the resource, often used for filtering or categorization.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsProjectId",
@@ -464,7 +521,8 @@
         "description": "Project ID for the resource being accessed or logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsRoleName",
@@ -472,7 +530,8 @@
         "description": "The name of the role associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsService",
@@ -480,7 +539,8 @@
         "description": "The service to which the resource belongs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsTopicId",
@@ -488,7 +548,8 @@
         "description": "The topic ID associated with the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsUniqueId",
@@ -496,7 +557,8 @@
         "description": "A unique identifier for the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsVersion",
@@ -504,7 +566,8 @@
         "description": "The version of the resource being logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseAuditConfigs",
@@ -512,7 +575,8 @@
         "description": "Audit configurations in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBindings",
@@ -520,7 +584,8 @@
         "description": "The bindings used in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseDescription",
@@ -528,7 +593,8 @@
         "description": "Description of the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseDisplayName",
@@ -536,7 +602,8 @@
         "description": "Display name associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseEmail",
@@ -544,7 +611,8 @@
         "description": "Email associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseEtag",
@@ -552,7 +620,8 @@
         "description": "The ETag value for the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseGroupName",
@@ -560,7 +629,8 @@
         "description": "The group name for the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseGroupTitle",
@@ -568,7 +638,8 @@
         "description": "The title of the group in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseIncludedPermissions",
@@ -576,7 +647,8 @@
         "description": "Permissions included in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseKeyAlgorithm",
@@ -584,7 +656,8 @@
         "description": "The key algorithm used in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseKeyOrigin",
@@ -592,7 +665,8 @@
         "description": "The origin of the key in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseKeyType",
@@ -600,7 +674,8 @@
         "description": "The type of key used in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseName",
@@ -608,7 +683,8 @@
         "description": "Name associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseOauth2ClientId",
@@ -616,7 +692,8 @@
         "description": "OAuth2 client ID associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponsePrivateKeyType",
@@ -624,7 +701,8 @@
         "description": "The type of private key used in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseProjectId",
@@ -632,7 +710,8 @@
         "description": "Project ID associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTitle",
@@ -640,7 +719,8 @@
         "description": "Title associated with the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseType",
@@ -648,7 +728,8 @@
         "description": "The type of response being returned.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseUniqueId",
@@ -656,7 +737,8 @@
         "description": "Unique identifier for the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseValidAfterTimeSeconds",
@@ -664,7 +746,8 @@
         "description": "Time in seconds after which the response becomes valid.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseValidBeforeTimeSeconds",
@@ -672,7 +755,8 @@
         "description": "Time in seconds before the response becomes valid.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataPermissionDeltaAddedPermissions",
@@ -680,7 +764,8 @@
         "description": "Permissions that were added in the service data policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataPermissionDeltaRemovedPermissions",
@@ -688,7 +773,8 @@
         "description": "Permissions that were removed in the service data policy.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataPolicyDeltaBindingDeltas",
@@ -696,7 +782,8 @@
         "description": "Changes to policy bindings in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDataType",
@@ -704,7 +791,8 @@
         "description": "The type of service data being logged.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceName",
@@ -712,7 +800,8 @@
         "description": "The name of the service that generated the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -720,7 +809,8 @@
         "description": "The severity level of the log entry or request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -728,7 +818,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusCode",
@@ -736,7 +827,8 @@
         "description": "The HTTP or operation status code for the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusMessage",
@@ -744,7 +836,8 @@
         "description": "The message associated with the status code.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -752,7 +845,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -760,7 +854,8 @@
         "description": "Timestamp representing the time at which the log entry was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Timestamp",
@@ -768,7 +863,8 @@
         "description": "The timestamp when the log entry or event occurred.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -776,8 +872,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

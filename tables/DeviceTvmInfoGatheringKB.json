@@ -8,7 +8,8 @@
         "description": "Unique identifier for the piece of information gathered",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FieldName",
@@ -16,7 +17,8 @@
         "description": "Name of the field where this information appears in the AdditionalFields column of the DeviceTvmInfoGathering table",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Description",
@@ -24,7 +26,8 @@
         "description": "Description of the information gathered",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Categories",
@@ -32,7 +35,8 @@
         "description": "List of categories that the information belongs to, in JSON array format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DataStructure",
@@ -40,8 +44,28 @@
         "description": "The data structure of the information gathered",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }
