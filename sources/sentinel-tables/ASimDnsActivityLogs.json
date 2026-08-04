@@ -3,6 +3,14 @@
     "source": "Sentinel Tables",
     "columns": [
       {
+        "name": "AdditionalEntities",
+        "type": "dynamic",
+        "description": "Additional entities associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AdditionalFields",
         "type": "dynamic",
         "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
@@ -355,6 +363,14 @@
         ]
       },
       {
+        "name": "DstSystemEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the destination system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Dvc",
         "type": "string",
         "description": "A unique identifier of the device reporting the event. The identifier can be either an IP Address, A hostname, or a device ID.",
@@ -390,6 +406,14 @@
         "name": "DvcDomainType",
         "type": "string",
         "description": "The type of DvcDomain. Possible values include \"Windows\" and \"FQDN\".",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the device.",
         "availability": [
           "Sentinel"
         ]
@@ -859,6 +883,14 @@
         ]
       },
       {
+        "name": "SrcProcessEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the source process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "SrcProcessGuid",
         "type": "string",
         "description": "A generated unique identifier (GUID) of the process that initiated the DNS request.",
@@ -886,6 +918,30 @@
         "name": "SrcRiskLevel",
         "type": "int",
         "description": "The risk level associated with the source device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcSystemEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the source system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcUserAdditionalIds",
+        "type": "dynamic",
+        "description": "Additional identifiers associated with the source user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcUserEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the source user.",
         "availability": [
           "Sentinel"
         ]

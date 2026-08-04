@@ -93,6 +93,30 @@
         ]
       },
       {
+        "name": "AzureResourceId",
+        "type": "string",
+        "description": "Unique identifier of the cloud resource associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AzureResourceType",
+        "type": "string",
+        "description": "Type of the cloud resource associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AzureSubscriptionId",
+        "type": "string",
+        "description": "Unique identifier of the Azure subscription associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "_BilledSize",
         "type": "real",
         "description": "The record size in bytes",

@@ -11,6 +11,14 @@
         ]
       },
       {
+        "name": "ActingApplicationEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the acting application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ActingAppName",
         "type": "string",
         "description": "The name of the application that initiated the activity reported, including a service, a URL, or a SaaS application.",
@@ -75,6 +83,22 @@
         ]
       },
       {
+        "name": "ActorUserAdditionalIds",
+        "type": "dynamic",
+        "description": "Additional identifiers associated with the actor user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorUserEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the actor user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ActorUserId",
         "type": "string",
         "description": "A machine-readable, alphanumeric, unique representation of the actor.",
@@ -123,6 +147,14 @@
         ]
       },
       {
+        "name": "AdditionalEntities",
+        "type": "dynamic",
+        "description": "Additional entities associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AdditionalFields",
         "type": "dynamic",
         "description": "Additional information, represented using key/value pairs provided by the source which do not map to ASim.",
@@ -166,6 +198,14 @@
         "name": "DvcDomainType",
         "type": "string",
         "description": "The type of DvcDomain.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DvcEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the device.",
         "availability": [
           "Sentinel"
         ]
@@ -691,6 +731,14 @@
         ]
       },
       {
+        "name": "SrcSystemEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the source system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "_SubscriptionId",
         "type": "string",
         "description": "A unique identifier for the subscription that the record is associated with",
@@ -702,6 +750,14 @@
         "name": "TargetAppId",
         "type": "string",
         "description": "The ID of the application to which the event applies, including a process, browser, or service.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetApplicationEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the target application.",
         "availability": [
           "Sentinel"
         ]
@@ -886,6 +942,14 @@
         "name": "TargetRiskLevel",
         "type": "int",
         "description": "The risk level associated with the target.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetSystemEntityKey",
+        "type": "string",
+        "description": "The entity key associated with the target system.",
         "availability": [
           "Sentinel"
         ]

@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -17,8 +16,7 @@
         "description": "Application that performed the recorded action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationId",
@@ -26,8 +24,7 @@
         "description": "Unique identifier for the application",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogonType",
@@ -35,8 +32,7 @@
         "description": "Type of logon session, specifically interactive, remote interactive (RDP), network, batch, and service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ErrorCode",
@@ -44,8 +40,7 @@
         "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationId",
@@ -53,8 +48,7 @@
         "description": "Identifier of the sign-in event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SessionId",
@@ -62,8 +56,7 @@
         "description": "Unique number assigned to a user by a website's server for the duration of the visit or session",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountDisplayName",
@@ -71,8 +64,7 @@
         "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -80,8 +72,7 @@
         "description": "Unique identifier for the account in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountUpn",
@@ -89,8 +80,7 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsConfidentialClient",
@@ -98,8 +88,7 @@
         "description": "Indicates if the sign in was done via confidential client applications",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsExternalUser",
@@ -107,8 +96,7 @@
         "description": "Indicates if the user that signed in is external. Possible values: -1 (not set), 0 (not external), 1 (external).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsGuestUser",
@@ -116,8 +104,7 @@
         "description": "Indicates if the sign in was done via confidential client applications",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlternateSignInName",
@@ -125,8 +112,7 @@
         "description": "On-premises user principal name (UPN) of the user signing in to Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LastPasswordChangeTimestamp",
@@ -134,8 +120,7 @@
         "description": "Date and time when the user that signed in last changed their password",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceDisplayName",
@@ -143,8 +128,7 @@
         "description": "Display name of the resource accessed. The display name can contain any character.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceId",
@@ -152,8 +136,7 @@
         "description": "Unique identifier of the resource accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceTenantId",
@@ -161,8 +144,7 @@
         "description": "Unique identifier of the tenant of the resource accessed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -170,8 +152,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EntraIdDeviceId",
@@ -179,8 +160,7 @@
         "description": "Unique identifier for the device in Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OSPlatform",
@@ -188,8 +168,7 @@
         "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceTrustType",
@@ -197,8 +176,7 @@
         "description": "Indicates the trust type of the device that signed in. For managed device scenarios only. Possible values are Workplace, AzureAd, and ServerAd.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsManaged",
@@ -206,8 +184,7 @@
         "description": "Indicates whether the device that initiated the sign-in is a managed device (1) or not a managed device (0)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsCompliant",
@@ -215,8 +192,7 @@
         "description": "Indicates whether the device that initiated the sign-in is compliant (1) or non-compliant (0)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthenticationProcessingDetails",
@@ -224,8 +200,7 @@
         "description": "Details about the authentication processor",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthenticationRequirement",
@@ -233,8 +208,7 @@
         "description": "Type of authentication required for the sign-in. Possible values: multiFactorAuthentication (MFA was required) and singleFactorAuthentication (no MFA was required).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TokenIssuerType",
@@ -242,8 +216,7 @@
         "description": "Indicates if the token issuer is Microsoft Entra ID (0) or Active Directory Federation Services (1)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RiskLevelAggregated",
@@ -251,8 +224,7 @@
         "description": "Aggregated risk level during sign-in. Possible values: 0 (aggregated risk level not set), 1 (none), 10 (low), 50 (medium), or 100 (high).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RiskDetails",
@@ -260,8 +232,7 @@
         "description": "Details about the risky state of the user that signed in",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "RiskState",
@@ -269,8 +240,7 @@
         "description": "Indicates risky user state. Possible values: 0 (none), 1 (confirmed safe), 2 (remediated), 3 (dismissed), 4 (at risk), or 5 (confirmed compromised).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgent",
@@ -278,8 +248,7 @@
         "description": "User agent information from the web browser or other client application",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientAppUsed",
@@ -287,8 +256,7 @@
         "description": "Indicates the client app used",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Browser",
@@ -296,8 +264,7 @@
         "description": "Details about the version of the browser used to sign in",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConditionalAccessPolicies",
@@ -305,8 +272,7 @@
         "description": "Details of the conditional access policies applied to the sign-in event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConditionalAccessStatus",
@@ -314,8 +280,7 @@
         "description": "Status of the conditional access policies applied to the sign-in. Possible values are 0 (policies applied), 1 (attempt to apply policies failed), or 2 (policies not applied).",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPAddress",
@@ -323,8 +288,7 @@
         "description": "IP address assigned to the device during communication",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Country",
@@ -332,8 +296,7 @@
         "description": "Two-letter code indicating the country/region where the client IP address is geolocated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "State",
@@ -341,8 +304,7 @@
         "description": "State where the sign-in occurred, if available",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "City",
@@ -350,8 +312,7 @@
         "description": "City where the account user is located",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Latitude",
@@ -359,8 +320,7 @@
         "description": "The north to south coordinates of the sign-in location",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Longitude",
@@ -368,8 +328,7 @@
         "description": "The east to west coordinates of the sign-in location",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NetworkLocationDetails",
@@ -377,8 +336,7 @@
         "description": "Network location details of the authentication processor of the sign-in event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestId",
@@ -386,8 +344,7 @@
         "description": "Unique identifier of the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -395,8 +352,7 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndpointCall",
@@ -404,64 +360,8 @@
         "description": "Information about the Microsoft Entra ID endpoint that the request was sent to and the type of request sent during sign in.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "GatewayJA4",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "IsSignInThroughGlobalSecureAccess",
-        "type": "bool",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "RiskEventTypes",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "RiskLevelDuringSignIn",
-        "type": "int",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "UniqueTokenId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

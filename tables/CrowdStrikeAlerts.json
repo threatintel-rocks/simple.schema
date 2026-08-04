@@ -8,8 +8,7 @@
         "description": "Unique identifier for the CrowdStrike agent that generated the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AggregateId",
@@ -17,8 +16,7 @@
         "description": "Identifier for aggregated alerts from the same source.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertType",
@@ -26,8 +24,7 @@
         "description": "The type or category of the CrowdStrike alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AllegedFiletype",
@@ -35,8 +32,7 @@
         "description": "The suspected file type of the malicious file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToName",
@@ -44,8 +40,7 @@
         "description": "Name of the user assigned to handle the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToUid",
@@ -53,8 +48,7 @@
         "description": "User ID of the assigned user.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AssignedToUuid",
@@ -62,8 +56,7 @@
         "description": "UUID of the assigned user.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -71,8 +64,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Categorization",
@@ -80,8 +72,7 @@
         "description": "Categorization of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ChildProcessIds",
@@ -89,8 +80,7 @@
         "description": "List of child process IDs spawned by the detected process.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Cid",
@@ -98,8 +88,7 @@
         "description": "Customer ID in the CrowdStrike platform.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CloudIndicator",
@@ -107,8 +96,7 @@
         "description": "Indicates if the alert involves cloud-based indicators.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Cmdline",
@@ -116,8 +104,7 @@
         "description": "Command line used to execute the detected process.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CompositeId",
@@ -125,8 +112,7 @@
         "description": "Composite identifier combining multiple alert attributes.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Confidence",
@@ -134,8 +120,7 @@
         "description": "Confidence score of the alert (0-100).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ContextTimestamp",
@@ -143,8 +128,7 @@
         "description": "Timestamp providing additional context for the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationRuleCreateCase",
@@ -152,8 +136,7 @@
         "description": "Indicates if the correlation rule is configured to create a case.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationRuleExecutionId",
@@ -161,8 +144,7 @@
         "description": "Execution ID of the correlation rule that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationRuleId",
@@ -170,8 +152,7 @@
         "description": "Identifier of the correlation rule that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationRuleUserId",
@@ -179,8 +160,7 @@
         "description": "User ID associated with the correlation rule.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CorrelationRuleUserUuid",
@@ -188,8 +168,7 @@
         "description": "UUID of the user associated with the correlation rule.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CrawledTimestamp",
@@ -197,8 +176,7 @@
         "description": "Timestamp when the alert data was last crawled.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CreatedTimestamp",
@@ -206,8 +184,7 @@
         "description": "Timestamp when the alert was first created.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataDomains",
@@ -215,8 +192,7 @@
         "description": "Domains associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Description",
@@ -224,8 +200,7 @@
         "description": "Detailed description of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetectionId",
@@ -233,8 +208,7 @@
         "description": "Unique identifier for the detection associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Device",
@@ -242,8 +216,7 @@
         "description": "Information about the device where the alert was detected.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DisplayName",
@@ -251,8 +224,7 @@
         "description": "Human-readable name for the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EmailSent",
@@ -260,8 +232,7 @@
         "description": "Indicates if an email notification was sent for this alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EndTime",
@@ -269,8 +240,7 @@
         "description": "Timestamp when the alert activity ended.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnrichedEntities",
@@ -278,8 +248,7 @@
         "description": "Enriched entity information associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventCorrelationId",
@@ -287,8 +256,7 @@
         "description": "Correlation ID linking related events.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventIds",
@@ -296,8 +264,7 @@
         "description": "Event IDs associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "External",
@@ -305,8 +272,7 @@
         "description": "Indicates if the alert originated from an external source.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "FalconHostLink",
@@ -314,8 +280,7 @@
         "description": "Link to the alert details in the CrowdStrike Falcon console.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Filename",
@@ -323,8 +288,7 @@
         "description": "Name of the file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Filepath",
@@ -332,8 +296,7 @@
         "description": "Full path to the file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GlobalPrevalence",
@@ -341,8 +304,7 @@
         "description": "Global prevalence rating of the detected file.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GrandparentDetails",
@@ -350,8 +312,7 @@
         "description": "Details about the grandparent process in the process tree.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HasTruncatedEntities",
@@ -359,8 +320,7 @@
         "description": "Indicates if the alert entities have been truncated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Id",
@@ -368,8 +328,7 @@
         "description": "Unique identifier for the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IndicatorId",
@@ -377,8 +336,7 @@
         "description": "Identifier for the indicator of compromise that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IocContext",
@@ -386,8 +344,7 @@
         "description": "Context information about the indicator of compromise.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -395,8 +352,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsClosed",
@@ -404,8 +360,7 @@
         "description": "Indicates if the alert has been closed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LeadId",
@@ -413,8 +368,7 @@
         "description": "Identifier for the lead associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LeadType",
@@ -422,8 +376,7 @@
         "description": "Type of the lead associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LocalAddressIp4",
@@ -431,8 +384,7 @@
         "description": "IPv4 address of the local endpoint.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LocalAddressIp6",
@@ -440,8 +392,7 @@
         "description": "IPv6 address of the local endpoint.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LocalPrevalence",
@@ -449,8 +400,7 @@
         "description": "Local prevalence rating within the organization.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LocalProcessId",
@@ -458,8 +408,7 @@
         "description": "Local process ID on the system where the alert occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogonDomain",
@@ -467,8 +416,7 @@
         "description": "Domain used for user logon associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Md5",
@@ -476,8 +424,7 @@
         "description": "MD5 hash of the file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MitreAttack",
@@ -485,8 +432,7 @@
         "description": "MITRE ATT&CK tactics and techniques associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Name",
@@ -494,8 +440,7 @@
         "description": "Name of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Objective",
@@ -503,8 +448,7 @@
         "description": "The attacker's presumed objective.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OriginalCorrelationRulesEntitiesCount",
@@ -512,8 +456,7 @@
         "description": "Original count of correlation rule entities.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OriginalIndicatorEntitiesCount",
@@ -521,8 +464,7 @@
         "description": "Original count of indicator entities.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OriginCid",
@@ -530,8 +472,7 @@
         "description": "Customer ID of the originating tenant.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ParentDetails",
@@ -539,8 +480,7 @@
         "description": "Details about the parent process in the process tree.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ParentProcessId",
@@ -548,8 +488,7 @@
         "description": "Process ID of the parent process.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PatternDisposition",
@@ -557,8 +496,7 @@
         "description": "Numerical identifier for the action taken by the detection pattern.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PatternDispositionDescription",
@@ -566,8 +504,7 @@
         "description": "Text description of the pattern disposition action.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PatternDispositionDetails",
@@ -575,8 +512,7 @@
         "description": "Detailed information about the pattern disposition.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PatternId",
@@ -584,8 +520,7 @@
         "description": "Identifier for the detection pattern that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Platform",
@@ -593,8 +528,7 @@
         "description": "Operating system or platform where the alert was detected.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PolyId",
@@ -602,8 +536,7 @@
         "description": "Poly ID associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PriorityDetails",
@@ -611,8 +544,7 @@
         "description": "Priority details associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessEndTime",
@@ -620,8 +552,7 @@
         "description": "Timestamp when the detected process ended.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessId",
@@ -629,8 +560,7 @@
         "description": "Process ID of the detected process.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ProcessStartTime",
@@ -638,8 +568,7 @@
         "description": "Timestamp when the detected process started.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Product",
@@ -647,8 +576,7 @@
         "description": "CrowdStrike product that generated the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Scenario",
@@ -656,8 +584,7 @@
         "description": "Security scenario that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Score",
@@ -665,8 +592,7 @@
         "description": "Score associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SecondsToResolved",
@@ -674,8 +600,7 @@
         "description": "Time in seconds from alert creation to resolution.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SecondsToTriaged",
@@ -683,8 +608,7 @@
         "description": "Time in seconds from alert creation to triage.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -692,8 +616,7 @@
         "description": "Severity level of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SeverityName",
@@ -701,8 +624,7 @@
         "description": "Text representation of the severity level.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Sha1",
@@ -710,8 +632,7 @@
         "description": "SHA1 hash of the file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Sha256",
@@ -719,8 +640,7 @@
         "description": "SHA256 hash of the file associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ShowInUi",
@@ -728,8 +648,7 @@
         "description": "Indicates if the alert should be displayed in the user interface.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SignalEndTimestamp",
@@ -737,8 +656,7 @@
         "description": "Timestamp when the signal ended.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SignalStartTimestamp",
@@ -746,8 +664,7 @@
         "description": "Timestamp when the signal started.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SignalUpdatedTimestamp",
@@ -755,8 +672,7 @@
         "description": "Timestamp when the signal was last updated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceEndpointAddressIp4",
@@ -764,8 +680,7 @@
         "description": "IPv4 address of the source endpoint.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceEndpointAddressIp6",
@@ -773,8 +688,7 @@
         "description": "IPv6 address of the source endpoint.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceIps",
@@ -782,8 +696,7 @@
         "description": "List of source IP addresses associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceProducts",
@@ -791,8 +704,7 @@
         "description": "List of products that contributed to this alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -800,8 +712,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceVendors",
@@ -809,8 +720,7 @@
         "description": "List of vendors associated with the alert sources.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -818,8 +728,7 @@
         "description": "Timestamp when the alert activity started.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -827,8 +736,7 @@
         "description": "Current status of the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tactic",
@@ -836,8 +744,7 @@
         "description": "MITRE ATT&CK tactic associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TacticId",
@@ -845,8 +752,7 @@
         "description": "Identifier of the MITRE ATT&CK tactic.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tags",
@@ -854,8 +760,7 @@
         "description": "Custom tags associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Technique",
@@ -863,8 +768,7 @@
         "description": "MITRE ATT&CK technique associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TechniqueId",
@@ -872,8 +776,7 @@
         "description": "Identifier of the MITRE ATT&CK technique.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TemplateInstanceId",
@@ -881,8 +784,7 @@
         "description": "Instance ID of the detection template used.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -890,8 +792,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatgraphIndicators",
@@ -899,8 +800,7 @@
         "description": "Threat graph indicators associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -908,8 +808,7 @@
         "description": "The timestamp (UTC) when the alert was generated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -917,8 +816,7 @@
         "description": "Time when the alert event occurred.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TriggeringProcessGraphId",
@@ -926,8 +824,7 @@
         "description": "Graph ID of the process that triggered the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -935,8 +832,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UpdatedTimestamp",
@@ -944,8 +840,7 @@
         "description": "Time when the alert was last updated.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserId",
@@ -953,8 +848,7 @@
         "description": "User ID associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserName",
@@ -962,8 +856,7 @@
         "description": "Username associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Users",
@@ -971,8 +864,7 @@
         "description": "List of users associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "VendorPatternId",
@@ -980,8 +872,7 @@
         "description": "Vendor-specific pattern identifier.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "XdrEventId",
@@ -989,10 +880,8 @@
         "description": "XDR event ID associated with the alert.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
