@@ -1,0 +1,112 @@
+{
+  "ServiceNowCmdbRelCi_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Child",
+        "type": "string",
+        "description": "Child CI reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionStrength",
+        "type": "string",
+        "description": "Connection strength",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Parent",
+        "type": "string",
+        "description": "Parent CI reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PercentOutage",
+        "type": "int",
+        "description": "Percent outage",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Port",
+        "type": "int",
+        "description": "Port",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedBy",
+        "type": "string",
+        "description": "Created by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedOn",
+        "type": "datetime",
+        "description": "Created date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysId",
+        "type": "string",
+        "description": "Sys ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysModCount",
+        "type": "int",
+        "description": "Updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedBy",
+        "type": "string",
+        "description": "Updated by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedOn",
+        "type": "datetime",
+        "description": "Updated date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelationshipType",
+        "type": "string",
+        "description": "CI Relationship Type reference",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ServiceNowCMDB"
+  }
+}

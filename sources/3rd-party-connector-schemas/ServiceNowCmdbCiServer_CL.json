@@ -1,0 +1,120 @@
+{
+  "ServiceNowCmdbCiServer_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysId",
+        "type": "string",
+        "description": "Sys ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedBy",
+        "type": "string",
+        "description": "Created by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedOn",
+        "type": "datetime",
+        "description": "Created date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedBy",
+        "type": "string",
+        "description": "Updated by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedOn",
+        "type": "datetime",
+        "description": "Updated date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysModCount",
+        "type": "int",
+        "description": "Updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Classification",
+        "type": "string",
+        "description": "Classification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClusterId",
+        "type": "string",
+        "description": "Cluster ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClusterName",
+        "type": "string",
+        "description": "Cluster Name reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DrBackup",
+        "type": "string",
+        "description": "Disaster backup reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirewallStatus",
+        "type": "string",
+        "description": "Firewall status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "Host name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UsedFor",
+        "type": "string",
+        "description": "Used for",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ServiceNowCMDB"
+  }
+}

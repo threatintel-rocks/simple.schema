@@ -1,0 +1,272 @@
+{
+  "ServiceNowCmdbCiComputer_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysId",
+        "type": "string",
+        "description": "Sys ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedBy",
+        "type": "string",
+        "description": "Created by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedOn",
+        "type": "datetime",
+        "description": "Created date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedBy",
+        "type": "string",
+        "description": "Updated by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedOn",
+        "type": "datetime",
+        "description": "Updated date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysModCount",
+        "type": "int",
+        "description": "Updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CdRom",
+        "type": "boolean",
+        "description": "CD",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CdSpeed",
+        "type": "int",
+        "description": "CD Speed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChassisType",
+        "type": "string",
+        "description": "Chassis type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuCoreCount",
+        "type": "int",
+        "description": "CPU core count",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuCoreThread",
+        "type": "int",
+        "description": "CPU core thread",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuCount",
+        "type": "int",
+        "description": "CPU count",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuManufacturer",
+        "type": "string",
+        "description": "CPU manufacturer reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuName",
+        "type": "string",
+        "description": "CPU name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuSpeed",
+        "type": "string",
+        "description": "CPU speed (MHz)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuType",
+        "type": "string",
+        "description": "CPU type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DefaultGateway",
+        "type": "string",
+        "description": "Default Gateway",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiskSpace",
+        "type": "string",
+        "description": "Disk space (GB)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Floppy",
+        "type": "string",
+        "description": "Floppy",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FormFactor",
+        "type": "string",
+        "description": "Form factor",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HardwareStatus",
+        "type": "string",
+        "description": "Hardware Status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HardwareSubstatus",
+        "type": "string",
+        "description": "Substatus",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternetFacing",
+        "type": "boolean",
+        "description": "Internet Facing",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MostFrequentUser",
+        "type": "string",
+        "description": "Most frequent logged in user reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ObjectId",
+        "type": "string",
+        "description": "Object ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Os",
+        "type": "string",
+        "description": "Operating System",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsAddressWidth",
+        "type": "int",
+        "description": "OS Address Width (bits)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsDomain",
+        "type": "string",
+        "description": "OS Domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsServicePack",
+        "type": "string",
+        "description": "OS Service Pack",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "OS Version",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ram",
+        "type": "int",
+        "description": "RAM (MB)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Virtual",
+        "type": "boolean",
+        "description": "Is Virtual",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ServiceNowCMDB"
+  }
+}

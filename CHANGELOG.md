@@ -2,6 +2,18 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-05 05:40 UTC
+
+**Tables added** (6)
+
+- `PRODAFTUstaCompromisedCards_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `ServiceNowAlmAsset_CL` (72 columns, source: 3rd-Party Connector Schemas)
+- `ServiceNowCmdbCiComputer_CL` (33 columns, source: 3rd-Party Connector Schemas)
+- `ServiceNowCmdbCiServer_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `ServiceNowCmdbCi_CL` (82 columns, source: 3rd-Party Connector Schemas)
+- `ServiceNowCmdbRelCi_CL` (13 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-08-04 05:43 UTC
 
 **Columns removed** (399)

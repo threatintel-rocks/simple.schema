@@ -1,0 +1,584 @@
+{
+  "ServiceNowAlmAsset_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AcquisitionMethod",
+        "type": "string",
+        "description": "Acquisition method",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActiveTo",
+        "type": "boolean",
+        "description": "Active transfer order",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetFunction",
+        "type": "string",
+        "description": "Asset function",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssetTag",
+        "type": "string",
+        "description": "Asset tag",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Assigned",
+        "type": "datetime",
+        "description": "Assigned date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedTo",
+        "type": "string",
+        "description": "Assigned to reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Beneficiary",
+        "type": "string",
+        "description": "Beneficiary reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CheckedIn",
+        "type": "datetime",
+        "description": "Checked in date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CheckedOut",
+        "type": "datetime",
+        "description": "Checked out date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigurationItem",
+        "type": "string",
+        "description": "Configuration Item reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "string",
+        "description": "Comments",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Company",
+        "type": "string",
+        "description": "Company reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cost",
+        "type": "string",
+        "description": "Cost",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CostCenter",
+        "type": "string",
+        "description": "Cost center reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeliveryDate",
+        "type": "datetime",
+        "description": "Order received date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Department",
+        "type": "string",
+        "description": "Department reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DepreciatedAmount",
+        "type": "string",
+        "description": "Depreciated amount",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Depreciation",
+        "type": "string",
+        "description": "Depreciation reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DepreciationDate",
+        "type": "datetime",
+        "description": "Depreciation effective date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "Display name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisposalReason",
+        "type": "string",
+        "description": "Disposal reason",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Due",
+        "type": "datetime",
+        "description": "Due date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DueIn",
+        "type": "string",
+        "description": "Due in",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExpenditureType",
+        "type": "string",
+        "description": "Expenditure type",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GlAccount",
+        "type": "string",
+        "description": "GL account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstallDate",
+        "type": "datetime",
+        "description": "Installed date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstallStatus",
+        "type": "int",
+        "description": "State",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InvoiceNumber",
+        "type": "string",
+        "description": "Invoice number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Justification",
+        "type": "string",
+        "description": "Justification",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LeaseId",
+        "type": "string",
+        "description": "Lease contract",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LifeCycleStage",
+        "type": "string",
+        "description": "Life Cycle Stage reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LifeCycleStageStatus",
+        "type": "string",
+        "description": "Life Cycle Stage Status reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "Location reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagedBy",
+        "type": "string",
+        "description": "Managed by reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Model",
+        "type": "string",
+        "description": "Model reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModelCategory",
+        "type": "string",
+        "description": "Model category reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OldStatus",
+        "type": "string",
+        "description": "Old status",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OldSubstatus",
+        "type": "string",
+        "description": "Old substatus",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrderDate",
+        "type": "datetime",
+        "description": "Ordered date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OwnedBy",
+        "type": "string",
+        "description": "Owned by reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Parent",
+        "type": "string",
+        "description": "Parent reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PoNumber",
+        "type": "string",
+        "description": "PO number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreAllocated",
+        "type": "boolean",
+        "description": "Pre-allocated",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PurchaseDate",
+        "type": "string",
+        "description": "Purchased date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Quantity",
+        "type": "int",
+        "description": "Quantity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RequestLine",
+        "type": "string",
+        "description": "Request line reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResalePrice",
+        "type": "string",
+        "description": "Resale price",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReservedFor",
+        "type": "string",
+        "description": "Reserved for reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Residual",
+        "type": "string",
+        "description": "Residual value",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResidualDate",
+        "type": "string",
+        "description": "Residual date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Retired",
+        "type": "string",
+        "description": "Retired date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RetirementDate",
+        "type": "string",
+        "description": "Scheduled retirement date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SalvageValue",
+        "type": "string",
+        "description": "Salvage value",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SerialNumber",
+        "type": "string",
+        "description": "Serial number",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SkipSync",
+        "type": "boolean",
+        "description": "Skip sync",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Stockroom",
+        "type": "string",
+        "description": "Stockroom reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Substatus",
+        "type": "string",
+        "description": "Substate",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SupportedBy",
+        "type": "string",
+        "description": "Supported by reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SupportGroup",
+        "type": "string",
+        "description": "Support group reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysClassName",
+        "type": "string",
+        "description": "Class",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedBy",
+        "type": "string",
+        "description": "Created by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysCreatedOn",
+        "type": "datetime",
+        "description": "Created date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysDomain",
+        "type": "string",
+        "description": "Domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysDomainPath",
+        "type": "string",
+        "description": "Domain Path",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysId",
+        "type": "string",
+        "description": "Sys ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysModCount",
+        "type": "int",
+        "description": "Updates",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedBy",
+        "type": "string",
+        "description": "Updated by",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SysUpdatedOn",
+        "type": "datetime",
+        "description": "Updated date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Vendor",
+        "type": "string",
+        "description": "Vendor reference",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WarrantyExpiration",
+        "type": "string",
+        "description": "Warranty expiration date",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkNotes",
+        "type": "string",
+        "description": "Work notes",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "ServiceNowCMDB"
+  }
+}
