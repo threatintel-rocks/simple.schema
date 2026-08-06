@@ -2,6 +2,25 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-06 05:44 UTC
+
+**Tables added** (8)
+
+- `AirlockDigitalFileActivitySummary` (0 columns, source: Sentinel Tables)
+- `AirlockDigitalServerActivities` (0 columns, source: Sentinel Tables)
+- `CitrixDaaSConfigOps_CL` (0 columns, source: Sentinel Tables)
+- `CitrixDaaSSessions_CL` (0 columns, source: Sentinel Tables)
+- `DigitalShadows_V2_CL` (0 columns, source: Sentinel Tables)
+- `WizAuditLogsV3_CL` (0 columns, source: Sentinel Tables)
+- `WizDetectionsV3_CL` (0 columns, source: Sentinel Tables)
+- `WizIssuesV3_CL` (0 columns, source: Sentinel Tables)
+
+**Tables removed** (2)
+
+- `DigitalShadows_CL`
+- `McasShadowItReporting`
+
+
 ### 2026-08-05 05:40 UTC
 
 **Tables added** (6)
