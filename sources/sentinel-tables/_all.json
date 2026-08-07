@@ -9125,10 +9125,6 @@
     "source": "Sentinel Tables",
     "columns": []
   },
-  "AkamaiSIEMEvent": {
-    "source": "Sentinel Tables",
-    "columns": []
-  },
   "AlertEvidence": {
     "source": "Sentinel Tables",
     "columns": [
@@ -9585,10 +9581,6 @@
     ]
   },
   "AlibabaCloudVPCFlowLogs": {
-    "source": "Sentinel Tables",
-    "columns": []
-  },
-  "AtlassianAuditEvents": {
     "source": "Sentinel Tables",
     "columns": []
   },
@@ -16918,10 +16910,6 @@
     ]
   },
   "ForescoutEvent": {
-    "source": "Sentinel Tables",
-    "columns": []
-  },
-  "FortyTwoCrunchAPIProtectionV2": {
     "source": "Sentinel Tables",
     "columns": []
   },
@@ -26075,6 +26063,227 @@
     "source": "Sentinel Tables",
     "columns": []
   },
+  "McasShadowItReporting": {
+    "source": "Sentinel Tables",
+    "columns": [
+      {
+        "name": "AadTenantId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppCategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppInstance",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppTags",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedEvents",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Date",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DownloadedBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnrichedUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RichUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StreamName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TotalEvents",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UploadedBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ]
+  },
   "MicrosoftPurviewInformationProtection": {
     "source": "Sentinel Tables",
     "columns": [
@@ -26719,10 +26928,6 @@
         ]
       }
     ]
-  },
-  "MuleSoftCloudhubLogs": {
-    "source": "Sentinel Tables",
-    "columns": []
   },
   "NetworkAccessTraffic": {
     "source": "Sentinel Tables",
@@ -37261,51 +37466,6 @@
     "columns": [],
     "custom_table": true
   },
-  "ABNORMAL_SECURITY_ABUSE_MAILBOX_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_ATO_CASE_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_AUDIT_LOG_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_CASE_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_LOGS_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_POSTURE_CHANGE_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_REMEDIATION_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_THREAT_LOG_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ABNORMAL_SECURITY_VENDOR_CASE_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
   "ABNORMAL_THREAT_MESSAGES_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -40907,1288 +41067,6 @@
     "columns": [],
     "custom_table": true
   },
-  "BV_ClaudeCompliance_ComplianceActivities_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "Time the record was ingested into the workspace (use TimeGenerated for time-range filters in detections; created_at is the true event time).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "id_CF",
-        "type": "string",
-        "description": "Unique identifier for the activity, e.g. 'activity_abcd1234'. Stored as id_CF ('id' is a reserved Log Analytics name). Common to ALL activity types - use to deduplicate or correlate a single event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "type_CF",
-        "type": "string",
-        "description": "The compliance activity type, e.g. 'abuse_decision_received'. Stored as type_CF ('type' is reserved). Common to ALL activity types - this is the PRIMARY field to filter on when writing a detection or hunting query for a specific activity. Stored as type_CF because 'type' is a reserved Log Analytics column name.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "created_at",
-        "type": "datetime",
-        "description": "When the activity actually occurred (event time). Common to ALL activity types.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "organization_id",
-        "type": "string",
-        "description": "Organization ID this activity is associated with. Common to ALL activity types - use to scope detections to a tenant/org.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "organization_uuid",
-        "type": "string",
-        "description": "Organization UUID where the activity occurred. Null when the activity is not tied to an organization (e.g. login/logout events or Compliance API calls). Common to ALL activity types.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "actor",
-        "type": "dynamic",
-        "description": "Who performed the activity (polymorphic object). Common to ALL activity types. Key sub-fields for SIEM: actor.type, actor.ip_address, actor.user_agent, actor.user_id, actor.email_address, actor.api_key_id, actor.service_account_id - primary fields for attributing who did what and from where.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_artifact_id",
-        "type": "string",
-        "description": "The artifact the file was accessed through, if any, e.g. \"claude_artifact_01HX...\". Activity types: claude_artifact_access_failed, claude_artifact_created, claude_artifact_sharing_updated, claude_artifact_viewed, claude_file_access_failed, claude_file_viewed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_chat_id",
-        "type": "string",
-        "description": "The chat conversation the user was denied access to, e.g. \"claude_chat_01Ab...\". Activity types: claude_chat_access_failed, claude_chat_created, claude_chat_deleted, claude_chat_deletion_failed, claude_chat_settings_updated, claude_chat_snapshot_created, claude_chat_snapshot_deleted, claude_chat_snapshot_viewed, claude_chat_updated, claude_chat_viewed, claude_file_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_file_id",
-        "type": "string",
-        "description": "The file the user was denied access to, e.g. \"claude_file_01HX...\". Activity types: claude_file_access_failed, claude_file_deleted, claude_file_uploaded, claude_file_viewed, claude_project_file_access_failed, claude_project_file_deleted, claude_project_file_deletion_failed, claude_project_file_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_project_id",
-        "type": "string",
-        "description": "The project the file was accessed through, if any, e.g. \"claude_proj_01HX...\". Activity types: claude_chat_created, claude_chat_deleted, claude_chat_settings_updated, claude_chat_updated, claude_chat_viewed, claude_file_access_failed, claude_file_uploaded, claude_file_viewed, claude_project_archived, claude_project_created, claude_project_deleted, claude_project_document_access_failed, claude_project_document_deleted, claude_project_document_deletion_failed, claude_project_document_updated, claude_project_document_uploaded, claude_project_document_viewed, claude_project_file_access_failed, claude_project_file_deleted, claude_project_file_deletion_failed, claude_project_file_uploaded, claude_project_reported, claude_project_sharing_updated, claude_project_sync_source_created, claude_project_sync_source_deleted, claude_project_sync_source_updated, claude_project_viewed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "filename",
-        "type": "string",
-        "description": "Deprecated — DO NOT USE. Always empty; the file's display name is intentionally omitted. Activity types: claude_file_access_failed, claude_file_deleted, claude_file_uploaded, claude_file_viewed, claude_project_document_access_failed, claude_project_document_deleted, claude_project_document_deletion_failed, claude_project_document_updated, claude_project_document_uploaded, claude_project_document_viewed, claude_project_file_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "request_id",
-        "type": "string",
-        "description": "Top-level 'request_id' property from the Claude compliance activity feed. Activity types: compliance_api_accessed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "request_method",
-        "type": "string",
-        "description": "Top-level 'request_method' property from the Claude compliance activity feed. Activity types: compliance_api_accessed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "status_code",
-        "type": "int",
-        "description": "HTTP status code. Activity types: compliance_api_accessed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "url",
-        "type": "string",
-        "description": "Top-level 'url' property from the Claude compliance activity feed. Activity types: claude_code_security_webhook_created, compliance_api_accessed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "user_id",
-        "type": "string",
-        "description": "Deprecated. Tagged ID of the admin who performed the action — not the target member. Use spend_limit_id to look up the target member. Activity types: claude_user_role_updated, extra_usage_spend_limit_created, extra_usage_spend_limit_deleted, extra_usage_spend_limit_updated, org_user_viewed, owned_projects_access_restored, platform_workspace_member_added, platform_workspace_member_removed, platform_workspace_member_updated, platform_workspace_member_viewed, scim_user_created, scim_user_deleted, scim_user_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "requester_user_id",
-        "type": "string",
-        "description": "Top-level 'requester_user_id' property from the Claude compliance activity feed. Activity types: extra_usage_spend_limit_increase_request_approved, extra_usage_spend_limit_increase_request_denied.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "workspace_id",
-        "type": "string",
-        "description": "Tagged ID of the workspace. Activity types: platform_federation_rule_workspace_added, platform_federation_rule_workspace_removed, platform_service_account_workspace_member_added, platform_service_account_workspace_member_removed, platform_service_account_workspace_member_updated, platform_workspace_archived, platform_workspace_created, platform_workspace_member_added, platform_workspace_member_removed, platform_workspace_member_updated, platform_workspace_member_viewed, platform_workspace_members_listed, platform_workspace_rate_limit_deleted, platform_workspace_rate_limit_updated, platform_workspace_updated, workspace_member_spend_limit_created, workspace_member_spend_limit_deleted, workspace_member_spend_limit_updated, workspace_spend_limit_created, workspace_spend_limit_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "group_id",
-        "type": "string",
-        "description": "Tagged ID of the group. Activity types: claude_code_team_memory_acl_updated, group_created, group_deleted, group_member_added, group_member_list_viewed, group_member_removed, group_updated, group_viewed, plugin_installation_preference_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "group_name",
-        "type": "string",
-        "description": "Name of the created group. Activity types: group_created, plugin_installation_preference_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "role",
-        "type": "string",
-        "description": "Top-level 'role' property from the Claude compliance activity feed. Activity types: role_assignment_granted, role_assignment_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "role_id",
-        "type": "string",
-        "description": "Tagged ID of the role. Activity types: rbac_role_assigned, rbac_role_created, rbac_role_deleted, rbac_role_permission_added, rbac_role_permission_removed, rbac_role_unassigned, rbac_role_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "role_name",
-        "type": "string",
-        "description": "Name of the created role. Activity types: rbac_role_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "principal_type",
-        "type": "string",
-        "description": "Type of principal: account or group. Activity types: org_capability_grant_added, org_capability_grant_removed, rbac_role_assigned, rbac_role_unassigned.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "principal_id",
-        "type": "string",
-        "description": "Tagged ID of the principal. Activity types: org_capability_grant_added, org_capability_grant_removed, rbac_role_assigned, rbac_role_unassigned.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "service_account_id",
-        "type": "string",
-        "description": "Tagged ID of the service account. Activity types: platform_service_account_archived, platform_service_account_updated, platform_service_account_workspace_member_added, platform_service_account_workspace_member_removed, platform_service_account_workspace_member_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "api_key_id",
-        "type": "string",
-        "description": "The tagged ID of the created API key. Activity types: api_key_created, platform_api_key_created, platform_api_key_updated, scoped_api_key_deleted, scoped_api_key_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "api_key_name",
-        "type": "string",
-        "description": "Name of the deleted scoped API key. Activity types: scoped_api_key_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "admin_api_key_id",
-        "type": "string",
-        "description": "Tagged ID of the created admin API key. Activity types: admin_api_key_created, admin_api_key_deleted, admin_api_key_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "session_id",
-        "type": "string",
-        "description": "The tagged session ID (agent-api only). Activity types: platform_file_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "invitee_email",
-        "type": "string",
-        "description": "Top-level 'invitee_email' property from the Claude compliance activity feed. Activity types: end_user_invite_requested.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "invited_email",
-        "type": "string",
-        "description": "Top-level 'invited_email' property from the Claude compliance activity feed. Activity types: org_user_invite_re_sent, org_user_invite_sent.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "invited_role",
-        "type": "string",
-        "description": "Top-level 'invited_role' property from the Claude compliance activity feed. Activity types: org_user_invite_sent.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "user_email",
-        "type": "string",
-        "description": "Email of the user whose role was changed. Activity types: claude_user_role_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "deleted_user_email",
-        "type": "string",
-        "description": "Top-level 'deleted_user_email' property from the Claude compliance activity feed. Activity types: org_user_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "deleted_user_id",
-        "type": "string",
-        "description": "Top-level 'deleted_user_id' property from the Claude compliance activity feed. Activity types: org_user_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "current_role",
-        "type": "string",
-        "description": "If null, then user was removed from the Organization. Activity types: claude_user_role_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_role",
-        "type": "string",
-        "description": "If null, then user was added to the Organization. Activity types: claude_user_role_updated, org_user_left.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_owner_id",
-        "type": "string",
-        "description": "Top-level 'new_owner_id' property from the Claude compliance activity feed. Activity types: primary_owner_transferred.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_owner_id",
-        "type": "string",
-        "description": "Top-level 'previous_owner_id' property from the Claude compliance activity feed. Activity types: primary_owner_transferred.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "member_ids",
-        "type": "dynamic",
-        "description": "Tagged IDs of the members added. Activity types: group_member_added, group_member_removed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "decision",
-        "type": "string",
-        "description": "The decision applied to the session. Activity types: abuse_decision_received, admin_connector_request_resolved.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "action",
-        "type": "string",
-        "description": "The state change applied to the scan project. Activity types: claude_code_security_scan_project_updated, claude_code_security_scan_run_updated, claude_code_team_memory_acl_updated, plugin_installation_preference_updated, rbac_role_permission_added, rbac_role_permission_removed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "status",
-        "type": "string",
-        "description": "Updated status (ACTIVE/INACTIVE). Activity types: claude_code_review_repository_updated, platform_signing_key_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "reason",
-        "type": "string",
-        "description": "Top-level 'reason' property from the Claude compliance activity feed. Activity types: org_creation_blocked, tunnel_token_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "approved",
-        "type": "boolean",
-        "description": "Top-level 'approved' property from the Claude compliance activity feed. Activity types: org_join_proposal_decided.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "enabled",
-        "type": "boolean",
-        "description": "Whether code review is now enabled. Activity types: claude_code_review_config_updated, claude_code_security_center_config_updated, org_magic_link_second_factor_toggled, org_sso_seat_tier_assignment_toggled, org_sso_toggled.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "is_enabled",
-        "type": "boolean",
-        "description": "Whether the spend limit is enabled. Activity types: extra_usage_spend_limit_created, extra_usage_spend_limit_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "auth_method",
-        "type": "string",
-        "description": "The method the user used to authenticate. May be absent on activities recorded before this field was introduced. Activity types: magic_link_login_succeeded, social_login_succeeded, sso_login_succeeded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "mfa_method",
-        "type": "string",
-        "description": "The second authentication factor performed during this login, if any. null when the second-factor status is not recorded on this event — for example, when authentication was delegated to an external identity provider and any second factor is not visible to Anthropic, or when this event is one step of a multi-step login whose MFA is reported on another activity. May be absent on activities recorded before this field was introduced. Activity types: magic_link_login_succeeded, social_login_succeeded, sso_login_succeeded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "provider",
-        "type": "string",
-        "description": "The external provider backing the sync source, e.g. github , google_drive , outline , slack , salesforce , google_calendar , gmail , asana , or mcp_resources . Activity types: claude_project_sync_source_created, claude_project_sync_source_deleted, claude_project_sync_source_updated, social_login_succeeded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "grant_type",
-        "type": "string",
-        "description": "The type of capability grant that was added. Activity types: org_capability_grant_added, org_capability_grant_removed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "max_permission",
-        "type": "string",
-        "description": "New max_permission value ('allow' | 'ask' | 'blocked'), or null when cleared. Activity types: cli_plugin_exec_policy_updated, mcp_tool_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "access_level",
-        "type": "string",
-        "description": "Access level granted (when action=set). Activity types: claude_code_team_memory_acl_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "scopes",
-        "type": "dynamic",
-        "description": "Scopes granted to the key (empty for legacy non-scoped admin keys). Activity types: admin_api_key_created, api_key_created, scoped_api_key_deleted, service_key_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "magic_link_enabled",
-        "type": "boolean",
-        "description": "Top-level 'magic_link_enabled' property from the Claude compliance activity feed. Activity types: claude_pubsec_identity_configured.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "magic_link_toggled",
-        "type": "boolean",
-        "description": "Top-level 'magic_link_toggled' property from the Claude compliance activity feed. Activity types: claude_pubsec_identity_configured.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "idp_saml_config_updated",
-        "type": "boolean",
-        "description": "Top-level 'idp_saml_config_updated' property from the Claude compliance activity feed. Activity types: claude_pubsec_identity_configured.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "abuse_session_id",
-        "type": "string",
-        "description": "The anti-abuse service's opaque session identifier for correlation. Activity types: abuse_decision_received.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "domain",
-        "type": "string",
-        "description": "Top-level 'domain' property from the Claude compliance activity feed. Activity types: org_domain_removed, org_domain_verified.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "signing_key_id",
-        "type": "string",
-        "description": "The tagged ID of the created signing key. Activity types: platform_signing_key_created, platform_signing_key_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "service_key_id",
-        "type": "string",
-        "description": "The ID of the created service key. Activity types: service_key_created, service_key_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "key_name",
-        "type": "string",
-        "description": "The name of the deleted key. Activity types: platform_signing_key_deleted, service_key_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "certificate_id",
-        "type": "string",
-        "description": "Top-level 'certificate_id' property from the Claude compliance activity feed. Activity types: tunnel_certificate_added, tunnel_certificate_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "certificate_fingerprint",
-        "type": "string",
-        "description": "Top-level 'certificate_fingerprint' property from the Claude compliance activity feed. Activity types: tunnel_certificate_added, tunnel_certificate_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "token_id",
-        "type": "string",
-        "description": "Top-level 'token_id' property from the Claude compliance activity feed. Activity types: tunnel_token_minted, tunnel_token_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "token_name",
-        "type": "string",
-        "description": "Top-level 'token_name' property from the Claude compliance activity feed. Activity types: tunnel_token_minted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "federation_issuer_id",
-        "type": "string",
-        "description": "Tagged ID of the archived issuer. Activity types: platform_federation_issuer_archived, platform_federation_issuer_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "federation_rule_id",
-        "type": "string",
-        "description": "Tagged ID of the federation rule. Activity types: platform_federation_rule_archived, platform_federation_rule_updated, platform_federation_rule_workspace_added, platform_federation_rule_workspace_removed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "connection_id",
-        "type": "string",
-        "description": "Top-level 'connection_id' property from the Claude compliance activity feed. Activity types: org_sso_connection_activated, org_sso_connection_deactivated, org_sso_connection_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "connection_type",
-        "type": "string",
-        "description": "Top-level 'connection_type' property from the Claude compliance activity feed. Activity types: org_sso_connection_activated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "mcp_server_id",
-        "type": "string",
-        "description": "Tagged ID of the MCP server. Activity types: admin_connector_request_resolved, mcp_server_created, mcp_server_deleted, mcp_server_updated, mcp_tool_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "mcp_server_name",
-        "type": "string",
-        "description": "Display name of the MCP server. Activity types: mcp_server_created, mcp_server_deleted, mcp_server_updated, mcp_tool_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "integration_id",
-        "type": "string",
-        "description": "Top-level 'integration_id' property from the Claude compliance activity feed. Activity types: claude_gdrive_integration_created, claude_gdrive_integration_deleted, claude_gdrive_integration_updated, claude_github_integration_created, claude_github_integration_deleted, claude_github_integration_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "integration_type",
-        "type": "string",
-        "description": "Top-level 'integration_type' property from the Claude compliance activity feed. Activity types: integration_user_connected, integration_user_disconnected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "extension_id",
-        "type": "string",
-        "description": "DXT extension ID. Activity types: desktop_extension_allowlisted, desktop_extension_blocklisted, desktop_extension_deleted, desktop_extension_removed_from_allowlist, desktop_extension_unblocked, desktop_extension_uploaded, desktop_extension_version_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "plugin_id",
-        "type": "string",
-        "description": "Plugin ID resolved from the URL. Activity types: claude_plugin_created, claude_plugin_deleted, claude_plugin_replaced, claude_plugin_updated, cli_plugin_exec_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "plugin_name",
-        "type": "string",
-        "description": "Plugin name within its marketplace. Activity types: claude_plugin_created, claude_plugin_deleted, claude_plugin_replaced, claude_plugin_updated, cli_plugin_exec_policy_updated, plugin_installation_preference_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "skill_id",
-        "type": "string",
-        "description": "The tagged ID of the skill. Activity types: claude_skill_created, claude_skill_deleted, claude_skill_disabled, claude_skill_enabled, claude_skill_replaced, platform_skill_version_created, platform_skill_version_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "skill_name",
-        "type": "string",
-        "description": "Top-level 'skill_name' property from the Claude compliance activity feed. Activity types: claude_skill_created, claude_skill_deleted, claude_skill_disabled, claude_skill_enabled, claude_skill_replaced.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "webhook_id",
-        "type": "string",
-        "description": "Tagged ID of the webhook. Activity types: claude_code_security_webhook_created, claude_code_security_webhook_deleted, claude_code_security_webhook_secret_updated, claude_code_security_webhook_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ghe_configuration_id",
-        "type": "string",
-        "description": "ID of the GHE configuration. Activity types: ghe_configuration_created, ghe_configuration_deleted, ghe_configuration_updated, ghe_user_connected, ghe_user_disconnected, ghe_webhook_signature_invalid.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "repo_name",
-        "type": "string",
-        "description": "Repository name. Activity types: claude_code_review_repository_added, claude_code_review_repository_removed, claude_code_review_repository_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "repo_owner",
-        "type": "string",
-        "description": "Repository owner (GitHub org/user). Activity types: claude_code_review_repository_added, claude_code_review_repository_removed, claude_code_review_repository_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "repository_name",
-        "type": "string",
-        "description": "Top-level 'repository_name' property from the Claude compliance activity feed. Activity types: claude_github_integration_created, claude_github_integration_deleted, claude_github_integration_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "config_id",
-        "type": "string",
-        "description": "ID of the repository configuration. Activity types: claude_code_review_repository_added, claude_code_review_repository_removed, claude_code_review_repository_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "scan_id",
-        "type": "string",
-        "description": "Tagged ID of the scan the request named — any scan in the archived run, not necessarily its canonical (run_index=0) scan. Activity types: claude_code_security_scan_run_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "scan_project_id",
-        "type": "string",
-        "description": "Tagged ID of the scan project. Activity types: claude_code_security_scan_cancelled, claude_code_security_scan_project_updated, claude_code_security_scan_schedule_deleted, claude_code_security_scan_schedule_updated, claude_code_security_webhook_created, claude_code_security_webhook_deleted, claude_code_security_webhook_secret_updated, claude_code_security_webhook_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_published_artifact_id",
-        "type": "string",
-        "description": "The published artifact's identifier. Activity types: claude_artifact_published, claude_published_artifact_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "target_id",
-        "type": "string",
-        "description": "Top-level 'target_id' property from the Claude compliance activity feed. Activity types: role_assignment_granted, role_assignment_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "target_type",
-        "type": "string",
-        "description": "Top-level 'target_type' property from the Claude compliance activity feed. Activity types: role_assignment_granted, role_assignment_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "resource_id",
-        "type": "string",
-        "description": "ID of the resource. Activity types: rbac_role_permission_added, rbac_role_permission_removed, role_assignment_granted, role_assignment_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "resource_type",
-        "type": "string",
-        "description": "Type of resource the permission applies to. Activity types: rbac_role_permission_added, rbac_role_permission_removed, role_assignment_granted, role_assignment_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "entity_id",
-        "type": "string",
-        "description": "Top-level 'entity_id' property from the Claude compliance activity feed. Activity types: user_consent_recorded, user_consent_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "entity_type",
-        "type": "string",
-        "description": "Top-level 'entity_type' property from the Claude compliance activity feed. Activity types: user_consent_recorded, user_consent_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "spend_limit_id",
-        "type": "string",
-        "description": "Tagged ID of the spend limit. Activity types: extra_usage_spend_limit_created, extra_usage_spend_limit_deleted, extra_usage_spend_limit_increase_request_approved, extra_usage_spend_limit_updated, platform_spend_limit_deleted, platform_spend_limit_updated, workspace_member_spend_limit_deleted, workspace_member_spend_limit_updated, workspace_spend_limit_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "invite_id",
-        "type": "string",
-        "description": "Tagged ID of the viewed invite. Activity types: org_invite_viewed, org_user_invite_accepted, org_user_invite_deleted, org_user_invite_rejected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "updates",
-        "type": "dynamic",
-        "description": "Top-level 'updates' property from the Claude compliance activity feed. Activity types: admin_api_key_updated, claude_organization_settings_updated, claude_user_settings_updated, org_data_residency_updated, platform_api_key_updated, platform_federation_issuer_updated, platform_federation_rule_updated, platform_service_account_updated, platform_service_account_workspace_member_updated, platform_workspace_member_updated, platform_workspace_updated, scoped_api_key_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "updated_fields",
-        "type": "dynamic",
-        "description": "Names of the fields changed by this update, e.g. \"name\", \"description\", \"project_type\", \"design_systems\". Activity types: design_project_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "export_type",
-        "type": "string",
-        "description": "Which data set was exported. Absent on records written before this field was introduced. Activity types: org_data_export_accessed, org_data_export_completed, org_data_export_started.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_mode",
-        "type": "string",
-        "description": "The sharing mode after the change: owner , users , or org . Activity types: claude_artifact_sharing_updated, org_sso_provisioning_mode_changed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_mode",
-        "type": "string",
-        "description": "The sharing mode before the change: owner , users , or org . Activity types: claude_artifact_sharing_updated, org_sso_provisioning_mode_changed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "share_id",
-        "type": "string",
-        "description": "Top-level 'share_id' property from the Claude compliance activity feed. Activity types: session_share_accessed, session_share_created, session_share_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "algorithm",
-        "type": "string",
-        "description": "The signing algorithm (e.g. ecdsa-p256-sha256). Activity types: platform_signing_key_created, platform_signing_key_deleted, platform_signing_key_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "is_service_created",
-        "type": "boolean",
-        "description": "Whether the org service was implicitly created in this request. Activity types: service_key_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "key_backing_type",
-        "type": "string",
-        "description": "The backing type of the key (IN_MEMORY or CLOUD_KMS). Activity types: platform_signing_key_created, platform_signing_key_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "key_group_identifier",
-        "type": "string",
-        "description": "The key group identifier linking old and new keys. Activity types: platform_signing_key_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_signing_key_id",
-        "type": "string",
-        "description": "The tagged ID of the newly created key. Activity types: platform_signing_key_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "old_signing_key_id",
-        "type": "string",
-        "description": "The tagged ID of the expired old key. Activity types: platform_signing_key_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "service_name",
-        "type": "string",
-        "description": "The org service name. Activity types: service_created, service_deleted, service_key_created, service_key_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "tunnel_id",
-        "type": "string",
-        "description": "Top-level 'tunnel_id' property from the Claude compliance activity feed. Activity types: tunnel_archived, tunnel_certificate_added, tunnel_certificate_revoked, tunnel_created, tunnel_token_revealed, tunnel_token_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "tunnel_token_id",
-        "type": "string",
-        "description": "Top-level 'tunnel_token_id' property from the Claude compliance activity feed. Activity types: tunnel_token_revealed, tunnel_token_rotated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "account_id",
-        "type": "string",
-        "description": "Tagged ID of the user (null for workspace-wide default). Activity types: workspace_member_spend_limit_created, workspace_member_spend_limit_deleted, workspace_member_spend_limit_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "consent_id",
-        "type": "string",
-        "description": "Top-level 'consent_id' property from the Claude compliance activity feed. Activity types: user_consent_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "consent_type",
-        "type": "string",
-        "description": "Top-level 'consent_type' property from the Claude compliance activity feed. Activity types: user_consent_recorded, user_consent_revoked.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "limit_action",
-        "type": "string",
-        "description": "The action taken when the limit is reached (notify_only or notify_and_pause). Activity types: platform_spend_limit_created, workspace_member_spend_limit_created, workspace_spend_limit_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "limit_usd",
-        "type": "long",
-        "description": "The spend limit threshold in USD cents. Activity types: platform_spend_limit_created, workspace_member_spend_limit_created, workspace_spend_limit_created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_limit_usd",
-        "type": "long",
-        "description": "The new spend limit threshold in USD cents. Activity types: workspace_member_spend_limit_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "artifact_type",
-        "type": "string",
-        "description": "Artifact type (code, html, react, etc.). Activity types: claude_artifact_published.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "audience",
-        "type": "dynamic",
-        "description": "Sharing audience for the project. If empty, it's only visible to the creating user. Activity types: claude_artifact_sharing_updated, claude_project_sharing_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_artifact_version_id",
-        "type": "string",
-        "description": "The version identifier recorded as live by this publish. Activity types: claude_artifact_access_failed, claude_artifact_published, claude_artifact_sharing_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_chat_snapshot_id",
-        "type": "string",
-        "description": "Top-level 'claude_chat_snapshot_id' property from the Claude compliance activity feed. Activity types: claude_chat_snapshot_created, claude_chat_snapshot_deleted, claude_chat_snapshot_viewed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_project_document_id",
-        "type": "string",
-        "description": "Top-level 'claude_project_document_id' property from the Claude compliance activity feed. Activity types: claude_project_document_access_failed, claude_project_document_deleted, claude_project_document_deletion_failed, claude_project_document_updated, claude_project_document_uploaded, claude_project_document_viewed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "claude_project_sync_source_id",
-        "type": "string",
-        "description": "Tagged ID of the per-project sync source that was created. Activity types: claude_project_sync_source_created, claude_project_sync_source_deleted, claude_project_sync_source_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "current_value",
-        "type": "boolean",
-        "description": "Setting value immediately after this change. Activity types: org_analytics_api_capability_updated, org_claude_code_data_sharing_disabled, org_claude_code_data_sharing_enabled, org_claude_code_desktop_disabled, org_claude_code_desktop_enabled.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "design_project_id",
-        "type": "string",
-        "description": "The Design project that was created, e.g. \"design_proj_01HX...\". Activity types: design_project_created, design_project_deleted, design_project_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "file_id",
-        "type": "string",
-        "description": "The tagged ID of the downloaded file. Activity types: platform_file_content_downloaded, platform_file_deleted, platform_file_uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "from_date",
-        "type": "string",
-        "description": "Start date of the export range. Activity types: audit_log_export_started.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_value",
-        "type": "boolean",
-        "description": "Setting value immediately before this change. Activity types: org_analytics_api_capability_updated, org_claude_code_data_sharing_disabled, org_claude_code_data_sharing_enabled, org_claude_code_desktop_disabled, org_claude_code_desktop_enabled.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "title_CF",
-        "type": "string",
-        "description": "Title of the published artifact. Stored as title_CF because 'title' is a reserved Log Analytics column name. Activity types: claude_artifact_published.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "to_date",
-        "type": "string",
-        "description": "End date of the export range. Activity types: audit_log_export_started.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "cli_name",
-        "type": "string",
-        "description": "CLI name as declared by the plugin manifest. Activity types: cli_plugin_exec_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "folder_id",
-        "type": "string",
-        "description": "Top-level 'folder_id' property from the Claude compliance activity feed. Activity types: claude_gdrive_integration_created, claude_gdrive_integration_deleted, claude_gdrive_integration_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "github_webhook_id",
-        "type": "long",
-        "description": "GitHub-assigned webhook ID returned by the hooks API. Activity types: marketplace_webhook_provisioned.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "installation_preference",
-        "type": "string",
-        "description": "New installation preference value (set only when action is an update; null for delete actions). Activity types: plugin_installation_preference_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "marketplace_id",
-        "type": "string",
-        "description": "Tagged ID of the marketplace. Activity types: cli_plugin_exec_policy_updated, marketplace_created, marketplace_deleted, marketplace_updated, marketplace_webhook_deleted, marketplace_webhook_provisioned, plugin_installation_preference_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "op_name",
-        "type": "string",
-        "description": "Op name (or '*' for the per-CLI default). Activity types: cli_plugin_exec_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "organization_name",
-        "type": "string",
-        "description": "Top-level 'organization_name' property from the Claude compliance activity feed. Activity types: claude_github_integration_created, claude_github_integration_deleted, claude_github_integration_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "resolved_count",
-        "type": "long",
-        "description": "Top-level 'resolved_count' property from the Claude compliance activity feed. Activity types: admin_connector_request_resolved.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "tool_name",
-        "type": "string",
-        "description": "Tool name (or '*' for the MCP-server-wide default). Activity types: mcp_tool_policy_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "trigger_mode",
-        "type": "string",
-        "description": "When code review is triggered. Activity types: claude_code_review_repository_added, claude_code_review_repository_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "version",
-        "type": "string",
-        "description": "Version string from the manifest. Activity types: desktop_extension_deleted, desktop_extension_uploaded, desktop_extension_version_uploaded, platform_skill_version_created, platform_skill_version_deleted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "cadence",
-        "type": "string",
-        "description": "Top-level 'cadence' property from the Claude compliance activity feed. Activity types: claude_code_security_scan_schedule_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "compliance_api_enabled",
-        "type": "boolean",
-        "description": "Top-level 'compliance_api_enabled' property from the Claude compliance activity feed. Activity types: org_compliance_api_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "compliance_api_logging_enabled",
-        "type": "boolean",
-        "description": "Top-level 'compliance_api_logging_enabled' property from the Claude compliance activity feed. Activity types: org_compliance_api_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "environment_id",
-        "type": "string",
-        "description": "Environment used for code review. Activity types: claude_code_review_config_updated, claude_code_security_center_config_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_otlp_endpoint",
-        "type": "string",
-        "description": "The OpenTelemetry export endpoint after the change. Credentials in the URL userinfo or query string are removed; path segments are retained. Null if the endpoint is unset or was not itself modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_otlp_protocol",
-        "type": "string",
-        "description": "The OpenTelemetry export protocol after the change. Null if the protocol is unset or was not itself modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "new_otlp_resource_attributes",
-        "type": "string",
-        "description": "The OpenTelemetry resource attributes after the change. Null if the attributes are unset or were not themselves modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "otlp_headers_change",
-        "type": "string",
-        "description": "Whether the OpenTelemetry export headers were set or cleared. 'set' is recorded for any non-empty submission, including resubmission of an unchanged value. Header values are never included. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "per_review_limit_usd",
-        "type": "string",
-        "description": "Per-review spend limit in USD. Activity types: claude_code_review_config_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_enabled",
-        "type": "boolean",
-        "description": "Whether code review was enabled before the change. Absent when no configuration existed before this update. Activity types: claude_code_review_config_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_environment_id",
-        "type": "string",
-        "description": "Environment used for code review before the change. Absent when no configuration existed before this update or no environment was set. Activity types: claude_code_review_config_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_otlp_endpoint",
-        "type": "string",
-        "description": "The OpenTelemetry export endpoint before the change. Credentials in the URL userinfo or query string are removed; path segments are retained. Null if the endpoint was previously unset or was not itself modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_otlp_protocol",
-        "type": "string",
-        "description": "The OpenTelemetry export protocol before the change. Null if the protocol was previously unset or was not itself modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_otlp_resource_attributes",
-        "type": "string",
-        "description": "The OpenTelemetry resource attributes before the change. Null if the attributes were previously unset or were not themselves modified by this update. Activity types: org_cowork_otlp_settings_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previous_per_review_limit_usd",
-        "type": "string",
-        "description": "Per-review spend limit in USD before the change. Absent when no configuration existed before this update or no limit was set. Activity types: claude_code_review_config_updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "scans_cancelled",
-        "type": "long",
-        "description": "Top-level 'scans_cancelled' property from the Claude compliance activity feed. Activity types: claude_code_security_scan_cancelled.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
   "BetterMTDAppLog_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -43167,654 +42045,6 @@
       "3rd-Party Connector Schemas"
     ]
   },
-  "CheckPointEmailSecAntiPhishingExceptions_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (in UTC) when the log entry was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EntityId",
-        "type": "string",
-        "description": "Unique identifier for the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AttachmentMd5",
-        "type": "string",
-        "description": "MD5 hash of the attachment.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderEmail",
-        "type": "string",
-        "description": "Email address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderName",
-        "type": "string",
-        "description": "Name of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Recipient",
-        "type": "string",
-        "description": "Recipient email address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderClientIp",
-        "type": "string",
-        "description": "Client IP address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderDomain",
-        "type": "string",
-        "description": "Domain of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderIp",
-        "type": "string",
-        "description": "IP address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LinkDomains",
-        "type": "string",
-        "description": "Domains contained in email links.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Subject",
-        "type": "string",
-        "description": "Email subject line.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Comment",
-        "type": "string",
-        "description": "Comment associated with the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActionNeeded",
-        "type": "string",
-        "description": "Action required for the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MatchOnlyFuture",
-        "type": "string",
-        "description": "Indicates if the exception applies only to future emails.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "QuarantineAll",
-        "type": "string",
-        "description": "Indicates if all matching emails should be quarantined.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IgnoringSpfCheck",
-        "type": "boolean",
-        "description": "Indicates if SPF check is ignored.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SubjectMatching",
-        "type": "string",
-        "description": "Subject matching criteria (e.g., contains, equals).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LinkDomainMatching",
-        "type": "string",
-        "description": "Link domain matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderNameMatching",
-        "type": "string",
-        "description": "Sender name matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderDomainMatching",
-        "type": "string",
-        "description": "Sender domain matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderEmailMatching",
-        "type": "string",
-        "description": "Sender email matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RecipientMatching",
-        "type": "string",
-        "description": "Recipient matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AddedBy",
-        "type": "string",
-        "description": "User ID who added the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EditedBy",
-        "type": "string",
-        "description": "User ID who last edited the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UpdateTime",
-        "type": "datetime",
-        "description": "Timestamp when the exception was last updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "CheckPointEmailSecurityAuditLogs_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (in UTC) when the log entry was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AuditId",
-        "type": "string",
-        "description": "Unique identifier for the audit log entry.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Severity",
-        "type": "string",
-        "description": "Severity level of the audit event (e.g., Notice, Warning).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CreatedAt",
-        "type": "datetime",
-        "description": "Timestamp when the audit log was created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CreatedBy",
-        "type": "string",
-        "description": "User email who performed the action.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Module",
-        "type": "string",
-        "description": "Module or service that generated the log (e.g., CLOUDINFRA).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Category",
-        "type": "string",
-        "description": "Category of the audit event (e.g., Authentication, Configuration).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Event",
-        "type": "string",
-        "description": "Event type (e.g., Login, Logout, ConfigChange).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventData",
-        "type": "string",
-        "description": "Additional event data and details.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "CheckPointEmailSecurityEvents_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (in UTC) when the log entry was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventId",
-        "type": "string",
-        "description": "Unique identifier for the security event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CustomerId",
-        "type": "string",
-        "description": "Customer identifier in the Check Point platform.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Saas",
-        "type": "string",
-        "description": "SaaS platform source (e.g., office365_emails, gmail).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EntityId",
-        "type": "string",
-        "description": "Entity identifier associated with the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "State",
-        "type": "string",
-        "description": "Current state of the event (e.g., dismissed, active).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventType",
-        "type": "string",
-        "description": "Type of security event (e.g., dlp, phishing, malware).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ConfidenceIndicator",
-        "type": "string",
-        "description": "Confidence level of the threat detection (e.g., malicious, suspicious).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventCreated",
-        "type": "datetime",
-        "description": "Timestamp when the event was created.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Severity",
-        "type": "string",
-        "description": "Severity level of the event (Low, Medium, High, Highest).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Data",
-        "type": "string",
-        "description": "Additional event data.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Description",
-        "type": "string",
-        "description": "Detailed description of the security event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderAddress",
-        "type": "string",
-        "description": "Email address of the sender associated with the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EntityLink",
-        "type": "string",
-        "description": "Deep link to the entity in the Check Point portal.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Actions",
-        "type": "dynamic",
-        "description": "Actions taken on or available for the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AdditionalData",
-        "type": "string",
-        "description": "Additional parameters and links related to the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AvailableEventActions",
-        "type": "dynamic",
-        "description": "List of available actions that can be performed on the event.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "CheckPointEmailSecuritySpamExceptions_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (in UTC) when the log entry was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EntityId",
-        "type": "string",
-        "description": "Unique identifier for the spam exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AttachmentMd5",
-        "type": "string",
-        "description": "MD5 hash of the attachment.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderEmail",
-        "type": "string",
-        "description": "Email address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderName",
-        "type": "string",
-        "description": "Name of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Recipient",
-        "type": "string",
-        "description": "Recipient email address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderClientIp",
-        "type": "string",
-        "description": "Client IP address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderDomain",
-        "type": "string",
-        "description": "Domain of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderIp",
-        "type": "string",
-        "description": "IP address of the sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LinkDomains",
-        "type": "string",
-        "description": "Domains contained in email links.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Subject",
-        "type": "string",
-        "description": "Email subject line.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Comment",
-        "type": "string",
-        "description": "Comment associated with the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActionNeeded",
-        "type": "string",
-        "description": "Action required for the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MatchOnlyFuture",
-        "type": "string",
-        "description": "Indicates if the exception applies only to future emails.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "QuarantineAll",
-        "type": "string",
-        "description": "Indicates if all matching emails should be quarantined.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IgnoringSpfCheck",
-        "type": "boolean",
-        "description": "Indicates if SPF check is ignored.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SubjectMatching",
-        "type": "string",
-        "description": "Subject matching criteria (e.g., contains, equals).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LinkDomainMatching",
-        "type": "string",
-        "description": "Link domain matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderNameMatching",
-        "type": "string",
-        "description": "Sender name matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderDomainMatching",
-        "type": "string",
-        "description": "Sender domain matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SenderEmailMatching",
-        "type": "string",
-        "description": "Sender email matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RecipientMatching",
-        "type": "string",
-        "description": "Recipient matching criteria.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AddedBy",
-        "type": "string",
-        "description": "User ID who added the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EditedBy",
-        "type": "string",
-        "description": "User ID who last edited the exception.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "UpdateTime",
-        "type": "datetime",
-        "description": "Timestamp when the exception was last updated.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
   "CiscoDuo_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -43824,88 +42054,6 @@
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
-  },
-  "CiscoETDv2_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventTime",
-        "type": "datetime",
-        "description": "Timestamp of the email event from Cisco ETD.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventType",
-        "type": "string",
-        "description": "Event type: create or update.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MessageId",
-        "type": "string",
-        "description": "Unique identifier of the email message.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Verdict",
-        "type": "string",
-        "description": "Threat verdict: phishing, malicious, bec, spam, scam, graymail.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Sender",
-        "type": "string",
-        "description": "Sender email address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Recipient",
-        "type": "string",
-        "description": "Primary recipient email address.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Subject",
-        "type": "string",
-        "description": "Email subject line.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "message",
-        "type": "dynamic",
-        "description": "Full Cisco ETD message event object.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
   },
   "CiscoMerakiOrganizations_CL": {
     "source": "Sentinel Tables",
@@ -45784,46 +43932,6 @@
     "custom_table": true
   },
   "Cisco_Umbrella_ztna_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_CVAD_Events_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_SPA_Events_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_indicatorEventDetails_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_indicatorSummary_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_riskScoreChange_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixAnalytics_userProfile_V1_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixDaaSConfigOps_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "CitrixDaaSSessions_CL": {
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
@@ -50187,104 +48295,6 @@
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
-  },
-  "CommvaultAlertsCCF_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "Timestamp derived from the anomaly refTime field.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RefTime",
-        "type": "long",
-        "description": "Raw epoch timestamp (seconds) from the Commvault anomaly event.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AnomalyType",
-        "type": "int",
-        "description": "Bitfield integer representing the type(s) of anomaly detected. Common bits: 64=Ransomware, 8192=VSA Attack.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CreateCount",
-        "type": "int",
-        "description": "Number of files created during the anomaly window.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DeleteCount",
-        "type": "int",
-        "description": "Number of files deleted during the anomaly window.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ModCount",
-        "type": "int",
-        "description": "Number of files modified during the anomaly window.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RenameCount",
-        "type": "int",
-        "description": "Number of files renamed during the anomaly window.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "InfectedFilesCount",
-        "type": "int",
-        "description": "Number of files identified as infected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Location",
-        "type": "string",
-        "description": "Location or region associated with the anomaly.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientName",
-        "type": "string",
-        "description": "Name of the Commvault client (endpoint) where the anomaly was detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ClientId",
-        "type": "int",
-        "description": "Numeric identifier of the Commvault client.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
   },
   "CommvaultAlerts_CL": {
     "source": "Sentinel Tables",
@@ -62379,160 +60389,6 @@
     "columns": [],
     "custom_table": true
   },
-  "FilewallExchange_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "application",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "event_type",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "event_id",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "timestamp",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "state",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "status",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "subject",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "sender",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "recipient",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "mail_id",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "summary",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "policy_name",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "policy_id",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "release_timestamp",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "release_by_admin",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "release_reason",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "attachments",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
   "FinanceOperationsActivity_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -63106,160 +60962,6 @@
         "name": "InsertId",
         "type": "string",
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "GambitPoliciesIssues_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IssueId",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "State",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IssueStatus",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ResourceDisplayId",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "HostPlatform",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ResourceType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Environment",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AffectedSystems",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PolicyId",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PolicyName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PolicyDescription",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PolicyCategories",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Severity",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "BusinessImpacts",
-        "type": "dynamic",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RemediationSteps",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CreatedAt",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LastEvaluationTime",
-        "type": "datetime",
-        "description": "",
         "availability": [
           "Sentinel"
         ]
@@ -68207,120 +65909,6 @@
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
-  },
-  "MulesoftCloudhubAlerts_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CreatedAt",
-        "type": "datetime",
-        "description": "Timestamp when the alert was created (Unix epoch milliseconds)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LastModified",
-        "type": "datetime",
-        "description": "Timestamp when the alert was last modified (Unix epoch milliseconds)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Id",
-        "type": "string",
-        "description": "Unique identifier for the alert",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Name",
-        "type": "string",
-        "description": "Name of the alert",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Severity",
-        "type": "string",
-        "description": "Alert severity level",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "OrganizationId",
-        "type": "string",
-        "description": "Mulesoft organization identifier",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EnvironmentId",
-        "type": "string",
-        "description": "Mulesoft environment identifier",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ProductName",
-        "type": "string",
-        "description": "Product name (e.g., cloudhub)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Enabled",
-        "type": "boolean",
-        "description": "Whether the alert is enabled",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IsSystem",
-        "type": "boolean",
-        "description": "Whether this is a system-generated alert",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Condition",
-        "type": "dynamic",
-        "description": "Alert condition configuration including type, resources, and resource type",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Actions",
-        "type": "dynamic",
-        "description": "Alert actions configuration including notification settings",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
   },
   "NCProtectUAL_CL": {
     "source": "Sentinel Tables",
@@ -73302,6 +70890,26 @@
       "3rd-Party Connector Schemas"
     ]
   },
+  "OpenSystemsAuthenticationLogs_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "OpenSystemsFirewallLogs_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "OpenSystemsProxyLogs_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
+  "OpenSystemsZtnaLogs_CL": {
+    "source": "Sentinel Tables",
+    "columns": [],
+    "custom_table": true
+  },
   "OracleWebLogicServer_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -73505,192 +71113,6 @@
       {
         "name": "findings",
         "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "PRODAFTUstaCompromisedCredentials_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TicketId",
-        "type": "long",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Status",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "StatusTimestamp",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Created",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ContentType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CompanyId",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CompanyName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Username",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Url",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Source",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IsCorporate",
-        "type": "boolean",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PasswordScore",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PasswordLength",
-        "type": "int",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimUid",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimUsername",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimCountry",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimIp",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimComputerName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimOs",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimMalware",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "InfectionDate",
-        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
@@ -75278,176 +72700,6 @@
     "columns": [],
     "custom_table": true
   },
-  "PanoraysCompanyFindingPOC_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "asset_name",
-        "type": "string",
-        "description": "The specific digital asset where the finding was detected (e.g., a domain, subdomain, IP address, or URL).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "The UTC timestamp when this event was ingested into Microsoft Sentinel. Use this for time-range filtering in KQL",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "category",
-        "type": "string",
-        "description": "The high-level security domain of the finding (Possible values: Human, Network and IT, Application)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "cves",
-        "type": "dynamic",
-        "description": "A list of Common Vulnerabilities and Exposures (CVE) IDs associated with this finding, if applicable (e.g., [CVE-2024-44228]).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "description",
-        "type": "string",
-        "description": "A detailed explanation of the vulnerability, including why it is a risk and the potential impact",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "evidence",
-        "type": "dynamic",
-        "description": "Technical proof collected during the scan. May include HTTP headers, open port nr., or specific configuration settings that triggered the finding.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "finding_text",
-        "type": "string",
-        "description": "The headline or short title of the specific finding (e.g., Cloud Private Services Exposed)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "id",
-        "type": "string",
-        "description": "The unique identifier for this specific finding within the Panorays platform.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "is_hidden",
-        "type": "boolean",
-        "description": "Indicates if this finding has been manually suppressed or hidden in the Panorays dashboard (true = hidden)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "metadata",
-        "type": "dynamic",
-        "description": "A JSON object containing additional context specific to the finding type (e.g., specific port numbers, certificate details)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "previously_disputed",
-        "type": "boolean",
-        "description": "Flag indicating if this finding was previously marked as a false positive or disputed by an analyst.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "segments",
-        "type": "dynamic",
-        "description": "A list of business units, tags, or asset groups within Panorays that this finding is associated with",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "severity",
-        "type": "string",
-        "description": "The risk level assigned to this finding. Possible values: Critical, High, Medium, Low, Info.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "status",
-        "type": "string",
-        "description": "The current lifecycle state of the finding. Possible values Open, Done, Closed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "status_update_ts",
-        "type": "string",
-        "description": "The timestamp (as a string) reflecting specifically when the status field last changed.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "sub_category",
-        "type": "string",
-        "description": "A granular classification of the finding within the parent category (e.g., Exposed Services, Mail Server etc.).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "test_name",
-        "type": "string",
-        "description": "The name of the security test that generated this finding",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "test_text",
-        "type": "string",
-        "description": "The descriptive text of the security test",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "update_ts",
-        "type": "datetime",
-        "description": "The timestamp (UTC) when the record was last modified in the Panorays.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "updated_by",
-        "type": "string",
-        "description": "The user or system process that performed the last update to this record.",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
   "Perimeter81_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -76632,11 +73884,6 @@
       "3rd-Party Connector Schemas"
     ]
   },
-  "RelevanceSystemAlerts_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
   "Rubrik_Anomaly_Data_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -77133,16 +74380,6 @@
       "Sentinel Tables",
       "3rd-Party Connector Schemas"
     ]
-  },
-  "SailPointIDN_Events_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "SailPointIDN_Triggers_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
   },
   "SalesForceRealTimeEventMonitoring_CL": {
     "source": "Sentinel Tables",
@@ -84757,269 +81994,6 @@
     "columns": [],
     "custom_table": true
   },
-  "TrendMicroCASV2_CL": {
-    "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "LogItemId",
-        "type": "string",
-        "description": "Unique identifier for the log entry.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Service",
-        "type": "string",
-        "description": "Cloud service where the event occurred (exchange, sharepoint, onedrive, dropbox, box, googledrive, gmail, teams, exchangeserver, salesforce_sandbox, salesforce_production, teams_chat).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Event",
-        "type": "string",
-        "description": "Type of security event (securityrisk, virtualanalyzer, ransomware, dlp).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ScanType",
-        "type": "string",
-        "description": "The type of scan performed on the message or file.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AffectedUser",
-        "type": "string",
-        "description": "Email address or username of the affected user.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Location",
-        "type": "string",
-        "description": "File path or location where the threat was detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DetectionTime",
-        "type": "datetime",
-        "description": "Timestamp when the threat was detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TriggeredPolicyName",
-        "type": "string",
-        "description": "Name of the security policy that was triggered.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TriggeredSecurityFilter",
-        "type": "string",
-        "description": "Security filter that triggered the alert.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Action",
-        "type": "string",
-        "description": "Action taken by the security system.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ActionResult",
-        "type": "string",
-        "description": "Result of the action taken.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageId",
-        "type": "string",
-        "description": "Unique identifier for the email message.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageSender",
-        "type": "string",
-        "description": "Email address of the message sender.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageRecipient",
-        "type": "dynamic",
-        "description": "Email addresses of message recipients.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageSubmitTime",
-        "type": "datetime",
-        "description": "Timestamp when the email message was submitted.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageDeliveryTime",
-        "type": "datetime",
-        "description": "Timestamp when the email message was delivered.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageSubject",
-        "type": "string",
-        "description": "Subject line of the email message.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "MailMessageFileName",
-        "type": "string",
-        "description": "Name of the attachment file in the email.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "FileName",
-        "type": "string",
-        "description": "Name of the file where the threat was detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "FileUploadTime",
-        "type": "datetime",
-        "description": "Timestamp when the file was uploaded.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "SecurityRiskName",
-        "type": "string",
-        "description": "Name of the identified security risk.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DetectedBy",
-        "type": "string",
-        "description": "Detection mechanism or engine that identified the threat.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RiskLevel",
-        "type": "string",
-        "description": "Risk level classification (e.g., High, Medium, Low).",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "FileSHA1",
-        "type": "string",
-        "description": "SHA-1 hash of the detected file.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "FileSHA256",
-        "type": "string",
-        "description": "SHA-256 hash of the detected file.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VirusName",
-        "type": "string",
-        "description": "Name of the virus or malware detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "DetectionType",
-        "type": "string",
-        "description": "Type of detection method used.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "RansomwareName",
-        "type": "string",
-        "description": "Name of the ransomware variant detected.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TriggeredDlpTemplate",
-        "type": "dynamic",
-        "description": "Data Loss Prevention template that was triggered.",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ConnectorName",
-        "type": "string",
-        "description": "Connector Friendly Name assigned during connector setup",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
-  },
-  "TrendMicroCAS_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
   "TrendMicro_XDR_OAT_CL": {
     "source": "Sentinel Tables",
     "columns": [],
@@ -86790,92 +83764,7 @@
     "columns": [],
     "custom_table": true
   },
-  "ZeroFoxAdvancedDarkWeb_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
   "ZeroFoxAlertPoller_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxBotnetCC_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxBotnet_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxBreaches_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxCompromisedCredentials_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxCreditCards_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxDarkWeb_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxDiscord_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxDisruption_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxEmailAddresses_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxExploits_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxIndicators_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxKeyIncidents_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxNationalIds_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxPhysicalThreats_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxTelegram_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "ZeroFoxVulnerabilities_CL": {
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true
@@ -87398,11 +84287,6 @@
     "custom_table": true
   },
   "alertsubadata_CL": {
-    "source": "Sentinel Tables",
-    "columns": [],
-    "custom_table": true
-  },
-  "apifirewall_log_1_CL": {
     "source": "Sentinel Tables",
     "columns": [],
     "custom_table": true

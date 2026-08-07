@@ -2,6 +2,64 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-07 04:51 UTC
+
+**Tables added** (6)
+
+- `DomainToolsThreatIntelDomains_CL` (4 columns, source: 3rd-Party Connector Schemas)
+- `McasShadowItReporting` (27 columns, source: Sentinel Tables)
+- `OpenSystemsAuthenticationLogs_CL` (0 columns, source: Sentinel Tables)
+- `OpenSystemsFirewallLogs_CL` (0 columns, source: Sentinel Tables)
+- `OpenSystemsProxyLogs_CL` (0 columns, source: Sentinel Tables)
+- `OpenSystemsZtnaLogs_CL` (0 columns, source: Sentinel Tables)
+
+**Tables removed** (43)
+
+- `ABNORMAL_SECURITY_ABUSE_MAILBOX_CL`
+- `ABNORMAL_SECURITY_ATO_CASE_CL`
+- `ABNORMAL_SECURITY_AUDIT_LOG_CL`
+- `ABNORMAL_SECURITY_CASE_CL`
+- `ABNORMAL_SECURITY_LOGS_CL`
+- `ABNORMAL_SECURITY_POSTURE_CHANGE_CL`
+- `ABNORMAL_SECURITY_REMEDIATION_CL`
+- `ABNORMAL_SECURITY_THREAT_LOG_CL`
+- `ABNORMAL_SECURITY_VENDOR_CASE_CL`
+- `AkamaiSIEMEvent`
+- `AtlassianAuditEvents`
+- `CitrixAnalytics_CVAD_Events_V1_CL`
+- `CitrixAnalytics_SPA_Events_V1_CL`
+- `CitrixAnalytics_indicatorEventDetails_V1_CL`
+- `CitrixAnalytics_indicatorSummary_V1_CL`
+- `CitrixAnalytics_riskScoreChange_V1_CL`
+- `CitrixAnalytics_userProfile_V1_CL`
+- `CitrixDaaSConfigOps_CL`
+- `CitrixDaaSSessions_CL`
+- `FortyTwoCrunchAPIProtectionV2`
+- `MuleSoftCloudhubLogs`
+- `RelevanceSystemAlerts_CL`
+- `SailPointIDN_Events_CL`
+- `SailPointIDN_Triggers_CL`
+- `TrendMicroCAS_CL`
+- `ZeroFoxAdvancedDarkWeb_CL`
+- `ZeroFoxBotnetCC_CL`
+- `ZeroFoxBotnet_CL`
+- `ZeroFoxBreaches_CL`
+- `ZeroFoxCompromisedCredentials_CL`
+- `ZeroFoxCreditCards_CL`
+- `ZeroFoxDarkWeb_CL`
+- `ZeroFoxDiscord_CL`
+- `ZeroFoxDisruption_CL`
+- `ZeroFoxEmailAddresses_CL`
+- `ZeroFoxExploits_CL`
+- `ZeroFoxIndicators_CL`
+- `ZeroFoxKeyIncidents_CL`
+- `ZeroFoxNationalIds_CL`
+- `ZeroFoxPhysicalThreats_CL`
+- `ZeroFoxTelegram_CL`
+- `ZeroFoxVulnerabilities_CL`
+- `apifirewall_log_1_CL`
+
+
 ### 2026-08-06 05:44 UTC
 
 **Tables added** (8)

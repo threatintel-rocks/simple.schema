@@ -1,7 +1,175 @@
 {
-  "PRODAFTUstaCompromisedCredentials_CL": {
-    "source": "3rd-Party Connector Schemas",
+  "McasShadowItReporting": {
+    "source": "Sentinel Tables",
     "columns": [
+      {
+        "name": "AadTenantId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppCategory",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppInstance",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppTags",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_BilledSize",
+        "type": "real",
+        "description": "The record size in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlockedEvents",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Date",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DownloadedBytes",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnrichedUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "_IsBillable",
+        "type": "string",
+        "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RichUserName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StreamName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "The Log Analytics workspace ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
       {
         "name": "TimeGenerated",
         "type": "datetime",
@@ -11,47 +179,7 @@
         ]
       },
       {
-        "name": "TicketId",
-        "type": "long",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Status",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "StatusTimestamp",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Created",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ContentType",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "CompanyId",
+        "name": "TotalBytes",
         "type": "int",
         "description": "",
         "availability": [
@@ -59,55 +187,7 @@
         ]
       },
       {
-        "name": "CompanyName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Username",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Url",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Source",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "IsCorporate",
-        "type": "boolean",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PasswordScore",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "PasswordLength",
+        "name": "TotalEvents",
         "type": "int",
         "description": "",
         "availability": [
@@ -115,70 +195,29 @@
         ]
       },
       {
-        "name": "VictimUid",
+        "name": "Type",
         "type": "string",
+        "description": "The name of the table",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UploadedBytes",
+        "type": "int",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "VictimUsername",
+        "name": "UserName",
         "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimCountry",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimIp",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimComputerName",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimOs",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "VictimMalware",
-        "type": "string",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "InfectionDate",
-        "type": "datetime",
         "description": "",
         "availability": [
           "Sentinel"
         ]
       }
-    ],
-    "solution": "PRODAFT USTA - Account Takeover Prevention"
+    ]
   }
 }

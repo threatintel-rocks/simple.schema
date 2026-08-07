@@ -30479,6 +30479,44 @@
     ],
     "solution": "D3SmartSOAR"
   },
+  "DomainToolsThreatIntelDomains_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "timestamp",
+        "type": "string",
+        "description": "Timestamp",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "description": "Domain",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "domaintype",
+        "type": "string",
+        "description": "Type of domain data (nod, noh, nad, domaindiscovery)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) reflecting the time in which the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "DomainTools CCF"
+  },
   "DragosAlerts_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
