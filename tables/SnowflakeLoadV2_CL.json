@@ -1,0 +1,32 @@
+{
+  "SnowflakeLoadV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Data",
+        "type": "string",
+        "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Snowflake"
+  }
+}

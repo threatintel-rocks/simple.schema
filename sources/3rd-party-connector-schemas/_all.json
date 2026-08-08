@@ -30479,6 +30479,60 @@
     ],
     "solution": "D3SmartSOAR"
   },
+  "DatadogAuditV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the Datadog audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Resource type of the event (always 'audit')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attributes",
+        "type": "dynamic",
+        "description": "Full attributes object of the Datadog audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventService",
+        "type": "string",
+        "description": "Datadog service that emitted the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "string",
+        "description": "Timestamp reported by Datadog for the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Datadog"
+  },
   "DomainToolsThreatIntelDomains_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -69807,7 +69861,7 @@
     ],
     "solution": "SlackAudit"
   },
-  "SnowflakeLoad_CL": {
+  "SnowflakeLoadV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69822,6 +69876,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69829,7 +69891,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeLogin_CL": {
+  "SnowflakeLoginV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69844,6 +69906,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69851,7 +69921,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeMaterializedView_CL": {
+  "SnowflakeMaterializedViewV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69866,6 +69936,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69873,7 +69951,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeQuery_CL": {
+  "SnowflakeQueryV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69888,6 +69966,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69895,7 +69981,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeRoleGrant_CL": {
+  "SnowflakeRoleGrantV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69910,6 +69996,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69917,7 +70011,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeRoles_CL": {
+  "SnowflakeRolesV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69932,6 +70026,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69939,7 +70041,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeTables_CL": {
+  "SnowflakeTableStorageMetricsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69954,6 +70056,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69961,7 +70071,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeTableStorageMetrics_CL": {
+  "SnowflakeTablesV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69976,6 +70086,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -69983,7 +70101,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeUserGrant_CL": {
+  "SnowflakeUserGrantV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -69998,6 +70116,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]
@@ -70005,7 +70131,7 @@
     ],
     "solution": "Snowflake"
   },
-  "SnowflakeUsers_CL": {
+  "SnowflakeUsersV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -70020,6 +70146,14 @@
         "name": "Data",
         "type": "string",
         "description": "Dynamic data column",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SnowflakeAccountIdentifier",
+        "type": "string",
+        "description": "Snowflake account identifier configured for this connection; hard-coded on every record so it can be differentiated.",
         "availability": [
           "Sentinel"
         ]

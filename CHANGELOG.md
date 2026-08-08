@@ -2,6 +2,97 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-08 04:09 UTC
+
+**Tables added** (54)
+
+- `ABNORMAL_SECURITY_ABUSE_MAILBOX_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_ATO_CASE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_AUDIT_LOG_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_CASE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_LOGS_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_POSTURE_CHANGE_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_REMEDIATION_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_THREAT_LOG_CL` (0 columns, source: Sentinel Tables)
+- `ABNORMAL_SECURITY_VENDOR_CASE_CL` (0 columns, source: Sentinel Tables)
+- `AkamaiSIEMEvent` (0 columns, source: Sentinel Tables)
+- `AtlassianAuditEvents` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_CVAD_Events_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_SPA_Events_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_indicatorEventDetails_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_indicatorSummary_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_riskScoreChange_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixAnalytics_userProfile_V1_CL` (0 columns, source: Sentinel Tables)
+- `CitrixDaaSConfigOps_CL` (0 columns, source: Sentinel Tables)
+- `CitrixDaaSSessions_CL` (0 columns, source: Sentinel Tables)
+- `DatadogAuditV2_CL` (6 columns, source: 3rd-Party Connector Schemas)
+- `FortyTwoCrunchAPIProtectionV2` (0 columns, source: Sentinel Tables)
+- `MuleSoftCloudhubLogs` (0 columns, source: Sentinel Tables)
+- `RelevanceSystemAlerts_CL` (0 columns, source: Sentinel Tables)
+- `SailPointIDN_Events_CL` (0 columns, source: Sentinel Tables)
+- `SailPointIDN_Triggers_CL` (0 columns, source: Sentinel Tables)
+- `SnowflakeLoadV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeLoginV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeMaterializedViewV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeQueryV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeRoleGrantV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeRolesV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeTableStorageMetricsV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeTablesV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeUserGrantV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `SnowflakeUsersV2_CL` (3 columns, source: 3rd-Party Connector Schemas)
+- `TrendMicroCAS_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxAdvancedDarkWeb_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBotnetCC_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBotnet_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxBreaches_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxCompromisedCredentials_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxCreditCards_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDarkWeb_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDiscord_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxDisruption_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxEmailAddresses_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxExploits_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxIndicators_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxKeyIncidents_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxNationalIds_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxPhysicalThreats_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxTelegram_CL` (0 columns, source: Sentinel Tables)
+- `ZeroFoxVulnerabilities_CL` (0 columns, source: Sentinel Tables)
+- `apifirewall_log_1_CL` (0 columns, source: Sentinel Tables)
+
+**Tables removed** (5)
+
+- `McasShadowItReporting`
+- `OpenSystemsAuthenticationLogs_CL`
+- `OpenSystemsFirewallLogs_CL`
+- `OpenSystemsProxyLogs_CL`
+- `OpenSystemsZtnaLogs_CL`
+
+**Columns removed** (20)
+
+- `SnowflakeLoad_CL.Data`
+- `SnowflakeLoad_CL.TimeGenerated`
+- `SnowflakeLogin_CL.Data`
+- `SnowflakeLogin_CL.TimeGenerated`
+- `SnowflakeMaterializedView_CL.Data`
+- `SnowflakeMaterializedView_CL.TimeGenerated`
+- `SnowflakeQuery_CL.Data`
+- `SnowflakeQuery_CL.TimeGenerated`
+- `SnowflakeRoleGrant_CL.Data`
+- `SnowflakeRoleGrant_CL.TimeGenerated`
+- `SnowflakeRoles_CL.Data`
+- `SnowflakeRoles_CL.TimeGenerated`
+- `SnowflakeTableStorageMetrics_CL.Data`
+- `SnowflakeTableStorageMetrics_CL.TimeGenerated`
+- `SnowflakeTables_CL.Data`
+- `SnowflakeTables_CL.TimeGenerated`
+- `SnowflakeUserGrant_CL.Data`
+- `SnowflakeUserGrant_CL.TimeGenerated`
+- `SnowflakeUsers_CL.Data`
+- `SnowflakeUsers_CL.TimeGenerated`
+
+
 ### 2026-08-07 04:51 UTC
 
 **Tables added** (6)

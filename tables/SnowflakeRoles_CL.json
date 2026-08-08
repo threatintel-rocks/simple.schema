@@ -1,28 +1,7 @@
 {
   "SnowflakeRoles_CL": {
     "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Data",
-        "type": "string",
-        "description": "Dynamic data column",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
+    "columns": [],
+    "custom_table": true
   }
 }
