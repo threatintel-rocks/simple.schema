@@ -8,8 +8,7 @@
         "description": "Azure Active Directory group id",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AADTarget",
@@ -17,8 +16,7 @@
         "description": "The user that the action (identified by the Operation property) was performed on",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Activity",
@@ -26,8 +24,7 @@
         "description": "The activity that the user performed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Actor",
@@ -35,8 +32,7 @@
         "description": "The user or service principal that performed the action",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActorContextId",
@@ -44,8 +40,7 @@
         "description": "The GUID of the organization that the actor belongs to",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActorIpAddress",
@@ -53,8 +48,7 @@
         "description": "The actor's IP address in IPV4 or IPV6 address format",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AddOnGuid",
@@ -62,8 +56,7 @@
         "description": "The unique identifier of the add-on generated this event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AddonName",
@@ -71,8 +64,7 @@
         "description": "The name of the add-on that generated this event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AddOnType",
@@ -80,8 +72,7 @@
         "description": "The type of add-on that generated this event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AffectedItems",
@@ -89,8 +80,7 @@
         "description": "Information about each item in the group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppAccessContext",
@@ -98,8 +88,7 @@
         "description": "The application context for the user or service principal that performed the action.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppDistributionMode",
@@ -107,8 +96,7 @@
         "description": "Application distribution mode",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppId",
@@ -116,8 +104,7 @@
         "description": "Application ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -125,8 +112,7 @@
         "description": "The application name",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationId",
@@ -134,8 +120,7 @@
         "description": "SharePoint application ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AppPoolName",
@@ -143,8 +128,7 @@
         "description": "The App pool name",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ArtifactsShared",
@@ -152,8 +136,7 @@
         "description": "The artifacts shared in the meeting.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Attendees",
@@ -161,8 +144,7 @@
         "description": "The list of attendees for the meeting.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AzureActiveDirectory_EventType",
@@ -170,8 +152,7 @@
         "description": "The type of Azure AD event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AzureADAppId",
@@ -179,8 +160,7 @@
         "description": "Teams Application Azure AD ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -188,8 +168,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "ChannelGuid",
@@ -197,8 +176,7 @@
         "description": "A unique identifier for the channel being audited",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ChannelName",
@@ -206,8 +184,7 @@
         "description": "The name of the channel being audited",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ChannelType",
@@ -215,8 +192,7 @@
         "description": "The type of channel being audited (Standard/Private)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ChatName",
@@ -224,8 +200,7 @@
         "description": "The name of the chat",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ChatThreadId",
@@ -233,8 +208,7 @@
         "description": "The Id of the chat thread",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Client",
@@ -242,8 +216,7 @@
         "description": "Details about the client device, device OS, and device browser that was used for the of the account login event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Client_IPAddress",
@@ -251,8 +224,7 @@
         "description": "The IP address of the device that was used when the operation was logged",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientAppId",
@@ -260,8 +232,7 @@
         "description": "Client application ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientInfoString",
@@ -269,8 +240,7 @@
         "description": "Information about the email client that was used to perform the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientIP",
@@ -278,8 +248,7 @@
         "description": "The IP address of the device that was used when the activity was logged",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientMachineName",
@@ -287,8 +256,7 @@
         "description": "The machine name that hosts the Outlook client",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientProcessName",
@@ -296,8 +264,7 @@
         "description": "The email client that was used to access the mailbox",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientVersion",
@@ -305,8 +272,7 @@
         "description": "The version of the email client",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CommunicationType",
@@ -314,8 +280,7 @@
         "description": "The type of communications that was conducted",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CrossMailboxOperations",
@@ -323,8 +288,7 @@
         "description": "Indicates if the operation involved more than one mailbox",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CustomEvent",
@@ -332,8 +296,7 @@
         "description": "Optional string for custom events",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataCenterSecurityEventType",
@@ -341,8 +304,7 @@
         "description": "The type of dmdlet event in lock box",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestFolder",
@@ -350,8 +312,7 @@
         "description": "The destination folder",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationFileExtension",
@@ -359,8 +320,7 @@
         "description": "The file extension of a file that is copied or moved",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationFileName",
@@ -368,8 +328,7 @@
         "description": "The name of the file that is copied or moved",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationRelativeUrl",
@@ -377,8 +336,7 @@
         "description": "The URL of the destination folder where a file is copied or moved",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestMailboxId",
@@ -386,8 +344,7 @@
         "description": "Set only if the CrossMailboxOperations parameter is True",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestMailboxOwnerMasterAccountSid",
@@ -395,8 +352,7 @@
         "description": "Set only if the CrossMailboxOperations parameter is True",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestMailboxOwnerSid",
@@ -404,8 +360,7 @@
         "description": "Set only if the CrossMailboxOperations parameter is True",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestMailboxOwnerUPN",
@@ -413,8 +368,7 @@
         "description": "Set only if the CrossMailboxOperations parameter is True",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceInformation",
@@ -422,8 +376,7 @@
         "description": "The user device information.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EffectiveOrganization",
@@ -431,8 +384,7 @@
         "description": "The name of the tenant that the elevation/cmdlet was targeted at",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationApprovedTime",
@@ -440,8 +392,7 @@
         "description": "The timestamp for when the elevation was approved",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationApprover",
@@ -449,8 +400,7 @@
         "description": "The name of a Microsoft manager",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationDuration",
@@ -458,8 +408,7 @@
         "description": "The duration for which the elevation was active (in Hours)",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationRequestId",
@@ -467,8 +416,7 @@
         "description": "A unique identifier for the elevation request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationRole",
@@ -476,8 +424,7 @@
         "description": "The role the elevation was requested for",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElevationTime",
@@ -485,8 +432,7 @@
         "description": "The start time of the elevation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Event_Data",
@@ -494,8 +440,7 @@
         "description": "Optional payload for custom events",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EventSource",
@@ -503,8 +448,7 @@
         "description": "Identifies that an event occurred in SharePoint. Possible values are SharePoint or ObjectModel",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExtendedProperties",
@@ -512,8 +456,7 @@
         "description": "The extended properties of the Azure AD event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExternalAccess",
@@ -521,8 +464,7 @@
         "description": "Specifies whether the cmdlet was run by a user in your organization",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ExtraProperties",
@@ -530,8 +472,7 @@
         "description": "A list of extra properties",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Folder",
@@ -539,8 +480,7 @@
         "description": "The folder where a group of items is located",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Folders",
@@ -548,8 +488,7 @@
         "description": "Information about the source folders involved in an operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GenericInfo",
@@ -557,8 +496,7 @@
         "description": "Used for comments and other generic information",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InternalLogonType",
@@ -566,8 +504,7 @@
         "description": "Reserved for internal use",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InterSystemsId",
@@ -575,8 +512,7 @@
         "description": "The GUID that track the actions across components within the Office 365 service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IntraSystemId",
@@ -584,8 +520,7 @@
         "description": "The GUID that's generated by Azure Active Directory to track the action",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -593,8 +528,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "IsJoinedFromLobby",
@@ -602,8 +536,7 @@
         "description": "Indicates whether the user join from the lobby.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsManagedDevice",
@@ -611,8 +544,7 @@
         "description": "Indicates if operation was created by a device managed by the organization",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Item",
@@ -620,8 +552,7 @@
         "description": "Represents the item upon which the operation was performed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ItemName",
@@ -629,8 +560,7 @@
         "description": "The string in the Subject field of the email message",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ItemType",
@@ -638,8 +568,7 @@
         "description": "The type of object that was accessed or modified. See the ItemType table for details on the types of objects",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "JoinTime",
@@ -647,8 +576,7 @@
         "description": "The time the user joined the meeting.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LeaveTime",
@@ -656,8 +584,7 @@
         "description": "The time the user left the meeting.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ListItemUniqueId",
@@ -665,8 +592,7 @@
         "description": "The Guid of uniquely an identifiable item of list. This information is present only if it is applicable.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LoginStatus",
@@ -674,8 +600,7 @@
         "description": "This property is from OrgIdLogon.LoginStatus directly. The mapping of various interesting logon failures could be done by alerting algorithms",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Logon_Type",
@@ -683,8 +608,7 @@
         "description": "Indicates the type of user who accessed the mailbox and performed the operation that was logged",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogonUserDisplayName",
@@ -692,8 +616,7 @@
         "description": "The user-friendly name of the user who performed the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogonUserSid",
@@ -701,8 +624,7 @@
         "description": "The SID of the user who performed the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MachineDomainInfo",
@@ -710,8 +632,7 @@
         "description": "Information about device sync operations",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MachineId",
@@ -719,8 +640,7 @@
         "description": "Information about device sync operations",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MailboxGuid",
@@ -728,8 +648,7 @@
         "description": "The Exchange GUID of the mailbox that was accessed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MailboxOwnerMasterAccountSid",
@@ -737,8 +656,7 @@
         "description": "Mailbox owner account's master account SID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MailboxOwnerSid",
@@ -746,8 +664,7 @@
         "description": "The SID of the mailbox owner",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MailboxOwnerUPN",
@@ -755,8 +672,7 @@
         "description": "The email address of the person who owns the mailbox that was accessed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MeetingDetailId",
@@ -764,8 +680,7 @@
         "description": "The meeting detail ID.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Members",
@@ -773,8 +688,7 @@
         "description": "A list of users within a Team",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MessageId",
@@ -782,8 +696,7 @@
         "description": "An identifier for a chat or channel message",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ModifiedObjectResolvedName",
@@ -791,8 +704,7 @@
         "description": "This is the user friendly name of the object that was modified by the cmdlet",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ModifiedProperties",
@@ -800,8 +712,7 @@
         "description": "The property is included for admin events, such as adding a user as a member of a site or a site collection admin group",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Name",
@@ -809,8 +720,7 @@
         "description": "Only present for settings events. Name of the setting that changed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NewValue",
@@ -818,8 +728,7 @@
         "description": "Only present for settings events. New value of the setting",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OfficeId",
@@ -827,8 +736,7 @@
         "description": "Unique identifier of an audit record",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OfficeObjectId",
@@ -836,8 +744,7 @@
         "description": "For SharePoint and OneDrive for Business activity",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OfficeTenantId",
@@ -845,8 +752,7 @@
         "description": "The office tenant id",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OfficeWorkload",
@@ -854,8 +760,7 @@
         "description": "The Office 365 service where the activity occurred",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OldValue",
@@ -863,8 +768,7 @@
         "description": "Only present for settings events. Old value of the setting",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Operation",
@@ -872,8 +776,7 @@
         "description": "The name of the operation that the user is performing",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationProperties",
@@ -881,8 +784,7 @@
         "description": "Additional operation properties",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationScope",
@@ -890,8 +792,7 @@
         "description": "The scope the operation was performed on",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OrganizationId",
@@ -899,8 +800,7 @@
         "description": "The GUID for your organization's Office 365 tenant. This value will always be the same for your organization",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OrganizationName",
@@ -908,8 +808,7 @@
         "description": "The name of the tenant",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OriginatingServer",
@@ -917,8 +816,7 @@
         "description": "The name of the server from which the cmdlet was executed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Parameters",
@@ -926,8 +824,7 @@
         "description": "The name and value for all parameters that were used with the cmdlet that is identified in the Operations property",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RecordType",
@@ -935,8 +832,7 @@
         "description": "The type of operation indicated by the record. See the AuditLogRecordType table for details on the types of audit log records",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_ResourceId",
@@ -944,8 +840,7 @@
         "description": "A unique identifier for the resource that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResultReasonType",
@@ -953,8 +848,7 @@
         "description": "Reason for the result reported in ResultType",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResultStatus",
@@ -962,8 +856,7 @@
         "description": "Indicates whether the action (specified in the Operation property) was successful or not",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SendAsUserMailboxGuid",
@@ -971,8 +864,7 @@
         "description": "The Exchange GUID of the mailbox that was accessed to send email as",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SendAsUserSmtp",
@@ -980,8 +872,7 @@
         "description": "SMTP address of the user who is being impersonated",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SendonBehalfOfUserMailboxGuid",
@@ -989,8 +880,7 @@
         "description": "The Exchange GUID of the mailbox that was accessed to send mail on behalf of",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SendOnBehalfOfUserSmtp",
@@ -998,8 +888,7 @@
         "description": "SMTP address of the user on whose behalf the email is sent",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SensitivityLabelId",
@@ -1007,8 +896,7 @@
         "description": "The current sensitivity label ID of the file.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SharingType",
@@ -1016,8 +904,7 @@
         "description": "The type of sharing permissions that were assigned to the user that the resource was shared with. This user is identified by the UserSharedWith parameter",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Site_",
@@ -1025,8 +912,7 @@
         "description": "The GUID of the site where the file or folder accessed by the user is located",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Site_Url",
@@ -1034,8 +920,7 @@
         "description": "The URL of the site where the file or folder accessed by the user is located",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Source_Name",
@@ -1043,8 +928,7 @@
         "description": "The entity that triggered the audited operation. Possible values are SharePoint or ObjectModel",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceFileExtension",
@@ -1052,8 +936,7 @@
         "description": "The file extension of the file that was accessed by the user",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceFileName",
@@ -1061,8 +944,7 @@
         "description": "The name of the file or folder accessed by the user",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceRecordId",
@@ -1070,8 +952,7 @@
         "description": "Unique identifier of an audit record",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceRelativeUrl",
@@ -1079,8 +960,7 @@
         "description": "The URL of the folder that contains the file accessed by the user",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -1088,8 +968,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SRPolicyId",
@@ -1097,8 +976,7 @@
         "description": "Policy ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SRPolicyName",
@@ -1106,8 +984,7 @@
         "description": "Policy name",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SRRuleMatchDetails",
@@ -1115,8 +992,7 @@
         "description": "Rule details",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Start_Time",
@@ -1124,8 +1000,7 @@
         "description": "The date and time at which the cmdlet was executed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_SubscriptionId",
@@ -1133,8 +1008,7 @@
         "description": "A unique identifier for the subscription that the record is associated with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "SupportTicketId",
@@ -1142,8 +1016,7 @@
         "description": "The customer support ticket ID for the action in 'act-on-behalf-of' situations",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TabType",
@@ -1151,8 +1024,7 @@
         "description": "The type of tab that generated this event",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetContextId",
@@ -1160,8 +1032,7 @@
         "description": "The GUID of the organization that the targeted user belongs to",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetUserId",
@@ -1169,8 +1040,7 @@
         "description": "Target user id",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetUserOrGroupName",
@@ -1178,8 +1048,7 @@
         "description": "Stores the UPN or name of the target user or group that a resource was shared with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetUserOrGroupType",
@@ -1187,8 +1056,7 @@
         "description": "Identifies whether the target user or group is a Member, Guest, Group, or Partner",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TeamGuid",
@@ -1196,8 +1064,7 @@
         "description": "A unique identifier for the team being audited",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TeamName",
@@ -1205,8 +1072,7 @@
         "description": "The name of the team being audited",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -1214,8 +1080,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -1223,8 +1088,7 @@
         "description": "The date and time in Coordinated Universal Time (UTC) when the user performed the activity",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -1232,8 +1096,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UniqueSharingId",
@@ -1241,8 +1104,7 @@
         "description": "The unique sharing ID associated with the sharing operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserAgent",
@@ -1250,8 +1112,7 @@
         "description": "The user agent",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserDomain",
@@ -1259,8 +1120,7 @@
         "description": "The domain of the user",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserId",
@@ -1268,8 +1128,7 @@
         "description": "The UPN (User Principal Name) of the user who performed the action (specified in the Operation property) that resulted in the record being logged",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserKey",
@@ -1277,8 +1136,7 @@
         "description": "An alternative ID for the user identified in the UserId property",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserSharedWith",
@@ -1286,8 +1144,7 @@
         "description": "The user that a resource was shared with",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UserType",
@@ -1295,76 +1152,8 @@
         "description": "The type of user that performed the operation. See the UserType table for details on the types of users",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
-      },
-      {
-        "name": "ActorContextId_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "ClientIP_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "IssuedAtTime",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "OfficeTenantId_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "OrganizationId_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Scope",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Site_Url_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceFileName_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceRelativeUrl_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "UniqueTokenId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "UserId_",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

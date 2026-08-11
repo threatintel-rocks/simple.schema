@@ -67309,6 +67309,14 @@
         ]
       },
       {
+        "name": "AlertDescription",
+        "type": "string",
+        "description": "Description of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "DetectedAt",
         "type": "datetime",
         "description": "Time the alert was detected.",
