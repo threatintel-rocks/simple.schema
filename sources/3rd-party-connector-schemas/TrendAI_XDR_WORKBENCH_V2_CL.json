@@ -1,0 +1,456 @@
+{
+  "TrendAI_XDR_WORKBENCH_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the alert was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MG",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagementGroupName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Computer",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawData",
+        "type": "string",
+        "description": "Raw indicators JSON string for fallback parsing.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchId_s",
+        "type": "string",
+        "description": "Unique Workbench alert identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "schemaVersion_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "investigationStatus_s",
+        "type": "string",
+        "description": "Current investigation status of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertStatus_s",
+        "type": "string",
+        "description": "Alert status (e.g. new, in_progress, resolved).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "investigationResult_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchLink_s",
+        "type": "string",
+        "description": "Deep link to the Workbench alert in the Vision One console.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertProvider_s",
+        "type": "string",
+        "description": "Product that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelId_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelId_s",
+        "type": "string",
+        "description": "Detection model identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "model_s",
+        "type": "string",
+        "description": "Detection model name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchName_s",
+        "type": "string",
+        "description": "Display name of the Workbench alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "priorityScore_d",
+        "type": "real",
+        "description": "Priority score (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "severity_s",
+        "type": "string",
+        "description": "Alert severity: low, medium, high, or critical.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "createdTime_t",
+        "type": "datetime",
+        "description": "Time the alert was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "updatedTime_t",
+        "type": "datetime",
+        "description": "Time the alert was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertTriggerTimestamp_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchCompleteTimestamp_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "incidentId_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "description_s",
+        "type": "string",
+        "description": "Human-readable description of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "desktopCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "serverCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "accountCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "emailAddressCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "containerCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "cloudIdentityCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "cloudWorkloadCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicators_s",
+        "type": "string",
+        "description": "Serialized indicators array for legacy compatibility.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicators",
+        "type": "dynamic",
+        "description": "Indicators array (IOC objects with type and value).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "impactScope_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "impactScope_Summary_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "entities",
+        "type": "dynamic",
+        "description": "Impacted entities array.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "matchedRules_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "matchedRules",
+        "type": "dynamic",
+        "description": "Matched detection rules array.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "xdrCustomerID_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName_s",
+        "type": "string",
+        "description": "Extracted file name IOC (populated by parser).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileHashValue_s",
+        "type": "string",
+        "description": "Extracted file hash IOC (SHA1/SHA256/MD5).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainName_s",
+        "type": "string",
+        "description": "Extracted domain IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileDirectory_s",
+        "type": "string",
+        "description": "Extracted file path IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "Extracted IP address IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "URL_s",
+        "type": "string",
+        "description": "Extracted URL IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostHostName_s",
+        "type": "string",
+        "description": "Impacted host name (populated by parser).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCommandLine_s",
+        "type": "string",
+        "description": "Extracted process command line IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryKey_s",
+        "type": "string",
+        "description": "Extracted registry key IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValue_s",
+        "type": "string",
+        "description": "Extracted registry value data IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValueName_s",
+        "type": "string",
+        "description": "Extracted registry value name IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAccountNTDomain_s",
+        "type": "string",
+        "description": "Extracted NT domain from impacted account entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAccountName_s",
+        "type": "string",
+        "description": "Extracted username from impacted account entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailboxPrimaryAddress_s",
+        "type": "string",
+        "description": "Impacted mailbox email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareName_s",
+        "type": "string",
+        "description": "Extracted malware/detection name IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "TrendAI Vision One(CCF)"
+  }
+}

@@ -2,6 +2,15 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-12 04:44 UTC
+
+**Tables added** (3)
+
+- `RedCanaryDetections_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `TrendAI_XDR_OAT_V2_CL` (156 columns, source: 3rd-Party Connector Schemas)
+- `TrendAI_XDR_WORKBENCH_V2_CL` (56 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-08-11 04:16 UTC
 
 **Columns added** (1)

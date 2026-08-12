@@ -121674,6 +121674,156 @@
     ],
     "solution": "PRODAFT USTA - Payment Card Fraud Intelligence"
   },
+  "RedCanaryDetections_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp when the detection was ingested into Microsoft Sentinel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "child_process_iocs_s",
+        "type": "string",
+        "description": "Serialized child process indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "cross_process_iocs_s",
+        "type": "string",
+        "description": "Serialized cross-process indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "host_os_family_s",
+        "type": "string",
+        "description": "Operating system family for the affected host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "host_os_version_s",
+        "type": "string",
+        "description": "Operating system version for the affected host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "host_name_s",
+        "type": "string",
+        "description": "Host name for the affected endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "host_full_name_s",
+        "type": "string",
+        "description": "Fully qualified host name for the affected endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "identities_s",
+        "type": "string",
+        "description": "Serialized identities associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "tactics_s",
+        "type": "string",
+        "description": "MITRE ATT&CK tactics associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "process_iocs_s",
+        "type": "string",
+        "description": "Serialized process indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "file_modification_iocs_s",
+        "type": "string",
+        "description": "Serialized file modification indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "network_connection_iocs_s",
+        "type": "string",
+        "description": "Serialized network connection indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "registry_modification_iocs_s",
+        "type": "string",
+        "description": "Serialized registry modification indicators associated with the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detection_id_s",
+        "type": "string",
+        "description": "Unique Red Canary detection identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detection_url_s",
+        "type": "string",
+        "description": "URL for the detection in Red Canary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detection_headline_s",
+        "type": "string",
+        "description": "Headline for the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detection_details_s",
+        "type": "string",
+        "description": "Detection details provided by Red Canary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detection_severity_s",
+        "type": "string",
+        "description": "Severity assigned to the Red Canary detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Red Canary"
+  },
   "RubrikProtectionStatus_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
@@ -127143,6 +127293,1714 @@
       }
     ],
     "solution": "Trellix"
+  },
+  "TrendAI_XDR_OAT_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Computer",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawData",
+        "type": "string",
+        "description": "Full detail object serialized as string for fallback parsing.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detectionTime_t",
+        "type": "datetime",
+        "description": "Time the detection was made.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "entityType_s",
+        "type": "string",
+        "description": "Type of entity involved (e.g. endpoint).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "entityName_s",
+        "type": "string",
+        "description": "Name of the entity involved.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "filters_s",
+        "type": "string",
+        "description": "OAT filter details serialized as string.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "endpoint_ips_s",
+        "type": "string",
+        "description": "IP addresses of the endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "endpoint_name_s",
+        "type": "string",
+        "description": "Endpoint host name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "endpoint_guid_g",
+        "type": "string",
+        "description": "Endpoint agent GUID.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "xdrCustomerId_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_endpointGuid_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventId_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventSubId_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_firstSeen_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_lastSeen_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_logonUser_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectCmd_s",
+        "type": "string",
+        "description": "Command line of the object process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileCreation_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileHashSha256_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileModifiedTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileSize_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectLaunchTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectRunAsLocalAccount_b",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectSigner_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectSignerValid_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectTrueType_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectUser_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectUserDomain_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_osName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_osType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_osVer_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentCmd_s",
+        "type": "string",
+        "description": "Command line of the parent process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFileCreation_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFileHashSha1_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFileHashSha256_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFileModifiedTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFilePath_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentFileSize_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentLaunchTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentName_s",
+        "type": "string",
+        "description": "Parent process name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentTrueType_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentUser_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentUserDomain_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_plang_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processCmd_s",
+        "type": "string",
+        "description": "Command line of the triggering process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFileCreation_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFileHashSha1_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFileHashSha256_s",
+        "type": "string",
+        "description": "SHA256 hash of the triggering process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFileModifiedTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFilePath_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processFileSize_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processLaunchTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processPid_d",
+        "type": "real",
+        "description": "PID of the triggering process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processSigner_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processSignerValid_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processTrueType_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processUser_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processUserDomain_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_timezone_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_userDomain_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectAppName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectContentName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFirstSeen_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectLastSeen_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectRawDataStr_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentSigner_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_parentSignerValid_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectSubTrueType_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_hostName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectIps_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_srcFirstSeen_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_srcLastSeen_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_actResult_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_channel_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_domainName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_endpointMacAddress_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventSubName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_firstAct_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_firstActResult_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_mDevice_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_malDst_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_malName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_malSubType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileHashSha1_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFileName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectFilePath_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_objectType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_scanType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_secondAct_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_secondActResult_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_act_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_aggregatedCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_app_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_appGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_aptRelated_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_clientFlag_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_detectionType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_deviceDirection_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_deviceGUID_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_deviceMacAddress_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dhost_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dmac_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dpt_d",
+        "type": "real",
+        "description": "Destination port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dst_s",
+        "type": "string",
+        "description": "Destination IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dstGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dstZone_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_dvchost_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventId_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventName_s",
+        "type": "string",
+        "description": "OAT event name / technique name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventSourceType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_eventTime_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_fileExt_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_fileHash_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_fileName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_filePath_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_filePathName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_fileSize_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_filterRiskLevel_s",
+        "type": "string",
+        "description": "Risk level: low, medium, high, or critical.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_fullPath_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_hostSeverity_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_interestedGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_interestedHost_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_interestedIp_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_malType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_malTypeGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_pAttackPhase_s",
+        "type": "string",
+        "description": "MITRE ATT&CK attack phase.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_pComp_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_peerGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_peerHost_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_peerIp_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_pname_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_remarks_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_rt_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_rtHour_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_ruleId_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_ruleName_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_senderIp_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_severity_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_shost_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_smac_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_spt_d",
+        "type": "real",
+        "description": "Source port.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_src_s",
+        "type": "string",
+        "description": "Source IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_srcGroup_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_srcZone_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_tags_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_threatType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_uuid_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_cat_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_endpointGUID_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_endpointHostName_s",
+        "type": "string",
+        "description": "Endpoint host name from the detail object.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_endpointIp_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_processName_s",
+        "type": "string",
+        "description": "Name of the triggering process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_proto_s",
+        "type": "string",
+        "description": "Network protocol.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "TrendAI Vision One(CCF)"
+  },
+  "TrendAI_XDR_WORKBENCH_V2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The timestamp (UTC) when the alert was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MG",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagementGroupName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Computer",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RawData",
+        "type": "string",
+        "description": "Raw indicators JSON string for fallback parsing.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchId_s",
+        "type": "string",
+        "description": "Unique Workbench alert identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "schemaVersion_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "investigationStatus_s",
+        "type": "string",
+        "description": "Current investigation status of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertStatus_s",
+        "type": "string",
+        "description": "Alert status (e.g. new, in_progress, resolved).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "investigationResult_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchLink_s",
+        "type": "string",
+        "description": "Deep link to the Workbench alert in the Vision One console.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertProvider_s",
+        "type": "string",
+        "description": "Product that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelId_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelId_s",
+        "type": "string",
+        "description": "Detection model identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "model_s",
+        "type": "string",
+        "description": "Detection model name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchName_s",
+        "type": "string",
+        "description": "Display name of the Workbench alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "modelType_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "priorityScore_d",
+        "type": "real",
+        "description": "Priority score (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "severity_s",
+        "type": "string",
+        "description": "Alert severity: low, medium, high, or critical.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "createdTime_t",
+        "type": "datetime",
+        "description": "Time the alert was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "updatedTime_t",
+        "type": "datetime",
+        "description": "Time the alert was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "alertTriggerTimestamp_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "workbenchCompleteTimestamp_t",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "incidentId_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "description_s",
+        "type": "string",
+        "description": "Human-readable description of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "desktopCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "serverCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "accountCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "emailAddressCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "containerCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "cloudIdentityCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "cloudWorkloadCount_d",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicators_s",
+        "type": "string",
+        "description": "Serialized indicators array for legacy compatibility.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "indicators",
+        "type": "dynamic",
+        "description": "Indicators array (IOC objects with type and value).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "impactScope_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "impactScope_Summary_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "entities",
+        "type": "dynamic",
+        "description": "Impacted entities array.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "matchedRules_s",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "matchedRules",
+        "type": "dynamic",
+        "description": "Matched detection rules array.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "xdrCustomerID_g",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileName_s",
+        "type": "string",
+        "description": "Extracted file name IOC (populated by parser).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileHashValue_s",
+        "type": "string",
+        "description": "Extracted file hash IOC (SHA1/SHA256/MD5).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DomainName_s",
+        "type": "string",
+        "description": "Extracted domain IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileDirectory_s",
+        "type": "string",
+        "description": "Extracted file path IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IPAddress",
+        "type": "string",
+        "description": "Extracted IP address IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "URL_s",
+        "type": "string",
+        "description": "Extracted URL IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostHostName_s",
+        "type": "string",
+        "description": "Impacted host name (populated by parser).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessCommandLine_s",
+        "type": "string",
+        "description": "Extracted process command line IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryKey_s",
+        "type": "string",
+        "description": "Extracted registry key IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValue_s",
+        "type": "string",
+        "description": "Extracted registry value data IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RegistryValueName_s",
+        "type": "string",
+        "description": "Extracted registry value name IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAccountNTDomain_s",
+        "type": "string",
+        "description": "Extracted NT domain from impacted account entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserAccountName_s",
+        "type": "string",
+        "description": "Extracted username from impacted account entity.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MailboxPrimaryAddress_s",
+        "type": "string",
+        "description": "Impacted mailbox email address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MalwareName_s",
+        "type": "string",
+        "description": "Extracted malware/detection name IOC.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "TrendAI Vision One(CCF)"
   },
   "Tropico_Alerts_CL": {
     "source": "3rd-Party Connector Schemas",
