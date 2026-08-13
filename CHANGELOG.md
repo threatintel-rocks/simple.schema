@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-13 04:47 UTC
+
+**Columns added** (2)
+
+- `BoxEventsV2_CL.action_by` (dynamic)
+- `BoxEventsV2_CL.recorded_at` (datetime)
+
+
 ### 2026-08-12 04:44 UTC
 
 **Tables added** (3)

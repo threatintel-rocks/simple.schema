@@ -42286,6 +42286,14 @@
         ]
       },
       {
+        "name": "recorded_at",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "event_id",
         "type": "string",
         "description": "",
@@ -42584,6 +42592,14 @@
       {
         "name": "source_classification_definition",
         "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "action_by",
+        "type": "dynamic",
         "description": "",
         "availability": [
           "Sentinel"
