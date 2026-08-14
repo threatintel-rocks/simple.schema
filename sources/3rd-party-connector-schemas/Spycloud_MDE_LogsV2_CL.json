@@ -1,5 +1,5 @@
 {
-  "VeeamCovewareFindingsV2_CL": {
+  "Spycloud_MDE_LogsV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -11,142 +11,150 @@
         ]
       },
       {
-        "name": "CovewareHostName",
+        "name": "IncidentId",
         "type": "string",
-        "description": "Coveware server hostname",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Artifact",
+        "name": "DocumentId",
         "type": "string",
-        "description": "File or process path",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EventType",
-        "type": "string",
-        "description": "Type of security event",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "TechniqueId",
-        "type": "string",
-        "description": "MITRE ATT&CK technique identifier",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventTime",
+        "name": "SpyCloudPublishDate",
         "type": "datetime",
-        "description": "Timestamp when event occurred",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "FirstRunOrAccessed",
-        "type": "datetime",
-        "description": "First time artifact was run or accessed",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Hostname",
+        "name": "InfectedTime",
         "type": "string",
-        "description": "Machine hostname where event occurred",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EventActivity",
+        "name": "BreachTitle",
         "type": "string",
-        "description": "Description of security activity",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Country",
+        "name": "InfectedMachineId",
         "type": "string",
-        "description": "Geographic location of the event",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Id",
+        "name": "HostName",
         "type": "string",
-        "description": "Unique finding identifier",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Md5Hash",
+        "name": "NormalizedHostName",
         "type": "string",
-        "description": "MD5 hash of the file",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Sha1Hash",
+        "name": "DeviceId",
         "type": "string",
-        "description": "SHA1 hash of the file",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Sha256Hash",
+        "name": "OSPlatform",
         "type": "string",
-        "description": "SHA256 hash of the file",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "MachineId",
+        "name": "RiskScore",
         "type": "string",
-        "description": "Unique machine identifier",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "RiskLevel",
+        "name": "ExposureLevel",
         "type": "string",
-        "description": "Security risk level assessment",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ScanTime",
-        "type": "datetime",
-        "description": "Timestamp when scan was performed",
+        "name": "IsolationRequested",
+        "type": "boolean",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Username",
+        "name": "IsolationStatus",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineTagAdded",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineTagName",
         "type": "string",
-        "description": "User account associated with event",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedIOCsToDefender",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlaybookName",
+        "type": "string",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       }
     ],
-    "solution": "Veeam"
+    "solution": "SpyCloud Enterprise Protection CCF"
   }
 }

@@ -2,6 +2,30 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-14 04:45 UTC
+
+**Tables added** (5)
+
+- `SpyCloudBreachCatalogV2_CL` (5 columns, source: 3rd-Party Connector Schemas)
+- `SpyCloudBreachWatchlistV2_CL` (73 columns, source: 3rd-Party Connector Schemas)
+- `SpyCloud_ConditionalAccessLogsV2_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `Spycloud_MDE_LogsV2_CL` (19 columns, source: 3rd-Party Connector Schemas)
+- `spycloud_compassV2_CL` (28 columns, source: 3rd-Party Connector Schemas)
+
+**Tables removed** (6)
+
+- `VeeamAuthorizationEventsV2_CL`
+- `VeeamCovewareFindingsV2_CL`
+- `VeeamMalwareEventsV2_CL`
+- `VeeamOneTriggeredAlarmsV2_CL`
+- `VeeamSecurityComplianceAnalyzerV2_CL`
+- `VeeamSessionsV2_CL`
+
+**Columns added** (1)
+
+- `SalesForceRealTimeEventMonitoring_CL.SalesforceDomain` (string)
+
+
 ### 2026-08-13 04:47 UTC
 
 **Columns added** (2)

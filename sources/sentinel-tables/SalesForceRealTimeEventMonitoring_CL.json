@@ -1529,6 +1529,14 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "SalesforceDomain",
+        "type": "string",
+        "description": "Salesforce host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "custom_table": true,
