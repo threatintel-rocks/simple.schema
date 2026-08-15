@@ -91,6 +91,14 @@
         ]
       },
       {
+        "name": "CopyDestinationArmId",
+        "type": "string",
+        "description": "The ARM resource ID of the destination for a copy request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "CorrelationId",
         "type": "string",
         "description": "The ID that is used to correlate logs across resources.",
@@ -110,6 +118,14 @@
         "name": "DurationMs",
         "type": "real",
         "description": "The total time, expressed in milliseconds, to perform the requested operation. This includes the time to read the incoming request, and to send the response to the requester.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EncryptionKeyTypeOfBlob",
+        "type": "string",
+        "description": "Type used to encrypt a blob during create/write operations.",
         "availability": [
           "Sentinel"
         ]
@@ -283,6 +299,14 @@
         ]
       },
       {
+        "name": "RequestRegion",
+        "type": "string",
+        "description": "The source region of a request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "_ResourceId",
         "type": "string",
         "description": "A unique identifier for the resource that the record is associated with",
@@ -414,6 +438,14 @@
         "name": "TlsVersion",
         "type": "string",
         "description": "The TLS version used in the connection of request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TrafficClassification",
+        "type": "string",
+        "description": "The designation for origin of the incoming traffic.",
         "availability": [
           "Sentinel"
         ]

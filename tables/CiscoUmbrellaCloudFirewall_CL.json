@@ -305,6 +305,22 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "DestinationSgtOriginId",
+        "type": "string",
+        "description": "The origin ID of the destination Security Group Tag (SGT).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwBlockReason",
+        "type": "string",
+        "description": "The reason the firewall blocked the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "CiscoUmbrella"

@@ -2,6 +2,51 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-15 03:35 UTC
+
+**Tables added** (11)
+
+- `CrowdStrikeAlertsV2_CL` (163 columns, source: 3rd-Party Connector Schemas)
+- `CrowdStrikeCasesV2_CL` (22 columns, source: 3rd-Party Connector Schemas)
+- `CrowdStrikeDetectionsV2_CL` (182 columns, source: 3rd-Party Connector Schemas)
+- `CrowdStrikeHostsV2_CL` (95 columns, source: 3rd-Party Connector Schemas)
+- `CrowdStrikeVulnerabilitiesV2_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `DatadogAuditLogs_CL` (27 columns, source: 3rd-Party Connector Schemas)
+- `DatadogLogs_CL` (37 columns, source: 3rd-Party Connector Schemas)
+- `DatadogSecurityLogs_CL` (67 columns, source: 3rd-Party Connector Schemas)
+- `SecurityScorecardFactorHistory_CL` (7 columns, source: 3rd-Party Connector Schemas)
+- `SecurityScorecardIssuesHistory_CL` (15 columns, source: 3rd-Party Connector Schemas)
+- `SecurityScorecardRatingsHistory_CL` (7 columns, source: 3rd-Party Connector Schemas)
+
+**Tables removed** (1)
+
+- `DatadogAuditV2_CL`
+
+**Columns added** (21)
+
+- `CiscoUmbrellaCloudFirewall_CL.DestinationSgtOriginId` (string)
+- `CiscoUmbrellaCloudFirewall_CL.FwBlockReason` (string)
+- `CiscoUmbrellaWebTraffic_CL.IsolationProfileId` (string)
+- `CrowdStrikeAlerts.CrowdStrikeDomain` (string)
+- `GCPCloudSQL.JsonPayload` (dynamic)
+- `GCPCloudSQL.Labels` (dynamic)
+- `GCPCloudSQL.MethodName` (string)
+- `GCPCloudSQL.ProtoPayload` (dynamic)
+- `GCPCloudSQL.RequestAuditClass` (string)
+- `GCPCloudSQL.RequestAuditType` (string)
+- `GCPCloudSQL.RequestCommand` (string)
+- `GCPCloudSQL.RequestDatabaseSessionId` (string)
+- `GCPCloudSQL.RequestStatement` (string)
+- `GCPCloudSQL.RequestStatementId` (string)
+- `GCPCloudSQL.RequestUser` (string)
+- `GCPCloudSQL.TextPayload` (string)
+- `SalesforceAuditTrail.SalesforceDomain` (string)
+- `StorageBlobLogs.CopyDestinationArmId` (string)
+- `StorageBlobLogs.EncryptionKeyTypeOfBlob` (string)
+- `StorageBlobLogs.RequestRegion` (string)
+- `StorageBlobLogs.TrafficClassification` (string)
+
+
 ### 2026-08-14 04:45 UTC
 
 **Tables added** (5)

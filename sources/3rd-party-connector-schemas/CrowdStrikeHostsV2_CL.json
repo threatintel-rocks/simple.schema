@@ -1,0 +1,768 @@
+{
+  "CrowdStrikeHostsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLoadFlags",
+        "type": "string",
+        "description": "Flags indicating the load status of the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLocalTime",
+        "type": "string",
+        "description": "Local time of the system where the agent is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "Version of the installed CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BaseImageVersion",
+        "type": "string",
+        "description": "Version of the base operating system image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosVersion",
+        "type": "string",
+        "description": "Version of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BuildNumber",
+        "type": "string",
+        "description": "Operating system build number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChassisType",
+        "type": "string",
+        "description": "Type of system chassis (numerical identifier).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChassisTypeDesc",
+        "type": "string",
+        "description": "Description of the system chassis type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Cid the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBase",
+        "type": "string",
+        "description": "Base configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBuild",
+        "type": "string",
+        "description": "Build configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdPlatform",
+        "type": "string",
+        "description": "Platform-specific configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionIp",
+        "type": "string",
+        "description": "IP address used by the host to connect to CrowdStrike cloud.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionMacAddress",
+        "type": "string",
+        "description": "MAC address of the network interface used for CrowdStrike connection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuSignature",
+        "type": "string",
+        "description": "Unique identifier for the CPU architecture and features.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuVendor",
+        "type": "string",
+        "description": "Manufacturer of the CPU.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DefaultGatewayIp",
+        "type": "string",
+        "description": "IP address of the default network gateway.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeploymentType",
+        "type": "string",
+        "description": "Type of CrowdStrike agent deployment on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionSuppressionStatus",
+        "type": "string",
+        "description": "Status of detection suppression rules applied to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicePolicies",
+        "type": "dynamic",
+        "description": "List of security policies applied to the device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "Email address associated with the host or primary user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "External IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilesystemContainmentStatus",
+        "type": "string",
+        "description": "Status of filesystem containment feature for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstLoginTimestamp",
+        "type": "string",
+        "description": "Timestamp of the first user login on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "string",
+        "description": "Timestamp when the host was first seen by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupHash",
+        "type": "string",
+        "description": "Hash identifier for the host's group membership.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Groups",
+        "type": "dynamic",
+        "description": "List of security groups the host belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostHiddenStatus",
+        "type": "string",
+        "description": "Indicates if the host is hidden from normal visibility.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostUtcOffset",
+        "type": "string",
+        "description": "UTC time offset for the host's timezone.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Network hostname of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "Cloud instance identifier (if applicable).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternetExposure",
+        "type": "string",
+        "description": "Level of internet exposure for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterGitVersion",
+        "type": "string",
+        "description": "Git version of the Kubernetes cluster deployment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterId",
+        "type": "string",
+        "description": "Unique identifier for the Kubernetes cluster.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterVersion",
+        "type": "string",
+        "description": "Version of the Kubernetes cluster.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KernelVersion",
+        "type": "string",
+        "description": "Version of the operating system kernel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginTimestamp",
+        "type": "string",
+        "description": "Timestamp of the most recent user login.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUid",
+        "type": "string",
+        "description": "User ID of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUser",
+        "type": "string",
+        "description": "Username of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUserSid",
+        "type": "string",
+        "description": "Security identifier (SID) of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastReboot",
+        "type": "string",
+        "description": "Timestamp of the last system reboot.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "string",
+        "description": "Timestamp when the host was last seen active by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinuxSensorMode",
+        "type": "string",
+        "description": "Operating mode of the CrowdStrike sensor on Linux systems.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIp",
+        "type": "string",
+        "description": "Local/Internal IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Primary MAC address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineDomain",
+        "type": "string",
+        "description": "Domain name the machine is joined to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MajorVersion",
+        "type": "string",
+        "description": "Major version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagedApps",
+        "type": "dynamic",
+        "description": "List of applications managed by CrowdStrike on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Meta",
+        "type": "dynamic",
+        "description": "Additional metadata about the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MigrationCompletedTime",
+        "type": "string",
+        "description": "Timestamp when agent migration was completed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MinorVersion",
+        "type": "string",
+        "description": "Minor version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the host record was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "dynamic",
+        "description": "Custom notes or annotations about the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsBuild",
+        "type": "string",
+        "description": "Build number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsProductName",
+        "type": "string",
+        "description": "Product name of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "Version string of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ou",
+        "type": "dynamic",
+        "description": "Organizational Unit information for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Unique identifier for the platform type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Name of the platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodAnnotations",
+        "type": "dynamic",
+        "description": "Kubernetes pod annotations associated with the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostIp4",
+        "type": "string",
+        "description": "IPv4 address of the Kubernetes pod host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostIp6",
+        "type": "string",
+        "description": "IPv6 address of the Kubernetes pod host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostname",
+        "type": "string",
+        "description": "Hostname of the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodId",
+        "type": "string",
+        "description": "Unique identifier for the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodIp4",
+        "type": "string",
+        "description": "IPv4 address assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodIp6",
+        "type": "string",
+        "description": "IPv6 address assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodLabels",
+        "type": "dynamic",
+        "description": "Labels assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodName",
+        "type": "string",
+        "description": "Name of the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodNamespace",
+        "type": "string",
+        "description": "Kubernetes namespace where the pod is deployed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodServiceAccountName",
+        "type": "string",
+        "description": "Name of the Kubernetes service account used by the pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PointerSize",
+        "type": "string",
+        "description": "Memory pointer size of the system architecture (32/64 bit).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Policies",
+        "type": "dynamic",
+        "description": "List of all security policies applied to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductType",
+        "type": "string",
+        "description": "Type of product or system (numerical identifier).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypeDesc",
+        "type": "string",
+        "description": "Description of the product or system type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProvisionStatus",
+        "type": "string",
+        "description": "Current provisioning status of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReducedFunctionalityMode",
+        "type": "string",
+        "description": "Indicates if the host is running in reduced functionality mode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReleaseGroup",
+        "type": "string",
+        "description": "Group identifier for software release management.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RtrState",
+        "type": "string",
+        "description": "State of Real Time Response functionality.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SerialNumber",
+        "type": "string",
+        "description": "System serial number from BIOS/hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServicePackMajor",
+        "type": "string",
+        "description": "Major version of installed service pack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServicePackMinor",
+        "type": "string",
+        "description": "Minor version of installed service pack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProvider",
+        "type": "string",
+        "description": "Cloud service provider hosting the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProviderAccountId",
+        "type": "string",
+        "description": "Account identifier from the cloud service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "Name of the site where the host is located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current operational status of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemProductName",
+        "type": "string",
+        "description": "Product name or model of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Custom tags assigned to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstLoginUser",
+        "type": "string",
+        "description": "Username of the first user to log in on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SlowChangingModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp for slow-changing modifications to the host record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ZoneGroup",
+        "type": "string",
+        "description": "Zone group assigned to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  }
+}

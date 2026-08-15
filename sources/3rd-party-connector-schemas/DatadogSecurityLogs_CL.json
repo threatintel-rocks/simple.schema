@@ -1,0 +1,544 @@
+{
+  "DatadogSecurityLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Resource type of the event (always 'signal')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attributes",
+        "type": "dynamic",
+        "description": "Full attributes object of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalDetails",
+        "type": "dynamic",
+        "description": "Detection and workflow details associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalId",
+        "type": "string",
+        "description": "Datadog identifier stored in the signal attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalVersion",
+        "type": "long",
+        "description": "Version of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalTitle",
+        "type": "string",
+        "description": "Title of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Security signal message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Host",
+        "type": "string",
+        "description": "Host associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Service",
+        "type": "dynamic",
+        "description": "Services associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Severity status of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "long",
+        "description": "Numeric severity of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TagDetails",
+        "type": "dynamic",
+        "description": "Structured tag values associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "string",
+        "description": "Timestamp reported by Datadog for the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when Datadog discovered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringLogTimestamp",
+        "type": "datetime",
+        "description": "Timestamp of the log that triggered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTrackerId",
+        "type": "string",
+        "description": "Datadog event tracker identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupByValuesHash",
+        "type": "string",
+        "description": "Hash of the values used to group the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReducerSignalId",
+        "type": "string",
+        "description": "Identifier of the reduced security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceFragmentId",
+        "type": "string",
+        "description": "Identifier of the source fragment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringLogId",
+        "type": "string",
+        "description": "Identifier of the log that triggered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IngestSizeInBytes",
+        "type": "long",
+        "description": "Size of the ingested security signal in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Source",
+        "type": "string",
+        "description": "Source that produced the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSource",
+        "type": "dynamic",
+        "description": "Event sources represented in the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventName",
+        "type": "dynamic",
+        "description": "Event names represented in the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entities",
+        "type": "dynamic",
+        "description": "Entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudEntities",
+        "type": "dynamic",
+        "description": "Cloud entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Datasets",
+        "type": "dynamic",
+        "description": "Datasets used to generate the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ocsf",
+        "type": "dynamic",
+        "description": "Open Cybersecurity Schema Framework data",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfEntities",
+        "type": "dynamic",
+        "description": "OCSF-normalized entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCategory",
+        "type": "dynamic",
+        "description": "OCSF event categories represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfClass",
+        "type": "dynamic",
+        "description": "OCSF event classes represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfSeverity",
+        "type": "dynamic",
+        "description": "OCSF severity values represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfStatus",
+        "type": "dynamic",
+        "description": "OCSF status values represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCloudProvider",
+        "type": "string",
+        "description": "Cloud provider identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCloudRegion",
+        "type": "dynamic",
+        "description": "Cloud regions identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfActorUserId",
+        "type": "dynamic",
+        "description": "Actor user identifiers identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfSourceIp",
+        "type": "dynamic",
+        "description": "Source IP addresses identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentity",
+        "type": "dynamic",
+        "description": "Source identity details associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityType",
+        "type": "string",
+        "description": "Type of source identity associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityArn",
+        "type": "dynamic",
+        "description": "AWS ARNs associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityAccountId",
+        "type": "dynamic",
+        "description": "AWS account identifiers associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityAccessKeyId",
+        "type": "dynamic",
+        "description": "AWS access key identifiers associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserDetails",
+        "type": "dynamic",
+        "description": "Normalized user details associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "dynamic",
+        "description": "User identifiers associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "dynamic",
+        "description": "User names associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Workflow",
+        "type": "dynamic",
+        "description": "Detection workflow and triage details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowState",
+        "type": "string",
+        "description": "Current triage state of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsMatched",
+        "type": "long",
+        "description": "Number of events matched by the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "Identifier of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleName",
+        "type": "string",
+        "description": "Name of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleType",
+        "type": "string",
+        "description": "Type of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionMethod",
+        "type": "string",
+        "description": "Detection method used by the rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowFirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the matching activity was first seen",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowLastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the matching activity was last seen",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringRuleCase",
+        "type": "dynamic",
+        "description": "Triggering rule case details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCondition",
+        "type": "string",
+        "description": "Condition that triggered the rule case",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCaseName",
+        "type": "string",
+        "description": "Name of the rule case that triggered the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCaseStatus",
+        "type": "string",
+        "description": "Status of the rule case that triggered the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedQuery",
+        "type": "dynamic",
+        "description": "Query associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalCasesHistory",
+        "type": "dynamic",
+        "description": "History of rule cases associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Queries",
+        "type": "dynamic",
+        "description": "Queries evaluated for the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Samples",
+        "type": "dynamic",
+        "description": "Sample events associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkDetails",
+        "type": "dynamic",
+        "description": "Network details associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpDetails",
+        "type": "dynamic",
+        "description": "HTTP details associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Datadog"
+  }
+}

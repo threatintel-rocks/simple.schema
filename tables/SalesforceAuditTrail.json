@@ -107,6 +107,14 @@
         ]
       },
       {
+        "name": "SalesforceDomain",
+        "type": "string",
+        "description": "Salesforce host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Section",
         "type": "string",
         "description": "The section of the Salesforce setup that was changed.",

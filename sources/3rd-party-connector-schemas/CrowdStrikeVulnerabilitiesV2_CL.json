@@ -1,0 +1,152 @@
+{
+  "CrowdStrikeVulnerabilitiesV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the vulnerability record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Customer ID in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Aid",
+        "type": "string",
+        "description": "Agent ID of the system where vulnerability was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilityId",
+        "type": "string",
+        "description": "Unique identifier for the specific vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the vulnerability was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the vulnerability record was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataProviders",
+        "type": "dynamic",
+        "description": "List of data providers that reported this vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Apps",
+        "type": "dynamic",
+        "description": "List of affected applications.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SuppressionInfo",
+        "type": "dynamic",
+        "description": "Information about vulnerability suppression if applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Confidence",
+        "type": "string",
+        "description": "Confidence level of the vulnerability detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "App",
+        "type": "dynamic",
+        "description": "Detailed information about the affected application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cve",
+        "type": "dynamic",
+        "description": "Common Vulnerabilities and Exposures (CVE) information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostInfo",
+        "type": "dynamic",
+        "description": "Information about the affected host system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Remediation",
+        "type": "dynamic",
+        "description": "Remediation steps or recommendations for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilityMetadataId",
+        "type": "string",
+        "description": "Unique identifier for the vulnerability metadata.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  }
+}

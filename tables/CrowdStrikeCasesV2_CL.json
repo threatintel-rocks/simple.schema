@@ -1,0 +1,184 @@
+{
+  "CrowdStrikeCasesV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "The unique customer account ID that the case belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The user-defined case name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "The user-provided description of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "The current status of the case (new, closed, in_progress, reopened).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "The current user-provided severity rating of the case (1-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityInfo",
+        "type": "dynamic",
+        "description": "Additional information about the severity of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "int",
+        "description": "The current case version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "A list of user-defined labels applied to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedTo",
+        "type": "dynamic",
+        "description": "Details about the user who is currently assigned to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "dynamic",
+        "description": "Details about the user who created the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastUpdatedBy",
+        "type": "dynamic",
+        "description": "Details about the user who last updated the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Consistency",
+        "type": "dynamic",
+        "description": "Background processing details associated with updates made to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Evidence",
+        "type": "dynamic",
+        "description": "Evidence associated with the case (alerts, events).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalysisResults",
+        "type": "dynamic",
+        "description": "The results of analyzing the case evidence (alerts, cloud_assets, events, files, hosts, users).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReferenceId",
+        "type": "string",
+        "description": "Reference identifier for the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  }
+}

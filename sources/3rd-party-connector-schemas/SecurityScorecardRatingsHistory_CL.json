@@ -1,5 +1,5 @@
 {
-  "DatadogAuditV2_CL": {
+  "SecurityScorecardRatingsHistory_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -11,46 +11,54 @@
         ]
       },
       {
-        "name": "EventId",
-        "type": "string",
-        "description": "Unique identifier of the Datadog audit event",
+        "name": "score_date",
+        "type": "datetime",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EventType",
-        "type": "string",
-        "description": "Resource type of the event (always 'audit')",
+        "name": "score",
+        "type": "long",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Attributes",
-        "type": "dynamic",
-        "description": "Full attributes object of the Datadog audit event",
+        "name": "domain",
+        "type": "string",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EventService",
+        "name": "industry",
         "type": "string",
-        "description": "Datadog service that emitted the audit event",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "EventTimestamp",
+        "name": "portfolio_name",
         "type": "string",
-        "description": "Timestamp reported by Datadog for the audit event",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_id",
+        "type": "string",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       }
     ],
-    "solution": "Datadog"
+    "solution": "SecurityScorecard Cybersecurity Ratings"
   }
 }

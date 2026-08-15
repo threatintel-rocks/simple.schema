@@ -187,6 +187,14 @@
         ]
       },
       {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "DataDomains",
         "type": "dynamic",
         "description": "Domains associated with the alert.",

@@ -1,0 +1,304 @@
+{
+  "DatadogLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Resource type of the event (always 'log')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attributes",
+        "type": "dynamic",
+        "description": "Full attributes object of the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributes",
+        "type": "dynamic",
+        "description": "Custom attributes associated with the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Host",
+        "type": "string",
+        "description": "Host that generated the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Log message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Service",
+        "type": "string",
+        "description": "Application or service that generated the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Status or severity associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "string",
+        "description": "Timestamp reported by Datadog for the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributeId",
+        "type": "string",
+        "description": "Source-specific identifier in the log attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributeTimestamp",
+        "type": "datetime",
+        "description": "Source timestamp from the log attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Level",
+        "type": "string",
+        "description": "Source-specific log level",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LambdaArn",
+        "type": "string",
+        "description": "ARN of the AWS Lambda function that generated the log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsDetails",
+        "type": "dynamic",
+        "description": "AWS metadata associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsAccountId",
+        "type": "string",
+        "description": "AWS account identifier associated with the log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsInvokedFunctionArn",
+        "type": "string",
+        "description": "ARN of the AWS Lambda function invoked by the integration",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsLogGroup",
+        "type": "string",
+        "description": "AWS CloudWatch log group",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsLogStream",
+        "type": "string",
+        "description": "AWS CloudWatch log stream",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsS3Bucket",
+        "type": "string",
+        "description": "S3 bucket containing the source log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsS3Key",
+        "type": "string",
+        "description": "S3 object key containing the source log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkDetails",
+        "type": "dynamic",
+        "description": "Network metadata associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesWritten",
+        "type": "long",
+        "description": "Number of bytes written during the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "Source IP address of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientPort",
+        "type": "long",
+        "description": "Source port of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "Destination IP address of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "long",
+        "description": "Destination port of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkInterface",
+        "type": "string",
+        "description": "AWS network interface associated with the flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketCount",
+        "type": "long",
+        "description": "Number of packets in the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkProtocol",
+        "type": "string",
+        "description": "IP protocol number of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcDetails",
+        "type": "dynamic",
+        "description": "Amazon VPC flow metadata",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcAction",
+        "type": "string",
+        "description": "Action applied to the VPC network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcIntervalStart",
+        "type": "datetime",
+        "description": "Start time of the VPC flow interval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcIntervalEnd",
+        "type": "datetime",
+        "description": "End time of the VPC flow interval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcStatus",
+        "type": "string",
+        "description": "Status of the VPC flow log record",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcVersion",
+        "type": "long",
+        "description": "Version of the VPC flow log format",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Datadog"
+  }
+}

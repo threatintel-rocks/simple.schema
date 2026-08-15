@@ -449,6 +449,14 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "IsolationProfileId",
+        "type": "string",
+        "description": "The ID of the isolation profile applied to the web request.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "CiscoUmbrella"

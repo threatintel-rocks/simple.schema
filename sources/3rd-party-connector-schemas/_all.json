@@ -13601,6 +13601,22 @@
         "availability": [
           "Sentinel"
         ]
+      },
+      {
+        "name": "DestinationSgtOriginId",
+        "type": "string",
+        "description": "The origin ID of the destination Security Group Tag (SGT).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FwBlockReason",
+        "type": "string",
+        "description": "The reason the firewall blocked the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
       }
     ],
     "solution": "CiscoUmbrella"
@@ -15146,6 +15162,14 @@
         "name": "EventCorrelationId",
         "type": "string",
         "description": "A unique identifier generated for each network request, the Event Correlation ID stitches together all related events across various security services (Firewall, SWG, ZTNA) to provide a unified, end-to-end view of a single traffic flow.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsolationProfileId",
+        "type": "string",
+        "description": "The ID of the isolation profile applied to the web request.",
         "availability": [
           "Sentinel"
         ]
@@ -22282,6 +22306,3876 @@
       }
     ],
     "solution": "Cortex XDR"
+  },
+  "CrowdStrikeAlertsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "Unique identifier for the CrowdStrike agent that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AggregateId",
+        "type": "string",
+        "description": "Identifier for aggregated alerts from the same source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToName",
+        "type": "string",
+        "description": "Name of the user assigned to handle the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToUid",
+        "type": "string",
+        "description": "User ID of the assigned user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToUuid",
+        "type": "string",
+        "description": "UUID of the assigned user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Customer ID in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompositeId",
+        "type": "string",
+        "description": "Composite identifier combining multiple alert attributes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Confidence",
+        "type": "int",
+        "description": "Confidence score of the alert (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrawledTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the alert data was last crawled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the alert was first created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataDomains",
+        "type": "dynamic",
+        "description": "Domains associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "Human-readable name for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSent",
+        "type": "boolean",
+        "description": "Indicates if an email notification was sent for this alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "External",
+        "type": "boolean",
+        "description": "Indicates if the alert originated from an external source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Objective",
+        "type": "string",
+        "description": "The attacker's presumed objective.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternId",
+        "type": "int",
+        "description": "Identifier for the detection pattern that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Platform",
+        "type": "string",
+        "description": "Operating system or platform where the alert was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Product",
+        "type": "string",
+        "description": "CrowdStrike product that generated the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Scenario",
+        "type": "string",
+        "description": "Security scenario that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecondsToResolved",
+        "type": "int",
+        "description": "Time in seconds from alert creation to resolution.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecondsToTriaged",
+        "type": "int",
+        "description": "Time in seconds from alert creation to triage.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "Severity level of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityName",
+        "type": "string",
+        "description": "Text representation of the severity level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ShowInUi",
+        "type": "boolean",
+        "description": "Indicates if the alert should be displayed in the user interface.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProducts",
+        "type": "dynamic",
+        "description": "List of products that contributed to this alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceVendors",
+        "type": "dynamic",
+        "description": "List of vendors associated with the alert sources.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tactic",
+        "type": "string",
+        "description": "MITRE ATT&CK tactic associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TacticId",
+        "type": "string",
+        "description": "Identifier of the MITRE ATT&CK tactic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Custom tags associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Technique",
+        "type": "string",
+        "description": "MITRE ATT&CK technique associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueId",
+        "type": "string",
+        "description": "Identifier of the MITRE ATT&CK technique.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Time when the alert event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AlertType",
+        "type": "string",
+        "description": "The type or category of the CrowdStrike alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "Time when the alert was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AllegedFiletype",
+        "type": "string",
+        "description": "The suspected file type of the malicious file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Categorization",
+        "type": "string",
+        "description": "Categorization of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChildProcessIds",
+        "type": "dynamic",
+        "description": "List of child process IDs spawned by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudIndicator",
+        "type": "boolean",
+        "description": "Indicates if the alert involves cloud-based indicators.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cmdline",
+        "type": "string",
+        "description": "Command line used to execute the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContextTimestamp",
+        "type": "string",
+        "description": "Timestamp providing additional context for the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationRuleCreateCase",
+        "type": "boolean",
+        "description": "Indicates if the correlation rule is configured to create a case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationRuleExecutionId",
+        "type": "string",
+        "description": "Execution ID of the correlation rule that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationRuleId",
+        "type": "string",
+        "description": "Identifier of the correlation rule that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationRuleUserId",
+        "type": "string",
+        "description": "User ID associated with the correlation rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CorrelationRuleUserUuid",
+        "type": "string",
+        "description": "UUID of the user associated with the correlation rule.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionId",
+        "type": "string",
+        "description": "Unique identifier for the detection associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Device",
+        "type": "dynamic",
+        "description": "Information about the device where the alert was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "string",
+        "description": "Timestamp when the alert activity ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnrichedEntities",
+        "type": "dynamic",
+        "description": "Enriched entity information associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "Correlation ID linking related events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventIds",
+        "type": "string",
+        "description": "Event IDs associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FalconHostLink",
+        "type": "string",
+        "description": "Link to the alert details in the CrowdStrike Falcon console.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filename",
+        "type": "string",
+        "description": "Name of the file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filepath",
+        "type": "string",
+        "description": "Full path to the file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GlobalPrevalence",
+        "type": "string",
+        "description": "Global prevalence rating of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GrandparentDetails",
+        "type": "dynamic",
+        "description": "Details about the grandparent process in the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasTruncatedEntities",
+        "type": "boolean",
+        "description": "Indicates if the alert entities have been truncated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IndicatorId",
+        "type": "string",
+        "description": "Identifier for the indicator of compromise that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocContext",
+        "type": "dynamic",
+        "description": "Context information about the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsClosed",
+        "type": "boolean",
+        "description": "Indicates if the alert has been closed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LeadId",
+        "type": "string",
+        "description": "Identifier for the lead associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LeadType",
+        "type": "string",
+        "description": "Type of the lead associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalAddressIp4",
+        "type": "string",
+        "description": "IPv4 address of the local endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalAddressIp6",
+        "type": "string",
+        "description": "IPv6 address of the local endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalPrevalence",
+        "type": "string",
+        "description": "Local prevalence rating within the organization.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalProcessId",
+        "type": "string",
+        "description": "Local process ID on the system where the alert occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogonDomain",
+        "type": "string",
+        "description": "Domain used for user logon associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Md5",
+        "type": "string",
+        "description": "MD5 hash of the file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitreAttack",
+        "type": "dynamic",
+        "description": "MITRE ATT&CK tactics and techniques associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginCid",
+        "type": "string",
+        "description": "Customer ID of the originating tenant.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalCorrelationRulesEntitiesCount",
+        "type": "int",
+        "description": "Original count of correlation rule entities.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginalIndicatorEntitiesCount",
+        "type": "int",
+        "description": "Original count of indicator entities.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentDetails",
+        "type": "dynamic",
+        "description": "Details about the parent process in the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentProcessId",
+        "type": "string",
+        "description": "Process ID of the parent process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDisposition",
+        "type": "int",
+        "description": "Numerical identifier for the action taken by the detection pattern.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDispositionDescription",
+        "type": "string",
+        "description": "Text description of the pattern disposition action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDispositionDetails",
+        "type": "dynamic",
+        "description": "Detailed information about the pattern disposition.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolyId",
+        "type": "string",
+        "description": "Poly ID associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityDetails",
+        "type": "dynamic",
+        "description": "Priority details associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessEndTime",
+        "type": "string",
+        "description": "Timestamp when the detected process ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessId",
+        "type": "string",
+        "description": "Process ID of the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessStartTime",
+        "type": "string",
+        "description": "Timestamp when the detected process started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Score",
+        "type": "int",
+        "description": "Score associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha1",
+        "type": "string",
+        "description": "SHA1 hash of the file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "SHA256 hash of the file associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalEndTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalStartTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalUpdatedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceEndpointAddressIp4",
+        "type": "string",
+        "description": "IPv4 address of the source endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceEndpointAddressIp6",
+        "type": "string",
+        "description": "IPv6 address of the source endpoint.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIps",
+        "type": "dynamic",
+        "description": "List of source IP addresses associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTime",
+        "type": "string",
+        "description": "Timestamp when the alert activity started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInstanceId",
+        "type": "string",
+        "description": "Instance ID of the detection template used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatgraphIndicators",
+        "type": "dynamic",
+        "description": "Threat graph indicators associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringProcessGraphId",
+        "type": "string",
+        "description": "Graph ID of the process that triggered the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "User ID associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "Username associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Users",
+        "type": "dynamic",
+        "description": "List of users associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VendorPatternId",
+        "type": "string",
+        "description": "Vendor-specific pattern identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XdrEventId",
+        "type": "string",
+        "description": "XDR event ID associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdversaryIds",
+        "type": "dynamic",
+        "description": "List of adversary IDs associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLoadFlags",
+        "type": "string",
+        "description": "Flags indicating the load status of the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLocalTime",
+        "type": "string",
+        "description": "Local time of the system where the agent is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "Version of the installed CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssociatedFiles",
+        "type": "dynamic",
+        "description": "List of files associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosVersion",
+        "type": "string",
+        "description": "Version of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "User-provided comment on the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "dynamic",
+        "description": "List of comments associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBase",
+        "type": "string",
+        "description": "Base configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBuild",
+        "type": "string",
+        "description": "Build configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdPlatform",
+        "type": "string",
+        "description": "Platform-specific configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ControlGraphId",
+        "type": "string",
+        "description": "Identifier for the control graph associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DnsRequests",
+        "type": "dynamic",
+        "description": "List of DNS requests made by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "External IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilesWritten",
+        "type": "dynamic",
+        "description": "List of files written by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "string",
+        "description": "Timestamp when the host was first seen by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Groups",
+        "type": "dynamic",
+        "description": "List of groups the host belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAdversary",
+        "type": "boolean",
+        "description": "Indicates if the alert is associated with a known adversary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAgenticProcess",
+        "type": "boolean",
+        "description": "Indicates if the alert involves an agentic process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostNames",
+        "type": "dynamic",
+        "description": "List of hostnames associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Network hostname of the system where the alert occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "Cloud instance identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocDescription",
+        "type": "string",
+        "description": "Description of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocSource",
+        "type": "string",
+        "description": "Source of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocType",
+        "type": "string",
+        "description": "Type of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocValue",
+        "type": "string",
+        "description": "Value of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "string",
+        "description": "Timestamp when the host was last seen active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIp",
+        "type": "string",
+        "description": "Local IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Primary MAC address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineDomain",
+        "type": "string",
+        "description": "Domain name the machine is joined to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MajorVersion",
+        "type": "string",
+        "description": "Major version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MinorVersion",
+        "type": "string",
+        "description": "Minor version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the alert record was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkAccesses",
+        "type": "dynamic",
+        "description": "List of network connections made by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "Version string of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ou",
+        "type": "dynamic",
+        "description": "Organizational Unit information for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Unique identifier for the platform type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Name of the platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreventionPolicyId",
+        "type": "string",
+        "description": "Identifier of the prevention policy applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreventionPolicyName",
+        "type": "string",
+        "description": "Name of the prevention policy applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityExplanation",
+        "type": "dynamic",
+        "description": "Explanation of the priority assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityValue",
+        "type": "int",
+        "description": "Numerical priority value of the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductType",
+        "type": "string",
+        "description": "Type of product or system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypeDesc",
+        "type": "string",
+        "description": "Description of the product or system type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QuarantinedFiles",
+        "type": "dynamic",
+        "description": "List of files that were quarantined as part of this alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProvider",
+        "type": "string",
+        "description": "Cloud service provider hosting the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProviderAccountId",
+        "type": "string",
+        "description": "Account identifier from the cloud service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceHosts",
+        "type": "dynamic",
+        "description": "List of source hostnames associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemProductName",
+        "type": "string",
+        "description": "Product name or model of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInstanceVersion",
+        "type": "int",
+        "description": "Version of the detection template instance.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TreeId",
+        "type": "string",
+        "description": "Identifier for the process tree associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TreeRoot",
+        "type": "string",
+        "description": "Root process identifier of the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserNames",
+        "type": "dynamic",
+        "description": "List of usernames associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerId",
+        "type": "string",
+        "description": "Identifier of the container associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  },
+  "CrowdStrikeCasesV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "The unique ID of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "The unique customer account ID that the case belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "The user-defined case name.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "The user-provided description of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "The current status of the case (new, closed, in_progress, reopened).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "The current user-provided severity rating of the case (1-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityInfo",
+        "type": "dynamic",
+        "description": "Additional information about the severity of the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StartTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTimestamp",
+        "type": "datetime",
+        "description": "The date and time the case was ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Version",
+        "type": "int",
+        "description": "The current case version.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "A list of user-defined labels applied to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedTo",
+        "type": "dynamic",
+        "description": "Details about the user who is currently assigned to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedBy",
+        "type": "dynamic",
+        "description": "Details about the user who created the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastUpdatedBy",
+        "type": "dynamic",
+        "description": "Details about the user who last updated the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Consistency",
+        "type": "dynamic",
+        "description": "Background processing details associated with updates made to the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Evidence",
+        "type": "dynamic",
+        "description": "Evidence associated with the case (alerts, events).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AnalysisResults",
+        "type": "dynamic",
+        "description": "The results of analyzing the case evidence (alerts, cloud_assets, events, files, hosts, users).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReferenceId",
+        "type": "string",
+        "description": "Reference identifier for the case.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  },
+  "CrowdStrikeDetectionsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AdversaryIds",
+        "type": "dynamic",
+        "description": "List of adversary IDs associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Behaviors",
+        "type": "dynamic",
+        "description": "List of behaviors detected that contributed to this detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BehaviorsProcessed",
+        "type": "dynamic",
+        "description": "List of behaviors that have been processed and analyzed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the detection was first created.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DateUpdated",
+        "type": "string",
+        "description": "Date when the detection record was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionId",
+        "type": "string",
+        "description": "Unique identifier for the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstBehavior",
+        "type": "datetime",
+        "description": "Timestamp of the first behavior in the detection sequence.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostInfo",
+        "type": "dynamic",
+        "description": "Information about the host where the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastBehavior",
+        "type": "datetime",
+        "description": "Timestamp of the most recent behavior in the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MaxConfidence",
+        "type": "int",
+        "description": "Maximum confidence score across all behaviors in the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MaxSeverity",
+        "type": "int",
+        "description": "Maximum severity level across all behaviors in the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MaxSeverityDisplayName",
+        "type": "string",
+        "description": "Text representation of the maximum severity level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OverwatchNotes",
+        "type": "string",
+        "description": "Notes added by CrowdStrike Overwatch analysts.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentScanId",
+        "type": "string",
+        "description": "Identifier for the agent scan that detected this threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the detection was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmailSent",
+        "type": "boolean",
+        "description": "Indicates if an email notification was sent for this detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecondsToResolved",
+        "type": "int",
+        "description": "Time in seconds from detection creation to resolution.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecondsToTriaged",
+        "type": "int",
+        "description": "Time in seconds from detection creation to triage.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ShowInUi",
+        "type": "boolean",
+        "description": "Indicates if the detection should be displayed in the user interface.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the detection (e.g., new, in_progress, resolved).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AllegedFiletype",
+        "type": "string",
+        "description": "The suspected file type of the malicious file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChildProcessIds",
+        "type": "dynamic",
+        "description": "List of child process IDs spawned by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudIndicator",
+        "type": "boolean",
+        "description": "Indicates if the detection involves cloud-based indicators.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cmdline",
+        "type": "string",
+        "description": "Command line used to execute the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionContext",
+        "type": "dynamic",
+        "description": "Additional context information about the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Device",
+        "type": "dynamic",
+        "description": "Information about the device where the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FalconHostLink",
+        "type": "string",
+        "description": "Link to the detection details in the CrowdStrike Falcon console.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filename",
+        "type": "string",
+        "description": "Name of the file associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Filepath",
+        "type": "string",
+        "description": "Full path to the file associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GlobalPrevalence",
+        "type": "string",
+        "description": "Global prevalence rating of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GrandparentDetails",
+        "type": "dynamic",
+        "description": "Details about the grandparent process in the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Incident",
+        "type": "dynamic",
+        "description": "Associated incident information if the detection is part of an incident.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IndicatorId",
+        "type": "string",
+        "description": "Identifier for the indicator of compromise (IOC) that triggered the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocContext",
+        "type": "dynamic",
+        "description": "Context information about the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalPrevalence",
+        "type": "string",
+        "description": "Local prevalence rating of the detected file within the organization.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalProcessId",
+        "type": "string",
+        "description": "Local process ID on the system where the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogonDomain",
+        "type": "string",
+        "description": "Domain used for user logon associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Md5",
+        "type": "string",
+        "description": "MD5 hash of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkAccesses",
+        "type": "dynamic",
+        "description": "List of network connections made by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsName",
+        "type": "string",
+        "description": "Operating system name where the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentDetails",
+        "type": "dynamic",
+        "description": "Details about the parent process in the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentProcessId",
+        "type": "string",
+        "description": "Process ID of the parent process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDisposition",
+        "type": "int",
+        "description": "Numerical identifier for the action taken by the detection pattern.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDispositionDescription",
+        "type": "string",
+        "description": "Text description of the pattern disposition action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternDispositionDetails",
+        "type": "dynamic",
+        "description": "Detailed information about the pattern disposition.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessEndTime",
+        "type": "string",
+        "description": "Timestamp when the detected process ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessId",
+        "type": "string",
+        "description": "Process ID of the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProcessStartTime",
+        "type": "string",
+        "description": "Timestamp when the detected process started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Quarantined",
+        "type": "boolean",
+        "description": "Indicates if the detected file was quarantined.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "QuarantinedFiles",
+        "type": "dynamic",
+        "description": "List of files that were quarantined as part of this detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScanId",
+        "type": "string",
+        "description": "Identifier for the scan that detected the threat.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha256",
+        "type": "string",
+        "description": "SHA256 hash of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Sha1",
+        "type": "string",
+        "description": "SHA1 hash of the detected file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInstanceId",
+        "type": "int",
+        "description": "Instance ID of the detection template used.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInterfaceId",
+        "type": "int",
+        "description": "Interface ID of the detection template.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInterfaceName",
+        "type": "string",
+        "description": "Name of the detection template interface.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TreeId",
+        "type": "string",
+        "description": "Identifier for the process tree associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TreeRoot",
+        "type": "string",
+        "description": "Root process identifier of the process tree.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringProcessGraphId",
+        "type": "string",
+        "description": "Graph ID of the process that triggered the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionType",
+        "type": "string",
+        "description": "Type or category of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "User ID associated with the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "Username associated with the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserPrincipal",
+        "type": "string",
+        "description": "User principal name (UPN) associated with the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToName",
+        "type": "string",
+        "description": "Name of the user assigned to investigate the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToUid",
+        "type": "string",
+        "description": "User ID of the assigned investigator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssignedToUuid",
+        "type": "string",
+        "description": "UUID of the assigned investigator.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Customer ID in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CompositeId",
+        "type": "string",
+        "description": "Composite identifier combining multiple detection attributes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Confidence",
+        "type": "int",
+        "description": "Confidence score of the detection (0-100).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrawledTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the detection data was last crawled.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Description of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EndTime",
+        "type": "datetime",
+        "description": "Timestamp when the detection ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entities",
+        "type": "dynamic",
+        "description": "Entities associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EntityValues",
+        "type": "dynamic",
+        "description": "Values of the entities associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MitreAttack",
+        "type": "dynamic",
+        "description": "MITRE ATT&CK tactics and techniques associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "Name of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "References",
+        "type": "dynamic",
+        "description": "References associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceEventModel",
+        "type": "string",
+        "description": "Source event model associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tactics",
+        "type": "dynamic",
+        "description": "Tactics associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TacticIds",
+        "type": "dynamic",
+        "description": "IDs of the tactics associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Techniques",
+        "type": "dynamic",
+        "description": "Techniques associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueIds",
+        "type": "dynamic",
+        "description": "IDs of the techniques associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "XdrDetectionId",
+        "type": "string",
+        "description": "XDR detection ID associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AddedPrivileges",
+        "type": "dynamic",
+        "description": "Privileges added during the detection process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AggregateId",
+        "type": "string",
+        "description": "Aggregate ID associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Objective",
+        "type": "string",
+        "description": "Objective associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolyId",
+        "type": "string",
+        "description": "Poly ID associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreviousPrivileges",
+        "type": "string",
+        "description": "Privileges previously held before the detection process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Privileges",
+        "type": "string",
+        "description": "Current privileges associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Scenario",
+        "type": "string",
+        "description": "Scenario associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "int",
+        "description": "Severity level of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SeverityName",
+        "type": "string",
+        "description": "Name of the severity level associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountDomain",
+        "type": "string",
+        "description": "Source account domain associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountName",
+        "type": "string",
+        "description": "Source account name associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountObjectGuid",
+        "type": "string",
+        "description": "Source account object GUID associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountObjectSid",
+        "type": "string",
+        "description": "Source account object SID associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountSamAccountName",
+        "type": "string",
+        "description": "Source account SAM account name associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceAccountUpn",
+        "type": "string",
+        "description": "Source account UPN associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tactic",
+        "type": "string",
+        "description": "Tactic associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Technique",
+        "type": "string",
+        "description": "Technique associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TacticId",
+        "type": "string",
+        "description": "ID of the tactic associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TechniqueId",
+        "type": "string",
+        "description": "ID of the technique associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInstanceIdText",
+        "type": "string",
+        "description": "Instance ID of the detection template used (string representation).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInterfaceIdText",
+        "type": "string",
+        "description": "Interface ID of the detection template (string representation).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentId",
+        "type": "string",
+        "description": "Unique identifier for the CrowdStrike agent that generated the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLoadFlags",
+        "type": "string",
+        "description": "Flags indicating the load status of the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLocalTime",
+        "type": "string",
+        "description": "Local time of the system where the agent is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "Version of the installed CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AssociatedFiles",
+        "type": "dynamic",
+        "description": "List of files associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosVersion",
+        "type": "string",
+        "description": "Version of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comment",
+        "type": "string",
+        "description": "User-provided comment on the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Comments",
+        "type": "dynamic",
+        "description": "List of comments associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBase",
+        "type": "string",
+        "description": "Base configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBuild",
+        "type": "string",
+        "description": "Build configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdPlatform",
+        "type": "string",
+        "description": "Platform-specific configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContextTimestamp",
+        "type": "string",
+        "description": "Timestamp providing additional context for the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ControlGraphId",
+        "type": "string",
+        "description": "Identifier for the control graph associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataDomains",
+        "type": "dynamic",
+        "description": "Domains associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DisplayName",
+        "type": "string",
+        "description": "Human-readable name for the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DnsRequests",
+        "type": "dynamic",
+        "description": "List of DNS requests made by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCorrelationId",
+        "type": "string",
+        "description": "Correlation ID linking related events.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "External",
+        "type": "boolean",
+        "description": "Indicates if the detection originated from an external source.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "External IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilesWritten",
+        "type": "dynamic",
+        "description": "List of files written by the detected process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "string",
+        "description": "Timestamp when the host was first seen by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Groups",
+        "type": "dynamic",
+        "description": "List of groups the host belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAdversary",
+        "type": "boolean",
+        "description": "Indicates if the detection is associated with a known adversary.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HasAgenticProcess",
+        "type": "boolean",
+        "description": "Indicates if the detection involves an agentic process.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostNames",
+        "type": "dynamic",
+        "description": "List of hostnames associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Network hostname of the system where the detection occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "Cloud instance identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocDescription",
+        "type": "string",
+        "description": "Description of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocSource",
+        "type": "string",
+        "description": "Source of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocType",
+        "type": "string",
+        "description": "Type of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IocValue",
+        "type": "string",
+        "description": "Value of the indicator of compromise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsClosed",
+        "type": "boolean",
+        "description": "Indicates if the detection has been closed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "string",
+        "description": "Timestamp when the host was last seen active.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LeadId",
+        "type": "string",
+        "description": "Identifier for the lead associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LeadType",
+        "type": "string",
+        "description": "Type of the lead associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIp",
+        "type": "string",
+        "description": "Local IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Primary MAC address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineDomain",
+        "type": "string",
+        "description": "Domain name the machine is joined to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MajorVersion",
+        "type": "string",
+        "description": "Major version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MinorVersion",
+        "type": "string",
+        "description": "Minor version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the detection record was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OriginCid",
+        "type": "string",
+        "description": "Customer ID of the originating tenant.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "Version string of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ou",
+        "type": "dynamic",
+        "description": "Organizational Unit information for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PatternId",
+        "type": "int",
+        "description": "Identifier for the detection pattern that triggered the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Platform",
+        "type": "string",
+        "description": "Operating system or platform where the detection was found.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Unique identifier for the platform type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Name of the platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreventionPolicyId",
+        "type": "string",
+        "description": "Identifier of the prevention policy applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PreventionPolicyName",
+        "type": "string",
+        "description": "Name of the prevention policy applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityDetails",
+        "type": "dynamic",
+        "description": "Priority details associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityExplanation",
+        "type": "dynamic",
+        "description": "Explanation of the priority assignment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PriorityValue",
+        "type": "int",
+        "description": "Numerical priority value of the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Product",
+        "type": "string",
+        "description": "CrowdStrike product that generated the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductType",
+        "type": "string",
+        "description": "Type of product or system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypeDesc",
+        "type": "string",
+        "description": "Description of the product or system type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Score",
+        "type": "int",
+        "description": "Score associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProvider",
+        "type": "string",
+        "description": "Cloud service provider hosting the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProviderAccountId",
+        "type": "string",
+        "description": "Account identifier from the cloud service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalEndTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal ended.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalStartTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal started.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalUpdatedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the signal was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceHosts",
+        "type": "dynamic",
+        "description": "List of source hostnames associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIps",
+        "type": "dynamic",
+        "description": "List of source IP addresses associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceProducts",
+        "type": "dynamic",
+        "description": "List of products that contributed to this detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceVendors",
+        "type": "dynamic",
+        "description": "List of vendors associated with the detection sources.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemProductName",
+        "type": "string",
+        "description": "Product name or model of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TemplateInstanceVersion",
+        "type": "int",
+        "description": "Version of the detection template instance.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ThreatgraphIndicators",
+        "type": "dynamic",
+        "description": "Threat graph indicators associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Time when the detection event occurred.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserNames",
+        "type": "dynamic",
+        "description": "List of usernames associated with the detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ContainerId",
+        "type": "string",
+        "description": "Identifier of the container associated with the alert.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  },
+  "CrowdStrikeHostsV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLoadFlags",
+        "type": "string",
+        "description": "Flags indicating the load status of the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentLocalTime",
+        "type": "string",
+        "description": "Local time of the system where the agent is installed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVersion",
+        "type": "string",
+        "description": "Version of the installed CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BaseImageVersion",
+        "type": "string",
+        "description": "Version of the base operating system image.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BiosVersion",
+        "type": "string",
+        "description": "Version of the system BIOS.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BuildNumber",
+        "type": "string",
+        "description": "Operating system build number.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChassisType",
+        "type": "string",
+        "description": "Type of system chassis (numerical identifier).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChassisTypeDesc",
+        "type": "string",
+        "description": "Description of the system chassis type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Cid the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBase",
+        "type": "string",
+        "description": "Base configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdBuild",
+        "type": "string",
+        "description": "Build configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConfigIdPlatform",
+        "type": "string",
+        "description": "Platform-specific configuration ID for the CrowdStrike agent.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionIp",
+        "type": "string",
+        "description": "IP address used by the host to connect to CrowdStrike cloud.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionMacAddress",
+        "type": "string",
+        "description": "MAC address of the network interface used for CrowdStrike connection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuSignature",
+        "type": "string",
+        "description": "Unique identifier for the CPU architecture and features.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CpuVendor",
+        "type": "string",
+        "description": "Manufacturer of the CPU.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DefaultGatewayIp",
+        "type": "string",
+        "description": "IP address of the default network gateway.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeploymentType",
+        "type": "string",
+        "description": "Type of CrowdStrike agent deployment on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionSuppressionStatus",
+        "type": "string",
+        "description": "Status of detection suppression rules applied to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceId",
+        "type": "string",
+        "description": "Unique identifier for the device in CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DevicePolicies",
+        "type": "dynamic",
+        "description": "List of security policies applied to the device.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Email",
+        "type": "string",
+        "description": "Email address associated with the host or primary user.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExternalIp",
+        "type": "string",
+        "description": "External IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilesystemContainmentStatus",
+        "type": "string",
+        "description": "Status of filesystem containment feature for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstLoginTimestamp",
+        "type": "string",
+        "description": "Timestamp of the first user login on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "string",
+        "description": "Timestamp when the host was first seen by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupHash",
+        "type": "string",
+        "description": "Hash identifier for the host's group membership.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Groups",
+        "type": "dynamic",
+        "description": "List of security groups the host belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostHiddenStatus",
+        "type": "string",
+        "description": "Indicates if the host is hidden from normal visibility.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostUtcOffset",
+        "type": "string",
+        "description": "UTC time offset for the host's timezone.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Hostname",
+        "type": "string",
+        "description": "Network hostname of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InstanceId",
+        "type": "string",
+        "description": "Cloud instance identifier (if applicable).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "InternetExposure",
+        "type": "string",
+        "description": "Level of internet exposure for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterGitVersion",
+        "type": "string",
+        "description": "Git version of the Kubernetes cluster deployment.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterId",
+        "type": "string",
+        "description": "Unique identifier for the Kubernetes cluster.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "K8sClusterVersion",
+        "type": "string",
+        "description": "Version of the Kubernetes cluster.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "KernelVersion",
+        "type": "string",
+        "description": "Version of the operating system kernel.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginTimestamp",
+        "type": "string",
+        "description": "Timestamp of the most recent user login.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUid",
+        "type": "string",
+        "description": "User ID of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUser",
+        "type": "string",
+        "description": "Username of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastLoginUserSid",
+        "type": "string",
+        "description": "Security identifier (SID) of the last user to log in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastReboot",
+        "type": "string",
+        "description": "Timestamp of the last system reboot.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "string",
+        "description": "Timestamp when the host was last seen active by CrowdStrike.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LinuxSensorMode",
+        "type": "string",
+        "description": "Operating mode of the CrowdStrike sensor on Linux systems.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LocalIp",
+        "type": "string",
+        "description": "Local/Internal IP address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MacAddress",
+        "type": "string",
+        "description": "Primary MAC address of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MachineDomain",
+        "type": "string",
+        "description": "Domain name the machine is joined to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MajorVersion",
+        "type": "string",
+        "description": "Major version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ManagedApps",
+        "type": "dynamic",
+        "description": "List of applications managed by CrowdStrike on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Meta",
+        "type": "dynamic",
+        "description": "Additional metadata about the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MigrationCompletedTime",
+        "type": "string",
+        "description": "Timestamp when agent migration was completed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MinorVersion",
+        "type": "string",
+        "description": "Minor version number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp when the host record was last modified.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Notes",
+        "type": "dynamic",
+        "description": "Custom notes or annotations about the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsBuild",
+        "type": "string",
+        "description": "Build number of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsProductName",
+        "type": "string",
+        "description": "Product name of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OsVersion",
+        "type": "string",
+        "description": "Version string of the operating system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ou",
+        "type": "dynamic",
+        "description": "Organizational Unit information for the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformId",
+        "type": "string",
+        "description": "Unique identifier for the platform type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PlatformName",
+        "type": "string",
+        "description": "Name of the platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodAnnotations",
+        "type": "dynamic",
+        "description": "Kubernetes pod annotations associated with the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostIp4",
+        "type": "string",
+        "description": "IPv4 address of the Kubernetes pod host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostIp6",
+        "type": "string",
+        "description": "IPv6 address of the Kubernetes pod host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodHostname",
+        "type": "string",
+        "description": "Hostname of the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodId",
+        "type": "string",
+        "description": "Unique identifier for the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodIp4",
+        "type": "string",
+        "description": "IPv4 address assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodIp6",
+        "type": "string",
+        "description": "IPv6 address assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodLabels",
+        "type": "dynamic",
+        "description": "Labels assigned to the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodName",
+        "type": "string",
+        "description": "Name of the Kubernetes pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodNamespace",
+        "type": "string",
+        "description": "Kubernetes namespace where the pod is deployed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PodServiceAccountName",
+        "type": "string",
+        "description": "Name of the Kubernetes service account used by the pod.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PointerSize",
+        "type": "string",
+        "description": "Memory pointer size of the system architecture (32/64 bit).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Policies",
+        "type": "dynamic",
+        "description": "List of all security policies applied to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductType",
+        "type": "string",
+        "description": "Type of product or system (numerical identifier).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProductTypeDesc",
+        "type": "string",
+        "description": "Description of the product or system type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ProvisionStatus",
+        "type": "string",
+        "description": "Current provisioning status of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReducedFunctionalityMode",
+        "type": "string",
+        "description": "Indicates if the host is running in reduced functionality mode.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReleaseGroup",
+        "type": "string",
+        "description": "Group identifier for software release management.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RtrState",
+        "type": "string",
+        "description": "State of Real Time Response functionality.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SerialNumber",
+        "type": "string",
+        "description": "System serial number from BIOS/hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServicePackMajor",
+        "type": "string",
+        "description": "Major version of installed service pack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServicePackMinor",
+        "type": "string",
+        "description": "Minor version of installed service pack.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProvider",
+        "type": "string",
+        "description": "Cloud service provider hosting the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ServiceProviderAccountId",
+        "type": "string",
+        "description": "Account identifier from the cloud service provider.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SiteName",
+        "type": "string",
+        "description": "Name of the site where the host is located.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current operational status of the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemManufacturer",
+        "type": "string",
+        "description": "Manufacturer of the system hardware.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SystemProductName",
+        "type": "string",
+        "description": "Product name or model of the system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Custom tags assigned to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstLoginUser",
+        "type": "string",
+        "description": "Username of the first user to log in on the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SlowChangingModifiedTimestamp",
+        "type": "string",
+        "description": "Timestamp for slow-changing modifications to the host record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ZoneGroup",
+        "type": "string",
+        "description": "Zone group assigned to the host.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
+  },
+  "CrowdStrikeVulnerabilitiesV2_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Id",
+        "type": "string",
+        "description": "Unique identifier for the vulnerability record.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cid",
+        "type": "string",
+        "description": "Customer ID in the CrowdStrike platform.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Aid",
+        "type": "string",
+        "description": "Agent ID of the system where vulnerability was detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilityId",
+        "type": "string",
+        "description": "Unique identifier for the specific vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Current status of the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the vulnerability was first detected.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UpdatedTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when the vulnerability record was last updated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DataProviders",
+        "type": "dynamic",
+        "description": "List of data providers that reported this vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Apps",
+        "type": "dynamic",
+        "description": "List of affected applications.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SuppressionInfo",
+        "type": "dynamic",
+        "description": "Information about vulnerability suppression if applied.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Confidence",
+        "type": "string",
+        "description": "Confidence level of the vulnerability detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "App",
+        "type": "dynamic",
+        "description": "Detailed information about the affected application.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Cve",
+        "type": "dynamic",
+        "description": "Common Vulnerabilities and Exposures (CVE) information.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HostInfo",
+        "type": "dynamic",
+        "description": "Information about the affected host system.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Remediation",
+        "type": "dynamic",
+        "description": "Remediation steps or recommendations for the vulnerability.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VulnerabilityMetadataId",
+        "type": "string",
+        "description": "Unique identifier for the vulnerability metadata.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CrowdStrikeDomain",
+        "type": "string",
+        "description": "CrowdStrike host/domain configured for this connection; hard-coded on every record so hosts can be differentiated.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CrowdStrike Falcon Endpoint Protection"
   },
   "CyberArk_AuditEvents_CL": {
     "source": "3rd-Party Connector Schemas",
@@ -30495,7 +34389,7 @@
     ],
     "solution": "D3SmartSOAR"
   },
-  "DatadogAuditV2_CL": {
+  "DatadogAuditLogs_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -30539,9 +34433,1021 @@
         ]
       },
       {
+        "name": "AuditDetails",
+        "type": "dynamic",
+        "description": "Detailed audit event payload",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Human-readable audit event message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags associated with the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action performed in the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AuthenticationMethod",
+        "type": "string",
+        "description": "Authentication method used by the actor",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventName",
+        "type": "string",
+        "description": "Name of the audited event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorType",
+        "type": "string",
+        "description": "Type of actor that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Datadog organization identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "string",
+        "description": "Identifier of the user that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserEmail",
+        "type": "string",
+        "description": "Email address of the user that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserUuid",
+        "type": "string",
+        "description": "Datadog UUID of the user that performed the action",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpMethod",
+        "type": "string",
+        "description": "HTTP method associated with the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpStatusCode",
+        "type": "long",
+        "description": "HTTP response status code",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUrlHost",
+        "type": "string",
+        "description": "Host of the requested URL",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUrlPath",
+        "type": "string",
+        "description": "Path of the requested URL",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpUserAgent",
+        "type": "string",
+        "description": "User agent associated with the request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "Client IP address associated with the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientGeo",
+        "type": "dynamic",
+        "description": "Geolocation details associated with the client IP address",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RoutePath",
+        "type": "string",
+        "description": "Datadog route associated with the request",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Status or severity of the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmittedSource",
+        "type": "string",
+        "description": "Datadog component that emitted the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "EventTimestamp",
         "type": "string",
         "description": "Timestamp reported by Datadog for the audit event",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Datadog"
+  },
+  "DatadogLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Resource type of the event (always 'log')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attributes",
+        "type": "dynamic",
+        "description": "Full attributes object of the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributes",
+        "type": "dynamic",
+        "description": "Custom attributes associated with the Datadog log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Host",
+        "type": "string",
+        "description": "Host that generated the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Log message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Service",
+        "type": "string",
+        "description": "Application or service that generated the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Status or severity associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "string",
+        "description": "Timestamp reported by Datadog for the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributeId",
+        "type": "string",
+        "description": "Source-specific identifier in the log attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogAttributeTimestamp",
+        "type": "datetime",
+        "description": "Source timestamp from the log attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Level",
+        "type": "string",
+        "description": "Source-specific log level",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LambdaArn",
+        "type": "string",
+        "description": "ARN of the AWS Lambda function that generated the log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsDetails",
+        "type": "dynamic",
+        "description": "AWS metadata associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsAccountId",
+        "type": "string",
+        "description": "AWS account identifier associated with the log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsInvokedFunctionArn",
+        "type": "string",
+        "description": "ARN of the AWS Lambda function invoked by the integration",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsLogGroup",
+        "type": "string",
+        "description": "AWS CloudWatch log group",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsLogStream",
+        "type": "string",
+        "description": "AWS CloudWatch log stream",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsS3Bucket",
+        "type": "string",
+        "description": "S3 bucket containing the source log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AwsS3Key",
+        "type": "string",
+        "description": "S3 object key containing the source log",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkDetails",
+        "type": "dynamic",
+        "description": "Network metadata associated with the log event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BytesWritten",
+        "type": "long",
+        "description": "Number of bytes written during the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientIp",
+        "type": "string",
+        "description": "Source IP address of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientPort",
+        "type": "long",
+        "description": "Source port of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "Destination IP address of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationPort",
+        "type": "long",
+        "description": "Destination port of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkInterface",
+        "type": "string",
+        "description": "AWS network interface associated with the flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PacketCount",
+        "type": "long",
+        "description": "Number of packets in the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkProtocol",
+        "type": "string",
+        "description": "IP protocol number of the network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcDetails",
+        "type": "dynamic",
+        "description": "Amazon VPC flow metadata",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcAction",
+        "type": "string",
+        "description": "Action applied to the VPC network flow",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcIntervalStart",
+        "type": "datetime",
+        "description": "Start time of the VPC flow interval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcIntervalEnd",
+        "type": "datetime",
+        "description": "End time of the VPC flow interval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcStatus",
+        "type": "string",
+        "description": "Status of the VPC flow log record",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "VpcVersion",
+        "type": "long",
+        "description": "Version of the VPC flow log format",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Datadog"
+  },
+  "DatadogSecurityLogs_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Resource type of the event (always 'signal')",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attributes",
+        "type": "dynamic",
+        "description": "Full attributes object of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalDetails",
+        "type": "dynamic",
+        "description": "Detection and workflow details associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalId",
+        "type": "string",
+        "description": "Datadog identifier stored in the signal attributes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalVersion",
+        "type": "long",
+        "description": "Version of the Datadog security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalTitle",
+        "type": "string",
+        "description": "Title of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Message",
+        "type": "string",
+        "description": "Security signal message",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Host",
+        "type": "string",
+        "description": "Host associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Service",
+        "type": "dynamic",
+        "description": "Services associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Status",
+        "type": "string",
+        "description": "Severity status of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Severity",
+        "type": "long",
+        "description": "Numeric severity of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Tags",
+        "type": "dynamic",
+        "description": "Tags associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TagDetails",
+        "type": "dynamic",
+        "description": "Structured tag values associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTimestamp",
+        "type": "string",
+        "description": "Timestamp reported by Datadog for the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DiscoveryTimestamp",
+        "type": "datetime",
+        "description": "Timestamp when Datadog discovered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringLogTimestamp",
+        "type": "datetime",
+        "description": "Timestamp of the log that triggered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTrackerId",
+        "type": "string",
+        "description": "Datadog event tracker identifier",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GroupByValuesHash",
+        "type": "string",
+        "description": "Hash of the values used to group the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ReducerSignalId",
+        "type": "string",
+        "description": "Identifier of the reduced security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceFragmentId",
+        "type": "string",
+        "description": "Identifier of the source fragment",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringLogId",
+        "type": "string",
+        "description": "Identifier of the log that triggered the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IngestSizeInBytes",
+        "type": "long",
+        "description": "Size of the ingested security signal in bytes",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Source",
+        "type": "string",
+        "description": "Source that produced the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSource",
+        "type": "dynamic",
+        "description": "Event sources represented in the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventName",
+        "type": "dynamic",
+        "description": "Event names represented in the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Entities",
+        "type": "dynamic",
+        "description": "Entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudEntities",
+        "type": "dynamic",
+        "description": "Cloud entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Datasets",
+        "type": "dynamic",
+        "description": "Datasets used to generate the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ocsf",
+        "type": "dynamic",
+        "description": "Open Cybersecurity Schema Framework data",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfEntities",
+        "type": "dynamic",
+        "description": "OCSF-normalized entities associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCategory",
+        "type": "dynamic",
+        "description": "OCSF event categories represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfClass",
+        "type": "dynamic",
+        "description": "OCSF event classes represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfSeverity",
+        "type": "dynamic",
+        "description": "OCSF severity values represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfStatus",
+        "type": "dynamic",
+        "description": "OCSF status values represented in the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCloudProvider",
+        "type": "string",
+        "description": "Cloud provider identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfCloudRegion",
+        "type": "dynamic",
+        "description": "Cloud regions identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfActorUserId",
+        "type": "dynamic",
+        "description": "Actor user identifiers identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OcsfSourceIp",
+        "type": "dynamic",
+        "description": "Source IP addresses identified by OCSF",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentity",
+        "type": "dynamic",
+        "description": "Source identity details associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityType",
+        "type": "string",
+        "description": "Type of source identity associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityArn",
+        "type": "dynamic",
+        "description": "AWS ARNs associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityAccountId",
+        "type": "dynamic",
+        "description": "AWS account identifiers associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserIdentityAccessKeyId",
+        "type": "dynamic",
+        "description": "AWS access key identifiers associated with the source identity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserDetails",
+        "type": "dynamic",
+        "description": "Normalized user details associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserId",
+        "type": "dynamic",
+        "description": "User identifiers associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "dynamic",
+        "description": "User names associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Workflow",
+        "type": "dynamic",
+        "description": "Detection workflow and triage details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowState",
+        "type": "string",
+        "description": "Current triage state of the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventsMatched",
+        "type": "long",
+        "description": "Number of events matched by the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleId",
+        "type": "string",
+        "description": "Identifier of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleName",
+        "type": "string",
+        "description": "Name of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RuleType",
+        "type": "string",
+        "description": "Type of the detection rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DetectionMethod",
+        "type": "string",
+        "description": "Detection method used by the rule",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowFirstSeen",
+        "type": "datetime",
+        "description": "Timestamp when the matching activity was first seen",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "WorkflowLastSeen",
+        "type": "datetime",
+        "description": "Timestamp when the matching activity was last seen",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggeringRuleCase",
+        "type": "dynamic",
+        "description": "Triggering rule case details",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCondition",
+        "type": "string",
+        "description": "Condition that triggered the rule case",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCaseName",
+        "type": "string",
+        "description": "Name of the rule case that triggered the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TriggerCaseStatus",
+        "type": "string",
+        "description": "Status of the rule case that triggered the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RelatedQuery",
+        "type": "dynamic",
+        "description": "Query associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SignalCasesHistory",
+        "type": "dynamic",
+        "description": "History of rule cases associated with the signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Queries",
+        "type": "dynamic",
+        "description": "Queries evaluated for the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Samples",
+        "type": "dynamic",
+        "description": "Sample events associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "NetworkDetails",
+        "type": "dynamic",
+        "description": "Network details associated with the security signal",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HttpDetails",
+        "type": "dynamic",
+        "description": "HTTP details associated with the security signal",
         "availability": [
           "Sentinel"
         ]
@@ -66706,6 +71612,256 @@
       }
     ],
     "solution": "Salesforce Service Cloud"
+  },
+  "SecurityScorecardFactorHistory_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "score_date",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "factors",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "industry",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SecurityScorecard Cybersecurity Ratings"
+  },
+  "SecurityScorecardIssuesHistory_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "id",
+        "type": "long",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "issue_date",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "group_status",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "issue_count",
+        "type": "long",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "total_score_impact",
+        "type": "real",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "issue_type",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "severity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "factor",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "detail_url",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "industry",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SecurityScorecard Cybersecurity Ratings"
+  },
+  "SecurityScorecardRatingsHistory_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "score_date",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "score",
+        "type": "long",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "domain",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "industry",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "portfolio_id",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "SecurityScorecard Cybersecurity Ratings"
   },
   "SentinelOneActivities_CL": {
     "source": "3rd-Party Connector Schemas",
