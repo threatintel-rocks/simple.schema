@@ -8,7 +8,8 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ReportId ",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "AccountId ",
@@ -24,7 +26,8 @@
         "description": "Unique identifier for the account in the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "AccountType",
@@ -32,7 +35,8 @@
         "description": "Type of user account, indicating its general role like User, SystemPrincipal",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountDisplayName",
@@ -40,7 +44,8 @@
         "description": "Name displayed in the address book entry for the account user. This is usually a combination of the given name, middle initial, and surname of the user.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountUpn",
@@ -48,7 +53,8 @@
         "description": "Alternate ID, email, or name for the account in the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionType",
@@ -56,7 +62,8 @@
         "description": "Type of activity that triggered the event in the raw format received from the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionResult",
@@ -64,7 +71,8 @@
         "description": "Result of the action",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActionFailureReason",
@@ -72,7 +80,8 @@
         "description": "Information explaining why the recorded action failed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IPAddress",
@@ -80,7 +89,8 @@
         "description": "IP address assigned to the device and used during related network communications",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -88,7 +98,8 @@
         "description": "User agent information from the web browser or other client application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TargetObjects",
@@ -96,7 +107,8 @@
         "description": "List of the target objects of this activity. Target object can be user, group, role, domain, application, and more.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Application",
@@ -104,7 +116,8 @@
         "description": "The source application where this event was received from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ApplicationInstanceId",
@@ -112,7 +125,8 @@
         "description": "Domain of the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ApplicationEventId",
@@ -120,7 +134,8 @@
         "description": "Raw event ID provided by the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ApplicationSessionId",
@@ -128,7 +143,8 @@
         "description": "Raw session ID provided by the source application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RawEventData",
@@ -136,7 +152,8 @@
         "description": "Full raw event information from the source application in JSON format",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AdditionalFields",
@@ -144,9 +161,53 @@
         "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "AccountId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }

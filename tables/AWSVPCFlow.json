@@ -8,7 +8,8 @@
         "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Action",
@@ -16,7 +17,8 @@
         "description": "The action that is associated with the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AzId",
@@ -24,7 +26,8 @@
         "description": "The ID of the Availability Zone.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -32,7 +35,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Bytes",
@@ -40,7 +44,8 @@
         "description": "The number of bytes transferred during the flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstAddr",
@@ -48,7 +53,8 @@
         "description": "The destination address for outgoing traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DstPort",
@@ -56,7 +62,8 @@
         "description": "The destination port of the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsClusterArn",
@@ -64,7 +71,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsClusterName",
@@ -72,7 +80,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsContainerId",
@@ -80,7 +89,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsContainerInstanceArn",
@@ -88,7 +98,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsContainerInstanceId",
@@ -96,7 +107,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsSecondContainerId",
@@ -104,7 +116,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsServiceName",
@@ -112,7 +125,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsTaskArn",
@@ -120,7 +134,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsTaskDefinitionArn",
@@ -128,7 +143,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EcsTaskId",
@@ -136,7 +152,8 @@
         "description": "Optional. Providing a unique identifier for the log entry allows Logging to remove duplicate entries with the same timestamp and insertId in a single query result.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "End",
@@ -144,7 +161,8 @@
         "description": "The time when the last packet of the flow was received within the aggregation interval.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FlowDirection",
@@ -152,7 +170,8 @@
         "description": "The direction of the flow with respect to the interface where traffic is captured.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InstanceId",
@@ -160,7 +179,8 @@
         "description": "The ID of the instance that's associated with network interface for which the traffic is recorded.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InterfaceId",
@@ -168,7 +188,8 @@
         "description": "The ID of the network interface for which the traffic is recorded.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -176,7 +197,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LogStatus",
@@ -184,7 +206,8 @@
         "description": "The logging status of the flow log.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Packets",
@@ -192,7 +215,8 @@
         "description": "The number of packets transferred during the flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PktDstAddr",
@@ -200,7 +224,8 @@
         "description": "The packet-level (original) destination IP address for the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PktDstAwsService",
@@ -208,7 +233,8 @@
         "description": "The name of the subset of IP address ranges for the PktDstAddr field, if the destination IP address is for an AWS service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PktSrcAddr",
@@ -216,7 +242,8 @@
         "description": "The packet-level (original) source IP address of the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PktSrcAwsService",
@@ -224,7 +251,8 @@
         "description": "The name of the subset of IP address ranges for the PktSrcAddr field, if the source IP address is for an AWS service.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Protocol",
@@ -232,7 +260,8 @@
         "description": "The IANA protocol number of the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Region",
@@ -240,7 +269,8 @@
         "description": "The Region that contains the network interface for which traffic is recorded.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -248,7 +278,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcAddr",
@@ -256,7 +287,8 @@
         "description": "The source address for incoming traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPort",
@@ -264,7 +296,8 @@
         "description": "The source port of the traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Start",
@@ -272,7 +305,8 @@
         "description": "The remote ip of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SublocationId",
@@ -280,7 +314,8 @@
         "description": "The ID of the sublocation that contains the network interface for which traffic is recorded.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SublocationType",
@@ -288,7 +323,8 @@
         "description": "The type of sublocation that is returned in the sublocationId field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SubnetId",
@@ -296,7 +332,8 @@
         "description": "The ID of the subnet.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TcpFlags",
@@ -304,7 +341,8 @@
         "description": "The bitmask value for the following TCP flags.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -312,7 +350,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -320,7 +359,8 @@
         "description": "The timestamp (UTC) of when the event was generated. This value will be the same as 'start' input field or the data arrival time to Azure Monitor in case the 'start' input field is empty or missing.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TrafficPath",
@@ -328,7 +368,8 @@
         "description": "The path that egress traffic takes to the destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TrafficType",
@@ -336,7 +377,8 @@
         "description": "The type of traffic. The possible values are: IPv4, IPv6, and EFA. For more information search for 'Elastic Fabric Adapter (EFA)'.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -344,7 +386,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Version",
@@ -352,7 +395,8 @@
         "description": "The VPC Flow Logs version.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VpcId",
@@ -360,8 +404,10 @@
         "description": "The ID of the VPC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

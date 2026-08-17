@@ -8,7 +8,8 @@
         "description": "The Amazon Resource Name (ARN) of the S3 access point used for the request, or '-' if not used.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ACLRequired",
@@ -16,7 +17,8 @@
         "description": "Indicates if an ACL was required for the request: 'Yes' if required, '-' otherwise.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationType",
@@ -24,7 +26,8 @@
         "description": "The authentication type used: AuthHeader, QueryString, or '-' for unauthenticated requests.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -32,7 +35,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Bucket",
@@ -40,7 +44,8 @@
         "description": "The name of the S3 bucket against which the request was processed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "BucketOwner",
@@ -48,7 +53,8 @@
         "description": "The canonical user ID of the owner of the source bucket (another form of AWS account ID).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "BytesSent",
@@ -56,7 +62,8 @@
         "description": "Number of response bytes sent, excluding HTTP overhead, or 0.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CipherSuite",
@@ -64,7 +71,8 @@
         "description": "The TLS cipher suite negotiated for HTTPS, or '-' for HTTP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ErrorCode",
@@ -72,7 +80,8 @@
         "description": "The S3 error code returned in the response, or '-' if none.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HostHeader",
@@ -80,7 +89,8 @@
         "description": "The endpoint (host header) used to connect to S3 (e.g., s3.us-west-2.amazonaws.com).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HostId",
@@ -88,7 +98,8 @@
         "description": "Amazon S3 extended request ID (x-amz-id-2).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "HttpStatus",
@@ -96,7 +107,8 @@
         "description": "The HTTP status code returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -104,7 +116,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Key",
@@ -112,7 +125,8 @@
         "description": "The object key (name) involved in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ObjectSize",
@@ -120,7 +134,8 @@
         "description": "The size of the object in bytes.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Operation",
@@ -128,7 +143,8 @@
         "description": "The operation type (e.g., REST.PUT.OBJECT, S3.LIFECYCLETRANSITION.OBJECT).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Referer",
@@ -136,7 +152,8 @@
         "description": "The value of the HTTP Referer header (linking page URL), if present.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RemoteIp",
@@ -144,7 +161,8 @@
         "description": "The apparent IP address of the requester (may be obscured by proxies or firewalls).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Requester",
@@ -152,7 +170,8 @@
         "description": "The canonical user ID, IAM user, or assumed role making the request, or '-' for unauthenticated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestId",
@@ -160,7 +179,8 @@
         "description": "A unique string ID generated by Amazon S3 to identify the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestUri",
@@ -168,7 +188,8 @@
         "description": "The URI part of the HTTP request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SignatureVersion",
@@ -176,7 +197,8 @@
         "description": "The signature version (SigV2 or SigV4) used to authenticate the request, or '-' for unauthenticated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -184,7 +206,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -192,7 +215,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -200,7 +224,8 @@
         "description": "The time the AWS Server Access log was received by the S3 bucket, in UTC.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TLSVersion",
@@ -208,7 +233,8 @@
         "description": "The TLS version used by the client (e.g., TLSv1.2), or '-' if TLS wasn't used.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TotalTime",
@@ -216,7 +242,8 @@
         "description": "The total time in milliseconds the request was in flight (from receipt to last response byte sent).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TurnAroundTime",
@@ -224,7 +251,8 @@
         "description": "The time in milliseconds S3 spent processing the request (from last request byte to first response byte).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -232,7 +260,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "UserAgent",
@@ -240,7 +269,8 @@
         "description": "The value of the HTTP User-Agent header (e.g., client software or browser).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VersionId",
@@ -248,8 +278,10 @@
         "description": "The version ID of the object involved in the request, or '-' if not applicable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

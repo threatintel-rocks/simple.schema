@@ -8,7 +8,8 @@
         "description": "The AWS account ID of the owner of the source network interface for which traffic is recorded. If the network interface is created by an AWS service, for example when creating a VPC endpoint or Network Load Balancer, the record may display unknown for this field.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ActivityType",
@@ -16,7 +17,8 @@
         "description": "A formatted string representing the type of activity that triggered the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Arn",
@@ -24,7 +26,8 @@
         "description": "Amazon resource name of the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -32,7 +35,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Description",
@@ -40,7 +44,8 @@
         "description": "Description of the primary purpose of the threat or attack related to the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Id",
@@ -48,7 +53,8 @@
         "description": "A unique Finding ID for this finding type and set of parameters. New occurrences of activity matching this pattern will be aggregated to the same ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -56,7 +62,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Partition",
@@ -64,7 +71,8 @@
         "description": "The AWS partition in which the finding was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Region",
@@ -72,7 +80,8 @@
         "description": "The AWS region in which the finding was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceDetails",
@@ -80,7 +89,8 @@
         "description": "Gives details on the AWS resource that was targeted by the trigger activity. The information available varies based on resource type and action typ.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SchemaVersion",
@@ -88,7 +98,8 @@
         "description": "The Guard Duty finding version.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceDetails",
@@ -96,7 +107,8 @@
         "description": "Gives details on the AWS service that was related to the finding, including Action, Actor/Target, Evidence, Anomalous behavior and Additional information.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -104,7 +116,8 @@
         "description": "A finding's assigned severity level of either High, Medium, or Low.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -112,7 +125,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -120,7 +134,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeCreated",
@@ -128,7 +143,8 @@
         "description": "The time and date when this finding was first created. If this value differs from Updated at (TimeGenerated), it indicates that the activity has occurred multiple times and is an ongoing issue.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -136,7 +152,8 @@
         "description": "The timestamp (UTC) of when the event was generated, The last time this finding was updated with new activity matching the pattern that prompted GuardDuty to generate this finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Title",
@@ -144,7 +161,8 @@
         "description": "Summary of the primary purpose of the threat or attack related to the finding.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -152,8 +170,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
