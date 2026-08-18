@@ -8,8 +8,7 @@
         "description": "Severity of the threat. One of INFORMATIONAL, LOW, MEDIUM, HIGH, or CRITICAL.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertTime",
@@ -17,8 +16,7 @@
         "description": "Time when the threat was discovered.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Application",
@@ -26,8 +24,7 @@
         "description": "Suspected traffic's application type-for example, SSH.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthenticationInfoPrincipalEmail",
@@ -35,8 +32,7 @@
         "description": "Email address of the authenticated user or service account initiating the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthorizationInfo",
@@ -44,8 +40,7 @@
         "description": "Information about permissions or roles evaluated for the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -53,8 +48,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "Category",
@@ -62,8 +56,7 @@
         "description": "Sub-type of the threat.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CVEs",
@@ -71,8 +64,7 @@
         "description": "A list of CVEs associated with the threat.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationIPAddress",
@@ -80,8 +72,7 @@
         "description": "Suspected traffic's destination IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DestinationPort",
@@ -89,8 +80,7 @@
         "description": "Suspected traffic's destination port.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Details",
@@ -98,8 +88,7 @@
         "description": "Additional information about the type of threat.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Direction",
@@ -107,8 +96,7 @@
         "description": "Suspected traffic's direction (client-to-server or server-to-client).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ElapsedTime",
@@ -116,8 +104,7 @@
         "description": "The elapsed time of the session.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertId",
@@ -125,8 +112,7 @@
         "description": "A unique identifier for the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IPProtocol",
@@ -134,8 +120,7 @@
         "description": "Suspected traffic's IP protocol.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -143,8 +128,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "JsonPayloadName",
@@ -152,8 +136,7 @@
         "description": "Threat name.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "JsonPayloadType",
@@ -161,8 +144,7 @@
         "description": "Type of the threat.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogName",
@@ -170,8 +152,7 @@
         "description": "The full log name including resource path.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MethodName",
@@ -179,8 +160,7 @@
         "description": "Name of the API method or function that was invoked.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Network",
@@ -188,8 +168,7 @@
         "description": "The network associated with the IDS endpoint.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NumResponseItems",
@@ -197,8 +176,7 @@
         "description": "Number of items returned in the response, if applicable.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationFirst",
@@ -206,8 +184,7 @@
         "description": "Indicates if this is the first log entry in a sequence of operations.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationId",
@@ -215,8 +192,7 @@
         "description": "Unique identifier for the operation, useful for tracking and correlating across logs.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationLast",
@@ -224,8 +200,7 @@
         "description": "Indicates if this is the last log entry in a sequence of operations.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationProducer",
@@ -233,8 +208,7 @@
         "description": "Component or service that generated the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PayloadType",
@@ -242,8 +216,7 @@
         "description": "Type or format of the payload associated with the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiveTimestamp",
@@ -251,8 +224,7 @@
         "description": "Time the log entry was received by Cloud Logging.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RepeatCount",
@@ -260,8 +232,7 @@
         "description": "The number of sessions with the same source IP, destination IP, application, and type seen within 5 seconds.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointId",
@@ -269,8 +240,7 @@
         "description": "Unique identifier of the endpoint that handled the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointName",
@@ -278,8 +248,7 @@
         "description": "Name of the endpoint to which the request was sent.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointNetwork",
@@ -287,8 +256,7 @@
         "description": "Network path or name through which the endpoint was accessed.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointSeverity",
@@ -296,8 +264,7 @@
         "description": "Severity associated with the endpoint in the context of threat detection or access.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointThreatExceptions",
@@ -305,8 +272,7 @@
         "description": "Threat exceptions applied to the endpoint for this request, if any.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEndpointTrafficLogs",
@@ -314,8 +280,7 @@
         "description": "Details or references to traffic logs related to the endpoint request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataCallerIP",
@@ -323,8 +288,7 @@
         "description": "IP address of the caller who initiated the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataDestinationAttributes",
@@ -332,8 +296,7 @@
         "description": "Metadata attributes about the destination service or resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
@@ -341,8 +304,7 @@
         "description": "Authentication-related request attributes, such as tokens or auth levels.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesReason",
@@ -350,8 +312,7 @@
         "description": "Reason for the request, such as a policy action or user-initiated change.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
@@ -359,8 +320,7 @@
         "description": "Timestamp of when the request attributes were recorded.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestName",
@@ -368,8 +328,7 @@
         "description": "Name or identifier of the resource being accessed or modified in the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestParent",
@@ -377,8 +336,7 @@
         "description": "Parent resource of the request, indicating hierarchy or context.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestType",
@@ -386,8 +344,7 @@
         "description": "Type of request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestUpdateMaskPaths",
@@ -395,8 +352,7 @@
         "description": "The paths to be updated in the request.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsId",
@@ -404,8 +360,7 @@
         "description": "Unique identifier for the resource involved in the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsLocation",
@@ -413,8 +368,7 @@
         "description": "Geographic or regional location of the resource.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsMethod",
@@ -422,8 +376,7 @@
         "description": "The method or operation performed on the resource, often linked to an API call or service method.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsProjectId",
@@ -431,8 +384,7 @@
         "description": "Project ID associated with the resource, typically representing the Google Cloud project.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsResourceContainer",
@@ -440,8 +392,7 @@
         "description": "Name of the container or logical grouping the resource belongs to (e.g., folder, organization).",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsService",
@@ -449,8 +400,7 @@
         "description": "Service label indicating which cloud service.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLocationCurrentLocations",
@@ -458,8 +408,7 @@
         "description": "Current physical or logical location(s) of the resource at the time of the log entry.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseName",
@@ -467,8 +416,7 @@
         "description": "Name or ID of the resource returned in the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseNetwork",
@@ -476,8 +424,7 @@
         "description": "Network path or identifier associated with the response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSeverity",
@@ -485,8 +432,7 @@
         "description": "Severity level of the response, especially in the context of errors or alerts.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseState",
@@ -494,8 +440,7 @@
         "description": "State or result of the response action taken for the detected threat.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseThreatExceptions",
@@ -503,8 +448,7 @@
         "description": "List of any threat exceptions applied during the response, allowing specific threats to bypass enforcement.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseTrafficLogs",
@@ -512,8 +456,7 @@
         "description": "Indicates whether traffic logs were captured for the session or threat response.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseType",
@@ -521,8 +464,7 @@
         "description": "Type or format of the response returned from the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceName",
@@ -530,8 +472,7 @@
         "description": "Name of the cloud service associated with the log entry or threat detection.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SessionId",
@@ -539,8 +480,7 @@
         "description": "An internal numerical identifier applied to each session.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -548,8 +488,7 @@
         "description": "Indicates the severity level of the log entry or event.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceIPAddress",
@@ -557,8 +496,7 @@
         "description": "Suspected traffic's source IP address.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourcePort",
@@ -566,8 +504,7 @@
         "description": "The source port of the traffic.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -575,8 +512,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StartTime",
@@ -584,8 +520,7 @@
         "description": "The time of the session start.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Status",
@@ -593,8 +528,7 @@
         "description": "Status of the operation or request, such as SUCCESS, FAILURE, or ERROR.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -602,8 +536,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ThreatId",
@@ -611,8 +544,7 @@
         "description": "Unique threat identifier.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -620,8 +552,7 @@
         "description": "The timestamp when the log entry was generated and ingested by the logging system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -629,8 +560,7 @@
         "description": "The original timestamp of the event as recorded by the source system.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TotalBytes",
@@ -638,8 +568,7 @@
         "description": "The total number of bytes transferred in the session.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TotalPackets",
@@ -647,8 +576,7 @@
         "description": "The total number of packets transferred in the session.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -656,8 +584,7 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "URIOrFilename",
@@ -665,10 +592,8 @@
         "description": "URI or filename of the relevant threat, if applicable.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

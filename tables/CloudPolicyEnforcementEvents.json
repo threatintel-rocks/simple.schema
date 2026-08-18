@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DataSource",
@@ -26,8 +24,7 @@
         "description": "Data source of the cloud events; possible values: Google Kubernetes Engine, Elastic Kubernetes Service, or Azure Kubernetes Service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SubscriptionId",
@@ -35,8 +32,7 @@
         "description": "Unique identifier assigned to the Azure subscription",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ActionType",
@@ -44,8 +40,7 @@
         "description": "Type of activity that resulted from the policy enforcement operation; possible values: Audit, Deny, or Allow",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AzureResourceId",
@@ -53,8 +48,7 @@
         "description": "Unique identifier of the Azure resource associated with the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AwsResourceName",
@@ -62,8 +56,7 @@
         "description": "Unique identifier specific to Amazon Web Services devices, containing the Amazon resource name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "GcpFullResourceName",
@@ -71,8 +64,7 @@
         "description": "Unique identifier specific to Google Cloud Platform devices, containing a combination of zone and ID for GCP",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Region",
@@ -80,8 +72,7 @@
         "description": "The region associated with the Kubernetes cluster",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceKind",
@@ -89,8 +80,7 @@
         "description": "Type or kind of Kubernetes resource created or managed (for example, pod or deployment)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceName",
@@ -98,8 +88,7 @@
         "description": "Name of the Kubernetes resource",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "KubernetesNamespace",
@@ -107,8 +96,7 @@
         "description": "The Kubernetes namespace name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Reason",
@@ -116,8 +104,7 @@
         "description": "Information explaining the action result",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AdditionalFields",
@@ -125,35 +112,9 @@
         "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
     ],
-    "preview": true,
-    "verified": true
+    "preview": true
   }
 }
