@@ -1,0 +1,72 @@
+{
+  "DuoTelephony_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Timestamp when the event was ingested into Log Analytics.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Ts",
+        "type": "datetime",
+        "description": "ISO 8601 timestamp of the telephony event from Duo (ts field).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Context",
+        "type": "string",
+        "description": "Context for the telephony event: authentication, enrollment, verification, or administrator bypass.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Credits",
+        "type": "int",
+        "description": "Number of telephony credits consumed by this event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Phone",
+        "type": "string",
+        "description": "E.164 formatted phone number involved in the event (e.g. +17083051906).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TelephonyId",
+        "type": "string",
+        "description": "Unique identifier for the telephony event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TxId",
+        "type": "string",
+        "description": "Transaction ID linking this telephony event to an authentication transaction.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TelephonyType",
+        "type": "string",
+        "description": "Telephony channel used: sms (passcode delivered via text) or phone (callback call placed).",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "CiscoDuoSecurity"
+  }
+}

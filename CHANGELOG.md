@@ -2,6 +2,42 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-19 03:42 UTC
+
+**Tables added** (5)
+
+- `DuoActivity_CL` (29 columns, source: 3rd-Party Connector Schemas)
+- `DuoAuthentication_CL` (43 columns, source: 3rd-Party Connector Schemas)
+- `DuoTelephony_CL` (8 columns, source: 3rd-Party Connector Schemas)
+- `SalesforceAuditTrailV2_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `SalesforceLoginHistoryV2_CL` (25 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (22)
+
+- `OrcaAlerts_CL.account_id` (string)
+- `OrcaAlerts_CL.account_tags` (dynamic)
+- `OrcaAlerts_CL.alert_category` (string)
+- `OrcaAlerts_CL.alert_ui_link` (string)
+- `OrcaAlerts_CL.asset_category` (string)
+- `OrcaAlerts_CL.asset_labels` (dynamic)
+- `OrcaAlerts_CL.asset_regions` (dynamic)
+- `OrcaAlerts_CL.asset_vendor_id` (string)
+- `OrcaAlerts_CL.asset_vpcs` (dynamic)
+- `OrcaAlerts_CL.business_units` (dynamic)
+- `OrcaAlerts_CL.cloud_provider` (string)
+- `OrcaAlerts_CL.created_at` (datetime)
+- `OrcaAlerts_CL.custom_tags` (dynamic)
+- `OrcaAlerts_CL.last_seen` (datetime)
+- `OrcaAlerts_CL.last_updated` (datetime)
+- `OrcaAlerts_CL.max_cvss_score` (real)
+- `OrcaAlerts_CL.related_compliances` (dynamic)
+- `OrcaAlerts_CL.resource_group_name` (string)
+- `OrcaAlerts_CL.rule_id` (string)
+- `OrcaAlerts_CL.rule_type` (string)
+- `OrcaAlerts_CL.security_domains` (dynamic)
+- `SalesforceServiceCloudV3_CL.SalesforceDomain` (string)
+
+
 ### 2026-08-18 03:40 UTC
 
 **Columns removed** (405)
