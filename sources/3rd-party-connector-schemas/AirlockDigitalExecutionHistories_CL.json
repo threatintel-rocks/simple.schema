@@ -5,7 +5,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "",
+        "description": "Event time, derived from the Airlock datetime field",
         "availability": [
           "Sentinel"
         ]
@@ -35,6 +35,14 @@
         ]
       },
       {
+        "name": "ExecutionTypeName",
+        "type": "string",
+        "description": "Readable execution type, for example Blocked Execution or Trusted Publisher Execution",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Username",
         "type": "string",
         "description": "User account that executed the file",
@@ -53,7 +61,7 @@
       {
         "name": "NetDomain",
         "type": "string",
-        "description": "Network domain",
+        "description": "Network domain of the host",
         "availability": [
           "Sentinel"
         ]
@@ -61,7 +69,15 @@
       {
         "name": "FileName",
         "type": "string",
-        "description": "Full path of the executed file",
+        "description": "Name of the executed file. The Poll and SaaS connectors report the full path here; the Push connector reports the base name and populates FilePath",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePath",
+        "type": "string",
+        "description": "Directory containing the executed file, with a trailing separator (populated by the Push connector only)",
         "availability": [
           "Sentinel"
         ]
@@ -69,7 +85,7 @@
       {
         "name": "ParentPolicy",
         "type": "string",
-        "description": "Parent policy group name",
+        "description": "Parent policy group name, for example Airlock Groups",
         "availability": [
           "Sentinel"
         ]
@@ -77,7 +93,7 @@
       {
         "name": "PolicyName",
         "type": "string",
-        "description": "Airlock policy name applied",
+        "description": "Airlock policy name applied to the execution",
         "availability": [
           "Sentinel"
         ]
@@ -85,7 +101,15 @@
       {
         "name": "PolicyVersion",
         "type": "string",
-        "description": "Policy version identifier",
+        "description": "Version of the Airlock policy applied, for example v485",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "Identifier of the Airlock policy applied (populated by the Push connector only)",
         "availability": [
           "Sentinel"
         ]
@@ -93,7 +117,7 @@
       {
         "name": "CommandLine",
         "type": "string",
-        "description": "Command line arguments",
+        "description": "Command line arguments passed to the executed file",
         "availability": [
           "Sentinel"
         ]
@@ -101,7 +125,7 @@
       {
         "name": "Publisher",
         "type": "string",
-        "description": "Code signing publisher",
+        "description": "Code signing publisher of the executed file",
         "availability": [
           "Sentinel"
         ]
@@ -141,7 +165,7 @@
       {
         "name": "SHA128",
         "type": "string",
-        "description": "SHA-128 file hash",
+        "description": "SHA-1 file hash (Airlock legacy field name sha128)",
         "availability": [
           "Sentinel"
         ]
@@ -149,7 +173,7 @@
       {
         "name": "SHA384",
         "type": "string",
-        "description": "SHA-384 file hash",
+        "description": "SHA-384 file hash (populated by the Poll and SaaS connectors only)",
         "availability": [
           "Sentinel"
         ]
@@ -157,7 +181,7 @@
       {
         "name": "SHA512",
         "type": "string",
-        "description": "SHA-512 file hash",
+        "description": "SHA-512 file hash (populated by the Poll and SaaS connectors only)",
         "availability": [
           "Sentinel"
         ]
@@ -165,7 +189,7 @@
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address",
+        "description": "Public IP address of the host",
         "availability": [
           "Sentinel"
         ]
@@ -173,7 +197,7 @@
       {
         "name": "LocalIPAddress",
         "type": "string",
-        "description": "Local IP address",
+        "description": "Local IP address of the host",
         "availability": [
           "Sentinel"
         ]
@@ -181,7 +205,7 @@
       {
         "name": "ExtensionId",
         "type": "string",
-        "description": "Browser extension ID",
+        "description": "Browser extension identifier",
         "availability": [
           "Sentinel"
         ]
@@ -206,6 +230,22 @@
         "name": "ExtensionBrowser",
         "type": "string",
         "description": "Browser type (1=Chrome, 2=Firefox, 3=Edge)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MetaruleId",
+        "type": "string",
+        "description": "Identifier of the metarule that matched the execution, when applicable (populated by the Push connector only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PackageId",
+        "type": "string",
+        "description": "Identifier of the package the file belongs to, when applicable (populated by the Push connector only)",
         "availability": [
           "Sentinel"
         ]

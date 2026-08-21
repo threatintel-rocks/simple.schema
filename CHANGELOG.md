@@ -2,6 +2,22 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-21 03:46 UTC
+
+**Tables added** (2)
+
+- `AirlockDigitalPolicyChanges_CL` (22 columns, source: 3rd-Party Connector Schemas)
+- `Speculus_Indicators_CL` (33 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (5)
+
+- `AirlockDigitalExecutionHistories_CL.ExecutionTypeName` (string)
+- `AirlockDigitalExecutionHistories_CL.FilePath` (string)
+- `AirlockDigitalExecutionHistories_CL.MetaruleId` (string)
+- `AirlockDigitalExecutionHistories_CL.PackageId` (string)
+- `AirlockDigitalExecutionHistories_CL.PolicyId` (string)
+
+
 ### 2026-08-19 03:42 UTC
 
 **Tables added** (5)

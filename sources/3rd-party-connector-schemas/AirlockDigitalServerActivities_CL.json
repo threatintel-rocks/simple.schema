@@ -5,7 +5,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "",
+        "description": "Event time, derived from the Airlock datetime field",
         "availability": [
           "Sentinel"
         ]
@@ -29,7 +29,7 @@
       {
         "name": "Task",
         "type": "string",
-        "description": "Type of server task performed",
+        "description": "Type of server activity, for example Login, Client Checkin, Policy Modify or Import Baseline",
         "availability": [
           "Sentinel"
         ]
@@ -37,7 +37,7 @@
       {
         "name": "User",
         "type": "string",
-        "description": "User associated with the task",
+        "description": "User or account that performed the activity (SYSTEM for automated tasks)",
         "availability": [
           "Sentinel"
         ]

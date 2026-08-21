@@ -101288,7 +101288,7 @@
       {
         "name": "TimeGenerated",
         "type": "datetime",
-        "description": "",
+        "description": "Event time, derived from the Airlock datetime field",
         "availability": [
           "Sentinel"
         ]
@@ -101318,6 +101318,14 @@
         ]
       },
       {
+        "name": "ExecutionTypeName",
+        "type": "string",
+        "description": "Readable execution type, for example Blocked Execution or Trusted Publisher Execution",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Username",
         "type": "string",
         "description": "User account that executed the file",
@@ -101336,7 +101344,7 @@
       {
         "name": "NetDomain",
         "type": "string",
-        "description": "Network domain",
+        "description": "Network domain of the host",
         "availability": [
           "Sentinel"
         ]
@@ -101344,7 +101352,15 @@
       {
         "name": "FileName",
         "type": "string",
-        "description": "Full path of the executed file",
+        "description": "Name of the executed file. The Poll and SaaS connectors report the full path here; the Push connector reports the base name and populates FilePath",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FilePath",
+        "type": "string",
+        "description": "Directory containing the executed file, with a trailing separator (populated by the Push connector only)",
         "availability": [
           "Sentinel"
         ]
@@ -101352,7 +101368,7 @@
       {
         "name": "ParentPolicy",
         "type": "string",
-        "description": "Parent policy group name",
+        "description": "Parent policy group name, for example Airlock Groups",
         "availability": [
           "Sentinel"
         ]
@@ -101360,7 +101376,7 @@
       {
         "name": "PolicyName",
         "type": "string",
-        "description": "Airlock policy name applied",
+        "description": "Airlock policy name applied to the execution",
         "availability": [
           "Sentinel"
         ]
@@ -101368,7 +101384,15 @@
       {
         "name": "PolicyVersion",
         "type": "string",
-        "description": "Policy version identifier",
+        "description": "Version of the Airlock policy applied, for example v485",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "Identifier of the Airlock policy applied (populated by the Push connector only)",
         "availability": [
           "Sentinel"
         ]
@@ -101376,7 +101400,7 @@
       {
         "name": "CommandLine",
         "type": "string",
-        "description": "Command line arguments",
+        "description": "Command line arguments passed to the executed file",
         "availability": [
           "Sentinel"
         ]
@@ -101384,7 +101408,7 @@
       {
         "name": "Publisher",
         "type": "string",
-        "description": "Code signing publisher",
+        "description": "Code signing publisher of the executed file",
         "availability": [
           "Sentinel"
         ]
@@ -101424,7 +101448,7 @@
       {
         "name": "SHA128",
         "type": "string",
-        "description": "SHA-128 file hash",
+        "description": "SHA-1 file hash (Airlock legacy field name sha128)",
         "availability": [
           "Sentinel"
         ]
@@ -101432,7 +101456,7 @@
       {
         "name": "SHA384",
         "type": "string",
-        "description": "SHA-384 file hash",
+        "description": "SHA-384 file hash (populated by the Poll and SaaS connectors only)",
         "availability": [
           "Sentinel"
         ]
@@ -101440,7 +101464,7 @@
       {
         "name": "SHA512",
         "type": "string",
-        "description": "SHA-512 file hash",
+        "description": "SHA-512 file hash (populated by the Poll and SaaS connectors only)",
         "availability": [
           "Sentinel"
         ]
@@ -101448,7 +101472,7 @@
       {
         "name": "IPAddress",
         "type": "string",
-        "description": "IP address",
+        "description": "Public IP address of the host",
         "availability": [
           "Sentinel"
         ]
@@ -101456,7 +101480,7 @@
       {
         "name": "LocalIPAddress",
         "type": "string",
-        "description": "Local IP address",
+        "description": "Local IP address of the host",
         "availability": [
           "Sentinel"
         ]
@@ -101464,7 +101488,7 @@
       {
         "name": "ExtensionId",
         "type": "string",
-        "description": "Browser extension ID",
+        "description": "Browser extension identifier",
         "availability": [
           "Sentinel"
         ]
@@ -101489,6 +101513,266 @@
         "name": "ExtensionBrowser",
         "type": "string",
         "description": "Browser type (1=Chrome, 2=Firefox, 3=Edge)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MetaruleId",
+        "type": "string",
+        "description": "Identifier of the metarule that matched the execution, when applicable (populated by the Push connector only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PackageId",
+        "type": "string",
+        "description": "Identifier of the package the file belongs to, when applicable (populated by the Push connector only)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  },
+  "AirlockDigitalServerActivities_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Event time, derived from the Airlock datetime field",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Event timestamp (when server activity occurred)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Task",
+        "type": "string",
+        "description": "Type of server activity, for example Login, Client Checkin, Policy Modify or Import Baseline",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "User or account that performed the activity (SYSTEM for automated tasks)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "Detailed description of the server activity",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "AirlockDigital"
+  },
+  "AirlockDigitalPolicyChanges_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Time the policy change was made, derived from the Airlock datetime field",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Checkpoint",
+        "type": "string",
+        "description": "Event checkpoint identifier for incremental retrieval",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventDateTime",
+        "type": "string",
+        "description": "Timestamp of the policy change event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyGroup",
+        "type": "string",
+        "description": "Name of the policy group that was changed, for example Workstations Audit",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyVersion",
+        "type": "string",
+        "description": "Policy version after the change, for example 4646.3818",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PolicyId",
+        "type": "string",
+        "description": "Unique identifier of the policy group that was changed",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "User",
+        "type": "string",
+        "description": "User account that made the policy change",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uuid",
+        "type": "string",
+        "description": "Unique identifier of this policy change record",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ChangeDescription",
+        "type": "string",
+        "description": "Summary of the change, for example User Updated Group",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserReason",
+        "type": "string",
+        "description": "Free-text reason entered by the user when saving the change",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SettingsChanges",
+        "type": "dynamic",
+        "description": "Policy setting edits; array of objects with field, operation, old_value and value; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PublisherChanges",
+        "type": "dynamic",
+        "description": "Publisher rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "PathChanges",
+        "type": "dynamic",
+        "description": "Path rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ParentProcessChanges",
+        "type": "dynamic",
+        "description": "Parent process rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "GrandparentProcessChanges",
+        "type": "dynamic",
+        "description": "Grandparent process rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AllowlistChanges",
+        "type": "dynamic",
+        "description": "Allowlists added or removed; array of objects with type, operation, name, timestamp, tag and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BaselineChanges",
+        "type": "dynamic",
+        "description": "Baselines added or removed; array of objects with type, operation, name, timestamp, tag and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "BlocklistChanges",
+        "type": "dynamic",
+        "description": "Blocklists added or removed; array of objects with type, operation, name, timestamp, tag and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "HashChanges",
+        "type": "dynamic",
+        "description": "File hash rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MetaruleChanges",
+        "type": "dynamic",
+        "description": "Metarules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ExtensionChanges",
+        "type": "dynamic",
+        "description": "Browser extension rules added or removed; array of objects with type, operation, value and inherited; null when unchanged",
         "availability": [
           "Sentinel"
         ]
@@ -101639,68 +101923,6 @@
         "name": "BlocklistAuditTotal",
         "type": "int",
         "description": "Total count of blocklist audit executions",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "ConnectorName",
-        "type": "string",
-        "description": "Connector Friendly Name assigned during connector setup",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "solution": "AirlockDigital"
-  },
-  "AirlockDigitalServerActivities_CL": {
-    "source": "3rd-Party Connector Schemas",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Checkpoint",
-        "type": "string",
-        "description": "Event checkpoint identifier for incremental retrieval",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "EventDateTime",
-        "type": "string",
-        "description": "Event timestamp (when server activity occurred)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Task",
-        "type": "string",
-        "description": "Type of server task performed",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "User",
-        "type": "string",
-        "description": "User associated with the task",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Description",
-        "type": "string",
-        "description": "Detailed description of the server activity",
         "availability": [
           "Sentinel"
         ]
@@ -131331,6 +131553,276 @@
       }
     ],
     "solution": "Sophos Endpoint Protection"
+  },
+  "Speculus_Indicators_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "StixId",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Name",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Description",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Pattern",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IndicatorValue",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IndicatorTypes",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Labels",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Confidence",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RiskScore",
+        "type": "int",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Risk",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Activity",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Attribution",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Created",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Modified",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ValidFrom",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FirstSeen",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LastSeen",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsScanner",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ScannerName",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsTorNode",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsBlacklisted",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsDatacenter",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IsVpnProxy",
+        "type": "boolean",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CloudProvider",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ResidentialProxy",
+        "type": "dynamic",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Isp",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Org",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Asn",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectionType",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "City",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Country",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CountryCode",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Speculus Threat Intelligence"
   },
   "SpyCloudBreachWatchlistV2_CL": {
     "source": "3rd-Party Connector Schemas",
