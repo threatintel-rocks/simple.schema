@@ -67,6 +67,30 @@
         ]
       },
       {
+        "name": "ApplicationObjectId",
+        "type": "string",
+        "description": "Microsoft Entra directory object ID of the Enterprise Application. Distinct from AppId (the application appId/clientId). Applies to Private Access traffic only; null for other transaction types.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppLoginDeviceId",
+        "type": "string",
+        "description": "Identifier of the device associated with the transaction. Applies to Private Access traffic only; null for other transaction types.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AppLoginUserId",
+        "type": "string",
+        "description": "Identifier of the login user associated with the transaction. Applies to Private Access traffic only; null for other transaction types.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "AppSegmentId",
         "type": "string",
         "description": "Destination Application segment ID from Azure AD accessed during the transaction.",
@@ -166,6 +190,14 @@
         "name": "ConnectionStatus",
         "type": "string",
         "description": "Status of a connection. Status options: Open, Active, Closed.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorGroupId",
+        "type": "string",
+        "description": "Identifier of the connector group that served the Private Access transaction. Applies to Private Access traffic only; null for other transaction types.",
         "availability": [
           "Sentinel"
         ]
