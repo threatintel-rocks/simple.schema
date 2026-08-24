@@ -8,7 +8,8 @@
         "description": "The principal email address initiating the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthInfoPrincipalSubject",
@@ -16,7 +17,8 @@
         "description": "The subject associated with the principal.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthInfoServiceAccountKeyName",
@@ -24,7 +26,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Name of the service account key used for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -32,7 +35,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "GCPResourceName",
@@ -40,7 +44,8 @@
         "description": "Full resource name of the Cloud SQL instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GCPResourceType",
@@ -48,7 +53,8 @@
         "description": "Type of the resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InsertId",
@@ -56,7 +62,8 @@
         "description": "Unique identifier for the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -64,7 +71,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "JsonPayload",
@@ -72,7 +80,8 @@
         "description": "Structured engine log payload when present.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Labels",
@@ -80,7 +89,8 @@
         "description": "Top-level LogEntry labels e.g. INSTANCE_UID, SOURCE_ID.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LogName",
@@ -88,7 +98,8 @@
         "description": "Name of the log where the entry is recorded.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MetadataType",
@@ -96,7 +107,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Type of metadata associated with the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "MethodName",
@@ -104,7 +116,8 @@
         "description": "The name of the service method or operation invoked (e.g. cloudsql.instances.query).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationFirst",
@@ -112,7 +125,8 @@
         "description": "Indicates if this is the first log entry in an operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationId",
@@ -120,7 +134,8 @@
         "description": "Identifier of the associated operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationInsertTime",
@@ -128,7 +143,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Timestamp when the operation was inserted.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationLast",
@@ -136,7 +152,8 @@
         "description": "Indicates if this is the last log entry in an operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OperationProducer",
@@ -144,7 +161,8 @@
         "description": "The service that produced the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "PayloadType",
@@ -152,7 +170,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Type of the payload in the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProtoPayload",
@@ -160,7 +179,8 @@
         "description": "Full protoPayload object; parse any audit field from here.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceiveTimestamp",
@@ -168,7 +188,8 @@
         "description": "Timestamp when the log was received.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestAuditClass",
@@ -176,7 +197,8 @@
         "description": "pgAudit audit class, e.g. DDL, WRITE or READ (pgAudit request.auditClass).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestAuditType",
@@ -184,7 +206,8 @@
         "description": "pgAudit audit type, e.g. SESSION or OBJECT (pgAudit request.auditType).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyBackup",
@@ -192,7 +215,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Backup configuration in the request body.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyCloneContextDestinationInstanceName",
@@ -200,7 +224,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Destination instance name in clone context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyCommonName",
@@ -208,7 +233,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Common name used for certificates.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyDescription",
@@ -216,7 +242,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Description of the instance or operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyExportContext",
@@ -224,7 +251,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Export context details.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyFailoverContext",
@@ -232,7 +260,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Context for failover configuration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyInstance",
@@ -240,7 +269,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Instance details in the request body.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyKind",
@@ -248,7 +278,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. The kind field in the request body.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyLocation",
@@ -256,7 +287,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Location setting in the request body.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyNodeCount",
@@ -264,7 +296,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Number of nodes configured in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyProject",
@@ -272,7 +305,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Project ID in the request body.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyRestoreInstanceSettingsInstanceUid",
@@ -280,7 +314,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. UID of the instance in restore settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyRestoreInstanceSettingsName",
@@ -288,7 +323,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Instance name in restore settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyRestoreInstanceSettingsProject",
@@ -296,7 +332,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Project ID in restore settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyRestoreInstanceSettingsRegion",
@@ -304,7 +341,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Region in restore settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodyRotateServerCaContext",
@@ -312,7 +350,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Server CA rotation configuration context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsActivationPolicy",
@@ -320,7 +359,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Activation policy for the instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsActiveDirectoryConfig",
@@ -328,7 +368,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Active Directory configuration settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsAvailabilityType",
@@ -336,7 +377,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Availability type setting.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsBackupEnabled",
@@ -344,7 +386,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates if backups are enabled.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsBackupLocation",
@@ -352,7 +395,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Location for backups.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsBackupPointInTimeRecoveryEnabled",
@@ -360,7 +404,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Flag for point-in-time recovery.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsBackupStartTime",
@@ -368,7 +413,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Scheduled start time for backups.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsBinaryLogEnabled",
@@ -376,7 +422,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates if binary logging is enabled.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsConnectionPoolConfig",
@@ -384,7 +431,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Connection pool configuration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsdataCacheConfigDataCacheEnabled",
@@ -392,7 +440,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Flag for enabling data cache.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsDataDiskSizeGb",
@@ -400,7 +449,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Size of the data disk in GB.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsDataDiskType",
@@ -408,7 +458,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Type of data disk used.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsDeletionProtectionEnabled",
@@ -416,7 +467,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates if deletion protection is enabled.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsEdition",
@@ -424,7 +476,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Edition of the Cloud SQL instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsEnableGoogleMlIntegration",
@@ -432,7 +485,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Flag to enable Google ML integration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsInsightsConfig",
@@ -440,7 +494,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Insights configuration settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsIPConfiguration",
@@ -448,7 +503,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. IP configuration settings.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsLocationPreference",
@@ -456,7 +512,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Location preference for the instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsMaintenanceWindow",
@@ -464,7 +521,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Maintenance window configuration.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsRetainBackupsOnDelete",
@@ -472,7 +530,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Flag to retain backups after deletion.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsRetentinedBackup",
@@ -480,7 +539,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Retention policy for backups.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsRetentionUnit",
@@ -488,7 +548,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Unit of retention for backups.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsSqlServerAuditConfigRetentionInterval",
@@ -496,7 +557,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Audit retention interval for SQL Server.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsSqlServerAuditConfigUploadInterval",
@@ -504,7 +566,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Audit upload interval for SQL Server.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsStorageAutoResize",
@@ -512,7 +575,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates if storage auto-resize is enabled.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsTier",
@@ -520,7 +584,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Service tier of the instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsTmeZone",
@@ -528,7 +593,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Time zone settings for the instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsTransactionLogRetentionDays",
@@ -536,7 +602,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Retention period for transaction logs.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsUserbackuplable",
@@ -544,7 +611,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. User backup label setting.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestBodySettingsVersion",
@@ -552,7 +620,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Version information flag.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestCommand",
@@ -560,7 +629,8 @@
         "description": "SQL command executed, e.g. CREATE INDEX or INSERT (pgAudit request.command).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestDatabase",
@@ -568,7 +638,8 @@
         "description": "Database name specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestDatabaseSessionId",
@@ -576,7 +647,8 @@
         "description": "Database session identifier for the pgAudit event (pgAudit request.databaseSessionId).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestEnableFinalBackup",
@@ -584,7 +656,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates if final backup was enabled in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestEndTime",
@@ -592,7 +665,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Timestamp marking when the request processing completed",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestFilter",
@@ -600,7 +674,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Filter used in the request to narrow results.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestFinalBackupTtlDays",
@@ -608,7 +683,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Time to live (in days) for the final backup.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestId",
@@ -616,7 +692,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Unique ID of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestInstance",
@@ -624,7 +701,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Instance identifier from the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMaxResults",
@@ -632,7 +710,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Maximum number of results requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataCallerIP",
@@ -640,7 +719,8 @@
         "description": "IP address of the caller.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
@@ -648,7 +728,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Authentication attributes of the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesDestinationAttributes",
@@ -656,7 +737,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Destination attributes for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesRequestReason",
@@ -664,7 +746,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Reason for the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestMetadataRequestAttributesRequestTime",
@@ -672,7 +755,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Timestamp when the request was made.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestName",
@@ -680,7 +764,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Name field from the request payload.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestOperation",
@@ -688,7 +773,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. The operation type included in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestPageSize",
@@ -696,7 +782,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Page size specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestParent",
@@ -704,7 +791,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. The parent resource under which the request is made.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestProject",
@@ -712,7 +800,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Project associated with the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestResourceId",
@@ -720,7 +809,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. ID of the resource being requested.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestSha1Fingerprint",
@@ -728,7 +818,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. SHA-1 fingerprint associated with the certificate.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestStartTime",
@@ -736,7 +827,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Start time specified in the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestStatement",
@@ -744,7 +836,8 @@
         "description": "Full SQL statement text (pgAudit request.statement).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestStatementId",
@@ -752,7 +845,8 @@
         "description": "Statement identifier within the database session (pgAudit request.statementId).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestUser",
@@ -760,7 +854,8 @@
         "description": "Database user that executed the statement (pgAudit request.user).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsDatabaseId",
@@ -768,7 +863,8 @@
         "description": "Database identifier from resource labels.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsProjectId",
@@ -776,7 +872,8 @@
         "description": "Project ID from resource labels.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceLabelsRegion",
@@ -784,7 +881,8 @@
         "description": "Region from resource labels.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBackupContextBackupId",
@@ -792,7 +890,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Backup ID from the response's backup context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBackupContextKind",
@@ -800,7 +899,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Kind of backup context returned.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseBackupContextName",
@@ -808,7 +908,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Name in the backup context of the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseClientCert",
@@ -816,7 +917,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Client certificate in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseEphemeralCertKind",
@@ -824,7 +926,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Kind of ephemeral certificate in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseInstanceUid",
@@ -832,7 +935,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Instance UID returned in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseKind",
@@ -840,7 +944,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Kind field of the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseName",
@@ -848,7 +953,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Name included in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseOperation",
@@ -856,7 +962,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Indicates the type of operation performed in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseOperationType",
@@ -864,7 +971,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Operation type in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponsePromoteContextPrimary",
@@ -872,7 +980,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Primary instance in the promote context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponsePromoteContextReplica",
@@ -880,7 +989,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Replica instance in the promote context.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseSelfLink",
@@ -888,7 +998,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Self-link URL of the response resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseServerCaCert",
@@ -896,7 +1007,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. PEM-encoded CA certificate from the server used for TLS validation",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseStatus",
@@ -904,7 +1016,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Status of the response operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTargetId",
@@ -912,7 +1025,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Target ID in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTargetLink",
@@ -920,7 +1034,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Target link URL in the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseTargetProject",
@@ -928,7 +1043,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Project associated with the response target.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseType",
@@ -936,7 +1052,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. Type of the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResponseUser",
@@ -944,7 +1061,8 @@
         "description": "Deprecated. Use ProtoPayload column to find this field. User information from the response.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServiceName",
@@ -952,7 +1070,8 @@
         "description": "Name of the GCP service handling the request.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Severity",
@@ -960,7 +1079,8 @@
         "description": "Severity level of the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -968,7 +1088,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusCode",
@@ -976,7 +1097,8 @@
         "description": "Status code returned by the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "StatusMessage",
@@ -984,7 +1106,8 @@
         "description": "Message describing the status of the operation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -992,7 +1115,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TextPayload",
@@ -1000,7 +1124,8 @@
         "description": "Raw engine/session log line (postgres.log etc). Not parsed.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -1008,7 +1133,8 @@
         "description": "Time when the log entry was generated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Timestamp",
@@ -1016,7 +1142,8 @@
         "description": "Timestamp of the logged event.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -1024,8 +1151,10 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }

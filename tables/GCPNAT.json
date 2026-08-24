@@ -8,7 +8,8 @@
         "description": "Status of the NAT IP address allocation.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ASN",
@@ -16,7 +17,8 @@
         "description": "Autonomous System Number (ASN) associated with the destination IP.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_BilledSize",
@@ -24,7 +26,8 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "City",
@@ -32,7 +35,8 @@
         "description": "City of the destination IP address (geo-located).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Continent",
@@ -40,7 +44,8 @@
         "description": "Continent where the destination IP is located.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Country",
@@ -48,7 +53,8 @@
         "description": "Country of the destination IP address (geo-located).",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestinationRegion",
@@ -56,7 +62,8 @@
         "description": "Continent or larger geographical region of the destination.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestIp",
@@ -64,7 +71,8 @@
         "description": "Destination external IP address the traffic was sent to.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DestPort",
@@ -72,7 +80,8 @@
         "description": "Destination port on the remote host.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EndpointRegion",
@@ -80,7 +89,8 @@
         "description": "Region of the destination endpoint.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EndpointZone",
@@ -88,7 +98,8 @@
         "description": "Zone of the destination endpoint if applicable.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GatewayName",
@@ -96,7 +107,8 @@
         "description": "Name of the Cloud NAT gateway instance.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GCPResourceType",
@@ -104,7 +116,8 @@
         "description": "Type of the monitored GCP resource (e.g., 'router', 'gce_instance').",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "InsertId",
@@ -112,7 +125,8 @@
         "description": "Unique identifier for the log entry within the GCP logging system.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "_IsBillable",
@@ -120,7 +134,8 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "LogName",
@@ -128,7 +143,8 @@
         "description": "Name of the log stream.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NatIp",
@@ -136,7 +152,8 @@
         "description": "Public NAT IP address assigned for this flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "NatPort",
@@ -144,7 +161,8 @@
         "description": "Public NAT port assigned for this flow.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ProjectId",
@@ -152,7 +170,8 @@
         "description": "ID of the GCP project that generated the log entry.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Protocol",
@@ -160,7 +179,8 @@
         "description": "Network protocol used in the connection.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReceiveTimestamp",
@@ -168,7 +188,8 @@
         "description": "The time the log entry was received by GCP Logging.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Region",
@@ -176,7 +197,8 @@
         "description": "Region of the GCP resource involved in the NAT traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RouterId",
@@ -184,7 +206,8 @@
         "description": "Identifier of the Cloud Router managing the NAT gateway.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceSystem",
@@ -192,7 +215,8 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcIp",
@@ -200,7 +224,8 @@
         "description": "Source internal IP address from which the traffic originated.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SrcPort",
@@ -208,7 +233,8 @@
         "description": "Source port on the internal VM or resource.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -216,7 +242,8 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TimeGenerated",
@@ -224,7 +251,8 @@
         "description": "The timestamp when the log was ingested by Log Analytics.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Type",
@@ -232,7 +260,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VmName",
@@ -240,8 +269,10 @@
         "description": "Name of the virtual machine that initiated the NAT traffic.",
         "availability": [
           "Sentinel"
-        ]
+        ],
+        "verified": true
       }
-    ]
+    ],
+    "verified": true
   }
 }
