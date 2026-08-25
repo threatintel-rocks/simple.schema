@@ -8,8 +8,7 @@
         "description": "The email of the authenticated identity making the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthorizationInfo",
@@ -17,8 +16,7 @@
         "description": "Authorization details such as permission name, granted status, and resource type",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthzPolicyInfoPolicies",
@@ -26,8 +24,7 @@
         "description": "The list of Authorization policies that match the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AuthzPolicyInfoResult",
@@ -35,8 +32,7 @@
         "description": "Stores information about the Authorization Policy result",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "BackendTargetProjectNumber",
@@ -44,8 +40,7 @@
         "description": "Holds the project number where the backend target-backend service or backend bucket-has been created",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_BilledSize",
@@ -53,8 +48,7 @@
         "description": "The record size in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "CacheDecision",
@@ -62,8 +56,7 @@
         "description": "Indicates caching decisions taken",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CacheID",
@@ -71,8 +64,7 @@
         "description": "Unique identifier for the cache entry associated with this response",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyConfiguredAction",
@@ -80,8 +72,7 @@
         "description": "The configured action that was evaluated in the edge security policy",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyName",
@@ -89,8 +80,7 @@
         "description": "The name of the edge security policy that was applied to the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyOutcome",
@@ -98,8 +88,7 @@
         "description": "The outcome of applying the policy",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EnforcedEdgeSecurityPolicyPriority",
@@ -107,8 +96,7 @@
         "description": "The priority value of the rule within the edge security policy that matched the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ErrorBackendStatusDetails",
@@ -116,8 +104,7 @@
         "description": "Backend-specific error details when a request fails or is served with an error response",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ErrorService",
@@ -125,8 +112,7 @@
         "description": "Holds the backend service that provided the custom error response",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestCacheFillBytes",
@@ -134,8 +120,7 @@
         "description": "Number of bytes written to the cache from this response",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestCacheHit",
@@ -143,8 +128,7 @@
         "description": "Boolean flag indicating whether the response was served from cache",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestCacheLookup",
@@ -152,8 +136,7 @@
         "description": "Boolean flag indicating whether the request attempted a cache lookup before contacting the backend",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestLatency",
@@ -161,8 +144,7 @@
         "description": "The latency or total time taken to process the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestRemoteIP",
@@ -170,8 +152,7 @@
         "description": "The IP address of the client that made the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestRequestMethod",
@@ -179,8 +160,7 @@
         "description": "HTTP method used for the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestRequestSize",
@@ -188,8 +168,7 @@
         "description": "Size of the incoming HTTP request in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestRequestUrl",
@@ -197,8 +176,7 @@
         "description": "Full URL that was requested",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestResponseSize",
@@ -206,8 +184,7 @@
         "description": "Size of the HTTP response payload sent to the client, in bytes",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestServerIP",
@@ -215,8 +192,7 @@
         "description": "IP address of the server (or Google Front End) that processed the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestStatus",
@@ -224,8 +200,7 @@
         "description": "HTTP status code returned by the server",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "HttpRequestUserAgent",
@@ -233,8 +208,7 @@
         "description": "User agent string from the HTTP request header",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "InsertID",
@@ -242,8 +216,7 @@
         "description": "A unique identifier for the log entry assigned by the logging system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "_IsBillable",
@@ -251,8 +224,7 @@
         "description": "Specifies whether ingesting the data is billable. When _IsBillable isfalseingestion isn't billed to your Azure account",
         "availability": [
           "Sentinel"
-        ],
-        "verified": false
+        ]
       },
       {
         "name": "JsonPayloadType",
@@ -260,8 +232,7 @@
         "description": "The protobuf type URL describing the type of jsonPayload content in the log",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LabelsAPIRootTriggerID",
@@ -269,8 +240,7 @@
         "description": "The root trigger ID identifying the origin request that caused this log entry",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LoadBalancingScheme",
@@ -278,8 +248,7 @@
         "description": "Holds a string that describes which load balancing scheme was used to route the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "LogName",
@@ -287,8 +256,7 @@
         "description": "The full resource name of the log to which this entry belongs",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "MethodName",
@@ -296,8 +264,7 @@
         "description": "The name of the API method invoked",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "NumResponseItems",
@@ -305,8 +272,7 @@
         "description": "The number of items returned in a list response",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationFirst",
@@ -314,8 +280,7 @@
         "description": "Boolean flag indicating this log entry is the first record in a long-running operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationID",
@@ -323,8 +288,7 @@
         "description": "Unique identifier for the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationLast",
@@ -332,8 +296,7 @@
         "description": "Boolean flag indicating this log entry is the final record in a long-running operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationProducer",
@@ -341,8 +304,7 @@
         "description": "The service that initiated and owns the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OverrideResponseCode",
@@ -350,8 +312,7 @@
         "description": "Holds the override response code applied to the response sent to the client",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "PayloadType",
@@ -359,8 +320,7 @@
         "description": "Type URL of the request or response payload",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReceiveTimestamp",
@@ -368,8 +328,7 @@
         "description": "The time the log entry was received by the logging system",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemoteIP",
@@ -377,8 +336,7 @@
         "description": "The IP address of the client as seen by the load balancer",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestBackends",
@@ -386,8 +344,7 @@
         "description": "Configuration for backend groups",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeHost",
@@ -395,8 +352,7 @@
         "description": "Whether the host is included in the cache key",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeProtocol",
@@ -404,8 +360,7 @@
         "description": "Whether protocol is included in the cache key",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheKeyPolicyIncludeQueryString",
@@ -413,8 +368,7 @@
         "description": "Whether the query string is included in the cache key",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyCacheMode",
@@ -422,8 +376,7 @@
         "description": "Cache mode setting",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyClientTtl",
@@ -431,8 +384,7 @@
         "description": "Time-to-live set on responses for clients",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyDefaultTtl",
@@ -440,8 +392,7 @@
         "description": "Default TTL applied when no caching headers are set",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyMaxTtl",
@@ -449,8 +400,7 @@
         "description": "Maximum allowed TTL for cached responses",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyNegativeCaching",
@@ -458,8 +408,7 @@
         "description": "Boolean indicating if negative caching is enabled",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicyServeWhileStale",
@@ -467,8 +416,7 @@
         "description": "Duration responses are served while stale",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCDNPolicySignedUrlCacheMaxAgeSec",
@@ -476,8 +424,7 @@
         "description": "Cache TTL for signed URLs in seconds",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestCompressionMode",
@@ -485,8 +432,7 @@
         "description": "Specifies whether and how compression is applied",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestConnectionDrainingTimeoutSec",
@@ -494,8 +440,7 @@
         "description": "Time in seconds for draining connections during backend removal",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestDescription",
@@ -503,8 +448,7 @@
         "description": "A custom description associated with the backend service configuration",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestEnableCDN",
@@ -512,8 +456,7 @@
         "description": "Boolean indicating if Cloud CDN is enabled for the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestFingerprint",
@@ -521,8 +464,7 @@
         "description": "Fingerprint of the request configuration, used for optimistic locking",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestGroup",
@@ -530,8 +472,7 @@
         "description": "The reference to instance group used by the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestHealthChecks",
@@ -539,8 +480,7 @@
         "description": "List of health check resources attached to the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestIPAddressSelectionPolicy",
@@ -548,8 +488,7 @@
         "description": "Specifies IP address family for the backend",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestKeyName",
@@ -557,8 +496,7 @@
         "description": "The name of the key used in the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestLoadBalancingScheme",
@@ -566,8 +504,7 @@
         "description": "Load balancing scheme used",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestLocalityLbPolicy",
@@ -575,8 +512,7 @@
         "description": "Locality-based load balancing strategy",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestLogConfigEnable",
@@ -584,8 +520,7 @@
         "description": "Boolean to enable request logging",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestLogConfigSampleRate",
@@ -593,8 +528,7 @@
         "description": "Sampling rate for log entries when logging is enabled",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataCallerIP",
@@ -602,8 +536,7 @@
         "description": "IP address of the request initiator",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataCallerSuppliedUserAgent",
@@ -611,8 +544,7 @@
         "description": "User agent string of the request initiator",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataDestinationAttributes",
@@ -620,8 +552,7 @@
         "description": "Attributes of the destination, often empty in public APIs",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesAuth",
@@ -629,8 +560,7 @@
         "description": "Authentication metadata for the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesReason",
@@ -638,8 +568,7 @@
         "description": "Encoded reason for the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMetadataRequestAttributesTime",
@@ -647,8 +576,7 @@
         "description": "Time when the request was initiated",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestName",
@@ -656,8 +584,7 @@
         "description": "The name assigned to the resource in the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestPortName",
@@ -665,8 +592,7 @@
         "description": "The named port of the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestProtocol",
@@ -674,8 +600,7 @@
         "description": "The protocol used",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestSecurityPolicy",
@@ -683,8 +608,7 @@
         "description": "The name or full path of the security policy attached to the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestSessionAffinity",
@@ -692,8 +616,7 @@
         "description": "Affinity setting used to keep sessions on the same backend",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestTimeoutSec",
@@ -701,8 +624,7 @@
         "description": "Timeout value (in seconds) for the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestType",
@@ -710,8 +632,7 @@
         "description": "Type of the request payload object",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsBackendBucketID",
@@ -719,8 +640,7 @@
         "description": "Holds the ResourceLabelsBackendBucketID value recorded in the CDN or load balancer log",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsBackendServiceID",
@@ -728,8 +648,7 @@
         "description": "The unique identifier for the GCE backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsBackendServiceName",
@@ -737,8 +656,7 @@
         "description": "The name of the backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsForwardingRuleName",
@@ -746,8 +664,7 @@
         "description": "The name of the forwarding rule object",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsLocation",
@@ -755,8 +672,7 @@
         "description": "The geographical or regional location of the resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsProjectID",
@@ -764,8 +680,7 @@
         "description": "The identifier of the Google Cloud project associated with this resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsTargetProxyName",
@@ -773,8 +688,7 @@
         "description": "The name of the target proxy object referenced by the forwarding rule",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsUrlMapName",
@@ -782,8 +696,7 @@
         "description": "The name of the URL map object configured to select a backend service",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLabelsZone",
@@ -791,8 +704,7 @@
         "description": "The zone in which the load balancer is running",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResourceLocationCurrentLocations",
@@ -800,8 +712,7 @@
         "description": "Region or location associated with the resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseID",
@@ -809,8 +720,7 @@
         "description": "Unique identifier for the response or operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseInsertTime",
@@ -818,8 +728,7 @@
         "description": "Time when the response operation was created",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseName",
@@ -827,8 +736,7 @@
         "description": "Name assigned to the long-running operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseOperationType",
@@ -836,8 +744,7 @@
         "description": "Type of the operation performed",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseProgress",
@@ -845,8 +752,7 @@
         "description": "Progress of the operation in percentage",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSelfLink",
@@ -854,8 +760,7 @@
         "description": "URI of the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSelfLinkWithID",
@@ -863,8 +768,7 @@
         "description": "URI of the operation with ID appended",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseStartTime",
@@ -872,8 +776,7 @@
         "description": "Time when the operation started",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseStatus",
@@ -881,8 +784,7 @@
         "description": "Status of the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseTargetID",
@@ -890,8 +792,7 @@
         "description": "ID of the target resource affected by the operation",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseTargetLink",
@@ -899,8 +800,7 @@
         "description": "URI of the affected resource",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseType",
@@ -908,8 +808,7 @@
         "description": "Type of the response object returned",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseUser",
@@ -917,8 +816,7 @@
         "description": "User who initiated the operation.",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceName",
@@ -926,8 +824,7 @@
         "description": "The Google service processing the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -935,8 +832,7 @@
         "description": "Indicates the importance or severity level of the log entry",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -944,8 +840,7 @@
         "description": "The type of agent the event was collected by. For example,OpsManagerfor Windows agent, either direct connect or Operations Manager,Linuxfor all Linux agents, orAzurefor Azure Diagnostics",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SpanID",
@@ -953,8 +848,7 @@
         "description": "Identifier of the span within a trace",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "StatusDetails",
@@ -962,8 +856,7 @@
         "description": "Holds a string that explains why the load balancer returned the HTTP status that it did",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -971,8 +864,7 @@
         "description": "The Log Analytics workspace ID",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -980,8 +872,7 @@
         "description": "The timestamp when the log entry was fetched into Microsoft Sentinel",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -989,8 +880,7 @@
         "description": "The time when the first layer GFE receives the request",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Trace",
@@ -998,8 +888,7 @@
         "description": "Identifier of the trace",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -1007,10 +896,8 @@
         "description": "The name of the table",
         "availability": [
           "Sentinel"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
