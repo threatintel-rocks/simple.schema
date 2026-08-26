@@ -2,6 +2,59 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-26 03:49 UTC
+
+**Tables added** (7)
+
+- `DynatraceAttacksV3_CL` (23 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceAuditLogsV3_CL` (12 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceProblemsV3_CL` (23 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceSecurityProblemsV3Raw_CL` (20 columns, source: 3rd-Party Connector Schemas)
+- `DynatraceSecurityProblemsV3_CL` (15 columns, source: 3rd-Party Connector Schemas)
+- `GTI_Vulnerabilities_CL` (163 columns, source: 3rd-Party Connector Schemas)
+- `VaronisAlertsV2_CL` (33 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (1)
+
+- `NordStellar_CL.EventTime` (datetime)
+
+**Columns removed** (33)
+
+- `VaronisAlerts_CL.AbnormalLocations_s`
+- `VaronisAlerts_CL.AccountsHaveFollowUpIndicators_s`
+- `VaronisAlerts_CL.AggregatedExternalIPThreatTypes_s`
+- `VaronisAlerts_CL.AlertCategory_s`
+- `VaronisAlerts_CL.AlertId_g`
+- `VaronisAlerts_CL.AlertSeverity_s`
+- `VaronisAlerts_CL.AlertTimeUTC_t`
+- `VaronisAlerts_CL.AlertTime_t`
+- `VaronisAlerts_CL.Assets_s`
+- `VaronisAlerts_CL.AssignedtoVaronis_b`
+- `VaronisAlerts_CL.BlacklistedLocation_b`
+- `VaronisAlerts_CL.CloseReason_s`
+- `VaronisAlerts_CL.ClosedBy_s`
+- `VaronisAlerts_CL.ContainsMaliciousExternalIPs_b`
+- `VaronisAlerts_CL.Countries_s`
+- `VaronisAlerts_CL.DataSourceTypes_s`
+- `VaronisAlerts_CL.DataSources_s`
+- `VaronisAlerts_CL.DeviceNames_s`
+- `VaronisAlerts_CL.EscalationType_s`
+- `VaronisAlerts_CL.EventsCount_d`
+- `VaronisAlerts_CL.FlaggedDataExposed_s`
+- `VaronisAlerts_CL.IngestTime_t`
+- `VaronisAlerts_CL.InitialEventTimeUTC_t`
+- `VaronisAlerts_CL.InitialEventTime_t`
+- `VaronisAlerts_CL.MitreTacticName_s`
+- `VaronisAlerts_CL.PrivilegedAccountType_s`
+- `VaronisAlerts_CL.SensitiveDataExposed_s`
+- `VaronisAlerts_CL.States_s`
+- `VaronisAlerts_CL.Status_s`
+- `VaronisAlerts_CL.ThreatDetectionPolicyName_s`
+- `VaronisAlerts_CL.TimeGenerated`
+- `VaronisAlerts_CL.UserNames_s`
+- `VaronisAlerts_CL.UserSamAccountNames_s`
+
+
 ### 2026-08-25 03:43 UTC
 
 **Columns removed** (405)
