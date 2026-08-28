@@ -1,0 +1,144 @@
+{
+  "UniqkeyEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time the event was generated, taken from the source event timestamp.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTime",
+        "type": "datetime",
+        "description": "The original event timestamp as reported by Uniqkey.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "string",
+        "description": "Unique identifier of the event. Use for deduplication (delivery is at-least-once).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Category",
+        "type": "string",
+        "description": "Event category, e.g. authentication, credential_access, sharing, threat_detection.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Human-readable action name, e.g. login_to_extension.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionId",
+        "type": "string",
+        "description": "Stable identifier of the action type. Use this key in detection rules.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActionSource",
+        "type": "string",
+        "description": "Source surface of the action, e.g. extension, mobile, web, desktop.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Outcome",
+        "type": "string",
+        "description": "Outcome of the action: success or failure.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "OrganizationId",
+        "type": "string",
+        "description": "Identifier of the Uniqkey organization the event belongs to.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorId",
+        "type": "string",
+        "description": "Identifier of the actor that performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorEmail",
+        "type": "string",
+        "description": "Email address of the actor that performed the action.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ActorType",
+        "type": "string",
+        "description": "Type of actor: user, scim, system, supporter or breach.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientSystem",
+        "type": "string",
+        "description": "Client system used: extension, mobile, web, desktop or undefined.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SrcIpAddr",
+        "type": "string",
+        "description": "Source IP address of the client, when available.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetType",
+        "type": "string",
+        "description": "Type of the target object: vault, employee, group, employee_group, resource_collection or tag.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetId",
+        "type": "string",
+        "description": "Identifier of the target object, when available.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "TargetName",
+        "type": "string",
+        "description": "Display name of the target object, when available.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Uniqkey"
+  }
+}

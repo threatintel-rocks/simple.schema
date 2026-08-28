@@ -539,6 +539,14 @@
         ]
       },
       {
+        "name": "RootActorID",
+        "type": "string",
+        "description": "The root actor virtual ID associated with the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ServicePrincipalId",
         "type": "string",
         "description": "ID of the service principal who initiated the sign-in.",

@@ -2,6 +2,19 @@
 
 All schema changes are tracked automatically.
 
+### 2026-08-28 14:48 UTC
+
+**Tables added** (1)
+
+- `UniqkeyEvents_CL` (17 columns, source: 3rd-Party Connector Schemas)
+
+**Columns added** (3)
+
+- `AADNonInteractiveUserSignInLogs.RootActorID` (string)
+- `SigninLogs.ClientSessionId` (string)
+- `SigninLogs.RootActorID` (string)
+
+
 ### 2026-08-26 03:49 UTC
 
 **Tables added** (7)

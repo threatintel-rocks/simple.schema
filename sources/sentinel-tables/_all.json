@@ -920,6 +920,14 @@
         ]
       },
       {
+        "name": "RootActorID",
+        "type": "string",
+        "description": "The root actor virtual ID associated with the sign-in.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ServicePrincipalId",
         "type": "string",
         "description": "ID of the service principal who initiated the sign-in.",
@@ -33602,6 +33610,14 @@
         ]
       },
       {
+        "name": "ClientSessionId",
+        "type": "string",
+        "description": "ID of the client session associated with the signIn.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ConditionalAccessAudiences",
         "type": "string",
         "description": "The audiences targeted by the conditional access policy.",
@@ -34013,6 +34029,14 @@
         "name": "RiskState",
         "type": "string",
         "description": "The risk state of a risky user, sign-in, or a risk event. Possible values: none, confirmedSafe, remediated, dismissed, atRisk, or confirmedCompromised.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RootActorID",
+        "type": "string",
+        "description": "The root actor virtual ID associated with the sign-in.",
         "availability": [
           "Sentinel"
         ]
