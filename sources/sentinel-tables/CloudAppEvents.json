@@ -14,7 +14,7 @@
       {
         "name": "AccountId",
         "type": "string",
-        "description": "An identifier for the account as found by Microsoft Cloud App Security. Could be Azure Active Directory ID, user principal name, or other identifiers",
+        "description": "An identifier for the account as found by Microsoft Cloud App Security. Could be Microsoft Entra object ID, user principal name, or other identifiers",
         "availability": [
           "Defender XDR",
           "Sentinel"

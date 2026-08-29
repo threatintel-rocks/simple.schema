@@ -23,7 +23,7 @@
       {
         "name": "AccountObjectId",
         "type": "string",
-        "description": "Unique identifier for the account in Azure Active Directory.",
+        "description": "Unique identifier for the account in Microsoft Entra ID.",
         "availability": [
           "Defender XDR",
           "Sentinel"

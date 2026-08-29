@@ -125,7 +125,7 @@
       {
         "name": "IncidentUrl",
         "type": "string",
-        "description": "The URI to open the incident in Azure Sentinel portal",
+        "description": "The URI to open the incident in Microsoft Sentinel portal",
         "availability": [
           "Sentinel"
         ]

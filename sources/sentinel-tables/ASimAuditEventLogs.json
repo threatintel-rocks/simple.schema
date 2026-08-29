@@ -77,7 +77,7 @@
       {
         "name": "ActorUserAadId",
         "type": "string",
-        "description": "The Azure Active Directory ID of the actor.",
+        "description": "The Microsoft Entra object ID of the actor.",
         "availability": [
           "Sentinel"
         ]

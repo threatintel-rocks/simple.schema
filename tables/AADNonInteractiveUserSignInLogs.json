@@ -37,7 +37,7 @@
       {
         "name": "AppId",
         "type": "string",
-        "description": "Unique GUID representing the app ID in the Azure Active Directory.",
+        "description": "Unique GUID representing the app ID in the Microsoft Entra ID.",
         "availability": [
           "Sentinel"
         ]
@@ -53,7 +53,7 @@
       {
         "name": "AppOwnerTenantId",
         "type": "string",
-        "description": "The tenant identifier of the owenr of the application in Azure Active Directory.",
+        "description": "The tenant identifier of the owenr of the application in Microsoft Entra ID.",
         "availability": [
           "Sentinel"
         ]
