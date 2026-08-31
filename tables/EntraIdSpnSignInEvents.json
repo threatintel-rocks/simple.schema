@@ -8,7 +8,8 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Application",
@@ -16,7 +17,8 @@
         "description": "Application that performed the recorded action",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ApplicationId",
@@ -24,7 +26,8 @@
         "description": "Unique identifier for the application",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsManagedIdentity",
@@ -32,7 +35,8 @@
         "description": "Indicates whether the sign-in was initiated by a managed identity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ErrorCode",
@@ -40,7 +44,8 @@
         "description": "Contains the error code if a sign-in error occurs. To find a description of a specific error code, visit <https://aka.ms/AADsigninsErrorCodes>.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CorrelationId",
@@ -48,7 +53,8 @@
         "description": "Unique identifier of the sign-in event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalName",
@@ -56,7 +62,8 @@
         "description": "Name of the service principal that initiated the sign-in",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ServicePrincipalId",
@@ -64,7 +71,8 @@
         "description": "Unique identifier of the service principal that initiated the sign-in",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceDisplayName",
@@ -72,7 +80,8 @@
         "description": "Display name of the resource accessed. The display name can contain any character.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceId",
@@ -80,7 +89,8 @@
         "description": "Unique identifier of the resource accessed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ResourceTenantId",
@@ -88,7 +98,8 @@
         "description": "Unique identifier of the tenant of the resource accessed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IPAddress",
@@ -96,7 +107,8 @@
         "description": "IP address assigned to the endpoint and used during related network communications",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Country",
@@ -104,7 +116,8 @@
         "description": "Two-letter code indicating the country/region where the client IP address is geolocated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "State",
@@ -112,7 +125,8 @@
         "description": "State where the sign-in occurred, if available",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "City",
@@ -120,7 +134,8 @@
         "description": "City where the account user is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Latitude",
@@ -128,7 +143,8 @@
         "description": "The north to south coordinates of the sign-in location",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Longitude",
@@ -136,7 +152,8 @@
         "description": "The east to west coordinates of the sign-in location",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RequestId",
@@ -144,7 +161,8 @@
         "description": "Unique identifier of the request",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -152,8 +170,64 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "GatewayJA4",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "IsConfidentialClient",
+        "type": "bool",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "UniqueTokenId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

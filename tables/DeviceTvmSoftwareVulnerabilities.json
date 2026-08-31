@@ -8,7 +8,8 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DeviceName",
@@ -16,7 +17,8 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSPlatform",
@@ -24,7 +26,8 @@
         "description": "Platform of the operating system running on the device. Indicates specific operating systems, including variations within the same family, such as Windows 11, Windows 10, and Windows 7.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSVersion",
@@ -32,7 +35,8 @@
         "description": "Version of the operating system running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "OSArchitecture",
@@ -40,7 +44,8 @@
         "description": "Architecture of the operating system running on the device",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareVendor",
@@ -48,7 +53,8 @@
         "description": "Name of the software publisher",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareName",
@@ -56,7 +62,8 @@
         "description": "Name of the software product",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SoftwareVersion",
@@ -64,7 +71,8 @@
         "description": "Version number of the software product",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CveId",
@@ -72,7 +80,8 @@
         "description": "Unique identifier assigned to the security vulnerability under the Common Vulnerabilities and Exposures (CVE) system",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "VulnerabilitySeverityLevel",
@@ -80,7 +89,8 @@
         "description": "Severity level assigned to the security vulnerability based on the CVSS score and dynamic factors influenced by the threat landscape",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecommendedSecurityUpdate",
@@ -88,7 +98,8 @@
         "description": "Name or description of the security update provided by the software publisher to address the vulnerability",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "RecommendedSecurityUpdateId",
@@ -96,7 +107,8 @@
         "description": "Identifier of the applicable security updates or identifier for the corresponding guidance or knowledge base (KB) articles",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CveTags",
@@ -104,8 +116,46 @@
         "description": "Array of tags relevant to the CVE; example: ZeroDay, NoSecurityUpdate",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "AadDeviceId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "CveMitigationStatus",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "MachineGroup",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }
