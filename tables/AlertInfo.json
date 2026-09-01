@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AlertId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the alert",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Title",
@@ -26,8 +24,7 @@
         "description": "Title of the alert",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Category",
@@ -35,8 +32,7 @@
         "description": "Type of threat indicator or breach activity identified by the alert",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Severity",
@@ -44,8 +40,7 @@
         "description": "Indicates the potential impact (high, medium, or low) of the threat indicator or breach activity identified by the alert",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServiceSource",
@@ -53,8 +48,7 @@
         "description": "Product or service that provided the alert information",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DetectionSource",
@@ -62,8 +56,7 @@
         "description": "Detection technology or sensor that identified the notable component or activity",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AttackTechniques",
@@ -71,46 +64,8 @@
         "description": "MITRE ATT&CK techniques associated with the activity that triggered the alert",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SentinelWorkspaceIds",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

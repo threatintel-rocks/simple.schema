@@ -8,8 +8,7 @@
         "description": "Unique identifier for the relationship/edge",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EdgeLabel",
@@ -17,8 +16,7 @@
         "description": "The edge label like \"routes traffic to\"",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceNodeId",
@@ -26,8 +24,7 @@
         "description": "Node ID of the edge's source",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceNodeName",
@@ -35,8 +32,7 @@
         "description": "Source node display name",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceNodeLabel",
@@ -44,8 +40,7 @@
         "description": "Source node label",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceNodeCategories",
@@ -53,8 +48,7 @@
         "description": "Categories list of the source node in JSON format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetNodeId",
@@ -62,8 +56,7 @@
         "description": "Node ID of the edge's target",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetNodeName",
@@ -71,8 +64,7 @@
         "description": "Display name of the target node",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetNodeLabel",
@@ -80,8 +72,7 @@
         "description": "Target node label",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetNodeCategories",
@@ -89,8 +80,7 @@
         "description": "The categories list of the target node in JSON format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EdgeProperties",
@@ -98,28 +88,8 @@
         "description": "Optional data relevant for the relationship between the nodes in JSON format",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
