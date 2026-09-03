@@ -1,0 +1,144 @@
+{
+  "SalesforceMarketingCloudSecurityEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventId",
+        "type": "int",
+        "description": "Unique identifier for the security event",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "CreatedDate",
+        "type": "datetime",
+        "description": "The date and time when the event was created",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "MemberId",
+        "type": "int",
+        "description": "The member ID (MID) of the Marketing Cloud account",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EnterpriseId",
+        "type": "int",
+        "description": "The enterprise ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EmployeeName",
+        "type": "string",
+        "description": "The employee name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "UserName",
+        "type": "string",
+        "description": "The user name",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "The IP address from which the login was attempted",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTypeId",
+        "type": "int",
+        "description": "The event type ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventTypeName",
+        "type": "string",
+        "description": "The event type name (e.g., Login Attempted)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginStatusId",
+        "type": "int",
+        "description": "The login status ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LoginStatusName",
+        "type": "string",
+        "description": "The login status name (e.g., Successful, Failed)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSourceId",
+        "type": "int",
+        "description": "The event source ID",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSourceName",
+        "type": "string",
+        "description": "The event source name (e.g., Fuel API, Web UI)",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ConnectorName",
+        "type": "string",
+        "description": "Connector Friendly Name assigned during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "LogType",
+        "type": "string",
+        "description": "The log type selected during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "RestApiBaseUrl",
+        "type": "string",
+        "description": "The REST API base URL configured during connector setup",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Salesforce Service Cloud"
+  }
+}

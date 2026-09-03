@@ -2,6 +2,14 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-03 07:36 UTC
+
+**Tables added** (2)
+
+- `SalesforceMarketingCloudAuditEvents_CL` (18 columns, source: 3rd-Party Connector Schemas)
+- `SalesforceMarketingCloudSecurityEvents_CL` (17 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-09-01 08:12 UTC
 
 **Tables added** (2)
