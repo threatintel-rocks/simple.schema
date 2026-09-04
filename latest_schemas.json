@@ -88885,69 +88885,8 @@
   },
   "feedly_indicators_CL": {
     "source": "Sentinel Tables",
-    "columns": [
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "indicatorType",
-        "type": "string",
-        "description": "Type of indicator (e.g., ipv4-addr, domain-name, url)",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "indicatorSubType",
-        "type": "string",
-        "description": "Subtype classification of the indicator",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "value",
-        "type": "string",
-        "description": "The Indicator of Compromise value, such as an IP address, domain name, URL, hash, or email",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "articleTitle",
-        "type": "string",
-        "description": "Title of the source article",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "articleUrl",
-        "type": "string",
-        "description": "URL to the source article in Feedly",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "source",
-        "type": "string",
-        "description": "Source publication name",
-        "availability": [
-          "Sentinel"
-        ]
-      }
-    ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
+    "columns": [],
+    "custom_table": true
   },
   "fluentbit_CL": {
     "source": "Sentinel Tables",
@@ -119518,6 +119457,140 @@
       }
     ],
     "solution": "ESET Protect Platform"
+  },
+  "EgressDefend_v4_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "The time the event was generated.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "time_t",
+        "type": "datetime",
+        "description": "Event time reported by Egress Defend.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "event_s",
+        "type": "string",
+        "description": "Event type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "linkClicked_s",
+        "type": "string",
+        "description": "The link that was clicked, if any.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_rcptTo_s",
+        "type": "string",
+        "description": "Recipients.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_mailFrom_s",
+        "type": "string",
+        "description": "Sender address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_subject_s",
+        "type": "string",
+        "description": "Email subject.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_attachments_s",
+        "type": "string",
+        "description": "Serialized list of attachments.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_messageId_s",
+        "type": "string",
+        "description": "Message identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_threat_s",
+        "type": "string",
+        "description": "Threat level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_trust_s",
+        "type": "string",
+        "description": "Trust level.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_firstTimeSender_b",
+        "type": "boolean",
+        "description": "Whether this is a first-time sender.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_payload_Type_s",
+        "type": "string",
+        "description": "Payload type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_linksClicked_d",
+        "type": "real",
+        "description": "Number of links clicked.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_senderIp_s",
+        "type": "string",
+        "description": "Sender IP address.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "email_phishType_s",
+        "type": "string",
+        "description": "Serialized list of phishing types.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Egress Defend"
   },
   "FieldEffectAROAlerts_CL": {
     "source": "3rd-Party Connector Schemas",

@@ -2,6 +2,23 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-04 07:37 UTC
+
+**Tables added** (1)
+
+- `EgressDefend_v4_CL` (16 columns, source: 3rd-Party Connector Schemas)
+
+**Columns removed** (7)
+
+- `feedly_indicators_CL.TimeGenerated`
+- `feedly_indicators_CL.articleTitle`
+- `feedly_indicators_CL.articleUrl`
+- `feedly_indicators_CL.indicatorSubType`
+- `feedly_indicators_CL.indicatorType`
+- `feedly_indicators_CL.source`
+- `feedly_indicators_CL.value`
+
+
 ### 2026-09-03 07:36 UTC
 
 **Tables added** (2)
