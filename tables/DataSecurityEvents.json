@@ -21,7 +21,7 @@
       {
         "name": "DeviceName",
         "type": "string",
-        "description": "Fully qualified domain name(FQDN) of the device",
+        "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
         ]
@@ -61,7 +61,7 @@
       {
         "name": "DlpPolicyRuleMatchInfo",
         "type": "dynamic",
-        "description": "Details of the data loss prevention (DLP)  rules that matched with this event; in JSON array format",
+        "description": "Details of the data loss prevention (DLP) rules that matched with this event; in JSON array format",
         "availability": [
           "Defender XDR"
         ]
@@ -70,6 +70,14 @@
         "name": "FileRenameInfo",
         "type": "string",
         "description": "Details of the file (file name and extension) before this event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "PhysicalAccessPointInfo",
+        "type": "object",
+        "description": "Information about the physical access in the event, including the physical access point's unique identifier, name, status, and the tag assigned to the asset",
         "availability": [
           "Defender XDR"
         ]
@@ -102,6 +110,14 @@
         "name": "PhysicalAssetTag",
         "type": "string",
         "description": "Tag assigned to the asset as configured in Microsoft Insider Risk Management global settings",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RemovableMediaInfo",
+        "type": "object",
+        "description": "List of any removable media involved in the behavior, including the serial number of the removable media device, the manufacturer of the removable media device, and the model of the removable device",
         "availability": [
           "Defender XDR"
         ]
@@ -243,57 +259,9 @@
         ]
       },
       {
-        "name": "UnallowedUrlDomains",
-        "type": "string",
-        "description": "Websites or service URLs involved in this event that is configured as Unallowed in Insider Risk Management global settings",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "ExternalUrlDomains",
         "type": "string",
         "description": "Websites or service URLs involved in this event that is classified as External in Insider Risk Management global settings",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "UrlDomainInfo",
-        "type": "string",
-        "description": "Details about the websites or service URLs involved in the event",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "SourceUrlDomain",
-        "type": "string",
-        "description": "Domain where the device and email signals originated",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "TargetUrlDomain",
-        "type": "string",
-        "description": "Domain where the content was shared with or the user has browsed to",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "EmailAttachmentCount",
-        "type": "int",
-        "description": "Number of email attachments",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "EmailAttachmentInfo",
-        "type": "dynamic",
-        "description": "Details of email attachments; in JSON array format",
         "availability": [
           "Defender XDR"
         ]
@@ -443,25 +411,9 @@
         ]
       },
       {
-        "name": "TargetFilePath",
-        "type": "string",
-        "description": "Target file path of endpoint activities",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
         "name": "PrinterName",
         "type": "string",
         "description": "List of printers involved in the behavior",
-        "availability": [
-          "Defender XDR"
-        ]
-      },
-      {
-        "name": "Workload",
-        "type": "string",
-        "description": "The Microsoft 365 service where the event occurred",
         "availability": [
           "Defender XDR"
         ]
@@ -475,17 +427,33 @@
         ]
       },
       {
-        "name": "SequenceCorrelationId",
-        "type": "string",
-        "description": "Details of the sequence activity",
+        "name": "RiskyAIUsageAccessedResourceInfo",
+        "type": "object",
+        "description": "Details of the resources accessed or referenced by the application involved in the risky AI usage event",
         "availability": [
           "Defender XDR"
         ]
       },
       {
-        "name": "CloudAppAlertId",
+        "name": "RiskyAIUsageAppCategory",
         "type": "string",
-        "description": "Unique identifier for the alert in Microsoft Defender for Cloud Apps",
+        "description": "Details of the category of the application involved in the risky AI usage event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RiskyAIUsageSensitivityLabelsInfo",
+        "type": "object",
+        "description": "Information regarding the sensitivity labels of entities involved in the risky AI usage event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SequenceCorrelationId",
+        "type": "string",
+        "description": "Details of the sequence activity",
         "availability": [
           "Defender XDR"
         ]

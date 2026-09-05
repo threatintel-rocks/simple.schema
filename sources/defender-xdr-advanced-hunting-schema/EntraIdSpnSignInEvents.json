@@ -153,6 +153,78 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "IsConfidentialClient",
+        "type": "boolean",
+        "description": "Indicates whether the sign-in was performed by a confidential client application",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "GatewayJA4",
+        "type": "string",
+        "description": "JA4 fingerprint derived from the TLS Client Hello request that identifies the client's TLS configuration",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SessionId",
+        "type": "string",
+        "description": "Unique number assigned to a user by a website's server for the duration of the visit or session",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UserAgent",
+        "type": "string",
+        "description": "User agent information from the web browser or other client application",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "Unique identifier representing the organization's instance of Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "Name of the table",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "Source system for the record",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UniqueTokenId",
+        "type": "string",
+        "description": "Unique identifier for the token passed during sign-in, used to correlate the sign-in with the token request",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ]
   }

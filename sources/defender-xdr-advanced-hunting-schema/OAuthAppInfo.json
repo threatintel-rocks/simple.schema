@@ -129,6 +129,22 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "RiskScore",
+        "type": "integer",
+        "description": "The risk score of the app as calculated by Microsoft Defender",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AssignedRoles",
+        "type": "dynamic",
+        "description": "Active roles assigned to the service principal. This currently covers only Entra roles.",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "preview": true

@@ -37,7 +37,7 @@
       {
         "name": "ConfigurationId",
         "type": "string",
-        "description": "Unique identifier for a specific configuration",
+        "description": "Identifier for a configuration within a specific benchmark and benchmark version",
         "availability": [
           "Defender XDR"
         ]

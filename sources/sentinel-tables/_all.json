@@ -16745,6 +16745,38 @@
         "availability": [
           "Defender XDR"
         ]
+      },
+      {
+        "name": "OriginalThreatTypes",
+        "type": "string",
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "OriginalDetectionMethods",
+        "type": "string",
+        "description": "Methods used to detect malware, phishing, or other threats found in the email at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "OriginalConfidenceLevel",
+        "type": "string",
+        "description": "List of confidence levels of any spam or phishing verdicts at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Topics",
+        "type": "string",
+        "description": "Topics column provides granular, multi-label topic classifications that describe what an email is about.",
+        "availability": [
+          "Defender XDR"
+        ]
       }
     ],
     "sources": [

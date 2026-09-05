@@ -37,7 +37,7 @@
       {
         "name": "LogonType",
         "type": "string",
-        "description": "Type of logon session, specifically:<br><br> - **Interactive** - User physically interacts with the device using the local keyboard and screen<br><br> - **Remote interactive (RDP) logons** - User interacts with the device remotely using Remote Desktop, Terminal Services, Remote Assistance, or other RDP clients<br><br> - **Network** - Session initiated when the device is accessed using PsExec or when shared resources on the device, such as printers and shared folders, are accessed<br><br> - **Batch** - Session initiated by scheduled tasks<br><br> - **Service** - Session initiated by services as they start<br>",
+        "description": "Type of logon session, specifically:<br><br> - **Interactive**: User physically interacts with the device using the local keyboard and screen<br><br> - **Remote interactive (RDP) logons**: User interacts with the device remotely using Remote Desktop, Terminal Services, Remote Assistance, or other RDP clients<br><br> - **Network**: Session initiated when the device is accessed using PsExec or when shared resources on the device, such as printers and shared folders, are accessed<br><br> - **Batch**: Session initiated by scheduled tasks<br><br> - **Service**: Session initiated by services as they start<br>",
         "availability": [
           "Defender XDR"
         ]
@@ -101,7 +101,7 @@
       {
         "name": "RemoteDeviceName",
         "type": "string",
-        "description": "Name of the device that performed a remote operation on the affected device. Depending on the event being reported, this name could be a fully-qualified domain name (FQDN), a NetBIOS name  or a host name without domain information.",
+        "description": "Name of the device that performed a remote operation on the affected device. Depending on the event being reported, this name could be a fully qualified domain name (FQDN), a NetBIOS name, or a hostname without domain information.",
         "availability": [
           "Defender XDR"
         ]
@@ -181,7 +181,7 @@
       {
         "name": "InitiatingProcessTokenElevation",
         "type": "string",
-        "description": "Token type indicating the presence or absence of User Access Control (UAC) privilege elevation applied to the process that initiated the event",
+        "description": "Token type indicating the presence or absence of User Account Control (UAC) privilege elevation applied to the process that initiated the event",
         "availability": [
           "Defender XDR"
         ]
@@ -197,7 +197,7 @@
       {
         "name": "InitiatingProcessSHA256",
         "type": "string",
-        "description": "SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated - use the SHA1 column when available.",
+        "description": "SHA-256 hash of the process (image file) that initiated the event. This field is usually not populated. Use the `InitiatingProcessSHA1` column when available.",
         "availability": [
           "Defender XDR"
         ]
@@ -365,7 +365,7 @@
       {
         "name": "IsInitiatingProcessRemoteSession",
         "type": "bool",
-        "description": "Indicates whether the initiating process was run under a remote desktop protocol (RDP) session (true) or locally (false)",
+        "description": "Indicates whether the initiating process was run under a remote desktop protocol (RDP) session (`true`) or locally (`false`)",
         "availability": [
           "Defender XDR"
         ]

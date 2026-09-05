@@ -1,0 +1,207 @@
+{
+  "GraphAPIAuditEvents": {
+    "source": "Defender XDR Advanced Hunting Schema",
+    "columns": [
+      {
+        "name": "IdentityProvider",
+        "type": "string",
+        "description": "Identity provider that authenticated the subject of the token",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ApiVersion",
+        "type": "string",
+        "description": "The API version of the event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ApplicationId",
+        "type": "string",
+        "description": "Unique identifier for the application",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ClientRequestId",
+        "type": "string",
+        "description": "Identifier for the client request sent; if none is available, the operation identifier is used instead",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "OperationId",
+        "type": "string",
+        "description": "Identifier for a batch of requests; the same identifier is used for all requests in a batch but if requests are non-batched, the identifier is unique per request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "AccountObjectId",
+        "type": "string",
+        "description": "Unique identifier for the account making the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Location",
+        "type": "string",
+        "description": "Name of the region that served the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RequestDuration",
+        "type": "string",
+        "description": "Duration of the request in milliseconds",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RequestMethod",
+        "type": "string",
+        "description": "HTTP method of the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Timestamp",
+        "type": "datetime",
+        "description": "Date and time when the request was recorded",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ResponseStatusCode",
+        "type": "string",
+        "description": "HTTP response status code for the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Scopes",
+        "type": "string",
+        "description": "Scopes in token claims",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "EntityType",
+        "type": "string",
+        "description": "Type of object, such as a file, a process, a device, or a user",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ReportId",
+        "type": "string",
+        "description": "Unique identifier for the event",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RequestUri",
+        "type": "string",
+        "description": "Uniform resource identifier (URI) of the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "UniqueTokenIdentifier",
+        "type": "string",
+        "description": "Unique identifier embedded in every access token and ID token that were issued",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "RequestId",
+        "type": "string",
+        "description": "Unique identifier of the request",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "IpAddress",
+        "type": "string",
+        "description": "IP address from which the request was made",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ServicePrincipalId",
+        "type": "string",
+        "description": "Unique identifier of the service principal that performed the action",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TargetWorkload",
+        "type": "string",
+        "description": "Target workload, such as Microsoft Exchange or Microsoft SharePoint, to which the API call was made",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "ResponseSize",
+        "type": "long",
+        "description": "Size of the response in bytes",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "Unique identifier representing the organization's instance of Microsoft Entra ID",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "Name of the table",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "Source system for the record",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "Date and time when the record was generated",
+        "availability": [
+          "Defender XDR"
+        ]
+      }
+    ]
+  }
+}

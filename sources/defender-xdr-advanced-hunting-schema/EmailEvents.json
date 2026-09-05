@@ -315,6 +315,30 @@
         ]
       },
       {
+        "name": "OriginalThreatTypes",
+        "type": "string",
+        "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "OriginalDetectionMethods",
+        "type": "string",
+        "description": "Methods used to detect malware, phishing, or other threats found in the email at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "OriginalConfidenceLevel",
+        "type": "string",
+        "description": "List of confidence levels of any spam or phishing verdicts at the time of delivery.",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "DistributionList",
         "type": "string",
         "description": "Name of the distribution list (DL) to which the email was sent, if applicable; in cases of nested DLs, it shows the top-level list",
@@ -390,6 +414,14 @@
         "name": "IsFirstContact",
         "type": "int",
         "description": "Whether the email was the first contact between the sender and recipient (1 if yes, 0 if no)",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Topics",
+        "type": "string",
+        "description": "Topics column provides granular, multi-label topic classifications that describe what an email is about.",
         "availability": [
           "Defender XDR"
         ]

@@ -171,6 +171,30 @@
         ]
       },
       {
+        "name": "ImageDigest",
+        "type": "string",
+        "description": "The container's image digest",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Region",
+        "type": "string",
+        "description": "The geographical region where the cluster is located",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "HostName",
+        "type": "string",
+        "description": "The node's hostname",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "AdditionalFields",
         "type": "dynamic",
         "description": "Additional information about the entity or event",

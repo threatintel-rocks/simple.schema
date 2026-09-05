@@ -139,6 +139,22 @@
         ]
       },
       {
+        "name": "PolicyInfo",
+        "type": "dynamic",
+        "description": "Policy information associated with the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "Policies",
+        "type": "string",
+        "description": "List of insider risk management policies associated with the behavior",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
         "name": "DeviceInfo",
         "type": "dynamic",
         "description": "List of device information for the device involved in this behavior, including device ID, device name, and the number of events in which the device is involved; in JSON array format",

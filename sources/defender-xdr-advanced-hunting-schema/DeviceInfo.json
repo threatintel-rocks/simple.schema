@@ -37,7 +37,7 @@
       {
         "name": "PublicIP",
         "type": "string",
-        "description": "Public IP address used by the onboarded device to connect to the Microsoft  Defender for Endpoint service. This could be the IP address of the device itself, a NAT device, or a proxy.",
+        "description": "Public IP address used by the onboarded device to connect to the Microsoft Defender for Endpoint service. This could be the IP address of the device itself, a NAT device, or a proxy.",
         "availability": [
           "Defender XDR"
         ]
@@ -69,7 +69,7 @@
       {
         "name": "IsAzureADJoined",
         "type": "boolean",
-        "description": "Boolean indicator of whether device is joined to the Microsoft Entra ID",
+        "description": "Boolean indicator of whether device is joined to Microsoft Entra ID",
         "availability": [
           "Defender XDR"
         ]
@@ -133,7 +133,7 @@
       {
         "name": "OnboardingStatus",
         "type": "string",
-        "description": "Indicates whether the device is currently onboarded or not to  Microsoft Defender For Endpoint or if the device is not supported",
+        "description": "Indicates whether the device is currently onboarded or not to Microsoft Defender for Endpoint or if the device is not supported",
         "availability": [
           "Defender XDR"
         ]
@@ -229,7 +229,7 @@
       {
         "name": "SensorHealthState",
         "type": "string",
-        "description": "Indicates health of the device's EDR sensor, if onboarded to Microsoft Defender For Endpoint",
+        "description": "Indicates health of the device's EDR sensor, if onboarded to Microsoft Defender for Endpoint",
         "availability": [
           "Defender XDR"
         ]
@@ -389,7 +389,15 @@
       {
         "name": "DiscoverySources",
         "type": "string",
-        "description": "Products or services that have seen or reported the device, including when they last reported it.",
+        "description": "Products or services that have seen or reported the device, including when they last reported it",
+        "availability": [
+          "Defender XDR"
+        ]
+      },
+      {
+        "name": "DeviceRoles",
+        "type": "string",
+        "description": "Device roles and characteristics associated with the device, in JSON format. Includes roles identified by the system or defined by users, confidence levels, and the last time each role was seen.",
         "availability": [
           "Defender XDR"
         ]

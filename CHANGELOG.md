@@ -2,6 +2,103 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-05 07:18 UTC
+
+**Tables added** (9)
+
+- `CallActivityEvents` (12 columns, source: Defender XDR Advanced Hunting Schema)
+- `GraphAPIAuditEvents` (25 columns, source: Defender XDR Advanced Hunting Schema)
+- `LightningAttackPathLinksV2_CL` (10 columns, source: 3rd-Party Connector Schemas)
+- `LightningAttackPathsV2_CL` (19 columns, source: 3rd-Party Connector Schemas)
+- `LightningIOEResultsV2_CL` (14 columns, source: 3rd-Party Connector Schemas)
+- `LightningIOEsMetadataV2_CL` (20 columns, source: 3rd-Party Connector Schemas)
+- `LightningIndicatorExecutionsV2_CL` (13 columns, source: 3rd-Party Connector Schemas)
+- `LightningTier0AttackersV2_CL` (11 columns, source: 3rd-Party Connector Schemas)
+- `LightningTier0NodesV2_CL` (18 columns, source: 3rd-Party Connector Schemas)
+
+**Tables removed** (2)
+
+- `AgariAPRInvestigationsLog_CL`
+- `GraphApiAuditEvents`
+
+**Columns added** (50)
+
+- `CloudDnsEvents.HostName` (string)
+- `CloudDnsEvents.ImageDigest` (string)
+- `CloudDnsEvents.Region` (string)
+- `DataSecurityBehaviors.Policies` (string)
+- `DataSecurityBehaviors.PolicyInfo` (dynamic)
+- `DataSecurityEvents.PhysicalAccessPointInfo` (object)
+- `DataSecurityEvents.RemovableMediaInfo` (object)
+- `DataSecurityEvents.RiskyAIUsageAccessedResourceInfo` (object)
+- `DataSecurityEvents.RiskyAIUsageAppCategory` (string)
+- `DataSecurityEvents.RiskyAIUsageSensitivityLabelsInfo` (object)
+- `DeviceBaselineComplianceAssessmentKB.ConfigurationBenchmarkVersion` (string)
+- `DeviceInfo.DeviceRoles` (string)
+- `EmailEvents.OriginalConfidenceLevel` (string)
+- `EmailEvents.OriginalDetectionMethods` (string)
+- `EmailEvents.OriginalThreatTypes` (string)
+- `EmailEvents.Topics` (string)
+- `EntraIdSignInEvents.GatewayJA4` (string)
+- `EntraIdSignInEvents.IsSignInThroughGlobalSecureAccess` (boolean)
+- `EntraIdSignInEvents.RiskEventTypes` (string)
+- `EntraIdSignInEvents.RiskLevelDuringSignIn` (int)
+- `EntraIdSignInEvents.SourceSystem` (string)
+- `EntraIdSignInEvents.TenantId` (string)
+- `EntraIdSignInEvents.TimeGenerated` (datetime)
+- `EntraIdSignInEvents.Type` (string)
+- `EntraIdSignInEvents.UniqueTokenId` (string)
+- `EntraIdSpnSignInEvents.GatewayJA4` (string)
+- `EntraIdSpnSignInEvents.IsConfidentialClient` (boolean)
+- `EntraIdSpnSignInEvents.SessionId` (string)
+- `EntraIdSpnSignInEvents.SourceSystem` (string)
+- `EntraIdSpnSignInEvents.TenantId` (string)
+- `EntraIdSpnSignInEvents.TimeGenerated` (datetime)
+- `EntraIdSpnSignInEvents.Type` (string)
+- `EntraIdSpnSignInEvents.UniqueTokenId` (string)
+- `EntraIdSpnSignInEvents.UserAgent` (string)
+- `FileMaliciousContentInfo.DetectionMethods` (string)
+- `FileMaliciousContentInfo.DocumentId` (string)
+- `FileMaliciousContentInfo.FileCreationTime	` (datetime)
+- `FileMaliciousContentInfo.FileName` (string)
+- `FileMaliciousContentInfo.FileOwnerDisplayName` (string)
+- `FileMaliciousContentInfo.FileOwnerUpn` (string)
+- `FileMaliciousContentInfo.FileSize` (long)
+- `FileMaliciousContentInfo.FolderPath` (string)
+- `FileMaliciousContentInfo.LastModifiedTime` (datetime)
+- `FileMaliciousContentInfo.LastModifyingAccountUpn` (string)
+- `FileMaliciousContentInfo.SHA256` (string)
+- `FileMaliciousContentInfo.ThreatNames` (string)
+- `FileMaliciousContentInfo.ThreatTypes` (dynamic)
+- `FileMaliciousContentInfo.Workload` (string)
+- `OAuthAppInfo.AssignedRoles` (dynamic)
+- `OAuthAppInfo.RiskScore` (integer)
+
+**Columns removed** (17)
+
+- `DataSecurityEvents.CloudAppAlertId`
+- `DataSecurityEvents.EmailAttachmentCount`
+- `DataSecurityEvents.EmailAttachmentInfo`
+- `DataSecurityEvents.SourceUrlDomain`
+- `DataSecurityEvents.TargetFilePath`
+- `DataSecurityEvents.TargetUrlDomain`
+- `DataSecurityEvents.UnallowedUrlDomains`
+- `DataSecurityEvents.UrlDomainInfo`
+- `DataSecurityEvents.Workload`
+- `EntraIdSignInEvents.IsConfidentialClient`
+- `EntraIdSignInEvents.RiskDetails`
+- `FileMaliciousContentInfo.NetworkMessageId`
+- `FileMaliciousContentInfo.Url`
+- `FileMaliciousContentInfo.UrlChainId`
+- `FileMaliciousContentInfo.UrlChainPosition`
+- `FileMaliciousContentInfo.UrlDomain`
+- `FileMaliciousContentInfo.UrlLocation`
+
+**Columns modified** (1)
+
+- `EntraIdSignInEvents.TokenIssuerType`: type `int` → `string`
+
+
 ### 2026-09-04 07:37 UTC
 
 **Tables added** (1)

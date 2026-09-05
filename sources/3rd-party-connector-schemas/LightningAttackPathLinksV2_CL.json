@@ -1,5 +1,5 @@
 {
-  "AgariAPRInvestigationsLog_CL": {
+  "LightningAttackPathLinksV2_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
@@ -11,70 +11,78 @@
         ]
       },
       {
-        "name": "Id",
+        "name": "PathId",
         "type": "string",
-        "description": "Unique identifier for the investigation attachment",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Filename",
+        "name": "LinkId",
         "type": "string",
-        "description": "Original filename of the attachment",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "ContentType",
+        "name": "SourceId",
         "type": "string",
-        "description": "MIME content type of the attachment (e.g. application/pdf, message/rfc822)",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Size",
-        "type": "long",
-        "description": "File size of the attachment in bytes",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "Sha256",
+        "name": "TargetId",
         "type": "string",
-        "description": "SHA-256 hash of the attachment for threat intelligence correlation",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "CreatedAt",
-        "type": "datetime",
-        "description": "Timestamp when the attachment was added to the investigation",
-        "availability": [
-          "Sentinel"
-        ]
-      },
-      {
-        "name": "AttachmentType",
+        "name": "RelationshipType",
         "type": "string",
-        "description": "Category of attachment (e.g. screenshot, email_source, pcap)",
+        "description": "",
         "availability": [
           "Sentinel"
         ]
       },
       {
-        "name": "Url",
+        "name": "IdentitySource",
         "type": "string",
-        "description": "URL to download the attachment from the Agari console",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SemperisInstanceName",
+        "type": "string",
+        "description": "Configured multi-instance connection identifier.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SemperisZone",
+        "type": "string",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SemperisDataStream",
+        "type": "string",
+        "description": "Semperis stream emitted by this poller.",
         "availability": [
           "Sentinel"
         ]
       }
     ],
-    "solution": "Agari"
+    "solution": "SemperisLightning"
   }
 }
