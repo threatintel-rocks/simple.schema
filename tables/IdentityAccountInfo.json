@@ -8,7 +8,8 @@
         "description": "The date and time that the line was written to the database.<br><br>This is used when there are multiple lines for each identity, such as when a change is detected, or if 24 hours have passed since the last database line was added.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ReportId",
@@ -16,7 +17,8 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProviderAccountId",
@@ -24,7 +26,8 @@
         "description": "Identifier for the account in the source provider (for example, object ID for a Microsoft Entra ID account)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountId",
@@ -32,7 +35,8 @@
         "description": "Internal identifier for the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IdentityId",
@@ -40,7 +44,8 @@
         "description": "Identifier for the identity that the account is linked to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IsPrimary ",
@@ -48,7 +53,8 @@
         "description": "Indicates if this account is considered as primary account for the linked identity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "IdentityLinkType",
@@ -56,7 +62,8 @@
         "description": "Type of linkage between the account and identity; possible values: Manual, Strong identifiers",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IdentityLinkReason",
@@ -64,7 +71,8 @@
         "description": "Reason for linking the account and identity. If the linkage type is manual, the value will be the justification comment added by the user.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IdentityLinkTime",
@@ -72,7 +80,8 @@
         "description": "Date and time the account was linked to the identity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "IdentityLinkBy",
@@ -80,7 +89,8 @@
         "description": "The entity that linked the account to the identity. If the linkage type is based on strong identifiers, the value will be System",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DisplayName",
@@ -88,7 +98,8 @@
         "description": "Name of the account user displayed in the address book. Typically a combination of a given or first name, a middle initial, and a last name or surname.",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountUpn",
@@ -96,7 +107,8 @@
         "description": "User principal name (UPN) of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmailAddress",
@@ -104,7 +116,8 @@
         "description": "SMTP address of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CriticalityLevel",
@@ -112,7 +125,8 @@
         "description": "The criticality score of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DefenderRiskLevel",
@@ -120,7 +134,8 @@
         "description": "The risk level of the account as calculated by Microsoft Defender",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DefenderRiskUpdateTime",
@@ -128,7 +143,8 @@
         "description": "Date and time Microsoft Defender last updated the risk level of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "Type",
@@ -136,7 +152,8 @@
         "description": "Type of identity; possible values: User, ServiceAccount",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GivenName",
@@ -144,7 +161,8 @@
         "description": "Given name or first name of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Surname",
@@ -152,7 +170,8 @@
         "description": "Surname, family name, or last name of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EmployeeId",
@@ -160,7 +179,8 @@
         "description": "Employee identifier assigned to the user by the organization",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Department",
@@ -168,7 +188,8 @@
         "description": "Name of the department that the account user belongs to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "JobTitle",
@@ -176,7 +197,8 @@
         "description": "Job title of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Address",
@@ -184,7 +206,8 @@
         "description": "Address of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "City",
@@ -192,7 +215,8 @@
         "description": "City where the account user is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Country",
@@ -200,7 +224,8 @@
         "description": "Country/Region where the account user is located",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Phone",
@@ -208,7 +233,8 @@
         "description": "The listed phone number of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Manager",
@@ -216,7 +242,8 @@
         "description": "The listed manager of the account user",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Sid",
@@ -224,7 +251,8 @@
         "description": "Security identifier (SID) of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AccountStatus",
@@ -232,7 +260,8 @@
         "description": "The status of the account; possible values: Disabled, Enabled, Deleted",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProvider",
@@ -240,7 +269,8 @@
         "description": "Source application or service of the account (for example, Microsoft Entra ID)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProviderInstanceId",
@@ -248,7 +278,8 @@
         "description": "The identifier of the source application or service of the account. For example, in Microsoft Entra ID, this is the organization Globally Unique Identifier (GUID).",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProviderInstanceDisplayName",
@@ -256,7 +287,8 @@
         "description": "The display name of the source application or service of the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationMethod",
@@ -264,7 +296,8 @@
         "description": "Authentication method used to allow the account user to sign into the account; possible values: Credentials, Federated, Hybrid",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AuthenticationSourceAcccountId",
@@ -272,7 +305,8 @@
         "description": "The identifier of the federating account, if the authentication method is Federated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "EnrolledMfas",
@@ -280,7 +314,8 @@
         "description": "Types of multifactor authentication methods configured for the account user and their status",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastPasswordChangeTime",
@@ -288,7 +323,8 @@
         "description": "Date and time the account password was last changed",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "GroupMembership",
@@ -296,7 +332,8 @@
         "description": "Group identifiers assigned to the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "AssignedRoles",
@@ -304,7 +341,8 @@
         "description": "Role identifiers assigned to the account",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "EligibleRoles",
@@ -312,7 +350,8 @@
         "description": "Identifiers for roles the account are eligible to use (for example, Microsoft Entra Privileged Identity Management roles)",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantMembershipType",
@@ -320,7 +359,8 @@
         "description": "User type; possible values: Guest, Member",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "CreatedDateTime ",
@@ -328,7 +368,8 @@
         "description": "Date and time when the user account was created",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "DeletedDateTime",
@@ -336,7 +377,8 @@
         "description": "Date and time when the user account was deleted",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Tags",
@@ -344,7 +386,8 @@
         "description": "Tags assigned to the account by Defender for Identity",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SourceProvderRiskLevel",
@@ -352,7 +395,8 @@
         "description": "Risk level of the account as it appears in the source provider; possible values: Low, Medium, High",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "AdditionalFields",
@@ -360,7 +404,8 @@
         "description": "Additional information about the entity or event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "TenantId",
@@ -368,8 +413,52 @@
         "description": "Universally unique identifier (UUID) for the tenant",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "AuthenticationSourceAccountId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "CreatedDateTime",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "IsPrimary",
+        "type": "bool",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceProviderRiskLevel",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceProviderRiskLevelDetails",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
       }
-    ]
+    ],
+    "verified": true
   }
 }

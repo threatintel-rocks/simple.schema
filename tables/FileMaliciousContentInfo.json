@@ -8,7 +8,8 @@
         "description": "Date and time when the event was generated",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "Workload",
@@ -16,7 +17,8 @@
         "description": "Information about the workload from which the URL originated from",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileName",
@@ -24,7 +26,8 @@
         "description": "Name of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FolderPath",
@@ -32,7 +35,8 @@
         "description": "Path of the folder containing the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileSize",
@@ -40,7 +44,8 @@
         "description": "Size of the file in bytes",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "SHA256",
@@ -48,7 +53,8 @@
         "description": "SHA-256 of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileOwnerDisplayName",
@@ -56,7 +62,8 @@
         "description": "Account recorded as owner of the file",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileOwnerUpn",
@@ -64,7 +71,8 @@
         "description": "Account recorded as owner of the file",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DocumentId",
@@ -72,7 +80,8 @@
         "description": "Unique identifier of the file",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatTypes",
@@ -80,7 +89,8 @@
         "description": "Verdict from the email filtering stack on whether the email contains malware, phishing, or other threats",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "ThreatNames",
@@ -88,7 +98,8 @@
         "description": "Detection name for malware or other threats found",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "DetectionMethods",
@@ -96,7 +107,8 @@
         "description": "Methods used to detect malware, phishing, or other threats found in the email",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastModifyingAccountUpn",
@@ -104,7 +116,8 @@
         "description": "Account that last modified this file",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "LastModifiedTime",
@@ -112,7 +125,8 @@
         "description": "Date and time the item or related metadata was last modified",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
       },
       {
         "name": "FileCreationTime\t",
@@ -120,7 +134,8 @@
         "description": "Timestamp of the file creation",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": false
       },
       {
         "name": "ReportId",
@@ -128,9 +143,41 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ]
+        ],
+        "verified": true
+      },
+      {
+        "name": "FileCreationTime",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "SourceSystem",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TenantId",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "verified": "live_only"
+      },
+      {
+        "name": "Type",
+        "type": "string",
+        "description": "",
+        "verified": "live_only"
       }
     ],
-    "preview": true
+    "preview": true,
+    "verified": true
   }
 }
