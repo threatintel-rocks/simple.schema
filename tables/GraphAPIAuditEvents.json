@@ -8,8 +8,7 @@
         "description": "Identity provider that authenticated the subject of the token",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApiVersion",
@@ -17,8 +16,7 @@
         "description": "The API version of the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ApplicationId",
@@ -26,8 +24,7 @@
         "description": "Unique identifier for the application",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ClientRequestId",
@@ -35,8 +32,7 @@
         "description": "Identifier for the client request sent; if none is available, the operation identifier is used instead",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "OperationId",
@@ -44,8 +40,7 @@
         "description": "Identifier for a batch of requests; the same identifier is used for all requests in a batch but if requests are non-batched, the identifier is unique per request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "AccountObjectId",
@@ -53,8 +48,7 @@
         "description": "Unique identifier for the account making the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Location",
@@ -62,8 +56,7 @@
         "description": "Name of the region that served the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestDuration",
@@ -71,8 +64,7 @@
         "description": "Duration of the request in milliseconds",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestMethod",
@@ -80,8 +72,7 @@
         "description": "HTTP method of the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Timestamp",
@@ -89,8 +80,7 @@
         "description": "Date and time when the request was recorded",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseStatusCode",
@@ -98,8 +88,7 @@
         "description": "HTTP response status code for the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Scopes",
@@ -107,8 +96,7 @@
         "description": "Scopes in token claims",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "EntityType",
@@ -116,8 +104,7 @@
         "description": "Type of object, such as a file, a process, a device, or a user",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -125,8 +112,7 @@
         "description": "Unique identifier for the event",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestUri",
@@ -134,8 +120,7 @@
         "description": "Uniform resource identifier (URI) of the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "UniqueTokenIdentifier",
@@ -143,8 +128,7 @@
         "description": "Unique identifier embedded in every access token and ID token that were issued",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RequestId",
@@ -152,8 +136,7 @@
         "description": "Unique identifier of the request",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IpAddress",
@@ -161,8 +144,7 @@
         "description": "IP address from which the request was made",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ServicePrincipalId",
@@ -170,8 +152,7 @@
         "description": "Unique identifier of the service principal that performed the action",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TargetWorkload",
@@ -179,8 +160,7 @@
         "description": "Target workload, such as Microsoft Exchange or Microsoft SharePoint, to which the API call was made",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ResponseSize",
@@ -188,8 +168,7 @@
         "description": "Size of the response in bytes",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TenantId",
@@ -197,8 +176,7 @@
         "description": "Unique identifier representing the organization's instance of Microsoft Entra ID",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Type",
@@ -206,8 +184,7 @@
         "description": "Name of the table",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SourceSystem",
@@ -215,8 +192,7 @@
         "description": "Source system for the record",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "TimeGenerated",
@@ -224,10 +200,8 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
