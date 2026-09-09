@@ -1,6 +1,6 @@
 {
-  "Rubrik_ThreatHunt_Data_CL": {
-    "source": "Sentinel Tables",
+  "Rubrik_Anomaly_Data_CL": {
+    "source": "3rd-Party Connector Schemas",
     "columns": [
       {
         "name": "TimeGenerated",
@@ -307,10 +307,6 @@
         ]
       }
     ],
-    "custom_table": true,
-    "sources": [
-      "Sentinel Tables",
-      "3rd-Party Connector Schemas"
-    ]
+    "solution": "RubrikSecurityCloud"
   }
 }
