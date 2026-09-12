@@ -2,6 +2,26 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-12 07:34 UTC
+
+**Tables added** (1)
+
+- `SpyCloudCompassV2_CL` (28 columns, source: 3rd-Party Connector Schemas)
+
+**Tables removed** (1)
+
+- `spycloud_compassV2_CL`
+
+**Columns added** (6)
+
+- `SpyCloudBreachWatchlistV2_CL.CookieDomain` (string)
+- `SpyCloudBreachWatchlistV2_CL.CookieName` (string)
+- `SpyCloudBreachWatchlistV2_CL.CookieValue` (string)
+- `SpyCloudBreachWatchlistV2_CL.MitreTags` (dynamic)
+- `SpyCloudBreachWatchlistV2_CL.OriginId` (string)
+- `SpyCloudBreachWatchlistV2_CL.SystemTags` (dynamic)
+
+
 ### 2026-09-09 07:45 UTC
 
 **Columns added** (152)
