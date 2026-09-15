@@ -74845,7 +74845,7 @@
     ],
     "solution": "SOC Prime CCF"
   },
-  "SailPointIDN_EventsV2_CL": {
+  "SailPointISC_Events_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [
       {
