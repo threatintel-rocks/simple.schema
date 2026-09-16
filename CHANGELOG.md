@@ -2,6 +2,26 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-16 08:11 UTC
+
+**Columns added** (10)
+
+- `NetworkAccessTraffic.AgentPlatform` (string)
+- `NetworkAccessTraffic.AgentTypeId` (string)
+- `NetworkAccessTraffic.AgentVirtualId` (string)
+- `NetworkAccessTraffic.AgenticSessionId` (string)
+- `NetworkAccessTraffic.CustomHeaders` (dynamic)
+- `NetworkAccessTraffic.McpPrimitiveName` (string)
+- `NetworkAccessTraffic.McpProtocolVersion` (string)
+- `NetworkAccessTraffic.PolicyType` (string)
+- `NetworkAccessTraffic.RedirectDestination` (string)
+- `NetworkAccessTraffic.SecurityPrincipalType` (string)
+
+**Columns modified** (1)
+
+- `ZNRPCActivity_CL.TrafficType`: type `int` → `string`
+
+
 ### 2026-09-15 08:17 UTC
 
 **Tables added** (1)

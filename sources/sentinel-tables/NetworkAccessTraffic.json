@@ -13,7 +13,31 @@
       {
         "name": "Action",
         "type": "string",
-        "description": "The action taken on the network session. Allowed, Denied.",
+        "description": "The action taken on the network session. Allowed, Denied, Redirect.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgenticSessionId",
+        "type": "string",
+        "description": "The identifier of the agentic session associated with the traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentPlatform",
+        "type": "string",
+        "description": "The platform hosting the AI agent that initiated the transaction. Local, BedrockAws, MicrosoftFoundry, MicrosoftCopilotStudio. Populated for agentic traffic only; null otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentTypeId",
+        "type": "string",
+        "description": "The identifier of the agent type associated with the traffic.",
         "availability": [
           "Sentinel"
         ]
@@ -22,6 +46,14 @@
         "name": "AgentVersion",
         "type": "string",
         "description": "The version of the agent connecting.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "AgentVirtualId",
+        "type": "string",
+        "description": "The virtual identifier of the agent associated with the traffic.",
         "availability": [
           "Sentinel"
         ]
@@ -227,6 +259,14 @@
         ]
       },
       {
+        "name": "CustomHeaders",
+        "type": "dynamic",
+        "description": "The custom HTTP headers applied to the transaction, as a JSON array where each element contains HeaderName, PreviousValue and NewValue.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "Description",
         "type": "string",
         "description": "Additional details describing the traffic.",
@@ -277,7 +317,7 @@
       {
         "name": "DeviceCategory",
         "type": "string",
-        "description": "Device type the transaction originated from. Client, Branch.",
+        "description": "Device type the transaction originated from. Client, Branch, Secure Enterprise Browser.",
         "availability": [
           "Sentinel"
         ]
@@ -443,6 +483,22 @@
         ]
       },
       {
+        "name": "McpPrimitiveName",
+        "type": "string",
+        "description": "The name of the MCP tool, resource, or prompt invoked (for example, delete_file).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "McpProtocolVersion",
+        "type": "string",
+        "description": "The negotiated MCP protocol version (for example, 2025-06-18).",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "NetworkProtocol",
         "type": "string",
         "description": "The network protocol, IPv6 or IPv4.",
@@ -491,6 +547,14 @@
         ]
       },
       {
+        "name": "PolicyType",
+        "type": "string",
+        "description": "The type of policy that evaluated the traffic. Possible values: mcpFirewall, promptProtection, threatIntelligence, webContentFiltering.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ProcessArgs",
         "type": "string",
         "description": "The process arguments associated with the network request.",
@@ -531,6 +595,14 @@
         ]
       },
       {
+        "name": "RedirectDestination",
+        "type": "string",
+        "description": "The destination the transaction was redirected to. Populated when the action taken on the network session is Redirect; null otherwise.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
         "name": "ReferrerHeader",
         "type": "string",
         "description": "The Referer header value.",
@@ -566,6 +638,14 @@
         "name": "RuleName",
         "type": "string",
         "description": "The name of the rule associated with the action performed on traffic.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SecurityPrincipalType",
+        "type": "string",
+        "description": "The type of the security principal that initiated the transaction. User, Device.",
         "availability": [
           "Sentinel"
         ]

@@ -96100,7 +96100,7 @@
       },
       {
         "name": "TrafficType",
-        "type": "int",
+        "type": "string",
         "description": "",
         "availability": [
           "Sentinel"
