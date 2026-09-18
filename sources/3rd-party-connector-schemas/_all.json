@@ -14497,6 +14497,148 @@
     ],
     "solution": "Cisco Meraki Events via REST API"
   },
+  "CiscoMerakiFileScannedEvents_CL": {
+    "source": "3rd-Party Connector Schemas",
+    "columns": [
+      {
+        "name": "TimeGenerated",
+        "type": "datetime",
+        "description": "",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventType",
+        "type": "string",
+        "description": "Cisco Meraki event type for the file scan result.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DeviceMac",
+        "type": "string",
+        "description": "MAC address of the Meraki appliance associated with the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "ClientMac",
+        "type": "string",
+        "description": "Client MAC address associated with the file scan.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "SourceIp",
+        "type": "string",
+        "description": "Source IP address for the file transfer or request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "DestinationIp",
+        "type": "string",
+        "description": "Destination IP address for the file transfer or request.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Uri",
+        "type": "string",
+        "description": "URI or URL evaluated by the file scan engine.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileType",
+        "type": "string",
+        "description": "Detected or classified file type.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Disposition",
+        "type": "string",
+        "description": "Threat disposition returned by the file scanning engine.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "Action",
+        "type": "string",
+        "description": "Action taken against the scanned file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileHash",
+        "type": "string",
+        "description": "Hash value of the downloaded or scanned file.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "FileSizeBytes",
+        "type": "long",
+        "description": "File size in bytes.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventMessage",
+        "type": "string",
+        "description": "Raw event message for the file scan result.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventProduct",
+        "type": "string",
+        "description": "Product name reported in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventVendor",
+        "type": "string",
+        "description": "Vendor name reported in the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventSchemaVersion",
+        "type": "string",
+        "description": "Schema version for the event.",
+        "availability": [
+          "Sentinel"
+        ]
+      },
+      {
+        "name": "EventCount",
+        "type": "string",
+        "description": "Event count value for the source record.",
+        "availability": [
+          "Sentinel"
+        ]
+      }
+    ],
+    "solution": "Cisco Meraki Events via REST API"
+  },
   "CiscoMerakiNetworkClients_CL": {
     "source": "3rd-Party Connector Schemas",
     "columns": [

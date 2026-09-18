@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-18 07:52 UTC
+
+**Tables added** (1)
+
+- `CiscoMerakiFileScannedEvents_CL` (17 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-09-17 08:18 UTC
 
 **Columns added** (496)
