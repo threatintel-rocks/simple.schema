@@ -8,8 +8,7 @@
         "description": "Date and time when the record was generated",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceId",
@@ -17,8 +16,7 @@
         "description": "Unique identifier for the device in the service",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "DeviceName",
@@ -26,8 +24,7 @@
         "description": "Fully qualified domain name (FQDN) of the device",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SHA1",
@@ -35,8 +32,7 @@
         "description": "SHA-1 of the file that the recorded action was applied to",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsSigned",
@@ -44,8 +40,7 @@
         "description": "Indicates whether the file is signed",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SignatureType",
@@ -53,8 +48,7 @@
         "description": "Indicates whether signature information was read as embedded content in the file itself or read from an external catalog file",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Signer",
@@ -62,8 +56,7 @@
         "description": "Information about the signer of the file",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "SignerHash",
@@ -71,8 +64,7 @@
         "description": "Unique hash value identifying the signer",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Issuer",
@@ -80,8 +72,7 @@
         "description": "Information about the issuing certificate authority (CA)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IssuerHash",
@@ -89,8 +80,7 @@
         "description": "Unique hash value identifying issuing certificate authority (CA)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CertificateSerialNumber",
@@ -98,8 +88,7 @@
         "description": "Identifier for the certificate that is unique to the issuing certificate authority (CA)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CrlDistributionPointUrls",
@@ -107,8 +96,7 @@
         "description": "JSON array listing the URLs of network shares that contain certificates and certificate revocation lists (CRLs)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CertificateCreationTime",
@@ -116,8 +104,7 @@
         "description": "Date and time the certificate was created",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CertificateExpirationTime",
@@ -125,8 +112,7 @@
         "description": "Date and time the certificate is set to expire",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "CertificateCountersignatureTime",
@@ -134,8 +120,7 @@
         "description": "Date and time the certificate was countersigned",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsTrusted",
@@ -143,8 +128,7 @@
         "description": "Indicates whether the file is trusted based on the results of the WinVerifyTrust function, which checks for unknown root certificate information, invalid signatures, revoked certificates, and other questionable attributes",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "IsRootSignerMicrosoft",
@@ -152,8 +136,7 @@
         "description": "Indicates whether the signer of the root certificate is Microsoft and if the file is included in Windows operating system",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ReportId",
@@ -161,40 +144,8 @@
         "description": "Event identifier based on a repeating counter. To identify unique events, this column must be used in conjunction with the DeviceName and Timestamp columns.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "MachineGroup",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TimeGenerated",
-        "type": "datetime",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }

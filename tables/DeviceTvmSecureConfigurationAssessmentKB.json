@@ -8,8 +8,7 @@
         "description": "Unique identifier for a specific configuration",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationImpact",
@@ -17,8 +16,7 @@
         "description": "Rated impact of the configuration to the overall configuration score (1-10)",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationName",
@@ -26,8 +24,7 @@
         "description": "Display name of the configuration",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationDescription",
@@ -35,8 +32,7 @@
         "description": "Description of the configuration",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RiskDescription",
@@ -44,8 +40,7 @@
         "description": "Description of the associated risk",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationCategory",
@@ -53,8 +48,7 @@
         "description": "Category or grouping to which the configuration belongs: Application, OS, Network, Accounts, Security controls",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationSubcategory",
@@ -62,8 +56,7 @@
         "description": "Subcategory or subgrouping to which the configuration belongs. In many cases, this describes specific capabilities or features.",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "ConfigurationBenchmarks",
@@ -71,8 +64,7 @@
         "description": "List of industry benchmarks recommending the same or similar configuration",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "Tags",
@@ -80,8 +72,7 @@
         "description": "Labels representing various attributes used to identify or categorize a security configuration",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
+        ]
       },
       {
         "name": "RemediationOptions",
@@ -89,28 +80,8 @@
         "description": "Recommended actions to reduce or address any associated risks",
         "availability": [
           "Defender XDR"
-        ],
-        "verified": true
-      },
-      {
-        "name": "SourceSystem",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "TenantId",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
-      },
-      {
-        "name": "Type",
-        "type": "string",
-        "description": "",
-        "verified": "live_only"
+        ]
       }
-    ],
-    "verified": true
+    ]
   }
 }
