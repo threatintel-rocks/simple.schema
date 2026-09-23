@@ -2,6 +2,13 @@
 
 All schema changes are tracked automatically.
 
+### 2026-09-23 08:11 UTC
+
+**Tables added** (1)
+
+- `FCRisks_CL` (29 columns, source: 3rd-Party Connector Schemas)
+
+
 ### 2026-09-22 08:09 UTC
 
 **Columns removed** (284)
